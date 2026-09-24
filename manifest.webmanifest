@@ -1,0 +1,19 @@
+{
+  "name": "會考刷題",
+  "short_name": "會考刷題",
+  "description": "國中教育會考五科刷題與錯題複習",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f6f8",
+  "theme_color": "#172033",
+  "lang": "zh-Hant",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
