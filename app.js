@@ -1,133 +1,48 @@
-const SUBJECTS = ["國文", "英文", "數學", "自然", "社會"];
-const FILES = { 國文: "chinese", 英文: "english", 數學: "math", 自然: "science", 社會: "social" };
-const STORAGE_KEY = "capQuizV2";
-const DAILY_GOAL = 20;
-const LESSON_SIZE = 10;
-const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null") || {};
-const state = {
-  subject: saved.subject || "數學", difficulty: saved.difficulty || "", unit: saved.unit || "",
-  history: saved.history || [], wrongs: saved.wrongs || [], review: saved.review || {},
-  game: { xp: 0, ...saved.game }, wrongMode: false, questions: [], current: null, selected: null, answered: false,
-  lesson: { active: false, answered: 0, correct: 0, xp: 0, combo: 0, hearts: 5, shouldEnd: false }
-};
-const ids = ["subjectTabs","difficultyFilter","unitFilter","resetFilters","loading","quiz","empty","meta","question","options","feedback","wrongButton","mainButton","doneCount","accuracy","wrongCount","todayCount","streakDays","xpCount","heartCount","questMessage","goalRing","goalCount","startChallenge","lessonProgress","exitChallenge","progressBar","lessonHearts","rewardPop","resultModal","resultTitle","resultSummary","resultXp","resultAccuracy","closeResult"];
-const elements = Object.fromEntries(ids.map(id => [id, document.getElementById(id)]));
-
-function save() {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify({ subject: state.subject, difficulty: state.difficulty, unit: state.unit, history: state.history, wrongs: state.wrongs, review: state.review, game: state.game, migratedV1: true }));
-}
-function migrateV1() {
-  if (saved.migratedV1 || state.history.length) return;
-  const oldHistory = JSON.parse(localStorage.getItem("hist") || "[]");
-  const oldWrongs = JSON.parse(localStorage.getItem("wrongs") || "[]");
-  if (oldHistory.length || oldWrongs.length) { state.history = oldHistory.map(item => ({ ...item, subject: item.s || item.subject })); state.wrongs = oldWrongs; save(); }
-}
-function localDateKey(timestamp = Date.now()) {
-  const date = new Date(timestamp); return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
-}
-function todayHistory() { const today = localDateKey(); return state.history.filter(item => localDateKey(item.timestamp || item.ts) === today); }
-function streakDays() {
-  const active = new Set(state.history.map(item => localDateKey(item.timestamp || item.ts)));
-  let cursor = new Date(); if (!active.has(localDateKey(cursor))) cursor.setDate(cursor.getDate() - 1);
-  let streak = 0;
-  while (active.has(localDateKey(cursor))) { streak += 1; cursor.setDate(cursor.getDate() - 1); }
-  return streak;
-}
-async function loadSubject() {
-  elements.loading.classList.remove("hidden"); elements.loading.textContent = "正在載入題庫…"; elements.quiz.classList.add("hidden"); elements.empty.classList.add("hidden");
-  try {
-    const response = await fetch(`./data/${FILES[state.subject]}.json`);
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    state.questions = await response.json(); renderUnits(); nextQuestion();
-  } catch (error) { elements.loading.textContent = `題庫載入失敗：${error.message}`; }
-}
-function filteredPool() {
-  let pool = state.questions.filter(item => (!state.difficulty || item.difficulty === state.difficulty) && (!state.unit || item.unit === state.unit));
-  if (state.wrongMode) { const wrongIds = new Set(state.wrongs); pool = pool.filter(item => wrongIds.has(item.id)); }
-  return pool;
-}
-function nextQuestion() {
-  const pool = filteredPool(); elements.loading.classList.add("hidden");
-  if (!pool.length) { state.current = null; elements.quiz.classList.add("hidden"); elements.empty.classList.remove("hidden"); updateStats(); return; }
-  const choices = pool.filter(item => item.id !== state.current?.id); const candidates = choices.length ? choices : pool;
-  state.current = candidates[Math.floor(Math.random() * candidates.length)]; state.selected = null; state.answered = false;
-  elements.empty.classList.add("hidden"); elements.quiz.classList.remove("hidden"); renderQuestion();
-}
-function renderTabs() {
-  elements.subjectTabs.innerHTML = SUBJECTS.map(subject => `<button class="tab ${subject === state.subject ? "active" : ""}" data-subject="${subject}" type="button">${subject}</button>`).join("");
-  elements.subjectTabs.querySelectorAll("button").forEach(button => button.addEventListener("click", async () => { state.subject = button.dataset.subject; state.unit = ""; state.wrongMode = false; save(); renderTabs(); await loadSubject(); }));
-}
-function renderUnits() {
-  const units = [...new Set(state.questions.map(item => item.unit))].sort((a, b) => a.localeCompare(b, "zh-Hant"));
-  if (state.unit && !units.includes(state.unit)) state.unit = "";
-  elements.unitFilter.innerHTML = `<option value="">全部單元</option>${units.map(unit => `<option value="${unit}">${unit}</option>`).join("")}`; elements.unitFilter.value = state.unit;
-}
-function renderQuestion() {
-  const item = state.current;
-  elements.meta.textContent = `${item.subject}｜${item.gradeSemester}｜${item.unit}｜${item.knowledgePoint}｜${item.difficulty}${state.wrongMode ? "｜錯題複習" : ""}`;
-  elements.question.textContent = item.question; elements.feedback.className = "feedback hidden";
-  elements.options.innerHTML = item.options.map((option, index) => `<button class="option" data-index="${index}" type="button"><b>${String.fromCharCode(65 + index)}</b>　${option}</button>`).join("");
-  elements.options.querySelectorAll("button").forEach(button => button.addEventListener("click", () => { if (state.answered) return; state.selected = Number(button.dataset.index); elements.options.querySelectorAll("button").forEach(option => option.classList.remove("selected")); button.classList.add("selected"); }));
-  elements.mainButton.textContent = "確認答案"; elements.wrongButton.textContent = state.wrongMode ? "回一般刷題" : "只刷錯題"; elements.wrongButton.classList.toggle("hidden", state.lesson.active); updateStats();
-}
-function showReward(text, correct) {
-  elements.rewardPop.textContent = text; elements.rewardPop.style.color = correct ? "var(--yellow)" : "var(--red)";
-  elements.rewardPop.classList.remove("hidden"); elements.rewardPop.getAnimations().forEach(animation => animation.cancel());
-  requestAnimationFrame(() => { elements.rewardPop.style.animation = "none"; requestAnimationFrame(() => { elements.rewardPop.style.animation = "reward 1s ease both"; }); });
-  setTimeout(() => elements.rewardPop.classList.add("hidden"), 1000);
-}
-function checkAnswer() {
-  if (state.answered) { if (state.lesson.active && state.lesson.shouldEnd) return finishChallenge(); return nextQuestion(); }
-  if (state.selected === null) return alert("請先選一個答案");
-  state.answered = true; const correct = state.selected === state.current.answer;
-  state.history.push({ id: state.current.id, subject: state.subject, correct, timestamp: Date.now() });
-  if (correct) state.wrongs = state.wrongs.filter(id => id !== state.current.id); else if (!state.wrongs.includes(state.current.id)) state.wrongs.push(state.current.id);
-  const previous = state.review[state.current.id] || { intervalDays: 0, repetitions: 0, easeFactor: 2.5 };
-  state.review[state.current.id] = { ...previous, lastReviewedAt: new Date().toISOString(), nextReviewAt: null, repetitions: correct ? previous.repetitions + 1 : 0 };
-  let earnedXp = correct ? 10 : 2;
-  if (state.lesson.active) {
-    state.lesson.answered += 1;
-    if (correct) { state.lesson.correct += 1; state.lesson.combo += 1; earnedXp += Math.min(state.lesson.combo - 1, 5) * 2; }
-    else { state.lesson.combo = 0; state.lesson.hearts = Math.max(0, state.lesson.hearts - 1); }
-    state.lesson.xp += earnedXp; state.lesson.shouldEnd = state.lesson.answered >= LESSON_SIZE || state.lesson.hearts === 0;
-  }
-  state.game.xp += earnedXp; save();
-  elements.options.querySelectorAll("button").forEach((button, index) => { button.classList.remove("selected"); if (index === state.current.answer) button.classList.add("correct"); if (index === state.selected && !correct) button.classList.add("incorrect"); });
-  const comboText = state.lesson.active && correct && state.lesson.combo >= 2 ? `・${state.lesson.combo} 連擊！` : "";
-  elements.feedback.className = `feedback ${correct ? "ok" : "no"}`;
-  elements.feedback.innerHTML = `<b>${correct ? `答對了 ${comboText}` : `答錯了，正確答案是 ${String.fromCharCode(65 + state.current.answer)}`}</b><br>${state.current.explanation}`;
-  elements.mainButton.textContent = state.lesson.active && state.lesson.shouldEnd ? "查看結果" : "下一題";
-  showReward(correct ? `+${earnedXp} XP` : "愛心 -1", correct); updateStats();
-}
-function startChallenge() {
-  state.wrongMode = false; state.lesson = { active: true, answered: 0, correct: 0, xp: 0, combo: 0, hearts: 5, shouldEnd: false };
-  document.body.classList.add("challenge-active"); elements.lessonProgress.classList.remove("hidden"); nextQuestion(); updateStats();
-}
-function exitChallenge() {
-  if (state.lesson.answered && !confirm("離開後本回合進度會結束，確定退出嗎？")) return;
-  state.lesson.active = false; document.body.classList.remove("challenge-active"); elements.lessonProgress.classList.add("hidden"); nextQuestion(); updateStats();
-}
-function finishChallenge() {
-  const accuracy = state.lesson.answered ? Math.round(state.lesson.correct / state.lesson.answered * 100) : 0;
-  elements.resultTitle.textContent = state.lesson.hearts === 0 ? "別放棄，再來一關！" : accuracy === 100 ? "完美通關！" : "挑戰完成！";
-  elements.resultSummary.textContent = state.lesson.hearts === 0 ? "愛心用完了，但每次訂正都在變強。" : `完成 ${state.lesson.answered} 題，答對 ${state.lesson.correct} 題。`;
-  elements.resultXp.textContent = `+${state.lesson.xp} XP`; elements.resultAccuracy.textContent = `${accuracy}%`; elements.resultModal.classList.remove("hidden");
-  state.lesson.active = false; document.body.classList.remove("challenge-active"); elements.lessonProgress.classList.add("hidden"); updateStats();
-}
-function closeResult() { elements.resultModal.classList.add("hidden"); nextQuestion(); }
-function updateStats() {
-  const correct = state.history.filter(item => item.correct ?? item.ok).length; const today = todayHistory(); const progress = Math.min(today.length / DAILY_GOAL * 100, 100);
-  elements.doneCount.textContent = state.history.length; elements.accuracy.textContent = state.history.length ? `${Math.round(correct / state.history.length * 100)}%` : "—"; elements.wrongCount.textContent = state.wrongs.length;
-  elements.todayCount.textContent = today.length; elements.streakDays.textContent = streakDays(); elements.xpCount.textContent = state.game.xp; elements.heartCount.textContent = state.lesson.active ? state.lesson.hearts : 5;
-  elements.goalCount.textContent = Math.min(today.length, DAILY_GOAL); elements.goalRing.style.setProperty("--goal", `${progress}%`);
-  elements.questMessage.textContent = today.length >= DAILY_GOAL ? "今日目標達成！再玩一關累積更多 XP" : `今天再答 ${DAILY_GOAL - today.length} 題即可達標`;
-  if (state.lesson.active) { elements.progressBar.style.width = `${state.lesson.answered / LESSON_SIZE * 100}%`; elements.lessonHearts.textContent = `❤️ ${state.lesson.hearts}`; }
-}
-elements.mainButton.addEventListener("click", checkAnswer);
-elements.wrongButton.addEventListener("click", () => { state.wrongMode = !state.wrongMode; nextQuestion(); });
-elements.difficultyFilter.addEventListener("change", event => { state.difficulty = event.target.value; save(); nextQuestion(); });
-elements.unitFilter.addEventListener("change", event => { state.unit = event.target.value; save(); nextQuestion(); });
-elements.resetFilters.addEventListener("click", () => { state.difficulty = ""; state.unit = ""; elements.difficultyFilter.value = ""; elements.unitFilter.value = ""; save(); nextQuestion(); });
-elements.startChallenge.addEventListener("click", startChallenge); elements.exitChallenge.addEventListener("click", exitChallenge); elements.closeResult.addEventListener("click", closeResult);
-migrateV1(); elements.difficultyFilter.value = state.difficulty; renderTabs(); loadSubject(); updateStats();
-if ("serviceWorker" in navigator) window.addEventListener("load", () => navigator.serviceWorker.register("./sw.js"));
+const SUBJECTS=["國文","英文","數學","自然","社會"];
+const FILES={國文:"chinese",英文:"english",數學:"math",自然:"science",社會:"social"};
+const STORAGE_KEY="capQuizV2",DAILY_GOAL=20,LESSON_SIZE=10;
+const SPECIES=[
+{id:"ember",name:"焰芽",subject:"國文",icon:"🔥",gift:"文字記憶",color:"coral"},
+{id:"sky",name:"晴葉",subject:"英文",icon:"💠",gift:"語感飛行",color:"blue"},
+{id:"gold",name:"金晶",subject:"數學",icon:"💎",gift:"計算靈光",color:"gold"},
+{id:"moss",name:"苔森",subject:"自然",icon:"🌿",gift:"觀察之眼",color:"green"},
+{id:"way",name:"尋路",subject:"社會",icon:"🧭",gift:"地圖直覺",color:"violet"}
+];
+const RELICS=["露珠背包","學者單眼鏡","葉片斗篷","太陽徽章","晶芽王冠","木紋圓盾","螢光提燈","風翼靴","花瓣圍巾","星圖卷軸","幸運澆水壺","古芽羅盤"];
+const saved=JSON.parse(localStorage.getItem(STORAGE_KEY)||"null")||{};
+const initialWorld={sunshine:0,dew:0,seeds:0,spirits:{ember:1,sky:0,gold:0,moss:0,way:0},team:[],relics:[],equipment:{},expedition:null};
+const state={subject:saved.subject||"數學",difficulty:saved.difficulty||"",unit:saved.unit||"",history:saved.history||[],wrongs:saved.wrongs||[],review:saved.review||{},game:{xp:0,...saved.game},world:{...initialWorld,...saved.world,spirits:{...initialWorld.spirits,...saved.world?.spirits},equipment:{...initialWorld.equipment,...saved.world?.equipment}},wrongMode:false,questions:[],current:null,selected:null,answered:false,questionBag:[],recent:saved.recent||[],view:"quiz",lesson:{active:false,answered:0,correct:0,xp:0,combo:0,hearts:5,shouldEnd:false,seen:[]}};
+const ids=["subjectTabs","difficultyFilter","unitFilter","resetFilters","loading","quiz","empty","meta","question","options","feedback","wrongButton","mainButton","doneCount","accuracy","wrongCount","todayCount","streakDays","xpCount","heartCount","questMessage","goalRing","goalCount","startChallenge","lessonProgress","lessonCount","exitChallenge","progressBar","lessonHearts","rewardPop","resultModal","resultTitle","resultSummary","resultXp","resultAccuracy","closeResult","sunshineCount","dewCount","seedCount","hatchSeed","hatchHint","gardenBuildings","spiritTotal","spiritGrid","relicList","teamCount","teamSlots","expeditionStatus"];
+const elements=Object.fromEntries(ids.map(id=>[id,document.getElementById(id)]));
+const shuffle=list=>{const result=[...list];for(let i=result.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[result[i],result[j]]=[result[j],result[i]]}return result};
+function save(){localStorage.setItem(STORAGE_KEY,JSON.stringify({subject:state.subject,difficulty:state.difficulty,unit:state.unit,history:state.history,wrongs:state.wrongs,review:state.review,game:state.game,world:state.world,recent:state.recent,migratedV1:true}))}
+function migrateV1(){if(saved.migratedV1||state.history.length)return;const oldHistory=JSON.parse(localStorage.getItem("hist")||"[]"),oldWrongs=JSON.parse(localStorage.getItem("wrongs")||"[]");if(oldHistory.length||oldWrongs.length){state.history=oldHistory.map(item=>({...item,subject:item.s||item.subject}));state.wrongs=oldWrongs;save()}}
+function localDateKey(timestamp=Date.now()){const date=new Date(Number(timestamp)||timestamp);return Number.isNaN(date.getTime())?"":`${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,"0")}-${String(date.getDate()).padStart(2,"0")}`}
+function todayHistory(){const today=localDateKey();return state.history.filter(item=>localDateKey(item.timestamp??item.ts)===today)}
+function streakDays(){const active=new Set(state.history.map(item=>localDateKey(item.timestamp??item.ts)).filter(Boolean));let cursor=new Date();if(!active.has(localDateKey(cursor)))cursor.setDate(cursor.getDate()-1);let streak=0;while(active.has(localDateKey(cursor))){streak++;cursor.setDate(cursor.getDate()-1)}return streak}
+async function loadSubject(){elements.loading.classList.remove("hidden");elements.loading.textContent="正在載入題庫…";elements.quiz.classList.add("hidden");elements.empty.classList.add("hidden");try{const response=await fetch(`./data/${FILES[state.subject]}.json`);if(!response.ok)throw new Error(`HTTP ${response.status}`);state.questions=await response.json();state.questionBag=[];renderUnits();nextQuestion()}catch(error){elements.loading.textContent=`題庫載入失敗：${error.message}`}}
+function filteredPool(){let pool=state.questions.filter(item=>(!state.difficulty||item.difficulty===state.difficulty)&&(!state.unit||item.unit===state.unit));if(state.wrongMode){const ids=new Set(state.wrongs);pool=pool.filter(item=>ids.has(item.id))}return pool}
+function refillQuestionBag(){const excluded=new Set(state.lesson.active?state.lesson.seen:state.recent.slice(-20));let pool=filteredPool().filter(item=>!excluded.has(item.id)&&item.id!==state.current?.id);if(!pool.length)pool=filteredPool().filter(item=>item.id!==state.current?.id);state.questionBag=shuffle(pool)}
+function nextQuestion(){if(!state.questionBag.length)refillQuestionBag();elements.loading.classList.add("hidden");if(!state.questionBag.length){state.current=null;elements.quiz.classList.add("hidden");elements.empty.classList.remove("hidden");updateStats();return}state.current=state.questionBag.shift();state.selected=null;state.answered=false;if(state.lesson.active)state.lesson.seen.push(state.current.id);else{state.recent.push(state.current.id);state.recent=state.recent.slice(-20)}elements.empty.classList.add("hidden");elements.quiz.classList.remove("hidden");renderQuestion()}
+function resetBagAndNext(){state.questionBag=[];nextQuestion()}
+function renderTabs(){elements.subjectTabs.innerHTML=SUBJECTS.map(subject=>`<button class="tab ${subject===state.subject?"active":""}" data-subject="${subject}" type="button">${subject}</button>`).join("");elements.subjectTabs.querySelectorAll("button").forEach(button=>button.addEventListener("click",async()=>{state.subject=button.dataset.subject;state.unit="";state.wrongMode=false;state.questionBag=[];save();renderTabs();await loadSubject()}))}
+function renderUnits(){const units=[...new Set(state.questions.map(item=>item.unit))].sort((a,b)=>a.localeCompare(b,"zh-Hant"));if(state.unit&&!units.includes(state.unit))state.unit="";elements.unitFilter.innerHTML=`<option value="">全部單元</option>${units.map(unit=>`<option value="${unit}">${unit}</option>`).join("")}`;elements.unitFilter.value=state.unit}
+function renderQuestion(){const item=state.current;const lessonLabel=state.lesson.active?`第 ${state.lesson.answered+1} / ${LESSON_SIZE} 題｜`:"";elements.meta.textContent=`${lessonLabel}${item.subject}｜${item.gradeSemester}｜${item.unit}｜${item.knowledgePoint}｜${item.difficulty}${state.wrongMode?"｜錯題複習":""}`;elements.question.textContent=item.question;elements.feedback.className="feedback hidden";elements.options.innerHTML=item.options.map((option,index)=>`<button class="option" data-index="${index}" type="button"><b>${String.fromCharCode(65+index)}</b>　${option}</button>`).join("");elements.options.querySelectorAll("button").forEach(button=>button.addEventListener("click",()=>{if(state.answered)return;state.selected=Number(button.dataset.index);elements.options.querySelectorAll("button").forEach(option=>option.classList.remove("selected"));button.classList.add("selected")}));elements.mainButton.textContent="確認答案";elements.wrongButton.textContent=state.wrongMode?"回一般刷題":"只刷錯題";elements.wrongButton.classList.toggle("hidden",state.lesson.active);updateStats()}
+function showReward(text,correct){elements.rewardPop.textContent=text;elements.rewardPop.style.color=correct?"var(--yellow)":"var(--red)";elements.rewardPop.classList.remove("hidden");elements.rewardPop.getAnimations().forEach(animation=>animation.cancel());requestAnimationFrame(()=>{elements.rewardPop.style.animation="none";requestAnimationFrame(()=>elements.rewardPop.style.animation="reward 1s ease both")});setTimeout(()=>elements.rewardPop.classList.add("hidden"),1000)}
+function awardWorld(correct){if(!correct)return;state.world.sunshine+=3;state.world.dew+=1;if(state.history.length%10===0){state.world.seeds+=1;showReward("獲得神秘種子！",true)}if(state.history.length%15===0&&state.world.relics.length<RELICS.length){const locked=RELICS.filter(item=>!state.world.relics.includes(item));state.world.relics.push(locked[Math.floor(Math.random()*locked.length)])}}
+function checkAnswer(){if(state.answered){if(state.lesson.active&&state.lesson.shouldEnd)return finishChallenge();return nextQuestion()}if(state.selected===null)return alert("請先選一個答案");state.answered=true;const correct=state.selected===state.current.answer;state.history.push({id:state.current.id,subject:state.subject,correct,timestamp:Date.now()});if(correct)state.wrongs=state.wrongs.filter(id=>id!==state.current.id);else if(!state.wrongs.includes(state.current.id))state.wrongs.push(state.current.id);const previous=state.review[state.current.id]||{intervalDays:0,repetitions:0,easeFactor:2.5};state.review[state.current.id]={...previous,lastReviewedAt:new Date().toISOString(),nextReviewAt:null,repetitions:correct?previous.repetitions+1:0};let earnedXp=correct?10:2;if(state.lesson.active){state.lesson.answered++;if(correct){state.lesson.correct++;state.lesson.combo++;earnedXp+=Math.min(state.lesson.combo-1,5)*2}else{state.lesson.combo=0;state.lesson.hearts=Math.max(0,state.lesson.hearts-1)}state.lesson.xp+=earnedXp;state.lesson.shouldEnd=state.lesson.answered>=LESSON_SIZE||state.lesson.hearts===0}state.game.xp+=earnedXp;awardWorld(correct);save();elements.options.querySelectorAll("button").forEach((button,index)=>{button.classList.remove("selected");if(index===state.current.answer)button.classList.add("correct");if(index===state.selected&&!correct)button.classList.add("incorrect")});const combo=state.lesson.active&&correct&&state.lesson.combo>=2?`・${state.lesson.combo} 連擊！`:"";elements.feedback.className=`feedback ${correct?"ok":"no"}`;elements.feedback.innerHTML=`<b>${correct?`答對了 ${combo}`:`答錯了，正確答案是 ${String.fromCharCode(65+state.current.answer)}`}</b><br>${state.current.explanation}`;elements.mainButton.textContent=state.lesson.active&&state.lesson.shouldEnd?"查看結果":"下一題";if(!(correct&&state.history.length%10===0))showReward(correct?`+${earnedXp} XP`:"愛心 -1",correct);updateStats();renderWorld()}
+function startChallenge(){state.wrongMode=false;state.questionBag=[];state.lesson={active:true,answered:0,correct:0,xp:0,combo:0,hearts:5,shouldEnd:false,seen:[]};document.body.classList.add("challenge-active");elements.lessonProgress.classList.remove("hidden");showView("quiz");nextQuestion();updateStats()}
+function exitChallenge(){if(state.lesson.answered&&!confirm("離開後本回合進度會結束，確定退出嗎？"))return;state.lesson.active=false;state.questionBag=[];document.body.classList.remove("challenge-active");elements.lessonProgress.classList.add("hidden");nextQuestion();updateStats()}
+function finishChallenge(){const accuracy=state.lesson.answered?Math.round(state.lesson.correct/state.lesson.answered*100):0;elements.resultTitle.textContent=state.lesson.hearts===0?"別放棄，再來一關！":accuracy===100?"完美通關！":"挑戰完成！";elements.resultSummary.textContent=`已完成 ${state.lesson.answered} / ${LESSON_SIZE} 題，答對 ${state.lesson.correct} 題。`;elements.resultXp.textContent=`+${state.lesson.xp} XP`;elements.resultAccuracy.textContent=`${accuracy}%`;elements.resultModal.classList.remove("hidden");state.lesson.active=false;state.questionBag=[];document.body.classList.remove("challenge-active");elements.lessonProgress.classList.add("hidden");save();updateStats();renderWorld()}
+function closeResult(){elements.resultModal.classList.add("hidden");nextQuestion()}
+function showView(view){state.view=view;document.querySelectorAll("[data-view]").forEach(element=>element.classList.toggle("hidden",element.dataset.view!==view));document.querySelectorAll(".world-tab").forEach(button=>button.classList.toggle("active",button.dataset.viewTarget===view));if(view!=="quiz"&&state.lesson.active)exitChallenge();renderWorld()}
+function hatchSeed(){if(state.world.seeds<1)return alert("再完成一些題目，就能得到新的種子！");const species=SPECIES.find(item=>item.subject===state.subject)||SPECIES[Math.floor(Math.random()*SPECIES.length)];state.world.seeds--;state.world.spirits[species.id]=(state.world.spirits[species.id]||0)+1;state.world.sunshine+=5;save();renderWorld();showReward(`${species.name}誕生了！`,true)}
+function toggleTeam(id){const owned=state.world.spirits[id]||0,selected=state.world.team.filter(item=>item===id).length;if(!owned)return;if(selected<owned&&state.world.team.length<3)state.world.team.push(id);else if(selected>0)state.world.team.splice(state.world.team.lastIndexOf(id),1);else return alert("探索隊伍最多 3 隻芽靈");save();renderWorld()}
+function equipRelic(relic){const target=state.world.team[0]||SPECIES.find(item=>(state.world.spirits[item.id]||0)>0)?.id;if(!target)return alert("請先培養一隻芽靈");state.world.equipment[target]=relic;save();renderWorld();showReward(`已裝備 ${relic}`,true)}
+function startExpedition(type){if(state.world.expedition)return claimExpedition();if(state.world.team.length<3)return alert("請先到芽靈圖鑑選滿 3 隻探索隊員");const duration=type==="ruins"?300000:120000;state.world.expedition={type,endsAt:Date.now()+duration};save();renderWorld()}
+function claimExpedition(){const trip=state.world.expedition;if(!trip)return;if(Date.now()<trip.endsAt)return alert("探索隊伍還在路上！");const reward=trip.type==="ruins"?{sun:30,dew:12}:{sun:15,dew:7};state.world.sunshine+=reward.sun;state.world.dew+=reward.dew;const locked=RELICS.filter(item=>!state.world.relics.includes(item));if(locked.length)state.world.relics.push(locked[Math.floor(Math.random()*locked.length)]);state.world.expedition=null;save();renderWorld();showReward("帶回隱藏寶物！",true)}
+function renderWorld(){const total=Object.values(state.world.spirits).reduce((sum,count)=>sum+count,0);elements.sunshineCount.textContent=state.world.sunshine;elements.dewCount.textContent=state.world.dew;elements.seedCount.textContent=state.world.seeds;elements.spiritTotal.textContent=`${total} 隻`;elements.hatchSeed.disabled=state.world.seeds<1;elements.hatchHint.textContent=state.world.seeds?`目前有 ${state.world.seeds} 顆種子，會依現在科目孵化芽靈。`:"每答對 10 題可獲得 1 顆神秘種子。";elements.gardenBuildings.innerHTML=[[3,"種子溫室"],[8,"露珠池"],[15,"探索樹屋"],[25,"星光遺跡門"]].map(([need,name])=>`<div class="building ${total>=need?"unlocked":""}"><span>${total>=need?"🏡":"🔒"}</span><b>${name}</b><small>${total>=need?"已建造":`需要 ${need} 隻芽靈`}</small></div>`).join("");elements.spiritGrid.innerHTML=SPECIES.map(item=>{const count=state.world.spirits[item.id]||0,selected=state.world.team.filter(id=>id===item.id).length;return `<article class="spirit-card ${item.color} ${count?"owned":"locked"}"><span class="spirit-icon">${item.icon}</span><div><h3>${item.name} <small>× ${count}</small></h3><p>${item.subject}系・${item.gift}${state.world.equipment[item.id]?"<br>🎒 "+state.world.equipment[item.id]:""}</p></div><button data-spirit="${item.id}" ${count?"":"disabled"}>${selected&&selected>=count?`移除一隻 (${selected})`:`加入隊伍 (${selected})`}</button></article>`}).join("");elements.spiritGrid.querySelectorAll("button").forEach(button=>button.addEventListener("click",()=>toggleTeam(button.dataset.spirit)));elements.relicList.innerHTML=RELICS.map(item=>`<button class="${state.world.relics.includes(item)?"found":""}" data-relic="${item}" ${state.world.relics.includes(item)?"":"disabled"}>${state.world.relics.includes(item)?"✨":"？"} ${state.world.relics.includes(item)?item:"未發現道具"}</button>`).join("");elements.relicList.querySelectorAll("button.found").forEach(button=>button.addEventListener("click",()=>equipRelic(button.dataset.relic)));elements.teamCount.textContent=`${state.world.team.length} / 3`;elements.teamSlots.innerHTML=Array.from({length:3},(_,index)=>{const id=state.world.team[index],item=SPECIES.find(species=>species.id===id);return `<div class="team-slot ${item?item.color:""}">${item?`<span>${item.icon}</span><b>${item.name}</b>`:`<span>＋</span><b>空位</b>`}</div>`}).join("");const trip=state.world.expedition;if(trip){const remaining=Math.max(0,Math.ceil((trip.endsAt-Date.now())/1000));elements.expeditionStatus.classList.remove("hidden");elements.expeditionStatus.innerHTML=remaining?`探索中…約 ${Math.ceil(remaining/60)} 分鐘後回來。<button class="game-action" id="claimTrip" disabled>等待隊伍</button>`:`隊伍回來了！<button class="game-action" id="claimTrip">領取寶物</button>`;const claim=document.getElementById("claimTrip");if(claim&&!remaining)claim.addEventListener("click",claimExpedition)}else elements.expeditionStatus.classList.add("hidden")}
+function updateStats(){const correct=state.history.filter(item=>item.correct??item.ok).length,today=todayHistory(),progress=Math.min(today.length/DAILY_GOAL*100,100);elements.doneCount.textContent=state.history.length;elements.accuracy.textContent=state.history.length?`${Math.round(correct/state.history.length*100)}%`:"—";elements.wrongCount.textContent=state.wrongs.length;elements.todayCount.textContent=today.length;elements.streakDays.textContent=streakDays();elements.xpCount.textContent=state.game.xp;elements.heartCount.textContent=state.lesson.active?state.lesson.hearts:5;elements.goalCount.textContent=Math.min(today.length,DAILY_GOAL);elements.goalRing.style.setProperty("--goal",`${progress}%`);elements.questMessage.textContent=today.length>=DAILY_GOAL?"今日目標達成！再玩一關養更多芽靈":`今天再答 ${DAILY_GOAL-today.length} 題即可達標`;if(state.lesson.active){elements.progressBar.style.width=`${state.lesson.answered/LESSON_SIZE*100}%`;elements.lessonCount.textContent=`${state.lesson.answered} / ${LESSON_SIZE}`;elements.lessonHearts.textContent=`❤️ ${state.lesson.hearts}`}}
+elements.mainButton.addEventListener("click",checkAnswer);elements.wrongButton.addEventListener("click",()=>{state.wrongMode=!state.wrongMode;state.questionBag=[];nextQuestion()});elements.difficultyFilter.addEventListener("change",event=>{state.difficulty=event.target.value;save();resetBagAndNext()});elements.unitFilter.addEventListener("change",event=>{state.unit=event.target.value;save();resetBagAndNext()});elements.resetFilters.addEventListener("click",()=>{state.difficulty="";state.unit="";elements.difficultyFilter.value="";elements.unitFilter.value="";save();resetBagAndNext()});elements.startChallenge.addEventListener("click",startChallenge);elements.exitChallenge.addEventListener("click",exitChallenge);elements.closeResult.addEventListener("click",closeResult);elements.hatchSeed.addEventListener("click",hatchSeed);document.querySelectorAll(".world-tab").forEach(button=>button.addEventListener("click",()=>showView(button.dataset.viewTarget)));document.querySelectorAll(".expedition-button").forEach(button=>button.addEventListener("click",()=>startExpedition(button.dataset.expedition)));
+migrateV1();elements.difficultyFilter.value=state.difficulty;renderTabs();loadSubject();updateStats();renderWorld();setInterval(()=>{if(state.world.expedition)renderWorld()},30000);
+if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js?v=3.0.0"));

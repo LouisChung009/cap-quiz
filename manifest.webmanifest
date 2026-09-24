@@ -1,12 +1,12 @@
 {
-  "name": "會考刷題",
-  "short_name": "會考刷題",
-  "description": "國中教育會考五科刷題與錯題複習",
+  "name": "會考刷題・芽靈世界",
+  "short_name": "芽靈刷題",
+  "description": "刷題、培養芽靈、建造花園與探索寶物的會考練習遊戲",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "background_color": "#f5f6f8",
-  "theme_color": "#172033",
+  "theme_color": "#58cc02",
   "lang": "zh-Hant",
   "icons": [
     {

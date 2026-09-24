@@ -8,7 +8,7 @@
   <meta name="theme-color" content="#58cc02">
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="apple-touch-icon" href="./icon.svg">
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./styles.css?v=3.0.0">
   <title>會考刷題・冒險模式</title>
 </head>
 <body>
@@ -22,14 +22,15 @@
       <div class="goal-ring" id="goalRing"><span id="goalCount">0</span><small>/ 20</small></div>
       <button class="start-button" id="startChallenge" type="button">開始 10 題挑戰</button>
     </section>
-    <section class="lesson-progress hidden" id="lessonProgress"><button id="exitChallenge" type="button" aria-label="退出挑戰">×</button><div class="progress-track"><div id="progressBar"></div></div><span id="lessonHearts">❤️ 5</span></section>
-    <nav class="tabs" id="subjectTabs" aria-label="科目"></nav>
-    <section class="card filters" id="filters" aria-label="題目篩選">
+    <nav class="world-nav" aria-label="主要功能"><button class="world-tab active" data-view-target="quiz" type="button">📚 刷題</button><button class="world-tab" data-view-target="garden" type="button">🌱 花園</button><button class="world-tab" data-view-target="spirits" type="button">✨ 芽靈</button><button class="world-tab" data-view-target="expedition" type="button">🧭 探索</button></nav>
+    <section class="lesson-progress hidden" id="lessonProgress" data-view="quiz"><button id="exitChallenge" type="button" aria-label="退出挑戰">×</button><strong id="lessonCount">0 / 10</strong><div class="progress-track"><div id="progressBar"></div></div><span id="lessonHearts">❤️ 5</span></section>
+    <nav class="tabs" id="subjectTabs" aria-label="科目" data-view="quiz"></nav>
+    <section class="card filters" id="filters" aria-label="題目篩選" data-view="quiz">
       <label>難度<select id="difficultyFilter"><option value="">全部難度</option><option>基礎</option><option>中等</option><option>進階</option></select></label>
       <label>單元<select id="unitFilter"><option value="">全部單元</option></select></label>
       <button class="filter-button" id="resetFilters" type="button">清除篩選</button>
     </section>
-    <section class="card quiz-card" aria-live="polite">
+    <section class="card quiz-card" aria-live="polite" data-view="quiz">
       <div id="loading" class="loading">正在載入題庫…</div>
       <div id="quiz" class="hidden">
         <div class="meta" id="meta"></div><div class="question" id="question"></div><div class="options" id="options"></div>
@@ -38,11 +39,14 @@
       </div>
       <div id="empty" class="empty hidden">目前篩選條件沒有題目，請調整難度或單元。</div>
     </section>
-    <section class="stats"><div class="stat"><div class="number" id="doneCount">0</div><div class="label">累計作答</div></div><div class="stat"><div class="number" id="accuracy">—</div><div class="label">正確率</div></div><div class="stat"><div class="number" id="wrongCount">0</div><div class="label">錯題待複習</div></div><div class="stat accent-stat"><div class="number" id="todayCount">0</div><div class="label">今日完成</div></div></section>
-    <section class="card note"><b>使用方式</b><p>題目為原創會考程度練習題，不冒充官方歷屆真題。可依科目、難度與單元篩選；答錯會自動加入錯題庫。作答紀錄與複習資料只保存在這台裝置。</p></section>
+    <section class="stats" data-view="quiz"><div class="stat"><div class="number" id="doneCount">0</div><div class="label">累計作答</div></div><div class="stat"><div class="number" id="accuracy">—</div><div class="label">正確率</div></div><div class="stat"><div class="number" id="wrongCount">0</div><div class="label">錯題待複習</div></div><div class="stat accent-stat"><div class="number" id="todayCount">0</div><div class="label">今日完成</div></div></section>
+    <section class="card note" data-view="quiz"><b>使用方式</b><p>題目為原創會考程度練習題。冒險模式每回合會從篩選後題庫建立不重複題袋，完成進度會明確累計至 10 題；答錯仍會顯示解析並加入錯題庫。</p></section>
+    <section class="world-panel hidden" id="gardenPanel" data-view="garden"><div class="garden-hero"><img src="./assets/spirit-garden-world.png" alt="五種原創芽靈居住的個人花園"><div class="garden-overlay"><div class="eyebrow">我的芽靈世界</div><h2>晨光芽園</h2><p>刷題獲得陽光與露珠，讓花園慢慢長大。</p></div></div><div class="resource-row"><span>☀️ <b id="sunshineCount">0</b> 陽光</span><span>💧 <b id="dewCount">0</b> 露珠</span><span>🌰 <b id="seedCount">0</b> 種子</span></div><div class="garden-grid"><article class="game-card"><h3>種子育成室</h3><div class="seed-preview"></div><p id="hatchHint">累積種子後，可以孵化新的芽靈。</p><button class="game-action" id="hatchSeed" type="button">用 1 顆種子孵化</button></article><article class="game-card"><h3>花園建設</h3><div id="gardenBuildings" class="building-list"></div></article></div></section>
+    <section class="world-panel hidden" id="spiritsPanel" data-view="spirits"><div class="panel-heading"><div><div class="eyebrow">芽靈圖鑑</div><h2>一起學習的夥伴</h2></div><span id="spiritTotal">0 隻</span></div><img class="roster-art" src="./assets/spirit-roster.png" alt="焰芽、晴葉、金晶、苔森與尋路五種原創芽靈"><div class="spirit-grid" id="spiritGrid"></div><article class="relic-shelf"><h3>隱藏裝備</h3><img src="./assets/seeds-and-relics.png" alt="芽靈種子與可收藏的隱藏裝備"><div id="relicList" class="relic-list"></div></article></section>
+    <section class="world-panel hidden" id="expeditionPanel" data-view="expedition"><div class="panel-heading"><div><div class="eyebrow">探索隊伍</div><h2>派出三隻芽靈尋寶</h2></div><span id="teamCount">0 / 3</span></div><div class="team-slots" id="teamSlots"></div><div class="expedition-grid"><article class="game-card"><span class="area-icon">🌿</span><h3>露珠草原</h3><p>短程探索，可找到露珠與普通裝備。</p><button class="game-action expedition-button" data-expedition="meadow" type="button">出發探索</button></article><article class="game-card"><span class="area-icon">🏛️</span><h3>星光遺跡</h3><p>需要 3 隻芽靈，較容易找到稀有裝備。</p><button class="game-action expedition-button" data-expedition="ruins" type="button">出發探索</button></article></div><div class="expedition-status hidden" id="expeditionStatus"></div></section>
   </main>
   <div class="reward-pop hidden" id="rewardPop" aria-live="polite"></div>
   <div class="modal-backdrop hidden" id="resultModal"><section class="result-card" role="dialog" aria-modal="true" aria-labelledby="resultTitle"><div class="trophy">🏆</div><div class="eyebrow">挑戰完成</div><h2 id="resultTitle">太強了！</h2><p id="resultSummary"></p><div class="result-grid"><div><b id="resultXp">+0 XP</b><span>本回合經驗</span></div><div><b id="resultAccuracy">0%</b><span>答題正確率</span></div></div><button class="start-button" id="closeResult" type="button">繼續練習</button></section></div>
-  <script type="module" src="./app.js"></script>
+  <script type="module" src="./app.js?v=3.0.0"></script>
 </body>
 </html>
