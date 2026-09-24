@@ -5,17 +5,26 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="theme-color" content="#172033">
+  <meta name="theme-color" content="#58cc02">
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="apple-touch-icon" href="./icon.svg">
   <link rel="stylesheet" href="./styles.css">
-  <title>會考刷題 V2</title>
+  <title>會考刷題・冒險模式</title>
 </head>
 <body>
   <main class="app">
-    <header><div><div class="brand">會考刷題 <span>V2</span></div><div class="subtitle">五科 5,000 題・進度只存在本機</div></div><div class="pill" id="todayCount">今日 0 題</div></header>
+    <header>
+      <div><div class="brand">會考刷題 <span>V2</span></div><div class="subtitle">每天一小關，把會考變成升級遊戲</div></div>
+      <div class="game-stats" aria-label="遊戲進度"><span title="連續學習">🔥 <b id="streakDays">0</b></span><span title="經驗值">⚡ <b id="xpCount">0</b></span><span title="愛心">❤️ <b id="heartCount">5</b></span></div>
+    </header>
+    <section class="quest-card" id="questCard">
+      <div class="quest-copy"><div class="eyebrow">今日任務</div><h1>完成 20 題，守住連勝！</h1><p id="questMessage">今天再答 20 題即可達標</p></div>
+      <div class="goal-ring" id="goalRing"><span id="goalCount">0</span><small>/ 20</small></div>
+      <button class="start-button" id="startChallenge" type="button">開始 10 題挑戰</button>
+    </section>
+    <section class="lesson-progress hidden" id="lessonProgress"><button id="exitChallenge" type="button" aria-label="退出挑戰">×</button><div class="progress-track"><div id="progressBar"></div></div><span id="lessonHearts">❤️ 5</span></section>
     <nav class="tabs" id="subjectTabs" aria-label="科目"></nav>
-    <section class="card filters" aria-label="題目篩選">
+    <section class="card filters" id="filters" aria-label="題目篩選">
       <label>難度<select id="difficultyFilter"><option value="">全部難度</option><option>基礎</option><option>中等</option><option>進階</option></select></label>
       <label>單元<select id="unitFilter"><option value="">全部單元</option></select></label>
       <button class="filter-button" id="resetFilters" type="button">清除篩選</button>
@@ -29,9 +38,11 @@
       </div>
       <div id="empty" class="empty hidden">目前篩選條件沒有題目，請調整難度或單元。</div>
     </section>
-    <section class="stats"><div class="stat"><div class="number" id="doneCount">0</div><div class="label">累計作答</div></div><div class="stat"><div class="number" id="accuracy">—</div><div class="label">正確率</div></div><div class="stat"><div class="number" id="wrongCount">0</div><div class="label">錯題待複習</div></div></section>
+    <section class="stats"><div class="stat"><div class="number" id="doneCount">0</div><div class="label">累計作答</div></div><div class="stat"><div class="number" id="accuracy">—</div><div class="label">正確率</div></div><div class="stat"><div class="number" id="wrongCount">0</div><div class="label">錯題待複習</div></div><div class="stat accent-stat"><div class="number" id="todayCount">0</div><div class="label">今日完成</div></div></section>
     <section class="card note"><b>使用方式</b><p>題目為原創會考程度練習題，不冒充官方歷屆真題。可依科目、難度與單元篩選；答錯會自動加入錯題庫。作答紀錄與複習資料只保存在這台裝置。</p></section>
   </main>
+  <div class="reward-pop hidden" id="rewardPop" aria-live="polite"></div>
+  <div class="modal-backdrop hidden" id="resultModal"><section class="result-card" role="dialog" aria-modal="true" aria-labelledby="resultTitle"><div class="trophy">🏆</div><div class="eyebrow">挑戰完成</div><h2 id="resultTitle">太強了！</h2><p id="resultSummary"></p><div class="result-grid"><div><b id="resultXp">+0 XP</b><span>本回合經驗</span></div><div><b id="resultAccuracy">0%</b><span>答題正確率</span></div></div><button class="start-button" id="closeResult" type="button">繼續練習</button></section></div>
   <script type="module" src="./app.js"></script>
 </body>
 </html>
