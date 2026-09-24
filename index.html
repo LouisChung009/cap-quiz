@@ -1,60 +1,37 @@
 <!doctype html>
 <html lang="zh-Hant">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="theme-color" content="#172033">
-<link rel="manifest" href="./manifest.webmanifest">
-<link rel="apple-touch-icon" href="./icon.svg"><meta name="apple-mobile-web-app-status-bar-style" content="default">
-<title>會考刷題</title>
-<style>
-:root{--bg:#f5f6f8;--card:#fff;--text:#172033;--muted:#667085;--line:#e4e7ec;--accent:#2457d6;--ok:#087443;--bad:#b42318}
-*{box-sizing:border-box} body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC",sans-serif;background:var(--bg);color:var(--text)}
-.app{max-width:820px;margin:auto;padding:calc(18px + env(safe-area-inset-top)) 18px calc(28px + env(safe-area-inset-bottom))}
-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}.brand{font-size:24px;font-weight:800}.pill{background:#eef2ff;padding:8px 12px;border-radius:999px;font-weight:700}
-.card{background:var(--card);border-radius:22px;padding:20px;box-shadow:0 3px 16px #10182810;margin-bottom:14px}
-.tabs{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-bottom:14px}.tab{border:0;background:#fff;padding:12px 4px;border-radius:14px;font-size:16px;font-weight:700}.tab.on{background:var(--text);color:#fff}
-.meta{color:var(--muted);font-size:14px;margin-bottom:10px}.q{font-size:23px;line-height:1.55;font-weight:750;margin:8px 0 18px}
-.opts{display:grid;gap:10px}.opt{width:100%;text-align:left;border:1.5px solid var(--line);background:#fff;border-radius:16px;padding:15px 16px;font-size:18px;line-height:1.35}.opt.sel{border-color:var(--accent);background:#eef4ff}.opt.good{border-color:var(--ok);background:#ecfdf3}.opt.bad{border-color:var(--bad);background:#fef3f2}
-.actions{display:flex;gap:10px;margin-top:16px}.btn{flex:1;border:0;border-radius:15px;padding:14px;font-size:17px;font-weight:800;background:var(--accent);color:#fff}.btn.secondary{background:#eef2f6;color:var(--text)}
-.feedback{margin-top:16px;padding:15px;border-radius:14px;line-height:1.55}.feedback.ok{background:#ecfdf3;color:#05603a}.feedback.no{background:#fef3f2;color:#912018}
-.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.stat{background:#fff;border-radius:16px;padding:14px;text-align:center}.num{font-size:24px;font-weight:850}.lbl{font-size:13px;color:var(--muted)}
-.small{font-size:13px;color:var(--muted);line-height:1.5}.hidden{display:none!important}
-@media(max-width:560px){.app{padding-left:12px;padding-right:12px}.tabs{gap:5px}.tab{font-size:14px;padding:11px 2px}.q{font-size:20px}.opt{font-size:16px}}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="theme-color" content="#172033">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <title>會考刷題 V2</title>
 </head>
-<body><main class="app">
-<header><div class="brand">會考刷題</div><div class="pill" id="streak">今日 0 題</div></header>
-<div class="tabs" id="tabs"></div>
-<section class="card">
-<div class="meta" id="meta"></div><div class="q" id="q"></div><div class="opts" id="opts"></div>
-<div id="feedback" class="feedback hidden"></div>
-<div class="actions"><button class="btn secondary" id="wrongBtn">只刷錯題</button><button class="btn" id="mainBtn">確認答案</button></div>
-</section>
-<section class="stats"><div class="stat"><div class="num" id="done">0</div><div class="lbl">累計作答</div></div><div class="stat"><div class="num" id="rate">—</div><div class="lbl">正確率</div></div><div class="stat"><div class="num" id="wrong">0</div><div class="lbl">錯題待複習</div></div></section>
-<section class="card" style="margin-top:14px"><b>使用方式</b><div class="small">這是可直接使用的 V1 題庫版。題目為原創會考程度練習題，不冒充官方歷屆真題。作答紀錄只存在這台裝置的瀏覽器中。選科目後會隨機出題；答錯題會自動加入錯題庫。</div></section>
-</main>
-<script>
-const Q=[{"id": "m01", "s": "數學", "t": "數與量", "q": "若 3x + 5 = 20，則 x = ?", "o": ["3", "5", "7", "15"], "a": 1, "e": "3x=15，所以 x=5。"}, {"id": "m02", "s": "數學", "t": "因式分解", "q": "x²－5x＋6 可因式分解為何？", "o": ["(x－1)(x－6)", "(x－2)(x－3)", "(x＋2)(x＋3)", "(x－2)(x＋3)"], "a": 1, "e": "找兩數乘積為 6、和為 -5，即 -2、-3。"}, {"id": "m03", "s": "數學", "t": "比例", "q": "地圖比例尺為 1:50,000，圖上 4 公分代表實際多少公里？", "o": ["0.2 km", "2 km", "20 km", "200 km"], "a": 1, "e": "4×50,000=200,000 公分=2 公里。"}, {"id": "m04", "s": "數學", "t": "幾何", "q": "一直角三角形兩股長為 6、8，斜邊長為何？", "o": ["10", "12", "14", "15"], "a": 0, "e": "6²+8²=100，斜邊為 10。"}, {"id": "m05", "s": "數學", "t": "統計", "q": "資料 2、4、4、6、9 的中位數為何？", "o": ["4", "5", "5.5", "6"], "a": 0, "e": "排序後正中央第 3 個數是 4。"}, {"id": "m06", "s": "數學", "t": "機率", "q": "擲一枚公平骰子一次，出現偶數的機率為何？", "o": ["1/6", "1/3", "1/2", "2/3"], "a": 2, "e": "偶數有 2、4、6，共 3 種；3/6=1/2。"}, {"id": "m07", "s": "數學", "t": "函數", "q": "若 y=2x－3，當 x=4 時，y 為何？", "o": ["3", "5", "8", "11"], "a": 1, "e": "y=2×4－3=5。"}, {"id": "m08", "s": "數學", "t": "根式", "q": "√81－√16 = ?", "o": ["5", "7", "9", "13"], "a": 0, "e": "9－4=5。"}, {"id": "m09", "s": "數學", "t": "百分率", "q": "原價 800 元的商品打 75 折，售價為何？", "o": ["200", "600", "725", "750"], "a": 1, "e": "800×0.75=600。"}, {"id": "m10", "s": "數學", "t": "幾何", "q": "半徑為 3 的圓，其面積為何？", "o": ["3π", "6π", "9π", "18π"], "a": 2, "e": "圓面積=πr²=9π。"}, {"id": "c01", "s": "國文", "t": "成語", "q": "「未雨綢繆」最接近下列何意？", "o": ["事後補救", "事先準備", "臨時改變", "順其自然"], "a": 1, "e": "比喻事先做好準備，防患未然。"}, {"id": "c02", "s": "國文", "t": "字義", "q": "「不恥下問」中的「恥」意思最接近？", "o": ["羞恥", "以……為可恥", "責備", "討厭"], "a": 1, "e": "此處為意動用法，指不以向不如自己的人請教為可恥。"}, {"id": "c03", "s": "國文", "t": "修辭", "q": "「風在窗外低聲歌唱」主要使用哪一種修辭？", "o": ["譬喻", "轉品", "擬人", "排比"], "a": 2, "e": "把風賦予人會歌唱的特性，是擬人。"}, {"id": "c04", "s": "國文", "t": "閱讀", "q": "「真正的節省，不是什麼都不買，而是把資源用在最需要的地方。」此句主旨為何？", "o": ["拒絕消費", "節省等於存錢", "資源應有效配置", "需要越少越好"], "a": 2, "e": "重點在把有限資源配置到真正需要之處。"}, {"id": "c05", "s": "國文", "t": "語文常識", "q": "下列何者屬於「借代」？", "o": ["白髮三千丈", "朱門酒肉臭", "月如鉤", "風兒笑了"], "a": 1, "e": "「朱門」以富貴人家的門代指富貴之家。"}, {"id": "c06", "s": "國文", "t": "文意", "q": "「學而不思則罔，思而不學則殆」強調什麼？", "o": ["只需勤讀", "只需思考", "學習與思考並重", "避免提問"], "a": 2, "e": "句意強調學與思不可偏廢。"}, {"id": "c07", "s": "國文", "t": "成語", "q": "形容做事有條理、次序分明，較適合使用？", "o": ["井然有序", "捕風捉影", "刻舟求劍", "杯弓蛇影"], "a": 0, "e": "「井然有序」指整齊而有次序。"}, {"id": "c08", "s": "國文", "t": "閱讀", "q": "文章先提出問題，再列舉數據說明原因，最後提出解法。這種結構最接近？", "o": ["起承轉合", "問題—分析—解決", "倒敘", "純描寫"], "a": 1, "e": "依序是提出問題、分析原因、提出解法。"}, {"id": "c09", "s": "國文", "t": "詞性", "q": "「他快速地跑回家」中的「快速」主要修飾哪一項？", "o": ["他", "跑", "家", "回"], "a": 1, "e": "「快速地」修飾動作「跑」。"}, {"id": "c10", "s": "國文", "t": "文意", "q": "「己所不欲，勿施於人」最主要提醒我們？", "o": ["凡事忍耐", "尊重他人感受", "避免競爭", "服從多數"], "a": 1, "e": "不要把自己不願承受的事加在別人身上。"}, {"id": "e01", "s": "英文", "t": "文法", "q": "Amy ___ to school by bus every day.", "o": ["go", "goes", "went", "going"], "a": 1, "e": "every day 表示習慣，主詞 Amy 為第三人稱單數，用 goes。"}, {"id": "e02", "s": "英文", "t": "時態", "q": "We ___ dinner when the phone rang.", "o": ["have", "had", "were having", "are having"], "a": 2, "e": "一個過去動作發生時，另一動作正在進行，用過去進行式。"}, {"id": "e03", "s": "英文", "t": "介系詞", "q": "The meeting starts ___ 9:00 a.m.", "o": ["in", "on", "at", "by"], "a": 2, "e": "特定時刻前使用 at。"}, {"id": "e04", "s": "英文", "t": "閱讀", "q": "Kevin brought an umbrella because the sky was dark and cloudy. What did Kevin probably expect?", "o": ["Strong sunshine", "Rain", "Snow", "A hot day"], "a": 1, "e": "Dark clouds and an umbrella suggest that he expected rain."}, {"id": "e05", "s": "英文", "t": "比較級", "q": "This book is ___ than that one.", "o": ["interesting", "more interesting", "most interesting", "interest"], "a": 1, "e": "多音節形容詞 interesting 的比較級用 more interesting。"}, {"id": "e06", "s": "英文", "t": "連接詞", "q": "I was tired, ___ I finished my homework.", "o": ["but", "because", "so that", "if"], "a": 0, "e": "前後語意轉折：雖然累，仍完成作業，用 but。"}, {"id": "e07", "s": "英文", "t": "被動", "q": "The cake ___ by my sister yesterday.", "o": ["made", "is made", "was made", "makes"], "a": 2, "e": "yesterday 為過去時間，且蛋糕是被製作，用 was made。"}, {"id": "e08", "s": "英文", "t": "單字", "q": "Which word is closest in meaning to “rapid”?", "o": ["slow", "quick", "quiet", "weak"], "a": 1, "e": "rapid 意為快速的，與 quick 最接近。"}, {"id": "e09", "s": "英文", "t": "文法", "q": "If it ___ tomorrow, we will stay home.", "o": ["rains", "rained", "will rain", "raining"], "a": 0, "e": "第一類條件句：If + 現在式，主句 will + 原形動詞。"}, {"id": "e10", "s": "英文", "t": "閱讀", "q": "The library closes at 6 p.m. Mia arrived at 6:10. What is most likely true?", "o": ["She was early.", "The library was closed.", "It opened at 6:10.", "She worked there."], "a": 1, "e": "Mia 到達時已晚於閉館時間。"}, {"id": "n01", "s": "自然", "t": "物理", "q": "物體做等速直線運動時，下列何者正確？", "o": ["速度不斷增加", "合力為零", "一定沒有受力", "動能一定為零"], "a": 1, "e": "依牛頓第一運動定律，等速直線運動時合力為零。"}, {"id": "n02", "s": "自然", "t": "化學", "q": "下列何者屬於化學變化？", "o": ["冰融化", "水沸騰", "鐵生鏽", "糖溶於水"], "a": 2, "e": "鐵生鏽產生新物質氧化鐵，屬化學變化。"}, {"id": "n03", "s": "自然", "t": "生物", "q": "植物進行光合作用主要需要哪一種氣體？", "o": ["氧氣", "氮氣", "二氧化碳", "氫氣"], "a": 2, "e": "光合作用利用二氧化碳與水合成有機物並釋放氧氣。"}, {"id": "n04", "s": "自然", "t": "地科", "q": "造成地球四季變化的主要原因是？", "o": ["地球距太陽忽遠忽近", "地軸傾斜且地球繞太陽公轉", "月球繞地球", "太陽亮度改變"], "a": 1, "e": "地軸傾斜配合公轉，使各地太陽照射角度與日照時間季節性改變。"}, {"id": "n05", "s": "自然", "t": "物理", "q": "同一物體由地面搬到較高樓層，其何種能量增加？", "o": ["重力位能", "質量", "密度", "電量"], "a": 0, "e": "高度增加，重力位能增加。"}, {"id": "n06", "s": "自然", "t": "化學", "q": "pH=3 的水溶液屬於？", "o": ["酸性", "中性", "鹼性", "無法判斷"], "a": 0, "e": "pH 小於 7 為酸性。"}, {"id": "n07", "s": "自然", "t": "生物", "q": "人體負責氣體交換的主要器官是？", "o": ["胃", "肺", "腎臟", "肝臟"], "a": 1, "e": "肺泡是氧氣與二氧化碳交換的主要場所。"}, {"id": "n08", "s": "自然", "t": "電學", "q": "在串聯電路中，各處電流的關係為何？", "o": ["處處相同", "愈來愈大", "愈來愈小", "一定為零"], "a": 0, "e": "單一路徑的串聯電路中，各處電流相同。"}, {"id": "n09", "s": "自然", "t": "地科", "q": "地震規模主要描述什麼？", "o": ["某地搖晃程度", "地震釋放能量大小", "房屋受損數量", "震央人口"], "a": 1, "e": "規模描述地震本身釋放能量的大小。"}, {"id": "n10", "s": "自然", "t": "生物", "q": "遺傳物質 DNA 主要位於真核細胞的哪個構造？", "o": ["細胞核", "細胞膜", "液胞", "細胞壁"], "a": 0, "e": "真核細胞的大部分 DNA 位於細胞核。"}, {"id": "s01", "s": "社會", "t": "公民", "q": "民主社會中，政府權力分立最主要的目的為何？", "o": ["提高稅收", "避免權力過度集中", "減少選舉", "統一意見"], "a": 1, "e": "權力分立與制衡可降低權力過度集中的風險。"}, {"id": "s02", "s": "社會", "t": "地理", "q": "臺灣夏季常受哪一類天氣系統影響，可能帶來強風豪雨？", "o": ["颱風", "寒流", "沙塵暴", "暴風雪"], "a": 0, "e": "西北太平洋颱風常在夏秋影響臺灣。"}, {"id": "s03", "s": "社會", "t": "歷史", "q": "清廷於 1684 年設置哪一行政區管轄臺灣？", "o": ["臺灣府", "臺北州", "高雄州", "臺灣省"], "a": 0, "e": "1684 年清廷設臺灣府，隸屬福建省。"}, {"id": "s04", "s": "社會", "t": "經濟", "q": "其他條件不變，某商品需求增加，通常會對市場價格造成何種壓力？", "o": ["下降", "上升", "固定不變", "必定歸零"], "a": 1, "e": "在供給不變下，需求增加通常使均衡價格上升。"}, {"id": "s05", "s": "社會", "t": "地理", "q": "人口由鄉村大量移往都市，最直接可能造成哪種現象？", "o": ["都市化提高", "海平面下降", "板塊移動", "季風消失"], "a": 0, "e": "人口向都市集中會提高都市人口比例。"}, {"id": "s06", "s": "社會", "t": "公民", "q": "消費者購買商品後發現重大瑕疵，最直接涉及哪一類權益？", "o": ["消費者權益", "參政權", "宗教自由", "著作權"], "a": 0, "e": "商品品質與交易保障屬消費者保護範圍。"}, {"id": "s07", "s": "社會", "t": "歷史", "q": "工業革命最早發展於哪一國？", "o": ["英國", "日本", "印度", "巴西"], "a": 0, "e": "18 世紀後期工業革命首先在英國發展。"}, {"id": "s08", "s": "社會", "t": "地理", "q": "臺灣西部平原人口較稠密，與下列何者關係最密切？", "o": ["地勢較平坦、交通便利", "終年降雪", "火山密集", "完全沒有河川"], "a": 0, "e": "西部地形較平坦，聚落、交通與產業發展條件較佳。"}, {"id": "s09", "s": "社會", "t": "經濟", "q": "物價普遍且持續上漲，貨幣購買力通常會？", "o": ["提高", "降低", "完全不變", "變成零"], "a": 1, "e": "通貨膨脹時，同樣金額通常能購買的商品與服務減少。"}, {"id": "s10", "s": "社會", "t": "公民", "q": "法律之前人人平等，最接近哪一法治原則？", "o": ["平等原則", "秘密原則", "世襲原則", "多數暴力"], "a": 0, "e": "人民不應因不合理差別而受到不同法律待遇。"}];
-let subject=localStorage.subject||"數學", selected=null, current=null, answered=false, wrongMode=false;
-let hist=JSON.parse(localStorage.hist||"[]"), wrongs=JSON.parse(localStorage.wrongs||"[]");
-const subjects=["國文","英文","數學","自然","社會"];
-function save(){localStorage.hist=JSON.stringify(hist);localStorage.wrongs=JSON.stringify(wrongs);localStorage.subject=subject}
-function pool(){let p=Q.filter(x=>x.s===subject); if(wrongMode){let ids=new Set(wrongs);p=p.filter(x=>ids.has(x.id));} return p}
-function next(){let p=pool(); if(!p.length){wrongMode=false;p=Q.filter(x=>x.s===subject);alert("這一科目前沒有待複習錯題，已切回一般模式。")}
-let last=current&&current.id; let choices=p.filter(x=>x.id!==last); current=(choices.length?choices:p)[Math.floor(Math.random()*(choices.length||p.length))];selected=null;answered=false;render()}
-function renderTabs(){tabs.innerHTML=subjects.map(s=>`<button class="tab ${s===subject?'on':''}" data-s="${s}">${s}</button>`).join("");document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{subject=b.dataset.s;wrongMode=false;save();renderTabs();next()})}
-function render(){meta.textContent=`${current.s}｜${current.t}${wrongMode?"｜錯題複習":""}`;q.textContent=current.q;feedback.className="feedback hidden";feedback.innerHTML="";
-opts.innerHTML=current.o.map((x,i)=>`<button class="opt" data-i="${i}">${String.fromCharCode(65+i)}　${x}</button>`).join("");
-document.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{if(answered)return;selected=+b.dataset.i;document.querySelectorAll(".opt").forEach(x=>x.classList.remove("sel"));b.classList.add("sel")});
-mainBtn.textContent="確認答案";wrongBtn.textContent=wrongMode?"回一般刷題":"只刷錯題";updateStats()}
-function check(){if(answered){next();return} if(selected===null){alert("先選一個答案");return} answered=true;let ok=selected===current.a;hist.push({id:current.id,s:subject,ok,ts:Date.now()});
-if(ok){wrongs=wrongs.filter(id=>id!==current.id)}else if(!wrongs.includes(current.id)){wrongs.push(current.id)}
-save();document.querySelectorAll(".opt").forEach((b,i)=>{b.classList.remove("sel");if(i===current.a)b.classList.add("good");if(i===selected&&!ok)b.classList.add("bad")});
-feedback.className="feedback "+(ok?"ok":"no");feedback.innerHTML=`<b>${ok?"答對了":"答錯了，正確答案是 "+String.fromCharCode(65+current.a)}</b><br>${current.e}`;mainBtn.textContent="下一題";updateStats()}
-function updateStats(){done.textContent=hist.length;let good=hist.filter(x=>x.ok).length;rate.textContent=hist.length?Math.round(good/hist.length*100)+"%":"—";wrong.textContent=wrongs.length;let today=new Date().toDateString();streak.textContent="今日 "+hist.filter(x=>new Date(x.ts).toDateString()===today).length+" 題"}
-mainBtn.onclick=check;wrongBtn.onclick=()=>{wrongMode=!wrongMode;next()};renderTabs();next();
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", () => navigator.serviceWorker.register("./sw.js"));
-}
-</script></body></html>
+<body>
+  <main class="app">
+    <header><div><div class="brand">會考刷題 <span>V2</span></div><div class="subtitle">五科 5,000 題・進度只存在本機</div></div><div class="pill" id="todayCount">今日 0 題</div></header>
+    <nav class="tabs" id="subjectTabs" aria-label="科目"></nav>
+    <section class="card filters" aria-label="題目篩選">
+      <label>難度<select id="difficultyFilter"><option value="">全部難度</option><option>基礎</option><option>中等</option><option>進階</option></select></label>
+      <label>單元<select id="unitFilter"><option value="">全部單元</option></select></label>
+      <button class="filter-button" id="resetFilters" type="button">清除篩選</button>
+    </section>
+    <section class="card quiz-card" aria-live="polite">
+      <div id="loading" class="loading">正在載入題庫…</div>
+      <div id="quiz" class="hidden">
+        <div class="meta" id="meta"></div><div class="question" id="question"></div><div class="options" id="options"></div>
+        <div id="feedback" class="feedback hidden"></div>
+        <div class="actions"><button class="button secondary" id="wrongButton" type="button">只刷錯題</button><button class="button" id="mainButton" type="button">確認答案</button></div>
+      </div>
+      <div id="empty" class="empty hidden">目前篩選條件沒有題目，請調整難度或單元。</div>
+    </section>
+    <section class="stats"><div class="stat"><div class="number" id="doneCount">0</div><div class="label">累計作答</div></div><div class="stat"><div class="number" id="accuracy">—</div><div class="label">正確率</div></div><div class="stat"><div class="number" id="wrongCount">0</div><div class="label">錯題待複習</div></div></section>
+    <section class="card note"><b>使用方式</b><p>題目為原創會考程度練習題，不冒充官方歷屆真題。可依科目、難度與單元篩選；答錯會自動加入錯題庫。作答紀錄與複習資料只保存在這台裝置。</p></section>
+  </main>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
