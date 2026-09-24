@@ -4,7 +4,7 @@ import { dirname, join } from "node:path";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const files = ["chinese", "english", "math", "science", "social"];
-const required = ["id", "subject", "gradeSemester", "unit", "knowledgePoint", "difficulty", "type", "question", "options", "answer", "explanation", "sourceType", "review"];
+const required = ["id", "subject", "gradeSemester", "unit", "knowledgePoint", "difficulty", "type", "question", "options", "answer", "explanation", "solutionSteps", "teacherTip", "relatedWords", "sourceType", "review"];
 const allIds = new Set(), allQuestions = new Set(), errors = [];
 let total = 0;
 
@@ -17,6 +17,8 @@ for (const file of files) {
     if (!Array.isArray(question.options) || question.options.length !== 4) errors.push(`${location}: 選項數量不是 4`);
     if (new Set(question.options).size !== question.options.length) errors.push(`${location}: 選項重複`);
     if (!Number.isInteger(question.answer) || question.answer < 0 || question.answer > 3) errors.push(`${location}: 答案索引無效`);
+    if (!Array.isArray(question.solutionSteps) || question.solutionSteps.length < 3) errors.push(`${location}: 解題步驟不足`);
+    if (question.subject === "英文" && (!Array.isArray(question.relatedWords) || question.relatedWords.length < 2)) errors.push(`${location}: 缺少英文同義／類似詞`);
     if (allIds.has(question.id)) errors.push(`${location}: ID 重複 ${question.id}`); else allIds.add(question.id);
     const normalized = question.question.replace(/\s+/g, "").toLowerCase();
     if (allQuestions.has(normalized)) errors.push(`${location}: 題幹重複`); else allQuestions.add(normalized);

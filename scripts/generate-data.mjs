@@ -19,8 +19,22 @@ function numeric(correct, seed, suffix = "") {
   const delta = (seed % 5) + 1;
   return rotateOptions(`${correct}${suffix}`, [`${correct + delta}${suffix}`, `${correct - delta}${suffix}`, `${correct + delta * 2}${suffix}`], seed);
 }
+const teacherTips = {
+  國文: { 成語意義: "成語題先放回原句判斷語境，不要只憑其中一個字猜意思。", 一字多義: "同一個字在不同句子可能有不同詞義與用法，要連同前後文判斷。", 擬人: "看到無生命事物出現人的動作、感情或語氣，通常就是擬人。", 主旨判斷: "主旨要涵蓋整段共同重點，避免選只提到局部細節或說法過度絕對的選項。", 借代: "借代不是比喻，而是用與對象密切相關的名稱代替本體。", 文意理解: "文言文先逐句換成白話，再比較各選項是否完整符合原意。", 成語選用: "先確認成語的感情色彩與使用對象，再檢查是否符合句中情境。", 問題分析解決: "篇章結構題可圈出轉折詞與段落功能，依提出問題、分析、解決的順序判斷。", 副詞修飾: "帶「地」的詞語通常修飾後面的動作，但仍要以句意確認。", 推己及人: "義理題要掌握核心價值，不要選範圍過大或過度極端的說法。" },
+  數學: { 整數四則: "先乘除、後加減；遇到負號或括號時要特別標記，避免符號錯誤。", 一元一次方程式: "移項其實是等式兩邊做相同運算；最後可把答案代回原式驗算。", 比例式: "比例式可用外項乘積等於內項乘積，並注意題目各量的對應順序。", 矩形面積: "面積與周長公式不同，面積單位要寫平方單位。", 三角形內角: "三角形內角和固定為 180°，算完要確認第三角大於 0°。", 一次函數代入: "先用括號代入 x，再依運算順序計算，可避免正負號錯誤。", 平均數: "平均數＝總和÷資料個數；資料個數不要漏算。", 古典機率: "機率＝有利情形數÷所有等可能情形數，分子、分母不可顛倒。", 折扣: "幾折代表原價的十分之幾；八折是乘 0.8，不是減 0.8 元。", 平方根: "若題目限定正數，只取正平方根；若問平方根則通常要考慮正負兩值。" },
+  自然: { 等速運動: "等速直線運動代表速度大小與方向都不變，因此加速度和合力皆為零。", 化學變化: "判斷重點是有沒有新物質生成；狀態改變通常仍是物理變化。", 光合作用: "不要混淆光合作用與呼吸作用：前者吸收二氧化碳，後者通常消耗氧氣。", 四季成因: "四季不是地球離太陽遠近造成，而是地軸傾斜配合公轉。", 重力位能: "同一物體的質量不變，高度增加時重力位能增加。", 酸鹼判斷: "25°C 時 pH＜7 為酸性、＝7 為中性、＞7 為鹼性。", 呼吸系統: "真正進行氣體交換的是肺泡；氣管主要負責輸送空氣。", 串聯電路: "串聯電路電流相同；並聯電路各支路電壓相同，兩者不要混用。", 地震規模: "規模描述地震釋能且同一地震只有一個；震度會因地點而不同。", 遺傳物質: "真核細胞大部分 DNA 在細胞核，但粒線體與葉綠體也含少量 DNA。" },
+  社會: { 權力分立: "權力分立的核心是分權與制衡，不代表各機關彼此完全不合作。", 臺灣天氣: "依季節、風向與降雨型態判讀；夏秋強風豪雨常先想到颱風。", 清領初期: "歷史題要同時核對年代、政權與行政名稱，避免把日治或戰後名稱混入。", 供需法則: "判斷價格前先確認題目是否說其他條件不變，再分辨是需求或供給曲線移動。", 都市化: "都市化看都市人口比例與人口集中，不等於每個都市人口都必然增加。", 消費者保護: "商品安全、品質、標示與交易公平通常屬消費者保護範圍。", 工業革命: "記憶歷史事件時可連結時間、地點、條件與影響，而非只背單一答案。", 人口分布: "人口分布要綜合地形、交通、水源與產業，不宜只看單一自然因素。", 通貨膨脹: "物價普遍且持續上漲才是通膨；個別商品漲價不一定構成通膨。", 平等原則: "平等不是所有人一律相同，而是相同情況相同處理、合理差別可不同處理。" },
+  英文: { 現在簡單式: "看到 every、usually、often 等頻率線索，要檢查第三人稱單數動詞是否加 -s／-es。", 過去進行式: "過去進行式為 was／were + V-ing，常描述另一個過去動作發生時正在進行的事。", 介系詞: "at 接明確時刻，on 接日期或星期，in 接月份、年份或較長期間。", 比較級: "看到 than 通常要用比較級；短形容詞多加 -er，不用 more short 這種重複比較。", 條件句: "第一類條件句為 If + 現在式，主句用 will + 原形動詞；if 子句不用 will。", 被動語態: "先判斷主詞是執行者還是承受者；被動語態必須有 be + 過去分詞。", 近義字: "近義字仍可能有語氣、正式程度與搭配差異，要放回句子確認。", 推論: "閱讀推論只能根據文中線索，不能加入文章沒有提供的背景。", 時間判讀: "先畫出時間先後；later 是更晚，earlier 是更早。", 語意轉折: "前後意思相反用 but／however／yet；因果關係則用 because 或 so。" }
+};
+const englishRelated = {
+  現在簡單式: ["usually（通常）", "often（經常）", "every Monday（每週一）"], 過去進行式: ["while（當……時）", "at that time（當時）", "was／were + V-ing（正在……）"], 介系詞: ["at noon（在中午）", "at night（在夜晚）", "at + 時刻"], 比較級: ["shorter = less long（較短）", "faster = more quickly（較快）", "better（較好）"], 條件句: ["if（如果）", "unless = if...not（除非）", "on condition that（條件是）"], 被動語態: ["be made by（由……製作）", "be produced by（由……生產）", "be created by（由……創作）"], 近義字: ["rapid = quick = fast（快速的）", "swift（迅速的）", "speedy（快速的）"], 推論: ["probably = likely（很可能）", "expect（預期）", "suggest（暗示）"], 時間判讀: ["close = shut（關閉）", "arrive at = reach（抵達）", "later（較晚）"], 語意轉折: ["but = yet（但是）", "however（然而）", "although（雖然）"]
+};
+function teachingDetails(subject, knowledgePoint, body) {
+  const correct = body.options[body.answer];
+  return { solutionSteps: [`先辨認考點：本題考「${knowledgePoint}」。`, body.explanation, `排除不符合題意的選項後，可確定答案是「${correct}」。`], teacherTip: teacherTips[subject]?.[knowledgePoint] || "作答時先圈出關鍵詞，再逐一檢查選項是否完整符合題意。", relatedWords: subject === "英文" ? (englishRelated[knowledgePoint] || []) : [] };
+}
 function make(subject, code, index, meta, body) {
-  return { id: `${code}-${String(index + 1).padStart(4, "0")}`, subject, gradeSemester: grades[index % grades.length], unit: meta.unit, knowledgePoint: meta.knowledgePoint, difficulty: difficulties[index % difficulties.length], type: meta.type || "單題選擇", ...body, sourceType: "原創會考程度練習", review: { ...review } };
+  return { id: `${code}-${String(index + 1).padStart(4, "0")}`, subject, gradeSemester: grades[index % grades.length], unit: meta.unit, knowledgePoint: meta.knowledgePoint, difficulty: difficulties[index % difficulties.length], type: meta.type || "單題選擇", ...body, ...teachingDetails(subject, meta.knowledgePoint, body), sourceType: "原創會考程度練習", review: { ...review } };
 }
 
 function mathQuestion(index) {
