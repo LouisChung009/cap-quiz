@@ -5,26 +5,26 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="theme-color" content="#58cc02">
+  <meta name="theme-color" content="#071522">
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="apple-touch-icon" href="./icon.svg">
-  <link rel="stylesheet" href="./styles.css?v=4.0.0">
-  <title>會考刷題・冒險模式</title>
+  <link rel="stylesheet" href="./styles.css?v=5.0.0">
+  <title>會考遠征｜知識冒險</title>
 </head>
 <body>
   <section id="authGate" class="auth-gate"><div class="gate-card"><div class="gate-orbit"></div><b>正在確認學習者身分</b><p>連接你的探索紀錄與花園…</p></div></section>
   <main class="app auth-pending">
     <header>
-      <div><div class="brand">會考刷題 <span>V2</span></div><div class="subtitle">每天一小關，把會考變成升級遊戲</div></div>
+      <div><div class="brand">會考遠征 <span>V3</span></div><div class="subtitle">知識，是探索世界的方式</div></div>
       <div class="identity"><span>探索員 <b id="studentName">—</b></span><div id="userButton"></div></div>
       <div class="game-stats" aria-label="遊戲進度"><span title="連續學習">🔥 <b id="streakDays">0</b></span><span title="經驗值">⚡ <b id="xpCount">0</b></span><span title="愛心">❤️ <b id="heartCount">5</b></span></div>
     </header>
-    <section class="quest-card" id="questCard">
+    <section class="quest-card expedition-hero" id="questCard"><div class="world-depth depth-one"></div><div class="world-depth depth-two"></div><div class="hero-explorer" aria-hidden="true"><span class="explorer-avatar" id="explorerAvatar">遠</span><span class="hero-spirit" id="heroSpirit">🌿</span></div>
       <div class="quest-copy"><div class="eyebrow">今日任務</div><h1>完成 20 題，守住連勝！</h1><p id="questMessage">今天再答 20 題即可達標</p></div>
       <div class="goal-ring" id="goalRing"><span id="goalCount">0</span><small>/ 20</small></div>
       <button class="start-button" id="startChallenge" type="button">開始 10 題挑戰</button>
     </section>
-    <nav class="world-nav" aria-label="主要功能"><button class="world-tab active" data-view-target="quiz" type="button">📚 刷題</button><button class="world-tab" data-view-target="garden" type="button">🌱 花園</button><button class="world-tab" data-view-target="spirits" type="button">✨ 芽靈</button><button class="world-tab" data-view-target="expedition" type="button">🧭 探索</button></nav>
+    <nav class="world-nav" aria-label="主要功能"><button class="world-tab active" data-view-target="quiz" type="button">⚔️ 任務</button><button class="world-tab" data-view-target="garden" type="button">🌱 世界</button><button class="world-tab" data-view-target="spirits" type="button">✨ 芽靈</button><button class="world-tab" data-view-target="expedition" type="button">🧭 隊伍</button><button class="world-tab" id="openProfile" type="button">⚙️ 設定</button></nav>
     <section class="lesson-progress hidden" id="lessonProgress" data-view="quiz"><button id="exitChallenge" type="button" aria-label="退出挑戰">×</button><strong id="lessonCount">0 / 10</strong><div class="progress-track"><div id="progressBar"></div></div><span id="lessonHearts">❤️ 5</span></section>
     <nav class="tabs" id="subjectTabs" aria-label="科目" data-view="quiz"></nav>
     <section class="card filters" id="filters" aria-label="題目篩選" data-view="quiz">
@@ -32,7 +32,7 @@
       <label>單元<select id="unitFilter"><option value="">全部單元</option></select></label>
       <button class="filter-button" id="resetFilters" type="button">清除篩選</button>
     </section>
-    <section class="card quiz-card" aria-live="polite" data-view="quiz">
+    <section class="battle-stage" aria-live="polite" data-view="quiz" id="battleStage"><div class="battle-sky"><span class="battle-spirit" id="battleSpirit">🌿</span><div class="enemy" id="knowledgeEnemy"><i></i><b>知識護盾</b><span><em id="enemyShield"></em></span></div></div><div class="combo-badge hidden" id="comboBadge">COMBO ×<b>2</b></div><div class="impact-layer" id="impactLayer"></div><section class="card quiz-card">
       <div id="loading" class="loading">正在載入題庫…</div>
       <div id="quiz" class="hidden">
         <div class="meta" id="meta"></div><div class="question" id="question"></div><div class="options" id="options"></div>
@@ -40,6 +40,7 @@
         <div class="actions"><button class="button secondary" id="wrongButton" type="button">只刷錯題</button><button class="button" id="mainButton" type="button">確認答案</button></div>
       </div>
       <div id="empty" class="empty hidden">目前篩選條件沒有題目，請調整難度或單元。</div>
+    </section>
     </section>
     <section class="stats" data-view="quiz"><div class="stat"><div class="number" id="doneCount">0</div><div class="label">累計作答</div></div><div class="stat"><div class="number" id="accuracy">—</div><div class="label">正確率</div></div><div class="stat"><div class="number" id="wrongCount">0</div><div class="label">錯題待複習</div></div><div class="stat accent-stat"><div class="number" id="todayCount">0</div><div class="label">今日完成</div></div></section>
     <section class="card note" data-view="quiz"><b>使用方式</b><p>題目為原創會考程度練習題。冒險模式每回合會從篩選後題庫建立不重複題袋，完成進度會明確累計至 10 題；答錯仍會顯示解析並加入錯題庫。</p></section>
@@ -49,6 +50,8 @@
   </main>
   <div class="reward-pop hidden" id="rewardPop" aria-live="polite"></div>
   <div class="modal-backdrop hidden" id="resultModal"><section class="result-card" role="dialog" aria-modal="true" aria-labelledby="resultTitle"><div class="trophy">🏆</div><div class="eyebrow">挑戰完成</div><h2 id="resultTitle">太強了！</h2><p id="resultSummary"></p><div class="result-grid"><div><b id="resultXp">+0 XP</b><span>本回合經驗</span></div><div><b id="resultAccuracy">0%</b><span>答題正確率</span></div></div><button class="start-button" id="closeResult" type="button">繼續練習</button></section></div>
-  <script type="module" src="./bootstrap.js?v=4.0.0"></script>
+  <div class="modal-backdrop hidden" id="profileModal"><section class="profile-card" role="dialog" aria-modal="true" aria-labelledby="profileTitle"><button class="modal-close" id="closeProfile" type="button">×</button><div class="eyebrow">PERSONAL EXPEDITION</div><h2 id="profileTitle">建立你的探索員</h2><div class="profile-preview"><span id="profileAvatarPreview">遠</span><div><b id="profileNamePreview">我的探索員</b><small>所有設定之後都能修改</small></div><span id="profileSpiritPreview">🌿</span></div><div class="profile-grid"><label>探索員名稱<input id="profileName" maxlength="12" placeholder="輸入暱稱"></label><label>代表字<input id="profileAvatar" maxlength="1" placeholder="遠"></label><label>初始芽靈<select id="profileSpirit"><option value="ember">焰芽・國文</option><option value="sky">晴葉・英文</option><option value="gold">金晶・數學</option><option value="moss">苔森・自然</option><option value="way">尋路・社會</option></select></label><label>世界主題<select id="profileTheme"><option value="ruins">星光遺跡</option><option value="forest">深海森林</option><option value="city">空中書城</option></select></label><label>每日目標<select id="profileGoal"><option value="10">10 題</option><option value="20">20 題</option><option value="30">30 題</option></select></label><label>介面主色<select id="profileAccent"><option value="cyan">極光藍</option><option value="violet">星霧紫</option><option value="amber">晨光金</option></select></label></div><div class="setting-toggles"><label><input type="checkbox" id="soundEnabled" checked> 音效回饋</label><label><input type="checkbox" id="motionEnabled" checked> 動畫效果</label><label><input type="checkbox" id="hapticEnabled" checked> 輕震動</label></div><button class="start-button" id="saveProfile" type="button">確認設定</button></section></div>
+  <button class="sound-fab" id="soundToggle" type="button" aria-label="切換音效">🔊</button>  <script type="module" src="./bootstrap.js?v=5.0.0"></script>
 </body>
 </html>
+

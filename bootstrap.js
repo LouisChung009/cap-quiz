@@ -21,8 +21,9 @@ try {
     } catch { /* Offline mode keeps the latest local copy. */ }
     gate.classList.add("hidden");
     app.classList.remove("auth-pending");
-    await import("./app.js?v=4.0.0");
+    await import("./app.js?v=5.0.0");
   }
 } catch (error) {
   gate.innerHTML = `<div class="gate-card"><b>登入服務暫時無法使用</b><p>${String(error.message || error)}</p><a href="./account/login.html">重新登入</a></div>`;
 }
+
