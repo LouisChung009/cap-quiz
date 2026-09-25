@@ -42,14 +42,14 @@ function showView(view){
 }
 document.querySelectorAll(".nav-item[data-view]").forEach(button=>button.addEventListener("click",()=>showView(button.dataset.view)));
 document.querySelector("#showAllAlerts").addEventListener("click",()=>showView("attention"));
-if(config.mode==="supabase"&&!sessionStorage.getItem("capQuizAdminSession"))location.replace("./login.html");
+if(config.mode==="vercel"&&!sessionStorage.getItem("capQuizAdminSession"))location.replace("./login.html");
 if(config.mode!=="demo")document.querySelector("#demoBanner").classList.add("hidden-panel");
 async function loadLiveDashboard(){
-  if(config.mode!=="supabase")return;
+  if(config.mode!=="vercel")return;
   const session=JSON.parse(sessionStorage.getItem("capQuizAdminSession")||"null");
   if(!session?.accessToken||session.expiresAt<Date.now())return location.replace("./login.html");
-  const response=await fetch(`${config.supabaseUrl}/functions/v1/admin-dashboard`,{headers:{Authorization:`Bearer ${session.accessToken}`,apikey:config.supabaseAnonKey}});
-  if(!response.ok)throw new Error("無法載入管理資料，請確認管理員權限與 Edge Function 設定。");
+  const response=await fetch(`${config.apiBase||"/api"}/admin/dashboard`,{headers:{Authorization:`Bearer ${session.accessToken}`}});
+  if(!response.ok)throw new Error("無法載入管理資料，請確認 Vercel 的管理員登入與資料庫設定。");
   const data=await response.json(),summary=data.summary||{};
   metrics=[
     {l:"平台學生",v:Number(summary.studentCount||0).toLocaleString(),s:"已註冊學生",c:"#e7f5d8"},
