@@ -1,3 +1,4 @@
+import { authenticatedFetch, getClerk } from "../vendor/auth-runtime.js";
 let students=[
 {id:"S-1042",name:"星星",avatar:"星",color:"#ffe29a",today:28,accuracy:86,streak:12,weak:"英文文法",last:"8 分鐘前",status:"active",total:642,minutes:34,wrong:["現在簡單式","介系詞","語意轉折"]},
 {id:"S-1088",name:"小樹",avatar:"樹",color:"#ccebb8",today:20,accuracy:74,streak:5,weak:"數學代數",last:"21 分鐘前",status:"attention",total:381,minutes:27,wrong:["一元一次方程式","比例式"]},
@@ -12,7 +13,7 @@ const trend=[{d:"四",u:436,q:6812},{d:"五",u:472,q:7440},{d:"六",u:391,q:5902
 const subjects=[{n:"國文",v:78,c:"#ff765f"},{n:"英文",v:71,c:"#5faad9"},{n:"數學",v:69,c:"#ffbf3f"},{n:"自然",v:75,c:"#62a66a"},{n:"社會",v:82,c:"#8b78c9"}];
 let metrics=[{l:"平台學生",v:"1,284",s:"本週新增 36 人",c:"#e7f5d8"},{l:"今日活躍",v:"612",s:"47.7% 活躍率",c:"#ddecf4"},{l:"今日完成題數",v:"10,284",s:"平均每人 16.8 題",c:"#fff0c9"},{l:"今日平均正確率",v:"74.8%",s:"較昨日 +1.6%",c:"#ffe2da"}];
 const statusText={active:"學習中",attention:"需關注",inactive:"未開始"};
-const config=window.CAP_QUIZ_ADMIN_CONFIG||{mode:"demo"};
+const config={mode:"vercel",apiBase:"/api"};
 const views={
   overview:{kicker:"平台營運總覽",title:"今天，每個孩子都走到哪裡了？"},
   students:{kicker:"學生狀態",title:"從每日小步驟看見每個人的節奏"},
@@ -42,13 +43,11 @@ function showView(view){
 }
 document.querySelectorAll(".nav-item[data-view]").forEach(button=>button.addEventListener("click",()=>showView(button.dataset.view)));
 document.querySelector("#showAllAlerts").addEventListener("click",()=>showView("attention"));
-if(config.mode==="vercel"&&!sessionStorage.getItem("capQuizAdminSession"))location.replace("./login.html");
+const clerk=await getClerk();if(!clerk.user)location.replace("./login.html");
 if(config.mode!=="demo")document.querySelector("#demoBanner").classList.add("hidden-panel");
 async function loadLiveDashboard(){
   if(config.mode!=="vercel")return;
-  const session=JSON.parse(sessionStorage.getItem("capQuizAdminSession")||"null");
-  if(!session?.accessToken||session.expiresAt<Date.now())return location.replace("./login.html");
-  const response=await fetch(`${config.apiBase||"/api"}/admin/dashboard`,{headers:{Authorization:`Bearer ${session.accessToken}`}});
+  const response=await authenticatedFetch(`${config.apiBase||"/api"}/admin/dashboard`);
   if(!response.ok)throw new Error("無法載入管理資料，請確認 Vercel 的管理員登入與資料庫設定。");
   const data=await response.json(),summary=data.summary||{};
   metrics=[
