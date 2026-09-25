@@ -19,6 +19,16 @@ function shuffle(list) {
   return result;
 }
 
+function buildDiverseLesson(questions) {
+  const groups = new Map();
+  shuffle(questions).forEach(item => {
+    const key = `${item.unit}|${item.knowledgePoint}`;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(item);
+  });
+  return shuffle([...groups.values()]).slice(0, lessonSize).map(group => group[0]);
+}
+
 for (const file of files) {
   const questions = JSON.parse(await readFile(join(root, "data", `${file}.json`), "utf8"));
   if (questions.length !== 1000) throw new Error(`${file} 不是 1000 題`);
@@ -27,11 +37,13 @@ for (const file of files) {
   const observed = new Set();
   let previousSignature = "";
   for (let round = 0; round < roundsPerSubject; round++) {
-    const lesson = shuffle(questions).slice(0, lessonSize);
+    const lesson = buildDiverseLesson(questions);
     const ids = lesson.map(item => item.id);
     const lessonStems = lesson.map(item => item.question.replace(/\s+/g, "").toLowerCase());
     if (new Set(ids).size !== lessonSize) throw new Error(`${file} 第 ${round + 1} 回合 ID 重複`);
     if (new Set(lessonStems).size !== lessonSize) throw new Error(`${file} 第 ${round + 1} 回合題幹重複`);
+    const points = lesson.map(item => `${item.unit}|${item.knowledgePoint}`);
+    if (new Set(points).size !== lessonSize) throw new Error(`${file} 第 ${round + 1} 回合考點重複`);
     const signature = ids.join(",");
     if (signature === previousSignature) throw new Error(`${file} 連續兩回合抽題順序完全相同`);
     previousSignature = signature;
