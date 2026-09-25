@@ -24,11 +24,11 @@
         <div><p class="kicker" id="pageKicker">平台營運總覽</p><h1 id="pageTitle">今天，每個孩子都走到哪裡了？</h1><p class="subtitle" id="reportDate"></p></div>
         <div class="admin-chip"><span>管</span><div><b>平台管理員</b><small>唯讀分析權限</small></div></div>
       </header>
-      <div class="demo-banner" id="demoBanner"><b>互動原型</b> 目前顯示匿名示範資料；正式版將透過受保護的管理 API 載入。</div>
+      <div class="demo-banner" id="demoBanner"><b>即時資料</b> 正在讀取 Clerk 帳號與 Neon 學習紀錄…</div>
       <section class="metric-grid" id="metricGrid" data-panel="overview"></section>
       <section class="dashboard-grid" data-panel="overview trends">
         <article class="panel trend-panel">
-          <div class="panel-head"><div><p class="kicker">7 日趨勢</p><h2>每日刷題人數與題量</h2></div><span class="trend-up">↑ 12.4%</span></div>
+          <div class="panel-head"><div><p class="kicker">7 日趨勢</p><h2>每日刷題人數與題量</h2></div><span class="trend-up" id="trendChange">計算中</span></div>
           <div class="chart-legend"><span><i class="dot lime"></i>活躍學生</span><span><i class="dot amber"></i>完成題數</span></div>
           <div class="chart" id="trendChart" aria-label="七日刷題趨勢圖"></div>
         </article>
@@ -43,7 +43,7 @@
       </section>
       <section class="panel deep-dive-panel" data-panel="trends">
         <div class="panel-head"><div><p class="kicker">學習品質</p><h2>趨勢解讀與行動建議</h2></div><span class="trend-up">週報</span></div>
-        <div class="insight-grid"><article><span>01</span><h3>數學正確率偏低</h3><p>69% 為五科最低，建議推送「代數＋幾何」複習路徑。</p></article><article><span>02</span><h3>週末題量回落</h3><p>可啟用輕量挑戰任務，避免以連續打卡造成壓力。</p></article><article><span>03</span><h3>社會表現穩定</h3><p>82% 正確率可作為跨科學習自信的起點。</p></article></div>
+        <div class="insight-grid" id="insightGrid"></div>
       </section>
       <section class="panel attention-actions" data-panel="attention">
         <div class="panel-head"><div><p class="kicker">溫和介入</p><h2>關注名單處理原則</h2></div></div>

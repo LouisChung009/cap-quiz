@@ -13,6 +13,14 @@ export async function ensureSchema(sql = database()) {
   return sql;
 }
 
+export async function upsertUserProfile(sql, claims) {
+  const displayName = String(claims.name || claims.first_name || claims.username || "學習者").slice(0, 30);
+  const publicCode = `S-${claims.sub.slice(-8).toUpperCase()}`;
+  await sql`INSERT INTO user_profiles (user_id, display_name, public_code, last_seen_at)
+    VALUES (${claims.sub}, ${displayName}, ${publicCode}, NOW())
+    ON CONFLICT (user_id) DO UPDATE SET display_name = EXCLUDED.display_name, last_seen_at = NOW()`;
+}
+
 async function initialize(sql) {
   await sql`CREATE TABLE IF NOT EXISTS user_profiles (user_id TEXT PRIMARY KEY, display_name TEXT NOT NULL DEFAULT '學習者', public_code TEXT UNIQUE NOT NULL, created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(), last_seen_at TIMESTAMPTZ NOT NULL DEFAULT NOW())`;
   await sql`CREATE TABLE IF NOT EXISTS learning_states (user_id TEXT PRIMARY KEY, state JSONB NOT NULL DEFAULT '{}'::jsonb, updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW())`;
