@@ -51,12 +51,12 @@ async function loadLiveDashboard(){
   if(!response.ok)throw new Error("無法載入管理資料，請確認 Vercel 的管理員登入與資料庫設定。");
   const data=await response.json(),summary=data.summary||{};
   metrics=[
-    {l:"平台學生",v:Number(summary.studentCount||0).toLocaleString(),s:"已註冊學生",c:"#e7f5d8"},
-    {l:"今日活躍",v:Number(summary.activeCount||0).toLocaleString(),s:"今日至少完成 1 題",c:"#ddecf4"},
-    {l:"今日完成題數",v:Number(summary.answeredCount||0).toLocaleString(),s:"以伺服器時間統計",c:"#fff0c9"},
+    {l:"平台學生",v:Number(summary.student_count||0).toLocaleString(),s:"已有作答紀錄的學生",c:"#e7f5d8"},
+    {l:"今日活躍",v:Number(summary.active_count||0).toLocaleString(),s:"今日至少完成 1 題",c:"#ddecf4"},
+    {l:"今日完成題數",v:Number(summary.answered_count||0).toLocaleString(),s:"以伺服器時間統計",c:"#fff0c9"},
     {l:"今日平均正確率",v:`${summary.accuracy||0}%`,s:"已同步作答紀錄",c:"#ffe2da"}
   ];
-  students=(data.students||[]).map(item=>{const profile=Array.isArray(item.profiles)?item.profiles[0]:item.profiles||{};const accuracy=item.answered_count?Math.round(item.correct_count/item.answered_count*100):0;return{id:profile.public_code||item.user_id,name:profile.display_name||"匿名學生",avatar:(profile.display_name||"學").slice(0,1),color:"#dce9aa",today:item.answered_count||0,accuracy,streak:0,weak:"待同步弱點",last:item.last_activity_at?new Date(item.last_activity_at).toLocaleString("zh-TW"):"尚無紀錄",status:item.answered_count?"active":"inactive",total:item.answered_count||0,minutes:0,wrong:item.weakest_points||[]}});
+  students=(data.students||[]).map(item=>{const name=item.display_name||"匿名學生";const accuracy=item.answered_count?Math.round(item.correct_count/item.answered_count*100):0;return{id:item.public_code||item.user_id,name,avatar:name.slice(0,1),color:"#dce9aa",today:item.answered_count||0,accuracy,streak:0,weak:(item.weakest_points||[])[0]||"尚無明顯弱點",last:item.last_activity_at?new Date(item.last_activity_at).toLocaleString("zh-TW"):"尚無紀錄",status:item.answered_count?"active":"inactive",total:item.total_count||0,minutes:0,wrong:item.weakest_points||[]}});
   renderMetrics();renderRows();
 }
 renderRows();showView(location.hash.slice(1)||"overview");
