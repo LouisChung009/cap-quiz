@@ -7,11 +7,12 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "npm run validate:data --silent && npm run validate:random --silent && npm run validate:syntax --silent",
+    "test": "npm run validate:data --silent && npm run validate:random --silent && npm run validate:mission --silent && npm run validate:syntax --silent",
     "build": "node scripts/build-client.mjs",
     "validate:data": "node scripts/validate-data.mjs",
     "validate:random": "node scripts/validate-randomness.mjs",
-    "validate:syntax": "node scripts/validate-syntax.mjs"
+    "validate:syntax": "node scripts/validate-syntax.mjs",
+    "validate:mission": "node scripts/validate-mission-mix.mjs"
   },
   "repository": {
     "type": "git",

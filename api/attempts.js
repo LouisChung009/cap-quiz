@@ -5,7 +5,7 @@ export default async function handler(request, response) {
   if (request.method !== "POST") return response.status(405).json({ message: "Method not allowed" });
   try {
     const claims = await requireAuth(request); const { questionId, subject, correct, unit, knowledgePoint, answeredAt } = request.body || {};
-    if (!/^[a-z]+-\d{4}$/.test(questionId || "") || !subjects.has(subject) || typeof correct !== "boolean") return response.status(400).json({ message: "作答資料格式不正確。" });
+    if (!/^[A-Za-z]+-\d{4}$/.test(questionId || "") || !subjects.has(subject) || typeof correct !== "boolean") return response.status(400).json({ message: "作答資料格式不正確。" });
     const sql = await ensureSchema(database()); await upsertUserProfile(sql, claims); await sql`INSERT INTO question_attempts (user_id, question_id, subject, unit_name, knowledge_point, is_correct, answered_at) VALUES (${claims.sub}, ${questionId}, ${subject}, ${String(unit || "").slice(0, 80)}, ${String(knowledgePoint || "").slice(0, 80)}, ${correct}, ${new Date(answeredAt || Date.now()).toISOString()})`;
     return response.status(201).json({ saved: true });
   } catch (error) { return handleApiError(response, error); }
