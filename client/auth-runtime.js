@@ -1,4 +1,5 @@
 import { Clerk } from "@clerk/clerk-js";
+import { ui } from "@clerk/ui";
 
 let clerkPromise;
 
@@ -13,7 +14,7 @@ async function initializeClerk() {
   const { publishableKey } = await response.json();
   if (!publishableKey) throw new Error("登入服務缺少公開金鑰。");
   const clerk = new Clerk(publishableKey);
-  await clerk.load();
+  await clerk.load({ ui });
   window.CapQuizAuth = clerk;
   return clerk;
 }
