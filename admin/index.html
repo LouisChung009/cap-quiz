@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>晨光學習指揮室｜會考刷題管理後台</title>
+  <link rel="stylesheet" href="./admin.css?v=1.0.0">
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <a class="admin-brand" href="../"><span class="brand-mark">芽</span><span>晨光指揮室<small>LEARNING OPS</small></span></a>
+      <nav aria-label="後台導覽">
+        <button class="nav-item active"><span>◫</span>總覽</button>
+        <button class="nav-item"><span>◎</span>學生狀態</button>
+        <button class="nav-item"><span>⌁</span>學習趨勢</button>
+        <button class="nav-item"><span>△</span>需要關注</button>
+      </nav>
+      <div class="privacy-note"><b>隱私模式</b><p>列表預設使用暱稱與學生編號。個資需額外授權才能檢視。</p></div>
+    </aside>
+    <main>
+      <header class="topbar">
+        <div><p class="kicker">平台營運總覽</p><h1>今天，每個孩子都走到哪裡了？</h1><p class="subtitle" id="reportDate"></p></div>
+        <div class="admin-chip"><span>管</span><div><b>平台管理員</b><small>唯讀分析權限</small></div></div>
+      </header>
+      <div class="demo-banner"><b>互動原型</b> 目前顯示匿名示範資料；正式版將透過受保護的管理 API 載入。</div>
+      <section class="metric-grid" id="metricGrid"></section>
+      <section class="dashboard-grid">
+        <article class="panel trend-panel">
+          <div class="panel-head"><div><p class="kicker">7 日趨勢</p><h2>每日刷題人數與題量</h2></div><span class="trend-up">↑ 12.4%</span></div>
+          <div class="chart-legend"><span><i class="dot lime"></i>活躍學生</span><span><i class="dot amber"></i>完成題數</span></div>
+          <div class="chart" id="trendChart" aria-label="七日刷題趨勢圖"></div>
+        </article>
+        <article class="panel subject-panel">
+          <div class="panel-head"><div><p class="kicker">科目健康度</p><h2>全平台正確率</h2></div></div>
+          <div id="subjectBars" class="subject-bars"></div>
+        </article>
+      </section>
+      <section class="panel attention-panel">
+        <div class="panel-head"><div><p class="kicker">優先處理</p><h2>需要關注的學習狀況</h2></div><button class="quiet-button" id="showAllAlerts">查看全部</button></div>
+        <div class="alert-grid" id="alertGrid"></div>
+      </section>
+      <section class="panel roster-panel">
+        <div class="panel-head roster-head"><div><p class="kicker">學生名單</p><h2>全部學習狀態</h2></div><div class="filters"><label>搜尋<input id="searchInput" type="search" placeholder="暱稱或學生編號"></label><label>狀態<select id="statusFilter"><option value="all">全部</option><option value="active">今日活躍</option><option value="attention">需要關注</option><option value="inactive">未開始</option></select></label></div></div>
+        <div class="table-wrap"><table><thead><tr><th>學生</th><th>今日進度</th><th>正確率</th><th>連續天數</th><th>待加強</th><th>最近活動</th><th>狀態</th></tr></thead><tbody id="studentRows"></tbody></table></div>
+      </section>
+    </main>
+  </div>
+  <dialog id="studentDialog"><button class="dialog-close" id="closeDialog" aria-label="關閉">×</button><div id="studentDetail"></div></dialog>
+  <script type="module" src="./admin.js?v=1.0.0"></script>
+</body>
+</html>

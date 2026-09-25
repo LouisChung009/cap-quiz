@@ -22,6 +22,12 @@ iPad、iPhone、Android 與桌面瀏覽器皆可使用的國中教育會考練�
 - `assets/spirit-roster.png`：五種芽靈角色圖鑑。
 - `assets/seeds-and-relics.png`：種子與探索裝備收藏圖。
 
+## 平台學習管理
+
+- `admin/` 提供「晨光學習指揮室」後台原型：平台總覽、每日趨勢、科目健康度、需要關注學生、搜尋篩選與匿名學生詳情。
+- `docs/learning-analytics-design.md` 定義作答事件、每日統計、離線同步、資料保存與未成年人隱私原則。
+- `supabase/migrations/001_learning_analytics.sql` 是正式平台資料庫與 RLS 權限架構；真實全平台資料只能經過已驗證的管理 API 讀取，不能由靜態前端直接查詢。
+
 ## 題目格式
 
 每題包含 `id`、`subject`、`gradeSemester`、`unit`、`knowledgePoint`、`difficulty`、`type`、`question`、四個 `options`、零起算的 `answer`、`explanation`、`sourceType`，以及供日後間隔複習使用的 `review` 欄位。
