@@ -27,6 +27,8 @@ iPad、iPhone、Android 與桌面瀏覽器皆可使用的國中教育會考練�
 - `admin/` 提供「晨光學習指揮室」後台原型：平台總覽、每日趨勢、科目健康度、需要關注學生、搜尋篩選與匿名學生詳情。
 - `docs/learning-analytics-design.md` 定義作答事件、每日統計、離線同步、資料保存與未成年人隱私原則。
 - `supabase/migrations/001_learning_analytics.sql` 是正式平台資料庫與 RLS 權限架構；真實全平台資料只能經過已驗證的管理 API 讀取，不能由靜態前端直接查詢。
+- `admin/login.html` 是管理員登入入口；完成 Supabase 設定後，後台會使用受保護的 `admin-dashboard` API 取得統計與匿名學生列表。
+- `DEPLOY_CLOUDFLARE.md` 提供 Cloudflare Pages／Workers Static Assets 部署流程；R2 可用於大型素材，但不存放管理登入或資料庫密鑰。
 
 ## 題目格式
 
