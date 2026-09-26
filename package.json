@@ -1,7 +1,7 @@
 {
   "name": "cap-quiz",
   "version": "1.0.0",
-  "description": "iPad、iPhone、Android 與桌面瀏覽器皆可使用的國中教育會考練習 PWA。五科各 1,000 題，共 5,000 題。",
+  "description": "國中教育會考練習 PWA：5,000 題原創題、110–114 年 1,088 題官方真題與真題類題。",
   "main": "app.js",
   "directories": {
     "doc": "docs"

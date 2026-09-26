@@ -1,29 +1,11 @@
-import { readFile } from "node:fs/promises";
+import { readFile,access } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
-import { dirname, join } from "node:path";
-
-const root=dirname(dirname(fileURLToPath(import.meta.url)));
-const files=["chinese","english","math","science","social"];
-const required=["id","subject","gradeSemester","unit","knowledgePoint","difficulty","type","question","options","answer","explanation","solutionSteps","teacherTip","relatedWords","sourceType","review"];
-const allIds=new Set(),allQuestions=new Set(),errors=[];let total=0;
-function validate(question,location){
-  for(const field of required)if(!(field in question)||question[field]===""||question[field]===null)errors.push(`${location}: 缺少 ${field}`);
-  if(!Array.isArray(question.options)||question.options.length!==4)errors.push(`${location}: 選項數量不是 4`);
-  if(new Set(question.options).size!==question.options.length)errors.push(`${location}: 選項重複`);
-  if(!Number.isInteger(question.answer)||question.answer<0||question.answer>3)errors.push(`${location}: 答案索引無效`);
-  if(!Array.isArray(question.solutionSteps)||question.solutionSteps.length<3)errors.push(`${location}: 解題步驟不足`);
-  if(question.subject==="英文"&&(!Array.isArray(question.relatedWords)||question.relatedWords.length<2))errors.push(`${location}: 缺少英文同義／類似詞`);
-  if(question.sourceType==="官方歷屆真題"&&(!question.source?.year||!question.source?.questionNumber||!question.source?.url))errors.push(`${location}: 真題來源不完整`);
-  if(allIds.has(question.id))errors.push(`${location}: ID 重複 ${question.id}`);else allIds.add(question.id);
-  const normalized=question.question.replace(/【[^】]+】/g,"").replace(/\s+/g,"").toLowerCase();
-  if(allQuestions.has(normalized))errors.push(`${location}: 題幹重複`);else allQuestions.add(normalized);total++;
-}
-for(const file of files){const questions=JSON.parse(await readFile(join(root,"data",`${file}.json`),"utf8"));if(questions.length!==1000)errors.push(`${file}: 題數為 ${questions.length}，應為 1000`);questions.forEach((q,i)=>validate(q,`${file}[${i}]`));console.log(`${file}: ${questions.length} 題通過格式掃描`)}
-const mission=JSON.parse(await readFile(join(root,"data","mission-questions.json"),"utf8"));
-if(mission.length!==20)errors.push(`mission-questions: 題數為 ${mission.length}，應為 20`);
-mission.forEach((q,i)=>validate(q,`mission-questions[${i}]`));
-for(const subject of ["國文","英文","數學","自然","社會"]){const real=mission.filter(q=>q.subject===subject&&q.sourceType==="官方歷屆真題").length,similar=mission.filter(q=>q.subject===subject&&q.type==="會考類題").length;if(real!==2||similar!==2)errors.push(`${subject}: 真題 ${real}、類題 ${similar}，應各為 2`)}
-console.log(`mission-questions: ${mission.length} 題（10 真題＋10 類題）通過格式掃描`);
-if(total!==5020)errors.push(`總題數為 ${total}，應為 5020`);
-if(errors.length){console.error(errors.slice(0,100).join("\n"));console.error(`共 ${errors.length} 個錯誤`);process.exit(1)}
-console.log(`驗證完成：${total} 題、${allIds.size} 個唯一 ID、${allQuestions.size} 個唯一題幹，0 個錯誤。`);
+import { dirname,join } from "node:path";
+const root=dirname(dirname(fileURLToPath(import.meta.url))),files=["chinese","english","math","science","social"],required=["id","subject","gradeSemester","unit","knowledgePoint","difficulty","type","question","options","answer","explanation","solutionSteps","teacherTip","relatedWords","sourceType","review"],allIds=new Set(),allQuestions=new Set(),errors=[];let total=0;
+function validate(q,location){for(const field of required)if(!(field in q)||q[field]===""||q[field]===null)errors.push(`${location}: 缺少 ${field}`);if(!Array.isArray(q.options)||q.options.length!==4)errors.push(`${location}: 選項數量不是 4`);if(new Set(q.options).size!==q.options.length)errors.push(`${location}: 選項重複`);if(!Number.isInteger(q.answer)||q.answer<0||q.answer>3)errors.push(`${location}: 答案索引無效`);if(!Array.isArray(q.solutionSteps)||q.solutionSteps.length<3)errors.push(`${location}: 解題步驟不足`);if(q.subject==="英文"&&(!Array.isArray(q.relatedWords)||q.relatedWords.length<2))errors.push(`${location}: 缺少英文提示`);if(q.sourceType==="官方歷屆真題"&&(!q.source?.year||!q.source?.questionNumber||!q.source?.url||!q.questionImage))errors.push(`${location}: 真題來源或頁圖不完整`);if(allIds.has(q.id))errors.push(`${location}: ID 重複 ${q.id}`);else allIds.add(q.id);const normalized=q.question.replace(/\s+/g,"").toLowerCase();if(allQuestions.has(normalized))errors.push(`${location}: 題幹重複`);else allQuestions.add(normalized);total++}
+for(const file of files){const list=JSON.parse(await readFile(join(root,"data",`${file}.json`),"utf8"));if(list.length!==1000)errors.push(`${file}: 題數 ${list.length}`);list.forEach((q,i)=>validate(q,`${file}[${i}]`));console.log(`${file}: ${list.length} 題通過格式掃描`)}
+const mission=JSON.parse(await readFile(join(root,"data","mission-questions.json"),"utf8"));mission.forEach((q,i)=>validate(q,`mission[${i}]`));const official=mission.filter(q=>q.sourceType==="官方歷屆真題"),similar=mission.filter(q=>q.type==="會考類題");if(official.length!==1088)errors.push(`官方真題 ${official.length}，應為 1088`);if(similar.length!==10)errors.push(`類題 ${similar.length}，應為 10`);
+const expected={110:{國文:48,英文:41,數學:26,社會:63,自然:54},111:{國文:42,英文:43,數學:25,社會:54,自然:50},112:{國文:42,英文:43,數學:25,社會:54,自然:50},113:{國文:42,英文:43,數學:25,社會:54,自然:50},114:{國文:42,英文:43,數學:25,社會:54,自然:50}};
+for(const [year,subjects] of Object.entries(expected))for(const [subject,count] of Object.entries(subjects)){const rows=official.filter(q=>String(q.source.year)===year&&q.subject===subject),numbers=rows.map(q=>q.source.questionNumber).sort((a,b)=>a-b);if(rows.length!==count)errors.push(`${year}${subject}: ${rows.length}/${count}`);if(numbers.some((n,i)=>n!==i+1))errors.push(`${year}${subject}: 題號不連續`)}
+for(const q of official)try{await access(join(root,q.questionImage.replace(/^\.\//,"")))}catch{errors.push(`${q.id}: 找不到頁圖 ${q.questionImage}`)}
+if(total!==6098)errors.push(`總題數 ${total}，應為 6098`);console.log(`official: ${official.length} 題；similar: ${similar.length} 題；總計 ${total} 題`);if(errors.length){console.error(errors.slice(0,100).join("\n"));console.error(`共 ${errors.length} 個錯誤`);process.exit(1)}console.log(`驗證完成：${total} 題、${allIds.size} 個唯一 ID、五年題號與頁圖完整。`);
