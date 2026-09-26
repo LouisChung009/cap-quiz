@@ -37,7 +37,7 @@ def blocks_for_pdf(path):
             for mi,match in enumerate(matches):
                 q=int(match.group(1)); end=matches[mi+1].start() if mi+1<len(matches) else len(text)
                 block=text[match.start():end].strip()
-                if 20<len(block)<6000 and q not in blocks:blocks[q]={'page':index+1,'text':block}
+                if 20<len(block)<6000:blocks[q]={'page':index+1,'text':block}
     return blocks,page_texts,page_count
 
 def nearest_page(q,blocks):
