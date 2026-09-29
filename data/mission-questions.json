@@ -3769,8 +3769,7 @@
     "knowledgePoint": "110年英文第32題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Below are the ideas that are talked about in the reading. a. The problems Darayya has. b. How Darayya’s library was started. c. What makes Darayya’s library special. d. How Darayya’s library helps people there. 【字彙】 order 順序 In what order does the writer put his ideas in the reading?",
-    "questionImage": "./assets/official-exams/110-english-p11.webp",
+    "question": "【閱讀材料】Darayya’s Library — John Edwards, July 21, 2016\nIn Darayya, a city in Syria, there’s a library, and it has 15,000 books on almost every subject you can think of. However, it is different from any libraries you know: It is a secret underground library, and only people in Darayya know where it is.\n\nOver the years, war has shaken Darayya badly. Every day, houses are bombed and people are killed. Stores are closed one after another, and so are schools. To help the kids in Darayya with their learning, Anas Ahmad, a 19-year-old student, and his friends decided to build a library. They built the library under the ground to keep it safe from bombing. But it is dangerous to collect books for the library. Often, Ahmad and his friends look for books in houses that were bombed. They need to be careful because they may be killed in another bombing.\n\nYou may ask, “In a place like Darayya, would people be interested in books?” “Just like the body needs food, the mind needs books,” says one library user. In the library, people enjoy their time of reading and forget about the terrible world above, so their life doesn’t seem so hard. Through reading, they are able to dream of a better life after war.\n\nBelow are the ideas that are talked about in the reading.\na. The problems Darayya has.\nb. How Darayya’s library was started.\nc. What makes Darayya’s library special.\nd. How Darayya’s library helps people there.\nIn what order does the writer put his ideas in the reading?",
     "imageAlt": "110年國中教育會考英文科第32題官方試卷頁面",
     "options": [
       "c b a d.",
@@ -3779,11 +3778,11 @@
       "c a b d."
     ],
     "answer": 3,
-    "explanation": "答案為 D「c a b d.」。這個選項最完整符合題幹所給的條件與證據。",
+    "explanation": "答案 D「c → a → b → d」。文章先介紹圖書館與眾不同之處：藏有大量書籍、位於地下且只有當地人知道；接著說明戰爭造成的困境，再交代 Anas Ahmad 等人如何為孩子建立圖書館，最後描述閱讀帶來慰藉與對戰後生活的盼望。",
     "solutionSteps": [
-      "先閱讀前台顯示的官方題面，依題目條件「Below are the ideas that are talked about in the reading. a. The problems Darayya has. b. How Darayya’s library was started. c. What makes Darayya’s library special. d. How Dara…」定位本文、圖表、對話或圖片中的直接證據。",
-      "正確答案是 D「c a b d.」；將這個選項與題目條件逐一核對後，語意與官方答案一致。",
-      "再檢查其餘選項 A「c b a d.」、B「b a d c.」、C「a c b d.」，它們至少有一處不符合題目條件，因此排除。"
+      "開頭先說圖書館的特色：地下、隱密且藏書豐富，對應 c。",
+      "接著轉到戰爭轟炸、學校關閉等 Darayya 面臨的問題 a，再說學生因此決定建圖書館 b。",
+      "最後談閱讀讓人暫忘戰爭、想像更好的未來 d，順序是 c-a-b-d，選 D。"
     ],
     "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
     "relatedWords": [
@@ -3805,12 +3804,8 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/110-english-p10.webp",
-      "./assets/official-exams/110-english-p11.webp"
-    ]
+    "requiresImage": false,
+    "requiresContext": false
   },
   {
     "id": "OFF-0081",
@@ -3820,8 +3815,7 @@
     "knowledgePoint": "110年英文第33題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Why do people in Darayya go to the library even during the war?",
-    "questionImage": "./assets/official-exams/110-english-p11.webp",
+    "question": "【閱讀材料】Darayya’s Library — John Edwards, July 21, 2016\nIn Darayya, a city in Syria, there’s a library, and it has 15,000 books on almost every subject you can think of. However, it is different from any libraries you know: It is a secret underground library, and only people in Darayya know where it is.\n\nOver the years, war has shaken Darayya badly. Every day, houses are bombed and people are killed. Stores are closed one after another, and so are schools. To help the kids in Darayya with their learning, Anas Ahmad, a 19-year-old student, and his friends decided to build a library. They built the library under the ground to keep it safe from bombing. But it is dangerous to collect books for the library. Often, Ahmad and his friends look for books in houses that were bombed. They need to be careful because they may be killed in another bombing.\n\nYou may ask, “In a place like Darayya, would people be interested in books?” “Just like the body needs food, the mind needs books,” says one library user. In the library, people enjoy their time of reading and forget about the terrible world above, so their life doesn’t seem so hard. Through reading, they are able to dream of a better life after war.\n\nWhy do people in Darayya go to the library even during the war?",
     "imageAlt": "110年國中教育會考英文科第33題官方試卷頁面",
     "options": [
       "They can get free food.",
@@ -3830,11 +3824,11 @@
       "Their school teachers give lessons there."
     ],
     "answer": 1,
-    "explanation": "答案為 B「They find joy and hope in reading.」。這個選項最完整符合題幹所給的條件與證據。",
+    "explanation": "答案 B「They find joy and hope in reading.」文章指出讀者在圖書館享受閱讀、暫時忘記地面上可怕的戰爭，並能藉閱讀夢想戰後更好的生活。A 免費食物、C 學習如何打贏戰爭、D 教師在圖書館上課都沒有文章證據。",
     "solutionSteps": [
-      "先閱讀前台顯示的官方題面，依題目條件「Why do people in Darayya go to the library even during the war?」定位本文、圖表、對話或圖片中的直接證據。",
-      "正確答案是 B「They find joy and hope in reading.」；將這個選項與題目條件逐一核對後，語意與官方答案一致。",
-      "再檢查其餘選項 A「They can get free food.」、C「They want to learn how to win the war.」、D「Their school teachers give lessons there.」，它們至少有一處不符合題目條件，因此排除。"
+      "找出文章最後一段對閱讀效果的說明：人們享受閱讀，暫忘外界戰爭。",
+      "作者又說閱讀讓他們能夢想戰後更好的生活，這同時包含閱讀的樂趣與希望。",
+      "因此選 B；文章沒有提到發放食物、學習作戰或教師授課。"
     ],
     "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
     "relatedWords": [
@@ -3856,12 +3850,8 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/110-english-p10.webp",
-      "./assets/official-exams/110-english-p11.webp"
-    ]
+    "requiresImage": false,
+    "requiresContext": false
   },
   {
     "id": "OFF-0082",
@@ -3871,8 +3861,7 @@
     "knowledgePoint": "110年英文第34題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "What do we know about Darayya’s library?",
-    "questionImage": "./assets/official-exams/110-english-p11.webp",
+    "question": "【閱讀材料】Darayya’s Library — John Edwards, July 21, 2016\nIn Darayya, a city in Syria, there’s a library, and it has 15,000 books on almost every subject you can think of. However, it is different from any libraries you know: It is a secret underground library, and only people in Darayya know where it is.\n\nOver the years, war has shaken Darayya badly. Every day, houses are bombed and people are killed. Stores are closed one after another, and so are schools. To help the kids in Darayya with their learning, Anas Ahmad, a 19-year-old student, and his friends decided to build a library. They built the library under the ground to keep it safe from bombing. But it is dangerous to collect books for the library. Often, Ahmad and his friends look for books in houses that were bombed. They need to be careful because they may be killed in another bombing.\n\nYou may ask, “In a place like Darayya, would people be interested in books?” “Just like the body needs food, the mind needs books,” says one library user. In the library, people enjoy their time of reading and forget about the terrible world above, so their life doesn’t seem so hard. Through reading, they are able to dream of a better life after war.\n\nWhat do we know about Darayya’s library?",
     "imageAlt": "110年國中教育會考英文科第34題官方試卷頁面",
     "options": [
       "It was built during the war.",
@@ -3881,11 +3870,11 @@
       "Most of its books are collected from outside of Darayya."
     ],
     "answer": 0,
-    "explanation": "答案為 A「It was built during the war.」。這個選項最完整符合題幹所給的條件與證據。",
+    "explanation": "答案 A「It was built during the war.」文章先描述戰爭已使 Darayya 遭受轟炸、學校停課，接著說 Anas Ahmad 和朋友為幫助孩子學習而決定建圖書館，並把它建在地下以躲避轟炸。因此圖書館是在戰爭期間建立。B 把遭轟炸的是城中房屋誤套成圖書館；C 文中沒有說建館是為紀念死者；D 館藏書籍是從當地被炸房屋中尋找，不是大多由外地收集。",
     "solutionSteps": [
-      "先閱讀前台顯示的官方題面，依題目條件「What do we know about Darayya’s library?」定位本文、圖表、對話或圖片中的直接證據。",
-      "正確答案是 A「It was built during the war.」；將這個選項與題目條件逐一核對後，語意與官方答案一致。",
-      "再檢查其餘選項 B「It has been bombed many times.」、C「It was built to remember people who died in the war.」、D「Most of its books are collected from outside of Darayya.」，它們至少有一處不符合題目條件，因此排除。"
+      "把事件順序連起來：戰爭轟炸 Darayya、學校關閉，學生為了孩子學習才決定建館。",
+      "他們把圖書館建在地下來防轟炸，說明建館發生在戰爭期間，選 A。",
+      "文章說被炸的是房屋，不是圖書館；沒有紀念死者的目的，找書地點也在當地被炸房屋，因此 B、C、D 均不符。"
     ],
     "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
     "relatedWords": [
@@ -3907,12 +3896,8 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/110-english-p10.webp",
-      "./assets/official-exams/110-english-p11.webp"
-    ]
+    "requiresImage": false,
+    "requiresContext": false
   },
   {
     "id": "OFF-0083",
