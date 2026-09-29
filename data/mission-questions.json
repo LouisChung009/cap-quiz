@@ -3907,8 +3907,7 @@
     "knowledgePoint": "110年英文第35題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "請閱讀圖中的題組文章，完成第 35 題。",
-    "questionImage": "./assets/official-exams/110-english-p12.webp",
+    "question": "【閱讀材料】From: Mia Loren <mloren@qmail.com>\nTo: Dave Doddo <dd1225@qmail.com>\nDate: Tue, Oct 24, 2017 at 10:01 AM\nSubject: Daniel’s 5th Birthday Party – This Saturday!\n\nHello Dave,\n\nWe’re happy to invite you and your family to Daniel’s fifth birthday party this Saturday.\n\nWe know we told you that the party would be in ____ (35) ____. However, we just moved to Carlton City last month, so the party won’t be in Pattersons Town. It’ll be at Mosman Garden right next to Victor Zoo, just across from our new apartment. Please don’t go to Northbank Park next to our old house.\n\nThe weather report said that it may be rainy this weekend, but ____ (36) ____. If it rains, we’ll move the party inside our home. However, if we’re ____ (37) ____ and it is fine, we’ll still have the party at the garden.\n\nAgain, we’re all very happy and excited to welcome you to join us for some fun this weekend!\n\nBest,\nMia, Sam & Daniel\n\n請選出最適合填入文章中標示 (35) 空格的選項。",
     "imageAlt": "110年國中教育會考英文科第35題官方試卷頁面",
     "options": [
       "Victor Zoo",
@@ -3917,11 +3916,11 @@
       "Northbank Park"
     ],
     "answer": 3,
-    "explanation": "答案為 D「Northbank Park」。這個選項最完整符合題幹所給的條件與證據。",
+    "explanation": "答案 D「Northbank Park」。Mia 說以前曾告訴 Dave 派對會在某處舉行，接著說他們搬家後，派對不會在 Pattersons Town；實際改到新公寓旁的 Mosman Garden，並特別提醒不要再去舊家旁的 Northbank Park。這表示原先告知的舊地點是 Northbank Park。",
     "solutionSteps": [
-      "先閱讀前台顯示的官方題面，依題目條件「請閱讀圖中的題組文章，完成第 35 題。」定位本文、圖表、對話或圖片中的直接證據。",
-      "正確答案是 D「Northbank Park」；將這個選項與題目條件逐一核對後，語意與官方答案一致。",
-      "再檢查其餘選項 A「Victor Zoo」、B「Carlton City」、C「Mosman Garden」，它們至少有一處不符合題目條件，因此排除。"
+      "由後文看地點變化：搬到 Carlton City 後，派對改在新住處旁的 Mosman Garden。",
+      "作者又特別提醒『不要去我們舊家旁的 Northbank Park』，指出這是原本容易去錯的舊地點。",
+      "因此空格填 D「Northbank Park」；A 是新地點附近的動物園，B 是搬去的新城市，C 是現在的派對地點。"
     ],
     "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
     "relatedWords": [
@@ -3943,11 +3942,8 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-english-p12.webp"
-    ]
+    "requiresImage": false,
+    "requiresContext": false
   },
   {
     "id": "OFF-0084",
@@ -3957,8 +3953,7 @@
     "knowledgePoint": "110年英文第36題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "請閱讀圖中的題組文章，完成第 36 題。",
-    "questionImage": "./assets/official-exams/110-english-p12.webp",
+    "question": "【閱讀材料】From: Mia Loren <mloren@qmail.com>\nTo: Dave Doddo <dd1225@qmail.com>\nDate: Tue, Oct 24, 2017 at 10:01 AM\nSubject: Daniel’s 5th Birthday Party – This Saturday!\n\nHello Dave,\n\nWe’re happy to invite you and your family to Daniel’s fifth birthday party this Saturday.\n\nWe know we told you that the party would be in ____ (35) ____. However, we just moved to Carlton City last month, so the party won’t be in Pattersons Town. It’ll be at Mosman Garden right next to Victor Zoo, just across from our new apartment. Please don’t go to Northbank Park next to our old house.\n\nThe weather report said that it may be rainy this weekend, but ____ (36) ____. If it rains, we’ll move the party inside our home. However, if we’re ____ (37) ____ and it is fine, we’ll still have the party at the garden.\n\nAgain, we’re all very happy and excited to welcome you to join us for some fun this weekend!\n\nBest,\nMia, Sam & Daniel\n\n請選出最適合填入文章中標示 (36) 空格的選項。",
     "imageAlt": "110年國中教育會考英文科第36題官方試卷頁面",
     "options": [
       "we have a plan if this happens",
@@ -3967,11 +3962,11 @@
       "we will let you know if we’ll still have the party"
     ],
     "answer": 0,
-    "explanation": "答案為 A「we have a plan if this happens」。這個選項最完整符合題幹所給的條件與證據。",
+    "explanation": "答案 A「we have a plan if this happens」。前句說週末可能下雨，下一句立刻說若下雨就把派對移到家裡，這正是預先準備好的應變計畫，因此用 A 承接最自然。B 只說等雨停，與下一句的室內備案不一致；C 說雨不大就沒事，與後句條件無關；D 說會再通知是否舉辦，但文中已明確交代下雨時的安排。",
     "solutionSteps": [
-      "先閱讀前台顯示的官方題面，依題目條件「請閱讀圖中的題組文章，完成第 36 題。」定位本文、圖表、對話或圖片中的直接證據。",
-      "正確答案是 A「we have a plan if this happens」；將這個選項與題目條件逐一核對後，語意與官方答案一致。",
-      "再檢查其餘選項 B「we could just wait for the rain to stop」、C「we should be fine if the rain isn’t too heavy」、D「we will let you know if we’ll still have the party」，它們至少有一處不符合題目條件，因此排除。"
+      "先讀空格前後：天氣預報可能下雨，後句明確說下雨就把派對移到家裡。",
+      "這句室內安排就是對下雨的預案，所以前面應說『若發生這種情況，我們有計畫』，選 A。",
+      "B、C、D 分別與後文的直接搬到室內、條件邏輯或已確定的派對安排不合。"
     ],
     "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
     "relatedWords": [
@@ -3993,11 +3988,8 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-english-p12.webp"
-    ]
+    "requiresImage": false,
+    "requiresContext": false
   },
   {
     "id": "OFF-0085",
@@ -4007,8 +3999,7 @@
     "knowledgePoint": "110年英文第37題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "請閱讀圖中的題組文章，完成第 37 題。",
-    "questionImage": "./assets/official-exams/110-english-p12.webp",
+    "question": "【閱讀材料】From: Mia Loren <mloren@qmail.com>\nTo: Dave Doddo <dd1225@qmail.com>\nDate: Tue, Oct 24, 2017 at 10:01 AM\nSubject: Daniel’s 5th Birthday Party – This Saturday!\n\nHello Dave,\n\nWe’re happy to invite you and your family to Daniel’s fifth birthday party this Saturday.\n\nWe know we told you that the party would be in ____ (35) ____. However, we just moved to Carlton City last month, so the party won’t be in Pattersons Town. It’ll be at Mosman Garden right next to Victor Zoo, just across from our new apartment. Please don’t go to Northbank Park next to our old house.\n\nThe weather report said that it may be rainy this weekend, but ____ (36) ____. If it rains, we’ll move the party inside our home. However, if we’re ____ (37) ____ and it is fine, we’ll still have the party at the garden.\n\nAgain, we’re all very happy and excited to welcome you to join us for some fun this weekend!\n\nBest,\nMia, Sam & Daniel\n\n請選出最適合填入文章中標示 (37) 空格的選項。",
     "imageAlt": "110年國中教育會考英文科第37題官方試卷頁面",
     "options": [
       "crazy",
@@ -4017,11 +4008,11 @@
       "strong"
     ],
     "answer": 2,
-    "explanation": "答案為 C「lucky」。這個選項最完整符合題幹所給的條件與證據。",
+    "explanation": "答案 C「lucky」。句子說如果他們夠幸運而天氣晴好，就仍在花園舉辦派對；若下雨則移到家裡。lucky 與天氣是否配合的情境相符。crazy、good、strong 都不能自然表達『碰上好天氣的運氣』。",
     "solutionSteps": [
-      "先閱讀前台顯示的官方題面，依題目條件「請閱讀圖中的題組文章，完成第 37 題。」定位本文、圖表、對話或圖片中的直接證據。",
-      "正確答案是 C「lucky」；將這個選項與題目條件逐一核對後，語意與官方答案一致。",
-      "再檢查其餘選項 A「crazy」、B「good」、D「strong」，它們至少有一處不符合題目條件，因此排除。"
+      "掌握句子條件：只有天氣晴好，派對才會留在花園；下雨則改到室內。",
+      "天氣好並非主辦者能控制，說 if we’re lucky（如果我們夠幸運）符合此情境。",
+      "crazy（瘋狂）、good（好）、strong（強壯）都不能自然描述遇到晴天的運氣，故選 C。"
     ],
     "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
     "relatedWords": [
@@ -4043,11 +4034,8 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-english-p12.webp"
-    ]
+    "requiresImage": false,
+    "requiresContext": false
   },
   {
     "id": "OFF-0086",
