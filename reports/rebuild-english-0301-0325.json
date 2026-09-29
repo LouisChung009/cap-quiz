@@ -1,0 +1,902 @@
+[
+  {
+    "id": "ENG-0301",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "字彙",
+    "knowledgePoint": "語境字義與同反義詞",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "During the storm, the power went out. Dad lit a candle so we could see the room. What does “went out” mean here?",
+    "options": [
+      "stopped working",
+      "moved outside",
+      "became brighter",
+      "was sold"
+    ],
+    "answer": 0,
+    "explanation": "語境依據：The storm left the room dark, so Dad needed a candle. 判斷：In this context, “the power went out” means the electricity stopped working. 正確答案為 A「stopped working」。易錯提示：“Moved outside” describes a person or object changing location; the sentence is about the electricity supply.",
+    "solutionSteps": [
+      "第一步：閱讀完整題幹「During the storm, the power went out. Dad lit a candle so we could see the room. What does “went out” mean here?」，圈出情境與關鍵語句。",
+      "第二步：The storm left the room dark, so Dad needed a candle. In this context, “the power went out” means the electricity stopped working.",
+      "第三步：答案為 A「stopped working」。易錯提示：“Moved outside” describes a person or object changing location; the sentence is about the electricity supply."
+    ],
+    "teacherTip": "Use the candle and the dark room to infer the meaning.",
+    "relatedWords": [
+      "go out（停止運作；熄滅）",
+      "power（電力）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0302",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "文法",
+    "knowledgePoint": "現在完成式與 since",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "Lena ___ in Taichung since she started college five years ago.",
+    "options": [
+      "lives",
+      "lived",
+      "has lived",
+      "is living"
+    ],
+    "answer": 2,
+    "explanation": "語境依據：“Since she started college five years ago” gives a starting point that continues to now. 判斷：Use the present perfect, “has lived,” for a situation that began in the past and continues in the present. 正確答案為 C「has lived」。易錯提示：“Lived” suggests the situation ended; “lives” and “is living” do not match the since-clause as naturally here.",
+    "solutionSteps": [
+      "第一步：閱讀完整題幹「Lena ___ in Taichung since she started college five years ago.」，圈出情境與關鍵語句。",
+      "第二步：“Since she started college five years ago” gives a starting point that continues to now. Use the present perfect, “has lived,” for a situation that began in the past and continues in the present.",
+      "第三步：答案為 C「has lived」。易錯提示：“Lived” suggests the situation ended; “lives” and “is living” do not match the since-clause as naturally here."
+    ],
+    "teacherTip": "A since-clause often signals a past starting point continuing to the present.",
+    "relatedWords": [
+      "since（自從）",
+      "present perfect（現在完成式）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0303",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "文法",
+    "knowledgePoint": "被動語態",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "The school library ___ every evening, so it is clean for students the next morning.",
+    "options": [
+      "cleans",
+      "is cleaned",
+      "cleaned",
+      "is cleaning"
+    ],
+    "answer": 1,
+    "explanation": "語境依據：The library receives the action, and “every evening” describes a regular routine. 判斷：Use the present simple passive, “is cleaned”: be + past participle. 正確答案為 B「is cleaned」。易錯提示：“Cleans” makes the library do the cleaning; “cleaned” lacks the needed passive auxiliary.",
+    "solutionSteps": [
+      "第一步：閱讀完整題幹「The school library ___ every evening, so it is clean for students the next morning.」，圈出情境與關鍵語句。",
+      "第二步：The library receives the action, and “every evening” describes a regular routine. Use the present simple passive, “is cleaned”: be + past participle.",
+      "第三步：答案為 B「is cleaned」。易錯提示：“Cleans” makes the library do the cleaning; “cleaned” lacks the needed passive auxiliary."
+    ],
+    "teacherTip": "Ask whether the subject performs or receives the action.",
+    "relatedWords": [
+      "passive voice（被動語態）",
+      "past participle（過去分詞）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0304",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "文法",
+    "knowledgePoint": "關係代名詞",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "The woman ___ lives next door is a nurse who helped my grandmother.",
+    "options": [
+      "which",
+      "whose",
+      "who",
+      "where"
+    ],
+    "answer": 2,
+    "explanation": "語境依據：The blank refers to “the woman,” a person, and it is the subject of “lives.” 判斷：“Who” is the subject relative pronoun for a person. 正確答案為 C「who」。易錯提示：“Which” usually refers to things; “whose” shows possession; “where” refers to a place.",
+    "solutionSteps": [
+      "第一步：閱讀完整題幹「The woman ___ lives next door is a nurse who helped my grandmother.」，圈出情境與關鍵語句。",
+      "第二步：The blank refers to “the woman,” a person, and it is the subject of “lives.” “Who” is the subject relative pronoun for a person.",
+      "第三步：答案為 C「who」。易錯提示：“Which” usually refers to things; “whose” shows possession; “where” refers to a place."
+    ],
+    "teacherTip": "Find the noun before the blank and check the blank’s role in the clause.",
+    "relatedWords": [
+      "relative pronoun（關係代名詞）",
+      "who（指人）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0305",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "文法",
+    "knowledgePoint": "間接問句",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "Could you tell me ___? I need to know the time of the last bus.",
+    "options": [
+      "when does the last bus leave",
+      "when the last bus leaves",
+      "when did the last bus leave",
+      "when leaves the last bus"
+    ],
+    "answer": 1,
+    "explanation": "語境依據：The sentence is an indirect question after “Could you tell me.” 判斷：An indirect question uses statement word order: subject before verb, so “when the last bus leaves.” 正確答案為 B「when the last bus leaves」。易錯提示：“When does...” and “when did...” use direct-question inversion; the last choice puts the verb before its subject.",
+    "solutionSteps": [
+      "第一步：閱讀完整題幹「Could you tell me ___? I need to know the time of the last bus.」，圈出情境與關鍵語句。",
+      "第二步：The sentence is an indirect question after “Could you tell me.” An indirect question uses statement word order: subject before verb, so “when the last bus leaves.”",
+      "第三步：答案為 B「when the last bus leaves」。易錯提示：“When does...” and “when did...” use direct-question inversion; the last choice puts the verb before its subject."
+    ],
+    "teacherTip": "After an opening phrase such as “Could you tell me,” use statement order.",
+    "relatedWords": [
+      "indirect question（間接問句）",
+      "word order（語序）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0306",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "文法",
+    "knowledgePoint": "連接詞與讓步",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "___ it was raining heavily, the soccer game continued because both teams had already arrived.",
+    "options": [
+      "Because",
+      "Although",
+      "Unless",
+      "So"
+    ],
+    "answer": 1,
+    "explanation": "語境依據：The rain would normally stop a game, but the game continued. 判斷：“Although” introduces a contrast between the heavy rain and the game continuing. 正確答案為 B「Although」。易錯提示：“Because” gives a cause, “unless” gives a condition, and “so” introduces a result.",
+    "solutionSteps": [
+      "第一步：閱讀完整題幹「___ it was raining heavily, the soccer game continued because both teams had already arrived.」，圈出情境與關鍵語句。",
+      "第二步：The rain would normally stop a game, but the game continued. “Although” introduces a contrast between the heavy rain and the game continuing.",
+      "第三步：答案為 B「Although」。易錯提示：“Because” gives a cause, “unless” gives a condition, and “so” introduces a result."
+    ],
+    "teacherTip": "Look for the relationship between the two clauses before choosing a connector.",
+    "relatedWords": [
+      "although（雖然）",
+      "contrast（對比）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0307",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "文法",
+    "knowledgePoint": "動詞後接不定詞",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "After dinner, Kevin offered ___ the dishes while his sister dried them.",
+    "options": [
+      "wash",
+      "to washing",
+      "to wash",
+      "washing"
+    ],
+    "answer": 2,
+    "explanation": "語境依據：“Offered” is followed by the action Kevin agreed to do. 判斷：The verb “offer” is followed by a to-infinitive: “offered to wash.” 正確答案為 C「to wash」。易錯提示：“To washing” mixes two forms; “wash” and “washing” do not fit this verb pattern.",
+    "solutionSteps": [
+      "第一步：閱讀完整題幹「After dinner, Kevin offered ___ the dishes while his sister dried them.」，圈出情境與關鍵語句。",
+      "第二步：“Offered” is followed by the action Kevin agreed to do. The verb “offer” is followed by a to-infinitive: “offered to wash.”",
+      "第三步：答案為 C「to wash」。易錯提示：“To washing” mixes two forms; “wash” and “washing” do not fit this verb pattern."
+    ],
+    "teacherTip": "Learn the verb pattern with the verb: offer + to + base verb.",
+    "relatedWords": [
+      "offer to do（主動提出做某事）",
+      "to-infinitive（不定詞）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0308",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "文法",
+    "knowledgePoint": "條件句與 unless",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "You will miss the school bus ___ you leave home in the next five minutes.",
+    "options": [
+      "if",
+      "unless",
+      "although",
+      "because"
+    ],
+    "answer": 1,
+    "explanation": "語境依據：Leaving within five minutes is the necessary exception that prevents missing the bus. 判斷：“Unless” means “if not,” so the sentence means you will miss the bus if you do not leave soon. 正確答案為 B「unless」。易錯提示：“If” reverses the intended condition; “although” shows contrast and “because” gives a reason.",
+    "solutionSteps": [
+      "第一步：閱讀完整題幹「You will miss the school bus ___ you leave home in the next five minutes.」，圈出情境與關鍵語句。",
+      "第二步：Leaving within five minutes is the necessary exception that prevents missing the bus. “Unless” means “if not,” so the sentence means you will miss the bus if you do not leave soon.",
+      "第三步：答案為 B「unless」。易錯提示：“If” reverses the intended condition; “although” shows contrast and “because” gives a reason."
+    ],
+    "teacherTip": "Replace “unless” with “if ... not” to check the meaning.",
+    "relatedWords": [
+      "unless（除非；如果不）",
+      "condition（條件）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0309",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "文法",
+    "knowledgePoint": "分詞形容詞",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "The documentary about ocean life was so ___ that our class watched it twice.",
+    "options": [
+      "interested",
+      "interesting",
+      "interest",
+      "interestingly"
+    ],
+    "answer": 1,
+    "explanation": "語境依據：The documentary causes the class to feel interested. 判斷：Use “interesting” to describe something that creates interest. 正確答案為 B「interesting」。易錯提示：“Interested” describes how a person feels; “interest” is a noun or verb, and “interestingly” is an adverb.",
+    "solutionSteps": [
+      "第一步：閱讀完整題幹「The documentary about ocean life was so ___ that our class watched it twice.」，圈出情境與關鍵語句。",
+      "第二步：The documentary causes the class to feel interested. Use “interesting” to describe something that creates interest.",
+      "第三步：答案為 B「interesting」。易錯提示：“Interested” describes how a person feels; “interest” is a noun or verb, and “interestingly” is an adverb."
+    ],
+    "teacherTip": "Choose -ing for the thing that causes a feeling and -ed for the person who feels it.",
+    "relatedWords": [
+      "interesting（有趣的）",
+      "interested（感興趣的）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0310",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "文法",
+    "knowledgePoint": "目的子句",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "Mia set an alarm ___ she would not forget to submit her science project before midnight.",
+    "options": [
+      "so that",
+      "even though",
+      "as soon as",
+      "instead of"
+    ],
+    "answer": 0,
+    "explanation": "語境依據：The alarm was set to help Mia remember to submit the project. 判斷：“So that” introduces the purpose and is followed by a subject and verb. 正確答案為 A「so that」。易錯提示：“Even though” shows contrast, “as soon as” gives timing, and “instead of” means in place of.",
+    "solutionSteps": [
+      "第一步：閱讀完整題幹「Mia set an alarm ___ she would not forget to submit her science project before midnight.」，圈出情境與關鍵語句。",
+      "第二步：The alarm was set to help Mia remember to submit the project. “So that” introduces the purpose and is followed by a subject and verb.",
+      "第三步：答案為 A「so that」。易錯提示：“Even though” shows contrast, “as soon as” gives timing, and “instead of” means in place of."
+    ],
+    "teacherTip": "Ask whether the second clause gives a purpose, contrast, time, or replacement.",
+    "relatedWords": [
+      "so that（以便）",
+      "purpose（目的）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0311",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "字彙",
+    "knowledgePoint": "語境字義與同反義詞",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "The notice says the museum is “accessible” by bus and train, and the entrance has a ramp for wheelchair users. What does “accessible” most nearly mean?",
+    "options": [
+      "easy to reach or use",
+      "open only to members",
+      "too expensive to enter",
+      "built far from the city"
+    ],
+    "answer": 0,
+    "explanation": "語境依據：Bus and train service plus a ramp make it easier for different visitors to reach and enter. 判斷：Here, “accessible” means easy to reach or use. 正確答案為 A「easy to reach or use」。易錯提示：The notice says nothing about membership, price, or distance from the city.",
+    "solutionSteps": [
+      "第一步：閱讀完整題幹「The notice says the museum is “accessible” by bus and train, and the entrance has a ramp for wheelchair users. What does “accessible” most nearly mean?」，圈出情境與關鍵語句。",
+      "第二步：Bus and train service plus a ramp make it easier for different visitors to reach and enter. Here, “accessible” means easy to reach or use.",
+      "第三步：答案為 A「easy to reach or use」。易錯提示：The notice says nothing about membership, price, or distance from the city."
+    ],
+    "teacherTip": "Combine all the examples in the notice instead of relying on one detail.",
+    "relatedWords": [
+      "accessible（容易到達或使用的）",
+      "entrance（入口）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0312",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "文法",
+    "knowledgePoint": "過去進行式與 when",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "I ___ my bike home when I saw a wallet lying beside the road.",
+    "options": [
+      "rode",
+      "was riding",
+      "have ridden",
+      "am riding"
+    ],
+    "answer": 1,
+    "explanation": "語境依據：The bike ride was in progress when the shorter event, seeing the wallet, happened. 判斷：Use past continuous, “was riding,” for the ongoing action interrupted by a past event. 正確答案為 B「was riding」。易錯提示：“Rode” does not emphasize the action in progress; present forms do not fit “when I saw.”",
+    "solutionSteps": [
+      "第一步：閱讀完整題幹「I ___ my bike home when I saw a wallet lying beside the road.」，圈出情境與關鍵語句。",
+      "第二步：The bike ride was in progress when the shorter event, seeing the wallet, happened. Use past continuous, “was riding,” for the ongoing action interrupted by a past event.",
+      "第三步：答案為 B「was riding」。易錯提示：“Rode” does not emphasize the action in progress; present forms do not fit “when I saw.”"
+    ],
+    "teacherTip": "For a longer action interrupted by a shorter past event, use past continuous + simple past.",
+    "relatedWords": [
+      "past continuous（過去進行式）",
+      "interrupt（中斷）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0313",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "文法",
+    "knowledgePoint": "代名詞指涉",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "Ella and I brought our own lunches, but Mark forgot ___.",
+    "options": [
+      "him",
+      "his",
+      "he",
+      "himself"
+    ],
+    "answer": 1,
+    "explanation": "語境依據：The blank replaces “his lunch,” and the meaning is that Mark forgot to bring it. 判斷：“His” is a possessive pronoun that can stand alone in place of “his lunch.” 正確答案為 B「his」。易錯提示：“Him” is an object pronoun, “he” is a subject pronoun, and “himself” is reflexive.",
+    "solutionSteps": [
+      "第一步：閱讀完整題幹「Ella and I brought our own lunches, but Mark forgot ___.」，圈出情境與關鍵語句。",
+      "第二步：The blank replaces “his lunch,” and the meaning is that Mark forgot to bring it. “His” is a possessive pronoun that can stand alone in place of “his lunch.”",
+      "第三步：答案為 B「his」。易錯提示：“Him” is an object pronoun, “he” is a subject pronoun, and “himself” is reflexive."
+    ],
+    "teacherTip": "Check whether the noun after the blank is omitted; a possessive pronoun can replace the whole noun phrase.",
+    "relatedWords": [
+      "possessive pronoun（所有格代名詞）",
+      "lunch（午餐）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0314",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "文法",
+    "knowledgePoint": "副詞與形容詞",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "The students listened ___ while the guide explained how the ancient bridge was built.",
+    "options": [
+      "careful",
+      "carefully",
+      "carefulness",
+      "more careful"
+    ],
+    "answer": 1,
+    "explanation": "語境依據：The blank describes how the students listened, so it modifies a verb. 判斷：Use the adverb “carefully” to modify “listened.” 正確答案為 B「carefully」。易錯提示：“Careful” and “more careful” are adjectives, while “carefulness” is a noun.",
+    "solutionSteps": [
+      "第一步：閱讀完整題幹「The students listened ___ while the guide explained how the ancient bridge was built.」，圈出情境與關鍵語句。",
+      "第二步：The blank describes how the students listened, so it modifies a verb. Use the adverb “carefully” to modify “listened.”",
+      "第三步：答案為 B「carefully」。易錯提示：“Careful” and “more careful” are adjectives, while “carefulness” is a noun."
+    ],
+    "teacherTip": "Identify the word the blank describes; verbs are commonly modified by adverbs.",
+    "relatedWords": [
+      "carefully（仔細地）",
+      "adverb（副詞）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0315",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "綜合應用",
+    "knowledgePoint": "生活情境對話與建議",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "“I left my umbrella on the bus, and it is raining hard.” “___”",
+    "options": [
+      "You should call the bus company and ask about lost property.",
+      "You should to call the bus company and ask about lost property.",
+      "You should calling the bus company and ask about lost property.",
+      "You should called the bus company and ask about lost property."
+    ],
+    "answer": 0,
+    "explanation": "語境依據：The speaker lost an umbrella on a bus and needs a practical next step. 判斷：The suggestion fits the situation, and “should” is followed by the base verb “call.” 正確答案為 A「You should call the bus company and ask about lost property.」。易錯提示：After “should,” do not use “to call,” “calling,” or the past form “called.”",
+    "solutionSteps": [
+      "第一步：閱讀完整題幹「“I left my umbrella on the bus, and it is raining hard.” “___”」，圈出情境與關鍵語句。",
+      "第二步：The speaker lost an umbrella on a bus and needs a practical next step. The suggestion fits the situation, and “should” is followed by the base verb “call.”",
+      "第三步：答案為 A「You should call the bus company and ask about lost property.」。易錯提示：After “should,” do not use “to call,” “calling,” or the past form “called.”"
+    ],
+    "teacherTip": "Check both whether the reply helps and whether the modal verb is followed by a base verb.",
+    "relatedWords": [
+      "lost property（失物招領）",
+      "should + base verb（should 後接動詞原形）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0316",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "閱讀",
+    "knowledgePoint": "公告與細節理解",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "Read the notice: “School Garden Day: Saturday, May 18. Meet at the east gate at 8:30 a.m. Bring a hat and a reusable water bottle. The activity ends at noon.” What should participants bring?",
+    "options": [
+      "A hat and a reusable water bottle",
+      "A lunch and a pair of gloves",
+      "A map and a raincoat",
+      "A notebook and a camera"
+    ],
+    "answer": 0,
+    "explanation": "語境依據：The notice directly names two items participants should bring. 判斷：Participants should bring a hat and a reusable water bottle. 正確答案為 A「A hat and a reusable water bottle」。易錯提示：Lunch, gloves, a map, a raincoat, a notebook, and a camera are not listed.",
+    "solutionSteps": [
+      "第一步：閱讀完整題幹「Read the notice: “School Garden Day: Saturday, May 18. Meet at the east gate at 8:30 a.m. Bring a hat and a reusable water bottle. The activity ends at noon.” What should participants bring?」，圈出情境與關鍵語句。",
+      "第二步：The notice directly names two items participants should bring. Participants should bring a hat and a reusable water bottle.",
+      "第三步：答案為 A「A hat and a reusable water bottle」。易錯提示：Lunch, gloves, a map, a raincoat, a notebook, and a camera are not listed."
+    ],
+    "teacherTip": "For a “what should they bring” question, locate the explicit instruction in the notice.",
+    "relatedWords": [
+      "reusable（可重複使用的）",
+      "participant（參加者）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0317",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "文法",
+    "knowledgePoint": "最高級與範圍",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "Of all the science projects in the exhibition, Nora’s model of the solar system is ___.",
+    "options": [
+      "creative",
+      "more creative",
+      "the most creative",
+      "most creatively"
+    ],
+    "answer": 2,
+    "explanation": "語境依據：“Of all the science projects” compares Nora’s project with more than two projects. 判斷：Use the superlative “the most creative” for the highest degree among a group. 正確答案為 C「the most creative」。易錯提示：“More creative” compares two; “creative” is the positive form, and “creatively” is an adverb.",
+    "solutionSteps": [
+      "第一步：閱讀完整題幹「Of all the science projects in the exhibition, Nora’s model of the solar system is ___.」，圈出情境與關鍵語句。",
+      "第二步：“Of all the science projects” compares Nora’s project with more than two projects. Use the superlative “the most creative” for the highest degree among a group.",
+      "第三步：答案為 C「the most creative」。易錯提示：“More creative” compares two; “creative” is the positive form, and “creatively” is an adverb."
+    ],
+    "teacherTip": "Find the comparison group and decide whether it contains two items or more than two.",
+    "relatedWords": [
+      "superlative（最高級）",
+      "exhibition（展覽）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0318",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "文法",
+    "knowledgePoint": "不定代詞與主動詞一致",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "Each of the players ___ a team shirt before the opening ceremony.",
+    "options": [
+      "receive",
+      "receives",
+      "are receiving",
+      "have received"
+    ],
+    "answer": 1,
+    "explanation": "語境依據：“Each” is the subject head and takes a singular verb in the present simple. 判斷：Use “receives” to agree with the singular subject “each.” 正確答案為 B「receives」。易錯提示：Do not let the plural noun “players” next to each distract you; the subject is “each.”",
+    "solutionSteps": [
+      "第一步：閱讀完整題幹「Each of the players ___ a team shirt before the opening ceremony.」，圈出情境與關鍵語句。",
+      "第二步：“Each” is the subject head and takes a singular verb in the present simple. Use “receives” to agree with the singular subject “each.”",
+      "第三步：答案為 B「receives」。易錯提示：Do not let the plural noun “players” next to each distract you; the subject is “each.”"
+    ],
+    "teacherTip": "Find the head of the subject phrase before matching the verb.",
+    "relatedWords": [
+      "each（每一個）",
+      "subject-verb agreement（主詞動詞一致）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0319",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "閱讀",
+    "knowledgePoint": "短文理解與事件順序",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "Read the message: “Hi Sam, I put the soup in the refrigerator before leaving. Please heat it for three minutes when you get home. The bread is on the counter. —Mom” What should Sam do first after getting home?",
+    "options": [
+      "Heat the soup",
+      "Buy some bread",
+      "Put the bread in the refrigerator",
+      "Cook a new meal"
+    ],
+    "answer": 0,
+    "explanation": "語境依據：Mom gives an instruction to heat the soup when Sam gets home. 判斷：Sam should heat the soup first; the bread is already on the counter. 正確答案為 A「Heat the soup」。易錯提示：There is no request to buy bread, refrigerate it, or cook a new meal.",
+    "solutionSteps": [
+      "第一步：閱讀完整題幹「Read the message: “Hi Sam, I put the soup in the refrigerator before leaving. Please heat it for three minutes when you get home. The bread is on the counter. —Mom” What should Sam do first after getting home?」，圈出情境與關鍵語句。",
+      "第二步：Mom gives an instruction to heat the soup when Sam gets home. Sam should heat the soup first; the bread is already on the counter.",
+      "第三步：答案為 A「Heat the soup」。易錯提示：There is no request to buy bread, refrigerate it, or cook a new meal."
+    ],
+    "teacherTip": "Separate the actions explicitly requested from details that only describe where things are.",
+    "relatedWords": [
+      "refrigerator（冰箱）",
+      "counter（流理臺）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0320",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "文法",
+    "knowledgePoint": "時間副詞子句",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "Please wait here ___ the nurse calls your name.",
+    "options": [
+      "until",
+      "during",
+      "while of",
+      "by"
+    ],
+    "answer": 0,
+    "explanation": "語境依據：The person must stay in the same place up to the moment the nurse calls. 判斷：“Until” means up to a particular time or event. 正確答案為 A「until」。易錯提示：“During” needs a noun phrase; “while of” is ungrammatical, and “by” does not express continuing to wait.",
+    "solutionSteps": [
+      "第一步：閱讀完整題幹「Please wait here ___ the nurse calls your name.」，圈出情境與關鍵語句。",
+      "第二步：The person must stay in the same place up to the moment the nurse calls. “Until” means up to a particular time or event.",
+      "第三步：答案為 A「until」。易錯提示：“During” needs a noun phrase; “while of” is ungrammatical, and “by” does not express continuing to wait."
+    ],
+    "teacherTip": "For an action that continues and then stops at an event, consider “until.”",
+    "relatedWords": [
+      "until（直到）",
+      "nurse（護理師）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0321",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "文法",
+    "knowledgePoint": "數量詞與可數名詞",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "There are only ___ seats left on the bus, so we can all sit together.",
+    "options": [
+      "a little",
+      "a few",
+      "much",
+      "little"
+    ],
+    "answer": 1,
+    "explanation": "語境依據：“Seats” is a plural countable noun, and the sentence says some seats remain. 判斷：Use “a few” with plural countable nouns to mean a small number. 正確答案為 B「a few」。易錯提示：“A little” and “little” go with uncountable nouns; “much” also describes an uncountable amount.",
+    "solutionSteps": [
+      "第一步：閱讀完整題幹「There are only ___ seats left on the bus, so we can all sit together.」，圈出情境與關鍵語句。",
+      "第二步：“Seats” is a plural countable noun, and the sentence says some seats remain. Use “a few” with plural countable nouns to mean a small number.",
+      "第三步：答案為 B「a few」。易錯提示：“A little” and “little” go with uncountable nouns; “much” also describes an uncountable amount."
+    ],
+    "teacherTip": "First decide whether the noun is countable, then choose the matching quantity word.",
+    "relatedWords": [
+      "a few（少數幾個）",
+      "countable noun（可數名詞）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0322",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "閱讀",
+    "knowledgePoint": "行程資訊與時間推算",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "A train leaves Hsinchu at 10:20 a.m. and arrives in Taipei 45 minutes later. At what time does it arrive?",
+    "options": [
+      "10:55 a.m.",
+      "11:05 a.m.",
+      "11:15 a.m.",
+      "11:25 a.m."
+    ],
+    "answer": 1,
+    "explanation": "語境依據：The train leaves at 10:20 and the trip takes 45 minutes. 判斷：Adding 40 minutes gives 11:00; adding 5 more minutes gives 11:05. 正確答案為 B「11:05 a.m.」。易錯提示：10:55 adds only 35 minutes; 11:15 and 11:25 add 55 and 65 minutes.",
+    "solutionSteps": [
+      "第一步：閱讀完整題幹「A train leaves Hsinchu at 10:20 a.m. and arrives in Taipei 45 minutes later. At what time does it arrive?」，圈出情境與關鍵語句。",
+      "第二步：The train leaves at 10:20 and the trip takes 45 minutes. Adding 40 minutes gives 11:00; adding 5 more minutes gives 11:05.",
+      "第三步：答案為 B「11:05 a.m.」。易錯提示：10:55 adds only 35 minutes; 11:15 and 11:25 add 55 and 65 minutes."
+    ],
+    "teacherTip": "Add the duration to the departure time in small steps and check the minute total.",
+    "relatedWords": [
+      "arrive（抵達）",
+      "duration（所需時間）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0323",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "文法",
+    "knowledgePoint": "動詞搭配與介系詞",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "Our class is looking forward to ___ the new sports center next month.",
+    "options": [
+      "visit",
+      "visiting",
+      "visited",
+      "be visit"
+    ],
+    "answer": 1,
+    "explanation": "語境依據：The phrase is “look forward to,” where “to” is a preposition. 判斷：A preposition is followed by a noun or gerund, so use “visiting.” 正確答案為 B「visiting」。易錯提示：The “to” here is not part of an infinitive; “visit,” “visited,” and “be visit” do not fit the phrase.",
+    "solutionSteps": [
+      "第一步：閱讀完整題幹「Our class is looking forward to ___ the new sports center next month.」，圈出情境與關鍵語句。",
+      "第二步：The phrase is “look forward to,” where “to” is a preposition. A preposition is followed by a noun or gerund, so use “visiting.”",
+      "第三步：答案為 B「visiting」。易錯提示：The “to” here is not part of an infinitive; “visit,” “visited,” and “be visit” do not fit the phrase."
+    ],
+    "teacherTip": "Remember that some “to” phrases take an -ing form because to is a preposition.",
+    "relatedWords": [
+      "look forward to（期待）",
+      "gerund（動名詞）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0324",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "綜合應用",
+    "knowledgePoint": "情境對話與間接問句",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "At the information desk, a visitor says, “Excuse me, ___?”",
+    "options": [
+      "could you tell me where the nearest restroom is",
+      "where is the nearest restroom tell me",
+      "could you tell me where is the nearest restroom",
+      "you tell me where the nearest restroom"
+    ],
+    "answer": 0,
+    "explanation": "語境依據：The visitor is making a polite request for directions at an information desk. 判斷：“Could you tell me...” is polite, and the embedded question uses statement word order: “where the nearest restroom is.” 正確答案為 A「could you tell me where the nearest restroom is」。易錯提示：The third choice incorrectly uses direct-question order inside an indirect question; the other choices are not grammatical polite requests.",
+    "solutionSteps": [
+      "第一步：閱讀完整題幹「At the information desk, a visitor says, “Excuse me, ___?”」，圈出情境與關鍵語句。",
+      "第二步：The visitor is making a polite request for directions at an information desk. “Could you tell me...” is polite, and the embedded question uses statement word order: “where the nearest restroom is.”",
+      "第三步：答案為 A「could you tell me where the nearest restroom is」。易錯提示：The third choice incorrectly uses direct-question order inside an indirect question; the other choices are not grammatical polite requests."
+    ],
+    "teacherTip": "After “Could you tell me,” put the subject before the verb.",
+    "relatedWords": [
+      "information desk（服務台）",
+      "restroom（洗手間）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0325",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "文法",
+    "knowledgePoint": "情態助動詞與推測",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "The ground is wet and dark clouds are moving in. It ___ soon, so take an umbrella.",
+    "options": [
+      "may rain",
+      "may rains",
+      "may raining",
+      "may rained"
+    ],
+    "answer": 0,
+    "explanation": "語境依據：Wet ground and dark clouds suggest rain is possible, and the advice is to prepare. 判斷：“May” expresses possibility and is followed by the base verb “rain.” 正確答案為 A「may rain」。易錯提示：A modal is not followed by an -s form, an -ing form, or a past-tense form.",
+    "solutionSteps": [
+      "第一步：閱讀完整題幹「The ground is wet and dark clouds are moving in. It ___ soon, so take an umbrella.」，圈出情境與關鍵語句。",
+      "第二步：Wet ground and dark clouds suggest rain is possible, and the advice is to prepare. “May” expresses possibility and is followed by the base verb “rain.”",
+      "第三步：答案為 A「may rain」。易錯提示：A modal is not followed by an -s form, an -ing form, or a past-tense form."
+    ],
+    "teacherTip": "After a modal such as may, use the base form of the verb.",
+    "relatedWords": [
+      "may（可能）",
+      "base form（原形）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  }
+]

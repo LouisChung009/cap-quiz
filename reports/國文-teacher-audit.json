@@ -1,0 +1,218 @@
+[
+  {
+    "id": "OFF-0001–OFF-0916（subject=國文之216題官方題）",
+    "severity": "high",
+    "problem": "216題官方題的 explanation 全部使用同一種空泛模板，只說正確選項『最完整符合題幹所給的條件與證據』；solutionSteps 也僅重述題幹、正解與其餘選項，沒有引用本文句子、圖表數值、字詞義或推論鏈。這不構成可供學生訂正的實質解析。",
+    "suggestedFix": "逐題重寫解析：明確引用題文或圖表中的關鍵內容，說明正解如何成立，並逐一指出其他選項與材料衝突之處；圖表題應列出實際數值或視覺特徵，文言題應補譯關鍵句。"
+  },
+  {
+    "id": "OFF-0006, OFF-0038, OFF-0881",
+    "severity": "critical",
+    "problem": "題幹或必要資料含大量 (cid:####) 亂碼，且 requiresImage=false。前台只在 requiresImage=true 時顯示 questionImages，因此學生實際看不到可替代亂碼的官方試卷圖，無法只靠前台材料作答。",
+    "suggestedFix": "重新 OCR 並還原完整文字／表格；若保留官方頁面作為作答材料，將 requiresImage 設為 true，並確認 questionImages 包含完整題目與前置材料頁。"
+  },
+  {
+    "id": "OFF-0013, OFF-0016, OFF-0033, OFF-0875, OFF-0879, OFF-0895",
+    "severity": "high",
+    "problem": "文字欄位含大量 (cid:####) 亂碼，圖像型選項並被降成 A、B、C、D。雖然前台會顯示官方試卷圖片，純文字題幹與選項仍不可讀，破壞無障礙、搜尋、朗讀與解析引用。",
+    "suggestedFix": "保留可見圖片的同時，重新 OCR 題幹；為每個圖像選項提供可辨識的裁圖或具體文字描述，並讓解析引用實際圖像特徵。"
+  },
+  {
+    "id": "OFF-0041",
+    "severity": "critical",
+    "problem": "D選項後誤接下一題題組（第42～43題）的整段小說，選項嚴重截斷／污染；本題本身又缺少所稱『本文』，且 requiresImage=false，前台無法顯示試卷頁。",
+    "suggestedFix": "將D選項截回『藉由誇飾的筆法描述颱風肆虐後造成的災害』；補入本題完整本文，或啟用並裁切顯示本題所需頁面。"
+  },
+  {
+    "id": "OFF-0470",
+    "severity": "high",
+    "problem": "D選項後夾入頁尾『二、題組：（25～42題）請閱讀以下詩作……』，屬跨題頁尾雜訊。",
+    "suggestedFix": "將D選項截回『杜偉長堅持移堤，導致年年發生水患』，移除其後頁尾與下一題提示。"
+  },
+  {
+    "id": "OFF-0475",
+    "severity": "critical",
+    "problem": "D選項後誤接第30～31題的完整閱讀本文，造成選項嚴重污染；本題所需跳水規則圖文同時未在前台顯示（requiresImage=false）。",
+    "suggestedFix": "將D選項截回『(8 + 7 + 9) × 3.0』；移除下一題本文，並將跳水規則圖文設為可見材料或改寫為完整文字資料。"
+  },
+  {
+    "id": "OFF-0695",
+    "severity": "critical",
+    "problem": "D選項後誤接第36～37題《魯冰花》整段題組本文，選項遭大量跨題內容污染。",
+    "suggestedFix": "將D選項截回『深偽技術的爭議在人類的創意會被人工智慧取代』，刪除其後下一題題組材料。"
+  },
+  {
+    "id": "OFF-0905",
+    "severity": "critical",
+    "problem": "D選項後誤接第32～33題的整段短文，選項遭大量跨題內容污染；本題引用甲文、乙劇本與畫線處，但 requiresImage=false，前台亦不顯示必要材料。",
+    "suggestedFix": "將D選項截回『角色行動』；刪除其後下一題本文，並補入或顯示甲文、乙劇本及畫線標示。"
+  },
+  {
+    "id": "OFF-0043, OFF-0045, OFF-0047, OFF-0048",
+    "severity": "critical",
+    "problem": "題目依賴前一題組的小說、本文、甲乙文或丙表，但資料本身未附在 question/options，requiresImage=false 使官方頁面在前台被隱藏。隨機單題出現時無法作答。",
+    "suggestedFix": "每題均應攜帶完整共用材料；或將 requiresImage 設為 true 並確保 questionImages 含題組起始頁到本題頁，不可依賴前一題曾經顯示。"
+  },
+  {
+    "id": "OFF-0233, OFF-0236",
+    "severity": "critical",
+    "problem": "題幹分別引用『這張圖』與『下表中的獸字』，但文字資料未包含圖表，requiresImage=false 導致官方頁面不顯示。",
+    "suggestedFix": "補入圖／表及替代文字，或啟用對應 questionImages；字形題應提供清楚裁圖，不可只留答案文字。"
+  },
+  {
+    "id": "OFF-0257, OFF-0258, OFF-0259",
+    "severity": "critical",
+    "problem": "第25題缺少甲、乙兩項資料中的完整圖表；第26～27題缺少綠能家電診所海報。三題皆 requiresImage=false，前台看不到必要資料。",
+    "suggestedFix": "補齊兩項統計資料與海報，或啟用包含完整材料的圖片；逐題確認獨立抽題時材料仍會顯示。"
+  },
+  {
+    "id": "OFF-0261, OFF-0262, OFF-0263",
+    "severity": "critical",
+    "problem": "三題分別引用本文、小說畫線句及小說情節，但共用閱讀材料未附於題目，requiresImage=false，前台無法作答。",
+    "suggestedFix": "每題附上完整閱讀材料與甲乙丙丁畫線標記，或啟用完整題組頁面圖片。"
+  },
+  {
+    "id": "OFF-0269, OFF-0270, OFF-0271, OFF-0272",
+    "severity": "critical",
+    "problem": "第37～38題缺少洞穴寓言本文；第39～40題缺少甲、乙兩文。requiresImage=false 使共用材料不會出現在前台。",
+    "suggestedFix": "將各題組全文併入每題可見材料，或啟用並涵蓋題組起始頁的 questionImages。"
+  },
+  {
+    "id": "OFF-0471, OFF-0472",
+    "severity": "critical",
+    "problem": "題幹引用『本詩』，但詩作未附在文字欄位，requiresImage=false，前台不會顯示官方頁面。",
+    "suggestedFix": "補入完整詩作，或啟用含詩作的題組圖片。"
+  },
+  {
+    "id": "OFF-0473, OFF-0474, OFF-0475",
+    "severity": "critical",
+    "problem": "三題均依賴跳水比賽圖文與計分規則，前台因 requiresImage=false 不顯示該材料；第29題即使列出評審分數，也缺少如何刪分、加總及乘難度係數的規則。",
+    "suggestedFix": "提供完整規則圖表與替代文字，並將圖片設為作答必要材料。"
+  },
+  {
+    "id": "OFF-0476, OFF-0477, OFF-0478, OFF-0479",
+    "severity": "critical",
+    "problem": "第30～31題缺少圖書館閱讀本文；第32～33題缺少甲、乙兩文。皆 requiresImage=false，無法獨立作答。",
+    "suggestedFix": "逐題附上共用全文，或啟用涵蓋題組起始頁的圖片，不要依賴前一題選項中誤夾的材料。"
+  },
+  {
+    "id": "OFF-0481, OFF-0486, OFF-0488",
+    "severity": "critical",
+    "problem": "三題各自依賴未提供的本文（網路隱私、仇鸞嚴嵩、梁王楊朱），requiresImage=false，前台只呈現問題與選項。",
+    "suggestedFix": "補入完整本文或啟用完整題組頁圖片；確認每題單獨載入即可作答。"
+  },
+  {
+    "id": "OFF-0661, OFF-0665",
+    "severity": "critical",
+    "problem": "題幹引用粉絲專頁貼文與右側書店廣告，但材料未進入文字欄位，requiresImage=false，前台不顯示官方頁面。",
+    "suggestedFix": "提供貼文／廣告裁圖及替代文字，並設為必顯示材料。"
+  },
+  {
+    "id": "OFF-0664",
+    "severity": "high",
+    "problem": "問卷表格被錯誤攤平成題幹與選項；B、C、D列內容黏連、欄位界線消失，無法可靠判斷『題目／立場／選擇』三欄的配對，且 requiresImage=false。",
+    "suggestedFix": "以真正表格或逐列完整句子重建四個選項，並顯示原表裁圖供核對。"
+  },
+  {
+    "id": "OFF-0685, OFF-0686, OFF-0691, OFF-0698, OFF-0699",
+    "severity": "critical",
+    "problem": "第25～26題缺少愛丁堡閱讀本文，第31題缺少展覽概述，第38～39題缺少甲乙文；requiresImage=false 使必要材料不會顯示。",
+    "suggestedFix": "補齊各題組全文／展覽資料，或啟用包含題組起始頁的圖片。"
+  },
+  {
+    "id": "OFF-0684",
+    "severity": "high",
+    "problem": "註釋與頁面符號被錯併入A、B選項：A尾端有『』，B尾端黏入『1.繅：音ㄙㄠ，煮繭抽絲』，造成選項不乾淨且長度失衡。",
+    "suggestedFix": "把註釋移到題文後的獨立 notes/context 欄位，移除選項中的頁面符號。"
+  },
+  {
+    "id": "OFF-0877, OFF-0878, OFF-0880, OFF-0881",
+    "severity": "critical",
+    "problem": "四題分別缺少字形表、右側詩、前置統計資料及甲乙圖；requiresImage=false，前台不顯示官方試卷頁。其中 OFF-0881 的題幹另含 CID 亂碼。",
+    "suggestedFix": "補入各項表、詩與圖，提供替代文字，並將必要圖片設為前台必顯示。"
+  },
+  {
+    "id": "OFF-0900, OFF-0903, OFF-0904, OFF-0905, OFF-0907, OFF-0910, OFF-0914, OFF-0915",
+    "severity": "critical",
+    "problem": "這些題目分別依賴未附上的公呆本文、甲文與乙劇本、金錢短文畫線句、新舊《五代史》材料、石月屏本文。requiresImage=false 導致前台沒有作答依據。",
+    "suggestedFix": "每題附帶完整共用材料及畫線標示，或啟用從題組起始頁到本題頁的所有 questionImages。"
+  },
+  {
+    "id": "OFF-0003",
+    "severity": "high",
+    "problem": "圖像選項的 OCR 排序錯亂：C只剩『沙漠中的綠色』，D黏成『花色相同的馬 仙人掌 賽克磁磚』，原本四幅景物與文字無法正確對應；requiresImage=false 又不顯示原圖。",
+    "suggestedFix": "依原試卷重建四個完整景物選項，或改用四張裁圖並逐一提供替代文字。"
+  },
+  {
+    "id": "OFF-0019, OFF-0885, OFF-0907",
+    "severity": "high",
+    "problem": "題幹要求判讀『畫線處』，但純文字欄位沒有保留底線範圍。OFF-0019 僅以空白代替待填句，OFF-0885 與 OFF-0907 無法辨認究竟哪一句被畫線；又未顯示官方頁面。",
+    "suggestedFix": "以明確標記（例如【畫線句：……】或 <u>）保留範圍；填空題使用可辨識的連續底線並說明位置。"
+  },
+  {
+    "id": "OFF-0028, OFF-0252, OFF-0684",
+    "severity": "medium",
+    "problem": "註釋、註腳號碼與『』頁面符號被混入題文或個別選項，造成選項內容不對稱，可能讓學生誤把註釋視為選項的一部分。",
+    "suggestedFix": "把所有註釋移至統一的可見前置材料區，清除頁面控制符號與游離註腳號碼。"
+  },
+  {
+    "id": "CHI-0001–CHI-0100",
+    "severity": "medium",
+    "problem": "100題實際為同一題『未雨綢繆』，只改閱讀札記序號與選項順序；沒有100個不同題目。雖答案均可成立，但題庫抽樣會大量重複。",
+    "suggestedFix": "保留一題，其餘改寫成不同成語、不同語境與不同干擾選項，並逐題提供與語境相連的解析。"
+  },
+  {
+    "id": "CHI-0101–CHI-0200",
+    "severity": "medium",
+    "problem": "100題實際為同一題『不恥下問』中『恥』的字義，只改序號與選項順序。",
+    "suggestedFix": "改為多個一字多義實例，讓題幹語境與答案真正變化。"
+  },
+  {
+    "id": "CHI-0201–CHI-0300",
+    "severity": "high",
+    "problem": "100題均為同一句擬人題，只把『第N扇窗』由1改到100；高序號窗戶語境明顯是機械生成痕跡，題意不自然，且沒有題目多樣性。",
+    "suggestedFix": "以不同詩句、散文句與擬人手法重寫，不要以數字替換製造假題量。"
+  },
+  {
+    "id": "CHI-0301–CHI-0400",
+    "severity": "medium",
+    "problem": "100題的節省／資源配置主旨完全相同，只改札記序號與選項順序。",
+    "suggestedFix": "改用不同長度與觀點的短文，涵蓋主旨、推論、寫法與訊息統整。"
+  },
+  {
+    "id": "CHI-0401–CHI-0500",
+    "severity": "medium",
+    "problem": "100題均測『朱門』借代富貴人家，只有序號與選項位置不同。",
+    "suggestedFix": "改寫成多種借代詞與實際語境，避免同題重複。"
+  },
+  {
+    "id": "CHI-0501–CHI-0600",
+    "severity": "medium",
+    "problem": "100題均引用『學而不思則罔，思而不學則殆』，答案皆為學思並重，只有序號與選項順序不同。",
+    "suggestedFix": "改用不同文言語料與理解層次，加入關鍵詞解釋和文本證據。"
+  },
+  {
+    "id": "CHI-0601–CHI-0700",
+    "severity": "medium",
+    "problem": "100題均以第N號資料櫃測『井然有序』，只有櫃號與選項順序不同。",
+    "suggestedFix": "改用不同成語與真實情境，並設計具迷惑力但語義可辨的選項。"
+  },
+  {
+    "id": "CHI-0701–CHI-0800",
+    "severity": "medium",
+    "problem": "100題均為同一個『問題—分析—解決』篇章結構題，只改札記序號與選項順序。",
+    "suggestedFix": "提供不同篇章材料，實際涵蓋總分、因果、並列、轉折與問題解決等結構。"
+  },
+  {
+    "id": "CHI-0801–CHI-0900",
+    "severity": "high",
+    "problem": "100題均測『快速』修飾『跑』，只把月臺編號改為1至100；『第100月臺』等語境不自然，顯示以數字替換灌題。",
+    "suggestedFix": "用不同句型、詞性與修飾關係重寫，避免不合理的月臺編號。"
+  },
+  {
+    "id": "CHI-0901–CHI-1000",
+    "severity": "medium",
+    "problem": "100題均引用『己所不欲，勿施於人』，答案皆為尊重他人感受，只有序號與選項順序不同。",
+    "suggestedFix": "改用不同思想義理文本與生活情境，要求學生辨析推己及人的界線與應用。"
+  }
+]

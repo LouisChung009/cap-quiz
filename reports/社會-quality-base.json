@@ -1,0 +1,332 @@
+[
+  {
+    "id": "SOC-0001",
+    "subject": "社會",
+    "gradeSemester": "七年級上",
+    "unit": "公民",
+    "knowledgePoint": "權力分立",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "案例 1 討論民主政府的權力分立，其最主要目的為何？",
+    "options": [
+      "避免權力過度集中",
+      "提高所有稅率",
+      "取消定期選舉",
+      "讓意見完全一致"
+    ],
+    "answer": 0,
+    "explanation": "權力分立與制衡可降低權力過度集中的風險。",
+    "solutionSteps": [
+      "先辨認考點：本題考「權力分立」。",
+      "權力分立與制衡可降低權力過度集中的風險。",
+      "排除不符合題意的選項後，可確定答案是「避免權力過度集中」。"
+    ],
+    "teacherTip": "權力分立的核心是分權與制衡，不代表各機關彼此完全不合作。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "SOC-0101",
+    "subject": "社會",
+    "gradeSemester": "九年級上",
+    "unit": "地理",
+    "knowledgePoint": "臺灣天氣",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "氣象紀錄 1 顯示臺灣夏季出現強風豪雨，最可能受哪種天氣系統影響？",
+    "options": [
+      "颱風",
+      "寒流",
+      "沙塵暴",
+      "暴風雪"
+    ],
+    "answer": 0,
+    "explanation": "西北太平洋颱風常在夏秋影響臺灣。",
+    "solutionSteps": [
+      "先辨認考點：本題考「臺灣天氣」。",
+      "西北太平洋颱風常在夏秋影響臺灣。",
+      "排除不符合題意的選項後，可確定答案是「颱風」。"
+    ],
+    "teacherTip": "依季節、風向與降雨型態判讀；夏秋強風豪雨常先想到颱風。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "SOC-0201",
+    "subject": "社會",
+    "gradeSemester": "八年級上",
+    "unit": "臺灣史",
+    "knowledgePoint": "清領初期",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "史料編號 1 提到清廷於 1684 年設置行政區管轄臺灣，該行政區為何？",
+    "options": [
+      "臺灣府",
+      "臺北州",
+      "高雄州",
+      "臺灣省"
+    ],
+    "answer": 0,
+    "explanation": "1684 年清廷設臺灣府，隸屬福建省。",
+    "solutionSteps": [
+      "先辨認考點：本題考「清領初期」。",
+      "1684 年清廷設臺灣府，隸屬福建省。",
+      "排除不符合題意的選項後，可確定答案是「臺灣府」。"
+    ],
+    "teacherTip": "歷史題要同時核對年代、政權與行政名稱，避免把日治或戰後名稱混入。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "SOC-0301",
+    "subject": "社會",
+    "gradeSemester": "七年級上",
+    "unit": "經濟",
+    "knowledgePoint": "供需法則",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "市場案例 1 中，其他條件不變而商品需求增加，價格通常受到何種壓力？",
+    "options": [
+      "上升",
+      "下降",
+      "固定不變",
+      "必定歸零"
+    ],
+    "answer": 0,
+    "explanation": "供給不變時，需求增加通常使均衡價格上升。",
+    "solutionSteps": [
+      "先辨認考點：本題考「供需法則」。",
+      "供給不變時，需求增加通常使均衡價格上升。",
+      "排除不符合題意的選項後，可確定答案是「上升」。"
+    ],
+    "teacherTip": "判斷價格前先確認題目是否說其他條件不變，再分辨是需求或供給曲線移動。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "SOC-0401",
+    "subject": "社會",
+    "gradeSemester": "九年級上",
+    "unit": "地理",
+    "knowledgePoint": "都市化",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "人口資料 1 顯示大量人口由鄉村移往都市，最直接造成哪種現象？",
+    "options": [
+      "都市化程度提高",
+      "海平面下降",
+      "板塊停止移動",
+      "季風消失"
+    ],
+    "answer": 0,
+    "explanation": "人口向都市集中會提高都市人口比例。",
+    "solutionSteps": [
+      "先辨認考點：本題考「都市化」。",
+      "人口向都市集中會提高都市人口比例。",
+      "排除不符合題意的選項後，可確定答案是「都市化程度提高」。"
+    ],
+    "teacherTip": "都市化看都市人口比例與人口集中，不等於每個都市人口都必然增加。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "SOC-0501",
+    "subject": "社會",
+    "gradeSemester": "八年級上",
+    "unit": "公民",
+    "knowledgePoint": "消費者保護",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "交易案例 1 中，消費者買到有重大瑕疵的商品，最直接涉及哪一類權益？",
+    "options": [
+      "消費者權益",
+      "參政權",
+      "宗教自由",
+      "著作人格權"
+    ],
+    "answer": 0,
+    "explanation": "商品品質與交易保障屬消費者保護範圍。",
+    "solutionSteps": [
+      "先辨認考點：本題考「消費者保護」。",
+      "商品品質與交易保障屬消費者保護範圍。",
+      "排除不符合題意的選項後，可確定答案是「消費者權益」。"
+    ],
+    "teacherTip": "商品安全、品質、標示與交易公平通常屬消費者保護範圍。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "SOC-0601",
+    "subject": "社會",
+    "gradeSemester": "七年級上",
+    "unit": "世界史",
+    "knowledgePoint": "工業革命",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "歷史卡片 1 問：工業革命最早在哪一國發展？",
+    "options": [
+      "英國",
+      "日本",
+      "印度",
+      "巴西"
+    ],
+    "answer": 0,
+    "explanation": "18 世紀後期工業革命首先在英國發展。",
+    "solutionSteps": [
+      "先辨認考點：本題考「工業革命」。",
+      "18 世紀後期工業革命首先在英國發展。",
+      "排除不符合題意的選項後，可確定答案是「英國」。"
+    ],
+    "teacherTip": "記憶歷史事件時可連結時間、地點、條件與影響，而非只背單一答案。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "SOC-0701",
+    "subject": "社會",
+    "gradeSemester": "九年級上",
+    "unit": "地理",
+    "knowledgePoint": "人口分布",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "地理資料 1 顯示臺灣西部平原人口較稠密，最主要的有利條件為何？",
+    "options": [
+      "地勢平坦且交通便利",
+      "終年大量降雪",
+      "火山分布最密集",
+      "完全沒有河川"
+    ],
+    "answer": 0,
+    "explanation": "西部地形較平坦，聚落、交通與產業發展條件較佳。",
+    "solutionSteps": [
+      "先辨認考點：本題考「人口分布」。",
+      "西部地形較平坦，聚落、交通與產業發展條件較佳。",
+      "排除不符合題意的選項後，可確定答案是「地勢平坦且交通便利」。"
+    ],
+    "teacherTip": "人口分布要綜合地形、交通、水源與產業，不宜只看單一自然因素。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "SOC-0801",
+    "subject": "社會",
+    "gradeSemester": "八年級上",
+    "unit": "經濟",
+    "knowledgePoint": "通貨膨脹",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "經濟報告 1 顯示物價普遍且持續上漲，貨幣購買力通常如何變化？",
+    "options": [
+      "降低",
+      "提高",
+      "完全不變",
+      "立即變成零"
+    ],
+    "answer": 0,
+    "explanation": "通貨膨脹時，同樣金額通常能購買的商品與服務減少。",
+    "solutionSteps": [
+      "先辨認考點：本題考「通貨膨脹」。",
+      "通貨膨脹時，同樣金額通常能購買的商品與服務減少。",
+      "排除不符合題意的選項後，可確定答案是「降低」。"
+    ],
+    "teacherTip": "物價普遍且持續上漲才是通膨；個別商品漲價不一定構成通膨。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "SOC-0901",
+    "subject": "社會",
+    "gradeSemester": "七年級上",
+    "unit": "公民",
+    "knowledgePoint": "平等原則",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "法治案例 1 強調「法律之前人人平等」，最接近哪一原則？",
+    "options": [
+      "平等原則",
+      "秘密原則",
+      "世襲原則",
+      "多數暴力"
+    ],
+    "answer": 0,
+    "explanation": "人民不應因不合理差別而受到不同法律待遇。",
+    "solutionSteps": [
+      "先辨認考點：本題考「平等原則」。",
+      "人民不應因不合理差別而受到不同法律待遇。",
+      "排除不符合題意的選項後，可確定答案是「平等原則」。"
+    ],
+    "teacherTip": "平等不是所有人一律相同，而是相同情況相同處理、合理差別可不同處理。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  }
+]

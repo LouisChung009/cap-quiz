@@ -1,0 +1,333 @@
+[
+  {
+    "id": "SCI-QB-001",
+    "subject": "自然",
+    "gradeSemester": "七年級上",
+    "unit": "物理",
+    "knowledgePoint": "等速運動",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "實驗 1 中，小車沿直線等速度前進。忽略阻力時，其合力為何？",
+    "options": [
+      "合力為零",
+      "持續增加",
+      "方向不斷改變",
+      "一定大於重力"
+    ],
+    "answer": 0,
+    "explanation": "等速直線運動的速度不變，合力為零。",
+    "solutionSteps": [
+      "先辨認題目條件：「實驗 1 中，小車沿直線等速度前進。忽略阻力時，其合力為何？」",
+      "正確選項是 A「合力為零」，可由題目所考的「等速運動」概念判斷。",
+      "核對其他選項後，排除與上述條件或科學概念不符的敘述。"
+    ],
+    "teacherTip": "等速直線運動代表速度大小與方向都不變，因此加速度和合力皆為零。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "SCI-QB-002",
+    "subject": "自然",
+    "gradeSemester": "九年級上",
+    "unit": "化學",
+    "knowledgePoint": "化學變化",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "觀察紀錄 1 中，哪一現象屬於化學變化？",
+    "options": [
+      "鐵釘生鏽",
+      "冰塊融化",
+      "水受熱沸騰",
+      "糖溶於水"
+    ],
+    "answer": 0,
+    "explanation": "鐵生鏽產生新物質氧化鐵。",
+    "solutionSteps": [
+      "先辨認題目條件：「觀察紀錄 1 中，哪一現象屬於化學變化？」",
+      "正確選項是 A「鐵釘生鏽」，可由題目所考的「化學變化」概念判斷。",
+      "核對其他選項後，排除與上述條件或科學概念不符的敘述。"
+    ],
+    "teacherTip": "判斷重點是有沒有新物質生成；狀態改變通常仍是物理變化。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "SCI-QB-003",
+    "subject": "自然",
+    "gradeSemester": "八年級上",
+    "unit": "生物",
+    "knowledgePoint": "光合作用",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "第 1 株綠色植物進行光合作用時，主要吸收哪一種氣體？",
+    "options": [
+      "二氧化碳",
+      "氧氣",
+      "氮氣",
+      "氫氣"
+    ],
+    "answer": 0,
+    "explanation": "光合作用利用二氧化碳與水合成有機物。",
+    "solutionSteps": [
+      "先辨認題目條件：「第 1 株綠色植物進行光合作用時，主要吸收哪一種氣體？」",
+      "正確選項是 A「二氧化碳」，可由題目所考的「光合作用」概念判斷。",
+      "核對其他選項後，排除與上述條件或科學概念不符的敘述。"
+    ],
+    "teacherTip": "不要混淆光合作用與呼吸作用：前者吸收二氧化碳，後者通常消耗氧氣。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "SCI-QB-004",
+    "subject": "自然",
+    "gradeSemester": "七年級上",
+    "unit": "地球科學",
+    "knowledgePoint": "四季成因",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "針對觀測點 1 的四季變化，最主要的成因為何？",
+    "options": [
+      "地軸傾斜且地球繞太陽公轉",
+      "地球每天自轉",
+      "月球繞地球公轉",
+      "太陽亮度每季劇變"
+    ],
+    "answer": 0,
+    "explanation": "地軸傾斜配合公轉，使日照角度與時間出現季節差異。",
+    "solutionSteps": [
+      "先辨認題目條件：「針對觀測點 1 的四季變化，最主要的成因為何？」",
+      "正確選項是 A「地軸傾斜且地球繞太陽公轉」，可由題目所考的「四季成因」概念判斷。",
+      "核對其他選項後，排除與上述條件或科學概念不符的敘述。"
+    ],
+    "teacherTip": "四季不是地球離太陽遠近造成，而是地軸傾斜配合公轉。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "SCI-QB-005",
+    "subject": "自然",
+    "gradeSemester": "九年級上",
+    "unit": "能量",
+    "knowledgePoint": "重力位能",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "將編號 1 的同一物體由一樓搬到五樓，明顯增加的是哪一項？",
+    "options": [
+      "重力位能",
+      "質量",
+      "密度",
+      "電量"
+    ],
+    "answer": 0,
+    "explanation": "同一物體高度增加，重力位能增加。",
+    "solutionSteps": [
+      "先辨認題目條件：「將編號 1 的同一物體由一樓搬到五樓，明顯增加的是哪一項？」",
+      "正確選項是 A「重力位能」，可由題目所考的「重力位能」概念判斷。",
+      "核對其他選項後，排除與上述條件或科學概念不符的敘述。"
+    ],
+    "teacherTip": "同一物體的質量不變，高度增加時重力位能增加。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "SCI-QB-006",
+    "subject": "自然",
+    "gradeSemester": "八年級上",
+    "unit": "化學",
+    "knowledgePoint": "酸鹼判斷",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "溶液 1 的 pH 值為 1，此溶液屬於哪一類？",
+    "options": [
+      "酸性",
+      "中性",
+      "鹼性",
+      "無法判斷"
+    ],
+    "answer": 0,
+    "explanation": "pH 小於 7 的水溶液呈酸性。",
+    "solutionSteps": [
+      "先辨認題目條件：「溶液 1 的 pH 值為 1，此溶液屬於哪一類？」",
+      "正確選項是 A「酸性」，可由題目所考的「酸鹼判斷」概念判斷。",
+      "核對其他選項後，排除與上述條件或科學概念不符的敘述。"
+    ],
+    "teacherTip": "25°C 時 pH＜7 為酸性、＝7 為中性、＞7 為鹼性。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "SCI-QB-007",
+    "subject": "自然",
+    "gradeSemester": "七年級上",
+    "unit": "生物",
+    "knowledgePoint": "呼吸系統",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "人體模型 1 中，負責與外界進行氣體交換的主要器官為何？",
+    "options": [
+      "肺",
+      "胃",
+      "腎臟",
+      "肝臟"
+    ],
+    "answer": 0,
+    "explanation": "肺泡是氧氣與二氧化碳交換的主要場所。",
+    "solutionSteps": [
+      "先辨認題目條件：「人體模型 1 中，負責與外界進行氣體交換的主要器官為何？」",
+      "正確選項是 A「肺」，可由題目所考的「呼吸系統」概念判斷。",
+      "核對其他選項後，排除與上述條件或科學概念不符的敘述。"
+    ],
+    "teacherTip": "真正進行氣體交換的是肺泡；氣管主要負責輸送空氣。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "SCI-QB-008",
+    "subject": "自然",
+    "gradeSemester": "九年級上",
+    "unit": "電學",
+    "knowledgePoint": "串聯電路",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "在編號 1 的串聯電路中，各處電流大小的關係為何？",
+    "options": [
+      "處處相同",
+      "沿途愈來愈大",
+      "沿途愈來愈小",
+      "各處一定為零"
+    ],
+    "answer": 0,
+    "explanation": "串聯電路只有單一路徑，各處電流相同。",
+    "solutionSteps": [
+      "先辨認題目條件：「在編號 1 的串聯電路中，各處電流大小的關係為何？」",
+      "正確選項是 A「處處相同」，可由題目所考的「串聯電路」概念判斷。",
+      "核對其他選項後，排除與上述條件或科學概念不符的敘述。"
+    ],
+    "teacherTip": "串聯電路電流相同；並聯電路各支路電壓相同，兩者不要混用。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "SCI-QB-009",
+    "subject": "自然",
+    "gradeSemester": "八年級上",
+    "unit": "地球科學",
+    "knowledgePoint": "地震規模",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "地震事件 1 的「規模」主要描述什麼？",
+    "options": [
+      "地震釋放能量的大小",
+      "單一地點的搖晃程度",
+      "房屋受損的數量",
+      "震央附近的人口"
+    ],
+    "answer": 0,
+    "explanation": "規模表示地震本身釋放能量的大小。",
+    "solutionSteps": [
+      "先辨認題目條件：「地震事件 1 的「規模」主要描述什麼？」",
+      "正確選項是 A「地震釋放能量的大小」，可由題目所考的「地震規模」概念判斷。",
+      "核對其他選項後，排除與上述條件或科學概念不符的敘述。"
+    ],
+    "teacherTip": "規模描述地震釋能且同一地震只有一個；震度會因地點而不同。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "SCI-QB-010",
+    "subject": "自然",
+    "gradeSemester": "七年級上",
+    "unit": "生物",
+    "knowledgePoint": "遺傳物質",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "觀察第 1 個真核細胞時，大部分 DNA 位於哪個構造？",
+    "options": [
+      "細胞核",
+      "細胞膜",
+      "液胞",
+      "細胞壁"
+    ],
+    "answer": 0,
+    "explanation": "真核細胞的大部分遺傳物質位於細胞核。",
+    "solutionSteps": [
+      "先辨認題目條件：「觀察第 1 個真核細胞時，大部分 DNA 位於哪個構造？」",
+      "正確選項是 A「細胞核」，可由題目所考的「遺傳物質」概念判斷。",
+      "核對其他選項後，排除與上述條件或科學概念不符的敘述。"
+    ],
+    "teacherTip": "真核細胞大部分 DNA 在細胞核，但粒線體與葉綠體也含少量 DNA。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  }
+]
+

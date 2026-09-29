@@ -1,0 +1,332 @@
+[
+  {
+    "id": "CHI-0001",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "成語",
+    "knowledgePoint": "成語意義",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "閱讀札記第 1 則寫道：「規劃活動前先查天氣、備妥雨具，真是未雨綢繆。」句中「未雨綢繆」最接近何意？",
+    "options": [
+      "事先準備",
+      "事後補救",
+      "臨時改變",
+      "順其自然"
+    ],
+    "answer": 0,
+    "explanation": "未雨綢繆比喻事先做好準備。",
+    "solutionSteps": [
+      "先辨認考點：本題考「成語意義」。",
+      "未雨綢繆比喻事先做好準備。",
+      "排除不符合題意的選項後，可確定答案是「事先準備」。"
+    ],
+    "teacherTip": "成語題先放回原句判斷語境，不要只憑其中一個字猜意思。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0101",
+    "subject": "國文",
+    "gradeSemester": "九年級上",
+    "unit": "字義",
+    "knowledgePoint": "一字多義",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "閱讀札記第 1 則引用「不恥下問」。其中「恥」的意思最接近下列何者？",
+    "options": [
+      "以……為可恥",
+      "感到害怕",
+      "公開責備",
+      "十分討厭"
+    ],
+    "answer": 0,
+    "explanation": "此處「恥」是意動用法，指以某事為可恥。",
+    "solutionSteps": [
+      "先辨認考點：本題考「一字多義」。",
+      "此處「恥」是意動用法，指以某事為可恥。",
+      "排除不符合題意的選項後，可確定答案是「以……為可恥」。"
+    ],
+    "teacherTip": "同一個字在不同句子可能有不同詞義與用法，要連同前後文判斷。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0201",
+    "subject": "國文",
+    "gradeSemester": "八年級上",
+    "unit": "修辭",
+    "knowledgePoint": "擬人",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "閱讀札記第 1 則有句：「晚風輕輕敲著第 1 扇窗，催我們入睡。」主要運用哪一種修辭？",
+    "options": [
+      "擬人",
+      "排比",
+      "設問",
+      "借代"
+    ],
+    "answer": 0,
+    "explanation": "把風寫成會敲窗、催人入睡，賦予人的動作。",
+    "solutionSteps": [
+      "先辨認考點：本題考「擬人」。",
+      "把風寫成會敲窗、催人入睡，賦予人的動作。",
+      "排除不符合題意的選項後，可確定答案是「擬人」。"
+    ],
+    "teacherTip": "看到無生命事物出現人的動作、感情或語氣，通常就是擬人。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0301",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "閱讀理解",
+    "knowledgePoint": "主旨判斷",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "閱讀札記第 1 則說：「真正的節省，不是完全不花費，而是把有限資源用在最需要的地方。」這段話的主旨為何？",
+    "options": [
+      "資源應有效配置",
+      "任何消費都應停止",
+      "存錢是唯一目標",
+      "需求愈少一定愈好"
+    ],
+    "answer": 0,
+    "explanation": "重點是讓有限資源用在真正需要之處。",
+    "solutionSteps": [
+      "先辨認考點：本題考「主旨判斷」。",
+      "重點是讓有限資源用在真正需要之處。",
+      "排除不符合題意的選項後，可確定答案是「資源應有效配置」。"
+    ],
+    "teacherTip": "主旨要涵蓋整段共同重點，避免選只提到局部細節或說法過度絕對的選項。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0401",
+    "subject": "國文",
+    "gradeSemester": "九年級上",
+    "unit": "語文常識",
+    "knowledgePoint": "借代",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "閱讀札記第 1 則提到「朱門酒肉臭」。其中「朱門」主要代指什麼？",
+    "options": [
+      "富貴人家",
+      "紅色木材",
+      "城門守衛",
+      "一般百姓"
+    ],
+    "answer": 0,
+    "explanation": "朱門原指紅漆大門，此處借代富貴之家。",
+    "solutionSteps": [
+      "先辨認考點：本題考「借代」。",
+      "朱門原指紅漆大門，此處借代富貴之家。",
+      "排除不符合題意的選項後，可確定答案是「富貴人家」。"
+    ],
+    "teacherTip": "借代不是比喻，而是用與對象密切相關的名稱代替本體。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0501",
+    "subject": "國文",
+    "gradeSemester": "八年級上",
+    "unit": "文言文",
+    "knowledgePoint": "文意理解",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "閱讀札記第 1 則引用「學而不思則罔，思而不學則殆」，最適合用來說明什麼？",
+    "options": [
+      "學習與思考應並重",
+      "只要勤讀便足夠",
+      "思考可取代學習",
+      "學習時不宜提問"
+    ],
+    "answer": 0,
+    "explanation": "句意強調學與思不可偏廢。",
+    "solutionSteps": [
+      "先辨認考點：本題考「文意理解」。",
+      "句意強調學與思不可偏廢。",
+      "排除不符合題意的選項後，可確定答案是「學習與思考應並重」。"
+    ],
+    "teacherTip": "文言文先逐句換成白話，再比較各選項是否完整符合原意。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0601",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "詞語運用",
+    "knowledgePoint": "成語選用",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "整理第 1 號資料櫃時，文件分類清楚、次序分明。最適合用哪個成語形容？",
+    "options": [
+      "井然有序",
+      "捕風捉影",
+      "刻舟求劍",
+      "杯弓蛇影"
+    ],
+    "answer": 0,
+    "explanation": "井然有序指整齊而有次序。",
+    "solutionSteps": [
+      "先辨認考點：本題考「成語選用」。",
+      "井然有序指整齊而有次序。",
+      "排除不符合題意的選項後，可確定答案是「井然有序」。"
+    ],
+    "teacherTip": "先確認成語的感情色彩與使用對象，再檢查是否符合句中情境。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0701",
+    "subject": "國文",
+    "gradeSemester": "九年級上",
+    "unit": "篇章結構",
+    "knowledgePoint": "問題分析解決",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "閱讀札記第 1 則先提出校園浪費問題，再列數據分析原因，最後提出改善方法。其結構最接近何者？",
+    "options": [
+      "問題—分析—解決",
+      "純粹描寫",
+      "倒敘回憶",
+      "並列抒情"
+    ],
+    "answer": 0,
+    "explanation": "文章依序提出問題、分析原因並提出解法。",
+    "solutionSteps": [
+      "先辨認考點：本題考「問題分析解決」。",
+      "文章依序提出問題、分析原因並提出解法。",
+      "排除不符合題意的選項後，可確定答案是「問題—分析—解決」。"
+    ],
+    "teacherTip": "篇章結構題可圈出轉折詞與段落功能，依提出問題、分析、解決的順序判斷。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0801",
+    "subject": "國文",
+    "gradeSemester": "八年級上",
+    "unit": "詞性",
+    "knowledgePoint": "副詞修飾",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "閱讀札記第 1 則寫道：「他快速地跑向第 1 月臺。」其中「快速」主要修飾哪個詞？",
+    "options": [
+      "跑",
+      "他",
+      "月臺",
+      "向"
+    ],
+    "answer": 0,
+    "explanation": "「快速地」說明「跑」這個動作的方式。",
+    "solutionSteps": [
+      "先辨認考點：本題考「副詞修飾」。",
+      "「快速地」說明「跑」這個動作的方式。",
+      "排除不符合題意的選項後，可確定答案是「跑」。"
+    ],
+    "teacherTip": "帶「地」的詞語通常修飾後面的動作，但仍要以句意確認。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0901",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "思想義理",
+    "knowledgePoint": "推己及人",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "閱讀札記第 1 則引用「己所不欲，勿施於人」，最主要提醒我們什麼？",
+    "options": [
+      "尊重他人感受",
+      "凡事一味忍耐",
+      "避免所有競爭",
+      "完全服從多數"
+    ],
+    "answer": 0,
+    "explanation": "不要把自己不願承受的事強加在別人身上。",
+    "solutionSteps": [
+      "先辨認考點：本題考「推己及人」。",
+      "不要把自己不願承受的事強加在別人身上。",
+      "排除不符合題意的選項後，可確定答案是「尊重他人感受」。"
+    ],
+    "teacherTip": "義理題要掌握核心價值，不要選範圍過大或過度極端的說法。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  }
+]

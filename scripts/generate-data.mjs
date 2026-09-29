@@ -3,7 +3,7 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
-const outputDir = join(root, "data");
+const outputDir = join(root, "reports", "unreviewed-seed-data");
 const grades = ["七年級上", "七年級下", "八年級上", "八年級下", "九年級上", "九年級下"];
 const difficulties = ["基礎", "基礎", "中等", "中等", "進階"];
 const review = { intervalDays: 0, repetitions: 0, easeFactor: 2.5, lastReviewedAt: null, nextReviewAt: null };
@@ -34,7 +34,7 @@ function teachingDetails(subject, knowledgePoint, body) {
   return { solutionSteps: [`先辨認考點：本題考「${knowledgePoint}」。`, body.explanation, `排除不符合題意的選項後，可確定答案是「${correct}」。`], teacherTip: teacherTips[subject]?.[knowledgePoint] || "作答時先圈出關鍵詞，再逐一檢查選項是否完整符合題意。", relatedWords: subject === "英文" ? (englishRelated[knowledgePoint] || []) : [] };
 }
 function make(subject, code, index, meta, body) {
-  return { id: `${code}-${String(index + 1).padStart(4, "0")}`, subject, gradeSemester: grades[index % grades.length], unit: meta.unit, knowledgePoint: meta.knowledgePoint, difficulty: difficulties[index % difficulties.length], type: meta.type || "單題選擇", ...body, ...teachingDetails(subject, meta.knowledgePoint, body), sourceType: "原創會考程度練習", review: { ...review } };
+  return { id: `${code}-${String(index + 1).padStart(4, "0")}`, subject, gradeSemester: grades[index % grades.length], unit: meta.unit, knowledgePoint: meta.knowledgePoint, difficulty: difficulties[index % difficulties.length], type: meta.type || "單題選擇", ...body, ...teachingDetails(subject, meta.knowledgePoint, body), sourceType: "未審核種子題（不得發布）", review: { ...review } };
 }
 
 function mathQuestion(index) {
@@ -134,5 +134,5 @@ await mkdir(outputDir, { recursive: true });
 for (const [filename, factory] of Object.entries(subjects)) {
   const questions = Array.from({ length: 1000 }, (_, index) => factory(index));
   await writeFile(join(outputDir, `${filename}.json`), `${JSON.stringify(questions, null, 2)}\n`, "utf8");
-  console.log(`${filename}: ${questions.length}`);
+  console.log(`${filename}: ${questions.length} 個未審核種子題，輸出至 reports/unreviewed-seed-data/`);
 }

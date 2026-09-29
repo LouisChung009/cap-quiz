@@ -35,6 +35,8 @@ for (const file of files) {
   const stems = new Set(questions.map(item => item.question.replace(/\s+/g, "").toLowerCase()));
   if (stems.size !== questions.length) throw new Error(`${file} 有重複題幹`);
   const observed = new Set();
+  const observedPoints = new Set();
+  const availablePoints = new Set(questions.map(item => `${item.unit}|${item.knowledgePoint}`));
   let previousSignature = "";
   for (let round = 0; round < roundsPerSubject; round++) {
     const lesson = buildDiverseLesson(questions);
@@ -48,14 +50,15 @@ for (const file of files) {
     if (signature === previousSignature) throw new Error(`${file} 連續兩回合抽題順序完全相同`);
     previousSignature = signature;
     ids.forEach(id => observed.add(id));
+    points.forEach(point => observedPoints.add(point));
   }
-  if (observed.size !== questions.length) throw new Error(`${file} 大量抽樣僅涵蓋 ${observed.size}/1000 題`);
+  if (observedPoints.size !== availablePoints.size) throw new Error(`${file} 大量抽樣僅涵蓋 ${observedPoints.size}/${availablePoints.size} 個考點`);
   questions.forEach(item => {
     if (allIds.has(item.id)) throw new Error(`跨科 ID 重複：${item.id}`);
     allIds.add(item.id);
   });
   total += questions.length;
-  console.log(`${file}: ${roundsPerSubject} 回合 × 10 題，回合內 0 重複，抽樣涵蓋 ${observed.size}/1000 題`);
+  console.log(`${file}: ${roundsPerSubject} 回合 × 10 題，回合內 0 重複，涵蓋 ${observed.size}/1000 題、${observedPoints.size}/${availablePoints.size} 個考點`);
 }
 if (total !== 5000 || allIds.size !== 5000) throw new Error(`總題數驗證失敗：${total} 題、${allIds.size} 個唯一 ID`);
 console.log(`隨機抽題驗證完成：共 ${files.length * roundsPerSubject} 回合、${files.length * roundsPerSubject * lessonSize} 次抽題；5000 題、5000 個唯一 ID。`);

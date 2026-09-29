@@ -1,0 +1,3591 @@
+[
+  {
+    "id": "CHI-0001",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "成語",
+    "knowledgePoint": "成語意義",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "校刊徵稿截止日是下週五，小安今天便完成初稿並請同學校對。下列哪個成語最能形容他的做法？",
+    "options": [
+      "臨渴掘井",
+      "未雨綢繆",
+      "亡羊補牢",
+      "按圖索驥"
+    ],
+    "answer": 1,
+    "explanation": "小安在期限前完成並校對稿件，表現的是事先準備，因此選「未雨綢繆」。A臨渴掘井指事情急迫才匆忙準備；C亡羊補牢是出錯後補救；D按圖索驥是依線索尋找。",
+    "solutionSteps": [
+      "先抓題幹時間線：截止日尚未到，小安已完成初稿並校對。",
+      "答案是「未雨綢繆」，意指趁事情尚未發生或期限未到先作準備。",
+      "「臨渴掘井」是需要時才開始準備，與小安提早完成相反。"
+    ],
+    "teacherTip": "用事件發生的先後區分預先準備、臨時抱佛腳與事後補救。",
+    "relatedWords": [
+      "臨渴掘井",
+      "亡羊補牢"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0002",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "成語",
+    "knowledgePoint": "成語辨析",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "球隊連敗後，教練沒有責怪球員，而是逐場檢討失誤、調整訓練。最適合形容這種做法的是？",
+    "options": [
+      "掩耳盜鈴",
+      "亡羊補牢",
+      "刻舟求劍",
+      "守株待兔"
+    ],
+    "answer": 1,
+    "explanation": "球隊已經連敗，教練針對已發生的失誤檢討並修正，符合「亡羊補牢」所指的事後補救。A是自欺欺人；C比喻拘泥成法、不知變通；D是守候偶然機會。",
+    "solutionSteps": [
+      "題幹先說連敗已發生，再說教練檢討並調整。",
+      "正解「亡羊補牢」強調出現損失後及時補救。",
+      "「守株待兔」是被動等待偶然收穫，沒有檢討修正的意思。"
+    ],
+    "teacherTip": "成語題先辨認事件是未發生、已發生，還是等待機會。",
+    "relatedWords": [
+      "掩耳盜鈴",
+      "守株待兔"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0003",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "成語",
+    "knowledgePoint": "成語語境",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "大家正在討論校園午餐的改善方案，阿凱卻突然談起上週的球賽，讓全班摸不著頭緒。下列何者最貼切？",
+    "options": [
+      "畫蛇添足",
+      "南轅北轍",
+      "離題萬里",
+      "一鼓作氣"
+    ],
+    "answer": 2,
+    "explanation": "討論主題是午餐，阿凱轉談球賽，發言與當前話題相距甚遠，故選「離題萬里」。A指多做無用之事；B指行動方向與目標相反；D指趁士氣旺盛一口氣完成。",
+    "solutionSteps": [
+      "先辨認討論主題是午餐改善。",
+      "答案「離題萬里」指出發言偏離主題。",
+      "「南轅北轍」描述方向和目標相反，題幹沒有方向或目標衝突。"
+    ],
+    "teacherTip": "用成語時要把它的關係套回具體情境，而非只看負面語氣。",
+    "relatedWords": [
+      "畫蛇添足",
+      "南轅北轍"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0004",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "成語",
+    "knowledgePoint": "成語辨析",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "志工隊想同時整理圖書、布置展場、訪問校友，卻沒有分工，最後每件事都只做一半。最適合形容的是？",
+    "options": [
+      "顧此失彼",
+      "有條不紊",
+      "按部就班",
+      "一勞永逸"
+    ],
+    "answer": 0,
+    "explanation": "工作項目過多又未分工，顧到一項便忽略另一項，符合「顧此失彼」。B、C都表示有秩序地安排；D指一次處理後長久不再費力，均與結果不符。",
+    "solutionSteps": [
+      "找出原因：工作同時展開且沒有分工。",
+      "正解「顧此失彼」描寫照顧一方時遺漏另一方。",
+      "「有條不紊」表示安排有序，與題幹忙亂且未完成的結果相反。"
+    ],
+    "teacherTip": "從題幹的因果和結果選詞，不要把「忙很多事」直接等同有效率。",
+    "relatedWords": [
+      "有條不紊",
+      "按部就班"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0005",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "成語",
+    "knowledgePoint": "成語語境",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "這家店原本只賣文具，後來增加修繕、借閱與課輔服務，附近居民也常來使用。下列哪個成語最能概括它的改變？",
+    "options": [
+      "門可羅雀",
+      "每下愈況",
+      "一成不變",
+      "日新月異"
+    ],
+    "answer": 3,
+    "explanation": "店家服務持續增加，呈現不斷更新的變化，選「日新月異」。A指來客稀少；B指情況愈來愈差；C指完全沒有改變。",
+    "solutionSteps": [
+      "比較店家前後：服務項目由單一增加到多種。",
+      "答案「日新月異」可表現持續更新、變化快速。",
+      "「一成不變」表示沒有改變，與服務擴充相反。"
+    ],
+    "teacherTip": "辨析成語時，要確認變化方向是增加、衰退或停滯。",
+    "relatedWords": [
+      "一成不變",
+      "每下愈況"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0006",
+    "subject": "國文",
+    "gradeSemester": "七年級下",
+    "unit": "成語",
+    "knowledgePoint": "成語意義",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "小芸向同學借筆記，同學需要資料時，她也把自己整理的複習卡借給對方；後來同學再把錯題整理表分享給小芸。最適合形容兩人互相回報善意的是？",
+    "options": [
+      "敷衍塞責",
+      "投桃報李",
+      "不求甚解",
+      "自相矛盾"
+    ],
+    "answer": 1,
+    "explanation": "兩人先後分享筆記、複習卡和錯題表，以善意回應彼此，符合「投桃報李」的互相回報。A指做事敷衍；C指讀書不求深入；D指言行互相矛盾。",
+    "solutionSteps": [
+      "找出雙方行動：小芸分享複習卡，同學再分享錯題表。",
+      "答案「投桃報李」強調接受對方好意後，也以善意回報。",
+      "「敷衍塞責」是做事不認真，與兩人主動分享資料不符。"
+    ],
+    "teacherTip": "判斷互惠成語時，確認情境中確實有雙方往來與善意回應。",
+    "relatedWords": [
+      "投桃報李",
+      "互相回報"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0007",
+    "subject": "國文",
+    "gradeSemester": "七年級下",
+    "unit": "成語",
+    "knowledgePoint": "成語辨析",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "同學只因一次小考失常，就斷定自己永遠學不好，並拒絕再練習。這種想法最接近哪個成語？",
+    "options": [
+      "杯弓蛇影",
+      "一曝十寒",
+      "以偏概全",
+      "見賢思齊"
+    ],
+    "answer": 2,
+    "explanation": "只憑一次小考便推論自己永遠不會進步，是從局部例子推及全部，選「以偏概全」。A是疑神疑鬼；B指學習或工作缺乏持續；D是看見賢能者便想向他看齊。",
+    "solutionSteps": [
+      "題幹的證據只有「一次小考失常」。",
+      "正解「以偏概全」指出用單一例子下整體結論。",
+      "「一曝十寒」談努力不持久；題幹重點是錯誤推論，不是練習頻率。"
+    ],
+    "teacherTip": "區分推論錯誤與行動不持續，兩者可能同時出現但考點不同。",
+    "relatedWords": [
+      "一曝十寒",
+      "杯弓蛇影"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0008",
+    "subject": "國文",
+    "gradeSemester": "七年級下",
+    "unit": "成語",
+    "knowledgePoint": "成語運用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "下列句子中的成語，何者使用最恰當？",
+    "options": [
+      "圖書館裡人聲鼎沸，大家安靜閱讀",
+      "他把工作井然有序地拖到最後一天才做",
+      "面對陌生題型，她先分析條件再逐步作答，果然有條不紊",
+      "他因為怕熱而守株待兔地打開電扇"
+    ],
+    "answer": 2,
+    "explanation": "先分析條件再逐步作答，表示安排有條理，符合「有條不紊」。A的「人聲鼎沸」與安靜矛盾；B的「井然有序」與拖延無直接關係；D把等待偶然收穫的「守株待兔」誤用於開電扇。",
+    "solutionSteps": [
+      "逐句檢查成語本義與句中事件是否相合。",
+      "C的先分析、再作答呈現有條理，故「有條不紊」使用恰當。",
+      "A同時說人聲鼎沸和安靜，語意自相矛盾。"
+    ],
+    "teacherTip": "成語選用要同時檢查本義、搭配對象及句內是否矛盾。",
+    "relatedWords": [
+      "人聲鼎沸",
+      "守株待兔"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0009",
+    "subject": "國文",
+    "gradeSemester": "八年級上",
+    "unit": "成語",
+    "knowledgePoint": "成語情境判讀",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "雨後山路濕滑，領隊提醒大家放慢腳步、彼此照應，沒有人搶先趕路。這段情境最能表現哪個成語？",
+    "options": [
+      "輕舉妄動",
+      "同舟共濟",
+      "各自為政",
+      "急功近利"
+    ],
+    "answer": 1,
+    "explanation": "隊員在共同困難中互相照應，符合「同舟共濟」。A指行動草率；C指各按自己的方式行事；D指急於求成、只看眼前利益。",
+    "solutionSteps": [
+      "注意大家面對的是共同的濕滑山路。",
+      "答案「同舟共濟」強調共同承擔困難、互相扶持。",
+      "「各自為政」是各做各的，與彼此照應相反。"
+    ],
+    "teacherTip": "抓住共同處境和彼此關係，辨別合作、競爭或各行其是。",
+    "relatedWords": [
+      "各自為政",
+      "輕舉妄動"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0010",
+    "subject": "國文",
+    "gradeSemester": "八年級上",
+    "unit": "成語",
+    "knowledgePoint": "成語辨析",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "小杰原想替班級省下活動費，卻沒先詢問需求就取消所有材料，結果活動無法進行。這最能提醒我們避免？",
+    "options": [
+      "因噎廢食",
+      "水到渠成",
+      "集思廣益",
+      "順水推舟"
+    ],
+    "answer": 0,
+    "explanation": "小杰因擔心花費便取消所有材料，像因怕噎而不吃飯，屬於「因噎廢食」式的過度反應。B指條件成熟事情自然成功；C是集合眾人想法；D是順著形勢行事。",
+    "solutionSteps": [
+      "找出小杰採取的手段：為避免花費，完全取消必要材料。",
+      "正解「因噎廢食」比喻因小問題而停止整件合理之事。",
+      "「集思廣益」是共同討論找好方法，題幹沒有進行集思討論。"
+    ],
+    "teacherTip": "留意做法是否矯枉過正；成語常考手段與目的是否失衡。",
+    "relatedWords": [
+      "集思廣益",
+      "水到渠成"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0011",
+    "subject": "國文",
+    "gradeSemester": "八年級上",
+    "unit": "成語",
+    "knowledgePoint": "成語語境",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "校隊雖然第一次出賽落敗，隊員仍檢討配合並持續練習，下一季終於打進決賽。最適合形容他們的是？",
+    "options": [
+      "半途而廢",
+      "鍥而不舍",
+      "坐享其成",
+      "望梅止渴"
+    ],
+    "answer": 1,
+    "explanation": "隊員沒有因初敗停止，而是持續練習直到晉級，符合「鍥而不舍」。A是中途放棄；C是享受別人的成果；D是用空想安慰自己。",
+    "solutionSteps": [
+      "依序看見落敗、檢討、持續練習與晉級。",
+      "答案「鍥而不舍」強調持續努力、不輕易放棄。",
+      "「半途而廢」正好與隊員持續練習的行動相反。"
+    ],
+    "teacherTip": "用成語概括人物時，須由完整行動過程判斷，不只看起初的挫折。",
+    "relatedWords": [
+      "半途而廢",
+      "坐享其成"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0012",
+    "subject": "國文",
+    "gradeSemester": "八年級下",
+    "unit": "閱讀理解",
+    "knowledgePoint": "數據判讀",
+    "difficulty": "進階",
+    "type": "單題選擇",
+    "question": "兩組資料顯示：甲校借閱率上升，但讀者總數下降；乙校總人數增加，借閱率卻降低。只憑這些資訊，哪句結論最恰當？",
+    "options": [
+      "甲校每位學生借書都變多",
+      "乙校一定比甲校重視閱讀",
+      "兩校都可用單一數字判定閱讀風氣",
+      "比較閱讀情形還須同時看總人數與借閱率"
+    ],
+    "answer": 3,
+    "explanation": "題幹呈現總人數與比率變化方向不同，不能只看單一數值判斷整體。D指出須合併考量兩種資料。A把借閱率變化直接推到每位學生借書量；B和C都超出資料能支持的結論。",
+    "solutionSteps": [
+      "先分清總數與比率是不同指標。",
+      "答案D要求同時參照總人數和借閱率，沒有忽略任一條件。",
+      "A把整體比率推成每位學生的個別行為，資料不足以支持。"
+    ],
+    "teacherTip": "閱讀統計時辨認分母與總量，避免把群體趨勢套到每個個體。",
+    "relatedWords": [
+      "總數",
+      "比率"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0013",
+    "subject": "國文",
+    "gradeSemester": "九年級上",
+    "unit": "成語",
+    "knowledgePoint": "成語語意辨析",
+    "difficulty": "進階",
+    "type": "單題選擇",
+    "question": "社團以「自由討論」為名，實際上只接受幹部預先決定的方案，其他提議一律不准提出。這種做法最貼近哪個成語？",
+    "options": [
+      "名副其實",
+      "掛羊頭賣狗肉",
+      "實事求是",
+      "開誠布公"
+    ],
+    "answer": 1,
+    "explanation": "名義上自由討論，實際卻不容其他方案，名實不符，符合「掛羊頭賣狗肉」。A表示名聲與實際相符；C是依事實求真；D是坦誠公開。",
+    "solutionSteps": [
+      "比較表面宣稱與實際規則：宣稱自由，實際只准一案。",
+      "答案「掛羊頭賣狗肉」形容以一種名目招徠，實際內容卻不同。",
+      "「名副其實」表示名聲和實情相符，與題幹的落差相反。"
+    ],
+    "teacherTip": "遇到名實對照題，先把宣稱與實際行為分開列出。",
+    "relatedWords": [
+      "名副其實",
+      "開誠布公"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0014",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "字音",
+    "knowledgePoint": "多音字辨讀",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "下列「行」字的讀音，哪一組依序正確？甲：銀行；乙：行走；丙：品行；丁：行業。",
+    "options": [
+      "ㄒㄧㄥˊ、ㄏㄤˊ、ㄒㄧㄥˊ、ㄏㄤˊ",
+      "ㄏㄤˊ、ㄒㄧㄥˊ、ㄒㄧㄥˊ、ㄏㄤˊ",
+      "ㄏㄤˊ、ㄒㄧㄥˊ、ㄏㄤˊ、ㄒㄧㄥˊ",
+      "ㄒㄧㄥˊ、ㄏㄤˊ、ㄏㄤˊ、ㄒㄧㄥˊ"
+    ],
+    "answer": 1,
+    "explanation": "「銀行、行業」的「行」讀ㄏㄤˊ；「行走、品行」讀ㄒㄧㄥˊ，故選B。A把銀行與行走讀音對調；C、D則錯置品行或行業。",
+    "solutionSteps": [
+      "先辨詞義：銀行、行業指行業或商號；行走是動作，品行指品德。",
+      "正解順序為ㄏㄤˊ、ㄒㄧㄥˊ、ㄒㄧㄥˊ、ㄏㄤˊ。",
+      "A把「銀行」讀成ㄒㄧㄥˊ，和常用讀音不合。"
+    ],
+    "teacherTip": "多音字要放在完整詞語中辨讀，勿只按單字猜音。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0015",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "字音",
+    "knowledgePoint": "形近字音辨讀",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "下列詞語中，括號字的讀音何者正確？",
+    "options": [
+      "粗獷（ㄎㄨㄤˋ）",
+      "惆悵（ㄓㄤˋ）",
+      "險峻（ㄐㄩㄣˇ）",
+      "徜徉（ㄔㄤˊ）"
+    ],
+    "answer": 3,
+    "explanation": "D「徜徉」的「徜」讀ㄔㄤˊ，正確。A「粗獷」的「獷」讀ㄍㄨㄤˇ；B「惆悵」的「悵」讀ㄔㄤˋ；C「險峻」的「峻」讀ㄐㄩㄣˋ，不讀ㄐㄩㄣˇ，因此只有D正確。",
+    "solutionSteps": [
+      "先辨認題目只考括號內字的注音。",
+      "D「徜徉」中「徜」讀ㄔㄤˊ；其餘三個標音分別與「獷」「悵」「峻」的正確讀音不符。",
+      "C的「峻」應讀ㄐㄩㄣˋ，不是選項標示的ㄐㄩㄣˇ。"
+    ],
+    "teacherTip": "逐字核對括號字的標音，不要只看詞語熟悉度。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0016",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "字形",
+    "knowledgePoint": "形近字辨析",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "下列句子中，哪個括號內的字形正確？",
+    "options": [
+      "他做事一向謹慎，從不草（摔）了事。",
+      "山路崎（嶇），車子行進得很慢。",
+      "他為人（康）慨，常主動幫助同學。",
+      "展覽內容十分豐（傅），令人目不暇給。"
+    ],
+    "answer": 1,
+    "explanation": "B「嶇」字形正確，組成「崎嶇」。A應寫「草率」，括號內「摔」是錯字；C應寫「慷慨」，不能寫「康慨」；D應寫「豐富」，不能寫「豐傅」，所以只有B正確。",
+    "solutionSteps": [
+      "逐項核對括號字與詞語：A草率、B崎嶇、C慷慨、D豐富。",
+      "只有B的「嶇」符合「崎嶇」的正確字形；其餘括號字分別應為率、慷、富。",
+      "C的「康慨」把「慷」誤寫成「康」，不是正確詞形。"
+    ],
+    "teacherTip": "避免簡繁字爭議，選項應使用臺灣正體字，並逐字確認固定詞形。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0017",
+    "subject": "國文",
+    "gradeSemester": "七年級下",
+    "unit": "字形",
+    "knowledgePoint": "字形辨析",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "下列詞語，何者用字完全正確？",
+    "options": [
+      "迫不急待",
+      "再接再厲",
+      "按步就班",
+      "談笑風聲"
+    ],
+    "answer": 1,
+    "explanation": "「再接再厲」用字正確。其餘應為「迫不及待」「按部就班」「談笑風生」，故B是唯一正解。",
+    "solutionSteps": [
+      "逐一核對固定詞形。",
+      "答案「再接再厲」四字皆正確。",
+      "A應作「迫不及待」，「急」是常見誤寫。"
+    ],
+    "teacherTip": "固定成語字形需連同整個詞記憶，特別留意同音誤字。",
+    "relatedWords": [
+      "迫不及待",
+      "按部就班"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0018",
+    "subject": "國文",
+    "gradeSemester": "七年級下",
+    "unit": "詞義",
+    "knowledgePoint": "語境近義詞",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "道路結冰時，夜間行走這段山路有危險。下列哪個詞替換「危險」後，句意最接近且搭配自然？",
+    "options": [
+      "風險",
+      "困難",
+      "改變",
+      "爭議"
+    ],
+    "answer": 0,
+    "explanation": "「有風險」與「有危險」都是自然的名詞搭配，均指可能發生不利或受損的情況。B「困難」指不易完成，不等於可能受害；C「改變」指狀態變化；D「爭議」指意見不一致。",
+    "solutionSteps": [
+      "保留句型「有＿＿」，確認選項可作名詞並能自然搭配。",
+      "結冰山路夜間通行可能造成傷害，「風險」與「危險」在此語境意義最接近。",
+      "「困難」說的是行動不容易，沒有明確表示可能遭受危害。"
+    ],
+    "teacherTip": "近義詞辨析先核對詞性與搭配，再用情境區分語意。",
+    "relatedWords": [
+      "風險",
+      "危險"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0019",
+    "subject": "國文",
+    "gradeSemester": "八年級上",
+    "unit": "字形",
+    "knowledgePoint": "易混字辨析",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "「他在演講中引用資料，並清楚說明來源。」句中「引用」的「引」若改成「引導」的「引」，字形相同而意思不同。下列哪組詞語中兩個字形相同？",
+    "options": [
+      "弓／引路",
+      "引水／吸引",
+      "弓箭／引用",
+      "引擎／張弓"
+    ],
+    "answer": 1,
+    "explanation": "「引水」與「吸引」都使用「引」字，字形相同；A、C、D每組分別含「弓」與「引」，字形不同。",
+    "solutionSteps": [
+      "觀察題目要求比較的是字形，不是詞義。",
+      "B的「引水、吸引」均含同一個「引」字。",
+      "A的「弓」與「引」是不同字，雖字形相近也不能混為一字。"
+    ],
+    "teacherTip": "字形相同題須分清同字多義與形近字。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0020",
+    "subject": "國文",
+    "gradeSemester": "八年級上",
+    "unit": "字義",
+    "knowledgePoint": "一字多義",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "「他把行程表貼在門上。」句中的「貼」與下列哪句的「貼」意思最接近？",
+    "options": [
+      "郵票貼在信封右上角",
+      "他對朋友十分貼心",
+      "這件衣服剪裁很貼身",
+      "房租每月貼補一千元"
+    ],
+    "answer": 0,
+    "explanation": "題句的「貼」是將物件附著在表面，A的郵票附著於信封，意思相同。B指關懷周到；C指衣服合身；D的貼補是補助。",
+    "solutionSteps": [
+      "確認題句中「貼」的動作是把行程表附著在門上。",
+      "答案A的郵票也被附著在信封表面。",
+      "「貼心」的貼表示周到關懷，並非附著。"
+    ],
+    "teacherTip": "一字多義題要比較語境中的實際義項。",
+    "relatedWords": [
+      "貼心",
+      "貼補"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0021",
+    "subject": "國文",
+    "gradeSemester": "八年級下",
+    "unit": "字義",
+    "knowledgePoint": "詞義辨析",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "「他不假思索地答應了邀請。」此處「不假思索」的意思是？",
+    "options": [
+      "沒有經過思考就立刻回答",
+      "回答前反覆查證",
+      "假裝沒有聽見問題",
+      "思考很久仍無法作答"
+    ],
+    "answer": 0,
+    "explanation": "「不假思索」指不用思考或思考時間很短便作出反應，A符合。B與C都另加了查證或假裝的行為；D則是久思不答。",
+    "solutionSteps": [
+      "看詞語修飾的是答應邀請的反應速度。",
+      "答案A指出沒有經過思考便立刻回答。",
+      "「回答前反覆查證」表示謹慎思考，與「不假思索」相反。"
+    ],
+    "teacherTip": "成語解釋應保留核心語義，不要把可能的情境當成詞義。",
+    "relatedWords": [
+      "思索",
+      "反覆查證"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0022",
+    "subject": "國文",
+    "gradeSemester": "九年級上",
+    "unit": "字義",
+    "knowledgePoint": "文言詞義",
+    "difficulty": "進階",
+    "type": "單題選擇",
+    "question": "古文：「孔子東遊，見兩小兒辯鬥，問其故。」句中「故」的意思是？",
+    "options": [
+      "舊有的",
+      "緣故、原因",
+      "故意",
+      "死亡"
+    ],
+    "answer": 1,
+    "explanation": "「問其故」是詢問兩小兒爭辯的原因，因此「故」解作緣故、原因。A是舊有；C是故意；D是去世義，皆不合句意。",
+    "solutionSteps": [
+      "把「問其故」譯成白話：詢問他們爭辯的什麼。",
+      "答案「緣故、原因」能自然補入句子。",
+      "「故意」作副詞，不能在此作「問」的賓語。"
+    ],
+    "teacherTip": "文言實詞須放回句法位置與上下文翻譯。",
+    "relatedWords": [
+      "故意",
+      "舊有"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0023",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "字義",
+    "knowledgePoint": "語境詞義",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "「老師提醒我們，使用網路資料時要辨明來源。」句中的「辨明」最接近何意？",
+    "options": [
+      "分辨清楚",
+      "大聲說明",
+      "改變方向",
+      "延後處理"
+    ],
+    "answer": 0,
+    "explanation": "「辨明來源」是把來源分辨清楚，故選A。B是表達方式；C是改變方向；D是延後處理，均與辨認真偽或來源無關。",
+    "solutionSteps": [
+      "注意「辨明」的受詞是資料來源。",
+      "答案「分辨清楚」可直接替換而保持句意。",
+      "「大聲說明」談音量與表達，並非辨認來源。"
+    ],
+    "teacherTip": "以受詞和上下文限制詞義，避免只選字面相近的說法。",
+    "relatedWords": [
+      "來源",
+      "分辨"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0024",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "語法",
+    "knowledgePoint": "詞性判斷",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "「窗外的雨聲漸漸停了。」句中「漸漸」主要修飾哪個詞？",
+    "options": [
+      "窗外",
+      "雨聲",
+      "停",
+      "了"
+    ],
+    "answer": 2,
+    "explanation": "「漸漸」說明停止這個變化逐步發生，修飾動詞「停」。A是處所；B是主語；D是句末助詞。",
+    "solutionSteps": [
+      "先找出表示動作或變化的詞「停」。",
+      "答案「停」表示「漸漸」所描述的變化。",
+      "「雨聲」是變化的主體，不是「漸漸」直接修飾的動詞。"
+    ],
+    "teacherTip": "可用『怎樣地發生』測試副詞修飾的動作。",
+    "relatedWords": [
+      "漸漸",
+      "停"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0025",
+    "subject": "國文",
+    "gradeSemester": "七年級下",
+    "unit": "語法",
+    "knowledgePoint": "句型辨識",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "下列哪一句是疑問句？",
+    "options": [
+      "請把窗戶關好。",
+      "今天的雲很低。",
+      "你已經完成作業了嗎？",
+      "多麼清新的空氣啊！"
+    ],
+    "answer": 2,
+    "explanation": "C以疑問語氣詞「嗎」詢問作業是否完成，是疑問句。A是祈使句，B是敘述句，D是感嘆句。",
+    "solutionSteps": [
+      "看句子的語氣及句末標點。",
+      "答案C以「嗎」提出需要回答的問題。",
+      "「請把窗戶關好」是在要求對方行動，屬祈使句。"
+    ],
+    "teacherTip": "句型依表達功能判斷，不只看句子是否有標點。",
+    "relatedWords": [
+      "祈使句",
+      "感嘆句"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0026",
+    "subject": "國文",
+    "gradeSemester": "八年級上",
+    "unit": "語法",
+    "knowledgePoint": "關聯詞語",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "「＿＿天色已晚，登山隊仍依計畫返回山屋。」空格應填入哪個詞，才能表達讓步轉折？",
+    "options": [
+      "因為",
+      "雖然",
+      "既然",
+      "不但"
+    ],
+    "answer": 1,
+    "explanation": "「雖然天色已晚，仍依計畫返回」以「雖然……仍……」呈現讓步轉折。A表示原因；C表示既定條件；D通常與「而且」搭配表示遞進。",
+    "solutionSteps": [
+      "句中「仍」提示前後內容有轉折。",
+      "答案「雖然」可與「仍」構成讓步轉折關係。",
+      "「因為」會把天色已晚解作返回的原因，語意關係不符。"
+    ],
+    "teacherTip": "先看前後分句的邏輯，再選關聯詞，不要只靠固定搭配猜。",
+    "relatedWords": [
+      "雖然",
+      "仍"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0027",
+    "subject": "國文",
+    "gradeSemester": "八年級下",
+    "unit": "語法",
+    "knowledgePoint": "句子修改",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "「由於他努力練習，因此終於熟悉了新曲。」下列哪個改寫最精簡且保留原意？",
+    "options": [
+      "他因為努力練習，所以終於熟悉了新曲。",
+      "由於他努力練習，因此所以熟悉新曲。",
+      "他努力練習，可是終於熟悉新曲。",
+      "他不但努力練習，然而終於熟悉新曲。"
+    ],
+    "answer": 0,
+    "explanation": "A保留努力練習導致熟悉新曲的因果關係，且句式自然。B重複使用「因此所以」；C、D使用轉折詞，改變原句因果。",
+    "solutionSteps": [
+      "原句是努力練習導致熟悉新曲的因果關係。",
+      "答案A用「因為……所以……」清楚保留因果。",
+      "B的「因此所以」重複表達同一關聯，屬贅詞。"
+    ],
+    "teacherTip": "改句題須同時保留原意、邏輯關係與語句通順。",
+    "relatedWords": [
+      "因為",
+      "所以"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0028",
+    "subject": "國文",
+    "gradeSemester": "九年級上",
+    "unit": "語法",
+    "knowledgePoint": "複句關係",
+    "difficulty": "進階",
+    "type": "單題選擇",
+    "question": "「只要把資料分類完成，就能更快找到所需篇章。」前後分句表達哪種關係？",
+    "options": [
+      "因果",
+      "條件",
+      "轉折",
+      "選擇"
+    ],
+    "answer": 1,
+    "explanation": "「只要……就……」表示具備前項條件便會產生後項結果，屬條件關係。A通常用因為、所以；C有雖然、但是；D用或者、還是。",
+    "solutionSteps": [
+      "找出關聯詞「只要……就……」。",
+      "答案是條件關係：分類完成是更快找到篇章的條件。",
+      "「因果」只說明原因與結果，未凸顯此句明確提出的必要條件。"
+    ],
+    "teacherTip": "依關聯詞與兩分句邏輯共同辨認複句。",
+    "relatedWords": [
+      "只要",
+      "就"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0029",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "修辭",
+    "knowledgePoint": "譬喻",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "「新月像一葉銀舟，靜靜停在夜空。」主要運用哪種修辭？",
+    "options": [
+      "譬喻",
+      "轉化",
+      "排比",
+      "映襯"
+    ],
+    "answer": 0,
+    "explanation": "以「像」把新月比作銀舟，具備喻體與喻詞，是譬喻。B是把物寫成另一種動態或身份；C需有相似句式排列；D是兩種事物相互對照。",
+    "solutionSteps": [
+      "找出本體「新月」、喻詞「像」和喻體「銀舟」。",
+      "答案「譬喻」能說明三者構成的比喻關係。",
+      "「排比」需要兩個以上結構相似的語句，本題只有一個比喻句。"
+    ],
+    "teacherTip": "辨認譬喻可找本體、喻詞與喻體，並確認不是單純形容。",
+    "relatedWords": [
+      "新月",
+      "銀舟"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0030",
+    "subject": "國文",
+    "gradeSemester": "七年級下",
+    "unit": "修辭",
+    "knowledgePoint": "擬人",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "「風把操場上的落葉一張張送到教室門口。」句子主要運用哪種修辭？",
+    "options": [
+      "借代",
+      "擬人",
+      "設問",
+      "誇飾"
+    ],
+    "answer": 1,
+    "explanation": "風被寫成會「送」落葉的行動者，將人的動作賦予自然現象，屬擬人。A以相關事物代替本體；C是提出問題；D是刻意誇大。",
+    "solutionSteps": [
+      "觀察非人的主體「風」做了什麼。",
+      "答案「擬人」符合把風寫成會送東西的人。",
+      "「誇飾」重點是程度超越事實，句中並沒有明顯誇大。"
+    ],
+    "teacherTip": "看主體是否被賦予人的行動、情感或語言。",
+    "relatedWords": [
+      "風",
+      "送"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0031",
+    "subject": "國文",
+    "gradeSemester": "八年級上",
+    "unit": "修辭",
+    "knowledgePoint": "排比",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "「他整理書桌、擦亮窗戶、排好書冊，只為迎接新學期。」前半句主要運用哪種修辭？",
+    "options": [
+      "排比",
+      "回文",
+      "雙關",
+      "借代"
+    ],
+    "answer": 0,
+    "explanation": "「整理、擦亮、排好」以相近句法連列三項動作，形成排比。B是文字順讀倒讀皆可；C是一語兼具兩義；D是以相關事物代稱。",
+    "solutionSteps": [
+      "找出連續排列的三個動作短語。",
+      "答案「排比」：三個短語句法相近、節奏並列。",
+      "「雙關」需要語詞同時有兩層意思，本句沒有這種語意。"
+    ],
+    "teacherTip": "排比看結構相似且連續排列，不是有三個動詞就一定成立。",
+    "relatedWords": [
+      "整理",
+      "擦亮",
+      "排好"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0032",
+    "subject": "國文",
+    "gradeSemester": "八年級下",
+    "unit": "修辭",
+    "knowledgePoint": "映襯",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "「窗外雷聲震耳，屋內孩子的呼吸卻輕得像不存在。」主要藉由哪種修辭凸顯安靜？",
+    "options": [
+      "映襯",
+      "頂真",
+      "借喻",
+      "設問"
+    ],
+    "answer": 0,
+    "explanation": "雷聲的喧鬧與孩子呼吸的微弱形成對照，藉強烈差異凸顯安靜，屬映襯。B是前句末詞接下句開頭；C以喻體代本體；D是發問。",
+    "solutionSteps": [
+      "找出兩個對照項：窗外雷聲大、屋內呼吸微弱。",
+      "答案「映襯」用相反或差異強烈的情景互相襯托。",
+      "「頂真」要求前後句首尾相接，本句沒有詞語承接。"
+    ],
+    "teacherTip": "映襯須說清對照的兩方，以及被凸顯的焦點。",
+    "relatedWords": [
+      "雷聲",
+      "呼吸"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0033",
+    "subject": "國文",
+    "gradeSemester": "九年級上",
+    "unit": "修辭",
+    "knowledgePoint": "轉化",
+    "difficulty": "進階",
+    "type": "單題選擇",
+    "question": "「夜色悄悄披上山巒，替白日收起最後一抹光。」句中把夜色寫成能穿衣、收拾的角色，主要運用？",
+    "options": [
+      "轉化",
+      "借代",
+      "摹寫",
+      "層遞"
+    ],
+    "answer": 0,
+    "explanation": "夜色被寫成能披衣、替白日收拾的角色，將抽象景象轉成具體人物動作，屬轉化。B是相關事物代稱；C是感官描寫；D是語意逐層加深。",
+    "solutionSteps": [
+      "指出夜色本來是自然現象，句中卻安排它「披上」「收起」。",
+      "答案「轉化」能說明把景象轉成角色行動的寫法。",
+      "「摹寫」著重描摹感官感受，無法說明此處角色化動作。"
+    ],
+    "teacherTip": "轉化的判斷重點是描寫對象的性質或角色發生轉換。",
+    "relatedWords": [
+      "夜色",
+      "披上",
+      "收起"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0034",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "閱讀理解",
+    "knowledgePoint": "主旨判斷",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "社區公告：「請自備水壺；活動會場設有飲水補充站，並不提供一次性紙杯。」公告最主要目的為何？",
+    "options": [
+      "提醒參加者減少一次性用品",
+      "禁止參加者飲水",
+      "宣傳販售水壺",
+      "要求大家提早離場"
+    ],
+    "answer": 0,
+    "explanation": "自備水壺且不提供紙杯，目的在減少一次性用品。B與提供飲水站矛盾；C沒有販售訊息；D與公告無關。",
+    "solutionSteps": [
+      "將兩項資訊連起來：自備水壺、現場不提供紙杯。",
+      "答案A概括公告希望參加者自帶容器、減少一次性杯具。",
+      "「禁止飲水」與設置飲水補充站的內容相反。"
+    ],
+    "teacherTip": "主旨題要找能解釋全文安排的目的，不要抓單一細節過度推論。",
+    "relatedWords": [
+      "一次性紙杯",
+      "飲水補充站"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0035",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "閱讀理解",
+    "knowledgePoint": "因果推論",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "連續三天午後雷雨，學校將操場活動移至室內。下列推論何者最合理？",
+    "options": [
+      "學校不再舉辦任何活動",
+      "移動場地是為避免雨天影響活動",
+      "室內活動一定比戶外活動有趣",
+      "雷雨只會出現在午後"
+    ],
+    "answer": 1,
+    "explanation": "題幹將午後雷雨與改到室內並列，最合理推論是避免雨勢干擾。A把一次調整擴大成永久取消；C含主觀判斷；D把三天觀察過度概括成普遍規律。",
+    "solutionSteps": [
+      "找出事件先後：雷雨連續發生，學校更改場地。",
+      "答案B是符合情境的目的推論。",
+      "「雷雨只會出現在午後」只根據三天情況推論所有時候，證據不足。"
+    ],
+    "teacherTip": "推論要貼近文本證據，避免把有限觀察說成永遠或全部。",
+    "relatedWords": [
+      "午後雷雨",
+      "移至室內"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0036",
+    "subject": "國文",
+    "gradeSemester": "七年級下",
+    "unit": "閱讀理解",
+    "knowledgePoint": "訊息擷取",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "班級通知：週三第七節在自然教室集合，攜帶剪刀、膠水與回收紙盒。下列哪項符合通知？",
+    "options": [
+      "週三第七節到自然教室，帶指定材料",
+      "週三午休到操場，帶水彩",
+      "週四第七節到自然教室，帶剪刀",
+      "週三第七節在圖書館集合"
+    ],
+    "answer": 0,
+    "explanation": "通知明列週三、第七節、自然教室及三種材料，A完整符合。B時間地點與材料皆不同；C日期不同且材料不全；D地點錯誤。",
+    "solutionSteps": [
+      "把通知中的日期、節次、地點、物品分別圈出。",
+      "答案A四項資訊均與通知一致。",
+      "D只改了一個關鍵欄位：集合地點不是圖書館。"
+    ],
+    "teacherTip": "訊息擷取逐欄核對，避免只對到日期便選錯。",
+    "relatedWords": [
+      "週三",
+      "自然教室",
+      "回收紙盒"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0037",
+    "subject": "國文",
+    "gradeSemester": "八年級上",
+    "unit": "閱讀理解",
+    "knowledgePoint": "觀點判斷",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "作者說：「手機讓查資料更方便，但若通知不斷跳出，閱讀也容易被切碎。我會先關閉提醒，再開始讀書。」作者最可能主張？",
+    "options": [
+      "手機完全沒有學習用途",
+      "善用設定可降低手機干擾",
+      "閱讀時應同時回覆通知",
+      "所有人都應停用手機"
+    ],
+    "answer": 1,
+    "explanation": "作者承認手機查資料的便利，也提出關閉提醒降低干擾，故主張善用設定。A、D忽略手機的正面用途並過度擴大；C與作者做法相反。",
+    "solutionSteps": [
+      "注意作者先承認便利，再指出通知干擾。",
+      "答案B保留了利弊並存及可調整設定的立場。",
+      "「手機完全沒有學習用途」與作者承認查資料方便直接矛盾。"
+    ],
+    "teacherTip": "抓作者的限定語與轉折，避免把局部批評擴成全面否定。",
+    "relatedWords": [
+      "通知",
+      "關閉提醒"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0038",
+    "subject": "國文",
+    "gradeSemester": "八年級下",
+    "unit": "閱讀理解",
+    "knowledgePoint": "比較推論",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "甲文主張每天短時間練習；乙文記錄某生週末集中練習後進步。哪項比較最謹慎？",
+    "options": [
+      "乙文證明每天練習一定無效",
+      "甲乙都顯示練習方式與進步有關，但材料不足以判定唯一方法",
+      "集中練習適合所有學生",
+      "甲文與乙文完全互相矛盾"
+    ],
+    "answer": 1,
+    "explanation": "甲提出日常短練，乙記錄個案集中練習後進步；兩者都把練習與進步連結，但個案不足以證明哪種方式適用所有人。A、C過度概括；D也忽略兩種方法可能並存。",
+    "solutionSteps": [
+      "先分清甲是建議，乙是單一個案記錄。",
+      "答案B承認共同關注練習與進步，也保留證據限制。",
+      "「集中練習適合所有學生」由一個個案推及全體，證據不足。"
+    ],
+    "teacherTip": "比較文本時區分主張與個案，避免把相關性寫成普遍因果。",
+    "relatedWords": [
+      "每天短時間",
+      "週末集中練習"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0039",
+    "subject": "國文",
+    "gradeSemester": "九年級上",
+    "unit": "閱讀理解",
+    "knowledgePoint": "論證判讀",
+    "difficulty": "進階",
+    "type": "單題選擇",
+    "question": "學生說：「校園應增加樹蔭，因為上週調查的二十位同學都說午後太曬。」若要讓此論證更有力，最需要補充哪項資料？",
+    "options": [
+      "調查更多年級、更多時段的學生並記錄日照情況",
+      "列出校園樹木的品種名稱",
+      "詢問同學最喜歡哪種飲料",
+      "引用一首描寫夏天的詩"
+    ],
+    "answer": 0,
+    "explanation": "目前只有二十位同學、單一時段的主觀回覆。擴大樣本並記錄日照資料能直接補強需求與範圍。B、C、D與午後曝曬及增設樹蔭的論證關聯弱。",
+    "solutionSteps": [
+      "指出原論證的限制：樣本少、時段單一，且只有感受。",
+      "答案A能補充代表性及較直接的環境資料。",
+      "樹木品種名稱不會證明學生確實受午後日曬影響。"
+    ],
+    "teacherTip": "論證補證據應對準主張與推理缺口，而非只增加相關資訊。",
+    "relatedWords": [
+      "二十位同學",
+      "午後太曬"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0040",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "文言文",
+    "knowledgePoint": "文言詞義",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "文言句：「學而時習之，不亦說乎？」句中的「說」應解作？",
+    "options": [
+      "說話",
+      "喜悅",
+      "解釋",
+      "勸說"
+    ],
+    "answer": 1,
+    "explanation": "「說」通「悅」，整句意為學習後按時溫習，不也令人喜悅嗎？A、C、D都是現代常見義，但不符合此處語境。",
+    "solutionSteps": [
+      "先依句意讀成學習後溫習是否令人愉快。",
+      "答案「喜悅」能與反問語氣及整句意思相合。",
+      "「說話」放入句中會變成詢問是否說話，語意不通。"
+    ],
+    "teacherTip": "文言字詞可能有通假或古今異義，需以整句翻譯驗證。",
+    "relatedWords": [
+      "時習",
+      "說"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0041",
+    "subject": "國文",
+    "gradeSemester": "七年級下",
+    "unit": "文言文",
+    "knowledgePoint": "文意理解",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "文言句：「見賢思齊焉，見不賢而內自省也。」最適合的白話解釋是？",
+    "options": [
+      "看見賢者便想向他看齊，看見不賢者便反省自己",
+      "看見有才能的人就批評他，看見平凡的人便放心",
+      "看見別人犯錯就要求他改正，不必檢查自己",
+      "只要羨慕賢者，就不會犯錯"
+    ],
+    "answer": 0,
+    "explanation": "前半句「思齊」是想與賢者看齊；後半句「內自省」是向內反省自己，A完整保留兩句。B、C改變行為主體或刪去自省；D把羨慕誇大為不犯錯。",
+    "solutionSteps": [
+      "拆成兩部分：見賢→想看齊；見不賢→向內反省。",
+      "答案A依序保留兩個動作及對象。",
+      "「看見別人犯錯就要求他改正」把原句的自我反省改成責備他人。"
+    ],
+    "teacherTip": "文言翻譯要對應關鍵動詞與主語，不可只抓大意。",
+    "relatedWords": [
+      "思齊",
+      "內自省"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0042",
+    "subject": "國文",
+    "gradeSemester": "八年級上",
+    "unit": "文言文",
+    "knowledgePoint": "人物行為推論",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "短文：「范仲淹少有大志，每以天下為己任。或有稱讚者，仲淹曰：『此不足為意。』」依材料可推知他的態度為何？",
+    "options": [
+      "重視個人名聲勝於責任",
+      "不以稱讚為滿足，仍看重志業",
+      "不願承擔任何公共事務",
+      "認為天下之事都與自己無關"
+    ],
+    "answer": 1,
+    "explanation": "他以天下為己任，並說稱讚不足掛意，可推知重視志業、不以稱讚自滿。A與引文相反；C、D也與「以天下為己任」矛盾。",
+    "solutionSteps": [
+      "找出兩個線索：「以天下為己任」和「稱讚不足為意」。",
+      "答案B同時解釋其責任感及不受稱讚左右。",
+      "「不願承擔公共事務」與「以天下為己任」直接相反。"
+    ],
+    "teacherTip": "人物推論須至少用一項原文明示行為或言語作依據。",
+    "relatedWords": [
+      "大志",
+      "己任"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0043",
+    "subject": "國文",
+    "gradeSemester": "九年級上",
+    "unit": "文言文",
+    "knowledgePoint": "文言文意",
+    "difficulty": "進階",
+    "type": "單題選擇",
+    "question": "文言句：「欲速則不達，見小利則大事不成。」最能概括這段話的是？",
+    "options": [
+      "做事只要速度快，必能成功",
+      "急於求快或貪圖小利，反而妨礙大目標",
+      "眼前利益比長遠計畫重要",
+      "完成大事不需要考慮方法"
+    ],
+    "answer": 1,
+    "explanation": "「欲速則不達」指出急求速度反而不能到達；「見小利則大事不成」指出貪小利妨礙大事。B同時涵蓋兩句。A、C與原句相反；D是原文未提出的主張。",
+    "solutionSteps": [
+      "分別解釋兩句：急求快反而不達，貪小利會使大事不成。",
+      "答案B合併了速度與利益兩項警示。",
+      "「眼前利益比長遠計畫重要」正好顛倒原句價值次序。"
+    ],
+    "teacherTip": "雙句格言題要逐句對應，再找能涵蓋兩者的選項。",
+    "relatedWords": [
+      "欲速",
+      "小利"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0044",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "篇章結構",
+    "knowledgePoint": "段落順序",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "短文寫道：「天剛亮，市場陸續開門；接著攤販擺出蔬果；日頭升高後，買菜人潮逐漸散去。」這段主要按什麼順序安排？",
+    "options": [
+      "時間與事情發展順序",
+      "空間由近到遠",
+      "先因後果",
+      "提出問題再解決"
+    ],
+    "answer": 0,
+    "explanation": "「天剛亮」「接著」「日頭升高後」明確標示時間推移，市場活動也依序展開，因此是時間與事情發展順序。其餘選項沒有相應的空間移動、因果說明或問題解法。",
+    "solutionSteps": [
+      "圈出時間線索：「天剛亮」「接著」「日頭升高後」。",
+      "答案A對應市場開門、擺攤、人潮散去的先後發展。",
+      "題文沒有由近到遠的視線或位置移動，因此不是空間順序。"
+    ],
+    "teacherTip": "段落順序題需依明確的時間、空間或邏輯線索判斷。",
+    "relatedWords": [
+      "天剛亮",
+      "日頭升高"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0045",
+    "subject": "國文",
+    "gradeSemester": "七年級下",
+    "unit": "篇章結構",
+    "knowledgePoint": "總分結構",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "「校園植物有三種功能：遮蔭、淨化空氣，也提供昆蟲棲地。」這句的結構是？",
+    "options": [
+      "總說後分列",
+      "先分列後總結",
+      "時間倒敘",
+      "因果相承"
+    ],
+    "answer": 0,
+    "explanation": "先提出總項「三種功能」，再列出遮蔭、淨化空氣、提供棲地，屬總說後分列。B順序相反；C、D不符合句子安排。",
+    "solutionSteps": [
+      "找出總括語「三種功能」。",
+      "其後列出三項內容，故是總說後分列。",
+      "「先分列後總結」應先列細項、最後才歸納，順序不同。"
+    ],
+    "teacherTip": "留意總括詞出現的位置，判斷先總後分或先分後總。",
+    "relatedWords": [
+      "遮蔭",
+      "淨化空氣"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0046",
+    "subject": "國文",
+    "gradeSemester": "八年級上",
+    "unit": "篇章結構",
+    "knowledgePoint": "論述結構",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "文章先指出校園飲水機常被閒置，再分析位置不便，最後建議增設指示標誌並調整動線。主要結構為？",
+    "options": [
+      "問題—原因—對策",
+      "總分總",
+      "時間順序",
+      "並列比較"
+    ],
+    "answer": 0,
+    "explanation": "段落依序呈現問題、原因與對策，選A。B需要總述、分述、總結；C需時間推進；D需並列比較兩對象。",
+    "solutionSteps": [
+      "按文本順序列出：飲水機閒置／位置不便／增設標誌與調整動線。",
+      "答案A對應問題、原因、對策。",
+      "「時間順序」不是依事件發生時間安排，題幹呈現的是分析流程。"
+    ],
+    "teacherTip": "摘要時保留論述功能與順序，不要把所有三段式都叫總分總。",
+    "relatedWords": [
+      "位置不便",
+      "調整動線"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0047",
+    "subject": "國文",
+    "gradeSemester": "九年級上",
+    "unit": "篇章結構",
+    "knowledgePoint": "論證結構",
+    "difficulty": "進階",
+    "type": "單題選擇",
+    "question": "一篇文章先提出「校園應保留一處安靜閱讀區」，接著引用訪談說明學生需求，最後回應「會占用活動空間」的疑慮並提出分時使用方案。主要採用？",
+    "options": [
+      "提出主張、舉證、回應反方",
+      "按時間記敘個人經歷",
+      "先列定義再作分類",
+      "由結果倒推原因"
+    ],
+    "answer": 0,
+    "explanation": "文本先提出立場、以訪談支持，再處理反對意見並提出折衷，符合A。其他選項描述不同的文章組織方式。",
+    "solutionSteps": [
+      "分辨主張、證據與反方疑慮各自所在。",
+      "答案A涵蓋提出閱讀區主張、引用訪談、回應空間疑慮。",
+      "「先列定義再作分類」題幹沒有概念分類。"
+    ],
+    "teacherTip": "進階篇章題需看論證功能，不只數段落或列出材料。",
+    "relatedWords": [
+      "閱讀區",
+      "訪談"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0048",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "篇章結構",
+    "knowledgePoint": "照應辨識",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "開頭寫「我一直記得外婆門前那株桂花」，結尾寫「每逢桂花香起，我就想起外婆」。首尾主要形成哪種關係？",
+    "options": [
+      "前後照應",
+      "層遞",
+      "頂真",
+      "倒敘"
+    ],
+    "answer": 0,
+    "explanation": "首尾都以桂花連結外婆的記憶，彼此呼應，屬前後照應。B是語意逐層加深；C是前句末尾接下句開頭；D是先寫後發生的結果再回述過去。",
+    "solutionSteps": [
+      "比對開頭與結尾重複出現的桂花、外婆記憶。",
+      "答案「前後照應」說明首尾互相呼應。",
+      "「頂真」需要句尾詞語直接作下一句開頭，本文沒有這種接續。"
+    ],
+    "teacherTip": "照應看前後重現的意象或語意，頂真則看詞語首尾相接。",
+    "relatedWords": [
+      "桂花",
+      "外婆"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0049",
+    "subject": "國文",
+    "gradeSemester": "八年級下",
+    "unit": "篇章結構",
+    "knowledgePoint": "轉折辨識",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "「我原以為整理舊照片會很快，沒想到每張背後都有故事，最後花了一整個下午。」句中「沒想到」的作用是？",
+    "options": [
+      "引出與原先預期相反的發展",
+      "補充照片的年代",
+      "列舉整理步驟",
+      "總結整理的好處"
+    ],
+    "answer": 0,
+    "explanation": "前句預期很快，後句實際耗時一下午，「沒想到」引出反預期的轉折。其餘選項題幹沒有提供年代、步驟或總結。",
+    "solutionSteps": [
+      "對照原先預期「很快」和實際結果「一整個下午」。",
+      "答案A指出語詞帶出預期與實況的轉折。",
+      "「補充照片的年代」沒有任何年代資訊支持。"
+    ],
+    "teacherTip": "轉折標記要連同前後內容判斷，不能只按詞語分類。",
+    "relatedWords": [
+      "很快",
+      "一整個下午"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0050",
+    "subject": "國文",
+    "gradeSemester": "九年級上",
+    "unit": "篇章結構",
+    "knowledgePoint": "論證辨析",
+    "difficulty": "進階",
+    "type": "單題選擇",
+    "question": "某文主張「校園應設置遮雨通道」，只列出三位同學覺得方便，未說明成本或受益範圍。這段論證最需要補強的是？",
+    "options": [
+      "證據的代表性與政策可行性",
+      "作者的字體美觀",
+      "故事的情節轉折",
+      "形容詞的數量"
+    ],
+    "answer": 0,
+    "explanation": "三位同學的感受不足以代表全校，也沒有成本與可行性資料，因此需補代表性及政策評估。B、C、D與論證有效性無關。",
+    "solutionSteps": [
+      "主張涉及全校設施，但證據只有三位同學的便利感受。",
+      "答案A對應證據代表性與建置可行性兩個缺口。",
+      "「故事的情節轉折」不是論證需要的證據。"
+    ],
+    "teacherTip": "論證品讀要檢查證據是否支持主張的範圍，以及方案是否可行。",
+    "relatedWords": [
+      "三位同學",
+      "全校"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0051",
+    "subject": "國文",
+    "gradeSemester": "七年級下",
+    "unit": "字音",
+    "knowledgePoint": "多音字辨讀",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "「他把資料交還給圖書館。」句中的「還」讀音為何？",
+    "options": [
+      "ㄏㄨㄢˊ",
+      "ㄏㄞˊ",
+      "ㄏㄨㄢˇ",
+      "ㄏㄢˊ"
+    ],
+    "answer": 0,
+    "explanation": "「交還」的還表示歸還，讀ㄏㄨㄢˊ。ㄏㄞˊ常表示仍然或尚且；其餘兩音不符合此字在本詞的讀音。",
+    "solutionSteps": [
+      "看「還」的詞組是「交還資料」，意思是歸還。",
+      "歸還義讀ㄏㄨㄢˊ，故選A。",
+      "ㄏㄞˊ多用於「還沒、還是」，不是歸還義。"
+    ],
+    "teacherTip": "多音字依詞義和詞組辨音。",
+    "relatedWords": [
+      "歸還",
+      "還是"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0052",
+    "subject": "國文",
+    "gradeSemester": "八年級上",
+    "unit": "字音",
+    "knowledgePoint": "聲調辨讀",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "下列哪組詞語的括號字讀音相同？",
+    "options": [
+      "著（ㄓㄨㄛˊ）手／沉著（ㄓㄨㄛˊ）",
+      "薄（ㄅㄛˊ）弱／薄（ㄅㄠˊ）餅",
+      "供（ㄍㄨㄥ）應／供（ㄍㄨㄥˋ）品",
+      "勉強（ㄑㄧㄤˇ）／強（ㄑㄧㄤˊ）調"
+    ],
+    "answer": 0,
+    "explanation": "A兩個「著」都讀ㄓㄨㄛˊ：「著手」指開始做，「沉著」指鎮定。B「薄弱」ㄅㄛˊ、「薄餅」ㄅㄠˊ；C「供應」ㄍㄨㄥ、「供品」ㄍㄨㄥˋ；D「勉強」ㄑㄧㄤˇ、「強調」ㄑㄧㄤˊ，讀音都不同，因此只有A相同。",
+    "solutionSteps": [
+      "逐組核對括號字在完整詞語中的讀音。",
+      "A「著手」與「沉著」的著都讀ㄓㄨㄛˊ。",
+      "B的「薄弱」讀ㄅㄛˊ、「薄餅」讀ㄅㄠˊ，兩音不同。"
+    ],
+    "teacherTip": "多音字要連同詞語辨讀，並逐組確認聲調。",
+    "relatedWords": [
+      "著手",
+      "沉著"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0053",
+    "subject": "國文",
+    "gradeSemester": "九年級上",
+    "unit": "字音",
+    "knowledgePoint": "文言字音",
+    "difficulty": "進階",
+    "type": "單題選擇",
+    "question": "「一暴十寒」的「暴」在此讀音為何？",
+    "options": [
+      "ㄅㄠˋ",
+      "ㄆㄨˋ",
+      "ㄆㄠˋ",
+      "ㄅㄨˋ"
+    ],
+    "answer": 1,
+    "explanation": "「一暴十寒」的暴通曝，指曬，讀ㄆㄨˋ。A是暴力、暴雨等常見讀音；C、D均不合此成語。",
+    "solutionSteps": [
+      "先以成語意思理解：偶爾曬一天，卻冷凍十天，比喻學習缺乏持續。",
+      "此處暴通曝，答案ㄆㄨˋ。",
+      "ㄅㄠˋ是暴雨、暴力等義項，不是成語中的讀音。"
+    ],
+    "teacherTip": "辨讀古典成語中的通假字時，先理解語義再定音。",
+    "relatedWords": [
+      "一暴十寒",
+      "曝"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0054",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "字形",
+    "knowledgePoint": "形近字辨析",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "下列句子中，括號內的字形何者正確？",
+    "options": [
+      "他做事謹慎，從不草（率）了事。",
+      "山路崎（岖），車子行進很慢。",
+      "他為人（慷）概，常幫助同學。",
+      "展覽內容豐（傅），令人目不暇給。"
+    ],
+    "answer": 0,
+    "explanation": "A「草率」字形正確。B應寫繁體字「嶇」，C應寫「慨」，D應寫「富」；因此只有A的括號字形正確。",
+    "solutionSteps": [
+      "逐項核對括號內字形：A率正確，B岖應為嶇，C概應為慨，D傅應為富。",
+      "A組成固定詞語「草率了事」，字形無誤。",
+      "D應寫「豐富」，括號內的「傅」不能構成正確詞形。"
+    ],
+    "teacherTip": "字形題要核對指定字與臺灣繁體用字，不只確認大意看得懂。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0055",
+    "subject": "國文",
+    "gradeSemester": "七年級下",
+    "unit": "字形",
+    "knowledgePoint": "成語字形",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "下列成語，何者用字完全正確？",
+    "options": [
+      "迫不及待",
+      "再接再勵",
+      "按步就班",
+      "談笑風聲"
+    ],
+    "answer": 0,
+    "explanation": "A「迫不及待」用字正確。B應作「再接再厲」；C應作「按部就班」；D應作「談笑風生」，所以只有A完全正確。",
+    "solutionSteps": [
+      "逐一核對四個成語的固定寫法。",
+      "A「迫不及待」四字正確。",
+      "C的「按步就班」應寫「按部就班」，故不能與A同為正解。"
+    ],
+    "teacherTip": "成語字形題需以固定詞形判斷，避免同音字替代。",
+    "relatedWords": [
+      "迫不及待",
+      "按部就班"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0056",
+    "subject": "國文",
+    "gradeSemester": "八年級上",
+    "unit": "字形",
+    "knowledgePoint": "易混字辨析",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "下列哪一組詞語都使用正確字形？",
+    "options": [
+      "再接再厲、按部就班",
+      "再接再勵、按部就班",
+      "再接再厲、按步就班",
+      "再接再勵、按步就班"
+    ],
+    "answer": 0,
+    "explanation": "A兩詞分別寫作「再接再厲」和「按部就班」，皆正確。B把厲寫成勵；C把部寫成步；D兩處皆誤。",
+    "solutionSteps": [
+      "先分別回想兩個成語的固定字形。",
+      "答案A兩個詞都符合慣用寫法。",
+      "B中的「再接再勵」將「厲」誤寫為「勵」。"
+    ],
+    "teacherTip": "形近或同音字應放在完整成語中核對。",
+    "relatedWords": [
+      "再接再厲",
+      "按部就班"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0057",
+    "subject": "國文",
+    "gradeSemester": "八年級下",
+    "unit": "字形",
+    "knowledgePoint": "易混字辨析",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "「老師要我們按部就班完成實驗。」其中「部」表示什麼？",
+    "options": [
+      "軍隊編制單位",
+      "步伐",
+      "部分、次序",
+      "部首"
+    ],
+    "answer": 2,
+    "explanation": "「按部就班」原指依照一定的部門與班次安排，後指依次序進行；此處「部」與次第、安排有關。B的「步」是行走步伐，並非此成語的字。",
+    "solutionSteps": [
+      "題目考的是成語中的字義兼字形。",
+      "答案C能解釋按既定次序逐步完成。",
+      "「步伐」是「步」的意思，不能據音近改寫固定詞形。"
+    ],
+    "teacherTip": "理解成語來源可協助辨析同音、形近字。",
+    "relatedWords": [
+      "按部就班",
+      "步伐"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0058",
+    "subject": "國文",
+    "gradeSemester": "九年級上",
+    "unit": "字形",
+    "knowledgePoint": "字形與語境",
+    "difficulty": "進階",
+    "type": "單題選擇",
+    "question": "下列哪句的成語用字與語境搭配都正確？",
+    "options": [
+      "遇到疑問應實事求是，查證資料後再下結論。",
+      "他把答案背熟，真是實事求事。",
+      "她不肯改變方法，總是按步就班地嘗試新策略。",
+      "兩隊互相合作，真是各自為政。"
+    ],
+    "answer": 0,
+    "explanation": "A「實事求是」字形正確且符合查證事實的情境。B誤寫「是」為「事」；C應作「按部就班」且意義與嘗試新策略搭配不佳；D「各自為政」與互相合作相反。",
+    "solutionSteps": [
+      "檢查成語字形，也檢查句中情境是否支持詞義。",
+      "A用「實事求是」形容依據事實查證，字義搭配皆恰當。",
+      "D的「各自為政」指各自作主，與互相合作相反。"
+    ],
+    "teacherTip": "正確字形不代表搭配正確，兩個條件都要檢查。",
+    "relatedWords": [
+      "實事求是",
+      "各自為政"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0059",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "字義",
+    "knowledgePoint": "一字多義",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "「窗外的雨聲漸漸停了。」句中「漸漸」修飾哪個詞？",
+    "options": [
+      "窗外",
+      "雨聲",
+      "停",
+      "了"
+    ],
+    "answer": 2,
+    "explanation": "「漸漸」表示停止這個變化逐步發生，修飾動詞「停」。窗外是處所，雨聲是主體，「了」是語助詞。",
+    "solutionSteps": [
+      "先找到表示變化的動詞「停」。",
+      "答案「停」是「漸漸」說明的變化。",
+      "「雨聲」是變化主體，不是副詞所說明的動作。"
+    ],
+    "teacherTip": "修飾語判斷要看語意關係和句法位置。",
+    "relatedWords": [
+      "漸漸",
+      "停止"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0060",
+    "subject": "國文",
+    "gradeSemester": "七年級下",
+    "unit": "字義",
+    "knowledgePoint": "詞義辨析",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "「他把借來的書妥善保存。」句中的「妥善」最接近何意？",
+    "options": [
+      "適當而周到",
+      "快速而猛烈",
+      "隨意而簡單",
+      "遲疑而不決"
+    ],
+    "answer": 0,
+    "explanation": "保存方式適當且周到，對應「妥善」。B描述速度與力量，C指隨便，D指猶豫，均不合保存情境。",
+    "solutionSteps": [
+      "看「妥善」修飾保存方式。",
+      "答案「適當而周到」可完整說明妥善保存。",
+      "「隨意而簡單」表示不仔細，與妥善保存相反。"
+    ],
+    "teacherTip": "近義詞題以搭配對象和情境限制詞義。",
+    "relatedWords": [
+      "妥善",
+      "保存"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0061",
+    "subject": "國文",
+    "gradeSemester": "八年級上",
+    "unit": "字義",
+    "knowledgePoint": "文言詞義",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "文言句：「不以物喜，不以己悲。」句中的「以」最接近何意？",
+    "options": [
+      "因為、由於",
+      "用、拿",
+      "認為",
+      "按照"
+    ],
+    "answer": 0,
+    "explanation": "句意是不因外物好壞而喜，也不因個人得失而悲；「以」表示因為。B是工具義，C是「以為」義，D是依照，皆不合。",
+    "solutionSteps": [
+      "把句子分成外物與自身兩種原因。",
+      "答案「因為、由於」可解釋不因外物或己身而情緒起伏。",
+      "「用、拿」需要後接工具或受詞，無法解釋此句。"
+    ],
+    "teacherTip": "文言虛詞須按句法位置和整句翻譯判斷。",
+    "relatedWords": [
+      "外物",
+      "己"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0062",
+    "subject": "國文",
+    "gradeSemester": "八年級下",
+    "unit": "字義",
+    "knowledgePoint": "語境辨義",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "「這項措施有助於減輕交通負擔。」句中的「負擔」最接近何意？",
+    "options": [
+      "需要承受的責任或壓力",
+      "搬運物品的動作",
+      "完成工作的速度",
+      "交通工具的種類"
+    ],
+    "answer": 0,
+    "explanation": "交通負擔指交通系統或使用者需要承受的壓力與成本，A最接近。B把名詞誤解為搬運動作；C、D不是負擔的詞義。",
+    "solutionSteps": [
+      "辨認「負擔」在交通情境中指不便、壓力或成本。",
+      "答案A涵蓋需要承受的壓力。",
+      "「搬運物品的動作」是把負擔拆成字面動作，忽略詞語在句中的意思。"
+    ],
+    "teacherTip": "複合詞的整體詞義不一定等於各字面義相加。",
+    "relatedWords": [
+      "交通",
+      "負擔"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0063",
+    "subject": "國文",
+    "gradeSemester": "九年級上",
+    "unit": "字義",
+    "knowledgePoint": "文言虛詞",
+    "difficulty": "進階",
+    "type": "單題選擇",
+    "question": "文言句：「學而不思則罔，思而不學則殆。」此處兩個「而」的作用最接近？",
+    "options": [
+      "連接前後動作或分句",
+      "表示因果結果",
+      "表示假設條件",
+      "表示疑問語氣"
+    ],
+    "answer": 0,
+    "explanation": "兩個「而」分別連接學與不思、思與不學，構成並列相承的分句，選A。B的結果由「則」表達；C、D均非此處功能。",
+    "solutionSteps": [
+      "先分出兩組結構：學／不思、思／不學。",
+      "「而」連接兩側語意，答案A最合句法。",
+      "句中的結果關係由「則」引出，不能把「而」解作結果標記。"
+    ],
+    "teacherTip": "辨析虛詞要比較同句不同標記各自的功能。",
+    "relatedWords": [
+      "而",
+      "則"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0064",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "字義",
+    "knowledgePoint": "近義詞辨析",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "「他仔細核對名單，避免漏掉任何一位同學。」句中的「核對」最接近何意？",
+    "options": [
+      "逐項查驗是否相符",
+      "抄寫內容備份",
+      "隱藏錯誤資料",
+      "重新排列順序"
+    ],
+    "answer": 0,
+    "explanation": "核對名單是逐項檢查內容是否正確相符，A符合。B是抄寫，C是隱藏，D是排序，均非查驗之意。",
+    "solutionSteps": [
+      "注意核對的對象是名單，目的在避免漏人。",
+      "答案「逐項查驗是否相符」解釋了核對的動作。",
+      "「重新排列順序」可能是整理，但不一定檢查內容正確。"
+    ],
+    "teacherTip": "近義詞要辨清動作目的，不只看操作可能帶來的結果。",
+    "relatedWords": [
+      "核對",
+      "查驗"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0065",
+    "subject": "國文",
+    "gradeSemester": "八年級上",
+    "unit": "字義",
+    "knowledgePoint": "成語詞義",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "「他提出的建議切中要害，大家立刻找到問題所在。」句中的「切中要害」最接近何意？",
+    "options": [
+      "直接指出關鍵問題",
+      "說話傷害他人",
+      "只談表面現象",
+      "提出無關意見"
+    ],
+    "answer": 0,
+    "explanation": "「切中要害」指直接抓到關鍵處，能幫助大家找到問題所在。B把「要害」誤作身體受傷；C、D與找到問題核心相反。",
+    "solutionSteps": [
+      "以結果『找到問題所在』確認建議指出了核心。",
+      "答案A符合切中要點、抓住關鍵的意思。",
+      "「只談表面現象」沒有指出問題核心，與切中要害相反。"
+    ],
+    "teacherTip": "成語語意常由後續效果驗證。",
+    "relatedWords": [
+      "切中要害",
+      "關鍵"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0066",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "語法",
+    "knowledgePoint": "詞性判斷",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "「妹妹輕輕地關上門。」句中「輕輕地」修飾哪個動作？",
+    "options": [
+      "妹妹",
+      "關上",
+      "門",
+      "地"
+    ],
+    "answer": 1,
+    "explanation": "「輕輕地」表示關門的方式，修飾動詞「關上」。妹妹是動作者，門是受詞，「地」是副詞標記。",
+    "solutionSteps": [
+      "用『怎麼樣地關門』提問。",
+      "答案「關上」是被「輕輕地」修飾的動作。",
+      "「門」是動作承受者，不是動作本身。"
+    ],
+    "teacherTip": "副詞通常說明動作、狀態或程度。",
+    "relatedWords": [
+      "輕輕地",
+      "關上"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0067",
+    "subject": "國文",
+    "gradeSemester": "七年級下",
+    "unit": "語法",
+    "knowledgePoint": "句型辨識",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "「請將作業放在講桌上。」這句依表達功能屬於？",
+    "options": [
+      "疑問句",
+      "祈使句",
+      "感嘆句",
+      "敘述句"
+    ],
+    "answer": 1,
+    "explanation": "句子要求聽者完成動作，是祈使句。A詢問問題；C表達強烈情緒；D陳述事實。",
+    "solutionSteps": [
+      "注意句首「請」及要求對方放置作業的功能。",
+      "答案「祈使句」符合命令、請求或勸告的句型。",
+      "「請」不是疑問標記，句子也沒有提出問題。"
+    ],
+    "teacherTip": "句型分類看說話目的，不只看句末標點。",
+    "relatedWords": [
+      "請",
+      "祈使"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0068",
+    "subject": "國文",
+    "gradeSemester": "八年級上",
+    "unit": "語法",
+    "knowledgePoint": "關聯詞語",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "「＿＿你願意先聽完不同意見，討論就更容易找到共識。」若要明確表達「只要具備前項條件，後項結果便較可能發生」，空格應填？",
+    "options": [
+      "只要",
+      "即使",
+      "不但",
+      "不論"
+    ],
+    "answer": 0,
+    "explanation": "「只要……就……」明確表示前項條件成立，後項結果便可能發生。B「即使」表示讓步；C「不但」需搭配遞進內容；D「不論」通常搭配「都」，表示不受條件差異影響，均不符合題目指定關係。",
+    "solutionSteps": [
+      "題幹明示要表達條件成立後，結果較可能發生。",
+      "答案「只要」與後文「就」構成條件關係。",
+      "「不論」通常和「都」搭配，表各種條件下結果相同，不合本句限定。"
+    ],
+    "teacherTip": "依題目指定的邏輯關係選關聯詞，並檢查常見搭配。",
+    "relatedWords": [
+      "只要",
+      "就"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0069",
+    "subject": "國文",
+    "gradeSemester": "八年級下",
+    "unit": "語法",
+    "knowledgePoint": "語病辨析",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "下列句子何者沒有語病？",
+    "options": [
+      "經過大家的努力，使活動順利完成。",
+      "我們要避免不要在走廊奔跑。",
+      "這本書不但內容豐富，而且插圖也很精美。",
+      "他大約可能在下午三點左右抵達。"
+    ],
+    "answer": 2,
+    "explanation": "C的「不但……而且……」連接兩個完整優點，語意與句法自然。A缺少主語；B「避免不要」雙重否定混亂；D「大約、可能、左右」語意重複。",
+    "solutionSteps": [
+      "逐句找主語、否定詞和重複語意。",
+      "C句主語明確，遞進關係成立。",
+      "D同時使用大約、可能、左右，三者都表示不確定或約略，造成冗贅。"
+    ],
+    "teacherTip": "語病題逐項檢查主語、搭配、否定與語意重複。",
+    "relatedWords": [
+      "不但",
+      "而且"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0070",
+    "subject": "國文",
+    "gradeSemester": "九年級上",
+    "unit": "語法",
+    "knowledgePoint": "複句關係",
+    "difficulty": "進階",
+    "type": "單題選擇",
+    "question": "「雖然雨勢增大，志工仍依安全指引撤離。」兩分句的關係是？",
+    "options": [
+      "條件",
+      "讓步轉折",
+      "選擇",
+      "因果"
+    ],
+    "answer": 1,
+    "explanation": "「雖然……仍……」表示承認雨勢增大這項情況，但結果沒有照一般預期停止行動，是讓步轉折。",
+    "solutionSteps": [
+      "找出關聯詞「雖然」「仍」。",
+      "答案「讓步轉折」符合前句承認情況、後句仍採行動。",
+      "「因果」不能說明「仍」所呈現的反預期關係。"
+    ],
+    "teacherTip": "留意讓步句中的結果常出乎前項條件的通常預期。",
+    "relatedWords": [
+      "雖然",
+      "仍"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0071",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "語法",
+    "knowledgePoint": "句子成分",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "「小鳥在屋簷下築巢。」句中的「在屋簷下」主要表示？",
+    "options": [
+      "動作發生的處所",
+      "動作的受詞",
+      "動作者",
+      "結果補語"
+    ],
+    "answer": 0,
+    "explanation": "「在屋簷下」回答在哪裡築巢，表示處所。小鳥是動作者，巢是築的受詞；句中沒有結果補語。",
+    "solutionSteps": [
+      "對動詞「築巢」提問：在哪裡？",
+      "答案「動作發生的處所」對應「在屋簷下」。",
+      "「小鳥」才是動作者，不能把處所短語當主語。"
+    ],
+    "teacherTip": "用提問方式辨認句子成分：誰、做什麼、在哪裡。",
+    "relatedWords": [
+      "屋簷",
+      "築巢"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0072",
+    "subject": "國文",
+    "gradeSemester": "八年級上",
+    "unit": "語法",
+    "knowledgePoint": "標點使用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "下列哪句的冒號使用最恰當？",
+    "options": [
+      "我最喜歡三種活動：閱讀、游泳和散步。",
+      "他說今天下午：不必帶雨傘。",
+      "我們到達：車站後才發現走錯路。",
+      "請於：週三下午到校集合。"
+    ],
+    "answer": 0,
+    "explanation": "A冒號置於總括語「三種活動」之後，引出具體列舉，使用恰當。B把冒號置於時間詞組「今天下午」之後，未形成提示下文的總括語；C把冒號放在動詞「到達」和受詞「車站」之間；D切斷介詞「於」與時間詞組，均不恰當。",
+    "solutionSteps": [
+      "先找冒號前是否有能提示下文的總括語。",
+      "答案A先說「三種活動」，再以冒號列出三項活動。",
+      "D的「於」直接支配時間詞組「週三下午」，中間不宜用冒號切開。"
+    ],
+    "teacherTip": "冒號通常用來引出下文說明或列舉，不宜切斷緊密相連的句法成分。",
+    "relatedWords": [
+      "冒號",
+      "列舉"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0073",
+    "subject": "國文",
+    "gradeSemester": "九年級上",
+    "unit": "語法",
+    "knowledgePoint": "句子改寫",
+    "difficulty": "進階",
+    "type": "單題選擇",
+    "question": "「雖然路程遙遠，大家仍準時抵達。」若將轉折改寫成合理的因果關係，空格最適合填入「因為路程遙遠，＿＿」的哪個下句？",
+    "options": [
+      "大家遲到",
+      "大家提早出發，所以仍準時抵達",
+      "大家不必出門",
+      "路程因此縮短"
+    ],
+    "answer": 1,
+    "explanation": "原句保留「路程遙遠」與「準時抵達」兩項條件；改寫為因果時，B補出提早出發這項合理原因，說明如何仍能準時。A改變結果，C、D與原文事件不合。",
+    "solutionSteps": [
+      "先找出原句要保留的兩項資訊：路程遙遠、仍準時抵達。",
+      "答案B補出提早出發，形成「路程遠→提早出發→準時抵達」的合理因果。",
+      "A的遲到與原句明示的準時結果相反。"
+    ],
+    "teacherTip": "複句改寫要保留原文核心資訊；若補入推論，須讓因果鏈清楚合理。",
+    "relatedWords": [
+      "雖然",
+      "因為"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0074",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "修辭",
+    "knowledgePoint": "譬喻",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "「操場像一片綠色的海，旗子是海面上跳動的浪花。」主要使用？",
+    "options": [
+      "譬喻",
+      "借代",
+      "頂真",
+      "設問"
+    ],
+    "answer": 0,
+    "explanation": "操場比作海、旗子比作浪花，有明確本體與喻體，屬譬喻。B是相關物代替本體；C是句尾接句首；D是提出問題。",
+    "solutionSteps": [
+      "找出兩組本體與喻體：操場／海、旗子／浪花。",
+      "答案「譬喻」說明相似事物間的比擬。",
+      "「借代」不以相似性比較，而是用相關事物代稱。"
+    ],
+    "teacherTip": "有「像」不必然足夠，仍要找出本體與喻體的對應。",
+    "relatedWords": [
+      "操場",
+      "海"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0075",
+    "subject": "國文",
+    "gradeSemester": "七年級下",
+    "unit": "修辭",
+    "knowledgePoint": "擬人",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "「窗邊的盆栽伸了個懶腰，迎接早晨的陽光。」主要修辭為？",
+    "options": [
+      "誇飾",
+      "擬人",
+      "排比",
+      "雙關"
+    ],
+    "answer": 1,
+    "explanation": "盆栽被寫成會伸懶腰、迎接陽光的人，屬擬人。A是程度誇大；C需多個相似結構；D是一語雙關。",
+    "solutionSteps": [
+      "找出非人的主體「盆栽」及人的動作「伸懶腰、迎接」。",
+      "答案「擬人」符合賦予植物人的行為。",
+      "「誇飾」不是把植物寫成人，而是刻意放大程度。"
+    ],
+    "teacherTip": "擬人要指出被人格化的對象和人的動作。",
+    "relatedWords": [
+      "盆栽",
+      "陽光"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0076",
+    "subject": "國文",
+    "gradeSemester": "八年級上",
+    "unit": "修辭",
+    "knowledgePoint": "排比",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "「有人在操場奔跑，有人在圖書館閱讀，有人在教室練習。」主要修辭為？",
+    "options": [
+      "排比",
+      "轉化",
+      "譬喻",
+      "借代"
+    ],
+    "answer": 0,
+    "explanation": "三個句子以相同的「有人在……」結構並列，形成排比。其餘修辭不符合句中結構或語意。",
+    "solutionSteps": [
+      "比較三個分句是否句法相似且並列。",
+      "答案「排比」符合反覆相似句型。",
+      "「譬喻」需要本體和喻體，此句只是列舉不同活動。"
+    ],
+    "teacherTip": "排比除並列外，也常帶有加強節奏或列舉效果。",
+    "relatedWords": [
+      "操場",
+      "圖書館",
+      "教室"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0077",
+    "subject": "國文",
+    "gradeSemester": "八年級下",
+    "unit": "修辭",
+    "knowledgePoint": "借代",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "「白衣天使今天到校替同學檢查視力。」句中的「白衣天使」借代何者？",
+    "options": [
+      "醫護人員",
+      "天上的神仙",
+      "穿白衣的學生",
+      "視力檢查表"
+    ],
+    "answer": 0,
+    "explanation": "「白衣天使」以白衣和救護形象代稱醫護人員，選A。其他選項依字面理解，未掌握語境中的借代對象。",
+    "solutionSteps": [
+      "依情境看人物到校替同學檢查視力。",
+      "答案「醫護人員」是「白衣天使」在此處代稱的對象。",
+      "「穿白衣的學生」只符合顏色，不能解釋檢查視力的專業角色。"
+    ],
+    "teacherTip": "借代由特徵或相關事物代替本體，需用上下文確認。",
+    "relatedWords": [
+      "白衣天使",
+      "醫護人員"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0078",
+    "subject": "國文",
+    "gradeSemester": "九年級上",
+    "unit": "修辭",
+    "knowledgePoint": "象徵",
+    "difficulty": "進階",
+    "type": "單題選擇",
+    "question": "小說中反覆出現的破傘，總在主角遭遇挫折時被修補，後來傘面雖舊卻完整。依上下文，破傘最可能象徵？",
+    "options": [
+      "主角不願改變的固執",
+      "經歷修補後仍持續生活的韌性",
+      "家庭經濟突然改善",
+      "雨季即將結束"
+    ],
+    "answer": 1,
+    "explanation": "破傘在挫折後被反覆修補，最後仍完整，與主角承受挫折、持續前行相呼應，較可能象徵韌性。其餘選項沒有題幹線索支持。",
+    "solutionSteps": [
+      "注意物件反覆出現的情境：受損、修補、仍然完整。",
+      "答案B把物件變化與主角可能的生命經驗連結。",
+      "「家庭經濟突然改善」題幹沒有任何直接線索，屬無根推測。"
+    ],
+    "teacherTip": "象徵解讀須由反覆出現的細節和情節變化支持。",
+    "relatedWords": [
+      "破傘",
+      "修補"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0079",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "閱讀理解",
+    "knowledgePoint": "主旨判斷",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "校園公告：「本週五進行操場跑道保養，請各班改至體育館上課。」公告主要目的為？",
+    "options": [
+      "說明場地調整及原因",
+      "招募跑步比賽選手",
+      "通知取消所有體育課",
+      "介紹跑道施工方法"
+    ],
+    "answer": 0,
+    "explanation": "公告說明跑道保養及改用體育館，目的在告知場地調整和原因。B、D未提及；C把改地點誤解成取消課程。",
+    "solutionSteps": [
+      "讀出原因「跑道保養」和處置「改至體育館」。",
+      "答案A包含公告的原因與安排。",
+      "「取消所有體育課」與公告仍安排體育館上課不符。"
+    ],
+    "teacherTip": "公告主旨通常由原因和要求行動共同構成。",
+    "relatedWords": [
+      "操場",
+      "體育館"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0080",
+    "subject": "國文",
+    "gradeSemester": "七年級下",
+    "unit": "閱讀理解",
+    "knowledgePoint": "訊息擷取",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "小鎮新設自行車道後，週末騎車人數增加，但商店營業額是否上升仍未調查。下列何者符合資料？",
+    "options": [
+      "設置後觀察到週末騎車人數增加",
+      "所有商店營業額都提高",
+      "小鎮居民都不再開車",
+      "自行車道必定造成塞車"
+    ],
+    "answer": 0,
+    "explanation": "題幹直接提供自行車道設置後週末騎車人數增加，A準確重述已知資訊。商店營業額尚未調查，不能說所有商店都提高；居民是否改開車及是否塞車也沒有資料。",
+    "solutionSteps": [
+      "把題幹分成已知與未知：騎車人數增加是已知，營業額變化尚未調查。",
+      "答案A只重述觀察到的騎乘人數變化，不額外主張因果。",
+      "B把未調查的營業額說成全部上升，超出題目資訊。"
+    ],
+    "teacherTip": "資料題先分辨直接陳述和因果推論，避免把時間先後當成因果證明。",
+    "relatedWords": [
+      "自行車道",
+      "週末騎車人數"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0081",
+    "subject": "國文",
+    "gradeSemester": "八年級上",
+    "unit": "閱讀理解",
+    "knowledgePoint": "觀點判斷",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "作者寫道：「公園裡的長椅不只是休息處，也讓不同年齡的人有機會短暫交談。」最接近作者觀點的是？",
+    "options": [
+      "公共空間能促進日常交流",
+      "公園只適合年長者使用",
+      "長椅應全部改成運動器材",
+      "交談會妨礙公園功能"
+    ],
+    "answer": 0,
+    "explanation": "作者指出長椅讓不同年齡者短暫交流，支持公共空間促進互動。其他選項限制使用者或與作者正面肯定的內容相反。",
+    "solutionSteps": [
+      "找出作者對長椅新增的功能：促成不同年齡者交談。",
+      "答案A概括公共空間帶來日常交流。",
+      "「交談會妨礙公園功能」與作者把交談視為功能的說法相反。"
+    ],
+    "teacherTip": "觀點題需概括作者明示的評價，不要擴張成排他規則。",
+    "relatedWords": [
+      "長椅",
+      "交流"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0082",
+    "subject": "國文",
+    "gradeSemester": "八年級下",
+    "unit": "閱讀理解",
+    "knowledgePoint": "語意推論",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "「她把沒寄出的信收進抽屜，並沒有撕掉；多年後整理房間時，仍停下來讀了一遍。」最合理的推論是？",
+    "options": [
+      "這封信對她仍有情感意義",
+      "她已忘記信的內容",
+      "她打算立刻寄出這封信",
+      "抽屜是她唯一的收藏處"
+    ],
+    "answer": 0,
+    "explanation": "信未被丟棄，多年後仍停下閱讀，合理推知它對她仍有情感意義。B與仍閱讀矛盾；C、D都缺少證據。",
+    "solutionSteps": [
+      "注意她保留信件並多年後再次閱讀。",
+      "答案A是由兩個行為共同支持的情感推論。",
+      "「打算立刻寄出」沒有信件內容或寄送行動支持。"
+    ],
+    "teacherTip": "文學推論可合理延伸，但不可替角色補上未出現的計畫。",
+    "relatedWords": [
+      "沒寄出的信",
+      "抽屜"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0083",
+    "subject": "國文",
+    "gradeSemester": "九年級上",
+    "unit": "閱讀理解",
+    "knowledgePoint": "論證判斷",
+    "difficulty": "進階",
+    "type": "單題選擇",
+    "question": "某文主張「學校應延長圖書館開放時間」，理由是「許多學生放學後需要安靜自習」。若要判斷此主張是否可行，最需補充哪項資料？",
+    "options": [
+      "放學後圖書館使用人數及人力、經費安排",
+      "學生最喜歡的小說類型",
+      "校園樹木的數量",
+      "圖書館牆面顏色"
+    ],
+    "answer": 0,
+    "explanation": "需求與執行條件都關係到延長開放的可行性，應調查使用人數及人力、經費。其他選項與開放時間決策關聯不足。",
+    "solutionSteps": [
+      "區分主張的兩面：是否有需求、是否能執行。",
+      "答案A同時補充使用需求及資源條件。",
+      "「學生最喜歡的小說類型」不會回答延長開館是否可行。"
+    ],
+    "teacherTip": "評估政策主張須檢查需求證據與執行成本。",
+    "relatedWords": [
+      "圖書館",
+      "開放時間"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0084",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "文言文",
+    "knowledgePoint": "文言詞義",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "文言句：「溫故而知新，可以為師矣。」句中的「故」是指？",
+    "options": [
+      "舊知識",
+      "故意",
+      "事故",
+      "死亡"
+    ],
+    "answer": 0,
+    "explanation": "「溫故知新」指溫習已學過的舊知識，進而理解新內容，因此「故」是舊知識。",
+    "solutionSteps": [
+      "把「溫故」理解為溫習什麼。",
+      "答案「舊知識」與「知新」形成新舊對照。",
+      "「故意」是副詞義，無法與「溫」構成此句意思。"
+    ],
+    "teacherTip": "古今同形字要依固定句式和對偶線索辨義。",
+    "relatedWords": [
+      "溫故知新",
+      "舊知識"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0085",
+    "subject": "國文",
+    "gradeSemester": "七年級下",
+    "unit": "文言文",
+    "knowledgePoint": "文意理解",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "「己所不欲，勿施於人。」最接近的白話意思是？",
+    "options": [
+      "自己不喜歡的事，不要加在別人身上",
+      "自己喜歡的事，要求大家都接受",
+      "只要別人不反對，就可以任意行事",
+      "遇到不喜歡的事，應立刻離開"
+    ],
+    "answer": 0,
+    "explanation": "「所不欲」是自己不願意的事；「勿施於人」是不要施加給他人，A完整對應。",
+    "solutionSteps": [
+      "拆解「己」「不欲」「勿施於人」三部分。",
+      "答案A保留自己與他人兩方及禁止施加的意思。",
+      "「自己喜歡的事要求大家接受」把不欲顛倒為喜歡。"
+    ],
+    "teacherTip": "翻譯格言需對應否定詞和行為對象。",
+    "relatedWords": [
+      "不欲",
+      "施"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0086",
+    "subject": "國文",
+    "gradeSemester": "八年級上",
+    "unit": "文言文",
+    "knowledgePoint": "人物推論",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "短文：「陶淵明不為五斗米折腰，遂辭官歸田。」由此可推知他最重視？",
+    "options": [
+      "官位升遷",
+      "個人操守與生活選擇",
+      "追求財富累積",
+      "在官場建立人脈"
+    ],
+    "answer": 1,
+    "explanation": "不願為俸祿屈身而辭官，顯示他重視操守並選擇歸田生活。其他選項與辭官原因相反或無材料支持。",
+    "solutionSteps": [
+      "抓住「不為五斗米折腰」與「辭官歸田」兩個線索。",
+      "答案B概括不因俸祿放棄操守，並選擇自己的生活。",
+      "「官位升遷」與主動辭官的行為不合。"
+    ],
+    "teacherTip": "人物價值判斷要由選擇與行動推論。",
+    "relatedWords": [
+      "五斗米",
+      "歸田"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0087",
+    "subject": "國文",
+    "gradeSemester": "九年級上",
+    "unit": "文言文",
+    "knowledgePoint": "文言句意",
+    "difficulty": "進階",
+    "type": "單題選擇",
+    "question": "「敏而好學，不恥下問。」最適合解釋為？",
+    "options": [
+      "聰敏而喜歡學習，不以向地位較低的人請教為羞恥",
+      "聰敏的人不必學習，也不需要詢問",
+      "學習時只應向地位高的人發問",
+      "不懂裝懂可以避免被人看輕"
+    ],
+    "answer": 0,
+    "explanation": "「敏而好學」是聰敏且好學；「不恥下問」是不以向不如自己或地位較低者請教為可恥。A完整保留兩部分。",
+    "solutionSteps": [
+      "分成「敏而好學」和「不恥下問」兩層。",
+      "答案A逐層翻譯，沒有把謙問對象限縮。",
+      "「只應向地位高的人發問」與不恥下問的精神相反。"
+    ],
+    "teacherTip": "長句翻譯要分小句核對，不要只翻最後一個熟語。",
+    "relatedWords": [
+      "敏",
+      "下問"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0088",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "文言文",
+    "knowledgePoint": "文言實詞",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "「學而時習之」的「時」意思是？",
+    "options": [
+      "按時、不時地",
+      "時間",
+      "當時的人",
+      "時常改變"
+    ],
+    "answer": 0,
+    "explanation": "「時習」指按時溫習，故選A。B只說抽象時間；C、D不能和「習之」構成合適句意。",
+    "solutionSteps": [
+      "將「時」放回動詞「習」前理解。",
+      "答案「按時、不時地」說明溫習的頻率。",
+      "「當時的人」是把時誤作名詞，與句法不合。"
+    ],
+    "teacherTip": "文言詞義需兼顧詞性及它修飾的動作。",
+    "relatedWords": [
+      "時習",
+      "溫習"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0089",
+    "subject": "國文",
+    "gradeSemester": "八年級下",
+    "unit": "文言文",
+    "knowledgePoint": "文言句意",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "「三人行，必有我師焉。」最適當的解釋是？",
+    "options": [
+      "幾個人同行，其中一定有人有值得我學習之處",
+      "三個人一起走路必須由我帶隊",
+      "只有三人同行時才能拜師",
+      "老師必須陪學生走路"
+    ],
+    "answer": 0,
+    "explanation": "「行」可指相處或同行；「有我師焉」指其中有值得學習的人，A符合。其他選項把師解作正式教師或把句子當作行路規定。",
+    "solutionSteps": [
+      "理解「師」在此可指可學習的人。",
+      "答案A說明在人群中觀察並學習他人長處。",
+      "「必須由我帶隊」原句沒有任何領隊含義。"
+    ],
+    "teacherTip": "格言翻譯須辨明比喻性或引申義，不宜拘泥字面情境。",
+    "relatedWords": [
+      "三人行",
+      "師"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0090",
+    "subject": "國文",
+    "gradeSemester": "九年級上",
+    "unit": "文言文",
+    "knowledgePoint": "文言語氣",
+    "difficulty": "進階",
+    "type": "單題選擇",
+    "question": "「人不知而不慍，不亦君子乎？」句末「不亦……乎」主要表示？",
+    "options": [
+      "反問語氣",
+      "命令語氣",
+      "假設語氣",
+      "推測語氣"
+    ],
+    "answer": 0,
+    "explanation": "「不亦君子乎」以反問方式肯定不因他人不理解而生氣的人具有君子風範，屬反問。",
+    "solutionSteps": [
+      "觀察句式是否要求對方照做或提供條件。",
+      "答案「反問語氣」符合「不亦……乎」的問中帶肯定。",
+      "「命令語氣」需要要求行動，句中沒有命令對象。"
+    ],
+    "teacherTip": "文言句末語氣詞可協助判斷陳述、疑問、反問或感嘆。",
+    "relatedWords": [
+      "不慍",
+      "君子"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0091",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "閱讀理解",
+    "knowledgePoint": "主旨判斷",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "「社區菜園不只提供蔬菜，也讓居民一起照料土地、分享收成。」主旨最接近？",
+    "options": [
+      "社區菜園兼具生產與凝聚居民的功能",
+      "種菜一定比購買便宜",
+      "居民都必須參加園藝活動",
+      "土地只適合種蔬菜"
+    ],
+    "answer": 0,
+    "explanation": "文字明說提供蔬菜及居民共同照料、分享，A兼顧兩項功能。其他選項加入價格、強制參與或土地用途等未提內容。",
+    "solutionSteps": [
+      "找出「不只……也……」連接的兩個功能。",
+      "答案A完整涵蓋生產蔬菜及居民互動。",
+      "「居民都必須參加」把共同活動擴大成強制規定，文本沒有這樣說。"
+    ],
+    "teacherTip": "主旨需涵蓋主要訊息，並避免加上文中沒有的絕對詞。",
+    "relatedWords": [
+      "社區菜園",
+      "分享收成"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0092",
+    "subject": "國文",
+    "gradeSemester": "七年級下",
+    "unit": "閱讀理解",
+    "knowledgePoint": "訊息整合",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "活動規則：報名者須年滿十二歲；每隊三人；需於六月十日前完成線上報名。下列哪隊符合規定？",
+    "options": [
+      "三人，隊員皆十二歲以上，六月八日完成報名",
+      "四人，皆十三歲，六月八日報名",
+      "三人，其中一人十一歲，六月九日報名",
+      "三人皆十二歲，六月十一日報名"
+    ],
+    "answer": 0,
+    "explanation": "A符合年齡、隊伍人數與期限三條規定。B人數超過三人；C有未滿十二歲者；D逾期。",
+    "solutionSteps": [
+      "把三項條件列出：年滿十二歲、三人一隊、六月十日前報名。",
+      "答案A同時符合三項。",
+      "D雖人數與年齡合格，但六月十一日已超過期限。"
+    ],
+    "teacherTip": "多條件題逐一打勾，任一條不符就不能選。",
+    "relatedWords": [
+      "年滿十二歲",
+      "六月十日"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0093",
+    "subject": "國文",
+    "gradeSemester": "八年級上",
+    "unit": "閱讀理解",
+    "knowledgePoint": "推論限制",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "研究記錄：參加晨讀的班級平均閱讀測驗分數較高，但研究未控制原有閱讀能力。哪項說法最謹慎？",
+    "options": [
+      "晨讀可能與較高分數相關，但不能據此確認晨讀造成進步",
+      "晨讀一定使每位學生進步",
+      "原有能力完全不影響測驗",
+      "所有高分班級都參加晨讀"
+    ],
+    "answer": 0,
+    "explanation": "資料顯示相關，但未控制原有能力，無法確認因果。A保留相關與因果限制；B、C、D均超出證據。",
+    "solutionSteps": [
+      "辨認研究比較的是班級平均分數，且未控制原有能力。",
+      "答案A只說可能相關，沒有把相關當成因果。",
+      "「晨讀一定使每位學生進步」把平均差異擴大成個人必然效果。"
+    ],
+    "teacherTip": "閱讀研究資料時留意控制變項及群體平均的限制。",
+    "relatedWords": [
+      "晨讀",
+      "原有閱讀能力"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0094",
+    "subject": "國文",
+    "gradeSemester": "八年級下",
+    "unit": "閱讀理解",
+    "knowledgePoint": "因果辨析",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "「因為施工封路，公車改走另一條街；因此原站暫停停靠。」句中的「因此」連接何種關係？",
+    "options": [
+      "因果",
+      "轉折",
+      "並列",
+      "選擇"
+    ],
+    "answer": 0,
+    "explanation": "封路是原因，公車改道、原站停靠調整是結果，「因此」標示因果。",
+    "solutionSteps": [
+      "找出前句原因「施工封路」及後句結果。",
+      "答案「因果」符合因此引出結果的功能。",
+      "「轉折」需前後意思相反或不如預期，句中沒有此關係。"
+    ],
+    "teacherTip": "用關聯詞連同前後事件判斷邏輯關係。",
+    "relatedWords": [
+      "施工封路",
+      "改道"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0095",
+    "subject": "國文",
+    "gradeSemester": "九年級上",
+    "unit": "閱讀理解",
+    "knowledgePoint": "立場比較",
+    "difficulty": "進階",
+    "type": "單題選擇",
+    "question": "甲文認為城市應增加步行空間；乙文提醒商家卸貨也需保留通道。兩文最可能的共同立場是？",
+    "options": [
+      "城市規劃須兼顧不同使用需求",
+      "商業活動應完全停止",
+      "行人不應進入市區",
+      "卸貨需求永遠優先於行人"
+    ],
+    "answer": 0,
+    "explanation": "甲重視行人，乙提出卸貨需求，兩文可共同支持規劃兼顧不同使用者。B、C、D都把其中一方絕對化，材料不支持。",
+    "solutionSteps": [
+      "分別找出甲、乙重視的使用者需求。",
+      "答案A能同時容納步行與卸貨通道。",
+      "「卸貨需求永遠優先」把乙的提醒誇大成無條件優先。"
+    ],
+    "teacherTip": "比較兩文共同點時找交集，不要用一方立場覆蓋另一方。",
+    "relatedWords": [
+      "步行空間",
+      "卸貨通道"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0096",
+    "subject": "國文",
+    "gradeSemester": "七年級上",
+    "unit": "閱讀理解",
+    "knowledgePoint": "段意判斷",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "一段文字寫學生把廢紙分類、將可用紙張留作草稿，並將其餘紙類交回收。段落重點是？",
+    "options": [
+      "落實紙張分類與再利用",
+      "增加購買新紙的數量",
+      "比較不同紙張的價格",
+      "介紹造紙工廠設備"
+    ],
+    "answer": 0,
+    "explanation": "分類、再利用與回收都指向減少紙張浪費，A概括段意。其他選項沒有出現在行動內容中。",
+    "solutionSteps": [
+      "將三個動作歸納：分類、留作草稿、回收。",
+      "答案A涵蓋分類和再利用兩個主要作法。",
+      "「比較價格」不是段落提到的行動或目的。"
+    ],
+    "teacherTip": "段意題將例子歸納成共同目的，避免只抄其中一項細節。",
+    "relatedWords": [
+      "廢紙",
+      "回收"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0097",
+    "subject": "國文",
+    "gradeSemester": "七年級下",
+    "unit": "閱讀理解",
+    "knowledgePoint": "語意推論",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "「他把鬧鐘放在房間另一端，晚上便不容易按掉後繼續睡。」可推知他這麼做的目的？",
+    "options": [
+      "增加起床時必須起身的機會",
+      "讓鬧鐘聲音變小",
+      "避免晚上入睡",
+      "確認房間大小"
+    ],
+    "answer": 0,
+    "explanation": "鬧鐘放遠使他必須起身關閉，降低按掉後繼續睡的可能，A符合。其他選項無題幹線索。",
+    "solutionSteps": [
+      "將放遠鬧鐘與不容易繼續睡連起來。",
+      "答案A說明這個安排增加起身動作。",
+      "「讓鬧鐘聲音變小」與放置距離可能相關，但題幹明示目的是不再睡回去。"
+    ],
+    "teacherTip": "推論目的以題幹明確結果為中心，不要引入旁枝效果。",
+    "relatedWords": [
+      "鬧鐘",
+      "起身"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0098",
+    "subject": "國文",
+    "gradeSemester": "八年級上",
+    "unit": "閱讀理解",
+    "knowledgePoint": "觀點判斷",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "作者說：「我不反對競賽，但若只用名次衡量學習，合作與嘗試也會被忽略。」作者最可能支持？",
+    "options": [
+      "保留競賽，同時重視學習過程",
+      "取消所有競賽",
+      "名次是唯一公平標準",
+      "合作會降低學習價值"
+    ],
+    "answer": 0,
+    "explanation": "作者不反對競賽，但反對只看名次，故支持兼顧競賽與過程。B、C、D都與限定語或主張相反。",
+    "solutionSteps": [
+      "注意作者的讓步「不反對競賽」及轉折「但若只用名次」。",
+      "答案A保留兩個層面：競賽可存在，評量不應只有名次。",
+      "「取消所有競賽」忽略作者明說不反對競賽。"
+    ],
+    "teacherTip": "立場題要保留讓步和轉折兩側，勿把作者說成極端立場。",
+    "relatedWords": [
+      "競賽",
+      "合作"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0099",
+    "subject": "國文",
+    "gradeSemester": "八年級下",
+    "unit": "閱讀理解",
+    "knowledgePoint": "因果推論",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "某地試辦垃圾按量計費後，一般垃圾量減少，可回收物增加。下列推論何者最合理？",
+    "options": [
+      "制度可能促使居民增加分類",
+      "居民從此不再製造垃圾",
+      "所有回收物都能再製成新品",
+      "垃圾減少證明人口下降"
+    ],
+    "answer": 0,
+    "explanation": "一般垃圾下降、回收物增加，可能表示分類增加。其他結論涉及完全不產生垃圾、回收去向或人口變動，資料未提供。",
+    "solutionSteps": [
+      "比較兩項變化方向：一般垃圾減少、回收物增加。",
+      "答案A是最貼近觀察資料的可能解釋。",
+      "「居民不再製造垃圾」把減少說成歸零，過度推論。"
+    ],
+    "teacherTip": "使用「可能」表達與資料相稱的推論強度。",
+    "relatedWords": [
+      "按量計費",
+      "回收物"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "CHI-0100",
+    "subject": "國文",
+    "gradeSemester": "九年級上",
+    "unit": "閱讀理解",
+    "knowledgePoint": "論點與證據",
+    "difficulty": "進階",
+    "type": "單題選擇",
+    "question": "文章主張「校園應設雨水回收桶」，證據只有「一位老師覺得有用」。最適合補強的證據是？",
+    "options": [
+      "統計校園用水量、降雨量及回收水可替代用途",
+      "列出老師任教年資",
+      "描寫雨水的顏色",
+      "訪問學生最喜歡的季節"
+    ],
+    "answer": 0,
+    "explanation": "主張涉及實用性與節水效益，需用用水量、降雨量及替代用途等直接資料支持。其他選項關聯不足。",
+    "solutionSteps": [
+      "明確主張是設置回收桶，需證明水源與用途可行。",
+      "答案A提供與效益及實務條件直接相關的資料。",
+      "「最喜歡的季節」不能證明回收桶能否節水或實際使用。"
+    ],
+    "teacherTip": "證據要直接支持主張的效益、需求或可行性。",
+    "relatedWords": [
+      "雨水回收",
+      "用水量"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  }
+]

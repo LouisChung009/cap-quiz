@@ -1,3 +1,4 @@
+import { existsSync } from "node:fs";
 import { readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
@@ -31,6 +32,14 @@ function splitQuestion(item) {
 function needsImage(question, options) {
   const text = `${question} ${options.join(" ")}`;
   return /下圖|附圖|如圖|右圖|左圖|圖中|圖示|圖表|地圖|流程圖|關係圖|統計圖|示意圖|照片|影像|位置圖|剖面圖|坐標圖|座標圖|實驗裝置|shown below|following (?:chart|graph|map|diagram|picture|figure)/i.test(text);
+}
+
+function needsContext(question) {
+  return /根據(?:本文|上文|文章|選文|材料|短文|報導|資料)|依據(?:本文|上文|文章|選文|材料|短文|報導|資料)|本文(?:中|主旨|作者|提到|認為|敘述|寫作)|文中(?:提到|指出|敘述|作者)|這篇(?:文章|短文)|由本文|閱讀(?:本文|上文|下文|文章|選文|材料)|according to (?:the|this) (?:text|article|reading|passage)|in the (?:text|article|reading|passage)|the writer|the author/i.test(question);
+}
+
+function cleanArtifacts(value) {
+  return clean(value).replace(/\s*\d+\s*試題結束.*$/u, "").replace(/\s*請翻頁繼續作答.*$/u, "").trim();
 }
 
 function subjectSteps(item, answerText, wrongOptions) {
@@ -69,14 +78,18 @@ let images = 0;
 for (const item of questions) {
   if (item.sourceType !== "官方歷屆真題") continue;
   const result = splitQuestion(item);
-  item.question = result.question;
+  item.question = cleanArtifacts(result.question);
   if (result.options.length === 4 && result.options.join("") !== "ABCD") {
-    item.options = result.options;
+    item.options = result.options.map(cleanArtifacts);
     parsed += 1;
   }
   const parsedOptions = item.options.join("") !== "ABCD";
   const missingSharedPassage = /^\\?n?\s*\d{1,2}[.．]?\s*$/.test(item.question);
-  item.requiresImage = Boolean(item.requiresImage || !parsedOptions || missingSharedPassage || needsImage(item.question, item.options));
+  item.requiresContext = needsContext(item.question) || missingSharedPassage;
+  item.requiresImage = Boolean(item.requiresImage || item.requiresContext || !parsedOptions || needsImage(item.question, item.options));
+  const match = item.questionImage?.match(/^(.*-p)(\d+)(\.webp)$/);
+  const previous = match ? `${match[1]}${Number(match[2])-1}${match[3]}` : "";
+  item.questionImages = item.requiresContext&&previous&&existsSync(join(root,previous.replace(/^\.\//,"")))?[previous,item.questionImage]:[item.questionImage];
   if (!item.question || missingSharedPassage) item.question = `請閱讀圖中的題組文章，完成第 ${item.source.questionNumber} 題。`;
   if (item.requiresImage) images += 1;
   const answerText = clean(item.options[item.answer]) || letters[item.answer];

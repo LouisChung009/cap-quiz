@@ -1,0 +1,38 @@
+import { readFile, writeFile } from "node:fs/promises";
+
+const path = new URL("../data/mission-questions.json", import.meta.url);
+const questions = JSON.parse(await readFile(path, "utf8"));
+const fixes = {
+  "OFF-0704": { q: "My ____ hurts so much that I cannot even turn my head.", e: "無法轉動頭部指向脖子疼痛，答案是 neck。arm 是手臂、knee 是膝蓋、stomach 是胃，都不能直接解釋轉頭受限。", s: ["圈出 cannot even turn my head：這是定位疼痛部位的線索。", "轉頭主要需要頸部活動，neck hurts 與症狀相符。", "手臂、膝蓋、胃的疼痛不會直接使人無法轉頭，因此排除 arm、knee、stomach。"] },
+  "OFF-0705": { q: "Our school basketball team won the national game last night. We are so ____ them.", e: "校隊昨晚贏得全國賽，因此大家為球隊感到驕傲；be proud of someone 表示為某人感到自豪。popular with、sorry for、worried about 都不符合勝利後的正向情緒。", s: ["won the national game 是隊伍取得佳績的線索。", "對隊伍的勝利感到自豪，用 proud of them。", "popular with 表示受歡迎、sorry for 表示同情、worried about 表示擔心，均不合此處情緒。"] },
+  "OFF-0706": { q: "Tomorrow is Sam’s last day in the office. Nobody knows why he decided to ____.", e: "明天是 Sam 在辦公室的最後一天，表示他決定離職，選 leave。decide to 後接原形動詞；hide、pack、walk 都不能如 leave 一樣直接表達離開職位。", s: ["last day in the office 表示明天之後他不再在此上班。", "decided to leave 表示決定離開工作場所／職位，語法與語意相合。", "hide 是躲藏、pack 是打包、walk 是走路，不能由最後工作日推知這些是他決定做的事。"] },
+  "OFF-0707": { q: "It’s not a good idea to go mountain climbing in this bad ____. We should wait until the typhoon goes away.", e: "颱風尚未離去，不適合登山，空格是 bad weather（惡劣天氣）。chance、dream、habit 都不能自然搭配颱風與等待天氣好轉的情境。", s: ["wait until the typhoon goes away 表示目前有不適合戶外活動的天候。", "bad weather 是固定搭配，指惡劣天氣。", "chance 是機會、dream 是夢想、habit 是習慣，均不符合颱風造成的登山風險。"] },
+  "OFF-0708": { q: "Chris loves walking with Anna on snowy days, but Anna hates ____ very much.", e: "but 表示對比；Chris 喜歡下雪天和 Anna 散步，而 Anna 不喜歡這件事，因此用 it 代替前述 walking with Chris。them 指複數人或物，so 表示如此，one 指同類中的一個，都不合。", s: ["but 對比兩人對同一活動的喜好。", "Anna hates it 中 it 回指 walking with Anna on snowy days 這件事。", "them 是複數受詞、so 不能在此代替活動、one 指一個事物，均不適合回指整件活動。"] },
+  "OFF-0709": { q: "Lora likes to eat bananas that are already a little brown on the outside, and so ____ I.", e: "and so + 助動詞 + 主詞表示「某人也如此」。前句一般現在式動詞 likes，助動詞用 do；倒裝後是 and so do I。am、have、will 與前句動詞形式不一致。", s: ["so 引出相同情況，句型是 so + 助動詞 + 主詞。", "前句的主要動詞是一般現在式 likes，因此用 do：so do I。", "am 對應 be 動詞、have 是完成式助動詞、will 表未來，均不能與 likes 的一般現在式呼應。"] },
+  "OFF-0710": { q: "Your refrigerator shouldn’t be making loud noises now, but if it ____ does, just give me a call and I’ll come check it again.", e: "冰箱現在理應不再發出巨響，但如果它仍然如此，就打電話通知；still 放在 it 與 does 之間表示「仍然」。already、even、finally 都不合「問題持續時聯絡」的語意。", s: ["shouldn’t ... now 表示預期噪音已停止；but 引出相反情況。", "if it still does 中 does 代替前面的 makes loud noises，still 表示噪音仍持續。", "already 是已經、even 是甚至、finally 是終於，均不如 still 表達故障持續。"] },
+  "OFF-0711": { q: "After winning money in the card game, Jay decided to try again. He felt that he might also be ____ a second time.", e: "Jay 前一次牌局贏錢，想再試一次並覺得可能再走運，故用 lucky。famous 是有名的、interested 是感興趣的、ready 是準備好的，不能接住「再次贏錢」的推論。", s: ["After winning money 說明 Jay 剛在牌局獲勝。", "他認為第二次也可能有好運，be lucky a second time 語意合適。", "famous、interested、ready 分別是有名、感興趣、準備好，不能表達再次獲勝的可能。"] },
+  "OFF-0712": { q: "The knife doesn’t cut very well. It’s not as ____ as before.", e: "刀子切不動，表示刀刃不像以前那麼 sharp（鋒利）。not as + 形容詞 + as 表示「不像……那麼……」；bright、heavy、quick 都不能直接描述刀刃變鈍。", s: ["doesn’t cut very well 是刀刃狀態的線索。", "刀刃不夠鋒利會切不好，not as sharp as before 是自然比較。", "bright 是明亮、heavy 是重、quick 是快，均不能描述切割能力下降。"] },
+  "OFF-0713": { q: "John will stay with his sister until he ____ an apartment.", e: "until 引導未來時間子句時，子句通常用現在簡單式，不用 will；he 為第三人稱單數，填 finds。主句 will stay 表未來安排。", s: ["主句 will stay 表示未來，until 子句說明他住到何時為止。", "未來時間子句使用現在式，he 搭配 finds。", "will find 是子句中不採用的未來式；would find、found 也不符合此時間子句的形式。"] },
+  "OFF-0714": { q: "Students ____ to go on the school trip should ask their parents first.", e: "空格後的 to go on the school trip 修飾 Students，意為「想參加校外教學的學生」；關係子句中 who 作主詞，所以選 who want。", s: ["主句主詞為 Students；空格需要描述哪些學生應先詢問家長。", "who want to go... 是以 who 指代 students 的關係子句，who 作 want 的主詞。", "want 單獨缺少關係詞；who they want 和 what they want 會改變句意且無法接 to go 的結構。"] },
+  "OFF-0715": { q: "The temple sits alone in the mountains at a height of 3,000m ____ sea level.", e: "海拔 3,000 公尺是高於海平面，固定說法為 above sea level。below 表低於，at 和 in 都不能在此表示高程。", s: ["3,000 m 是寺廟的海拔高度。", "高於海平面用 above sea level。", "below 表低於海平面，at/in 不構成表示海拔的慣用片語。"] },
+  "OFF-0716": { q: "Patty spent several days planning to invite Charlie to dinner, ____ she couldn’t say a word when they met.", e: "Patty 花好幾天準備邀請 Charlie，實際見面卻說不出話；前後形成反差，使用 but。if 是條件、or 是選擇／否則、so 是結果，關係皆不如轉折準確。", s: ["前半是充分準備，後半是見面時說不出話，形成出乎意料的反差。", "but 表示「但是」，連接兩個相反情況。", "if、or、so 分別表示條件、選擇／否則、結果，不能表達此處的轉折。"] },
+  "OFF-0717": { q: "I can’t tell you what I think of the movie because I ____ it. I’ll probably watch it this Saturday.", e: "說話者尚未看電影，並計畫本週六觀看；「到目前為止還沒看」用現在完成式 haven’t seen。am not seeing 表目前安排、don’t see 表習慣、won’t see 表未來不看，皆不合後句。", s: ["I’ll probably watch it this Saturday 證明說話者尚未看過電影。", "從過去到現在仍未發生的經驗用 haven’t seen。", "am not seeing、don’t see、won’t see 分別是目前安排、習慣、未來拒看，不等於截至現在尚未看過。"] },
+  "OFF-0718": { q: "The new guy at the help desk answers calls like a ____. There are no ups and downs in his voice and you can’t tell if he is happy or sad.", e: "聲音沒有高低起伏，也聽不出情緒，像 robot（機器人）一樣。father、foreigner、radio 都不能精確表達說話聲音單調且缺少情緒的比喻。", s: ["no ups and downs in his voice 指說話聲調平板。", "robot 常用來比喻聲音機械、缺少情感，符合描述。", "father、foreigner、radio 都不能由聲音平板推論；radio 是媒體設備而非此處的性格比喻。"] },
+  "OFF-0719": { q: "Jasmine planned to spend her summer in the country, but right after she got there, she started to ____ the noise in the city.", e: "Jasmine 到鄉下後開始想念城市的聲音，故選 miss。but 表轉折，說明她原本期待鄉居，到了後卻懷念城市。enjoy、mind、notice 都不能表達懷念熟悉環境。", s: ["but 引出計畫與實際感受的反差；到了鄉下後想起城市。", "start to miss the noise 表示開始懷念城市熟悉的聲音。", "enjoy 是享受、mind 是介意、notice 是注意到，都不能表達離開後的思念。"] },
+  "OFF-0720": { q: "“Bad traffic” is perhaps the ____ excuse for being late when your boss knows it only takes you five minutes to walk to work.", e: "老闆知道走路上班只需五分鐘，卻用塞車當遲到藉口，這是很糟的藉口；選 worst。既然步行即可到達，交通壅塞的理由尤其不可信。", s: ["boss knows it only takes five minutes to walk to work，是判斷藉口不合理的關鍵。", "在這個情境下 bad traffic 是最差、最不可信的藉口，故用 worst。", "easiest、oldest、smartest 分別表示最容易、最舊、最聰明，與藉口可信度無關。"] },
+  "OFF-0721": { q: "The housework in Mr. and Mrs. Wang’s family ____ between them and their kids. Everyone’s got their own job to do.", e: "家事由父母和孩子共同分擔，主詞 housework 是不可數單數名詞，且是被分配的對象，故用 is shared。", s: ["between them and their kids 以及 Everyone’s got their own job 表明家事由家庭成員分工。", "housework 是不可數單數，搭配被動語態 is shared。", "are shared 用複數 be 動詞；shares/share 是主動語態，主詞 housework 不是執行分享的人。"] },
+  "OFF-0722": { q: "I want to find another dentist because ____ pulled out a good tooth last time I went to him.", e: "mine 是名詞性所有代名詞，省略 dentist，mine = my dentist；說話者想換牙醫，是因為自己的牙醫上次拔掉一顆好牙。I、me、myself 都無法在此代替 my dentist 作 pulled out 的主詞。", s: ["another dentist 表示說話者已有一位牙醫，想另找一位。", "mine 可獨立作主詞，表示 my dentist；mine pulled out... 即「我的牙醫拔掉了……」。", "I 是說話者、me 是受格、myself 是反身代名詞，都不能表達「我的牙醫」並作本句主詞。"] },
+};
+
+for (const [id, fix] of Object.entries(fixes)) {
+  const row = questions.find(item => item.id === id);
+  if (!row || row.subject !== "英文" || row.sourceType !== "官方歷屆真題" || row.requiresContext || row.requiresImage) throw new Error(`題目不符合安全修復範圍：${id}`);
+  row.question = fix.q;
+  row.explanation = `${fix.e} 正確答案：${String.fromCharCode(65 + row.answer)}「${row.options[row.answer]}」。`;
+  row.solutionSteps = fix.s;
+  row.teacherTip = "先找出題目提供的語境線索，再判斷句型或詞義，並檢查選項是否符合完整句意。";
+  if (!row.explanation.includes(row.options[row.answer]) || row.solutionSteps.length !== 3) throw new Error(`${id}: 解說欄位驗證失敗`);
+}
+
+await writeFile(path, `${JSON.stringify(questions, null, 2)}\n`, "utf8");
+console.log(`Repaired ${Object.keys(fixes).length} self-contained official English questions from 113 exam Q2–Q21.`);

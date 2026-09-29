@@ -1,0 +1,3302 @@
+[
+  {
+    "id": "MAT-0001",
+    "subject": "數學",
+    "gradeSemester": "七年級",
+    "unit": "數與量",
+    "knowledgePoint": "有理數四則",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "計算 (-3)²－2×(4－7) 的值。",
+    "options": [
+      "3",
+      "15",
+      "−3",
+      "−15"
+    ],
+    "answer": 1,
+    "explanation": "先算次方與括號：(-3)²＝9，4－7＝−3。 再乘除加減：9－2×(−3)＝9＋6＝15。 答案為 15；若把平方誤讀成 −9，會得到錯誤結果。",
+    "solutionSteps": [
+      "先算次方與括號：(-3)²＝9，4－7＝−3。",
+      "再乘除加減：9－2×(−3)＝9＋6＝15。",
+      "答案為 15；若把平方誤讀成 −9，會得到錯誤結果。"
+    ],
+    "teacherTip": "負數括號要一起平方；乘上負數後再留意減負得正。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0002",
+    "subject": "數學",
+    "gradeSemester": "七年級",
+    "unit": "數與量",
+    "knowledgePoint": "分數運算",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "同一份專題中，甲完成總量的 3/4，乙完成總量的 2/3。甲比乙多完成總量的幾分之幾？",
+    "options": [
+      "1/12",
+      "1/7",
+      "5/12",
+      "−1/12"
+    ],
+    "answer": 0,
+    "explanation": "甲、乙完成的都是同一份專題，所以比較兩人完成量時可直接計算 3/4－2/3。 通分成 12 分母：3/4＝9/12，2/3＝8/12；相減得 9/12－8/12＝1/12。 答案是 1/12；不能直接用分子、分母各自相減。",
+    "solutionSteps": [
+      "甲、乙完成量以同一份專題為整體，計算差量 3/4－2/3。",
+      "通分：3/4＝9/12，2/3＝8/12；9/12－8/12＝1/12。",
+      "答案是 1/12；不能直接用分子、分母各自相減。"
+    ],
+    "teacherTip": "分數相減前先通分；兩個數值是分別給定的量，不應自行解讀成同一總量的先後耗用比例。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0003",
+    "subject": "數學",
+    "gradeSemester": "七年級",
+    "unit": "數與量",
+    "knowledgePoint": "百分率",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "一件外套原價 2400 元，打 85 折後的售價是多少元？",
+    "options": [
+      "2040",
+      "360",
+      "2160",
+      "2400"
+    ],
+    "answer": 0,
+    "explanation": "85 折代表付原價的 85%，不是只減 85%。 2400×0.85＝2040（元）。 答案為 2040 元；360 元是折掉的金額，不是售價。",
+    "solutionSteps": [
+      "85 折代表付原價的 85%，不是只減 85%。",
+      "2400×0.85＝2040（元）。",
+      "答案為 2040 元；360 元是折掉的金額，不是售價。"
+    ],
+    "teacherTip": "折數先換成付款比例；售價與折扣額不要混淆。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0004",
+    "subject": "數學",
+    "gradeSemester": "七年級",
+    "unit": "數與量",
+    "knowledgePoint": "科學記號",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "將 0.00056 用科學記號表示，且係數須介於 1 與 10 之間，應為何？",
+    "options": [
+      "5.6×10⁻⁴",
+      "5.6×10⁴",
+      "56×10⁻⁴",
+      "0.56×10⁻⁴"
+    ],
+    "answer": 0,
+    "explanation": "把小數點右移 4 位得到 5.6。 原數小於 1，因此指數為 −4：0.00056＝5.6×10⁻⁴。 答案符合 1≤5.6<10；56×10⁻⁴ 的係數不符合標準範圍。",
+    "solutionSteps": [
+      "把小數點右移 4 位得到 5.6。",
+      "原數小於 1，因此指數為 −4：0.00056＝5.6×10⁻⁴。",
+      "答案符合 1≤5.6<10；56×10⁻⁴ 的係數不符合標準範圍。"
+    ],
+    "teacherTip": "小數點右移時指數為負；最後檢查係數介於 1 和 10。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0005",
+    "subject": "數學",
+    "gradeSemester": "七年級",
+    "unit": "數與量",
+    "knowledgePoint": "絕對值",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "計算 |−8|＋|3－7|。",
+    "options": [
+      "4",
+      "8",
+      "12",
+      "−12"
+    ],
+    "answer": 2,
+    "explanation": "|−8|＝8；括號內 3－7＝−4，所以 |3－7|＝4。 相加為 8＋4＝12。 答案是 12；絕對值表示距離，不會是負數。",
+    "solutionSteps": [
+      "|−8|＝8；括號內 3－7＝−4，所以 |3－7|＝4。",
+      "相加為 8＋4＝12。",
+      "答案是 12；絕對值表示距離，不會是負數。"
+    ],
+    "teacherTip": "先算絕對值內的式子，再取非負的距離。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0006",
+    "subject": "數學",
+    "gradeSemester": "七年級",
+    "unit": "數與量",
+    "knowledgePoint": "指數律",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "化簡 2³×2⁴÷2⁵。",
+    "options": [
+      "2²",
+      "2¹²",
+      "2⁷",
+      "2³"
+    ],
+    "answer": 0,
+    "explanation": "同底數相乘指數相加、相除指數相減。 2³×2⁴÷2⁵＝2^(3＋4－5)＝2²＝4。 答案為 2²；不是把三個指數全部相加。",
+    "solutionSteps": [
+      "同底數相乘指數相加、相除指數相減。",
+      "2³×2⁴÷2⁵＝2^(3＋4－5)＝2²＝4。",
+      "答案為 2²；不是把三個指數全部相加。"
+    ],
+    "teacherTip": "同底數乘除要依序加減指數，並保留底數。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0007",
+    "subject": "數學",
+    "gradeSemester": "七年級",
+    "unit": "數與量",
+    "knowledgePoint": "平方根",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "下列哪個值等於 √72？",
+    "options": [
+      "6√2",
+      "8√2",
+      "36√2",
+      "6√3"
+    ],
+    "answer": 0,
+    "explanation": "72＝36×2。 √72＝√36×√2＝6√2。 答案是 6√2；不能把 √72 直接寫成 72÷√2。",
+    "solutionSteps": [
+      "72＝36×2。",
+      "√72＝√36×√2＝6√2。",
+      "答案是 6√2；不能把 √72 直接寫成 72÷√2。"
+    ],
+    "teacherTip": "先分解出完全平方因數，再把其平方根提出根號。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0008",
+    "subject": "數學",
+    "gradeSemester": "七年級",
+    "unit": "數與量",
+    "knowledgePoint": "最大公因數與最小公倍數",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "兩個齒輪每轉一圈分別需 12 秒與 18 秒。從同時起轉算起，幾秒後會再次同時轉完一圈？",
+    "options": [
+      "30",
+      "36",
+      "72",
+      "216"
+    ],
+    "answer": 1,
+    "explanation": "要找兩個週期的最小公倍數。 12＝2²×3，18＝2×3²，所以最小公倍數＝2²×3²＝36。 答案為 36 秒；72 秒也是同時，但不是第一次。",
+    "solutionSteps": [
+      "要找兩個週期的最小公倍數。",
+      "12＝2²×3，18＝2×3²，所以最小公倍數＝2²×3²＝36。",
+      "答案為 36 秒；72 秒也是同時，但不是第一次。"
+    ],
+    "teacherTip": "「第一次再次同時」通常求最小公倍數，不是任意共同倍數。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0009",
+    "subject": "數學",
+    "gradeSemester": "七年級",
+    "unit": "數與量",
+    "knowledgePoint": "負數運算",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "計算 −15＋6×4。",
+    "options": [
+      "−36",
+      "9",
+      "−9",
+      "−39"
+    ],
+    "answer": 1,
+    "explanation": "先乘法：6×4＝24。 再算 −15＋24＝9。 答案是 9；若先做加法，會違反先乘除後加減。",
+    "solutionSteps": [
+      "先乘法：6×4＝24。",
+      "再算 −15＋24＝9。",
+      "答案是 9；若先做加法，會違反先乘除後加減。"
+    ],
+    "teacherTip": "混合四則依運算順序；負數加正數可視為數線位移。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0010",
+    "subject": "數學",
+    "gradeSemester": "七年級",
+    "unit": "數與量",
+    "knowledgePoint": "有理數與無理數",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "下列哪一個數是無理數？",
+    "options": [
+      "√49",
+      "0.125",
+      "√2",
+      "−3/7"
+    ],
+    "answer": 2,
+    "explanation": "√49＝7、0.125＝1/8、−3/7 都是有理數。 √2 不能表示成兩整數比，是無理數。 因此答案是 √2，而不是看起來有根號就一律判為無理數。",
+    "solutionSteps": [
+      "√49＝7、0.125＝1/8、−3/7 都是有理數。",
+      "√2 不能表示成兩整數比，是無理數。",
+      "因此答案是 √2，而不是看起來有根號就一律判為無理數。"
+    ],
+    "teacherTip": "先化簡根號；完全平方數的平方根仍是整數。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0011",
+    "subject": "數學",
+    "gradeSemester": "七年級",
+    "unit": "代數",
+    "knowledgePoint": "多項式化簡",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "化簡 3(2x－1)－2(x＋4)。",
+    "options": [
+      "4x－11",
+      "4x＋5",
+      "8x－11",
+      "4x－5"
+    ],
+    "answer": 0,
+    "explanation": "分配律展開：6x－3－2x－8。 合併同類項得 4x－11。 答案為 4x－11；第二括號前的負號要分配到兩項。",
+    "solutionSteps": [
+      "分配律展開：6x－3－2x－8。",
+      "合併同類項得 4x－11。",
+      "答案為 4x－11；第二括號前的負號要分配到兩項。"
+    ],
+    "teacherTip": "括號前是負數時，括號內每一項都要變號。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0012",
+    "subject": "數學",
+    "gradeSemester": "七年級",
+    "unit": "代數",
+    "knowledgePoint": "一元一次方程式",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "解方程式 5x－7＝3x＋9。",
+    "options": [
+      "x＝8",
+      "x＝1",
+      "x＝−8",
+      "x＝16"
+    ],
+    "answer": 0,
+    "explanation": "兩邊減 3x、加 7，得 2x＝16。 兩邊除以 2，得 x＝8。 代回：40－7＝33，3×8＋9＝33，左右相等。",
+    "solutionSteps": [
+      "兩邊減 3x、加 7，得 2x＝16。",
+      "兩邊除以 2，得 x＝8。",
+      "代回：40－7＝33，3×8＋9＝33，左右相等。"
+    ],
+    "teacherTip": "移項可理解為等式兩邊做相同運算，最後用代回檢查。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0013",
+    "subject": "數學",
+    "gradeSemester": "七年級",
+    "unit": "代數",
+    "knowledgePoint": "一元一次不等式",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "若 2x＋3＜11，解為何？",
+    "options": [
+      "x＜4",
+      "x＞4",
+      "x＜7",
+      "x＞7"
+    ],
+    "answer": 0,
+    "explanation": "兩邊減 3 得 2x＜8。 除以正數 2，不等號方向不變，x＜4。 若除以負數才須反向；本題沒有這種情形。",
+    "solutionSteps": [
+      "兩邊減 3 得 2x＜8。",
+      "除以正數 2，不等號方向不變，x＜4。",
+      "若除以負數才須反向；本題沒有這種情形。"
+    ],
+    "teacherTip": "不等式除以正數不變號，除以負數才反向。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0014",
+    "subject": "數學",
+    "gradeSemester": "七年級",
+    "unit": "代數",
+    "knowledgePoint": "列一元一次方程式",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "小明和妹妹年齡相差 4 歲，兩人年齡和為 30 歲。小明較年長，小明幾歲？",
+    "options": [
+      "13",
+      "17",
+      "15",
+      "19"
+    ],
+    "answer": 1,
+    "explanation": "設妹妹 x 歲，則小明 x＋4 歲。 x＋(x＋4)＝30，得 2x＝26、x＝13。 小明為 13＋4＝17 歲；13 歲是妹妹的年齡。",
+    "solutionSteps": [
+      "設妹妹 x 歲，則小明 x＋4 歲。",
+      "x＋(x＋4)＝30，得 2x＝26、x＝13。",
+      "小明為 13＋4＝17 歲；13 歲是妹妹的年齡。"
+    ],
+    "teacherTip": "列式時先指定未知數代表誰，答案再依題目所問換回。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0015",
+    "subject": "數學",
+    "gradeSemester": "七年級",
+    "unit": "代數",
+    "knowledgePoint": "平方差公式",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "因式分解 x²－25。",
+    "options": [
+      "(x－5)(x＋5)",
+      "(x－5)²",
+      "(x＋25)(x－1)",
+      "(x－25)(x＋1)"
+    ],
+    "answer": 0,
+    "explanation": "x²－25＝x²－5²，是平方差。 平方差公式 a²－b²＝(a－b)(a＋b)。 所以答案為 (x－5)(x＋5)；(x－5)² 展開會有 −10x 項。",
+    "solutionSteps": [
+      "x²－25＝x²－5²，是平方差。",
+      "平方差公式 a²－b²＝(a－b)(a＋b)。",
+      "所以答案為 (x－5)(x＋5)；(x－5)² 展開會有 −10x 項。"
+    ],
+    "teacherTip": "看到兩個平方的差，檢查能否套平方差公式。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0016",
+    "subject": "數學",
+    "gradeSemester": "七年級",
+    "unit": "代數",
+    "knowledgePoint": "代入求值",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "若 P(x)＝2x²－3x＋1，求 P(−2)。",
+    "options": [
+      "15",
+      "3",
+      "−1",
+      "11"
+    ],
+    "answer": 0,
+    "explanation": "以 −2 代入：P(−2)＝2(−2)²－3(−2)＋1。 ＝2×4＋6＋1＝15。 答案為 15；−3(−2) 是正 6。",
+    "solutionSteps": [
+      "以 −2 代入：P(−2)＝2(−2)²－3(−2)＋1。",
+      "＝2×4＋6＋1＝15。",
+      "答案為 15；−3(−2) 是正 6。"
+    ],
+    "teacherTip": "代入負數時加括號，尤其是平方與負號要分清。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0017",
+    "subject": "數學",
+    "gradeSemester": "七年級",
+    "unit": "代數",
+    "knowledgePoint": "二元一次聯立方程式",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "若 x＋y＝11 且 x－y＝3，則 (x,y) 為何？",
+    "options": [
+      "(7,4)",
+      "(4,7)",
+      "(8,3)",
+      "(6,5)"
+    ],
+    "answer": 0,
+    "explanation": "兩式相加得 2x＝14，所以 x＝7。 代入 x＋y＝11 得 y＝4。 答案為 (7,4)；代回差為 7－4＝3。",
+    "solutionSteps": [
+      "兩式相加得 2x＝14，所以 x＝7。",
+      "代入 x＋y＝11 得 y＝4。",
+      "答案為 (7,4)；代回差為 7－4＝3。"
+    ],
+    "teacherTip": "加減消去時，要注意兩式相加或相減後哪個變數消失。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0018",
+    "subject": "數學",
+    "gradeSemester": "七年級",
+    "unit": "代數",
+    "knowledgePoint": "乘法公式",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "展開 (x＋2)(x－2)。",
+    "options": [
+      "x²－4",
+      "x²＋4",
+      "x²－4x＋4",
+      "x²＋4x－4"
+    ],
+    "answer": 0,
+    "explanation": "這是 (a＋b)(a－b)＝a²－b²。 因此 (x＋2)(x－2)＝x²－2²＝x²－4。 中間項互相抵消，不會留下 x 項。",
+    "solutionSteps": [
+      "這是 (a＋b)(a－b)＝a²－b²。",
+      "因此 (x＋2)(x－2)＝x²－2²＝x²－4。",
+      "中間項互相抵消，不會留下 x 項。"
+    ],
+    "teacherTip": "一正一負的共軛二項式相乘，使用平方差。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0019",
+    "subject": "數學",
+    "gradeSemester": "七年級",
+    "unit": "代數",
+    "knowledgePoint": "分式方程式",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "解方程式 x/3＋1/2＝5/6。",
+    "options": [
+      "x＝1",
+      "x＝2",
+      "x＝1/3",
+      "x＝4"
+    ],
+    "answer": 0,
+    "explanation": "兩邊同乘 6，得 2x＋3＝5。 所以 2x＝2，x＝1。 代回左邊 1/3＋1/2＝5/6，成立。",
+    "solutionSteps": [
+      "兩邊同乘 6，得 2x＋3＝5。",
+      "所以 2x＝2，x＝1。",
+      "代回左邊 1/3＋1/2＝5/6，成立。"
+    ],
+    "teacherTip": "分數方程可乘最小公倍數清分母，但每一項都要同乘。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0020",
+    "subject": "數學",
+    "gradeSemester": "七年級",
+    "unit": "代數",
+    "knowledgePoint": "百分率方程",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "某數的 30% 是 24，該數是多少？",
+    "options": [
+      "72",
+      "80",
+      "7.2",
+      "54"
+    ],
+    "answer": 1,
+    "explanation": "設該數為 x，則 0.3x＝24。 x＝24÷0.3＝80。 答案為 80；30% 是 0.3，不是 30。",
+    "solutionSteps": [
+      "設該數為 x，則 0.3x＝24。",
+      "x＝24÷0.3＝80。",
+      "答案為 80；30% 是 0.3，不是 30。"
+    ],
+    "teacherTip": "百分率題先把百分比換成小數或分數再列式。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0021",
+    "subject": "數學",
+    "gradeSemester": "八年級",
+    "unit": "代數",
+    "knowledgePoint": "等差數列",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "等差數列 7、12、17、⋯ 的第 20 項為何？",
+    "options": [
+      "102",
+      "97",
+      "107",
+      "95"
+    ],
+    "answer": 0,
+    "explanation": "首項 a₁＝7，公差 d＝5。 a₂₀＝a₁＋19d＝7＋19×5＝102。 答案為 102；第 20 項要加 19 次公差。",
+    "solutionSteps": [
+      "首項 a₁＝7，公差 d＝5。",
+      "a₂₀＝a₁＋19d＝7＋19×5＝102。",
+      "答案為 102；第 20 項要加 19 次公差。"
+    ],
+    "teacherTip": "第 n 項公式中的公差倍數是 n−1。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0022",
+    "subject": "數學",
+    "gradeSemester": "八年級",
+    "unit": "代數",
+    "knowledgePoint": "指數方程",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "若 3^(x＋1)＝81，則 x 為何？",
+    "options": [
+      "x＝2",
+      "x＝3",
+      "x＝4",
+      "x＝5"
+    ],
+    "answer": 1,
+    "explanation": "81＝3⁴。 底數相同，故 x＋1＝4，解得 x＝3。 答案為 3；不要把指數 x＋1 直接當成 81。",
+    "solutionSteps": [
+      "81＝3⁴。",
+      "底數相同，故 x＋1＝4，解得 x＝3。",
+      "答案為 3；不要把指數 x＋1 直接當成 81。"
+    ],
+    "teacherTip": "同底數正整數次方相等時，可比較指數。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0023",
+    "subject": "數學",
+    "gradeSemester": "八年級",
+    "unit": "函數",
+    "knowledgePoint": "函數值",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "函數 f(x)＝2x－3，求 f(5)。",
+    "options": [
+      "7",
+      "10",
+      "13",
+      "−7"
+    ],
+    "answer": 0,
+    "explanation": "將 x＝5 代入：f(5)＝2×5－3。 ＝10－3＝7。 所以答案為 7；函數記號 f(5) 不是 f×5。",
+    "solutionSteps": [
+      "將 x＝5 代入：f(5)＝2×5－3。",
+      "＝10－3＝7。",
+      "所以答案為 7；函數記號 f(5) 不是 f×5。"
+    ],
+    "teacherTip": "函數值題就是把自變數代入規則並計算。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0024",
+    "subject": "數學",
+    "gradeSemester": "八年級",
+    "unit": "函數",
+    "knowledgePoint": "一次函數",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "直線 y＝3x－2 上，當 x＝4 時 y 為何？",
+    "options": [
+      "10",
+      "14",
+      "6",
+      "−10"
+    ],
+    "answer": 0,
+    "explanation": "代入 x＝4：y＝3×4－2。 ＝12－2＝10。 答案是 10；截距 −2 要連同負號計入。",
+    "solutionSteps": [
+      "代入 x＝4：y＝3×4－2。",
+      "＝12－2＝10。",
+      "答案是 10；截距 −2 要連同負號計入。"
+    ],
+    "teacherTip": "認清斜率係數與 y 截距，不要把截距也乘上 x。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0025",
+    "subject": "數學",
+    "gradeSemester": "八年級",
+    "unit": "函數",
+    "knowledgePoint": "斜率",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "直線通過 A(1,2) 與 B(4,8)，斜率是多少？",
+    "options": [
+      "2",
+      "3",
+      "6",
+      "1/2"
+    ],
+    "answer": 0,
+    "explanation": "斜率＝(y₂－y₁)/(x₂－x₁)。 ＝(8－2)/(4－1)＝6/3＝2。 答案為 2；分子分母順序須一致。",
+    "solutionSteps": [
+      "斜率＝(y₂－y₁)/(x₂－x₁)。",
+      "＝(8－2)/(4－1)＝6/3＝2。",
+      "答案為 2；分子分母順序須一致。"
+    ],
+    "teacherTip": "斜率是縱向變化量除以橫向變化量。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0026",
+    "subject": "數學",
+    "gradeSemester": "八年級",
+    "unit": "函數",
+    "knowledgePoint": "截距",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "直線 y＝−2x＋6 與 x 軸交點的 x 座標為何？",
+    "options": [
+      "3",
+      "−3",
+      "6",
+      "−2"
+    ],
+    "answer": 0,
+    "explanation": "x 軸上的點 y＝0。 令 0＝−2x＋6，得 2x＝6、x＝3。 交點 x 座標是 3；6 是 y 截距。",
+    "solutionSteps": [
+      "x 軸上的點 y＝0。",
+      "令 0＝−2x＋6，得 2x＝6、x＝3。",
+      "交點 x 座標是 3；6 是 y 截距。"
+    ],
+    "teacherTip": "求 x 軸交點令 y＝0；求 y 軸交點則令 x＝0。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0027",
+    "subject": "數學",
+    "gradeSemester": "八年級",
+    "unit": "函數",
+    "knowledgePoint": "平行直線",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "直線 L 的方程式為 y＝2x＋3。與 L 平行的直線斜率必為何？",
+    "options": [
+      "2",
+      "−2",
+      "3",
+      "1/2"
+    ],
+    "answer": 0,
+    "explanation": "一次函數 y＝mx＋b 的斜率是 x 係數 m。 L 的斜率為 2；平行線斜率相同。 答案為 2；截距可以不同，斜率不能不同。",
+    "solutionSteps": [
+      "一次函數 y＝mx＋b 的斜率是 x 係數 m。",
+      "L 的斜率為 2；平行線斜率相同。",
+      "答案為 2；截距可以不同，斜率不能不同。"
+    ],
+    "teacherTip": "平行判斷看斜率相等，截距不必相同。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0028",
+    "subject": "數學",
+    "gradeSemester": "八年級",
+    "unit": "函數",
+    "knowledgePoint": "二次函數代值",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "若 y＝x²，當 x＝−3 時 y 為何？",
+    "options": [
+      "9",
+      "−9",
+      "6",
+      "−6"
+    ],
+    "answer": 0,
+    "explanation": "代入得 y＝(−3)²。 (−3)×(−3)＝9。 答案是 9；平方負數時必須把負號放在括號內一起平方。",
+    "solutionSteps": [
+      "代入得 y＝(−3)²。",
+      "(−3)×(−3)＝9。",
+      "答案是 9；平方負數時必須把負號放在括號內一起平方。"
+    ],
+    "teacherTip": "平方是兩個相同因數相乘，負數平方為正。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0029",
+    "subject": "數學",
+    "gradeSemester": "八年級",
+    "unit": "函數",
+    "knowledgePoint": "數列規律",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "某函數表中 x＝0、1、2 時，y 分別為 1、4、7，且每增加 1 個 x，y 固定增加 3。x＝4 時 y 為何？",
+    "options": [
+      "13",
+      "12",
+      "15",
+      "10"
+    ],
+    "answer": 0,
+    "explanation": "由 x＝0 的 y＝1 起算，每增加 1，y 加 3。 到 x＝4 共增加四次：1＋4×3＝13。 答案為 13；從 x＝0 到 4 是四個間隔。",
+    "solutionSteps": [
+      "由 x＝0 的 y＝1 起算，每增加 1，y 加 3。",
+      "到 x＝4 共增加四次：1＋4×3＝13。",
+      "答案為 13；從 x＝0 到 4 是四個間隔。"
+    ],
+    "teacherTip": "表格題數清楚列出步數，避免把項數和間隔數混為一談。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0030",
+    "subject": "數學",
+    "gradeSemester": "八年級",
+    "unit": "函數",
+    "knowledgePoint": "正比例",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "若 y 與 x 成正比，且 x＝3 時 y＝12，則 x＝7 時 y 為何？",
+    "options": [
+      "28",
+      "21",
+      "16",
+      "84"
+    ],
+    "answer": 0,
+    "explanation": "正比例可寫成 y＝kx。 由 12＝3k 得 k＝4，因此 x＝7 時 y＝4×7＝28。 答案為 28；正比例時 y/x 固定。",
+    "solutionSteps": [
+      "正比例可寫成 y＝kx。",
+      "由 12＝3k 得 k＝4，因此 x＝7 時 y＝4×7＝28。",
+      "答案為 28；正比例時 y/x 固定。"
+    ],
+    "teacherTip": "先由已知一組數值求比例常數，再代入新值。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0031",
+    "subject": "數學",
+    "gradeSemester": "八年級",
+    "unit": "函數",
+    "knowledgePoint": "一次函數圖形判讀",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "一條直線通過 (0,−2) 與 (2,2)。其方程式為何？",
+    "options": [
+      "y＝2x－2",
+      "y＝x－2",
+      "y＝2x＋2",
+      "y＝−2x－2"
+    ],
+    "answer": 0,
+    "explanation": "斜率＝(2－(−2))/(2－0)＝4/2＝2。 通過 x＝0 時 y＝−2，故截距是 −2。 方程式 y＝2x－2；代入 (2,2) 也成立。",
+    "solutionSteps": [
+      "斜率＝(2－(−2))/(2－0)＝4/2＝2。",
+      "通過 x＝0 時 y＝−2，故截距是 −2。",
+      "方程式 y＝2x－2；代入 (2,2) 也成立。"
+    ],
+    "teacherTip": "兩點決定直線，可先算斜率再用其中一點求截距。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0032",
+    "subject": "數學",
+    "gradeSemester": "八年級",
+    "unit": "函數",
+    "knowledgePoint": "座標平面",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "點 P(−2,5) 位於座標平面的哪一象限？",
+    "options": [
+      "第二象限",
+      "第一象限",
+      "第三象限",
+      "第四象限"
+    ],
+    "answer": 0,
+    "explanation": "P 的 x 座標為負，y 座標為正。 x＜0、y＞0 的點在第二象限。 答案是第二象限；判象限依序看 x、y 正負。",
+    "solutionSteps": [
+      "P 的 x 座標為負，y 座標為正。",
+      "x＜0、y＞0 的點在第二象限。",
+      "答案是第二象限；判象限依序看 x、y 正負。"
+    ],
+    "teacherTip": "象限符號順序為 (+,+)、(−,+)、(−,−)、(+,−)。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0033",
+    "subject": "數學",
+    "gradeSemester": "八年級",
+    "unit": "函數",
+    "knowledgePoint": "函數關係式",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "計程車起跳 85 元，每公里另收 20 元，行駛 x 公里且不計等候費，車資 y 為何？",
+    "options": [
+      "y＝20x＋85",
+      "y＝85x＋20",
+      "y＝105x",
+      "y＝20(x＋85)"
+    ],
+    "answer": 0,
+    "explanation": "每公里費用為 20x 元，另加固定起跳 85 元。 所以 y＝20x＋85。 答案選此式；85 是固定費，不應乘上里程。",
+    "solutionSteps": [
+      "每公里費用為 20x 元，另加固定起跳 85 元。",
+      "所以 y＝20x＋85。",
+      "答案選此式；85 是固定費，不應乘上里程。"
+    ],
+    "teacherTip": "情境中的固定量是截距，隨 x 改變的費用是係數。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0034",
+    "subject": "數學",
+    "gradeSemester": "八年級",
+    "unit": "幾何",
+    "knowledgePoint": "三角形內角和",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "三角形兩內角分別為 48° 與 67°，第三個內角是多少？",
+    "options": [
+      "65°",
+      "55°",
+      "75°",
+      "115°"
+    ],
+    "answer": 0,
+    "explanation": "三角形內角和為 180°。 第三角＝180°－48°－67°＝65°。 答案為 65°；115°是 180°－65°，漏減了一個已知角。",
+    "solutionSteps": [
+      "三角形內角和為 180°。",
+      "第三角＝180°－48°－67°＝65°。",
+      "答案為 65°；115°是 180°－65°，漏減了一個已知角。"
+    ],
+    "teacherTip": "三角形內角和固定 180°，計算時兩個已知角都要扣除。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0035",
+    "subject": "數學",
+    "gradeSemester": "八年級",
+    "unit": "幾何",
+    "knowledgePoint": "等腰三角形",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "等腰三角形頂角為 40°，兩底角相等。每個底角為幾度？",
+    "options": [
+      "70°",
+      "40°",
+      "80°",
+      "140°"
+    ],
+    "answer": 0,
+    "explanation": "兩底角和＝180°－40°＝140°。 底角相等，各為 140°÷2＝70°。 答案為 70°；不能把剩下的 140°當成單一底角。",
+    "solutionSteps": [
+      "兩底角和＝180°－40°＝140°。",
+      "底角相等，各為 140°÷2＝70°。",
+      "答案為 70°；不能把剩下的 140°當成單一底角。"
+    ],
+    "teacherTip": "等腰三角形先用內角和求底角總和，再平分。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0036",
+    "subject": "數學",
+    "gradeSemester": "八年級",
+    "unit": "幾何",
+    "knowledgePoint": "外角與內角",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "一條直線上相鄰的兩角互補，其中一角為 125°，另一角為幾度？",
+    "options": [
+      "55°",
+      "65°",
+      "125°",
+      "235°"
+    ],
+    "answer": 0,
+    "explanation": "直線角為 180°。 相鄰角＝180°－125°＝55°。 答案是 55°；相鄰線性角不是相等角。",
+    "solutionSteps": [
+      "直線角為 180°。",
+      "相鄰角＝180°－125°＝55°。",
+      "答案是 55°；相鄰線性角不是相等角。"
+    ],
+    "teacherTip": "直線上的相鄰角相加 180°，先辨清圖形描述中的位置關係。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0037",
+    "subject": "數學",
+    "gradeSemester": "八年級",
+    "unit": "幾何",
+    "knowledgePoint": "長方形周長",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "長方形長 8 公分、寬 5 公分，周長是多少公分？",
+    "options": [
+      "26",
+      "40",
+      "13",
+      "80"
+    ],
+    "answer": 0,
+    "explanation": "長方形周長＝2×(長＋寬)。 2×(8＋5)＝26（公分）。 40 是面積 8×5，不是周長。",
+    "solutionSteps": [
+      "長方形周長＝2×(長＋寬)。",
+      "2×(8＋5)＝26（公分）。",
+      "40 是面積 8×5，不是周長。"
+    ],
+    "teacherTip": "周長是邊長相加，面積才是長乘寬。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0038",
+    "subject": "數學",
+    "gradeSemester": "八年級",
+    "unit": "幾何",
+    "knowledgePoint": "三角形面積",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "三角形底為 12 公分，對應高為 7 公分，面積是多少平方公分？",
+    "options": [
+      "42",
+      "84",
+      "19",
+      "38"
+    ],
+    "answer": 0,
+    "explanation": "三角形面積＝底×高÷2。 12×7÷2＝42（平方公分）。 84 忘了除以 2。",
+    "solutionSteps": [
+      "三角形面積＝底×高÷2。",
+      "12×7÷2＝42（平方公分）。",
+      "84 忘了除以 2。"
+    ],
+    "teacherTip": "題目給的是對應高，三角形面積公式要除以 2。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0039",
+    "subject": "數學",
+    "gradeSemester": "八年級",
+    "unit": "幾何",
+    "knowledgePoint": "梯形面積",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "梯形兩底長 8 公分與 14 公分，高 6 公分，面積是多少平方公分？",
+    "options": [
+      "66",
+      "132",
+      "42",
+      "84"
+    ],
+    "answer": 0,
+    "explanation": "梯形面積＝(上底＋下底)×高÷2。 (8＋14)×6÷2＝22×3＝66。 答案為 66；132 是未除以 2 的結果。",
+    "solutionSteps": [
+      "梯形面積＝(上底＋下底)×高÷2。",
+      "(8＋14)×6÷2＝22×3＝66。",
+      "答案為 66；132 是未除以 2 的結果。"
+    ],
+    "teacherTip": "梯形兩底相加後乘高，再除以 2。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0040",
+    "subject": "數學",
+    "gradeSemester": "八年級",
+    "unit": "幾何",
+    "knowledgePoint": "圓周長",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "圓的半徑是 5 公分，圓周長以 π 表示為何？",
+    "options": [
+      "10π 公分",
+      "5π 公分",
+      "25π 公分",
+      "20π 公分"
+    ],
+    "answer": 0,
+    "explanation": "圓周長＝2πr。 r＝5，故周長＝2π×5＝10π 公分。 25π 是 πr² 的面積，並非周長。",
+    "solutionSteps": [
+      "圓周長＝2πr。",
+      "r＝5，故周長＝2π×5＝10π 公分。",
+      "25π 是 πr² 的面積，並非周長。"
+    ],
+    "teacherTip": "看清題目問周長或面積；兩者公式不同。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0041",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "幾何",
+    "knowledgePoint": "圓面積",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "圓的直徑為 6 公分，面積以 π 表示為何？",
+    "options": [
+      "9π 平方公分",
+      "36π 平方公分",
+      "6π 平方公分",
+      "12π 平方公分"
+    ],
+    "answer": 0,
+    "explanation": "半徑是直徑的一半：r＝6÷2＝3。 面積＝πr²＝π×3²＝9π 平方公分。 36π 是把直徑 6 直接平方，未先除以 2。",
+    "solutionSteps": [
+      "半徑是直徑的一半：r＝6÷2＝3。",
+      "面積＝πr²＝π×3²＝9π 平方公分。",
+      "36π 是把直徑 6 直接平方，未先除以 2。"
+    ],
+    "teacherTip": "圓面積使用半徑平方，不可把直徑直接代入。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0042",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "幾何",
+    "knowledgePoint": "平行線角",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "兩條平行線被一條截線所截，一對內錯角中一角為 65°。另一內錯角為幾度？",
+    "options": [
+      "65°",
+      "115°",
+      "25°",
+      "130°"
+    ],
+    "answer": 0,
+    "explanation": "平行線的內錯角相等。 因此另一角也為 65°。 115°是與 65° 相鄰的補角，不是內錯角。",
+    "solutionSteps": [
+      "平行線的內錯角相等。",
+      "因此另一角也為 65°。",
+      "115°是與 65° 相鄰的補角，不是內錯角。"
+    ],
+    "teacherTip": "依題幹明確的角位置辨認對應、同位、內錯或同側內角。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0043",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "幾何",
+    "knowledgePoint": "畢氏定理",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "直角三角形兩股長 6 公分、8 公分，斜邊長為何？",
+    "options": [
+      "10 公分",
+      "14 公分",
+      "7 公分",
+      "100 公分"
+    ],
+    "answer": 0,
+    "explanation": "斜邊平方＝6²＋8²＝36＋64＝100。 斜邊＝√100＝10 公分。 100 是斜邊平方，不是斜邊長。",
+    "solutionSteps": [
+      "斜邊平方＝6²＋8²＝36＋64＝100。",
+      "斜邊＝√100＝10 公分。",
+      "100 是斜邊平方，不是斜邊長。"
+    ],
+    "teacherTip": "畢氏定理先求平方和，最後別忘了開平方根。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0044",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "幾何",
+    "knowledgePoint": "相似圖形",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "兩個相似三角形的大三角形與小三角形對應邊長比為 2：1。小三角形面積為 12 平方公分，大三角形面積為何？",
+    "options": [
+      "48",
+      "24",
+      "36",
+      "96"
+    ],
+    "answer": 0,
+    "explanation": "相似圖形面積比等於對應邊比的平方。 大：小邊長比 2，面積比為 2²＝4。 大三角形面積＝12×4＝48 平方公分。",
+    "solutionSteps": [
+      "相似圖形面積比等於對應邊比的平方。",
+      "大：小邊長比 2，面積比為 2²＝4。",
+      "大三角形面積＝12×4＝48 平方公分。"
+    ],
+    "teacherTip": "相似長度放大 k 倍，面積放大 k² 倍。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0045",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "幾何",
+    "knowledgePoint": "長方體體積",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "長方體長 4 公分、寬 3 公分、高 5 公分，體積為何？",
+    "options": [
+      "60 立方公分",
+      "47 立方公分",
+      "12 立方公分",
+      "120 立方公分"
+    ],
+    "answer": 0,
+    "explanation": "長方體體積＝長×寬×高。 4×3×5＝60 立方公分。 答案為 60；47 是三邊相加的結果，不能代表體積。",
+    "solutionSteps": [
+      "長方體體積＝長×寬×高。",
+      "4×3×5＝60 立方公分。",
+      "答案為 60；47 是三邊相加的結果，不能代表體積。"
+    ],
+    "teacherTip": "體積使用三個互相垂直方向的長度相乘，單位為立方。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0046",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "幾何",
+    "knowledgePoint": "圓柱體積",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "圓柱底面半徑 2 公分、高 5 公分，體積以 π 表示為何？",
+    "options": [
+      "20π 立方公分",
+      "10π 立方公分",
+      "25π 立方公分",
+      "40π 立方公分"
+    ],
+    "answer": 0,
+    "explanation": "圓柱體積＝底面積×高＝πr²h。 π×2²×5＝20π 立方公分。 10π 少乘半徑平方中的 2；應先算 2²。",
+    "solutionSteps": [
+      "圓柱體積＝底面積×高＝πr²h。",
+      "π×2²×5＝20π 立方公分。",
+      "10π 少乘半徑平方中的 2；應先算 2²。"
+    ],
+    "teacherTip": "圓柱體積先算圓底面積，再乘柱高。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0047",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "幾何",
+    "knowledgePoint": "多邊形內角和",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "七邊形的內角和是多少度？",
+    "options": [
+      "900°",
+      "720°",
+      "1080°",
+      "1260°"
+    ],
+    "answer": 0,
+    "explanation": "n 邊形內角和＝(n－2)×180°。 (7－2)×180°＝900°。 答案為 900°；七邊形可分成 5 個三角形。",
+    "solutionSteps": [
+      "n 邊形內角和＝(n－2)×180°。",
+      "(7－2)×180°＝900°。",
+      "答案為 900°；七邊形可分成 5 個三角形。"
+    ],
+    "teacherTip": "用 n−2 個三角形計算多邊形內角和。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0048",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "幾何",
+    "knowledgePoint": "正多邊形內角",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "正五邊形每個內角幾度？",
+    "options": [
+      "108°",
+      "72°",
+      "120°",
+      "540°"
+    ],
+    "answer": 0,
+    "explanation": "五邊形內角和＝(5－2)×180°＝540°。 正五邊形五角相等，540°÷5＝108°。 72°是每個外角，不是內角。",
+    "solutionSteps": [
+      "五邊形內角和＝(5－2)×180°＝540°。",
+      "正五邊形五角相等，540°÷5＝108°。",
+      "72°是每個外角，不是內角。"
+    ],
+    "teacherTip": "正 n 邊形每個外角 360°/n，可用來檢查內角。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0049",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "幾何",
+    "knowledgePoint": "坐標距離",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "坐標平面上 A(0,0)、B(6,8)，線段 AB 長多少單位？",
+    "options": [
+      "10",
+      "14",
+      "2",
+      "100"
+    ],
+    "answer": 0,
+    "explanation": "水平差 6，垂直差 8，形成直角三角形。 AB＝√(6²＋8²)＝√100＝10。 100 是距離平方，不是距離。",
+    "solutionSteps": [
+      "水平差 6，垂直差 8，形成直角三角形。",
+      "AB＝√(6²＋8²)＝√100＝10。",
+      "100 是距離平方，不是距離。"
+    ],
+    "teacherTip": "坐標兩點距離可用畢氏定理；最後取正平方根。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0050",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "幾何",
+    "knowledgePoint": "中點坐標",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "線段端點為 A(2,−1)、B(8,5)，中點坐標為何？",
+    "options": [
+      "(5,2)",
+      "(6,4)",
+      "(10,4)",
+      "(3,−3)"
+    ],
+    "answer": 0,
+    "explanation": "中點 x 坐標＝(2＋8)÷2＝5。 中點 y 坐標＝(−1＋5)÷2＝2。 所以中點是 (5,2)。",
+    "solutionSteps": [
+      "中點 x 坐標＝(2＋8)÷2＝5。",
+      "中點 y 坐標＝(−1＋5)÷2＝2。",
+      "所以中點是 (5,2)。"
+    ],
+    "teacherTip": "中點的兩個坐標分別取端點坐標的平均數。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0051",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "幾何",
+    "knowledgePoint": "畢氏定理逆定理",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "三角形三邊長為 5、12、13。此三角形是否為直角三角形？",
+    "options": [
+      "是，因為 5²＋12²＝13²",
+      "是，因為 5＋12＝13",
+      "否，因為 5²＋12²≠13²",
+      "否，因為三邊都不相等"
+    ],
+    "answer": 0,
+    "explanation": "最大邊為 13，檢查 5²＋12²＝25＋144＝169。 13²＝169，兩者相等，符合畢氏定理逆定理。因此正確選項為「是，因為 5²＋12²＝13²」；檢查的是平方和，不是邊長和。",
+    "solutionSteps": [
+      "最大邊為 13，檢查 5²＋12²＝25＋144＝169。",
+      "13²＝169，兩者相等，符合畢氏定理逆定理。",
+      "正確選項是「是，因為 5²＋12²＝13²」；檢查平方和，不是邊長和。"
+    ],
+    "teacherTip": "使用逆定理要以最大邊作斜邊候選，核對平方關係。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0052",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "幾何",
+    "knowledgePoint": "三角形相似與邊長",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "△ABC 與 △DEF 相似，AB 對應 DE；AB＝6 公分、DE＝9 公分，若 BC＝8 公分，對應 EF 長多少？",
+    "options": [
+      "12 公分",
+      "10 公分",
+      "5.3 公分",
+      "14 公分"
+    ],
+    "answer": 0,
+    "explanation": "相似比 DEF：ABC＝9：6＝3：2。 EF 對應 BC，因此 EF＝8×3/2＝12 公分。 答案為 12；比例方向若倒置會得到較小的錯誤值。",
+    "solutionSteps": [
+      "相似比 DEF：ABC＝9：6＝3：2。",
+      "EF 對應 BC，因此 EF＝8×3/2＝12 公分。",
+      "答案為 12；比例方向若倒置會得到較小的錯誤值。"
+    ],
+    "teacherTip": "先固定「誰比誰」的相似比，再套到對應邊。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0053",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "幾何",
+    "knowledgePoint": "扇形弧長",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "半徑 6 公分的圓中，圓心角 60° 的扇形弧長為何？",
+    "options": [
+      "2π 公分",
+      "6π 公分",
+      "π 公分",
+      "12π 公分"
+    ],
+    "answer": 0,
+    "explanation": "弧長占全圓周長的 60/360＝1/6。 全圓周長＝2π×6＝12π，弧長＝12π×1/6＝2π 公分。 答案為 2π；不可把 60° 當成 60 倍。",
+    "solutionSteps": [
+      "弧長占全圓周長的 60/360＝1/6。",
+      "全圓周長＝2π×6＝12π，弧長＝12π×1/6＝2π 公分。",
+      "答案為 2π；不可把 60° 當成 60 倍。"
+    ],
+    "teacherTip": "弧長比例等於圓心角占 360° 的比例。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0054",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "幾何",
+    "knowledgePoint": "平行四邊形面積",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "平行四邊形底長 9 公分，對應高 4 公分，面積為何？",
+    "options": [
+      "36 平方公分",
+      "26 平方公分",
+      "18 平方公分",
+      "13 平方公分"
+    ],
+    "answer": 0,
+    "explanation": "平行四邊形面積＝底×高。 9×4＝36 平方公分。 斜邊長不需加入面積計算。",
+    "solutionSteps": [
+      "平行四邊形面積＝底×高。",
+      "9×4＝36 平方公分。",
+      "斜邊長不需加入面積計算。"
+    ],
+    "teacherTip": "平行四邊形用垂直高，不是斜邊長。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0055",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "幾何",
+    "knowledgePoint": "角平分線",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "∠AOB＝84°，射線 OC 將此角平分，則 ∠AOC 為幾度？",
+    "options": [
+      "42°",
+      "84°",
+      "48°",
+      "21°"
+    ],
+    "answer": 0,
+    "explanation": "角平分線把一個角分成兩個相等角。 ∠AOC＝84°÷2＝42°。 答案為 42°；84°是整個角的大小。",
+    "solutionSteps": [
+      "角平分線把一個角分成兩個相等角。",
+      "∠AOC＝84°÷2＝42°。",
+      "答案為 42°；84°是整個角的大小。"
+    ],
+    "teacherTip": "角平分線的兩側角相等，各為原角的一半。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0056",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "統計機率",
+    "knowledgePoint": "平均數",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "四次小考分數為 4、6、8、10 分，平均數是多少分？",
+    "options": [
+      "7",
+      "6",
+      "8",
+      "28"
+    ],
+    "answer": 0,
+    "explanation": "總分＝4＋6＋8＋10＝28。 平均＝28÷4＝7 分。 答案為 7；28 是總分，不是平均。",
+    "solutionSteps": [
+      "總分＝4＋6＋8＋10＝28。",
+      "平均＝28÷4＝7 分。",
+      "答案為 7；28 是總分，不是平均。"
+    ],
+    "teacherTip": "平均數＝總和除以資料個數。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0057",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "統計機率",
+    "knowledgePoint": "中位數",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "資料由小到大為 2、3、9、11、15，中位數為何？",
+    "options": [
+      "9",
+      "3",
+      "8",
+      "11"
+    ],
+    "answer": 0,
+    "explanation": "共有 5 筆資料，奇數筆的中位數是正中間第 3 筆。 第 3 筆為 9。 答案是 9；不是把最大和最小值取平均。",
+    "solutionSteps": [
+      "共有 5 筆資料，奇數筆的中位數是正中間第 3 筆。",
+      "第 3 筆為 9。",
+      "答案是 9；不是把最大和最小值取平均。"
+    ],
+    "teacherTip": "先排序，再依資料筆數找正中間位置。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0058",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "統計機率",
+    "knowledgePoint": "眾數",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "一組資料為 1、2、2、3、3、3、4，眾數為何？",
+    "options": [
+      "3",
+      "2",
+      "2.5",
+      "4"
+    ],
+    "answer": 0,
+    "explanation": "統計各數出現次數：3 出現 3 次，2 出現 2 次，其餘各 1 次。 出現最多次的數是 3。 所以眾數為 3，不是中間位置的中位數。",
+    "solutionSteps": [
+      "統計各數出現次數：3 出現 3 次，2 出現 2 次，其餘各 1 次。",
+      "出現最多次的數是 3。",
+      "所以眾數為 3，不是中間位置的中位數。"
+    ],
+    "teacherTip": "眾數看出現頻率，不是看大小排序位置。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0059",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "統計機率",
+    "knowledgePoint": "全距",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "一組資料的最小值為 12、最大值為 29，全距是多少？",
+    "options": [
+      "17",
+      "41",
+      "12",
+      "29"
+    ],
+    "answer": 0,
+    "explanation": "全距＝最大值－最小值。 29－12＝17。 答案為 17；把最大值與最小值相加是 41，不是全距。",
+    "solutionSteps": [
+      "全距＝最大值－最小值。",
+      "29－12＝17。",
+      "答案為 17；把最大值與最小值相加是 41，不是全距。"
+    ],
+    "teacherTip": "全距只使用最大與最小兩筆資料。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0060",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "統計機率",
+    "knowledgePoint": "加權平均",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "某課平時成績 70 分占 30%，期末考 80 分占 70%，加權平均為何？",
+    "options": [
+      "77 分",
+      "75 分",
+      "78 分",
+      "150 分"
+    ],
+    "answer": 0,
+    "explanation": "平時加權為 70×0.3＝21。 期末加權為 80×0.7＝56；總和 21＋56＝77 分。 答案為 77；不能把兩次分數直接相加。",
+    "solutionSteps": [
+      "平時加權為 70×0.3＝21。",
+      "期末加權為 80×0.7＝56；總和 21＋56＝77 分。",
+      "答案為 77；不能把兩次分數直接相加。"
+    ],
+    "teacherTip": "加權平均要依比重乘各分數，權重總和應為 1。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0061",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "統計機率",
+    "knowledgePoint": "骰子機率",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "擲一次公平六面骰，點數大於 4 的機率為何？",
+    "options": [
+      "1/3",
+      "1/2",
+      "2/3",
+      "1/6"
+    ],
+    "answer": 0,
+    "explanation": "大於 4 的點數是 5、6，共 2 種。 六種等可能結果中有 2 種符合，機率＝2/6＝1/3。 答案為 1/3；分子列符合結果、分母列全部可能結果。",
+    "solutionSteps": [
+      "大於 4 的點數是 5、6，共 2 種。",
+      "六種等可能結果中有 2 種符合，機率＝2/6＝1/3。",
+      "答案為 1/3；分子列符合結果、分母列全部可能結果。"
+    ],
+    "teacherTip": "先列出符合條件的點數，再除以全部等可能點數。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0062",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "統計機率",
+    "knowledgePoint": "連續事件機率",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "連擲兩枚公平硬幣，恰有一枚正面朝上的機率為何？",
+    "options": [
+      "1/2",
+      "1/4",
+      "3/4",
+      "1"
+    ],
+    "answer": 0,
+    "explanation": "等可能結果為 HH、HT、TH、TT，共 4 種。 恰一正面的結果是 HT、TH，共 2 種。 機率＝2/4＝1/2。",
+    "solutionSteps": [
+      "等可能結果為 HH、HT、TH、TT，共 4 種。",
+      "恰一正面的結果是 HT、TH，共 2 種。",
+      "機率＝2/4＝1/2。"
+    ],
+    "teacherTip": "兩次事件要列出有順序的樣本空間，避免漏掉 HT 或 TH。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0063",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "統計機率",
+    "knowledgePoint": "有限樣本機率",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "袋中有編號 1 至 10 的十顆球，任取一顆，抽到偶數號的機率為何？",
+    "options": [
+      "1/2",
+      "2/5",
+      "1/5",
+      "3/5"
+    ],
+    "answer": 0,
+    "explanation": "偶數號為 2、4、6、8、10，共 5 顆。 總數 10 顆，機率＝5/10＝1/2。 答案為 1/2。",
+    "solutionSteps": [
+      "偶數號為 2、4、6、8、10，共 5 顆。",
+      "總數 10 顆，機率＝5/10＝1/2。",
+      "答案為 1/2。"
+    ],
+    "teacherTip": "抽取機率以符合條件的個數除以總個數。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0064",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "統計機率",
+    "knowledgePoint": "資料圖表判讀",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "社團人數表：籃球 18 人、合唱 12 人、桌遊 15 人、科學 9 人。哪個社團人數最多？",
+    "options": [
+      "籃球",
+      "合唱",
+      "桌遊",
+      "科學"
+    ],
+    "answer": 0,
+    "explanation": "逐一比較人數：18、12、15、9。 最大值為 18，對應籃球社。 答案為籃球；桌遊有 15 人，次多但不是最多。",
+    "solutionSteps": [
+      "逐一比較人數：18、12、15、9。",
+      "最大值為 18，對應籃球社。",
+      "答案為籃球；桌遊有 15 人，次多但不是最多。"
+    ],
+    "teacherTip": "表格題先對齊類別與數值，勿只看選項名稱。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0065",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "統計機率",
+    "knowledgePoint": "抽樣代表性",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "要了解全校學生最常搭乘的交通方式，以下哪種調查較具代表性？",
+    "options": [
+      "隨機抽取各年級共 200 名學生",
+      "只詢問校門口騎腳踏車的同學",
+      "只詢問九年級學生",
+      "只在雨天詢問晚到的學生"
+    ],
+    "answer": 0,
+    "explanation": "調查目標是全校，樣本應涵蓋不同年級與交通方式。 跨年級隨機抽樣較能避免只選到特定族群。因此正確選項為「隨機抽取各年級共 200 名學生」。只問校門口騎車者會漏掉其他交通方式，產生偏差。",
+    "solutionSteps": [
+      "調查目標是全校，樣本應涵蓋不同年級與交通方式。",
+      "跨年級隨機抽樣較能避免只選到特定族群；正確選項是「隨機抽取各年級共 200 名學生」。",
+      "只問校門口騎車者會漏掉其他交通方式，產生偏差。"
+    ],
+    "teacherTip": "判斷調查品質時，確認抽樣對象是否代表研究母群體。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0066",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "統計機率",
+    "knowledgePoint": "圓形圖百分率",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "班上 40 人中有 10 人選擇搭公車上學。圓形圖中公車所占百分率是多少？",
+    "options": [
+      "25%",
+      "10%",
+      "40%",
+      "4%"
+    ],
+    "answer": 0,
+    "explanation": "公車比例＝10/40＝1/4。 1/4×100%＝25%。 答案為 25%；10 是人數，不是百分率。",
+    "solutionSteps": [
+      "公車比例＝10/40＝1/4。",
+      "1/4×100%＝25%。",
+      "答案為 25%；10 是人數，不是百分率。"
+    ],
+    "teacherTip": "百分率是部分除以全體再乘 100%。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0067",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "統計機率",
+    "knowledgePoint": "期望與機率判讀",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "某遊戲抽中獎券機率為 1/5。玩 10 次一定會中獎幾次？",
+    "options": [
+      "無法確定",
+      "剛好 2 次",
+      "至少 1 次",
+      "一定 10 次"
+    ],
+    "answer": 0,
+    "explanation": "1/5 表示每次長期的中獎機會比例，不保證短期結果。 10 次可能中 0 次、2 次或其他次數。因此正確選項為「無法確定」；2 次只是期望值，非保證。",
+    "solutionSteps": [
+      "1/5 表示每次長期的中獎機會比例，不保證短期結果。",
+      "10 次可能中 0 次、2 次或其他次數。",
+      "正確選項是「無法確定」；2 次只是期望值，不能保證實際中獎次數。"
+    ],
+    "teacherTip": "機率表示可能性，不等同保證的實際次數。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0068",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "統計機率",
+    "knowledgePoint": "資料比較",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "甲組資料為 6、6、6、6，乙組為 3、6、6、9。兩組平均數相同，哪一組全距較大？",
+    "options": [
+      "乙組",
+      "甲組",
+      "相同",
+      "資料不足"
+    ],
+    "answer": 0,
+    "explanation": "甲組全距＝6－6＝0。 乙組全距＝9－3＝6。 乙組全距較大；平均數相同不代表分散程度相同。",
+    "solutionSteps": [
+      "甲組全距＝6－6＝0。",
+      "乙組全距＝9－3＝6。",
+      "乙組全距較大；平均數相同不代表分散程度相同。"
+    ],
+    "teacherTip": "平均數描述中心，全距描述最大與最小差距。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0069",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "統計機率",
+    "knowledgePoint": "互斥事件機率",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "公平骰子擲一次，擲出 1 或 6 的機率為何？",
+    "options": [
+      "1/3",
+      "1/6",
+      "1/2",
+      "2/3"
+    ],
+    "answer": 0,
+    "explanation": "1 與 6 是互斥結果，共有 2 個有利結果。 機率＝2/6＝1/3。 答案為 1/3；不可只算其中一種結果。",
+    "solutionSteps": [
+      "1 與 6 是互斥結果，共有 2 個有利結果。",
+      "機率＝2/6＝1/3。",
+      "答案為 1/3；不可只算其中一種結果。"
+    ],
+    "teacherTip": "「A 或 B」且兩者互斥時，將兩事件機率相加。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0070",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "統計機率",
+    "knowledgePoint": "中位數與離群值",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "資料 4、5、6、7、100 的中位數為何？",
+    "options": [
+      "6",
+      "24.4",
+      "7",
+      "5"
+    ],
+    "answer": 0,
+    "explanation": "資料已由小到大排列，共 5 筆。 中間第 3 筆是 6，所以中位數為 6。 100 會大幅影響平均數，但不改變此組資料的中位數位置。",
+    "solutionSteps": [
+      "資料已由小到大排列，共 5 筆。",
+      "中間第 3 筆是 6，所以中位數為 6。",
+      "100 會大幅影響平均數，但不改變此組資料的中位數位置。"
+    ],
+    "teacherTip": "離群值對平均數影響較大，中位數依排序位置決定。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0071",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "比例",
+    "knowledgePoint": "比與總量",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "紅球與藍球數量比為 3：5，兩色共 40 顆。紅球有幾顆？",
+    "options": [
+      "15",
+      "24",
+      "25",
+      "8"
+    ],
+    "answer": 0,
+    "explanation": "比的總份數＝3＋5＝8。 每份＝40÷8＝5 顆，紅球＝3×5＝15 顆。 答案為 15；40×3 會忽略總份數。",
+    "solutionSteps": [
+      "比的總份數＝3＋5＝8。",
+      "每份＝40÷8＝5 顆，紅球＝3×5＝15 顆。",
+      "答案為 15；40×3 會忽略總份數。"
+    ],
+    "teacherTip": "先將比的份數相加，再求每一份代表的量。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0072",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "比例",
+    "knowledgePoint": "比例放大",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "製作 4 人份鬆餅需麵粉 300 公克。依相同比例製作 10 人份需多少公克？",
+    "options": [
+      "750",
+      "600",
+      "1200",
+      "7500"
+    ],
+    "answer": 0,
+    "explanation": "份量倍數＝10÷4＝2.5。 麵粉量＝300×2.5＝750 公克。 答案是 750 公克；不能只將人數差 6 乘 300。",
+    "solutionSteps": [
+      "份量倍數＝10÷4＝2.5。",
+      "麵粉量＝300×2.5＝750 公克。",
+      "答案是 750 公克；不能只將人數差 6 乘 300。"
+    ],
+    "teacherTip": "同配方按人數成正比，使用份量倍數而非差值。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0073",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "比例",
+    "knowledgePoint": "比例尺",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "地圖比例尺為 1：50,000，圖上兩地相距 4 公分，實際距離為幾公里？",
+    "options": [
+      "2 公里",
+      "20 公里",
+      "200 公尺",
+      "0.8 公里"
+    ],
+    "answer": 0,
+    "explanation": "實際距離＝4×50,000＝200,000 公分。 100,000 公分＝1 公里，所以 200,000 公分＝2 公里。 答案為 2 公里；單位換算不可漏掉。",
+    "solutionSteps": [
+      "實際距離＝4×50,000＝200,000 公分。",
+      "100,000 公分＝1 公里，所以 200,000 公分＝2 公里。",
+      "答案為 2 公里；單位換算不可漏掉。"
+    ],
+    "teacherTip": "比例尺計算後先保留原單位，再換成題目要求的單位。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0074",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "比例",
+    "knowledgePoint": "速率",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "汽車 3 小時行駛 180 公里，平均速率為多少公里/小時？",
+    "options": [
+      "60",
+      "540",
+      "183",
+      "90"
+    ],
+    "answer": 0,
+    "explanation": "平均速率＝路程÷時間。 180÷3＝60 公里/小時。 540 是路程乘時間，不符合速率定義。",
+    "solutionSteps": [
+      "平均速率＝路程÷時間。",
+      "180÷3＝60 公里/小時。",
+      "540 是路程乘時間，不符合速率定義。"
+    ],
+    "teacherTip": "速率、時間、路程關係為速率＝路程÷時間。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0075",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "比例",
+    "knowledgePoint": "單價",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "6 瓶相同飲料共 150 元，照此單價買 10 瓶需多少元？",
+    "options": [
+      "250 元",
+      "240 元",
+      "900 元",
+      "25 元"
+    ],
+    "answer": 0,
+    "explanation": "每瓶單價＝150÷6＝25 元。 10 瓶需 25×10＝250 元。 答案為 250 元；25 元只是單瓶價格。",
+    "solutionSteps": [
+      "每瓶單價＝150÷6＝25 元。",
+      "10 瓶需 25×10＝250 元。",
+      "答案為 250 元；25 元只是單瓶價格。"
+    ],
+    "teacherTip": "先求單位量，才能依數量放大。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0076",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "比例",
+    "knowledgePoint": "折扣情境",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "一雙鞋原價 1200 元，打 75 折後售價是多少？",
+    "options": [
+      "900 元",
+      "300 元",
+      "925 元",
+      "1200 元"
+    ],
+    "answer": 0,
+    "explanation": "75 折表示售價為原價的 75%。 1200×0.75＝900 元。 300 元是折價金額，題目問售價。",
+    "solutionSteps": [
+      "75 折表示售價為原價的 75%。",
+      "1200×0.75＝900 元。",
+      "300 元是折價金額，題目問售價。"
+    ],
+    "teacherTip": "折扣後價格與省下的金額是兩個不同量。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0077",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "比例",
+    "knowledgePoint": "含稅價格",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "商品未稅價 800 元，營業稅率 5%，含稅價為何？",
+    "options": [
+      "840 元",
+      "805 元",
+      "760 元",
+      "40 元"
+    ],
+    "answer": 0,
+    "explanation": "稅額＝800×0.05＝40 元。 含稅價＝800＋40＝840 元，也可算 800×1.05。 40 元是稅額而非含稅總價。",
+    "solutionSteps": [
+      "稅額＝800×0.05＝40 元。",
+      "含稅價＝800＋40＝840 元，也可算 800×1.05。",
+      "40 元是稅額而非含稅總價。"
+    ],
+    "teacherTip": "加稅要乘 1＋稅率，不是只算稅額。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0078",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "比例",
+    "knowledgePoint": "正比例應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "5 人活動需要 3 公斤米，參與人數與用米量成正比。8 人需要多少公斤？",
+    "options": [
+      "4.8 公斤",
+      "5 公斤",
+      "3.8 公斤",
+      "7.5 公斤"
+    ],
+    "answer": 0,
+    "explanation": "每人用米量＝3÷5＝0.6 公斤。 8 人需要 0.6×8＝4.8 公斤。 答案為 4.8 公斤；不能把人數增加 3 直接加到公斤數。",
+    "solutionSteps": [
+      "每人用米量＝3÷5＝0.6 公斤。",
+      "8 人需要 0.6×8＝4.8 公斤。",
+      "答案為 4.8 公斤；不能把人數增加 3 直接加到公斤數。"
+    ],
+    "teacherTip": "正比例問題先算每單位需求，再乘新數量。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0079",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "比例",
+    "knowledgePoint": "反比例",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "6 位工人同效率完成一項工作需 10 天；若改由 4 位工人完成，需幾天？",
+    "options": [
+      "15 天",
+      "6 天",
+      "10 天",
+      "24 天"
+    ],
+    "answer": 0,
+    "explanation": "工作總量以工人日計：6×10＝60 工人日。 4 位工人需 60÷4＝15 天。 答案為 15 天；工人減少，所需天數增加。",
+    "solutionSteps": [
+      "工作總量以工人日計：6×10＝60 工人日。",
+      "4 位工人需 60÷4＝15 天。",
+      "答案為 15 天；工人減少，所需天數增加。"
+    ],
+    "teacherTip": "同效率且工作量固定時，工人數與天數成反比。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0080",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "比例",
+    "knowledgePoint": "油耗情境",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "機車每公升汽油可行駛 35 公里，油箱有 4 公升油，理論上可行駛幾公里？",
+    "options": [
+      "140 公里",
+      "39 公里",
+      "8.75 公里",
+      "35 公里"
+    ],
+    "answer": 0,
+    "explanation": "距離＝每公升行駛距離×公升數。 35×4＝140 公里。 答案為 140 公里；除以 4 會把比例方向弄反。",
+    "solutionSteps": [
+      "距離＝每公升行駛距離×公升數。",
+      "35×4＝140 公里。",
+      "答案為 140 公里；除以 4 會把比例方向弄反。"
+    ],
+    "teacherTip": "先辨認單位率「每公升」，再乘總公升數。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0081",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "比例",
+    "knowledgePoint": "匯率",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "某日匯率為 1 美元兌 32 元新臺幣，不計手續費。80 美元可兌多少新臺幣？",
+    "options": [
+      "2560 元",
+      "2.5 元",
+      "112 元",
+      "3200 元"
+    ],
+    "answer": 0,
+    "explanation": "每美元兌 32 元。 80×32＝2560 元新臺幣。 答案為 2560 元；除以 32 是反向換算。",
+    "solutionSteps": [
+      "每美元兌 32 元。",
+      "80×32＝2560 元新臺幣。",
+      "答案為 2560 元；除以 32 是反向換算。"
+    ],
+    "teacherTip": "留意題目給的匯率方向與要求的幣別。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0082",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "比例",
+    "knowledgePoint": "速度與時間",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "步行速度固定為每分鐘 80 公尺，走 12 分鐘可走多遠？",
+    "options": [
+      "960 公尺",
+      "92 公尺",
+      "6.7 公尺",
+      "80 公尺"
+    ],
+    "answer": 0,
+    "explanation": "距離＝速率×時間。 80×12＝960 公尺。 答案為 960；92 是把兩數相加，並非距離。",
+    "solutionSteps": [
+      "距離＝速率×時間。",
+      "80×12＝960 公尺。",
+      "答案為 960；92 是把兩數相加，並非距離。"
+    ],
+    "teacherTip": "速率乘時間才能得到路程，並確認單位相容。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0083",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "比例",
+    "knowledgePoint": "濃度",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "一杯 200 公克糖水含糖 20 公克。糖占糖水總重的百分率為何？",
+    "options": [
+      "10%",
+      "20%",
+      "5%",
+      "90%"
+    ],
+    "answer": 0,
+    "explanation": "百分濃度＝溶質÷溶液總量×100%。 20÷200×100%＝10%。 答案為 10%；分母是糖水總重，不是水重。",
+    "solutionSteps": [
+      "百分濃度＝溶質÷溶液總量×100%。",
+      "20÷200×100%＝10%。",
+      "答案為 10%；分母是糖水總重，不是水重。"
+    ],
+    "teacherTip": "濃度的分母是溶液總量，包含溶質與溶劑。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0084",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "比例",
+    "knowledgePoint": "相似縮放",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "照片長、寬都放大為原來的 3 倍，照片面積變為原來的幾倍？",
+    "options": [
+      "9 倍",
+      "3 倍",
+      "6 倍",
+      "27 倍"
+    ],
+    "answer": 0,
+    "explanation": "長放大 3 倍、寬也放大 3 倍。 面積倍率＝3×3＝9。 答案為 9 倍；27 倍是把三個維度都放大，適用於體積。",
+    "solutionSteps": [
+      "長放大 3 倍、寬也放大 3 倍。",
+      "面積倍率＝3×3＝9。",
+      "答案為 9 倍；27 倍是把三個維度都放大，適用於體積。"
+    ],
+    "teacherTip": "平面面積由兩個長度相乘，因此倍率要平方。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0085",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "素養情境",
+    "knowledgePoint": "行程與分段速率",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "小華先以 4 公里/小時走 2 小時，再以 12 公里/小時騎車 1 小時。全程平均速率是多少？",
+    "options": [
+      "6 公里/小時",
+      "8 公里/小時",
+      "16 公里/小時",
+      "20/3 公里/小時"
+    ],
+    "answer": 3,
+    "explanation": "步行路程＝4×2＝8 公里；騎車路程＝12×1＝12 公里。 總路程 20 公里、總時間 3 小時，平均速率＝20÷3 公里/小時。因此正確選項為「20/3 公里/小時」；不能把兩段速率直接平均成 8，因為時間不同。",
+    "solutionSteps": [
+      "步行路程＝4×2＝8 公里；騎車路程＝12×1＝12 公里。",
+      "總路程 20 公里、總時間 3 小時，平均速率＝20÷3 公里/小時。",
+      "正確選項是「20/3 公里/小時」；不能把兩段速率直接平均成 8，因為時間不同。"
+    ],
+    "teacherTip": "平均速率要用總路程除總時間，不是各段速率的算術平均。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0086",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "素養情境",
+    "knowledgePoint": "分段折扣",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "書店一本 500 元的書先打 8 折，再使用折後價 9 折優惠。最後售價是多少元？",
+    "options": [
+      "360 元",
+      "400 元",
+      "450 元",
+      "100 元"
+    ],
+    "answer": 0,
+    "explanation": "第一次折後為 500×0.8＝400 元。 再打 9 折為 400×0.9＝360 元。 答案是 360 元；兩次折扣連乘，不是折數相加。",
+    "solutionSteps": [
+      "第一次折後為 500×0.8＝400 元。",
+      "再打 9 折為 400×0.9＝360 元。",
+      "答案是 360 元；兩次折扣連乘，不是折數相加。"
+    ],
+    "teacherTip": "連續折扣依序乘付款率，不能把兩個折數直接相加。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0087",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "素養情境",
+    "knowledgePoint": "容量與單位換算",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "一瓶水容量 1.5 公升，倒出 350 毫升後，瓶中還剩多少毫升？",
+    "options": [
+      "1150 毫升",
+      "1.15 毫升",
+      "1500 毫升",
+      "1850 毫升"
+    ],
+    "answer": 0,
+    "explanation": "1.5 公升＝1500 毫升。 剩餘量＝1500－350＝1150 毫升。 答案為 1150 毫升；先統一單位再相減。",
+    "solutionSteps": [
+      "1.5 公升＝1500 毫升。",
+      "剩餘量＝1500－350＝1150 毫升。",
+      "答案為 1150 毫升；先統一單位再相減。"
+    ],
+    "teacherTip": "公升與毫升相減前，先換成相同單位。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0088",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "素養情境",
+    "knowledgePoint": "時間規劃",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "公車每 18 分鐘一班，第一班 7:06 發車。若班距固定，第四班幾點發車？",
+    "options": [
+      "7:54",
+      "7:42",
+      "8:00",
+      "7:24"
+    ],
+    "answer": 2,
+    "explanation": "第一班到第四班有 3 個班距。 3×18＝54 分鐘；7:06 加 54 分鐘為 8:00。 答案為 8:00；不能加 4 個班距。",
+    "solutionSteps": [
+      "第一班到第四班有 3 個班距。",
+      "3×18＝54 分鐘；7:06 加 54 分鐘為 8:00。",
+      "答案為 8:00；不能加 4 個班距。"
+    ],
+    "teacherTip": "第 n 班相對第一班經過 n−1 個間隔。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0089",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "素養情境",
+    "knowledgePoint": "最佳購買方案",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "A方案：每張票 120 元；B方案：3 張套票 330 元。買 3 張時，B方案比A方案省多少元？",
+    "options": [
+      "30 元",
+      "90 元",
+      "60 元",
+      "330 元"
+    ],
+    "answer": 0,
+    "explanation": "A方案買 3 張：120×3＝360 元。 B方案 330 元，省下 360－330＝30 元。 答案為 30 元；330 是B方案總價。",
+    "solutionSteps": [
+      "A方案買 3 張：120×3＝360 元。",
+      "B方案 330 元，省下 360－330＝30 元。",
+      "答案為 30 元；330 是B方案總價。"
+    ],
+    "teacherTip": "比較方案要先換算成相同購買數量，再比較總支出。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0090",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "素養情境",
+    "knowledgePoint": "比例分配",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "獎金 4200 元按工作時數 2：5 分給甲、乙。乙可得多少元？",
+    "options": [
+      "3000 元",
+      "1200 元",
+      "2100 元",
+      "2800 元"
+    ],
+    "answer": 0,
+    "explanation": "總份數＝2＋5＝7，每份＝4200÷7＝600 元。 乙得 5 份：5×600＝3000 元。 答案為 3000 元；若取 2 份則是甲的金額。",
+    "solutionSteps": [
+      "總份數＝2＋5＝7，每份＝4200÷7＝600 元。",
+      "乙得 5 份：5×600＝3000 元。",
+      "答案為 3000 元；若取 2 份則是甲的金額。"
+    ],
+    "teacherTip": "依題目指定對象，將總量乘上該對象的份數。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0091",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "素養情境",
+    "knowledgePoint": "折線資料判讀",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "氣溫紀錄：上午 8 時 18°C、10 時 22°C、12 時 27°C、下午 2 時 25°C。哪個時段氣溫上升最多？",
+    "options": [
+      "10 時到 12 時",
+      "8 時到 10 時",
+      "12 時到 2 時",
+      "三段上升相同"
+    ],
+    "answer": 0,
+    "explanation": "8–10 時上升 22－18＝4°C。 10–12 時上升 27－22＝5°C；12–2 時則下降 2°C。 上升最多的是 10 時到 12 時。",
+    "solutionSteps": [
+      "8–10 時上升 22－18＝4°C。",
+      "10–12 時上升 27－22＝5°C；12–2 時則下降 2°C。",
+      "上升最多的是 10 時到 12 時。"
+    ],
+    "teacherTip": "比較各時段的變化量，要算後一時刻減前一時刻。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0092",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "素養情境",
+    "knowledgePoint": "座位配置與方程",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "禮堂每排座位數相同，共 12 排可坐 360 人。若增加 3 排且每排不變，可多坐多少人？",
+    "options": [
+      "90 人",
+      "30 人",
+      "450 人",
+      "1080 人"
+    ],
+    "answer": 0,
+    "explanation": "每排座位＝360÷12＝30 人。 增加 3 排，可多坐 30×3＝90 人。 答案為 90 人；450 是增加後總座位的一部分計算錯誤。",
+    "solutionSteps": [
+      "每排座位＝360÷12＝30 人。",
+      "增加 3 排，可多坐 30×3＝90 人。",
+      "答案為 90 人；450 是增加後總座位的一部分計算錯誤。"
+    ],
+    "teacherTip": "先求每排的單位量，再乘新增排數。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0093",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "素養情境",
+    "knowledgePoint": "等值比較",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "甲飲料 600 毫升售 45 元，乙飲料 800 毫升售 56 元。哪一種每 100 毫升較便宜？",
+    "options": [
+      "乙，7 元",
+      "甲，7.5 元",
+      "甲，8 元",
+      "兩者相同"
+    ],
+    "answer": 0,
+    "explanation": "甲每 100 毫升價格＝45÷6＝7.5 元。 乙每 100 毫升價格＝56÷8＝7 元。因此正確選項為「乙，7 元」；乙的單位價格較低，要比較單位量，不可只看總價。",
+    "solutionSteps": [
+      "甲每 100 毫升價格＝45÷6＝7.5 元。",
+      "乙每 100 毫升價格＝56÷8＝7 元。",
+      "正確選項是「乙，7 元」；乙的單位價格較低，要比較單位量，不可只看總價。"
+    ],
+    "teacherTip": "比較不同容量商品應先換算成相同單位價格。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0094",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "素養情境",
+    "knowledgePoint": "百分比變化",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "某班原有 40 人，轉入 5 人後，全班人數增加百分之幾？",
+    "options": [
+      "12.5%",
+      "5%",
+      "11.1%",
+      "45%"
+    ],
+    "answer": 0,
+    "explanation": "增加量為 5 人，原人數為 40 人。 增加率＝5÷40×100%＝12.5%。 答案為 12.5%；分母用原人數，不是轉入後的 45 人。",
+    "solutionSteps": [
+      "增加量為 5 人，原人數為 40 人。",
+      "增加率＝5÷40×100%＝12.5%。",
+      "答案為 12.5%；分母用原人數，不是轉入後的 45 人。"
+    ],
+    "teacherTip": "變化率的基準通常是變化前的量。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0095",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "素養情境",
+    "knowledgePoint": "工作效率與合併",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "甲單獨完成一項工作需 6 小時，乙單獨需 3 小時。兩人效率固定且同時工作，需幾小時完成？",
+    "options": [
+      "2 小時",
+      "4.5 小時",
+      "3 小時",
+      "9 小時"
+    ],
+    "answer": 0,
+    "explanation": "甲每小時完成 1/6，乙每小時完成 1/3。 合做效率＝1/6＋1/3＝1/2 項/小時。 完成 1 項需 1÷(1/2)＝2 小時。",
+    "solutionSteps": [
+      "甲每小時完成 1/6，乙每小時完成 1/3。",
+      "合做效率＝1/6＋1/3＝1/2 項/小時。",
+      "完成 1 項需 1÷(1/2)＝2 小時。"
+    ],
+    "teacherTip": "合做題先加工作率，不是直接平均所需時間。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0096",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "素養情境",
+    "knowledgePoint": "分數比例",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "一桶油用掉 2/5 後還剩 18 公升。原來有多少公升？",
+    "options": [
+      "30 公升",
+      "25 公升",
+      "45 公升",
+      "12 公升"
+    ],
+    "answer": 0,
+    "explanation": "用掉 2/5，剩下 3/5。 原量×3/5＝18，所以原量＝18×5/3＝30 公升。 答案為 30；18 公升代表剩餘的 3/5，不是 2/5。",
+    "solutionSteps": [
+      "用掉 2/5，剩下 3/5。",
+      "原量×3/5＝18，所以原量＝18×5/3＝30 公升。",
+      "答案為 30；18 公升代表剩餘的 3/5，不是 2/5。"
+    ],
+    "teacherTip": "讀清楚剩餘比例與用掉比例，兩者互補為 1。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0097",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "素養情境",
+    "knowledgePoint": "移動平均與總量",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "小華先步行 3 公里，花 40 分鐘；接著騎車 2 公里，花 20 分鐘。小華全程平均速率為多少公尺/分鐘？",
+    "options": [
+      "50 公尺/分鐘",
+      "75 公尺/分鐘",
+      "60 公尺/分鐘",
+      "83⅓ 公尺/分鐘"
+    ],
+    "answer": 3,
+    "explanation": "先分別算兩人的路程：3 公里＋2 公里＝5 公里＝5000 公尺；總時間為 40＋20＝60 分鐘。 平均速率＝總路程÷總時間＝5000÷60＝250/3＝83⅓ 公尺/分鐘。 因此選「83⅓ 公尺/分鐘」；50 公尺/分鐘是把 3000 公尺誤當成總路程。",
+    "solutionSteps": [
+      "小華總路程＝3＋2＝5 公里＝5000 公尺；總時間＝40＋20＝60 分鐘。",
+      "平均速率＝總路程÷總時間＝5000÷60＝250/3＝83⅓ 公尺/分鐘。",
+      "選「83⅓ 公尺/分鐘」。50 公尺/分鐘只對應 3000 公尺除以 60 分鐘，漏算乙的路程。"
+    ],
+    "teacherTip": "本題故意檢查總量與單位：合併兩人的路程和時間後，平均不是兩個速率的平均。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0098",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "素養情境",
+    "knowledgePoint": "簡單機率與決策",
+    "difficulty": "基礎",
+    "type": "單題選擇",
+    "question": "抽獎箱有 3 張中獎券與 9 張未中獎券，隨機抽 1 張。中獎機率為何？",
+    "options": [
+      "1/4",
+      "1/3",
+      "3/4",
+      "1/12"
+    ],
+    "answer": 0,
+    "explanation": "總券數＝3＋9＝12 張。 中獎機率＝3/12＝1/4。 答案為 1/4；3/9 是中獎與未中獎的比，不是占全部的機率。",
+    "solutionSteps": [
+      "總券數＝3＋9＝12 張。",
+      "中獎機率＝3/12＝1/4。",
+      "答案為 1/4；3/9 是中獎與未中獎的比，不是占全部的機率。"
+    ],
+    "teacherTip": "機率分母是所有可能結果總數。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0099",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "素養情境",
+    "knowledgePoint": "比例圖形與周長",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "正方形邊長由 4 公分增加到 6 公分，周長增加幾公分？",
+    "options": [
+      "8 公分",
+      "2 公分",
+      "4 公分",
+      "20 公分"
+    ],
+    "answer": 0,
+    "explanation": "原周長＝4×4＝16 公分。 新周長＝4×6＝24 公分，增加 24－16＝8 公分。 答案為 8 公分；邊長增加 2，周長增加四倍的 2。",
+    "solutionSteps": [
+      "原周長＝4×4＝16 公分。",
+      "新周長＝4×6＝24 公分，增加 24－16＝8 公分。",
+      "答案為 8 公分；邊長增加 2，周長增加四倍的 2。"
+    ],
+    "teacherTip": "正方形周長是邊長的 4 倍，變化量也乘 4。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "MAT-0100",
+    "subject": "數學",
+    "gradeSemester": "九年級",
+    "unit": "素養情境",
+    "knowledgePoint": "方案與方程",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "手機月租有甲方案 300 元加每 GB 20 元，乙方案固定 500 元。使用幾 GB 時兩方案費用相同？",
+    "options": [
+      "10 GB",
+      "5 GB",
+      "20 GB",
+      "40 GB"
+    ],
+    "answer": 0,
+    "explanation": "甲方案費用為 300＋20x，乙方案為 500。 令 300＋20x＝500，得 20x＝200、x＝10。 使用 10 GB 時兩方案同為 500 元。",
+    "solutionSteps": [
+      "甲方案費用為 300＋20x，乙方案為 500。",
+      "令 300＋20x＝500，得 20x＝200、x＝10。",
+      "使用 10 GB 時兩方案同為 500 元。"
+    ],
+    "teacherTip": "比較方案可令兩費用相等，解出臨界用量。",
+    "relatedWords": [],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  }
+]

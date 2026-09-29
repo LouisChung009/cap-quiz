@@ -1,0 +1,5878 @@
+[
+  {
+    "id": "OFF-0090",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "110年數學第1題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "碳足跡標籤是一種碳排放量的標示方式，讓大眾了解某一產品或服務所產生 的碳排放量多寡，如圖 ( 十三 ) 所示。 圖 ( 十三 ) 碳足跡標籤的數據標示有其規定， 以「 碳排放量大於 20公克且不超過 40公克」 為例，此範圍內的碳足跡數據標示只有 20、 22、 24、……、 38、 40 公克等 11 個偶數；碳足跡數據標示決定於「碳排放量與這 11 個偶數之中的哪一個 差距最小」，兩者對應標示的範例如表 ( 二 ) 所示。 表 ( 二 ) 20.2 20 20.8 20 21.0 20 22 23.1 24 請根據上述資訊，回答下列問題，並詳細解釋或完整寫出你的解題過程： (1) 若有一個產品的碳足跡數據標示為 38 公克，則它可能的碳排放量之最小值 與最大值分別為多少公克？ (2) 承 (1)，當此產品的碳排放量減少為原本的 90% 時，請求出此產品 碳足跡數據標示的所有可能情形。",
+    "questionImage": "./assets/official-exams/110-math-p11.webp",
+    "imageAlt": "110年國中教育會考數學科第1題官方試卷頁面",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "explanation": "本題為官方非選擇題，需依題圖完成各小題並呈現計算過程；現有選項與答案索引僅為前台格式占位，不宜當作標準答案。",
+    "solutionSteps": [
+      "先依題圖與題幹整理已知條件：「碳足跡標籤是一種碳排放量的標示方式，讓大眾了解某一產品或服務所產生 的碳排放量多寡，如圖 ( 十三 ) 所示。 圖 ( 十三 ) 碳足跡標籤的數據標示有其規定， 以「 碳排放量大於 20公克且不超過 40公克」 為例，此範圍內的碳足跡數據標示只有 20、 22、 24、……、 38、 40 公克等 」。本題原為非選擇題，須分別完成各小題。",
+      "逐小題列式、計算並保留必要單位或範圍；現有 A～D 選項與 answer 欄位是前台格式占位，不代表原官方答案。",
+      "完成後把各小題結果代回題目條件驗算；正式發布前應改用可輸入作答過程的題型。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 110,
+      "questionNumber": 1,
+      "url": "https://cap.rcpet.edu.tw/exam/110/110exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1sKc4iLzr8WlbbxMA83Y0NNryYv9rqHiG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/110-math-p11.webp"
+    ]
+  },
+  {
+    "id": "OFF-0091",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "110年數學第2題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "凱特平時常用底面為矩形的模具製作蛋糕，並以「平行於模具任一邊」的方式 進行橫切或縱切，橫切都是從模具的左邊切割到模具的右邊，縱切都是從 模具的上邊切割到模具的下邊。用這種方式，可以切出數個大小完全相同的 小塊蛋糕。在切割後， 他發現小塊蛋糕接觸模具的地方外皮比較焦脆， 以圖 ( 十四 ) 為例， 橫切 2 刀， 縱切 3 刀， 共計 5 刀，切出 ( 2 + 1 ) × ( 3 + 1 ) = 12 個 小塊蛋糕，其中側面有焦脆的小塊蛋糕共有 10 個，所有側面都不焦脆的小塊蛋糕 共有 2 個。 圖 ( 十四 ) 請根據上述切割方式，回答下列問題，並詳細解釋或完整寫出你的解題過程： (1) 若對一塊蛋糕切了 4 刀，則可切出幾個小塊蛋糕？請寫出任意一種可能的 蛋糕塊數即可。 (2) 今凱特根據一場聚餐的需求，打算製作出恰好 60 個所有側面都不焦脆的小塊 蛋糕，為了避免勞累並加快出餐速度，在不超過 20 刀的情況下，請問凱特 需要切幾刀，才可以達成需求？請寫出所有可能的情形。",
+    "questionImage": "./assets/official-exams/110-math-p12.webp",
+    "imageAlt": "110年國中教育會考數學科第2題官方試卷頁面",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 1,
+    "explanation": "本題為官方非選擇題，需依題圖完成各小題並呈現計算過程；現有選項與答案索引僅為前台格式占位，不宜當作標準答案。",
+    "solutionSteps": [
+      "先依題圖與題幹整理已知條件：「凱特平時常用底面為矩形的模具製作蛋糕，並以「平行於模具任一邊」的方式 進行橫切或縱切，橫切都是從模具的左邊切割到模具的右邊，縱切都是從 模具的上邊切割到模具的下邊。用這種方式，可以切出數個大小完全相同的 小塊蛋糕。在切割後， 他發現小塊蛋糕接觸模具的地方外皮比較焦脆， 以圖 ( 十四 ) 為例， 橫」。本題原為非選擇題，須分別完成各小題。",
+      "逐小題列式、計算並保留必要單位或範圍；現有 A～D 選項與 answer 欄位是前台格式占位，不代表原官方答案。",
+      "完成後把各小題結果代回題目條件驗算；正式發布前應改用可輸入作答過程的題型。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 110,
+      "questionNumber": 2,
+      "url": "https://cap.rcpet.edu.tw/exam/110/110exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1sKc4iLzr8WlbbxMA83Y0NNryYv9rqHiG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/110-math-p12.webp"
+    ]
+  },
+  {
+    "id": "OFF-0092",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "110年數學第3題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "若二元一次聯立方程式 的解為 x = a， y = b，則 a + b 之值為何？ 6y − x = 10 (A) −15 (B) −3 (C) 5 (D)",
+    "questionImage": "./assets/official-exams/110-math-p2.webp",
+    "imageAlt": "110年國中教育會考數學科第3題官方試卷頁面",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 3,
+    "explanation": "正確答案索引為 D；原始 OCR 未保留可靠的選項文字，請以官方題圖中的 D 選項原文及題目條件核對。",
+    "solutionSteps": [
+      "先讀取官方題圖與題幹條件：「若二元一次聯立方程式 的解為 x = a， y = b，則 a + b 之值為何？ 6y − x = 10 (A) −15 (B) −3 (C) 5 (D)」，確認公式、圖形標示、單位與所求量。",
+      "依題目條件完成運算或逐項檢核；正確答案索引為 D，實際選項文字因原始 OCR 未可靠保留，須以題圖中的 D 選項原文為準。",
+      "將題圖中的 D 選項代回原條件，並檢查正負號、單位、範圍及是否符合所有圖表限制。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 110,
+      "questionNumber": 3,
+      "url": "https://cap.rcpet.edu.tw/exam/110/110exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1sKc4iLzr8WlbbxMA83Y0NNryYv9rqHiG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/110-math-p2.webp"
+    ]
+  },
+  {
+    "id": "OFF-0093",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "110年數學第4題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "如圖 ( 二 ) ， 矩形 ABCD、 ∆ BDE 中 ， A 點在 BE 上 。 若矩形 ABCD 的面積 為 20 ， ∆ BDE 的面積為 24 ， 則 ∆ ADE 的面積為何？ E",
+    "questionImage": "./assets/official-exams/110-math-p2.webp",
+    "imageAlt": "110年國中教育會考數學科第4題官方試卷頁面",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "answer": 2,
+    "explanation": "依題目所給條件計算或判斷，結果對應 C「14」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「如圖 ( 二 ) ， 矩形 ABCD、 ∆ BDE 中 ， A 點在 BE 上 。 若矩形 ABCD 的面積 為 20 ， ∆ BDE 的面積為 24 ， 則 ∆ ADE 的面積為何？ E」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 C「14」。",
+      "將 C「14」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 110,
+      "questionNumber": 4,
+      "url": "https://cap.rcpet.edu.tw/exam/110/110exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1sKc4iLzr8WlbbxMA83Y0NNryYv9rqHiG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/110-math-p2.webp"
+    ]
+  },
+  {
+    "id": "OFF-0094",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "110年數學第5題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "56 是 53 的多少倍？ (A) 2 (B) 3 (C) 25 (D)",
+    "questionImage": "./assets/official-exams/110-math-p3.webp",
+    "imageAlt": "110年國中教育會考數學科第5題官方試卷頁面",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 3,
+    "explanation": "正確答案索引為 D；原始 OCR 未保留可靠的選項文字，請以官方題圖中的 D 選項原文及題目條件核對。",
+    "solutionSteps": [
+      "先讀取官方題圖與題幹條件：「56 是 53 的多少倍？ (A) 2 (B) 3 (C) 25 (D)」，確認公式、圖形標示、單位與所求量。",
+      "依題目條件完成運算或逐項檢核；正確答案索引為 D，實際選項文字因原始 OCR 未可靠保留，須以題圖中的 D 選項原文為準。",
+      "將題圖中的 D 選項代回原條件，並檢查正負號、單位、範圍及是否符合所有圖表限制。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 110,
+      "questionNumber": 5,
+      "url": "https://cap.rcpet.edu.tw/exam/110/110exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1sKc4iLzr8WlbbxMA83Y0NNryYv9rqHiG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/110-math-p3.webp"
+    ]
+  },
+  {
+    "id": "OFF-0095",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "110年數學第6題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "下列等式何者不成立？",
+    "questionImage": "./assets/official-exams/110-math-p3.webp",
+    "imageAlt": "110年國中教育會考數學科第6題官方試卷頁面",
+    "options": [
+      "4 3 + 2 3 = 6 3",
+      "4 3 − 2 3 = 2 3",
+      "4 3 × 2 3 = 8 3",
+      "4 3 ÷ 2 3 ="
+    ],
+    "answer": 2,
+    "explanation": "依題目所給條件計算或判斷，結果對應 C「4 3 × 2 3 = 8 3」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「下列等式何者不成立？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 C「4 3 × 2 3 = 8 3」。",
+      "將 C「4 3 × 2 3 = 8 3」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 110,
+      "questionNumber": 6,
+      "url": "https://cap.rcpet.edu.tw/exam/110/110exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1sKc4iLzr8WlbbxMA83Y0NNryYv9rqHiG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/110-math-p3.webp"
+    ]
+  },
+  {
+    "id": "OFF-0096",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "110年數學第7題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "已知纜車從起點行駛到終點需花費 8 分鐘 ， 圖 ( 三 ) 表示行駛過程中纜車的 海拔高度與行駛時間的關係。 350 300 250 200 150 100 50 0 0 1 2 3 4 5 6 7 8 ( ) 根據圖 ( 三 ) 判斷 ， 下列敘述何者正確？",
+    "questionImage": "./assets/official-exams/110-math-p3.webp",
+    "imageAlt": "110年國中教育會考數學科第7題官方試卷頁面",
+    "options": [
+      "終點的海拔高度比起點高 300 公尺，行駛時間的前 4 分鐘都在上升",
+      "終點的海拔高度比起點高 300 公尺，行駛時間的末 4 分鐘都在上升",
+      "終點的海拔高度比起點高 350 公尺，行駛時間的前 4 分鐘都在上升",
+      "終點的海拔高度比起點高 350 公尺，行駛時間的末 4 分鐘都在上升 2 ( )"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「終點的海拔高度比起點高 300 公尺，行駛時間的末 4 分鐘都在上升」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「已知纜車從起點行駛到終點需花費 8 分鐘 ， 圖 ( 三 ) 表示行駛過程中纜車的 海拔高度與行駛時間的關係。 350 300 250 200 150 100 50 0 0 1 2 3 4 5 6 7 8 ( ) 根據圖 ( 三 ) 判斷 ， 下列敘述何者正確？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「終點的海拔高度比起點高 300 公尺，行駛時間的末 4 分鐘都在上升」。",
+      "將 B「終點的海拔高度比起點高 300 公尺，行駛時間的末 4 分鐘都在上升」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 110,
+      "questionNumber": 7,
+      "url": "https://cap.rcpet.edu.tw/exam/110/110exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1sKc4iLzr8WlbbxMA83Y0NNryYv9rqHiG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/110-math-p3.webp"
+    ]
+  },
+  {
+    "id": "OFF-0097",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "110年數學第8題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "利用乘法公式判斷 ， 下列等式何者成立？",
+    "questionImage": "./assets/official-exams/110-math-p4.webp",
+    "imageAlt": "110年國中教育會考數學科第8題官方試卷頁面",
+    "options": [
+      "2482 + 248 × 52 + 522 = 3002",
+      "2482 − 248 × 48 − 482 = 2002",
+      "2482 + 2 × 248 × 52 + 522 = 3002",
+      "2482 − 2 × 248 × 48 − 482 ="
+    ],
+    "answer": 2,
+    "explanation": "依題目所給條件計算或判斷，結果對應 C「2482 + 2 × 248 × 52 + 522 = 3002」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「利用乘法公式判斷 ， 下列等式何者成立？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 C「2482 + 2 × 248 × 52 + 522 = 3002」。",
+      "將 C「2482 + 2 × 248 × 52 + 522 = 3002」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 110,
+      "questionNumber": 8,
+      "url": "https://cap.rcpet.edu.tw/exam/110/110exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1sKc4iLzr8WlbbxMA83Y0NNryYv9rqHiG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/110-math-p4.webp"
+    ]
+  },
+  {
+    "id": "OFF-0098",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "110年數學第9題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "圖 ( 四 ) 為甲城市 6 月到 9 月外國旅客人數的折線圖 。 根據圖 ( 四 ) 判斷 ， 哪一個月到甲城市的外國旅客中 ， 旅客人數最少的國家是美國？",
+    "questionImage": "./assets/official-exams/110-math-p4.webp",
+    "imageAlt": "110年國中教育會考數學科第9題官方試卷頁面",
+    "options": [
+      "6",
+      "7",
+      "8 3",
+      "9 2 1 6 7 8 9 ( )"
+    ],
+    "answer": 2,
+    "explanation": "依題目所給條件計算或判斷，結果對應 C「8 3」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「圖 ( 四 ) 為甲城市 6 月到 9 月外國旅客人數的折線圖 。 根據圖 ( 四 ) 判斷 ， 哪一個月到甲城市的外國旅客中 ， 旅客人數最少的國家是美國？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 C「8 3」。",
+      "將 C「8 3」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 110,
+      "questionNumber": 9,
+      "url": "https://cap.rcpet.edu.tw/exam/110/110exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1sKc4iLzr8WlbbxMA83Y0NNryYv9rqHiG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/110-math-p4.webp"
+    ]
+  },
+  {
+    "id": "OFF-0099",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "110年數學第10題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "將一半徑為 6 的圓形紙片，沿著兩條半徑剪開形成兩個扇形。若其中一個 扇形的弧長為 5 π ，則另一個扇形的圓心角度數是多少？",
+    "questionImage": "./assets/official-exams/110-math-p4.webp",
+    "imageAlt": "110年國中教育會考數學科第10題官方試卷頁面",
+    "options": [
+      "30",
+      "60",
+      "105",
+      "210 3"
+    ],
+    "answer": 3,
+    "explanation": "依題目所給條件計算或判斷，結果對應 D「210 3」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「將一半徑為 6 的圓形紙片，沿著兩條半徑剪開形成兩個扇形。若其中一個 扇形的弧長為 5 π ，則另一個扇形的圓心角度數是多少？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 D「210 3」。",
+      "將 D「210 3」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 110,
+      "questionNumber": 10,
+      "url": "https://cap.rcpet.edu.tw/exam/110/110exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1sKc4iLzr8WlbbxMA83Y0NNryYv9rqHiG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/110-math-p4.webp"
+    ]
+  },
+  {
+    "id": "OFF-0100",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "110年數學第11題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "動物園準備了 100 張刮刮樂，打算送給開幕當日的前 100 位遊客每人一張，其中 可刮中獎品的刮刮樂共有 32 張，表 ( 一 ) 為獎品的種類及數量。若小柏為開幕 當日的第一位遊客，且每張刮刮樂被小柏拿到的機會相等，則小柏刮中玩偶的 機率為何？ 表 ( 一 ) 1 (A) 2 1 1 (B) 1 16 10 8 (C) 20 25 1 (D)",
+    "questionImage": "./assets/official-exams/110-math-p5.webp",
+    "imageAlt": "110年國中教育會考數學科第11題官方試卷頁面",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 3,
+    "explanation": "正確答案索引為 D；原始 OCR 未保留可靠的選項文字，請以官方題圖中的 D 選項原文及題目條件核對。",
+    "solutionSteps": [
+      "先讀取官方題圖與題幹條件：「動物園準備了 100 張刮刮樂，打算送給開幕當日的前 100 位遊客每人一張，其中 可刮中獎品的刮刮樂共有 32 張，表 ( 一 ) 為獎品的種類及數量。若小柏為開幕 當日的第一位遊客，且每張刮刮樂被小柏拿到的機會相等，則小柏刮中玩偶的 機率為何？ 表 ( 一 ) 1 (A) 2 1 1 (B) 1」，確認公式、圖形標示、單位與所求量。",
+      "依題目條件完成運算或逐項檢核；正確答案索引為 D，實際選項文字因原始 OCR 未可靠保留，須以題圖中的 D 選項原文為準。",
+      "將題圖中的 D 選項代回原條件，並檢查正負號、單位、範圍及是否符合所有圖表限制。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 110,
+      "questionNumber": 11,
+      "url": "https://cap.rcpet.edu.tw/exam/110/110exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1sKc4iLzr8WlbbxMA83Y0NNryYv9rqHiG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/110-math-p5.webp"
+    ]
+  },
+  {
+    "id": "OFF-0101",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "110年數學第12題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "美美和小儀到超市購物，且超市正在舉辦摸彩活動，單次消費金額每滿 100 元 可以拿到 1 張摸彩券。已知美美一次購買 5 盒餅乾拿到 3 張摸彩券；小儀一次 購買 5 盒餅乾與 1 個蛋糕拿到 4 張摸彩券。若每盒餅乾的售價為 x 元，每個 蛋糕的售價為 150 元，則 x 的範圍為下列何者？",
+    "questionImage": "./assets/official-exams/110-math-p5.webp",
+    "imageAlt": "110年國中教育會考數學科第12題官方試卷頁面",
+    "options": [
+      "50 ≤ x < 60",
+      "60 ≤ x < 70",
+      "70 ≤ x < 80",
+      "80 ≤ x <"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「60 ≤ x < 70」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「美美和小儀到超市購物，且超市正在舉辦摸彩活動，單次消費金額每滿 100 元 可以拿到 1 張摸彩券。已知美美一次購買 5 盒餅乾拿到 3 張摸彩券；小儀一次 購買 5 盒餅乾與 1 個蛋糕拿到 4 張摸彩券。若每盒餅乾的售價為 x 元，每個 蛋糕的售價為 150 元，則 x 的範圍為下列何者？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「60 ≤ x < 70」。",
+      "將 B「60 ≤ x < 70」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 110,
+      "questionNumber": 12,
+      "url": "https://cap.rcpet.edu.tw/exam/110/110exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1sKc4iLzr8WlbbxMA83Y0NNryYv9rqHiG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/110-math-p5.webp"
+    ]
+  },
+  {
+    "id": "OFF-0102",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "110年數學第13題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "已知 a ， a ，……， a 為一等差數列，其中 a 為正數，且 a + a = 0。 1 2 40 1 20 22 判斷下列敘述何者正確？",
+    "questionImage": "./assets/official-exams/110-math-p5.webp",
+    "imageAlt": "110年國中教育會考數學科第13題官方試卷頁面",
+    "options": [
+      "a + a > 0 21 22",
+      "a + a < 0 21 22",
+      "a × a > 0 21 22",
+      "a × a < 0 21 22"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「a + a < 0 21 22」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「已知 a ， a ，……， a 為一等差數列，其中 a 為正數，且 a + a = 0。 1 2 40 1 20 22 判斷下列敘述何者正確？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「a + a < 0 21 22」。",
+      "將 B「a + a < 0 21 22」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 110,
+      "questionNumber": 13,
+      "url": "https://cap.rcpet.edu.tw/exam/110/110exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1sKc4iLzr8WlbbxMA83Y0NNryYv9rqHiG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/110-math-p5.webp"
+    ]
+  },
+  {
+    "id": "OFF-0103",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "110年數學第14題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "已知 a = − ， b = ， c = − ， 判斷下列各式之值何者最大？",
+    "questionImage": "./assets/official-exams/110-math-p6.webp",
+    "imageAlt": "110年國中教育會考數學科第14題官方試卷頁面",
+    "options": [
+      "a + b + c",
+      "a + b − c",
+      "a − b + c",
+      "a − b − c"
+    ],
+    "answer": 2,
+    "explanation": "依題目所給條件計算或判斷，結果對應 C「a − b + c」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「已知 a = − ， b = ， c = − ， 判斷下列各式之值何者最大？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 C「a − b + c」。",
+      "將 C「a − b + c」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 110,
+      "questionNumber": 14,
+      "url": "https://cap.rcpet.edu.tw/exam/110/110exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1sKc4iLzr8WlbbxMA83Y0NNryYv9rqHiG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/110-math-p6.webp"
+    ]
+  },
+  {
+    "id": "OFF-0104",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "110年數學第15題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "已知 ∆ ABC 與 ∆ DEF 全等 ， A、B 、 C 的對應點分別 A 為 D、 E 、 F ， 且 E 點在 AC 上 ， B 、 F 、 C 、 D 四點 共線，如圖 ( 五 ) 所示。若 ∠ A = 40° ， ∠ CED = 35° ， 則 E 下列敘述何者正確？",
+    "questionImage": "./assets/official-exams/110-math-p6.webp",
+    "imageAlt": "110年國中教育會考數學科第15題官方試卷頁面",
+    "options": [
+      "EF = EC，AE = FC",
+      "EF = EC，AE ≠ FC",
+      "EF ≠ EC，AE = FC",
+      "EF ≠ EC，AE ≠ FC"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「EF = EC，AE ≠ FC」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「已知 ∆ ABC 與 ∆ DEF 全等 ， A、B 、 C 的對應點分別 A 為 D、 E 、 F ， 且 E 點在 AC 上 ， B 、 F 、 C 、 D 四點 共線，如圖 ( 五 ) 所示。若 ∠ A = 40° ， ∠ CED = 35° ， 則 E 下列敘述何者正確？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「EF = EC，AE ≠ FC」。",
+      "將 B「EF = EC，AE ≠ FC」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 110,
+      "questionNumber": 15,
+      "url": "https://cap.rcpet.edu.tw/exam/110/110exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1sKc4iLzr8WlbbxMA83Y0NNryYv9rqHiG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/110-math-p6.webp"
+    ]
+  },
+  {
+    "id": "OFF-0105",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "110年數學第16題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "圖 ( 六 ) 為某超商促銷活動的內容，今阿賢到該超商拿相差 4 元的 2 種飯糰 各 1 個結帳時，店員說：「要不要多買 2 瓶指定飲料？搭配促銷活動後 2 組 優惠價的金額，只比你買 2 個飯糰的金額多 30 元。」若阿賢只多買 1 瓶指定 飲料，且店員會以對消費者最便宜的方式結帳，則與原本只買 2 個飯糰相比， 他要多付多少元？",
+    "questionImage": "./assets/official-exams/110-math-p6.webp",
+    "imageAlt": "110年國中教育會考數學科第16題官方試卷頁面",
+    "options": [
+      "12 +",
+      "13",
+      "15",
+      "16"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「13」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「圖 ( 六 ) 為某超商促銷活動的內容，今阿賢到該超商拿相差 4 元的 2 種飯糰 各 1 個結帳時，店員說：「要不要多買 2 瓶指定飲料？搭配促銷活動後 2 組 優惠價的金額，只比你買 2 個飯糰的金額多 30 元。」若阿賢只多買 1 瓶指定 飲料，且店員會以對消費者最便宜的方式結帳，則與原本只買」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「13」。",
+      "將 B「13」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 110,
+      "questionNumber": 16,
+      "url": "https://cap.rcpet.edu.tw/exam/110/110exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1sKc4iLzr8WlbbxMA83Y0NNryYv9rqHiG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/110-math-p6.webp"
+    ]
+  },
+  {
+    "id": "OFF-0106",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "110年數學第17題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "如圖 ( 七 )，梯形 ABCD 中， AD // BC ，有一圓 O A D 通過 A 、 B 、 C 三點，且 AD 與圓 O 相切於 A 點。 若 ∠ B = 58°，則 BC 的度數為何？ O",
+    "questionImage": "./assets/official-exams/110-math-p7.webp",
+    "imageAlt": "110年國中教育會考數學科第17題官方試卷頁面",
+    "options": [
+      "116",
+      "120",
+      "122",
+      "128"
+    ],
+    "answer": 3,
+    "explanation": "依題目所給條件計算或判斷，結果對應 D「128」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「如圖 ( 七 )，梯形 ABCD 中， AD // BC ，有一圓 O A D 通過 A 、 B 、 C 三點，且 AD 與圓 O 相切於 A 點。 若 ∠ B = 58°，則 BC 的度數為何？ O」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 D「128」。",
+      "將 D「128」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 110,
+      "questionNumber": 17,
+      "url": "https://cap.rcpet.edu.tw/exam/110/110exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1sKc4iLzr8WlbbxMA83Y0NNryYv9rqHiG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/110-math-p7.webp"
+    ]
+  },
+  {
+    "id": "OFF-0107",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "110年數學第18題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "若坐標平面上二次函數 y = a(x+b)2 +c 的圖形， 經過平移後可與 y = (x+3)2 的圖形完全疊合，則 a、 b、 c 的值可能為下列哪一組？",
+    "questionImage": "./assets/official-exams/110-math-p7.webp",
+    "imageAlt": "110年國中教育會考數學科第18題官方試卷頁面",
+    "options": [
+      "a = 1，b = 0，c = −2",
+      "a = 2，b = 6，c = 0",
+      "a = −1，b = −3，c = 0",
+      "a = −2，b = 3，c = −2"
+    ],
+    "answer": 0,
+    "explanation": "依題目所給條件計算或判斷，結果對應 A「a = 1，b = 0，c = −2」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「若坐標平面上二次函數 y = a(x+b)2 +c 的圖形， 經過平移後可與 y = (x+3)2 的圖形完全疊合，則 a、 b、 c 的值可能為下列哪一組？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 A「a = 1，b = 0，c = −2」。",
+      "將 A「a = 1，b = 0，c = −2」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 110,
+      "questionNumber": 18,
+      "url": "https://cap.rcpet.edu.tw/exam/110/110exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1sKc4iLzr8WlbbxMA83Y0NNryYv9rqHiG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/110-math-p7.webp"
+    ]
+  },
+  {
+    "id": "OFF-0108",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "110年數學第19題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "如圖 ( 八 )， ∆ ABC 中， D 、 E 、 F 三點分別在 AB、BC、 AC 上，且 四邊形 BEFD 是以 DE 為對稱軸的線對稱圖形，四邊形 CFDE 是以 FE 為對稱軸的線對稱圖形。若 ∠ C = 40°，則 ∠ DFE 的度數為何？",
+    "questionImage": "./assets/official-exams/110-math-p7.webp",
+    "imageAlt": "110年國中教育會考數學科第19題官方試卷頁面",
+    "options": [
+      "65",
+      "70 C",
+      "75 D",
+      "80"
+    ],
+    "answer": 3,
+    "explanation": "依題目所給條件計算或判斷，結果對應 D「80」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「如圖 ( 八 )， ∆ ABC 中， D 、 E 、 F 三點分別在 AB、BC、 AC 上，且 四邊形 BEFD 是以 DE 為對稱軸的線對稱圖形，四邊形 CFDE 是以 FE 為對稱軸的線對稱圖形。若 ∠ C = 40°，則 ∠ DFE 的度數為何？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 D「80」。",
+      "將 D「80」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 110,
+      "questionNumber": 19,
+      "url": "https://cap.rcpet.edu.tw/exam/110/110exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1sKc4iLzr8WlbbxMA83Y0NNryYv9rqHiG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/110-math-p7.webp"
+    ]
+  },
+  {
+    "id": "OFF-0109",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "110年數學第20題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "已知捷立租車行有甲、乙兩個營業據點，顧客租車後當日須於營業結束前在 任意一個據點還車。某日營業結束清點車輛時，發現在甲歸還的自行車比 從甲出租的多 4 輛。若當日從甲出租且在甲歸還的自行車為 15 輛，從乙出租 且在乙歸還的自行車為 13 輛，則關於當日從甲、乙出租的自行車數量，下列 比較何者正確？",
+    "questionImage": "./assets/official-exams/110-math-p8.webp",
+    "imageAlt": "110年國中教育會考數學科第20題官方試卷頁面",
+    "options": [
+      "從甲出租的比從乙出租的多 2 輛",
+      "從甲出租的比從乙出租的少 2 輛",
+      "從甲出租的比從乙出租的多 6 輛",
+      "從甲出租的比從乙出租的少 6 輛"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「從甲出租的比從乙出租的少 2 輛」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「已知捷立租車行有甲、乙兩個營業據點，顧客租車後當日須於營業結束前在 任意一個據點還車。某日營業結束清點車輛時，發現在甲歸還的自行車比 從甲出租的多 4 輛。若當日從甲出租且在甲歸還的自行車為 15 輛，從乙出租 且在乙歸還的自行車為 13 輛，則關於當日從甲、乙出租的自行車數量，下列 比較何者正確？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「從甲出租的比從乙出租的少 2 輛」。",
+      "將 B「從甲出租的比從乙出租的少 2 輛」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 110,
+      "questionNumber": 20,
+      "url": "https://cap.rcpet.edu.tw/exam/110/110exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1sKc4iLzr8WlbbxMA83Y0NNryYv9rqHiG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/110-math-p8.webp"
+    ]
+  },
+  {
+    "id": "OFF-0110",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "110年數學第21題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "如圖(九) ， 四邊形 ABCD中 ， ∠1 、 ∠2 、 ∠3 分別為 ∠A 、 ∠B 、 ∠C 的外角。 判斷下列大小關係何者正確？ A",
+    "questionImage": "./assets/official-exams/110-math-p8.webp",
+    "imageAlt": "110年國中教育會考數學科第21題官方試卷頁面",
+    "options": [
+      "∠1 + ∠3 = ∠ ABC + ∠",
+      "∠1 + ∠3 < ∠ ABC + ∠ D",
+      "∠1 + ∠2 + ∠3 = 360° 2 3",
+      "∠1 + ∠2 + ∠3 > 360°"
+    ],
+    "answer": 0,
+    "explanation": "依題目所給條件計算或判斷，結果對應 A「∠1 + ∠3 = ∠ ABC + ∠」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「如圖(九) ， 四邊形 ABCD中 ， ∠1 、 ∠2 、 ∠3 分別為 ∠A 、 ∠B 、 ∠C 的外角。 判斷下列大小關係何者正確？ A」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 A「∠1 + ∠3 = ∠ ABC + ∠」。",
+      "將 A「∠1 + ∠3 = ∠ ABC + ∠」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 110,
+      "questionNumber": 21,
+      "url": "https://cap.rcpet.edu.tw/exam/110/110exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1sKc4iLzr8WlbbxMA83Y0NNryYv9rqHiG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/110-math-p8.webp"
+    ]
+  },
+  {
+    "id": "OFF-0111",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "110年數學第22題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "若 a 、 b 為正整數，且 a × b = 25 × 32 × 5，則下列何者不可能為 a 、 b 的最大 公因數？",
+    "questionImage": "./assets/official-exams/110-math-p8.webp",
+    "imageAlt": "110年國中教育會考數學科第22題官方試卷頁面",
+    "options": [
+      "1",
+      "6",
+      "8",
+      "12 7"
+    ],
+    "answer": 2,
+    "explanation": "依題目所給條件計算或判斷，結果對應 C「8」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「若 a 、 b 為正整數，且 a × b = 25 × 32 × 5，則下列何者不可能為 a 、 b 的最大 公因數？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 C「8」。",
+      "將 C「8」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 110,
+      "questionNumber": 22,
+      "url": "https://cap.rcpet.edu.tw/exam/110/110exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1sKc4iLzr8WlbbxMA83Y0NNryYv9rqHiG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/110-math-p8.webp"
+    ]
+  },
+  {
+    "id": "OFF-0112",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "110年數學第23題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "如圖 ( 十 )，菱形 ABCD 中， E 點在 BC 上， F 點在 CD A 上， G 點、 H 點在 AD 上，且 AE // HC // GF 。若 H AH = 8， HG = 5， GD = 4，則下列選項中的線段，何者 G 的長度最長？",
+    "questionImage": "./assets/official-exams/110-math-p9.webp",
+    "imageAlt": "110年國中教育會考數學科第23題官方試卷頁面",
+    "options": [
+      "CF",
+      "FD",
+      "BE C",
+      "EC"
+    ],
+    "answer": 0,
+    "explanation": "依題目所給條件計算或判斷，結果對應 A「CF」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「如圖 ( 十 )，菱形 ABCD 中， E 點在 BC 上， F 點在 CD A 上， G 點、 H 點在 AD 上，且 AE // HC // GF 。若 H AH = 8， HG = 5， GD = 4，則下列選項中的線段，何者 G 的長度最長？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 A「CF」。",
+      "將 A「CF」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 110,
+      "questionNumber": 23,
+      "url": "https://cap.rcpet.edu.tw/exam/110/110exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1sKc4iLzr8WlbbxMA83Y0NNryYv9rqHiG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/110-math-p9.webp"
+    ]
+  },
+  {
+    "id": "OFF-0113",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "110年數學第24題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "小文原本計畫使用甲、乙兩臺影印機於 10：00 開始一起印製文件並持續到 下午，但 10：00 時有人正在使用乙，於是他先使用甲印製，於 10：05 才開始 使用乙一起印製，且到 10：15 時乙印製的總張數與甲相同，到 10：45 時甲、乙 印製的總張數合計為 2100 張。若甲、乙的印製張數與印製時間皆成正比， 則依照小文原本的計畫，甲、乙印製的總張數會在哪個時間達到 2100 張？",
+    "questionImage": "./assets/official-exams/110-math-p9.webp",
+    "imageAlt": "110年國中教育會考數學科第24題官方試卷頁面",
+    "options": [
+      "10：40",
+      "10：41",
+      "10：42",
+      "10：43"
+    ],
+    "answer": 2,
+    "explanation": "依題目所給條件計算或判斷，結果對應 C「10：42」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「小文原本計畫使用甲、乙兩臺影印機於 10：00 開始一起印製文件並持續到 下午，但 10：00 時有人正在使用乙，於是他先使用甲印製，於 10：05 才開始 使用乙一起印製，且到 10：15 時乙印製的總張數與甲相同，到 10：45 時甲、乙 印製的總張數合計為 2100 張。若甲、乙的印製張數與印」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 C「10：42」。",
+      "將 C「10：42」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 110,
+      "questionNumber": 24,
+      "url": "https://cap.rcpet.edu.tw/exam/110/110exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1sKc4iLzr8WlbbxMA83Y0NNryYv9rqHiG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/110-math-p9.webp"
+    ]
+  },
+  {
+    "id": "OFF-0114",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "110年數學第25題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "如圖 ( 十一 )， 銳角三角形 ABC 中， D 點在 BC 上， ∠ B = ∠ BAD = ∠ CAD。 今欲在 AD 上找一點 P，使得 ∠ APC = ∠ ADB，以下是甲、乙兩人的作法： ( 甲 ) 作 AC 的中垂線交 AD 於 P 點，則 P 即為所求 ( 乙 ) 以 C 為圓心， CD 長為半徑畫弧，交 AD 於異於 D 點 的一點 P，則 P 即為所求 A 對於甲、乙兩人的作法，下列判斷何者正確？",
+    "questionImage": "./assets/official-exams/110-math-p10.webp",
+    "imageAlt": "110年國中教育會考數學科第25題官方試卷頁面",
+    "options": [
+      "兩人皆正確",
+      "兩人皆錯誤",
+      "甲正確，乙錯誤",
+      "甲錯誤，乙正確"
+    ],
+    "answer": 0,
+    "explanation": "依題目所給條件計算或判斷，結果對應 A「兩人皆正確」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「如圖 ( 十一 )， 銳角三角形 ABC 中， D 點在 BC 上， ∠ B = ∠ BAD = ∠ CAD。 今欲在 AD 上找一點 P，使得 ∠ APC = ∠ ADB，以下是甲、乙兩人的作法： ( 甲 ) 作 AC 的中垂線交 AD 於 P 點，則 P 即為所求 ( 乙 ) 以 C 為圓心， 」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 A「兩人皆正確」。",
+      "將 A「兩人皆正確」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 110,
+      "questionNumber": 25,
+      "url": "https://cap.rcpet.edu.tw/exam/110/110exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1sKc4iLzr8WlbbxMA83Y0NNryYv9rqHiG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/110-math-p10.webp"
+    ]
+  },
+  {
+    "id": "OFF-0115",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "110年數學第26題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "如圖 ( 十二 )， I 為 ∆ ABC 的內心，有一直線通過 I 點且分別與 AB、AC 相交 於 D 點 、 E 點。若 AD = DE = 5， AE = 6，則 I 點到 BC 的距離為何？",
+    "questionImage": "./assets/official-exams/110-math-p10.webp",
+    "imageAlt": "110年國中教育會考數學科第26題官方試卷頁面",
+    "options": [
+      "A 11 30",
+      "11",
+      "2",
+      "3"
+    ],
+    "answer": 0,
+    "explanation": "依題目所給條件計算或判斷，結果對應 A「A 11 30」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「如圖 ( 十二 )， I 為 ∆ ABC 的內心，有一直線通過 I 點且分別與 AB、AC 相交 於 D 點 、 E 點。若 AD = DE = 5， AE = 6，則 I 點到 BC 的距離為何？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 A「A 11 30」。",
+      "將 A「A 11 30」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 110,
+      "questionNumber": 26,
+      "url": "https://cap.rcpet.edu.tw/exam/110/110exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1sKc4iLzr8WlbbxMA83Y0NNryYv9rqHiG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/110-math-p10.webp"
+    ]
+  },
+  {
+    "id": "OFF-0318",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "111年數學第1題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "健康生技公司培養綠藻以製作「綠藻粉」，再經過後續的加工步驟，製成綠藻相 關的保健食品。已知該公司製作每 1 公克的「綠藻粉」需要 60 億個綠藻細胞。 請根據上述資訊回答下列問題，完整寫出你的解題過程並詳細解釋： (1) 假設在光照充沛的環境下，1 個綠藻細胞每 20 小時可分裂成 4 個綠藻細 胞，且分裂後的細胞亦可繼續分裂。今從 1 個綠藻細胞開始培養，若培養 期間綠藻細胞皆未死亡且培養環境的光照充沛，經過 15 天後，共分裂成 4k 個綠藻細胞，則 k 之值為何？ (2) 承 (1)，已知 60 億介於 232 與 233 之間，請判斷 4k 個綠藻細胞是否足夠製 作 8 公克的「綠藻粉」？",
+    "questionImage": "./assets/official-exams/111-math-p11.webp",
+    "imageAlt": "111年國中教育會考數學科第1題官方試卷頁面",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "explanation": "本題為官方非選擇題，需依題圖完成各小題並呈現計算過程；現有選項與答案索引僅為前台格式占位，不宜當作標準答案。",
+    "solutionSteps": [
+      "先依題圖與題幹整理已知條件：「健康生技公司培養綠藻以製作「綠藻粉」，再經過後續的加工步驟，製成綠藻相 關的保健食品。已知該公司製作每 1 公克的「綠藻粉」需要 60 億個綠藻細胞。 請根據上述資訊回答下列問題，完整寫出你的解題過程並詳細解釋： (1) 假設在光照充沛的環境下，1 個綠藻細胞每 20 小時可分裂成 4 個綠藻細 胞」。本題原為非選擇題，須分別完成各小題。",
+      "逐小題列式、計算並保留必要單位或範圍；現有 A～D 選項與 answer 欄位是前台格式占位，不代表原官方答案。",
+      "完成後把各小題結果代回題目條件驗算；正式發布前應改用可輸入作答過程的題型。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 111,
+      "questionNumber": 1,
+      "url": "https://cap.rcpet.edu.tw/exam/111/111exam.html",
+      "paperUrl": "https://drive.google.com/file/d/15GDoX37pXdUsluIw79o2bkhgfiL1HxCG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/111-math-p11.webp"
+    ]
+  },
+  {
+    "id": "OFF-0319",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "111年數學第2題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "一副完整的撲克牌有 4 種花色，且每種花色皆有 13 種點數， 分別為 2、 3、 4、5、 6、7、8、9、10、J、Q、K、 A，共 52 張。 某撲克牌遊戲中，玩家可以利用「牌值」來評估尚未發出的牌之點數大小。 「牌值」的計算方式為： 未發牌時先設「牌值」為 0； 若發出的牌點數為 2 至 9 時， 表示發出點數小的牌，則「牌值」加 1；若發出的牌點數為 10、J、Q、K、A 時， 表示發出點數大的牌，則「牌值」減 1。 例如：從一副完整的撲克牌發出了 6 張牌，點數依序為 3、A、8、9、Q、5， 則此時的「牌值」為 0 + 1 − 1 + 1 + 1 − 1 + 1 = 2。 請根據上述資訊回答下列問題，完整寫出你的解題過程並詳細解釋： (1) 若一副完整的撲克牌發出了 11 張點數小的牌及 4 張點數大的牌，則此時 的「牌值」為何？ (2) 已知一副完整的撲克牌已發出 28 張牌，且此時的「牌值」為 10。若剩下 的牌中每一張牌被發出的機會皆相等，則下一張發出的牌是點數大的牌的 機率是多少？",
+    "questionImage": "./assets/official-exams/111-math-p12.webp",
+    "imageAlt": "111年國中教育會考數學科第2題官方試卷頁面",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 3,
+    "explanation": "本題為官方非選擇題，需依題圖完成各小題並呈現計算過程；現有選項與答案索引僅為前台格式占位，不宜當作標準答案。",
+    "solutionSteps": [
+      "先依題圖與題幹整理已知條件：「一副完整的撲克牌有 4 種花色，且每種花色皆有 13 種點數， 分別為 2、 3、 4、5、 6、7、8、9、10、J、Q、K、 A，共 52 張。 某撲克牌遊戲中，玩家可以利用「牌值」來評估尚未發出的牌之點數大小。 「牌值」的計算方式為： 未發牌時先設「牌值」為 0； 若發出的牌點數為 2 至 9」。本題原為非選擇題，須分別完成各小題。",
+      "逐小題列式、計算並保留必要單位或範圍；現有 A～D 選項與 answer 欄位是前台格式占位，不代表原官方答案。",
+      "完成後把各小題結果代回題目條件驗算；正式發布前應改用可輸入作答過程的題型。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 111,
+      "questionNumber": 2,
+      "url": "https://cap.rcpet.edu.tw/exam/111/111exam.html",
+      "paperUrl": "https://drive.google.com/file/d/15GDoX37pXdUsluIw79o2bkhgfiL1HxCG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/111-math-p12.webp"
+    ]
+  },
+  {
+    "id": "OFF-0320",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "111年數學第3題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "下列何者為 156 的質因數？ (A) 11 (B) 12 (C) 13 (D)",
+    "questionImage": "./assets/official-exams/111-math-p2.webp",
+    "imageAlt": "111年國中教育會考數學科第3題官方試卷頁面",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 2,
+    "explanation": "正確答案索引為 C；原始 OCR 未保留可靠的選項文字，請以官方題圖中的 C 選項原文及題目條件核對。",
+    "solutionSteps": [
+      "先讀取官方題圖與題幹條件：「下列何者為 156 的質因數？ (A) 11 (B) 12 (C) 13 (D)」，確認公式、圖形標示、單位與所求量。",
+      "依題目條件完成運算或逐項檢核；正確答案索引為 C，實際選項文字因原始 OCR 未可靠保留，須以題圖中的 C 選項原文為準。",
+      "將題圖中的 C 選項代回原條件，並檢查正負號、單位、範圍及是否符合所有圖表限制。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 111,
+      "questionNumber": 3,
+      "url": "https://cap.rcpet.edu.tw/exam/111/111exam.html",
+      "paperUrl": "https://drive.google.com/file/d/15GDoX37pXdUsluIw79o2bkhgfiL1HxCG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/111-math-p2.webp"
+    ]
+  },
+  {
+    "id": "OFF-0321",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "111年數學第4題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "圖 ( 二 ) 為一個長方體的展開圖，且長方體的底面為 正方形。根據圖中標示的長度，求此長方體的體積 為何？",
+    "questionImage": "./assets/official-exams/111-math-p2.webp",
+    "imageAlt": "111年國中教育會考數學科第4題官方試卷頁面",
+    "options": [
+      "144",
+      "224",
+      "264",
+      "300"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「224」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「圖 ( 二 ) 為一個長方體的展開圖，且長方體的底面為 正方形。根據圖中標示的長度，求此長方體的體積 為何？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「224」。",
+      "將 B「224」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 111,
+      "questionNumber": 4,
+      "url": "https://cap.rcpet.edu.tw/exam/111/111exam.html",
+      "paperUrl": "https://drive.google.com/file/d/15GDoX37pXdUsluIw79o2bkhgfiL1HxCG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/111-math-p2.webp"
+    ]
+  },
+  {
+    "id": "OFF-0322",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "111年數學第5題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "算式 + − ( − ) 之值為何？ 22 18 22 18 4 (A) 11 9 (B) 10 1 (C) 9 5 (D)",
+    "questionImage": "./assets/official-exams/111-math-p3.webp",
+    "imageAlt": "111年國中教育會考數學科第5題官方試卷頁面",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "explanation": "正確答案索引為 A；原始 OCR 未保留可靠的選項文字，請以官方題圖中的 A 選項原文及題目條件核對。",
+    "solutionSteps": [
+      "先讀取官方題圖與題幹條件：「算式 + − ( − ) 之值為何？ 22 18 22 18 4 (A) 11 9 (B) 10 1 (C) 9 5 (D)」，確認公式、圖形標示、單位與所求量。",
+      "依題目條件完成運算或逐項檢核；正確答案索引為 A，實際選項文字因原始 OCR 未可靠保留，須以題圖中的 A 選項原文為準。",
+      "將題圖中的 A 選項代回原條件，並檢查正負號、單位、範圍及是否符合所有圖表限制。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 111,
+      "questionNumber": 5,
+      "url": "https://cap.rcpet.edu.tw/exam/111/111exam.html",
+      "paperUrl": "https://drive.google.com/file/d/15GDoX37pXdUsluIw79o2bkhgfiL1HxCG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/111-math-p3.webp"
+    ]
+  },
+  {
+    "id": "OFF-0323",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "111年數學第6題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "2022 的值介於下列哪兩個數之間？",
+    "questionImage": "./assets/official-exams/111-math-p3.webp",
+    "imageAlt": "111年國中教育會考數學科第6題官方試卷頁面",
+    "options": [
+      "25，30",
+      "30，35",
+      "35，40",
+      "40，45"
+    ],
+    "answer": 3,
+    "explanation": "依題目所給條件計算或判斷，結果對應 D「40，45」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「2022 的值介於下列哪兩個數之間？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 D「40，45」。",
+      "將 D「40，45」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 111,
+      "questionNumber": 6,
+      "url": "https://cap.rcpet.edu.tw/exam/111/111exam.html",
+      "paperUrl": "https://drive.google.com/file/d/15GDoX37pXdUsluIw79o2bkhgfiL1HxCG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/111-math-p3.webp"
+    ]
+  },
+  {
+    "id": "OFF-0324",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "111年數學第7題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "已知坐標平面上有一直線 L 與一點 A。若 L 的方程式為 x = −2，A 點坐標為 (6 , 5 )，則 A 點到直線 L 的距離為何？ (A) 3 (B) 4 (C) 7 (D)",
+    "questionImage": "./assets/official-exams/111-math-p3.webp",
+    "imageAlt": "111年國中教育會考數學科第7題官方試卷頁面",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 3,
+    "explanation": "正確答案索引為 D；原始 OCR 未保留可靠的選項文字，請以官方題圖中的 D 選項原文及題目條件核對。",
+    "solutionSteps": [
+      "先讀取官方題圖與題幹條件：「已知坐標平面上有一直線 L 與一點 A。若 L 的方程式為 x = −2，A 點坐標為 (6 , 5 )，則 A 點到直線 L 的距離為何？ (A) 3 (B) 4 (C) 7 (D)」，確認公式、圖形標示、單位與所求量。",
+      "依題目條件完成運算或逐項檢核；正確答案索引為 D，實際選項文字因原始 OCR 未可靠保留，須以題圖中的 D 選項原文為準。",
+      "將題圖中的 D 選項代回原條件，並檢查正負號、單位、範圍及是否符合所有圖表限制。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 111,
+      "questionNumber": 7,
+      "url": "https://cap.rcpet.edu.tw/exam/111/111exam.html",
+      "paperUrl": "https://drive.google.com/file/d/15GDoX37pXdUsluIw79o2bkhgfiL1HxCG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/111-math-p3.webp"
+    ]
+  },
+  {
+    "id": "OFF-0325",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "111年數學第8題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "多項式 39x2 + 5x −14 可因式分解成 ( 3x + a )( bx + c )，其中 a、b、c 均為 整數，求 a + 2c 之值為何？",
+    "questionImage": "./assets/official-exams/111-math-p3.webp",
+    "imageAlt": "111年國中教育會考數學科第8題官方試卷頁面",
+    "options": [
+      "−12",
+      "−3",
+      "3",
+      "12"
+    ],
+    "answer": 0,
+    "explanation": "依題目所給條件計算或判斷，結果對應 A「−12」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「多項式 39x2 + 5x −14 可因式分解成 ( 3x + a )( bx + c )，其中 a、b、c 均為 整數，求 a + 2c 之值為何？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 A「−12」。",
+      "將 A「−12」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 111,
+      "questionNumber": 8,
+      "url": "https://cap.rcpet.edu.tw/exam/111/111exam.html",
+      "paperUrl": "https://drive.google.com/file/d/15GDoX37pXdUsluIw79o2bkhgfiL1HxCG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/111-math-p3.webp"
+    ]
+  },
+  {
+    "id": "OFF-0326",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "111年數學第9題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "箱子內有分別標示號碼 1 ~ 6 的球，每個號碼各 2 顆，總共 12 顆。已知小茹先 從箱內抽出 5 顆球且不將球放回箱內，這 5 顆球的號碼分別是 1、 2、2、3、5。 今阿純打算從此箱內剩下的球中抽出 1 顆球，若箱內剩下的每顆球被他抽出 的機會相等，則他抽出的球的號碼，與小茹已抽出的 5 顆球中任意一顆球 的號碼相同的機率是多少？ 3 (A) 6 4 (B) 6 3 (C) 7 4 (D)",
+    "questionImage": "./assets/official-exams/111-math-p4.webp",
+    "imageAlt": "111年國中教育會考數學科第9題官方試卷頁面",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 2,
+    "explanation": "正確答案索引為 C；原始 OCR 未保留可靠的選項文字，請以官方題圖中的 C 選項原文及題目條件核對。",
+    "solutionSteps": [
+      "先讀取官方題圖與題幹條件：「箱子內有分別標示號碼 1 ~ 6 的球，每個號碼各 2 顆，總共 12 顆。已知小茹先 從箱內抽出 5 顆球且不將球放回箱內，這 5 顆球的號碼分別是 1、 2、2、3、5。 今阿純打算從此箱內剩下的球中抽出 1 顆球，若箱內剩下的每顆球被他抽出 的機會相等，則他抽出的球的號碼，與小茹已抽出的 5 」，確認公式、圖形標示、單位與所求量。",
+      "依題目條件完成運算或逐項檢核；正確答案索引為 C，實際選項文字因原始 OCR 未可靠保留，須以題圖中的 C 選項原文為準。",
+      "將題圖中的 C 選項代回原條件，並檢查正負號、單位、範圍及是否符合所有圖表限制。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 111,
+      "questionNumber": 9,
+      "url": "https://cap.rcpet.edu.tw/exam/111/111exam.html",
+      "paperUrl": "https://drive.google.com/file/d/15GDoX37pXdUsluIw79o2bkhgfiL1HxCG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/111-math-p4.webp"
+    ]
+  },
+  {
+    "id": "OFF-0327",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "111年數學第10題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "已知一元二次方程式 ( x − 2 )2 = 3 的兩根為 a、b，且 a > b，求 2a + b 之值 為何？",
+    "questionImage": "./assets/official-exams/111-math-p4.webp",
+    "imageAlt": "111年國中教育會考數學科第10題官方試卷頁面",
+    "options": [
+      "9",
+      "−3",
+      "6 + 3",
+      "−6 +"
+    ],
+    "answer": 2,
+    "explanation": "依題目所給條件計算或判斷，結果對應 C「6 + 3」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「已知一元二次方程式 ( x − 2 )2 = 3 的兩根為 a、b，且 a > b，求 2a + b 之值 為何？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 C「6 + 3」。",
+      "將 C「6 + 3」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 111,
+      "questionNumber": 10,
+      "url": "https://cap.rcpet.edu.tw/exam/111/111exam.html",
+      "paperUrl": "https://drive.google.com/file/d/15GDoX37pXdUsluIw79o2bkhgfiL1HxCG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/111-math-p4.webp"
+    ]
+  },
+  {
+    "id": "OFF-0328",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "111年數學第11題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "根據圖 ( 三 ) 中兩人的對話紀錄，求 出哥哥買遊戲機的預算為多少元？",
+    "questionImage": "./assets/official-exams/111-math-p4.webp",
+    "imageAlt": "111年國中教育會考數學科第11題官方試卷頁面",
+    "options": [
+      "3800",
+      "4800",
+      "5800",
+      "6800"
+    ],
+    "answer": 2,
+    "explanation": "依題目所給條件計算或判斷，結果對應 C「5800」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「根據圖 ( 三 ) 中兩人的對話紀錄，求 出哥哥買遊戲機的預算為多少元？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 C「5800」。",
+      "將 C「5800」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 111,
+      "questionNumber": 11,
+      "url": "https://cap.rcpet.edu.tw/exam/111/111exam.html",
+      "paperUrl": "https://drive.google.com/file/d/15GDoX37pXdUsluIw79o2bkhgfiL1HxCG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/111-math-p4.webp"
+    ]
+  },
+  {
+    "id": "OFF-0329",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "111年數學第12題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "已知 p = 7.52 × 10 − 6，下列關於 p 值的敘述何者正確？",
+    "questionImage": "./assets/official-exams/111-math-p5.webp",
+    "imageAlt": "111年國中教育會考數學科第12題官方試卷頁面",
+    "options": [
+      "小於 0",
+      "介於 0 與 1 兩數之間，兩數中比較接近 0",
+      "介於 0 與 1 兩數之間，兩數中比較接近 1",
+      "大於"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「介於 0 與 1 兩數之間，兩數中比較接近 0」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「已知 p = 7.52 × 10 − 6，下列關於 p 值的敘述何者正確？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「介於 0 與 1 兩數之間，兩數中比較接近 0」。",
+      "將 B「介於 0 與 1 兩數之間，兩數中比較接近 0」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 111,
+      "questionNumber": 12,
+      "url": "https://cap.rcpet.edu.tw/exam/111/111exam.html",
+      "paperUrl": "https://drive.google.com/file/d/15GDoX37pXdUsluIw79o2bkhgfiL1HxCG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/111-math-p5.webp"
+    ]
+  },
+  {
+    "id": "OFF-0330",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "111年數學第13題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "如圖 ( 四 )，AB 為圓 O 的一弦，且 C 點在 AB 上。若 AC = 6， BC = 2，AB 的弦心距為 3，則 OC 的長度為何？",
+    "questionImage": "./assets/official-exams/111-math-p5.webp",
+    "imageAlt": "111年國中教育會考數學科第13題官方試卷頁面",
+    "options": [
+      "3",
+      "4",
+      "11",
+      "13"
+    ],
+    "answer": 3,
+    "explanation": "依題目所給條件計算或判斷，結果對應 D「13」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「如圖 ( 四 )，AB 為圓 O 的一弦，且 C 點在 AB 上。若 AC = 6， BC = 2，AB 的弦心距為 3，則 OC 的長度為何？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 D「13」。",
+      "將 D「13」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 111,
+      "questionNumber": 13,
+      "url": "https://cap.rcpet.edu.tw/exam/111/111exam.html",
+      "paperUrl": "https://drive.google.com/file/d/15GDoX37pXdUsluIw79o2bkhgfiL1HxCG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/111-math-p5.webp"
+    ]
+  },
+  {
+    "id": "OFF-0331",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "111年數學第14題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "某國主計處調查 2017 年該國所有受僱員工的年薪資料，並公布調查結果如 圖 ( 五 ) 的直方圖所示。 2017 120 100 100 60 80 80 80 80 65 60 45 40 40 40 30 25 20 18 20 5 5 10 16 14 12 10 9 8 8 7 6 0 12 0 24 36 48 60 72 84 96 108 120 132 144 圖 ( 五 ) 已知總調查人數為 750 萬人，根據圖中資訊計算，該國受僱員工年薪低於平均數 的人數占總調查人數的百分率為下列何者？",
+    "questionImage": "./assets/official-exams/111-math-p5.webp",
+    "imageAlt": "111年國中教育會考數學科第14題官方試卷頁面",
+    "options": [
+      "6%",
+      "50%",
+      "68%",
+      "73% 4 ( ) ( ) 144"
+    ],
+    "answer": 2,
+    "explanation": "依題目所給條件計算或判斷，結果對應 C「68%」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「某國主計處調查 2017 年該國所有受僱員工的年薪資料，並公布調查結果如 圖 ( 五 ) 的直方圖所示。 2017 120 100 100 60 80 80 80 80 65 60 45 40 40 40 30 25 20 18 20 5 5 10 16 14 12 10 9 8 8 7 6 0 1」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 C「68%」。",
+      "將 C「68%」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 111,
+      "questionNumber": 14,
+      "url": "https://cap.rcpet.edu.tw/exam/111/111exam.html",
+      "paperUrl": "https://drive.google.com/file/d/15GDoX37pXdUsluIw79o2bkhgfiL1HxCG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/111-math-p5.webp"
+    ]
+  },
+  {
+    "id": "OFF-0332",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "111年數學第15題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "如圖 ( 六 )，∆ABC 中，D 點在 AB 上，E 點在 BC 上，DE 為 AB 的中垂線。若 ∠B = ∠C，且 ∠EAC > 90°，則根據圖中標示的角， 判斷下列敘述何者正確？",
+    "questionImage": "./assets/official-exams/111-math-p6.webp",
+    "imageAlt": "111年國中教育會考數學科第15題官方試卷頁面",
+    "options": [
+      "∠1 = ∠2，∠1 < ∠3",
+      "∠1 = ∠2，∠1 > ∠3",
+      "∠1 ≠ ∠2，∠1 < ∠3",
+      "∠1 ≠ ∠2，∠1 > ∠3"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「∠1 = ∠2，∠1 > ∠3」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「如圖 ( 六 )，∆ABC 中，D 點在 AB 上，E 點在 BC 上，DE 為 AB 的中垂線。若 ∠B = ∠C，且 ∠EAC > 90°，則根據圖中標示的角， 判斷下列敘述何者正確？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「∠1 = ∠2，∠1 > ∠3」。",
+      "將 B「∠1 = ∠2，∠1 > ∠3」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 111,
+      "questionNumber": 15,
+      "url": "https://cap.rcpet.edu.tw/exam/111/111exam.html",
+      "paperUrl": "https://drive.google.com/file/d/15GDoX37pXdUsluIw79o2bkhgfiL1HxCG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/111-math-p6.webp"
+    ]
+  },
+  {
+    "id": "OFF-0333",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "111年數學第16題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "緩降機是火災發生時避難的逃生設備， ( ) 0.4 圖 ( 七 ) 是廠商提供的緩降機安裝示意 圖，圖中呈現在三樓安裝緩降機時，使 1.6 用此緩降機直接緩降到一樓地面的所需 繩長 ( 不計安全帶 )。若某棟建築的每個 樓層高度皆為 3 公尺，則根據圖 ( 七 ) 的 安 裝 方 式 在 該 建 築 八 樓 安 裝 緩 降 機 時，使用此緩降機直接緩降到一樓地面 的所需繩長 ( 不計安全帶 ) 為多少公尺？",
+    "questionImage": "./assets/official-exams/111-math-p6.webp",
+    "imageAlt": "111年國中教育會考數學科第16題官方試卷頁面",
+    "options": [
+      "21.7",
+      "22.6",
+      "24.7",
+      "25.6 0.5"
+    ],
+    "answer": 0,
+    "explanation": "依題目所給條件計算或判斷，結果對應 A「21.7」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「緩降機是火災發生時避難的逃生設備， ( ) 0.4 圖 ( 七 ) 是廠商提供的緩降機安裝示意 圖，圖中呈現在三樓安裝緩降機時，使 1.6 用此緩降機直接緩降到一樓地面的所需 繩長 ( 不計安全帶 )。若某棟建築的每個 樓層高度皆為 3 公尺，則根據圖 ( 七 ) 的 安 裝 方 式 在 該 建 築」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 A「21.7」。",
+      "將 A「21.7」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 111,
+      "questionNumber": 16,
+      "url": "https://cap.rcpet.edu.tw/exam/111/111exam.html",
+      "paperUrl": "https://drive.google.com/file/d/15GDoX37pXdUsluIw79o2bkhgfiL1HxCG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/111-math-p6.webp"
+    ]
+  },
+  {
+    "id": "OFF-0334",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "111年數學第17題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "圖 ( 八 ) 為兩直線 L、M 與 ∆ABC 相交的情形，其中 L、M 分別與 BC、AB 平行。根據圖中標示的角度， 求 ∠B 的度數為何？",
+    "questionImage": "./assets/official-exams/111-math-p7.webp",
+    "imageAlt": "111年國中教育會考數學科第17題官方試卷頁面",
+    "options": [
+      "55",
+      "60",
+      "65",
+      "70"
+    ],
+    "answer": 0,
+    "explanation": "依題目所給條件計算或判斷，結果對應 A「55」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「圖 ( 八 ) 為兩直線 L、M 與 ∆ABC 相交的情形，其中 L、M 分別與 BC、AB 平行。根據圖中標示的角度， 求 ∠B 的度數為何？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 A「55」。",
+      "將 A「55」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 111,
+      "questionNumber": 17,
+      "url": "https://cap.rcpet.edu.tw/exam/111/111exam.html",
+      "paperUrl": "https://drive.google.com/file/d/15GDoX37pXdUsluIw79o2bkhgfiL1HxCG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/111-math-p7.webp"
+    ]
+  },
+  {
+    "id": "OFF-0335",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "111年數學第18題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "某鞋店正舉辦開學特惠活動，圖 ( 九 ) 為活動說明。 圖 ( 九 ) 小徹打算在該店同時購買一雙球鞋及一雙皮鞋，且他有一張所有購買的商品 定價皆打 8 折的折價券。若小徹計算後發現使用折價券與參加特惠活動兩者 的花費相差 50 元，則下列敘述何者正確？",
+    "questionImage": "./assets/official-exams/111-math-p7.webp",
+    "imageAlt": "111年國中教育會考數學科第18題官方試卷頁面",
+    "options": [
+      "使用折價券的花費較少，且兩雙鞋的定價相差 100 元",
+      "使用折價券的花費較少，且兩雙鞋的定價相差 250 元",
+      "參加特惠活動的花費較少，且兩雙鞋的定價相差 100 元",
+      "參加特惠活動的花費較少，且兩雙鞋的定價相差 250 元"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「使用折價券的花費較少，且兩雙鞋的定價相差 250 元」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「某鞋店正舉辦開學特惠活動，圖 ( 九 ) 為活動說明。 圖 ( 九 ) 小徹打算在該店同時購買一雙球鞋及一雙皮鞋，且他有一張所有購買的商品 定價皆打 8 折的折價券。若小徹計算後發現使用折價券與參加特惠活動兩者 的花費相差 50 元，則下列敘述何者正確？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「使用折價券的花費較少，且兩雙鞋的定價相差 250 元」。",
+      "將 B「使用折價券的花費較少，且兩雙鞋的定價相差 250 元」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 111,
+      "questionNumber": 18,
+      "url": "https://cap.rcpet.edu.tw/exam/111/111exam.html",
+      "paperUrl": "https://drive.google.com/file/d/15GDoX37pXdUsluIw79o2bkhgfiL1HxCG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/111-math-p7.webp"
+    ]
+  },
+  {
+    "id": "OFF-0336",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "111年數學第19題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "如 圖 ( 十 )，∆ABC 的 重 心 為 G， BC 的 中點為 D， 今以 G 為圓心， GD 長為半徑 畫一圓，且作 A 點到圓 G 的兩切線段 AE、 AF，其中 E、F 均為切點。根據圖中標示的 角與角度，求 ∠1 與 ∠2 的度數和為多少？ (A) 30 圖 ( 十 ) (B) 35 (C) 40 (D)",
+    "questionImage": "./assets/official-exams/111-math-p8.webp",
+    "imageAlt": "111年國中教育會考數學科第19題官方試卷頁面",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 1,
+    "explanation": "正確答案索引為 B；原始 OCR 未保留可靠的選項文字，請以官方題圖中的 B 選項原文及題目條件核對。",
+    "solutionSteps": [
+      "先讀取官方題圖與題幹條件：「如 圖 ( 十 )，∆ABC 的 重 心 為 G， BC 的 中點為 D， 今以 G 為圓心， GD 長為半徑 畫一圓，且作 A 點到圓 G 的兩切線段 AE、 AF，其中 E、F 均為切點。根據圖中標示的 角與角度，求 ∠1 與 ∠2 的度數和為多少？ (A) 30 圖 ( 十 ) (B) 35 」，確認公式、圖形標示、單位與所求量。",
+      "依題目條件完成運算或逐項檢核；正確答案索引為 B，實際選項文字因原始 OCR 未可靠保留，須以題圖中的 B 選項原文為準。",
+      "將題圖中的 B 選項代回原條件，並檢查正負號、單位、範圍及是否符合所有圖表限制。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 111,
+      "questionNumber": 19,
+      "url": "https://cap.rcpet.edu.tw/exam/111/111exam.html",
+      "paperUrl": "https://drive.google.com/file/d/15GDoX37pXdUsluIw79o2bkhgfiL1HxCG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/111-math-p8.webp"
+    ]
+  },
+  {
+    "id": "OFF-0337",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "111年數學第20題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "圖 ( 十一 ) 為一張正三角形紙片 ABC，其中 D 點在 AB 上，E 點在 BC 上。 今以 DE 為摺線將 B 點往右摺後，BD、BE 分別與 AC 相交於 F 點、G 點， 如圖 ( 十二 ) 所示。若 AD = 10，AF = 16，DF = 14，BF = 8，則 CG 的長度 為多少？",
+    "questionImage": "./assets/official-exams/111-math-p8.webp",
+    "imageAlt": "111年國中教育會考數學科第20題官方試卷頁面",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10 圖 ( 十一 )"
+    ],
+    "answer": 2,
+    "explanation": "依題目所給條件計算或判斷，結果對應 C「9」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「圖 ( 十一 ) 為一張正三角形紙片 ABC，其中 D 點在 AB 上，E 點在 BC 上。 今以 DE 為摺線將 B 點往右摺後，BD、BE 分別與 AC 相交於 F 點、G 點， 如圖 ( 十二 ) 所示。若 AD = 10，AF = 16，DF = 14，BF = 8，則 CG 的長度 為多少」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 C「9」。",
+      "將 C「9」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 111,
+      "questionNumber": 20,
+      "url": "https://cap.rcpet.edu.tw/exam/111/111exam.html",
+      "paperUrl": "https://drive.google.com/file/d/15GDoX37pXdUsluIw79o2bkhgfiL1HxCG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/111-math-p8.webp"
+    ]
+  },
+  {
+    "id": "OFF-0338",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "111年數學第21題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "有一直徑為 AB 的圓，且圓上有 C、D、E、F 四點， 其位置如圖 ( 十三 ) 所示。若 AC = 6， AD = 8， AE = 5，AF = 9，AB = 10，則下列弧長關係何者 正確？",
+    "questionImage": "./assets/official-exams/111-math-p8.webp",
+    "imageAlt": "111年國中教育會考數學科第21題官方試卷頁面",
+    "options": [
+      "AC + AD = AB，AE + AF = AB",
+      "AC + AD = AB，AE + AF ≠ AB",
+      "AC + AD ≠ AB，AE + AF = AB",
+      "AC + AD ≠ AB，AE + AF ≠ AB"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「AC + AD = AB，AE + AF ≠ AB」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「有一直徑為 AB 的圓，且圓上有 C、D、E、F 四點， 其位置如圖 ( 十三 ) 所示。若 AC = 6， AD = 8， AE = 5，AF = 9，AB = 10，則下列弧長關係何者 正確？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「AC + AD = AB，AE + AF ≠ AB」。",
+      "將 B「AC + AD = AB，AE + AF ≠ AB」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 111,
+      "questionNumber": 21,
+      "url": "https://cap.rcpet.edu.tw/exam/111/111exam.html",
+      "paperUrl": "https://drive.google.com/file/d/15GDoX37pXdUsluIw79o2bkhgfiL1HxCG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/111-math-p8.webp"
+    ]
+  },
+  {
+    "id": "OFF-0339",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "111年數學第22題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "已知坐標平面上有二次函數 y = − ( x + 6 )2 + 5 的圖形，函數圖形與 x 軸相交 於 ( a , 0 )、( b , 0 ) 兩點，其中 a < b。今將此函數圖形往上平移，平移後函數 圖形與 x 軸相交於 ( c , 0 )、 ( d , 0 ) 兩點，其中 c < d，判斷下列敘述何者 正確？",
+    "questionImage": "./assets/official-exams/111-math-p9.webp",
+    "imageAlt": "111年國中教育會考數學科第22題官方試卷頁面",
+    "options": [
+      "(a + b) = (c + d)，(b − a) < (d − c)",
+      "(a + b) = (c + d)，(b − a) > (d − c)",
+      "(a + b) < (c + d)，(b − a) < (d − c)",
+      "(a + b) < (c + d)，(b − a) > (d − c)"
+    ],
+    "answer": 0,
+    "explanation": "依題目所給條件計算或判斷，結果對應 A「(a + b) = (c + d)，(b − a) < (d − c)」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「已知坐標平面上有二次函數 y = − ( x + 6 )2 + 5 的圖形，函數圖形與 x 軸相交 於 ( a , 0 )、( b , 0 ) 兩點，其中 a < b。今將此函數圖形往上平移，平移後函數 圖形與 x 軸相交於 ( c , 0 )、 ( d , 0 ) 兩點，其中 c < d，判斷下列」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 A「(a + b) = (c + d)，(b − a) < (d − c)」。",
+      "將 A「(a + b) = (c + d)，(b − a) < (d − c)」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 111,
+      "questionNumber": 22,
+      "url": "https://cap.rcpet.edu.tw/exam/111/111exam.html",
+      "paperUrl": "https://drive.google.com/file/d/15GDoX37pXdUsluIw79o2bkhgfiL1HxCG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/111-math-p9.webp"
+    ]
+  },
+  {
+    "id": "OFF-0340",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "111年數學第23題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "∆ABC 的邊上有 D、E、F 三點，各點位置如圖 ( 十四 ) 所示。若 ∠B = ∠FAC， BD = AC，∠BDE = ∠C， 則 根 據 圖 中 標 示 的 長 度， 求 四 邊 形 ADEF 與 ∆ABC 的面積比為何？",
+    "questionImage": "./assets/official-exams/111-math-p9.webp",
+    "imageAlt": "111年國中教育會考數學科第23題官方試卷頁面",
+    "options": [
+      "1 : 3",
+      "1 : 4",
+      "2 : 5",
+      "3 : 8"
+    ],
+    "answer": 3,
+    "explanation": "依題目所給條件計算或判斷，結果對應 D「3 : 8」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「∆ABC 的邊上有 D、E、F 三點，各點位置如圖 ( 十四 ) 所示。若 ∠B = ∠FAC， BD = AC，∠BDE = ∠C， 則 根 據 圖 中 標 示 的 長 度， 求 四 邊 形 ADEF 與 ∆ABC 的面積比為何？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 D「3 : 8」。",
+      "將 D「3 : 8」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 111,
+      "questionNumber": 23,
+      "url": "https://cap.rcpet.edu.tw/exam/111/111exam.html",
+      "paperUrl": "https://drive.google.com/file/d/15GDoX37pXdUsluIw79o2bkhgfiL1HxCG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/111-math-p9.webp"
+    ]
+  },
+  {
+    "id": "OFF-0341",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "111年數學第24題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "已知日光燈管的發光效率為光通量與功率的比值， 甲、 乙兩人根據表 ( 一 )、 表 ( 二 ) 的資訊提出以下看法： ( 甲 ) PA-20 日光燈管的發光效率比 PB-14 日光燈管高 ( 乙 ) PA 日光燈管中，功率較大的燈管其發光效率較高 關於甲、乙兩人的看法，下列敘述何者正確？",
+    "questionImage": "./assets/official-exams/111-math-p10.webp",
+    "imageAlt": "111年國中教育會考數學科第24題官方試卷頁面",
+    "options": [
+      "甲、乙皆正確",
+      "甲、乙皆錯誤",
+      "甲正確，乙錯誤",
+      "甲錯誤，乙正確"
+    ],
+    "answer": 3,
+    "explanation": "依題目所給條件計算或判斷，結果對應 D「甲錯誤，乙正確」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「已知日光燈管的發光效率為光通量與功率的比值， 甲、 乙兩人根據表 ( 一 )、 表 ( 二 ) 的資訊提出以下看法： ( 甲 ) PA-20 日光燈管的發光效率比 PB-14 日光燈管高 ( 乙 ) PA 日光燈管中，功率較大的燈管其發光效率較高 關於甲、乙兩人的看法，下列敘述何者正確？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 D「甲錯誤，乙正確」。",
+      "將 D「甲錯誤，乙正確」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 111,
+      "questionNumber": 24,
+      "url": "https://cap.rcpet.edu.tw/exam/111/111exam.html",
+      "paperUrl": "https://drive.google.com/file/d/15GDoX37pXdUsluIw79o2bkhgfiL1HxCG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/111-math-p10.webp"
+    ]
+  },
+  {
+    "id": "OFF-0342",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "111年數學第25題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "有一間公司請水電工程廠商安裝日光燈管， 廠商提供兩種方案如表 ( 三 ) 所示。 表 ( 三 ) ( ) 90 PA-40 45000 120 PB-28 60000 n 已知 n 支功率皆為 w 瓦的燈管都使用 t 小時後消耗的電能(度) = × w × t， 1000 若每支燈管使用時間皆相同， 且只考慮燈管消耗的電能並以每度 5 元計算電費， 則兩種方案相比，燈管使用時間至少要超過多少小時，採用省電方案所節省 的電費才會高於兩者相差的施工費用？",
+    "questionImage": "./assets/official-exams/111-math-p10.webp",
+    "imageAlt": "111年國中教育會考數學科第25題官方試卷頁面",
+    "options": [
+      "12200",
+      "12300",
+      "12400",
+      "12500"
+    ],
+    "answer": 3,
+    "explanation": "依題目所給條件計算或判斷，結果對應 D「12500」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「有一間公司請水電工程廠商安裝日光燈管， 廠商提供兩種方案如表 ( 三 ) 所示。 表 ( 三 ) ( ) 90 PA-40 45000 120 PB-28 60000 n 已知 n 支功率皆為 w 瓦的燈管都使用 t 小時後消耗的電能(度) = × w × t， 1000 若每支燈管使用時間皆相同，」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 D「12500」。",
+      "將 D「12500」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 111,
+      "questionNumber": 25,
+      "url": "https://cap.rcpet.edu.tw/exam/111/111exam.html",
+      "paperUrl": "https://drive.google.com/file/d/15GDoX37pXdUsluIw79o2bkhgfiL1HxCG/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/111-math-p10.webp"
+    ]
+  },
+  {
+    "id": "OFF-0532",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "112年數學第1題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "A、B 兩廠牌的疫苗皆進行實驗以計算其疫苗效力。兩廠牌的疫苗實驗人數 皆為 30000 人，各廠牌實驗人數中一半的人施打疫苗，另一半的人施打不具 疫苗成分的安慰劑。經過一段時間後觀察得知，在 A 廠牌的實驗中，施打疫苗 後仍感染的人數為 50 人，施打安慰劑後感染的人數為 500 人。而疫苗效力的 算式如下： 請根據上述資訊回答下列問題，完整寫出你的解題過程並詳細解釋： (1) 根據實驗數據算出 A 廠牌的疫苗效力為多少？ (2) 若 B 廠牌的實驗數據算出的疫苗效力高於 A 廠牌，請詳細說明 B 廠牌的實驗中 施打疫苗後仍感染的人數，是否一定低於 A 廠牌實驗中施打疫苗後仍感染的 人數？",
+    "questionImage": "./assets/official-exams/112-math-p11.webp",
+    "imageAlt": "112年國中教育會考數學科第1題官方試卷頁面",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "explanation": "本題為官方非選擇題，需依題圖完成各小題並呈現計算過程；現有選項與答案索引僅為前台格式占位，不宜當作標準答案。",
+    "solutionSteps": [
+      "先依題圖與題幹整理已知條件：「A、B 兩廠牌的疫苗皆進行實驗以計算其疫苗效力。兩廠牌的疫苗實驗人數 皆為 30000 人，各廠牌實驗人數中一半的人施打疫苗，另一半的人施打不具 疫苗成分的安慰劑。經過一段時間後觀察得知，在 A 廠牌的實驗中，施打疫苗 後仍感染的人數為 50 人，施打安慰劑後感染的人數為 500 人。而疫苗效力的 」。本題原為非選擇題，須分別完成各小題。",
+      "逐小題列式、計算並保留必要單位或範圍；現有 A～D 選項與 answer 欄位是前台格式占位，不代表原官方答案。",
+      "完成後把各小題結果代回題目條件驗算；正式發布前應改用可輸入作答過程的題型。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 112,
+      "questionNumber": 1,
+      "url": "https://cap.rcpet.edu.tw/exam/112/112exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1im3JF0E8d8RC__Z8MW9MQXCuonjPN3f_/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/112-math-p11.webp"
+    ]
+  },
+  {
+    "id": "OFF-0533",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "112年數學第2題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "小儀利用一副撲克牌摺疊出一個環套，如圖 ( 十六 ) 所示。環套的上視圖為 邊長 6 公分的正八邊形，如圖 ( 十七 ) 所示。 圖 ( 十六 ) 圖 ( 十七 ) 請根據上述資訊回答下列問題，完整寫出你的解題過程並詳細解釋： (1) 圖 ( 十七 ) 的正八邊形的一個內角度數為多少？ (2) 已知有一個圓柱形花瓶其底面半徑為 8 公分， 假設不考慮花瓶與環套厚度， 判斷圖 ( 十六 ) 的環套是否能在不變形的前提下， 套在此圓柱形花瓶側面 外圍？ 圖(十八)呈現 45° − 45° − 90° 的三角形與 22.5° − 67.5° − 90° 的三角形，當斜邊為 1 時的兩股近似值，供作答時參考。",
+    "questionImage": "./assets/official-exams/112-math-p12.webp",
+    "imageAlt": "112年國中教育會考數學科第2題官方試卷頁面",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 2,
+    "explanation": "本題為官方非選擇題，需依題圖完成各小題並呈現計算過程；現有選項與答案索引僅為前台格式占位，不宜當作標準答案。",
+    "solutionSteps": [
+      "先依題圖與題幹整理已知條件：「小儀利用一副撲克牌摺疊出一個環套，如圖 ( 十六 ) 所示。環套的上視圖為 邊長 6 公分的正八邊形，如圖 ( 十七 ) 所示。 圖 ( 十六 ) 圖 ( 十七 ) 請根據上述資訊回答下列問題，完整寫出你的解題過程並詳細解釋： (1) 圖 ( 十七 ) 的正八邊形的一個內角度數為多少？ (2) 已知」。本題原為非選擇題，須分別完成各小題。",
+      "逐小題列式、計算並保留必要單位或範圍；現有 A～D 選項與 answer 欄位是前台格式占位，不代表原官方答案。",
+      "完成後把各小題結果代回題目條件驗算；正式發布前應改用可輸入作答過程的題型。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 112,
+      "questionNumber": 2,
+      "url": "https://cap.rcpet.edu.tw/exam/112/112exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1im3JF0E8d8RC__Z8MW9MQXCuonjPN3f_/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/112-math-p12.webp"
+    ]
+  },
+  {
+    "id": "OFF-0534",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "112年數學第3題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "圖 ( 一 ) 的立體圖形由相同大小的正方體積木堆疊 而成。判斷拿走圖 ( 一 ) 的哪一個積木後，此圖形 前視圖的形狀會改變？",
+    "questionImage": "./assets/official-exams/112-math-p2.webp",
+    "imageAlt": "112年國中教育會考數學科第3題官方試卷頁面",
+    "options": [
+      "甲",
+      "乙",
+      "丙",
+      "丁"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「乙」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「圖 ( 一 ) 的立體圖形由相同大小的正方體積木堆疊 而成。判斷拿走圖 ( 一 ) 的哪一個積木後，此圖形 前視圖的形狀會改變？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「乙」。",
+      "將 B「乙」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 112,
+      "questionNumber": 3,
+      "url": "https://cap.rcpet.edu.tw/exam/112/112exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1im3JF0E8d8RC__Z8MW9MQXCuonjPN3f_/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/112-math-p2.webp"
+    ]
+  },
+  {
+    "id": "OFF-0535",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "112年數學第4題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "化簡 135 的結果為下列何者？",
+    "questionImage": "./assets/official-exams/112-math-p2.webp",
+    "imageAlt": "112年國中教育會考數學科第4題官方試卷頁面",
+    "options": [
+      "3 5",
+      "27 5",
+      "3 15",
+      "9 15"
+    ],
+    "answer": 2,
+    "explanation": "依題目所給條件計算或判斷，結果對應 C「3 15」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「化簡 135 的結果為下列何者？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 C「3 15」。",
+      "將 C「3 15」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 112,
+      "questionNumber": 4,
+      "url": "https://cap.rcpet.edu.tw/exam/112/112exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1im3JF0E8d8RC__Z8MW9MQXCuonjPN3f_/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/112-math-p2.webp"
+    ]
+  },
+  {
+    "id": "OFF-0536",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "112年數學第5題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "坐標平面上，一次函數 y = −2x − 6 的圖形通過下列哪一個點？",
+    "questionImage": "./assets/official-exams/112-math-p3.webp",
+    "imageAlt": "112年國中教育會考數學科第5題官方試卷頁面",
+    "options": [
+      "(−4 , 1 )",
+      "(−4 , 2 )",
+      "(−4 , −1)",
+      "(−4 , −2) 3"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「(−4 , 2 )」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「坐標平面上，一次函數 y = −2x − 6 的圖形通過下列哪一個點？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「(−4 , 2 )」。",
+      "將 B「(−4 , 2 )」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 112,
+      "questionNumber": 5,
+      "url": "https://cap.rcpet.edu.tw/exam/112/112exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1im3JF0E8d8RC__Z8MW9MQXCuonjPN3f_/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/112-math-p3.webp"
+    ]
+  },
+  {
+    "id": "OFF-0537",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "112年數學第6題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "已知 a = −1，b = −1 ，c = −1 ，下列關於 a、b、c 三數的大小關係，何者 4 8 正確？",
+    "questionImage": "./assets/official-exams/112-math-p3.webp",
+    "imageAlt": "112年國中教育會考數學科第6題官方試卷頁面",
+    "options": [
+      "a > c > b",
+      "a > b > c",
+      "b > c > a",
+      "c > b > a"
+    ],
+    "answer": 0,
+    "explanation": "依題目所給條件計算或判斷，結果對應 A「a > c > b」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「已知 a = −1，b = −1 ，c = −1 ，下列關於 a、b、c 三數的大小關係，何者 4 8 正確？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 A「a > c > b」。",
+      "將 A「a > c > b」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 112,
+      "questionNumber": 6,
+      "url": "https://cap.rcpet.edu.tw/exam/112/112exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1im3JF0E8d8RC__Z8MW9MQXCuonjPN3f_/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/112-math-p3.webp"
+    ]
+  },
+  {
+    "id": "OFF-0538",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "112年數學第7題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "如圖 ( 二 )，坐標平面上直線 L 的方程式為 x = −5， 直線 M 的方程式為 y = −3，P 點的坐標為 (a , b )。 根據圖 ( 二 ) 中 P 點位置判斷，下列關係何者正確？",
+    "questionImage": "./assets/official-exams/112-math-p3.webp",
+    "imageAlt": "112年國中教育會考數學科第7題官方試卷頁面",
+    "options": [
+      "a < −5，b > −3",
+      "a < −5，b < −3",
+      "a > −5，b > −3",
+      "a > −5，b < −3"
+    ],
+    "answer": 0,
+    "explanation": "依題目所給條件計算或判斷，結果對應 A「a < −5，b > −3」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「如圖 ( 二 )，坐標平面上直線 L 的方程式為 x = −5， 直線 M 的方程式為 y = −3，P 點的坐標為 (a , b )。 根據圖 ( 二 ) 中 P 點位置判斷，下列關係何者正確？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 A「a < −5，b > −3」。",
+      "將 A「a < −5，b > −3」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 112,
+      "questionNumber": 7,
+      "url": "https://cap.rcpet.edu.tw/exam/112/112exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1im3JF0E8d8RC__Z8MW9MQXCuonjPN3f_/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/112-math-p3.webp"
+    ]
+  },
+  {
+    "id": "OFF-0539",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "112年數學第8題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "如圖 ( 三 )，梯形 ABCD 中，AD // BC。若 ∠ ADC = 140°，且 BD⊥CD， 則 ∠ DBC 的度數為何？",
+    "questionImage": "./assets/official-exams/112-math-p3.webp",
+    "imageAlt": "112年國中教育會考數學科第8題官方試卷頁面",
+    "options": [
+      "30",
+      "40",
+      "50",
+      "60"
+    ],
+    "answer": 2,
+    "explanation": "依題目所給條件計算或判斷，結果對應 C「50」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「如圖 ( 三 )，梯形 ABCD 中，AD // BC。若 ∠ ADC = 140°，且 BD⊥CD， 則 ∠ DBC 的度數為何？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 C「50」。",
+      "將 C「50」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 112,
+      "questionNumber": 8,
+      "url": "https://cap.rcpet.edu.tw/exam/112/112exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1im3JF0E8d8RC__Z8MW9MQXCuonjPN3f_/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/112-math-p3.webp"
+    ]
+  },
+  {
+    "id": "OFF-0540",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "112年數學第9題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "有多少個正整數是 18 的倍數，同時也是 216 的因數？ (A) 2 (B) 6 (C) 10 (D)",
+    "questionImage": "./assets/official-exams/112-math-p4.webp",
+    "imageAlt": "112年國中教育會考數學科第9題官方試卷頁面",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 1,
+    "explanation": "正確答案索引為 B；原始 OCR 未保留可靠的選項文字，請以官方題圖中的 B 選項原文及題目條件核對。",
+    "solutionSteps": [
+      "先讀取官方題圖與題幹條件：「有多少個正整數是 18 的倍數，同時也是 216 的因數？ (A) 2 (B) 6 (C) 10 (D)」，確認公式、圖形標示、單位與所求量。",
+      "依題目條件完成運算或逐項檢核；正確答案索引為 B，實際選項文字因原始 OCR 未可靠保留，須以題圖中的 B 選項原文為準。",
+      "將題圖中的 B 選項代回原條件，並檢查正負號、單位、範圍及是否符合所有圖表限制。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 112,
+      "questionNumber": 9,
+      "url": "https://cap.rcpet.edu.tw/exam/112/112exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1im3JF0E8d8RC__Z8MW9MQXCuonjPN3f_/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/112-math-p4.webp"
+    ]
+  },
+  {
+    "id": "OFF-0541",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "112年數學第10題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "利用公式解可得一元二次方程式 3x2 − 11x − 1 = 0 的兩解為 a、b，且 a > b， 求 a 值為何？ −11 + 109 (A) 6 −11 + 133 (B) 6 11 + 109 (C) 6 11 + 133 (D)",
+    "questionImage": "./assets/official-exams/112-math-p4.webp",
+    "imageAlt": "112年國中教育會考數學科第10題官方試卷頁面",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 3,
+    "explanation": "正確答案索引為 D；原始 OCR 未保留可靠的選項文字，請以官方題圖中的 D 選項原文及題目條件核對。",
+    "solutionSteps": [
+      "先讀取官方題圖與題幹條件：「利用公式解可得一元二次方程式 3x2 − 11x − 1 = 0 的兩解為 a、b，且 a > b， 求 a 值為何？ −11 + 109 (A) 6 −11 + 133 (B) 6 11 + 109 (C) 6 11 + 133 (D)」，確認公式、圖形標示、單位與所求量。",
+      "依題目條件完成運算或逐項檢核；正確答案索引為 D，實際選項文字因原始 OCR 未可靠保留，須以題圖中的 D 選項原文為準。",
+      "將題圖中的 D 選項代回原條件，並檢查正負號、單位、範圍及是否符合所有圖表限制。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 112,
+      "questionNumber": 10,
+      "url": "https://cap.rcpet.edu.tw/exam/112/112exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1im3JF0E8d8RC__Z8MW9MQXCuonjPN3f_/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/112-math-p4.webp"
+    ]
+  },
+  {
+    "id": "OFF-0542",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "112年數學第11題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "業者販售含咖啡因飲料時通常會以紅、黃、綠三色來標示每杯飲料的咖啡因 含量，各顏色的意義如表 ( 一 ) 所示。 表 ( ㄧ ) 表 ( 二 ) 我國建議每位成人一日的咖啡因攝取量不超過 300 毫克，歐盟則建議一日 不超過 400 毫克。表 ( 二 ) 為某商店美式咖啡的容量及咖啡因含量標示，已知 該店美式咖啡每毫升的咖啡因含量相同，判斷一位成人一日喝 2 杯該店中杯的 美式咖啡，其咖啡因攝取量是否符合我國或歐盟的建議？",
+    "questionImage": "./assets/official-exams/112-math-p4.webp",
+    "imageAlt": "112年國中教育會考數學科第11題官方試卷頁面",
+    "options": [
+      "符合我國也符合歐盟",
+      "不符合我國也不符合歐盟",
+      "符合我國，不符合歐盟",
+      "不符合我國，符合歐盟"
+    ],
+    "answer": 3,
+    "explanation": "依題目所給條件計算或判斷，結果對應 D「不符合我國，符合歐盟」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「業者販售含咖啡因飲料時通常會以紅、黃、綠三色來標示每杯飲料的咖啡因 含量，各顏色的意義如表 ( 一 ) 所示。 表 ( ㄧ ) 表 ( 二 ) 我國建議每位成人一日的咖啡因攝取量不超過 300 毫克，歐盟則建議一日 不超過 400 毫克。表 ( 二 ) 為某商店美式咖啡的容量及咖啡因含量標示，已知 」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 D「不符合我國，符合歐盟」。",
+      "將 D「不符合我國，符合歐盟」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 112,
+      "questionNumber": 11,
+      "url": "https://cap.rcpet.edu.tw/exam/112/112exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1im3JF0E8d8RC__Z8MW9MQXCuonjPN3f_/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/112-math-p4.webp"
+    ]
+  },
+  {
+    "id": "OFF-0543",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "112年數學第12題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "盒玩的販售方式是將一款玩具裝在盒子中販賣，購買者只能從外盒知道購買 的是哪一系列玩具，但無法知道是系列中的哪一款。圖 ( 四 )、圖 ( 五 ) 分別 為動物系列、汽車系列盒玩中所有可能出現的款式。 圖 ( 四 ) 圖 ( 五 ) 已知小友喜歡圖 ( 四 ) 中的 A 款、C 款，喜歡圖 ( 五 ) 中的 B 款，若他打算 購買圖 ( 四 ) 的盒玩一盒，且他買到圖 ( 四 ) 中每款玩具的機會相等；他也打算 購買圖 ( 五 ) 的盒玩一盒，且他買到圖 ( 五 ) 中每款玩具的機會相等，則他買 到的兩盒盒玩內的玩具都是他喜歡的款式的機率為何？ 1 (A) 15 1 (B) 10 2 (C) 11 3 (D)",
+    "questionImage": "./assets/official-exams/112-math-p5.webp",
+    "imageAlt": "112年國中教育會考數學科第12題官方試卷頁面",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "explanation": "正確答案索引為 A；原始 OCR 未保留可靠的選項文字，請以官方題圖中的 A 選項原文及題目條件核對。",
+    "solutionSteps": [
+      "先讀取官方題圖與題幹條件：「盒玩的販售方式是將一款玩具裝在盒子中販賣，購買者只能從外盒知道購買 的是哪一系列玩具，但無法知道是系列中的哪一款。圖 ( 四 )、圖 ( 五 ) 分別 為動物系列、汽車系列盒玩中所有可能出現的款式。 圖 ( 四 ) 圖 ( 五 ) 已知小友喜歡圖 ( 四 ) 中的 A 款、C 款，喜歡圖 ( 五 )」，確認公式、圖形標示、單位與所求量。",
+      "依題目條件完成運算或逐項檢核；正確答案索引為 A，實際選項文字因原始 OCR 未可靠保留，須以題圖中的 A 選項原文為準。",
+      "將題圖中的 A 選項代回原條件，並檢查正負號、單位、範圍及是否符合所有圖表限制。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 112,
+      "questionNumber": 12,
+      "url": "https://cap.rcpet.edu.tw/exam/112/112exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1im3JF0E8d8RC__Z8MW9MQXCuonjPN3f_/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/112-math-p5.webp"
+    ]
+  },
+  {
+    "id": "OFF-0544",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "112年數學第13題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "如圖 ( 六 )，直角柱 ABCDEF 的底面為直角三角形。 若 ∠ ABC = ∠ DEF = 90°， BC > AB > BE，則連接 AE 後，下列敘述何者正確？",
+    "questionImage": "./assets/official-exams/112-math-p5.webp",
+    "imageAlt": "112年國中教育會考數學科第13題官方試卷頁面",
+    "options": [
+      "∠ ACB < ∠ FDE，∠ AEB > ∠ ACB",
+      "∠ ACB < ∠ FDE，∠ AEB < ∠ ACB",
+      "∠ ACB > ∠ FDE，∠ AEB > ∠ ACB",
+      "∠ ACB > ∠ FDE，∠ AEB < ∠ ACB"
+    ],
+    "answer": 0,
+    "explanation": "依題目所給條件計算或判斷，結果對應 A「∠ ACB < ∠ FDE，∠ AEB > ∠ ACB」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「如圖 ( 六 )，直角柱 ABCDEF 的底面為直角三角形。 若 ∠ ABC = ∠ DEF = 90°， BC > AB > BE，則連接 AE 後，下列敘述何者正確？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 A「∠ ACB < ∠ FDE，∠ AEB > ∠ ACB」。",
+      "將 A「∠ ACB < ∠ FDE，∠ AEB > ∠ ACB」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 112,
+      "questionNumber": 13,
+      "url": "https://cap.rcpet.edu.tw/exam/112/112exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1im3JF0E8d8RC__Z8MW9MQXCuonjPN3f_/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/112-math-p5.webp"
+    ]
+  },
+  {
+    "id": "OFF-0545",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "112年數學第14題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "坐標平面上有兩個二次函數的圖形，其頂點 P、Q 皆在 x 軸上，且有一水平線 與兩圖形相交於 A、B、C、D 四點，各點位置如圖 ( 七 ) 所示。若 AB = 10， BC = 5，CD = 6，則 PQ 的長度為何？ (A) 7 (B) 8 (C) 9 圖 ( 七 ) (D)",
+    "questionImage": "./assets/official-exams/112-math-p6.webp",
+    "imageAlt": "112年國中教育會考數學科第14題官方試卷頁面",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 1,
+    "explanation": "正確答案索引為 B；原始 OCR 未保留可靠的選項文字，請以官方題圖中的 B 選項原文及題目條件核對。",
+    "solutionSteps": [
+      "先讀取官方題圖與題幹條件：「坐標平面上有兩個二次函數的圖形，其頂點 P、Q 皆在 x 軸上，且有一水平線 與兩圖形相交於 A、B、C、D 四點，各點位置如圖 ( 七 ) 所示。若 AB = 10， BC = 5，CD = 6，則 PQ 的長度為何？ (A) 7 (B) 8 (C) 9 圖 ( 七 ) (D)」，確認公式、圖形標示、單位與所求量。",
+      "依題目條件完成運算或逐項檢核；正確答案索引為 B，實際選項文字因原始 OCR 未可靠保留，須以題圖中的 B 選項原文為準。",
+      "將題圖中的 B 選項代回原條件，並檢查正負號、單位、範圍及是否符合所有圖表限制。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 112,
+      "questionNumber": 14,
+      "url": "https://cap.rcpet.edu.tw/exam/112/112exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1im3JF0E8d8RC__Z8MW9MQXCuonjPN3f_/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/112-math-p6.webp"
+    ]
+  },
+  {
+    "id": "OFF-0546",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "112年數學第15題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "若想在等差數列 1 , 2 , 3 , 4 , 5中插入一些數，使得新的數列也是等差數列，且 新的數列的首項仍是 1，末項仍是 5，則新的數列的項數可能為下列何者？ (A) 11 (B) 15 (C) 30 (D)",
+    "questionImage": "./assets/official-exams/112-math-p6.webp",
+    "imageAlt": "112年國中教育會考數學科第15題官方試卷頁面",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 3,
+    "explanation": "正確答案索引為 D；原始 OCR 未保留可靠的選項文字，請以官方題圖中的 D 選項原文及題目條件核對。",
+    "solutionSteps": [
+      "先讀取官方題圖與題幹條件：「若想在等差數列 1 , 2 , 3 , 4 , 5中插入一些數，使得新的數列也是等差數列，且 新的數列的首項仍是 1，末項仍是 5，則新的數列的項數可能為下列何者？ (A) 11 (B) 15 (C) 30 (D)」，確認公式、圖形標示、單位與所求量。",
+      "依題目條件完成運算或逐項檢核；正確答案索引為 D，實際選項文字因原始 OCR 未可靠保留，須以題圖中的 D 選項原文為準。",
+      "將題圖中的 D 選項代回原條件，並檢查正負號、單位、範圍及是否符合所有圖表限制。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 112,
+      "questionNumber": 15,
+      "url": "https://cap.rcpet.edu.tw/exam/112/112exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1im3JF0E8d8RC__Z8MW9MQXCuonjPN3f_/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/112-math-p6.webp"
+    ]
+  },
+  {
+    "id": "OFF-0547",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "112年數學第16題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "已知某速食店販售的套餐內容為一片雞排和一杯可樂，且一份套餐的價錢比 單點一片雞排再單點一杯可樂的總價錢便宜 40 元。阿俊打算到該速食店 買兩份套餐，若他發現店內有單點一片雞排就再送一片雞排的促銷活動， 且單點一片雞排再單點兩杯可樂的總價錢，比兩份套餐的總價錢便宜 10 元， 則根據題意可得到下列哪一個結論？",
+    "questionImage": "./assets/official-exams/112-math-p6.webp",
+    "imageAlt": "112年國中教育會考數學科第16題官方試卷頁面",
+    "options": [
+      "一份套餐的價錢必為 140 元",
+      "一份套餐的價錢必為 120 元",
+      "單點一片雞排的價錢必為 90 元",
+      "單點一片雞排的價錢必為 70 元"
+    ],
+    "answer": 2,
+    "explanation": "依題目所給條件計算或判斷，結果對應 C「單點一片雞排的價錢必為 90 元」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「已知某速食店販售的套餐內容為一片雞排和一杯可樂，且一份套餐的價錢比 單點一片雞排再單點一杯可樂的總價錢便宜 40 元。阿俊打算到該速食店 買兩份套餐，若他發現店內有單點一片雞排就再送一片雞排的促銷活動， 且單點一片雞排再單點兩杯可樂的總價錢，比兩份套餐的總價錢便宜 10 元， 則根據題意可得到下列哪」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 C「單點一片雞排的價錢必為 90 元」。",
+      "將 C「單點一片雞排的價錢必為 90 元」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 112,
+      "questionNumber": 16,
+      "url": "https://cap.rcpet.edu.tw/exam/112/112exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1im3JF0E8d8RC__Z8MW9MQXCuonjPN3f_/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/112-math-p6.webp"
+    ]
+  },
+  {
+    "id": "OFF-0548",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "112年數學第17題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "圖 ( 八 ) 的方格紙中，每個方格的邊長 為 1，A、O 兩點皆在格線的交點上。 今在此方格紙格線的交點上另外找兩點 B、C， 使 得 ΔABC 的 外 心 為 O， 求 BC 的長度為何？ (A) 4 (B) 5 圖 ( 八 ) (C) 10 (D)",
+    "questionImage": "./assets/official-exams/112-math-p7.webp",
+    "imageAlt": "112年國中教育會考數學科第17題官方試卷頁面",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 3,
+    "explanation": "正確答案索引為 D；原始 OCR 未保留可靠的選項文字，請以官方題圖中的 D 選項原文及題目條件核對。",
+    "solutionSteps": [
+      "先讀取官方題圖與題幹條件：「圖 ( 八 ) 的方格紙中，每個方格的邊長 為 1，A、O 兩點皆在格線的交點上。 今在此方格紙格線的交點上另外找兩點 B、C， 使 得 ΔABC 的 外 心 為 O， 求 BC 的長度為何？ (A) 4 (B) 5 圖 ( 八 ) (C) 10 (D)」，確認公式、圖形標示、單位與所求量。",
+      "依題目條件完成運算或逐項檢核；正確答案索引為 D，實際選項文字因原始 OCR 未可靠保留，須以題圖中的 D 選項原文為準。",
+      "將題圖中的 D 選項代回原條件，並檢查正負號、單位、範圍及是否符合所有圖表限制。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 112,
+      "questionNumber": 17,
+      "url": "https://cap.rcpet.edu.tw/exam/112/112exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1im3JF0E8d8RC__Z8MW9MQXCuonjPN3f_/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/112-math-p7.webp"
+    ]
+  },
+  {
+    "id": "OFF-0549",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "112年數學第18題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "樂樂停車場為 24 小時營業，其收費方式如 表 ( 三 ) 表 ( 三 ) 所示。已知阿虹某日 10:00 進場 停車，停了 x 小時後離場，x 為整數。若 阿虹離場的時間介於當日的 20:00 ~ 24:00 間，則他此次停車的費用為多少元？",
+    "questionImage": "./assets/official-exams/112-math-p7.webp",
+    "imageAlt": "112年國中教育會考數學科第18題官方試卷頁面",
+    "options": [
+      "5x + 30",
+      "5x + 50",
+      "5x + 150",
+      "5x +"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「5x + 50」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「樂樂停車場為 24 小時營業，其收費方式如 表 ( 三 ) 表 ( 三 ) 所示。已知阿虹某日 10:00 進場 停車，停了 x 小時後離場，x 為整數。若 阿虹離場的時間介於當日的 20:00 ~ 24:00 間，則他此次停車的費用為多少元？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「5x + 50」。",
+      "將 B「5x + 50」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 112,
+      "questionNumber": 18,
+      "url": "https://cap.rcpet.edu.tw/exam/112/112exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1im3JF0E8d8RC__Z8MW9MQXCuonjPN3f_/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/112-math-p7.webp"
+    ]
+  },
+  {
+    "id": "OFF-0550",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "112年數學第19題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "圖 ( 九 ) 為一圓形紙片，A、B、C 為圓周上三點，其中 AC 為直徑。今以 AB 為摺線將紙片向右摺後，紙片蓋住部分的 AC，而 AB 上與 AC 重疊的點 為 D，如圖 ( 十 ) 所示。若 BC = 35°，則 AD 的度數為何？",
+    "questionImage": "./assets/official-exams/112-math-p7.webp",
+    "imageAlt": "112年國中教育會考數學科第19題官方試卷頁面",
+    "options": [
+      "105",
+      "110",
+      "120",
+      "145 圖 ( 九 )"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「110」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「圖 ( 九 ) 為一圓形紙片，A、B、C 為圓周上三點，其中 AC 為直徑。今以 AB 為摺線將紙片向右摺後，紙片蓋住部分的 AC，而 AB 上與 AC 重疊的點 為 D，如圖 ( 十 ) 所示。若 BC = 35°，則 AD 的度數為何？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「110」。",
+      "將 B「110」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 112,
+      "questionNumber": 19,
+      "url": "https://cap.rcpet.edu.tw/exam/112/112exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1im3JF0E8d8RC__Z8MW9MQXCuonjPN3f_/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/112-math-p7.webp"
+    ]
+  },
+  {
+    "id": "OFF-0551",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "112年數學第20題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "如圖 ( 十一 )，ΔABC 中，D 點在 BC 上，且 BD 的中垂線與 AB 相交於 E 點，CD 的中垂線與 AC 相交於 F 點。已知 ΔABC 的三個內角皆不相等， 根據圖 ( 十一 ) 中標示的角， 判斷下列敘述何者正確？",
+    "questionImage": "./assets/official-exams/112-math-p8.webp",
+    "imageAlt": "112年國中教育會考數學科第20題官方試卷頁面",
+    "options": [
+      "∠ 1 = ∠ 3，∠ 2 = ∠ 4",
+      "∠ 1 = ∠ 3，∠ 2 ≠ ∠ 4",
+      "∠ 1 ≠ ∠ 3，∠ 2 = ∠ 4",
+      "∠ 1 ≠ ∠ 3，∠ 2 ≠ ∠"
+    ],
+    "answer": 2,
+    "explanation": "依題目所給條件計算或判斷，結果對應 C「∠ 1 ≠ ∠ 3，∠ 2 = ∠ 4」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「如圖 ( 十一 )，ΔABC 中，D 點在 BC 上，且 BD 的中垂線與 AB 相交於 E 點，CD 的中垂線與 AC 相交於 F 點。已知 ΔABC 的三個內角皆不相等， 根據圖 ( 十一 ) 中標示的角， 判斷下列敘述何者正確？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 C「∠ 1 ≠ ∠ 3，∠ 2 = ∠ 4」。",
+      "將 C「∠ 1 ≠ ∠ 3，∠ 2 = ∠ 4」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 112,
+      "questionNumber": 20,
+      "url": "https://cap.rcpet.edu.tw/exam/112/112exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1im3JF0E8d8RC__Z8MW9MQXCuonjPN3f_/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/112-math-p8.webp"
+    ]
+  },
+  {
+    "id": "OFF-0552",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "112年數學第21題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "圖 ( 十二 ) 有一東西向的直線吊橋橫跨溪谷，小維、阿良分別從西橋頭、東橋頭同時開始 往吊橋的另一頭筆直地走過去， 如圖 ( 十二 ) 所示。 已知小維從西橋頭走了 84 步，阿良從東橋頭走了 60 步時，兩人在吊橋上的某點交會，且交會之後 阿良再走 70 步恰好走到西橋頭。若小維每步的距離相等，阿良每步的距離 相等，則交會之後小維再走多少步會恰好走到東橋頭？",
+    "questionImage": "./assets/official-exams/112-math-p8.webp",
+    "imageAlt": "112年國中教育會考數學科第21題官方試卷頁面",
+    "options": [
+      "46",
+      "50",
+      "60",
+      "72"
+    ],
+    "answer": 3,
+    "explanation": "依題目所給條件計算或判斷，結果對應 D「72」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「圖 ( 十二 ) 有一東西向的直線吊橋橫跨溪谷，小維、阿良分別從西橋頭、東橋頭同時開始 往吊橋的另一頭筆直地走過去， 如圖 ( 十二 ) 所示。 已知小維從西橋頭走了 84 步，阿良從東橋頭走了 60 步時，兩人在吊橋上的某點交會，且交會之後 阿良再走 70 步恰好走到西橋頭。若小維每步的距離相等，」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 D「72」。",
+      "將 D「72」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 112,
+      "questionNumber": 21,
+      "url": "https://cap.rcpet.edu.tw/exam/112/112exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1im3JF0E8d8RC__Z8MW9MQXCuonjPN3f_/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/112-math-p8.webp"
+    ]
+  },
+  {
+    "id": "OFF-0553",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "112年數學第22題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "如圖 ( 十三 )，正方形 ABCD 與 ΔEBC 中，AD 分別與 EB、EC 相交於 F 點、G 點。若 ΔEBG 的面積為 6， 正方形 ABCD 的面積為 16，則 FG 與 BC 的長度比為何？",
+    "questionImage": "./assets/official-exams/112-math-p9.webp",
+    "imageAlt": "112年國中教育會考數學科第22題官方試卷頁面",
+    "options": [
+      "3 : 5",
+      "3 : 6",
+      "3 : 7",
+      "3 : 8"
+    ],
+    "answer": 2,
+    "explanation": "依題目所給條件計算或判斷，結果對應 C「3 : 7」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「如圖 ( 十三 )，正方形 ABCD 與 ΔEBC 中，AD 分別與 EB、EC 相交於 F 點、G 點。若 ΔEBG 的面積為 6， 正方形 ABCD 的面積為 16，則 FG 與 BC 的長度比為何？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 C「3 : 7」。",
+      "將 C「3 : 7」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 112,
+      "questionNumber": 22,
+      "url": "https://cap.rcpet.edu.tw/exam/112/112exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1im3JF0E8d8RC__Z8MW9MQXCuonjPN3f_/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/112-math-p9.webp"
+    ]
+  },
+  {
+    "id": "OFF-0554",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "112年數學第23題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "如圖 ( 十四 )，矩形 ABCD 中， AB = 6，AD = 8，且有一點 P 從 B 點沿著 BD 往 D 點移動。若過 P 點作 AB 的垂線交 AB 於 E 點，過 P 點作 AD 的 垂線交 AD 於 F 點，則 EF 的長度最小為多少？",
+    "questionImage": "./assets/official-exams/112-math-p9.webp",
+    "imageAlt": "112年國中教育會考數學科第23題官方試卷頁面",
+    "options": [
+      "5 24",
+      "5",
+      "5",
+      "7"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「5」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「如圖 ( 十四 )，矩形 ABCD 中， AB = 6，AD = 8，且有一點 P 從 B 點沿著 BD 往 D 點移動。若過 P 點作 AB 的垂線交 AB 於 E 點，過 P 點作 AD 的 垂線交 AD 於 F 點，則 EF 的長度最小為多少？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「5」。",
+      "將 B「5」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 112,
+      "questionNumber": 23,
+      "url": "https://cap.rcpet.edu.tw/exam/112/112exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1im3JF0E8d8RC__Z8MW9MQXCuonjPN3f_/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/112-math-p9.webp"
+    ]
+  },
+  {
+    "id": "OFF-0555",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "112年數學第24題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "圖 ( 十五 ) 為某機構於 2020 年繪製的四個國家 65 歲以上人口占總人口百分比 之折線圖，其中 2020 年之後的數值為推估值。 圖 ( 十五 ) 根據圖 ( 十五 ) 推測，下列哪一個國家從進入「高齡社會」到進入「超高齡 社會」所花的時間最短？",
+    "questionImage": "./assets/official-exams/112-math-p10.webp",
+    "imageAlt": "112年國中教育會考數學科第24題官方試卷頁面",
+    "options": [
+      "法國",
+      "義大利",
+      "美國",
+      "韓國"
+    ],
+    "answer": 3,
+    "explanation": "依題目所給條件計算或判斷，結果對應 D「韓國」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「圖 ( 十五 ) 為某機構於 2020 年繪製的四個國家 65 歲以上人口占總人口百分比 之折線圖，其中 2020 年之後的數值為推估值。 圖 ( 十五 ) 根據圖 ( 十五 ) 推測，下列哪一個國家從進入「高齡社會」到進入「超高齡 社會」所花的時間最短？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 D「韓國」。",
+      "將 D「韓國」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 112,
+      "questionNumber": 24,
+      "url": "https://cap.rcpet.edu.tw/exam/112/112exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1im3JF0E8d8RC__Z8MW9MQXCuonjPN3f_/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/112-math-p10.webp"
+    ]
+  },
+  {
+    "id": "OFF-0556",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "112年數學第25題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "已知 2019 年我國進入「高齡社會」，預測 2025 年會進入「超高齡社會」。 假設我國 2019 年與 2025 年總人口數皆為 2300 萬人，且 2019 年我國 65 歲 以上人口占總人口的百分比恰好達到「高齡社會」的最低標準，則根據上述 預測， 關於我國 65 歲以上人口數，2025 年與 2019 年相比至少增加了多少萬人？",
+    "questionImage": "./assets/official-exams/112-math-p10.webp",
+    "imageAlt": "112年國中教育會考數學科第25題官方試卷頁面",
+    "options": [
+      "138",
+      "161",
+      "322",
+      "460"
+    ],
+    "answer": 0,
+    "explanation": "依題目所給條件計算或判斷，結果對應 A「138」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「已知 2019 年我國進入「高齡社會」，預測 2025 年會進入「超高齡社會」。 假設我國 2019 年與 2025 年總人口數皆為 2300 萬人，且 2019 年我國 65 歲 以上人口占總人口的百分比恰好達到「高齡社會」的最低標準，則根據上述 預測， 關於我國 65 歲以上人口數，2025 年」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 A「138」。",
+      "將 A「138」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 112,
+      "questionNumber": 25,
+      "url": "https://cap.rcpet.edu.tw/exam/112/112exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1im3JF0E8d8RC__Z8MW9MQXCuonjPN3f_/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/112-math-p10.webp"
+    ]
+  },
+  {
+    "id": "OFF-0746",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "113年數學第1題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "「健康飲食餐盤」是一種以圖畫呈現飲食指南的方式，圖畫中各類食物區塊 的面積比，表示一個人每日所應攝取各類食物的份量比。某研究機構對於一 般人如何搭配「穀類」、 「 蛋白質」、 「 蔬菜」、「水果」這四大類食物的攝取 份量， 以「健康標語」說明這四大類食物所應攝取份量的關係如圖 ( 十七 )， 並繪製了「健康飲食餐盤」如圖 ( 十八 )。 圖 ( 十七 ) 圖 ( 十八 ) 請根據上述資訊回答下列問題，完整寫出你的解題過程並詳細解釋： (1) 請根據圖 ( 十七 ) 的「健康標語」， 判斷一個人每日所應攝取的「水果」和 「蛋白質」份量之間的大小關係。 (2) 將圖 ( 十八 ) 的「健康飲食餐盤」簡化為一個矩形，且其中四大類食物 的區塊皆為矩形， 如圖 ( 十九 ) 所示。 若要符合圖 ( 十七 ) 的「 健康標語」， 在紙上畫出圖 ( 十九 ) 的圖形，其中餐盤長為 16 公分，寬為 10 公分， 則 a、b 是否可能同時為正整數？",
+    "questionImage": "./assets/official-exams/113-math-p11.webp",
+    "imageAlt": "113年國中教育會考數學科第1題官方試卷頁面",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "explanation": "本題為官方非選擇題，需依題圖完成各小題並呈現計算過程；現有選項與答案索引僅為前台格式占位，不宜當作標準答案。",
+    "solutionSteps": [
+      "先依題圖與題幹整理已知條件：「「健康飲食餐盤」是一種以圖畫呈現飲食指南的方式，圖畫中各類食物區塊 的面積比，表示一個人每日所應攝取各類食物的份量比。某研究機構對於一 般人如何搭配「穀類」、 「 蛋白質」、 「 蔬菜」、「水果」這四大類食物的攝取 份量， 以「健康標語」說明這四大類食物所應攝取份量的關係如圖 ( 十七 )， 並繪製」。本題原為非選擇題，須分別完成各小題。",
+      "逐小題列式、計算並保留必要單位或範圍；現有 A～D 選項與 answer 欄位是前台格式占位，不代表原官方答案。",
+      "完成後把各小題結果代回題目條件驗算；正式發布前應改用可輸入作答過程的題型。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 113,
+      "questionNumber": 1,
+      "url": "https://cap.rcpet.edu.tw/exam/113/113exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/113-math-p11.webp"
+    ]
+  },
+  {
+    "id": "OFF-0747",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "113年數學第2題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "某教室內的桌子皆為同一款多功能桌，4 張此款桌子可緊 密拼接成中間有圓形鏤空的大圓桌， 上視圖如圖 ( 二十 ) 所示，其外圍及鏤空邊界為一大一小的同心圓，其中大圓 的半徑為 80 公分，小圓的半徑為 20 公分，且任兩張相鄰 桌子接縫的延長線皆通過圓心。 圖 ( 二十 ) 為了有效運用教室空間，老師考慮了圖 ( 二十一 ) 及圖 ( 二十二 ) 兩種拼接 此款桌子的方式。 圖(二十一) 圖(二十二) 這兩種方式皆是將 2 張桌子的一邊完全貼合進行拼接。 A、 B 兩點為圖(二十一) 中距離最遠的兩個桌角，C、D 兩點為圖 ( 二十二 ) 中距離最遠的兩個桌角， 且 CD 與 2 張桌子的接縫 EF 相交於 G 點，G 為 EF 中點。 請根據上述資訊及圖 ( 二十一 )、圖 ( 二十二 ) 中的標示回答下列問題，完整 寫出你的解題過程並詳細解釋： (1) GF 的長度為多少公分？ (2) 判斷 CD 與 AB 的長度何者較大？請說明理由。",
+    "questionImage": "./assets/official-exams/113-math-p12.webp",
+    "imageAlt": "113年國中教育會考數學科第2題官方試卷頁面",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "explanation": "本題為官方非選擇題，需依題圖完成各小題並呈現計算過程；現有選項與答案索引僅為前台格式占位，不宜當作標準答案。",
+    "solutionSteps": [
+      "先依題圖與題幹整理已知條件：「某教室內的桌子皆為同一款多功能桌，4 張此款桌子可緊 密拼接成中間有圓形鏤空的大圓桌， 上視圖如圖 ( 二十 ) 所示，其外圍及鏤空邊界為一大一小的同心圓，其中大圓 的半徑為 80 公分，小圓的半徑為 20 公分，且任兩張相鄰 桌子接縫的延長線皆通過圓心。 圖 ( 二十 ) 為了有效運用教室空間，老」。本題原為非選擇題，須分別完成各小題。",
+      "逐小題列式、計算並保留必要單位或範圍；現有 A～D 選項與 answer 欄位是前台格式占位，不代表原官方答案。",
+      "完成後把各小題結果代回題目條件驗算；正式發布前應改用可輸入作答過程的題型。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 113,
+      "questionNumber": 2,
+      "url": "https://cap.rcpet.edu.tw/exam/113/113exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/113-math-p12.webp"
+    ]
+  },
+  {
+    "id": "OFF-0748",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "113年數學第3題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "若二元一次聯立方程式 的解為 ，則 a + b 之值為何？ y = −3x y = b",
+    "questionImage": "./assets/official-exams/113-math-p2.webp",
+    "imageAlt": "113年國中教育會考數學科第3題官方試卷頁面",
+    "options": [
+      "−28",
+      "−14",
+      "−4",
+      "14"
+    ],
+    "answer": 2,
+    "explanation": "依題目所給條件計算或判斷，結果對應 C「−4」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「若二元一次聯立方程式 的解為 ，則 a + b 之值為何？ y = −3x y = b」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 C「−4」。",
+      "將 C「−4」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 113,
+      "questionNumber": 3,
+      "url": "https://cap.rcpet.edu.tw/exam/113/113exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/113-math-p2.webp"
+    ]
+  },
+  {
+    "id": "OFF-0749",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "113年數學第4題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "若想在圖(二)的方格紙上沿著格線畫出坐標平面的 x 軸、 y 軸並標記原點，且以小方格邊長作為單位長，則下列 哪一種畫法可在方格紙的範圍內標出 (5, 3 )、 (−4 , − 4 )、 (−3 , 4 )、(3, − 5 ) 四點？ (A) (B) 圖 ( 二 ) (C) (D) y",
+    "questionImage": "./assets/official-exams/113-math-p3.webp",
+    "imageAlt": "113年國中教育會考數學科第4題官方試卷頁面",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 3,
+    "explanation": "正確答案索引為 D；原始 OCR 未保留可靠的選項文字，請以官方題圖中的 D 選項原文及題目條件核對。",
+    "solutionSteps": [
+      "先讀取官方題圖與題幹條件：「若想在圖(二)的方格紙上沿著格線畫出坐標平面的 x 軸、 y 軸並標記原點，且以小方格邊長作為單位長，則下列 哪一種畫法可在方格紙的範圍內標出 (5, 3 )、 (−4 , − 4 )、 (−3 , 4 )、(3, − 5 ) 四點？ (A) (B) 圖 ( 二 ) (C) (D) y」，確認公式、圖形標示、單位與所求量。",
+      "依題目條件完成運算或逐項檢核；正確答案索引為 D，實際選項文字因原始 OCR 未可靠保留，須以題圖中的 D 選項原文為準。",
+      "將題圖中的 D 選項代回原條件，並檢查正負號、單位、範圍及是否符合所有圖表限制。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 113,
+      "questionNumber": 4,
+      "url": "https://cap.rcpet.edu.tw/exam/113/113exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/113-math-p3.webp"
+    ]
+  },
+  {
+    "id": "OFF-0750",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "113年數學第5題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "阿賢利用便利貼拼成一個聖誕樹圖案， 聖誕樹圖案共有 10 層，每一層由三列 的便利貼拼成，前 3 層如圖 ( 三 ) 所 示。若同一層中每一列皆比前一列多 2 張，且每一層第一列皆比前一層第一列 多 2 張，則此聖誕樹圖案由多少張便利貼 拼成？",
+    "questionImage": "./assets/official-exams/113-math-p3.webp",
+    "imageAlt": "113年國中教育會考數學科第5題官方試卷頁面",
+    "options": [
+      "354",
+      "360",
+      "384",
+      "390"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「360」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「阿賢利用便利貼拼成一個聖誕樹圖案， 聖誕樹圖案共有 10 層，每一層由三列 的便利貼拼成，前 3 層如圖 ( 三 ) 所 示。若同一層中每一列皆比前一列多 2 張，且每一層第一列皆比前一層第一列 多 2 張，則此聖誕樹圖案由多少張便利貼 拼成？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「360」。",
+      "將 B「360」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 113,
+      "questionNumber": 5,
+      "url": "https://cap.rcpet.edu.tw/exam/113/113exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/113-math-p3.webp"
+    ]
+  },
+  {
+    "id": "OFF-0751",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "113年數學第6題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "箱內有 50 顆白球和 10 顆紅球，小慧打算從箱內抽球 31 次，每次從箱內 抽出一球，如果抽出白球則將白球放回箱內，如果抽出紅球則不將紅球放回 箱內。已知小慧在前 30 次抽球中共抽出紅球 4 次，若她第 31 次抽球時箱內 的每顆球被抽出的機會相等，則這次她抽出紅球的機率為何？ 1 (A) 5 1 (B) 6 5 (C) 12 3 (D)",
+    "questionImage": "./assets/official-exams/113-math-p4.webp",
+    "imageAlt": "113年國中教育會考數學科第6題官方試卷頁面",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 3,
+    "explanation": "正確答案索引為 D；原始 OCR 未保留可靠的選項文字，請以官方題圖中的 D 選項原文及題目條件核對。",
+    "solutionSteps": [
+      "先讀取官方題圖與題幹條件：「箱內有 50 顆白球和 10 顆紅球，小慧打算從箱內抽球 31 次，每次從箱內 抽出一球，如果抽出白球則將白球放回箱內，如果抽出紅球則不將紅球放回 箱內。已知小慧在前 30 次抽球中共抽出紅球 4 次，若她第 31 次抽球時箱內 的每顆球被抽出的機會相等，則這次她抽出紅球的機率為何？ 1 (A) 5」，確認公式、圖形標示、單位與所求量。",
+      "依題目條件完成運算或逐項檢核；正確答案索引為 D，實際選項文字因原始 OCR 未可靠保留，須以題圖中的 D 選項原文為準。",
+      "將題圖中的 D 選項代回原條件，並檢查正負號、單位、範圍及是否符合所有圖表限制。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 113,
+      "questionNumber": 6,
+      "url": "https://cap.rcpet.edu.tw/exam/113/113exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/113-math-p4.webp"
+    ]
+  },
+  {
+    "id": "OFF-0752",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "113年數學第7題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "圖 ( 四 ) 圖 ( 五 ) 圖 ( 六 ) 圖 ( 四 ) 有 A、 B 兩種圖案，其中 A 經過上下翻轉後與 B 相同，且圖案的 外圍是正方形，圖 ( 五 ) 是將四個 A 圖以緊密且不重疊的方式排列成大正方形， 圖 ( 六 ) 是將兩個 A 圖與兩個 B 圖以緊密且不重疊的方式排列成大正方形。 判斷圖 ( 五 )、 圖 ( 六 ) 是否為線對稱圖形？",
+    "questionImage": "./assets/official-exams/113-math-p4.webp",
+    "imageAlt": "113年國中教育會考數學科第7題官方試卷頁面",
+    "options": [
+      "圖 ( 五 )、圖 ( 六 ) 皆是",
+      "圖 ( 五 )、圖 ( 六 ) 皆不是",
+      "圖 ( 五 ) 是，圖 ( 六 ) 不是",
+      "圖 ( 五 ) 不是，圖 ( 六 ) 是"
+    ],
+    "answer": 3,
+    "explanation": "依題目所給條件計算或判斷，結果對應 D「圖 ( 五 ) 不是，圖 ( 六 ) 是」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「圖 ( 四 ) 圖 ( 五 ) 圖 ( 六 ) 圖 ( 四 ) 有 A、 B 兩種圖案，其中 A 經過上下翻轉後與 B 相同，且圖案的 外圍是正方形，圖 ( 五 ) 是將四個 A 圖以緊密且不重疊的方式排列成大正方形， 圖 ( 六 ) 是將兩個 A 圖與兩個 B 圖以緊密且不重疊的方式排列成大正方形」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 D「圖 ( 五 ) 不是，圖 ( 六 ) 是」。",
+      "將 D「圖 ( 五 ) 不是，圖 ( 六 ) 是」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 113,
+      "questionNumber": 7,
+      "url": "https://cap.rcpet.edu.tw/exam/113/113exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/113-math-p4.webp"
+    ]
+  },
+  {
+    "id": "OFF-0753",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "113年數學第8題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "若 a = 3.2 × 10−5， b = 7.5 × 10−5， c = 6.3 × 10−6，則 a、 b、c 三數的大小關係 為何？",
+    "questionImage": "./assets/official-exams/113-math-p4.webp",
+    "imageAlt": "113年國中教育會考數學科第8題官方試卷頁面",
+    "options": [
+      "a < b < c",
+      "a < c < b",
+      "c < a < b",
+      "c < b < a"
+    ],
+    "answer": 2,
+    "explanation": "依題目所給條件計算或判斷，結果對應 C「c < a < b」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「若 a = 3.2 × 10−5， b = 7.5 × 10−5， c = 6.3 × 10−6，則 a、 b、c 三數的大小關係 為何？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 C「c < a < b」。",
+      "將 C「c < a < b」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 113,
+      "questionNumber": 8,
+      "url": "https://cap.rcpet.edu.tw/exam/113/113exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/113-math-p4.webp"
+    ]
+  },
+  {
+    "id": "OFF-0754",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "113年數學第9題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "癌症分期是為了區別惡性腫瘤影響人體健康的程度，某國統計 2011 年確診 四種癌症一到四期的患者在 3 年後存活的比率 ( 3 年存活率 )，並依據癌症 類別與不同分期將資料整理成圖 ( 七 )。 圖 ( 七 ) 甲、乙兩人對該國 2011 年確診上述四種癌症的患者提出看法如下： ( 甲 ) 一到四期的乳癌患者的 3 年存活率皆高於 50% ( 乙 ) 在這四種癌症中，三期與四期的 3 年存活率相差最多的是胃癌 對於甲、乙兩人的看法，下列判斷何者正確？",
+    "questionImage": "./assets/official-exams/113-math-p5.webp",
+    "imageAlt": "113年國中教育會考數學科第9題官方試卷頁面",
+    "options": [
+      "甲、乙皆正確",
+      "甲、乙皆錯誤",
+      "甲正確，乙錯誤",
+      "甲錯誤，乙正確"
+    ],
+    "answer": 2,
+    "explanation": "依題目所給條件計算或判斷，結果對應 C「甲正確，乙錯誤」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「癌症分期是為了區別惡性腫瘤影響人體健康的程度，某國統計 2011 年確診 四種癌症一到四期的患者在 3 年後存活的比率 ( 3 年存活率 )，並依據癌症 類別與不同分期將資料整理成圖 ( 七 )。 圖 ( 七 ) 甲、乙兩人對該國 2011 年確診上述四種癌症的患者提出看法如下： ( 甲 ) 一到四」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 C「甲正確，乙錯誤」。",
+      "將 C「甲正確，乙錯誤」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 113,
+      "questionNumber": 9,
+      "url": "https://cap.rcpet.edu.tw/exam/113/113exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/113-math-p5.webp"
+    ]
+  },
+  {
+    "id": "OFF-0755",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "113年數學第10題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "下列何者為多項式 5x ( 5x −2 ) − 4( 5x −2 )2 的因式分解？",
+    "questionImage": "./assets/official-exams/113-math-p5.webp",
+    "imageAlt": "113年國中教育會考數學科第10題官方試卷頁面",
+    "options": [
+      "( 5x − 2 )( 25x − 8 )",
+      "( 5x − 2 )( 5x − 4 )",
+      "( 5x − 2 )( −15x + 8 )",
+      "( 5x − 2 )( −20x + 4 )"
+    ],
+    "answer": 2,
+    "explanation": "依題目所給條件計算或判斷，結果對應 C「( 5x − 2 )( −15x + 8 )」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「下列何者為多項式 5x ( 5x −2 ) − 4( 5x −2 )2 的因式分解？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 C「( 5x − 2 )( −15x + 8 )」。",
+      "將 C「( 5x − 2 )( −15x + 8 )」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 113,
+      "questionNumber": 10,
+      "url": "https://cap.rcpet.edu.tw/exam/113/113exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/113-math-p5.webp"
+    ]
+  },
+  {
+    "id": "OFF-0756",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "113年數學第11題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "將 化簡為 a + b 7，其中 a、b 為整數，求 a + b 之值為何？ 4 −",
+    "questionImage": "./assets/official-exams/113-math-p5.webp",
+    "imageAlt": "113年國中教育會考數學科第11題官方試卷頁面",
+    "options": [
+      "5",
+      "3",
+      "−9",
+      "−15"
+    ],
+    "answer": 0,
+    "explanation": "依題目所給條件計算或判斷，結果對應 A「5」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「將 化簡為 a + b 7，其中 a、b 為整數，求 a + b 之值為何？ 4 −」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 A「5」。",
+      "將 A「5」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 113,
+      "questionNumber": 11,
+      "url": "https://cap.rcpet.edu.tw/exam/113/113exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/113-math-p5.webp"
+    ]
+  },
+  {
+    "id": "OFF-0757",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "113年數學第12題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "甲、乙兩個二次函數分別為 y = ( x + 20 )2 + 60、y = − ( x − 30 )2 + 60，判斷 下列敘述何者正確？",
+    "questionImage": "./assets/official-exams/113-math-p6.webp",
+    "imageAlt": "113年國中教育會考數學科第12題官方試卷頁面",
+    "options": [
+      "甲有最大值，且其值為 x = 20 時的 y 值",
+      "甲有最小值，且其值為 x = 20 時的 y 值",
+      "乙有最大值，且其值為 x = 30 時的 y 值",
+      "乙有最小值，且其值為 x = 30 時的 y 值"
+    ],
+    "answer": 2,
+    "explanation": "依題目所給條件計算或判斷，結果對應 C「乙有最大值，且其值為 x = 30 時的 y 值」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「甲、乙兩個二次函數分別為 y = ( x + 20 )2 + 60、y = − ( x − 30 )2 + 60，判斷 下列敘述何者正確？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 C「乙有最大值，且其值為 x = 30 時的 y 值」。",
+      "將 C「乙有最大值，且其值為 x = 30 時的 y 值」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 113,
+      "questionNumber": 12,
+      "url": "https://cap.rcpet.edu.tw/exam/113/113exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/113-math-p6.webp"
+    ]
+  },
+  {
+    "id": "OFF-0758",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "113年數學第13題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "圖 ( 八 ) 為阿成調整他的電腦畫面的解析度時看到的選項，當他從建議選項 1920 × 1080 調整成 1400 × 1050 時， 由於比例改變( 1920： 1080 ≠ 1400： 1050 )， 畫面左右會出現黑色區域，當比例不變就不會有此問題。判斷阿成將他的 電腦畫面解析度從 1920 × 1080 調整成下列哪一種時，畫面左右不會出現 黑色區域？",
+    "questionImage": "./assets/official-exams/113-math-p6.webp",
+    "imageAlt": "113年國中教育會考數學科第13題官方試卷頁面",
+    "options": [
+      "1680 × 1050 1920 × 1080 ( ) 1680 × 1050",
+      "1600 × 900 1600 × 900 1440 × 900",
+      "1440 × 900 1400 × 1050",
+      "1280 × 1024 1366 × 768 1360 × 768 1280 × 1024 1280 × 960"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「1600 × 900 1600 × 900 1440 × 900」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「圖 ( 八 ) 為阿成調整他的電腦畫面的解析度時看到的選項，當他從建議選項 1920 × 1080 調整成 1400 × 1050 時， 由於比例改變( 1920： 1080 ≠ 1400： 1050 )， 畫面左右會出現黑色區域，當比例不變就不會有此問題。判斷阿成將他的 電腦畫面解析度從 1920」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「1600 × 900 1600 × 900 1440 × 900」。",
+      "將 B「1600 × 900 1600 × 900 1440 × 900」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 113,
+      "questionNumber": 13,
+      "url": "https://cap.rcpet.edu.tw/exam/113/113exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/113-math-p6.webp"
+    ]
+  },
+  {
+    "id": "OFF-0759",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "113年數學第14題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "小玲搭飛機出國旅遊，已知她搭飛機產生的 碳排放量為 800 公斤，為了彌補這些碳排放量， 1 她決定上下班時從駕駛汽車改成搭公車。依據 0 圖 ( 九 ) 的資訊，假設小玲每日上下班駕駛汽車 0.04 或搭公車的來回總距離皆為 20 公里，則與 0.05 駕駛汽車相比，她至少要改搭公車上下班幾天， 0.17 減少產生的碳排放量才會超過她搭飛機產生的 圖 ( 九 ) 碳排放量？",
+    "questionImage": "./assets/official-exams/113-math-p6.webp",
+    "imageAlt": "113年國中教育會考數學科第14題官方試卷頁面",
+    "options": [
+      "310 天",
+      "309 天",
+      "308 天",
+      "307 天"
+    ],
+    "answer": 2,
+    "explanation": "依題目所給條件計算或判斷，結果對應 C「308 天」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「小玲搭飛機出國旅遊，已知她搭飛機產生的 碳排放量為 800 公斤，為了彌補這些碳排放量， 1 她決定上下班時從駕駛汽車改成搭公車。依據 0 圖 ( 九 ) 的資訊，假設小玲每日上下班駕駛汽車 0.04 或搭公車的來回總距離皆為 20 公里，則與 0.05 駕駛汽車相比，她至少要改搭公車上下班幾天， 」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 C「308 天」。",
+      "將 C「308 天」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 113,
+      "questionNumber": 14,
+      "url": "https://cap.rcpet.edu.tw/exam/113/113exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/113-math-p6.webp"
+    ]
+  },
+  {
+    "id": "OFF-0760",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "113年數學第15題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "甲、乙兩個最簡分數分別為 、 ，其中 a、b 為正整數。若將甲、乙通分 a b 化成相同的分母後，甲的分子變為 50，乙的分子變為 54，則下列關於 a 的 敘述，何者正確？",
+    "questionImage": "./assets/official-exams/113-math-p7.webp",
+    "imageAlt": "113年國中教育會考數學科第15題官方試卷頁面",
+    "options": [
+      "a 是 3 的倍數，也是 5 的倍數",
+      "a 是 3 的倍數，但不是 5 的倍數",
+      "a 是 5 的倍數，但不是 3 的倍數",
+      "a 不是 3 的倍數，也不是 5 的倍數"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「a 是 3 的倍數，但不是 5 的倍數」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「甲、乙兩個最簡分數分別為 、 ，其中 a、b 為正整數。若將甲、乙通分 a b 化成相同的分母後，甲的分子變為 50，乙的分子變為 54，則下列關於 a 的 敘述，何者正確？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「a 是 3 的倍數，但不是 5 的倍數」。",
+      "將 B「a 是 3 的倍數，但不是 5 的倍數」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 113,
+      "questionNumber": 15,
+      "url": "https://cap.rcpet.edu.tw/exam/113/113exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/113-math-p7.webp"
+    ]
+  },
+  {
+    "id": "OFF-0761",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "113年數學第16題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "有研究報告指出，1880 年至 2020 年全球平均氣溫上升趨勢約為每十年上升 0.08 ℃。已知 2020 年全球平均氣溫為 14.88 ℃，假設未來的全球平均氣溫 上升趨勢與上述趨勢相同，且每年上升的度數相同，則預估 2020 年之後第 x 年 的全球平均氣溫為多少 ℃ ？ ( 以 x 表示 )",
+    "questionImage": "./assets/official-exams/113-math-p7.webp",
+    "imageAlt": "113年國中教育會考數學科第16題官方試卷頁面",
+    "options": [
+      "14.88 + 0.08x",
+      "14.88 + 0.008x",
+      "14.88 + 0.08 [ x + ( 2020 − 1880 )]",
+      "14.88 + 0.008 [ x + ( 2020 − 1880 )]"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「14.88 + 0.008x」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「有研究報告指出，1880 年至 2020 年全球平均氣溫上升趨勢約為每十年上升 0.08 ℃。已知 2020 年全球平均氣溫為 14.88 ℃，假設未來的全球平均氣溫 上升趨勢與上述趨勢相同，且每年上升的度數相同，則預估 2020 年之後第 x 年 的全球平均氣溫為多少 ℃ ？ ( 以 x 表示 )」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「14.88 + 0.008x」。",
+      "將 B「14.88 + 0.008x」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 113,
+      "questionNumber": 16,
+      "url": "https://cap.rcpet.edu.tw/exam/113/113exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/113-math-p7.webp"
+    ]
+  },
+  {
+    "id": "OFF-0762",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "113年數學第17題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "∆ABC 中，∠B = 55°， ∠C = 65°。今分別以 B、C 為圓心，BC 長為半徑 畫圓 B 、圓 C，關於 A 點位置，下列敘述何者正確？",
+    "questionImage": "./assets/official-exams/113-math-p7.webp",
+    "imageAlt": "113年國中教育會考數學科第17題官方試卷頁面",
+    "options": [
+      "在圓 B 外部，在圓 C 內部",
+      "在圓 B 外部，在圓 C 外部",
+      "在圓 B 內部，在圓 C 內部",
+      "在圓 B 內部，在圓 C 外部"
+    ],
+    "answer": 0,
+    "explanation": "依題目所給條件計算或判斷，結果對應 A「在圓 B 外部，在圓 C 內部」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「∆ABC 中，∠B = 55°， ∠C = 65°。今分別以 B、C 為圓心，BC 長為半徑 畫圓 B 、圓 C，關於 A 點位置，下列敘述何者正確？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 A「在圓 B 外部，在圓 C 內部」。",
+      "將 A「在圓 B 外部，在圓 C 內部」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 113,
+      "questionNumber": 17,
+      "url": "https://cap.rcpet.edu.tw/exam/113/113exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/113-math-p7.webp"
+    ]
+  },
+  {
+    "id": "OFF-0763",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "113年數學第18題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "如圖 ( 十 )，平行四邊形 ABCD 與平行四邊形 EFGH 全等，且 A、 B、 C、D 的對應頂點分別是 H、 E、 F、 G， 其中 E 在 DC 上， F 在 BC 上， C 在 FG 上。 若 AB = 7，AD = 5，FC = 3，則四邊形 ECGH 的周長為何？",
+    "questionImage": "./assets/official-exams/113-math-p8.webp",
+    "imageAlt": "113年國中教育會考數學科第18題官方試卷頁面",
+    "options": [
+      "21",
+      "20",
+      "19",
+      "18"
+    ],
+    "answer": 0,
+    "explanation": "依題目所給條件計算或判斷，結果對應 A「21」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「如圖 ( 十 )，平行四邊形 ABCD 與平行四邊形 EFGH 全等，且 A、 B、 C、D 的對應頂點分別是 H、 E、 F、 G， 其中 E 在 DC 上， F 在 BC 上， C 在 FG 上。 若 AB = 7，AD = 5，FC = 3，則四邊形 ECGH 的周長為何？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 A「21」。",
+      "將 A「21」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 113,
+      "questionNumber": 18,
+      "url": "https://cap.rcpet.edu.tw/exam/113/113exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/113-math-p8.webp"
+    ]
+  },
+  {
+    "id": "OFF-0764",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "113年數學第19題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "圖 ( 十一 ) 的數線上有 A(−2)、O(0)、B(2) 三點。今打算在此數線上標示 P ( p)、 Q(q) 兩點，且 p、 q 互為倒數， 若 P 在 A 的左側， 則下列敘述何者正確？",
+    "questionImage": "./assets/official-exams/113-math-p8.webp",
+    "imageAlt": "113年國中教育會考數學科第19題官方試卷頁面",
+    "options": [
+      "Q 在 AO 上，且 AQ < QO",
+      "Q 在 AO 上，且 AQ > QO",
+      "Q 在 OB 上，且 OQ < QB",
+      "Q 在 OB 上，且 OQ > QB"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「Q 在 AO 上，且 AQ > QO」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「圖 ( 十一 ) 的數線上有 A(−2)、O(0)、B(2) 三點。今打算在此數線上標示 P ( p)、 Q(q) 兩點，且 p、 q 互為倒數， 若 P 在 A 的左側， 則下列敘述何者正確？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「Q 在 AO 上，且 AQ > QO」。",
+      "將 B「Q 在 AO 上，且 AQ > QO」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 113,
+      "questionNumber": 19,
+      "url": "https://cap.rcpet.edu.tw/exam/113/113exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/113-math-p8.webp"
+    ]
+  },
+  {
+    "id": "OFF-0765",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "113年數學第20題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "四邊形 ABCD 中， E、F 兩點在 BC 上，G 點 在 AD 上，各點位置如圖 ( 十二 ) 所示。連接 GE、 GF 後， 根據圖(十二)中標示的角與角度， 判斷下列關係何者正確？",
+    "questionImage": "./assets/official-exams/113-math-p8.webp",
+    "imageAlt": "113年國中教育會考數學科第20題官方試卷頁面",
+    "options": [
+      "∠1 + ∠2 < ∠3 + ∠4",
+      "∠1 + ∠2 > ∠3 + ∠4",
+      "∠1 + ∠4 < ∠2 + ∠3",
+      "∠1 + ∠4 > ∠2 + ∠3"
+    ],
+    "answer": 3,
+    "explanation": "依題目所給條件計算或判斷，結果對應 D「∠1 + ∠4 > ∠2 + ∠3」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「四邊形 ABCD 中， E、F 兩點在 BC 上，G 點 在 AD 上，各點位置如圖 ( 十二 ) 所示。連接 GE、 GF 後， 根據圖(十二)中標示的角與角度， 判斷下列關係何者正確？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 D「∠1 + ∠4 > ∠2 + ∠3」。",
+      "將 D「∠1 + ∠4 > ∠2 + ∠3」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 113,
+      "questionNumber": 20,
+      "url": "https://cap.rcpet.edu.tw/exam/113/113exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/113-math-p8.webp"
+    ]
+  },
+  {
+    "id": "OFF-0766",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "113年數學第21題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "如圖 ( 十三 )，AC、BD 皆為半圓，AC 與 BD 相交於 E 點，其中 A、 B、C、 D 在同一直線上，且 B 為 AC 的中點。若 CE = 58°，則 BE 的度數為何？",
+    "questionImage": "./assets/official-exams/113-math-p9.webp",
+    "imageAlt": "113年國中教育會考數學科第21題官方試卷頁面",
+    "options": [
+      "58",
+      "60",
+      "62",
+      "64"
+    ],
+    "answer": 3,
+    "explanation": "依題目所給條件計算或判斷，結果對應 D「64」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「如圖 ( 十三 )，AC、BD 皆為半圓，AC 與 BD 相交於 E 點，其中 A、 B、C、 D 在同一直線上，且 B 為 AC 的中點。若 CE = 58°，則 BE 的度數為何？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 D「64」。",
+      "將 D「64」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 113,
+      "questionNumber": 21,
+      "url": "https://cap.rcpet.edu.tw/exam/113/113exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/113-math-p9.webp"
+    ]
+  },
+  {
+    "id": "OFF-0767",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "113年數學第22題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "如圖 ( 十四 )，ΔABC 內部有一點 D，且 ΔDAB、ΔDBC、ΔDCA 的面積 分別為 5、4、3 。若 ΔABC 的重心為 G，則下列敘述何者正確？",
+    "questionImage": "./assets/official-exams/113-math-p9.webp",
+    "imageAlt": "113年國中教育會考數學科第22題官方試卷頁面",
+    "options": [
+      "ΔGBC 與 ΔDBC 的面積相同，且 DG 與 BC 平行",
+      "ΔGBC 與 ΔDBC 的面積相同，且 DG 與 BC 不平行",
+      "ΔGCA 與 ΔDCA 的面積相同，且 DG 與 AC 平行",
+      "ΔGCA 與 ΔDCA 的面積相同，且 DG 與 AC 不平行"
+    ],
+    "answer": 0,
+    "explanation": "依題目所給條件計算或判斷，結果對應 A「ΔGBC 與 ΔDBC 的面積相同，且 DG 與 BC 平行」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「如圖 ( 十四 )，ΔABC 內部有一點 D，且 ΔDAB、ΔDBC、ΔDCA 的面積 分別為 5、4、3 。若 ΔABC 的重心為 G，則下列敘述何者正確？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 A「ΔGBC 與 ΔDBC 的面積相同，且 DG 與 BC 平行」。",
+      "將 A「ΔGBC 與 ΔDBC 的面積相同，且 DG 與 BC 平行」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 113,
+      "questionNumber": 22,
+      "url": "https://cap.rcpet.edu.tw/exam/113/113exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/113-math-p9.webp"
+    ]
+  },
+  {
+    "id": "OFF-0768",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "113年數學第23題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "如圖 ( 十五 )，等腰梯形紙片 ABCD 中，AD // BC，AB = DC，∠B = ∠C， 且 E 點在 BC 上，DE // AB。今以 DE 為摺線將 C 點向左摺後，C 點恰落在 AB 上，如圖 ( 十六 ) 所示。若 CE = 2，DE = 4，則圖 ( 十六 ) 的 BC 與 AC 的長度比為何？",
+    "questionImage": "./assets/official-exams/113-math-p9.webp",
+    "imageAlt": "113年國中教育會考數學科第23題官方試卷頁面",
+    "options": [
+      "1：2",
+      "1：3",
+      "2：3",
+      "3：5 圖 ( 十五 )"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「1：3」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「如圖 ( 十五 )，等腰梯形紙片 ABCD 中，AD // BC，AB = DC，∠B = ∠C， 且 E 點在 BC 上，DE // AB。今以 DE 為摺線將 C 點向左摺後，C 點恰落在 AB 上，如圖 ( 十六 ) 所示。若 CE = 2，DE = 4，則圖 ( 十六 ) 的 BC 與 AC」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「1：3」。",
+      "將 B「1：3」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 113,
+      "questionNumber": 23,
+      "url": "https://cap.rcpet.edu.tw/exam/113/113exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/113-math-p9.webp"
+    ]
+  },
+  {
+    "id": "OFF-0769",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "113年數學第24題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "以下為甲、乙兩個關於成年女性理想體重的敘述： ( 甲 ) 有的女性使用算法 與算法 算出的理想體重會相同 ( 乙 ) 有的女性使用算法 與算法 算出的理想體重會相同 對於甲、乙兩個敘述，下列判斷何者正確？",
+    "questionImage": "./assets/official-exams/113-math-p10.webp",
+    "imageAlt": "113年國中教育會考數學科第24題官方試卷頁面",
+    "options": [
+      "甲、乙皆正確",
+      "甲、乙皆錯誤",
+      "甲正確，乙錯誤",
+      "甲錯誤，乙正確"
+    ],
+    "answer": 3,
+    "explanation": "依題目所給條件計算或判斷，結果對應 D「甲錯誤，乙正確」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「以下為甲、乙兩個關於成年女性理想體重的敘述： ( 甲 ) 有的女性使用算法 與算法 算出的理想體重會相同 ( 乙 ) 有的女性使用算法 與算法 算出的理想體重會相同 對於甲、乙兩個敘述，下列判斷何者正確？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 D「甲錯誤，乙正確」。",
+      "將 D「甲錯誤，乙正確」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 113,
+      "questionNumber": 24,
+      "url": "https://cap.rcpet.edu.tw/exam/113/113exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/113-math-p10.webp"
+    ]
+  },
+  {
+    "id": "OFF-0770",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "113年數學第25題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "無論我們使用哪一種算法計算理想體重，都可將個人的實際體重歸類為 表 ( 二 ) 的其中一種類別。 表 ( 二 ) 當身高 1.8 公尺的成年男性使用算法 計算理想體重並根據表 ( 二 ) 歸類， 實際體重介於 70 × 90% 公斤至 70 × 110% 公斤之間會被歸類為正常。若將 上述身高 1.8 公尺且實際體重被歸類為正常的成年男性，重新以算法 計算 理想體重並根據表 ( 二 ) 歸類，則所有可能被歸類的類別為何？",
+    "questionImage": "./assets/official-exams/113-math-p10.webp",
+    "imageAlt": "113年國中教育會考數學科第25題官方試卷頁面",
+    "options": [
+      "正常",
+      "正常、過重",
+      "正常、過輕",
+      "正常、過重、過輕"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「正常、過重」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「無論我們使用哪一種算法計算理想體重，都可將個人的實際體重歸類為 表 ( 二 ) 的其中一種類別。 表 ( 二 ) 當身高 1.8 公尺的成年男性使用算法 計算理想體重並根據表 ( 二 ) 歸類， 實際體重介於 70 × 90% 公斤至 70 × 110% 公斤之間會被歸類為正常。若將 上述身高 1.」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「正常、過重」。",
+      "將 B「正常、過重」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 113,
+      "questionNumber": 25,
+      "url": "https://cap.rcpet.edu.tw/exam/113/113exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1MXfrOI_4KyxF6A-2NNd_J_eIuo3Epa46/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/113-math-p10.webp"
+    ]
+  },
+  {
+    "id": "OFF-0960",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "114年數學第1題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "某民調公司訪問 A 市的成年民眾對於某項政策的態度，並依年齡分成 3 組。因 受訪者的年齡分布與全體成年人口的年齡分布有落差，於是利用「調整倍率」 讓調整後的結果更接近全體的民意，如表 ( 二 ) 所示。 表 ( 二 ) 其中， 該組人口總數 人口占比 = × 100% 全體成年人口總數 該組受訪者數 調查比率 = × 100% 所有受訪者數 該組人口占比 調整倍率 = 該組調查比率 該組受訪者中贊成(反對)人數 調整前贊成 ( 反對 ) 的比率 = × 100% 所有受訪者數 調整後贊成 ( 反對 ) 的比率 = 該組調整前贊成 ( 反對 ) 的比率 × 調整倍率 表 ( 二 ) 中， 全體成年人口有 40% 為 18 ～ 39 歲組， 但受訪者中只有 20% 為 18 ～ 39 歲組，算出調整倍率為 2。因此，分別將贊成與反對的比率 8%、 12% 乘以 2，變成 16%、 24%。整體結果調整前為贊成大於反對， 調整後卻變成反對 大於贊成。 請根據上述資訊回答下列問題，完整寫出你的解題過程並詳細解釋： (1) 計算 60 歲以上組的調整倍率為何？ (2) 求 40 ～ 59 歲組與 60 歲以上組的調整前贊成比率分別為何？",
+    "questionImage": "./assets/official-exams/114-math-p11.webp",
+    "imageAlt": "114年國中教育會考數學科第1題官方試卷頁面",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 2,
+    "explanation": "本題為官方非選擇題，需依題圖完成各小題並呈現計算過程；現有選項與答案索引僅為前台格式占位，不宜當作標準答案。",
+    "solutionSteps": [
+      "先依題圖與題幹整理已知條件：「某民調公司訪問 A 市的成年民眾對於某項政策的態度，並依年齡分成 3 組。因 受訪者的年齡分布與全體成年人口的年齡分布有落差，於是利用「調整倍率」 讓調整後的結果更接近全體的民意，如表 ( 二 ) 所示。 表 ( 二 ) 其中， 該組人口總數 人口占比 = × 100% 全體成年人口總數 該組受訪者」。本題原為非選擇題，須分別完成各小題。",
+      "逐小題列式、計算並保留必要單位或範圍；現有 A～D 選項與 answer 欄位是前台格式占位，不代表原官方答案。",
+      "完成後把各小題結果代回題目條件驗算；正式發布前應改用可輸入作答過程的題型。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 114,
+      "questionNumber": 1,
+      "url": "https://cap.rcpet.edu.tw/exam/114/114exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/114-math-p11.webp"
+    ]
+  },
+  {
+    "id": "OFF-0961",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "114年數學第2題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "商店中販賣一款包含 A、B 兩種圖案的藝術紙片組合包，形狀分別為 16 公分 × 5 公分、18 公分 × 5 公分的長方形，如圖 ( 十七 ) 所示。 圖 ( 十七 ) 小燦打算在不裁切紙片的情況下，將這兩種藝術紙片以緊密相鄰的方式貼成 圖 ( 十八 ) 的長方形， 其中奇數層為 A 圖案，偶數層為 B 圖案，且最後一層 為 A 圖案，而相同圖案的藝術紙片皆為相同的方向。 圖 ( 十八 ) 請根據上述資訊回答下列問題，完整寫出你的解題過程並詳細解釋： (1) 以上述方式貼成的長方形，第一層最少有幾個 A 圖案？ (2) 已知每個組合包中 A、B 兩種圖案的藝術紙片數量比為 4：3，若小燦想購 買一些組合包，貼成圖 (十八)的長方形， 其中第一層的 A 圖案數量與 (1) 求出 之值相同，判斷他是否可能恰好把購買的藝術紙片用完？請說明理由。",
+    "questionImage": "./assets/official-exams/114-math-p12.webp",
+    "imageAlt": "114年國中教育會考數學科第2題官方試卷頁面",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 1,
+    "explanation": "本題為官方非選擇題，需依題圖完成各小題並呈現計算過程；現有選項與答案索引僅為前台格式占位，不宜當作標準答案。",
+    "solutionSteps": [
+      "先依題圖與題幹整理已知條件：「商店中販賣一款包含 A、B 兩種圖案的藝術紙片組合包，形狀分別為 16 公分 × 5 公分、18 公分 × 5 公分的長方形，如圖 ( 十七 ) 所示。 圖 ( 十七 ) 小燦打算在不裁切紙片的情況下，將這兩種藝術紙片以緊密相鄰的方式貼成 圖 ( 十八 ) 的長方形， 其中奇數層為 A 圖案，偶數層」。本題原為非選擇題，須分別完成各小題。",
+      "逐小題列式、計算並保留必要單位或範圍；現有 A～D 選項與 answer 欄位是前台格式占位，不代表原官方答案。",
+      "完成後把各小題結果代回題目條件驗算；正式發布前應改用可輸入作答過程的題型。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 114,
+      "questionNumber": 2,
+      "url": "https://cap.rcpet.edu.tw/exam/114/114exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/114-math-p12.webp"
+    ]
+  },
+  {
+    "id": "OFF-0962",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "114年數學第3題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "圖 ( 一 ) 方格紙格線上的八條等長線段形成一個 線對稱圖形。圖中有四條線段標示上號碼，判斷 擦去下列哪個選項中的兩條線段後，剩下的圖形 不是線對稱圖形？",
+    "questionImage": "./assets/official-exams/114-math-p2.webp",
+    "imageAlt": "114年國中教育會考數學科第3題官方試卷頁面",
+    "options": [
+      "和 2",
+      "和 3",
+      "2 和 3",
+      "2 和 4"
+    ],
+    "answer": 2,
+    "explanation": "依題目所給條件計算或判斷，結果對應 C「2 和 3」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「圖 ( 一 ) 方格紙格線上的八條等長線段形成一個 線對稱圖形。圖中有四條線段標示上號碼，判斷 擦去下列哪個選項中的兩條線段後，剩下的圖形 不是線對稱圖形？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 C「2 和 3」。",
+      "將 C「2 和 3」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 114,
+      "questionNumber": 3,
+      "url": "https://cap.rcpet.edu.tw/exam/114/114exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/114-math-p2.webp"
+    ]
+  },
+  {
+    "id": "OFF-0963",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "114年數學第4題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "若二元一次聯立方程式 37x + 2y = 81 的解為 x = a ，則 a + 2b 之值為何？ 23x − 2y = 39 y = b",
+    "questionImage": "./assets/official-exams/114-math-p3.webp",
+    "imageAlt": "114年國中教育會考數學科第4題官方試卷頁面",
+    "options": [
+      "33",
+      "9",
+      "−3",
+      "−27"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「9」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「若二元一次聯立方程式 37x + 2y = 81 的解為 x = a ，則 a + 2b 之值為何？ 23x − 2y = 39 y = b」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「9」。",
+      "將 B「9」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 114,
+      "questionNumber": 4,
+      "url": "https://cap.rcpet.edu.tw/exam/114/114exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/114-math-p3.webp"
+    ]
+  },
+  {
+    "id": "OFF-0964",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "114年數學第5題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "如圖 ( 二 )， ∆ABC 中有 AD ，D 點在 BC 上。根據 圖中標示的度數，求 p + q + r 之值是多少？",
+    "questionImage": "./assets/official-exams/114-math-p3.webp",
+    "imageAlt": "114年國中教育會考數學科第5題官方試卷頁面",
+    "options": [
+      "140",
+      "150",
+      "160",
+      "180"
+    ],
+    "answer": 2,
+    "explanation": "依題目所給條件計算或判斷，結果對應 C「160」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「如圖 ( 二 )， ∆ABC 中有 AD ，D 點在 BC 上。根據 圖中標示的度數，求 p + q + r 之值是多少？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 C「160」。",
+      "將 C「160」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 114,
+      "questionNumber": 5,
+      "url": "https://cap.rcpet.edu.tw/exam/114/114exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/114-math-p3.webp"
+    ]
+  },
+  {
+    "id": "OFF-0965",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "114年數學第6題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "圖 ( 三 ) 為一坐標平面，若從平面上的點 ( −1 , 2 ) 出發，向下移動再向右移動，則可能移動到下列 哪一點？",
+    "questionImage": "./assets/official-exams/114-math-p3.webp",
+    "imageAlt": "114年國中教育會考數學科第6題官方試卷頁面",
+    "options": [
+      "( 4 , 1 )",
+      "( 4 , 3 )",
+      "( −4 , 1 )",
+      "( −4 , 3 )"
+    ],
+    "answer": 0,
+    "explanation": "依題目所給條件計算或判斷，結果對應 A「( 4 , 1 )」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「圖 ( 三 ) 為一坐標平面，若從平面上的點 ( −1 , 2 ) 出發，向下移動再向右移動，則可能移動到下列 哪一點？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 A「( 4 , 1 )」。",
+      "將 A「( 4 , 1 )」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 114,
+      "questionNumber": 6,
+      "url": "https://cap.rcpet.edu.tw/exam/114/114exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/114-math-p3.webp"
+    ]
+  },
+  {
+    "id": "OFF-0966",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "114年數學第7題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "圖 ( 四 ) 為某國預估 50 年後的人口變動數直方圖，各組的數值若為正數表示 該組人口 50 年後會增加，若為負數表示該組人口 50 年後會減少。根據此圖預估 該國 60 歲以上的人口，50 年後會增加或減少多少人？",
+    "questionImage": "./assets/official-exams/114-math-p4.webp",
+    "imageAlt": "114年國中教育會考數學科第7題官方試卷頁面",
+    "options": [
+      "增加 207 萬人",
+      "增加 425 萬人",
+      "減少 109 萬人",
+      "減少 271 萬人"
+    ],
+    "answer": 0,
+    "explanation": "依題目所給條件計算或判斷，結果對應 A「增加 207 萬人」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「圖 ( 四 ) 為某國預估 50 年後的人口變動數直方圖，各組的數值若為正數表示 該組人口 50 年後會增加，若為負數表示該組人口 50 年後會減少。根據此圖預估 該國 60 歲以上的人口，50 年後會增加或減少多少人？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 A「增加 207 萬人」。",
+      "將 A「增加 207 萬人」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 114,
+      "questionNumber": 7,
+      "url": "https://cap.rcpet.edu.tw/exam/114/114exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/114-math-p4.webp"
+    ]
+  },
+  {
+    "id": "OFF-0967",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "114年數學第8題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "計算 ( 2 3 + 6 ) × 2 的結果，與下列何者相同？",
+    "questionImage": "./assets/official-exams/114-math-p4.webp",
+    "imageAlt": "114年國中教育會考數學科第8題官方試卷頁面",
+    "options": [
+      "4 3",
+      "6 3",
+      "2 3 + 2 6",
+      "4 3 + 2 6"
+    ],
+    "answer": 2,
+    "explanation": "依題目所給條件計算或判斷，結果對應 C「2 3 + 2 6」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「計算 ( 2 3 + 6 ) × 2 的結果，與下列何者相同？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 C「2 3 + 2 6」。",
+      "將 C「2 3 + 2 6」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 114,
+      "questionNumber": 8,
+      "url": "https://cap.rcpet.edu.tw/exam/114/114exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/114-math-p4.webp"
+    ]
+  },
+  {
+    "id": "OFF-0968",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "114年數學第9題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "某園區想將 20 個無障礙停車位設置在出入口附近，為了符合規定，規劃每個 停車位的長度為 600 公分，寬度為 200 公分，並且停車位旁需設置寬度為 150 公分 的下車區，相鄰的停車位可以共用下車區。若以圖 ( 五 ) 的方式讓這些停車位 相鄰，且兩個相鄰的停車位之間皆有下車區，則圖中的停車位及下車區的總寬度 是多少公分？",
+    "questionImage": "./assets/official-exams/114-math-p5.webp",
+    "imageAlt": "114年國中教育會考數學科第9題官方試卷頁面",
+    "options": [
+      "6850",
+      "7000",
+      "7150",
+      "7200"
+    ],
+    "answer": 0,
+    "explanation": "依題目所給條件計算或判斷，結果對應 A「6850」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「某園區想將 20 個無障礙停車位設置在出入口附近，為了符合規定，規劃每個 停車位的長度為 600 公分，寬度為 200 公分，並且停車位旁需設置寬度為 150 公分 的下車區，相鄰的停車位可以共用下車區。若以圖 ( 五 ) 的方式讓這些停車位 相鄰，且兩個相鄰的停車位之間皆有下車區，則圖中的停車位及」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 A「6850」。",
+      "將 A「6850」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 114,
+      "questionNumber": 9,
+      "url": "https://cap.rcpet.edu.tw/exam/114/114exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/114-math-p5.webp"
+    ]
+  },
+  {
+    "id": "OFF-0969",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "114年數學第10題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "利用乘法公式判斷，下列算式之值，何者與其他不相同？",
+    "questionImage": "./assets/official-exams/114-math-p5.webp",
+    "imageAlt": "114年國中教育會考數學科第10題官方試卷頁面",
+    "options": [
+      "( 1062 − 42 ) × ( 1082 − 22 )",
+      "( 1072 − 32 ) × ( 1072 − 12 )",
+      "( 1082 − 22 ) × ( 1062 − 22 )",
+      "( 1092 − 12 ) × ( 1052 − 12 )"
+    ],
+    "answer": 0,
+    "explanation": "依題目所給條件計算或判斷，結果對應 A「( 1062 − 42 ) × ( 1082 − 22 )」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「利用乘法公式判斷，下列算式之值，何者與其他不相同？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 A「( 1062 − 42 ) × ( 1082 − 22 )」。",
+      "將 A「( 1062 − 42 ) × ( 1082 − 22 )」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 114,
+      "questionNumber": 10,
+      "url": "https://cap.rcpet.edu.tw/exam/114/114exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/114-math-p5.webp"
+    ]
+  },
+  {
+    "id": "OFF-0970",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "114年數學第11題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "阿嘉和小楊都有 5 張分別標示數字 1、2、3、4、5 的紙牌，圖 ( 六 ) 表示兩人 的牌中皆有三張牌被自己蓋住的情形。今兩人打算從自己蓋住的紙牌中翻 開一張牌，若阿嘉蓋住的牌中每張牌被翻開的機會相等，小楊蓋住的牌中每 張牌被翻開的機會相等，則比較兩人翻開的那張牌上的數字，阿嘉比小楊大 的機率為何？",
+    "questionImage": "./assets/official-exams/114-math-p5.webp",
+    "imageAlt": "114年國中教育會考數學科第11題官方試卷頁面",
+    "options": [
+      "3 2",
+      "5 2 3 1",
+      "9 2",
+      "9"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「5 2 3 1」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「阿嘉和小楊都有 5 張分別標示數字 1、2、3、4、5 的紙牌，圖 ( 六 ) 表示兩人 的牌中皆有三張牌被自己蓋住的情形。今兩人打算從自己蓋住的紙牌中翻 開一張牌，若阿嘉蓋住的牌中每張牌被翻開的機會相等，小楊蓋住的牌中每 張牌被翻開的機會相等，則比較兩人翻開的那張牌上的數字，阿嘉比小楊大 的機率為」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「5 2 3 1」。",
+      "將 B「5 2 3 1」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 114,
+      "questionNumber": 11,
+      "url": "https://cap.rcpet.edu.tw/exam/114/114exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/114-math-p5.webp"
+    ]
+  },
+  {
+    "id": "OFF-0971",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "114年數學第12題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "有甲、乙、丙三種三角形木片，其邊長如圖 ( 七 ) 所示，阿林、小博打算利 用這三種木片各自組合成一個正三角錐。首先兩人皆選一片甲當作底面， 接著阿林選三片乙當作側面，小博選三片丙當作側面，關於兩人選的木片 能不能組合成一個正三角錐，下列判斷何者正確？",
+    "questionImage": "./assets/official-exams/114-math-p6.webp",
+    "imageAlt": "114年國中教育會考數學科第12題官方試卷頁面",
+    "options": [
+      "兩人皆能",
+      "兩人皆不能 3",
+      "阿林能，小博不能",
+      "阿林不能，小博能"
+    ],
+    "answer": 3,
+    "explanation": "依題目所給條件計算或判斷，結果對應 D「阿林不能，小博能」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「有甲、乙、丙三種三角形木片，其邊長如圖 ( 七 ) 所示，阿林、小博打算利 用這三種木片各自組合成一個正三角錐。首先兩人皆選一片甲當作底面， 接著阿林選三片乙當作側面，小博選三片丙當作側面，關於兩人選的木片 能不能組合成一個正三角錐，下列判斷何者正確？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 D「阿林不能，小博能」。",
+      "將 D「阿林不能，小博能」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 114,
+      "questionNumber": 12,
+      "url": "https://cap.rcpet.edu.tw/exam/114/114exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/114-math-p6.webp"
+    ]
+  },
+  {
+    "id": "OFF-0972",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "114年數學第13題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "已知甲方程式為 ( x − 4 )2 = 9，乙方程式為 ( x + 9 )2 = −4。關於甲、乙兩 方程式的解的情形，下列敘述何者正確？",
+    "questionImage": "./assets/official-exams/114-math-p6.webp",
+    "imageAlt": "114年國中教育會考數學科第13題官方試卷頁面",
+    "options": [
+      "甲有兩個相異的解，乙無解",
+      "甲有兩個相異的解，乙有兩個相異的解",
+      "甲有兩個相同的解，乙無解",
+      "甲有兩個相同的解，乙有兩個相異的解"
+    ],
+    "answer": 0,
+    "explanation": "依題目所給條件計算或判斷，結果對應 A「甲有兩個相異的解，乙無解」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「已知甲方程式為 ( x − 4 )2 = 9，乙方程式為 ( x + 9 )2 = −4。關於甲、乙兩 方程式的解的情形，下列敘述何者正確？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 A「甲有兩個相異的解，乙無解」。",
+      "將 A「甲有兩個相異的解，乙無解」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 114,
+      "questionNumber": 13,
+      "url": "https://cap.rcpet.edu.tw/exam/114/114exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/114-math-p6.webp"
+    ]
+  },
+  {
+    "id": "OFF-0973",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "114年數學第14題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "圖 ( 八 ) 為貝可咖啡店的菜單，店家今日 準備了 120 杯咖啡和 100 個三明治販售。 若今日準備的餐點全部售出且收入共為 8700 元，則售出早餐組合的收入在下列 哪一個範圍？",
+    "questionImage": "./assets/official-exams/114-math-p6.webp",
+    "imageAlt": "114年國中教育會考數學科第14題官方試卷頁面",
+    "options": [
+      "4300 ～ 4399 元",
+      "4400 ～ 4499 元",
+      "4500 ～ 4599 元",
+      "4600 ～ 4699 元"
+    ],
+    "answer": 2,
+    "explanation": "依題目所給條件計算或判斷，結果對應 C「4500 ～ 4599 元」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「圖 ( 八 ) 為貝可咖啡店的菜單，店家今日 準備了 120 杯咖啡和 100 個三明治販售。 若今日準備的餐點全部售出且收入共為 8700 元，則售出早餐組合的收入在下列 哪一個範圍？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 C「4500 ～ 4599 元」。",
+      "將 C「4500 ～ 4599 元」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 114,
+      "questionNumber": 14,
+      "url": "https://cap.rcpet.edu.tw/exam/114/114exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/114-math-p6.webp"
+    ]
+  },
+  {
+    "id": "OFF-0974",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "114年數學第15題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "如圖 ( 九 )，數線上由左至右有 A(a)、B(b)、C(c)、D(d)、E(e) 五點，且 AB = BC = CD = DE。若原點在 AE 上，且 a + b = e ，則下列關於原點 位置的敘述，何者正確？",
+    "questionImage": "./assets/official-exams/114-math-p7.webp",
+    "imageAlt": "114年國中教育會考數學科第15題官方試卷頁面",
+    "options": [
+      "在 BC 上且較接近 B 點",
+      "在 BC 上且較接近 C 點",
+      "在 CD 上且較接近 C 點",
+      "在 CD 上且較接近 D 點"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「在 BC 上且較接近 C 點」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「如圖 ( 九 )，數線上由左至右有 A(a)、B(b)、C(c)、D(d)、E(e) 五點，且 AB = BC = CD = DE。若原點在 AE 上，且 a + b = e ，則下列關於原點 位置的敘述，何者正確？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「在 BC 上且較接近 C 點」。",
+      "將 B「在 BC 上且較接近 C 點」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 114,
+      "questionNumber": 15,
+      "url": "https://cap.rcpet.edu.tw/exam/114/114exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/114-math-p7.webp"
+    ]
+  },
+  {
+    "id": "OFF-0975",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "114年數學第16題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "如圖 ( 十 )，∆ABC 中，D 點為 AB 的中點，E 點在 AB 上，F 點在 AC 上， 且 EF // BC。若 AF = 7，FC = 3，則下列敘述何者正確？",
+    "questionImage": "./assets/official-exams/114-math-p7.webp",
+    "imageAlt": "114年國中教育會考數學科第16題官方試卷頁面",
+    "options": [
+      "DE > EB，DF 與 EC 平行",
+      "DE > EB，DF 與 EC 不平行",
+      "DE < EB，DF 與 EC 平行",
+      "DE < EB，DF 與 EC 不平行"
+    ],
+    "answer": 3,
+    "explanation": "依題目所給條件計算或判斷，結果對應 D「DE < EB，DF 與 EC 不平行」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「如圖 ( 十 )，∆ABC 中，D 點為 AB 的中點，E 點在 AB 上，F 點在 AC 上， 且 EF // BC。若 AF = 7，FC = 3，則下列敘述何者正確？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 D「DE < EB，DF 與 EC 不平行」。",
+      "將 D「DE < EB，DF 與 EC 不平行」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 114,
+      "questionNumber": 16,
+      "url": "https://cap.rcpet.edu.tw/exam/114/114exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/114-math-p7.webp"
+    ]
+  },
+  {
+    "id": "OFF-0976",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "114年數學第17題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "圖 ( 十一 ) 是某種螺絲釘上螺紋的示意圖，圖中的虛線皆為水平線或鉛垂線， 圖上標示出角度，也標示出水平線間或鉛垂線間的距離。根據圖中的標示， 判斷此種螺絲釘的螺紋深度是螺紋間距的多少倍？",
+    "questionImage": "./assets/official-exams/114-math-p7.webp",
+    "imageAlt": "114年國中教育會考數學科第17題官方試卷頁面",
+    "options": [
+      "8 5",
+      "16 5 3",
+      "8 5 3",
+      "16"
+    ],
+    "answer": 3,
+    "explanation": "依題目所給條件計算或判斷，結果對應 D「16」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「圖 ( 十一 ) 是某種螺絲釘上螺紋的示意圖，圖中的虛線皆為水平線或鉛垂線， 圖上標示出角度，也標示出水平線間或鉛垂線間的距離。根據圖中的標示， 判斷此種螺絲釘的螺紋深度是螺紋間距的多少倍？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 D「16」。",
+      "將 D「16」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 114,
+      "questionNumber": 17,
+      "url": "https://cap.rcpet.edu.tw/exam/114/114exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/114-math-p7.webp"
+    ]
+  },
+  {
+    "id": "OFF-0977",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "114年數學第18題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "已知 a、b、c 皆為正整數，且 a、b 兩數的最大公因數與最小公倍數分別為 11 與 88。關於 a、b、c 三數的最大公因數與最小公倍數，甲、乙兩人分別 提出看法如下： 甲： a、b、c 三數的最大公因數可能比 11 大 乙： a、b、c 三數的最小公倍數可能比 88 小 對於甲、乙兩人的看法，下列判斷何者正確？",
+    "questionImage": "./assets/official-exams/114-math-p8.webp",
+    "imageAlt": "114年國中教育會考數學科第18題官方試卷頁面",
+    "options": [
+      "甲、乙皆正確",
+      "甲、乙皆錯誤",
+      "甲正確，乙錯誤",
+      "甲錯誤，乙正確"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「甲、乙皆錯誤」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「已知 a、b、c 皆為正整數，且 a、b 兩數的最大公因數與最小公倍數分別為 11 與 88。關於 a、b、c 三數的最大公因數與最小公倍數，甲、乙兩人分別 提出看法如下： 甲： a、b、c 三數的最大公因數可能比 11 大 乙： a、b、c 三數的最小公倍數可能比 88 小 對於甲、乙兩人的看法，」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「甲、乙皆錯誤」。",
+      "將 B「甲、乙皆錯誤」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 114,
+      "questionNumber": 18,
+      "url": "https://cap.rcpet.edu.tw/exam/114/114exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/114-math-p8.webp"
+    ]
+  },
+  {
+    "id": "OFF-0978",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "114年數學第19題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "圖 ( 十二 ) 為金銀河影城的價目表。某 社團 16 人去此影城看電影，打算以比賽 獎金 6000 元購買電影票、爆米花與 飲料。若要讓每人拿到一張電影票和 一杯飲料，則最多可買多少盒爆米花？ (A) 3 (B) 4 (C) 5 圖 ( 十二 ) (D)",
+    "questionImage": "./assets/official-exams/114-math-p8.webp",
+    "imageAlt": "114年國中教育會考數學科第19題官方試卷頁面",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 2,
+    "explanation": "正確答案索引為 C；原始 OCR 未保留可靠的選項文字，請以官方題圖中的 C 選項原文及題目條件核對。",
+    "solutionSteps": [
+      "先讀取官方題圖與題幹條件：「圖 ( 十二 ) 為金銀河影城的價目表。某 社團 16 人去此影城看電影，打算以比賽 獎金 6000 元購買電影票、爆米花與 飲料。若要讓每人拿到一張電影票和 一杯飲料，則最多可買多少盒爆米花？ (A) 3 (B) 4 (C) 5 圖 ( 十二 ) (D)」，確認公式、圖形標示、單位與所求量。",
+      "依題目條件完成運算或逐項檢核；正確答案索引為 C，實際選項文字因原始 OCR 未可靠保留，須以題圖中的 C 選項原文為準。",
+      "將題圖中的 C 選項代回原條件，並檢查正負號、單位、範圍及是否符合所有圖表限制。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 114,
+      "questionNumber": 19,
+      "url": "https://cap.rcpet.edu.tw/exam/114/114exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/114-math-p8.webp"
+    ]
+  },
+  {
+    "id": "OFF-0979",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "114年數學第20題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "圖 ( 十三 ) 為一張五邊形紙片 ABCDE，F 點在 CD 上，且以 BE、BF、FE 為 摺線將紙片向內摺至同一平面後，A、C、D 恰重疊在同一點 P，如圖 ( 十四 ) 所 示。若 BE > FE > BF，則根據圖 ( 十四 ) 中標示的角， 判斷下列敘述何者正確？ 6 圖 ( 十三 )",
+    "questionImage": "./assets/official-exams/114-math-p8.webp",
+    "imageAlt": "114年國中教育會考數學科第20題官方試卷頁面",
+    "options": [
+      "∠3 + ∠4 = 90°，∠1 + ∠2 > ∠5 + ∠6",
+      "∠3 + ∠4 = 90°，∠1 + ∠2 < ∠5 + ∠6",
+      "∠3 + ∠4 ≠ 90°，∠1 + ∠2 > ∠5 + ∠6",
+      "∠3 + ∠4 ≠ 90°，∠1 + ∠2 < ∠5 + ∠6"
+    ],
+    "answer": 0,
+    "explanation": "依題目所給條件計算或判斷，結果對應 A「∠3 + ∠4 = 90°，∠1 + ∠2 > ∠5 + ∠6」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「圖 ( 十三 ) 為一張五邊形紙片 ABCDE，F 點在 CD 上，且以 BE、BF、FE 為 摺線將紙片向內摺至同一平面後，A、C、D 恰重疊在同一點 P，如圖 ( 十四 ) 所 示。若 BE > FE > BF，則根據圖 ( 十四 ) 中標示的角， 判斷下列敘述何者正確？ 6 圖 ( 十三 )」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 A「∠3 + ∠4 = 90°，∠1 + ∠2 > ∠5 + ∠6」。",
+      "將 A「∠3 + ∠4 = 90°，∠1 + ∠2 > ∠5 + ∠6」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 114,
+      "questionNumber": 20,
+      "url": "https://cap.rcpet.edu.tw/exam/114/114exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/114-math-p8.webp"
+    ]
+  },
+  {
+    "id": "OFF-0980",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "114年數學第21題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "坐標平面上有二次函數 y = −( x + 7 )2 + 12 的圖形，今將此圖形向右平移 10 單位，平移過程中此圖形與 y 軸的交點也會跟著變化。假設此圖形與 y 軸的 交點為 P，判斷在平移過程中，P 點位置的變化情形為下列何者？",
+    "questionImage": "./assets/official-exams/114-math-p9.webp",
+    "imageAlt": "114年國中教育會考數學科第21題官方試卷頁面",
+    "options": [
+      "持續向下",
+      "持續向上",
+      "先向下再向上",
+      "先向上再向下"
+    ],
+    "answer": 3,
+    "explanation": "依題目所給條件計算或判斷，結果對應 D「先向上再向下」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「坐標平面上有二次函數 y = −( x + 7 )2 + 12 的圖形，今將此圖形向右平移 10 單位，平移過程中此圖形與 y 軸的交點也會跟著變化。假設此圖形與 y 軸的 交點為 P，判斷在平移過程中，P 點位置的變化情形為下列何者？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 D「先向上再向下」。",
+      "將 D「先向上再向下」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 114,
+      "questionNumber": 21,
+      "url": "https://cap.rcpet.edu.tw/exam/114/114exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/114-math-p9.webp"
+    ]
+  },
+  {
+    "id": "OFF-0981",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "114年數學第22題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "如圖 ( 十五 )，∆ADG 的頂點 G 為 ∆ABC 的重心，DG 與 AB 相交於 E 點。 若 DE ： EG = 3：2， AE ： EB = 3：4， 則 ∆ADG 面積為 ∆ABC 面積的多少倍？",
+    "questionImage": "./assets/official-exams/114-math-p9.webp",
+    "imageAlt": "114年國中教育會考數學科第22題官方試卷頁面",
+    "options": [
+      "12 5",
+      "14 5",
+      "15 5",
+      "21"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「14 5」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「如圖 ( 十五 )，∆ADG 的頂點 G 為 ∆ABC 的重心，DG 與 AB 相交於 E 點。 若 DE ： EG = 3：2， AE ： EB = 3：4， 則 ∆ADG 面積為 ∆ABC 面積的多少倍？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「14 5」。",
+      "將 B「14 5」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 114,
+      "questionNumber": 22,
+      "url": "https://cap.rcpet.edu.tw/exam/114/114exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/114-math-p9.webp"
+    ]
+  },
+  {
+    "id": "OFF-0982",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "114年數學第23題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "如圖 ( 十六 )，∆ABC 的三個頂點都在一圓上，固定 A 點將 ∆ABC 依順時針 方向旋轉，旋轉後的三角形為 ∆AB′C′，且 B′ 會落在同一圓上，其中 AB 與 AC′ 的夾角為 x°。若 BC = 54°，CA = 62°，則 x 值為何？",
+    "questionImage": "./assets/official-exams/114-math-p9.webp",
+    "imageAlt": "114年國中教育會考數學科第23題官方試卷頁面",
+    "options": [
+      "27",
+      "31",
+      "32",
+      "37"
+    ],
+    "answer": 3,
+    "explanation": "依題目所給條件計算或判斷，結果對應 D「37」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「如圖 ( 十六 )，∆ABC 的三個頂點都在一圓上，固定 A 點將 ∆ABC 依順時針 方向旋轉，旋轉後的三角形為 ∆AB′C′，且 B′ 會落在同一圓上，其中 AB 與 AC′ 的夾角為 x°。若 BC = 54°，CA = 62°，則 x 值為何？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 D「37」。",
+      "將 D「37」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 114,
+      "questionNumber": 23,
+      "url": "https://cap.rcpet.edu.tw/exam/114/114exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/114-math-p9.webp"
+    ]
+  },
+  {
+    "id": "OFF-0983",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "114年數學第24題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "小桃騎乘該自行車時， 原本使用的前齒輪為 33 齒， 後齒輪為 21 齒。根據上 文，他從原本的前後齒輪組合切換成下列四種組合中的哪一種後，踩起來最 費力？",
+    "questionImage": "./assets/official-exams/114-math-p10.webp",
+    "imageAlt": "114年國中教育會考數學科第24題官方試卷頁面",
+    "options": [
+      "前齒輪不變，後齒輪切換為 18 齒",
+      "前齒輪不變，後齒輪切換為 24 齒",
+      "前齒輪切換為 22 齒，後齒輪不變",
+      "前齒輪切換為 44 齒，後齒輪不變"
+    ],
+    "answer": 3,
+    "explanation": "依題目所給條件計算或判斷，結果對應 D「前齒輪切換為 44 齒，後齒輪不變」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「小桃騎乘該自行車時， 原本使用的前齒輪為 33 齒， 後齒輪為 21 齒。根據上 文，他從原本的前後齒輪組合切換成下列四種組合中的哪一種後，踩起來最 費力？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 D「前齒輪切換為 44 齒，後齒輪不變」。",
+      "將 D「前齒輪切換為 44 齒，後齒輪不變」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 114,
+      "questionNumber": 24,
+      "url": "https://cap.rcpet.edu.tw/exam/114/114exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/114-math-p10.webp"
+    ]
+  },
+  {
+    "id": "OFF-0984",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "歷屆會考",
+    "knowledgePoint": "114年數學第25題",
+    "difficulty": "進階",
+    "type": "歷屆真題",
+    "question": "即使是不同的前齒輪齒數與後齒輪齒數的組合，仍可能產生相同的齒輪比， 因此小桃這輛 18 段變速自行車實際上只能夠產生 14 種不同的齒輪比。根據 上文，判斷這輛自行車切換前齒輪齒數與後齒輪齒數的組合時，下列哪一個 齒輪比有最多種組合？",
+    "questionImage": "./assets/official-exams/114-math-p10.webp",
+    "imageAlt": "114年國中教育會考數學科第25題官方試卷頁面",
+    "options": [
+      "6 11",
+      "7 11",
+      "8 11",
+      "9"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「7 11」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「即使是不同的前齒輪齒數與後齒輪齒數的組合，仍可能產生相同的齒輪比， 因此小桃這輛 18 段變速自行車實際上只能夠產生 14 種不同的齒輪比。根據 上文，判斷這輛自行車切換前齒輪齒數與後齒輪齒數的組合時，下列哪一個 齒輪比有最多種組合？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「7 11」。",
+      "將 B「7 11」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "relatedWords": [],
+    "sourceType": "官方歷屆真題",
+    "source": {
+      "year": 114,
+      "questionNumber": 25,
+      "url": "https://cap.rcpet.edu.tw/exam/114/114exam.html",
+      "paperUrl": "https://drive.google.com/file/d/1c2AGC67Bq344EdGSZkO9SZhrY50hHTJx/view"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": true,
+    "requiresContext": false,
+    "questionImages": [
+      "./assets/official-exams/114-math-p10.webp"
+    ]
+  },
+  {
+    "id": "SIM-0005",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "指數律",
+    "knowledgePoint": "同底數乘除",
+    "difficulty": "進階",
+    "type": "會考類題",
+    "question": "計算 5⁷ × 5⁴ ÷ 5³，結果為何？",
+    "options": [
+      "5⁴",
+      "5⁸",
+      "5¹⁰",
+      "5¹⁴"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「5⁸」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「計算 5⁷ × 5⁴ ÷ 5³，結果為何？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「5⁸」。",
+      "將 B「5⁸」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "除法要減去分母的指數，最常見錯誤是仍然相加。",
+    "relatedWords": [],
+    "sourceType": "依114年官方真題能力指標原創",
+    "source": {
+      "basedOn": "114數學第1題",
+      "url": "https://cap.rcpet.edu.tw/exam/114/114exam.html"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": []
+  },
+  {
+    "id": "SIM-0006",
+    "subject": "數學",
+    "gradeSemester": "會考總複習",
+    "unit": "代數運算",
+    "knowledgePoint": "多項式化簡",
+    "difficulty": "進階",
+    "type": "會考類題",
+    "question": "化簡 (3y²＋5y)－(2－4y)，結果為何？",
+    "options": [
+      "3y²＋y－2",
+      "3y²＋9y－2",
+      "3y²＋9y＋2",
+      "3y²＋y＋2"
+    ],
+    "answer": 1,
+    "explanation": "依題目所給條件計算或判斷，結果對應 B「3y²＋9y－2」。",
+    "solutionSteps": [
+      "整理題目已知條件與所求：「化簡 (3y²＋5y)－(2－4y)，結果為何？」。",
+      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 B「3y²＋9y－2」。",
+      "將 B「3y²＋9y－2」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+    ],
+    "teacherTip": "先去括號，再只合併次數相同的同類項。",
+    "relatedWords": [],
+    "sourceType": "依114年官方真題能力指標原創",
+    "source": {
+      "basedOn": "114數學第2題",
+      "url": "https://cap.rcpet.edu.tw/exam/114/114exam.html"
+    },
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    },
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": []
+  }
+]

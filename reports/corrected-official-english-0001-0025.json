@@ -1,0 +1,230 @@
+{
+  "OFF-0049": {
+    "explanation": "題庫將這筆標成 110 年英文第 1 題，但所附列車時刻與路線材料其實是原卷第 29 題組，並非卷首第 1 題（卷首第 1 題是男孩向老人鞠躬）。按原卷第 29 題問「Why does National Formosa Railway write this letter?」，答案為 D「Some of its trains will run on different lines」（部分列車將改走不同路線）。材料明說 Sand Town–Spring Town 線暫停，期間有列車 change lines；A 說售票、B 把月份改成 July、C 說新線開通，都與通知不符。",
+    "solutionSteps": [
+      "回看掃描原卷第 9 頁的通知：「some trains will change lines and will not stop at a few stations」，直接說明列車會改線；第 10 頁第 29 題問寫信原因。",
+      "因此完整答案是 D「Some of its trains will run on different lines」；change lines 與 run on different lines 同義改寫。",
+      "A 的 train ticket sale 未出現在通知；B 把 August 誤作 July；C 的新線開通也不是通知目的。",
+      "資料缺口：此 ID 的題幹、選項只存了第 29 題組材料及 A–D 標記，題號卻寫第 1 題；此處依掃描原卷第 29 題重建判讀，原卷卷首第 1 題不能由這筆資料解釋。"
+    ],
+    "teacherTip": "先用掃描頁核對題號與題組，再把題幹問句和選項一起讀；同一段材料可連考數題。"
+  },
+  "OFF-0050": {
+    "explanation": "題庫把這筆標為 110 年英文第 2 題，但材料實際屬原卷第 29–31 題的鐵路通知題組；卷首第 2 題其實考嬰兒正在哭。按原卷第 30 題，答案為 C「People can take the free buses to any station on the Sand Town–Spring Town line」。通知說免費接駁車會送乘客到該路線的車站；第 9 頁另明載 Gray Village 不停靠。A 錯在仍可到 Spring Town，B 錯在列車改線不會全停 Cloud City，D 錯在並非 Green City–Cloud City 線的每班車都經 Hill Town。",
+    "solutionSteps": [
+      "第 9 頁通知寫道：「There will be free buses to take travelers to these stations」；下一段指定接駁車在 Green City（南向）及 Spring Town（北向）等站等候，並寫「No stop at Gray Village」。",
+      "第 10 頁第 30 題的 C 概括免費巴士可接送 Sand Town–Spring Town 線沿線乘客，與通知相符。",
+      "A 忽略 Spring Town 仍有接駁安排；B 把列車改線誤解成全部改停 Cloud City；D 把特定路線的站點錯套到所有列車。",
+      "資料缺口：此 ID 存的是第 30 題組材料而非第 2 題問句，選項只記 A–D；以上依原卷第 30 題及其完整選項核對，不能視為卷首第 2 題的解析。"
+    ],
+    "teacherTip": "閱讀交通圖表時分開看路線、行車方向和接駁站；「some trains」不能擴大成「all trains」。"
+  },
+  "OFF-0051": {
+    "explanation": "完整句為「Jill is unhappy that the city park is closed for the music festival because now she can’t jog there.」that 子句說明她不高興的原因；because 後又明說她不能去慢跑，unhappy（不高興）最合語境。excited 是興奮，proud 是自豪，scared 是害怕，均無法解釋失去慢跑地點所帶來的負面情緒。",
+    "solutionSteps": [
+      "先看 because 引出的原因：「now she can’t jog there」表示公園關閉使 Jill 不能慢跑。",
+      "形容詞置於 is 後作主詞補語；unhappy that... 可表示「因……而不高興」，句法與語意都通順。",
+      "excited、proud、scared 分別表示興奮、自豪、害怕；句子沒有令人興奮、值得自豪或引發恐懼的線索。"
+    ],
+    "teacherTip": "情緒字彙題先找 because、so 等因果線索，再判斷事件帶來的是正面或負面感受。"
+  },
+  "OFF-0052": {
+    "explanation": "完整句為「Steven wants to be a cook, because he loves to watch people enjoy the food he prepares.」cook 是廚師；他喜歡看別人享用自己準備的食物，直接連到烹飪工作。doctor 治病、driver 開車、farmer 耕作，都不能由「prepares food」及觀察客人吃得開心推得。",
+    "solutionSteps": [
+      "because 後提供職業線索：Steven prepares food，而且喜歡看人們享用它。",
+      "cook 是準備食物的人，放進 want to be a ___ 的職業位置，語法和情境都成立。",
+      "doctor、driver、farmer 分別是醫師、駕駛、農夫；其工作內容與句中準備並供人享用食物的線索不合。"
+    ],
+    "teacherTip": "職業字彙題用 because 後的工作內容判斷職稱，不要只看單字熟悉度。"
+  },
+  "OFF-0053": {
+    "explanation": "完整句為「He hasn’t seen them since he came to work in Taiwan a year ago.」since 加過去式子句標出一年前開始的時間點，主句用現在完成式表示從那時起至今都沒見父母。didn’t see 只述說已結束的過去；doesn’t see 是一般現在習慣；won’t see 表未來，均不表達 since 所連結的過去至今。",
+    "solutionSteps": [
+      "since he came... a year ago 指一年前開始、延續到現在的時間範圍。",
+      "現在完成式 has not seen 表「截至現在仍未見面」，且 He 是第三人稱單數，形式正確。",
+      "didn’t see 不能自然搭配延續至今的 since；doesn’t see 說的是習慣；won’t see 則是未來。"
+    ],
+    "teacherTip": "看到 since + 過去時間／子句，檢查主句是否描述從該時點延續到現在的狀態或經驗。"
+  },
+  "OFF-0054": {
+    "explanation": "完整句為「Our teacher Ms. Wu seldom laughs, but when she does, everyone in the same building can hear her.」does 是助動詞代替前文動詞 laughs，避免重複；when she does 即「當她真的笑時」。can 是能力、has 需接過去分詞、will 表未來，均不能在此自然代替一般現在式的 laughs。",
+    "solutionSteps": [
+      "seldom laughs 建立一般現在式的習慣；but 表示雖然很少笑，但一笑就很大聲。",
+      "does 在此是代動詞，完整意思是 when she does laugh；第三人稱單數形式與 she 一致。",
+      "can 後需接原形動詞而此處沒有；has 後缺過去分詞；will 會改變時態語意。"
+    ],
+    "teacherTip": "句尾或子句中的 do/does 常代替前面已出現的動詞；先補回被省略的動作再判斷。"
+  },
+  "OFF-0055": {
+    "explanation": "完整句為「My sister is coming to my home today. She will stay with me for a week.」is coming 說明今天即將到訪，will stay 預告接下來一週的安排。stays 通常表示習慣或固定安排；stayed 是過去；has stayed 表截至現在已住了一段時間，與「今天才來」不合。",
+    "solutionSteps": [
+      "today 的 is coming 表示來訪發生在今天，後句描述來訪後的住宿安排。",
+      "will stay 是未來式，意為她將和我住一週，時間順序合理。",
+      "stayed 和 has stayed 都把住宿放到已發生的時間；stays 在此不如未來安排自然。"
+    ],
+    "teacherTip": "用事件順序判斷時態：先抵達、再住一週；已安排的未來行程可用 will 描述。"
+  },
+  "OFF-0056": {
+    "explanation": "Edward 做了十年電腦工程師，這段工作經歷在他開自己的電腦店時幫了大忙，因此選 experience（經驗）。句中 had worked for ten years 是過去完成式，交代先前累積的實務經驗。knowledge 是知識，雖相關但原句特別強調多年工作歷程；chance 是機會，hobby 是嗜好，均不合。",
+    "solutionSteps": [
+      "had worked as a computer engineer for ten years 說明他有十年相關職務經歷。",
+      "This 回指這段經歷；開店時它提供實際幫助，因此 experience 最精確。",
+      "knowledge 可指知識但未凸顯實作履歷；chance 和 hobby 更無法解釋工程工作如何幫助經營電腦店。"
+    ],
+    "teacherTip": "近義字要看上下文焦點；多年「做過某工作」通常強調 experience，而非單純知道資訊。"
+  },
+  "OFF-0057": {
+    "explanation": "完整句為「If you’re interested in our business plan, call this number and ask for Ms. Lee.」這是給讀者的條件式指示：若有興趣，就打電話並找 Lee 女士。祈使句省略 you，兩個原形動詞 call、ask 由 and 並列。calling 是動名詞／現在分詞；and call 會使原有 ask 缺乏連接；to call 也不能與後面的 ask 形成平行祈使。",
+    "solutionSteps": [
+      "If 子句提出條件，主句提供應採取的行動。",
+      "祈使句用原形 call，並與 and 後的原形 ask 平行。",
+      "calling、to call 不是此處祈使句的形式；and call 會破壞「call this number and ask」的並列結構。"
+    ],
+    "teacherTip": "看到 and 連接兩個指令時，檢查兩邊是否都用原形動詞，並確認句子是在要求讀者做什麼。"
+  },
+  "OFF-0058": {
+    "explanation": "完整句為「Although Jimmy would not get up for breakfast, his dad had already tried to pull him from his bed several times.」although 表讓步：爸爸已試過好幾次，Jimmy 還是不起床。because 會把爸爸拉他起床說成他不起床的原因，因果不通；if 是假設條件；until 表直到某時，後句沒有相應時間界線。",
+    "solutionSteps": [
+      "兩分句形成反差：爸爸多次叫／拉他起床，Jimmy 仍不願起來。",
+      "although 引導讓步子句，恰好表達「儘管……，仍……」。",
+      "because、if、until 分別表原因、條件、終點時間，均不能表現此處的反差。"
+    ],
+    "teacherTip": "先辨認兩子句的邏輯關係；看到「努力做了，結果仍相反」通常要考讓步連接詞。"
+  },
+  "OFF-0059": {
+    "explanation": "完整句為「Duncan spent all his money trying to save the bookstore his mom left him.」save 在此是挽救、保住生意；後句說生意始終沒有好轉，最後只好關店，與努力挽救形成因果。build 是建造、buy 是購買、start 是創辦；書店是母親留下的，且已在營運，這些動詞不合。",
+    "solutionSteps": [
+      "the bookstore his mom left him 表示書店已由母親留給他，不是尚待創立或購買。",
+      "business never got better and he had to close it 說明他試圖讓既有生意好轉，save 最符合「挽救」。",
+      "build、buy、start 分別是建造、買下、開辦，與已繼承但經營困難的書店情境不符。"
+    ],
+    "teacherTip": "多義動詞要從後續結果判斷；save 可指救人，也可指挽救陷入困境的事業。"
+  },
+  "OFF-0060": {
+    "explanation": "完整句為「Fiona loves listening to her children sing songs they learned at school.」they learned at school 是省略關係代名詞 that 的限定關係子句，修飾 songs，意為「他們在學校學的歌」。that learned 缺主詞；are learned 變成被動語態且不接出完整修飾句；that they are learned 既不合語意，也缺少 songs 後所需的自然關係結構。",
+    "solutionSteps": [
+      "空格修飾前面的 songs，需補出「孩子們在學校學會的」這個子句。",
+      "they learned at school 是完整主詞加動詞的子句；受詞 songs 作為關係代名詞 that 的先行詞，that 可省略。",
+      "that learned 沒有子句主詞；are learned 誤用被動；that they are learned 會變成「他們被學習」，語意錯誤。"
+    ],
+    "teacherTip": "名詞後的關係子句若關係代名詞作受詞，可以省略；檢查留下的子句是否有主詞和動詞。"
+  },
+  "OFF-0061": {
+    "explanation": "完整句為「Beverly eats lots of snacks between meals.」between meals 指兩餐之間；後句說她常在用餐時太飽，正是餐間吃很多零食的結果。after 是餐後，during 是用餐期間，from 表來源或起點，都不能準確表達兩餐之間。",
+    "solutionSteps": [
+      "That’s why 把前句吃零食的時間與後句用餐時太飽連成因果。",
+      "between meals 是固定且自然的時間說法，指正餐與正餐之間。",
+      "after meals 是飯後、during meals 是用餐時；from meals 不符合此處介系詞用法。"
+    ],
+    "teacherTip": "熟記 between meals 這類時間搭配，再用後句的結果檢查時間是否合理。"
+  },
+  "OFF-0062": {
+    "explanation": "完整對話為「See if you can find any in there.」any 代替前面提到的 tools，指「找不找得到任何工具」，常用於疑問或不確定是否找得到的語境。it 指單一物件；others 通常指其他人／物，需有明確對比；those 是特定複數指示代名詞，句中沒有已確定的一批工具可供指稱。",
+    "solutionSteps": [
+      "Nora 問能否找一些可用工具，Matt 允許她查看抽屜；工具是否找得到尚未確定。",
+      "any 可作代名詞，承接複數 tools，放在 find 後作受詞。",
+      "it 是單數；those 指特定的那些；others 表其他的，均不如 any 符合「看看有沒有工具」的語意。"
+    ],
+    "teacherTip": "問句、否定句常用 any 表示「任何／一些」；先找它代替的名詞，再確認單複數。"
+  },
+  "OFF-0063": {
+    "explanation": "廣告標題是「We’re online now!」，內文稱 e-BeautiMed 為 BeautiMed’s online store，並列加入會員、購物集點及促銷活動。第 15 題問廣告目的，答案 B「Telling people they can shop at BeautiMed on the Internet now」概括線上商店已開張。D 只提 7/1–8/31 的抽獎活動，不能概括整張廣告；A、C 也不是廣告主旨。",
+    "solutionSteps": [
+      "先看標題與首段：「We’re online now!」及「BeautiMed’s online store」明確宣布線上購物服務。",
+      "B 說現在可在網路上購物，對應廣告主訊息；後面多個 Surprise 是吸引消費者的優惠細節。",
+      "D 僅描述其中一項限期活動；A 說明點數使用方法、C 邀請分享購物經驗，原文都沒有作為廣告目的。"
+    ],
+    "teacherTip": "主旨題先看標題與首段，再區分核心訊息和內文列出的單一優惠。"
+  },
+  "OFF-0064": {
+    "explanation": "題目問哪一項不會讓人得到 BeautiMed 點數。廣告說加入「BeautiMed Friend」得 2,000 點、邀請朋友雙方各得 1,000 點、在 e-BeautiMed 購物可得點數；已是會員者輸入卡號只是領取免費禮物。因此 D「Entering the ‘BeautiMed Friend’ card number」不會得到點數。",
+    "solutionSteps": [
+      "逐項對照廣告：Surprise 1 加入會員得 2,000 點；Surprise 3 購物可得 500 點；Surprise 5 邀友得點數。",
+      "Surprise 2 寫的是輸入會員卡號以領取 free gift，沒有說因此取得點數。",
+      "所以 D 是題目要求的 NOT；A、B、C 都在廣告中明確連結點數回饋。"
+    ],
+    "teacherTip": "問 NOT 時把每個選項逐一對回廣告的動作與回饋，注意「gift」和「points」不是同一種獎勵。"
+  },
+  "OFF-0065": {
+    "explanation": "對話中 Lynn 說她在 Tom 的派對去過 Caldron，並描述「Everything tasted the same」及「I just kept throwing strange things into the pot」，顯示是圍著火鍋自己煮食的聚餐。選項 B 畫出客人圍著冒熱氣的鍋用餐，最符合 Caldron 派對情境。A 是戶外站立場合，C、D 的餐桌食物並未呈現對話所說的共鍋烹煮。",
+    "solutionSteps": [
+      "題目問 Tom 派對照片，需用 Lynn 對餐廳用餐方式的回憶判圖。",
+      "原文說「I just kept throwing strange things into the pot」，pot 指共同烹煮食物的鍋；B 的圖正有桌上火鍋。",
+      "A 沒有共鍋用餐；C、D 雖有人在餐桌吃飯，圖中沒有 B 那種煮食鍋，線索較不吻合。"
+    ],
+    "teacherTip": "圖文配對時把對話中具體名詞（pot）轉成可觀察的圖像特徵，再排除只有一般用餐情境的圖片。"
+  },
+  "OFF-0066": {
+    "explanation": "答案 C「She did not enjoy the food at Caldron」符合 Lynn 說的「I don’t see any fun in that」以及「Everything tasted the same」，又說自己想吃好吃的食物。A 把「不會做菜」誤讀成「does not cook」；B 與她不喜歡把陌生食材丟進同一鍋相反；D 沒有改變 Joey 的想法，Joey 仍說那是 good experience。",
+    "solutionSteps": [
+      "Lynn 親口說所有食物味道都一樣，且她不覺得這樣有趣，這是負面評價。",
+      "因此 C 概括她不喜歡 Caldron 的食物；她想要的是 nice food。",
+      "A 混淆「不喜歡在外用餐時還得自己煮」與完全不會做菜；B、D 均與對話內容相反。"
+    ],
+    "teacherTip": "推論人物態度要優先採用人物自己的評價語句，並留意反方人物 Joey 的意見不能算成 Lynn 的改變。"
+  },
+  "OFF-0067": {
+    "explanation": "標答 A「Woollie was older than Katie」符合日記時間線。原文說 Woollie 四歲時走失，Mr. Armstrong 花六年找到牠；之後他在電視上剪 Woollie 的羊毛，而 Daddy 說剪毛這件事發生在 Katie 出生那天。因此 Katie 出生時 Woollie 已至少約十歲；日記日期是 June 7, 2017，Katie 約十歲，Woollie 則又年長約十年。B 把羊毛售款用來幫助病童誤說成羊被帶去探病；C 沒說 Woollie 逃跑時生病；D 把「羊毛太多、看起來不像羊」誤說成沒有羊毛時的樣子。",
+    "solutionSteps": [
+      "日記明載 Woollie 四歲時走失，六年後才被找到；接著 Mr. Armstrong 在電視上剪牠的羊毛。",
+      "Daddy 說剪毛發生在 Katie 出生那天，所以 Katie 出生時 Woollie 已約十歲，而 Katie 才剛出生。日記日期 June 7, 2017 也與她的十歲生日相合。",
+      "B 混淆羊毛售款用來幫助病童與羊被帶去探病；C 無病中走失的證據；D 把「有厚羊毛時不像羊」倒置。",
+      "因此 A 的年齡比較成立，標答沒有可疑之處；原文中 sheep was taken to see Ms. Clark 是故事書內容，並非這題所問的年齡事實。"
+    ],
+    "teacherTip": "人物年齡題把年齡、經過時間和事件日期放在同一條時間線上；若推算後沒有選項成立，要回報題目或標答疑點。"
+  },
+  "OFF-0068": {
+    "explanation": "答案 C。故事書段落原文說「Woollie was taken to see Ms. Stella Clark, the leader of our city then. They even had tea together.」選項 C 畫出 Woollie 和 Ms. Clark 坐在桌邊喝茶，人物與活動都吻合。A 畫剪羊毛，B 畫量羊毛重量，D 是一般合照，都不是日記所說的見面喝茶情景。",
+    "solutionSteps": [
+      "先找日記中 Woollie 與 Ms. Clark 的共同活動；原文說「They even had tea together」。",
+      "選項 C 顯示羊與女性坐在桌邊，符合喝茶情景，也符合 Ms. Clark 是該市領袖的上下文。",
+      "A、B 分別對應剪毛與羊毛秤重，D 是合照；只有 C 呈現兩者一起喝茶。"
+    ],
+    "teacherTip": "看圖題要區分「文章提到的事件」和「題目問的那張照片」；核對人物組合與場景細節。"
+  },
+  "OFF-0069": {
+    "explanation": "答案 C「He died」。日記末段寫「Woollie was put down because he was too sick and there was no way to help him」，put down 在此是對無法治癒的病畜施行安樂死，結果是死亡。A 被賣、B 失蹤、D 成名都不是這個片語在本句的意思；sold to collect money 說的是羊毛，並非 Woollie 被賣。",
+    "solutionSteps": [
+      "讀完整原因子句：Woollie 病得太重，而且已無法救治。",
+      "put down 在病畜語境指安樂死，因此發生的結果是牠死亡。",
+      "用上下文排除：B 的走失發生在六年前；A 把羊毛售款誤作賣羊；D 與病重無關。"
+    ],
+    "teacherTip": "片語有多義時用緊鄰原因判斷；too sick and no way to help 指向安樂死義。"
+  },
+  "OFF-0070": {
+    "explanation": "答案 A。文章說「Pierre had gone away to be a soldier, and Matisse didn’t know whether he would come back」，因此父親作畫時兒子已離家從軍。B 原文只問坐椅子的女人是鋼琴老師還是母親，沒有確認身分；C 黃燭、紅琴與大量灰色表現 Pierre 看來嚴肅，並非快樂；D 蠟燭「almost burned down」表示練習已持續很久，不是剛開始。",
+    "solutionSteps": [
+      "原文直接說 Pierre 已離家當兵，且 Matisse 不知道他會不會回來。",
+      "這支持 A 所述作畫時兒子不在家；文章接著推測畫作可能是父親思念往日時光的方式。",
+      "B 只是提出問題沒有定論；C 忽略「not a very fun color」；D 把快燒完的蠟燭誤讀成剛點燃。"
+    ],
+    "teacherTip": "閱讀推論要分清作者明說、提出疑問和推測；問句中的猜想不能當成已證實事實。"
+  },
+  "OFF-0071": {
+    "explanation": "答案 D「Put his earlier art work in a new painting」。文中先說畫中女人其實是 Matisse 另一幅畫〈Woman on a High Stool〉中的人物，接著說「Matisse likes to do that a lot」，that 就回指把自己先前的作品放進新畫作這種做法。A、B、C 都沒有對應前述的具體例子。",
+    "solutionSteps": [
+      "代名詞 that 通常回指前文已提到的動作或做法。",
+      "緊接前文的例子是：畫中女人出自 Matisse 的另一幅畫；所以 do that 指在新畫中引用較早的作品。",
+      "A 把「family」加進原文沒有的內容；B 是後段對畫作情感的猜測；C 與另一幅作品被引用無關。"
+    ],
+    "teacherTip": "指示代名詞題要先向前找最近、語意完整的動作；把 that 換回該動作檢查句子是否通順。"
+  },
+  "OFF-0072": {
+    "explanation": "答案 C「The poor kid」。文章用 the artist、Matisse、a worried father 指 Henri Matisse；the poor kid 指的是畫中看起來嚴肅的兒子 Pierre。開頭明說「The boy in the picture is the painter’s son, Pierre」，故不能把形容男孩的稱呼當作 Matisse 的稱呼。",
+    "solutionSteps": [
+      "題目問哪個稱呼沒有用來指 Henri Matisse；逐一確認代名詞或稱呼的對象。",
+      "文中稱他為 artist、painter，並在「a worried father’s way」中以父親身分描述他。",
+      "poor kid 承接「how the poor kid feels」，指畫中的 Pierre，不是畫家 Matisse。"
+    ],
+    "teacherTip": "人物指稱題沿著每個稱呼所在句的主詞與代名詞回指，特別注意文中同時出現父子兩人。"
+  },
+  "OFF-0073": {
+    "explanation": "答案 B「Why Teachers’ Day was celebrated at first」。文章核心在追溯教師節最初由南京教師於 1930 年發起的原因：教師待遇低、未受尊重，教師藉此表達問題。原文說「Teachers were paid very little and not respected」及「These teachers took this chance to shout out their problems」。A 問現在如何慶祝，C 談孔子何以偉大，D 問今日教師感受，均非本文主旨。",
+    "solutionSteps": [
+      "首段先說一般人熟悉的教師節印象，接著用轉折 But 指出最初的教師節並非為感謝教師或紀念孔子。",
+      "第二段說 1930 年南京教師因待遇低、缺乏尊重而發起教師節，以表達自身問題，直接回答「最初為何慶祝」。",
+      "後文說明日期曾調整及政府後來將其定為國定假日；A、C、D 都把次要背景或未談內容當成主旨。"
+    ],
+    "teacherTip": "主旨題沿文章轉折與因果找核心；本篇的 But 和 because 把「後來紀念孔子」與「最初教師訴求」區分開。"
+  }
+}

@@ -1,0 +1,3702 @@
+[
+  {
+    "id": "ENG-0601",
+    "subject": "英文",
+    "gradeSemester": "七年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The fire alarm rang, so everyone left the building at once. The students had to ____ the school.",
+    "options": [
+      "enter",
+      "leave",
+      "repair",
+      "paint"
+    ],
+    "answer": 1,
+    "explanation": "答案選項「leave」正確：The alarm made everyone go out of the building; leave means 離開。 A「enter」不正確：Enter means 進入，方向和 left the building 相反。",
+    "solutionSteps": [
+      "先讀完整題幹：「The fire alarm rang, so everyone left the building at once. The students had to ____ the school.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 B「leave」。The alarm made everyone go out of the building; leave means 離開。",
+      "排除 A「enter」：Enter means 進入，方向和 left the building 相反。"
+    ],
+    "teacherTip": "Use the action around a blank to determine direction: go out points to leave.",
+    "relatedWords": [
+      "leave（離開）",
+      "enter（進入）",
+      "exit（出口）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0602",
+    "subject": "英文",
+    "gradeSemester": "七年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "Mia forgot her umbrella, but the convenience store sells them near the door. She decided to ____ one.",
+    "options": [
+      "lend",
+      "buy",
+      "hide",
+      "borrow"
+    ],
+    "answer": 1,
+    "explanation": "答案選項「buy」正確：A store sells umbrellas, so Mia pays for one; buy matches sells them。 D「borrow」不正確：Borrow means temporarily take and return one; the sentence says she gets it from a store that sells umbrellas。",
+    "solutionSteps": [
+      "先讀完整題幹：「Mia forgot her umbrella, but the convenience store sells them near the door. She decided to ____ one.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 B「buy」。A store sells umbrellas, so Mia pays for one; buy matches sells them。",
+      "排除 D「borrow」：Borrow means temporarily take and return one; the sentence says she gets it from a store that sells umbrellas。"
+    ],
+    "teacherTip": "Separate buy from borrow: buying transfers ownership; borrowing requires returning the item.",
+    "relatedWords": [
+      "buy（購買）",
+      "borrow（借入）",
+      "lend（借出）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0603",
+    "subject": "英文",
+    "gradeSemester": "八年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The soup is still too hot to eat. Please ____ a few minutes before taking a bite.",
+    "options": [
+      "catch",
+      "build",
+      "wait",
+      "spend"
+    ],
+    "answer": 2,
+    "explanation": "答案選項「wait」正確：Because the soup is too hot, the sensible action is to wait until it cools。 A「catch」不正確：Catch means抓住／趕上，不能表示暫停進食等候。",
+    "solutionSteps": [
+      "先讀完整題幹：「The soup is still too hot to eat. Please ____ a few minutes before taking a bite.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 C「wait」。Because the soup is too hot, the sensible action is to wait until it cools。",
+      "排除 A「catch」：Catch means抓住／趕上，不能表示暫停進食等候。"
+    ],
+    "teacherTip": "Connect a problem with the action that solves it; hot food calls for waiting until it cools.",
+    "relatedWords": [
+      "wait（等候）",
+      "cool（變涼）",
+      "bite（一口）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0604",
+    "subject": "英文",
+    "gradeSemester": "八年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "Our classroom has no windows, so we turn on the lights even at noon. It is very ____ inside.",
+    "options": [
+      "noisy",
+      "bright",
+      "dark",
+      "wide"
+    ],
+    "answer": 2,
+    "explanation": "答案選項「dark」正確：With no windows and lights needed at noon, the room receives little natural light and is dark。 B「bright」不正確：Bright means明亮，與必須開燈的線索相反。",
+    "solutionSteps": [
+      "先讀完整題幹：「Our classroom has no windows, so we turn on the lights even at noon. It is very ____ inside.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 C「dark」。With no windows and lights needed at noon, the room receives little natural light and is dark。",
+      "排除 B「bright」：Bright means明亮，與必須開燈的線索相反。"
+    ],
+    "teacherTip": "Combine both clues, no windows and lights at noon, before choosing an adjective.",
+    "relatedWords": [
+      "dark（昏暗的）",
+      "bright（明亮的）",
+      "light（光線）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0605",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "Leo practiced the piano every day for a year. His playing is much ____ now than before.",
+    "options": [
+      "worse",
+      "better",
+      "heavier",
+      "farther"
+    ],
+    "answer": 1,
+    "explanation": "答案選項「better」正確：Daily practice for a year supports improvement, so better fits the comparison with before。 A「worse」不正確：Worse means退步，contradicting the stated practice and improvement implied by much ... now。",
+    "solutionSteps": [
+      "先讀完整題幹：「Leo practiced the piano every day for a year. His playing is much ____ now than before.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 B「better」。Daily practice for a year supports improvement, so better fits the comparison with before。",
+      "排除 A「worse」：Worse means退步，contradicting the stated practice and improvement implied by much ... now。"
+    ],
+    "teacherTip": "A long period of practice usually signals improvement; check the comparison word now.",
+    "relatedWords": [
+      "better（更好）",
+      "practice（練習）",
+      "improve（進步）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0606",
+    "subject": "英文",
+    "gradeSemester": "九年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The museum ticket is free for children under six. Children who are seven or older must ____ for a ticket.",
+    "options": [
+      "hide",
+      "wait",
+      "draw",
+      "pay"
+    ],
+    "answer": 3,
+    "explanation": "答案選項「pay」正確：The contrast with free entry means older children need to pay。 A「hide」不正確：Hide means躲藏，has no connection to the ticket price rule。",
+    "solutionSteps": [
+      "先讀完整題幹：「The museum ticket is free for children under six. Children who are seven or older must ____ for a ticket.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 D「pay」。The contrast with free entry means older children need to pay。",
+      "排除 A「hide」：Hide means躲藏，has no connection to the ticket price rule。"
+    ],
+    "teacherTip": "Read both sides of a rule and notice the age boundary and contrast with free.",
+    "relatedWords": [
+      "pay（付費）",
+      "free（免費）",
+      "ticket（票）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0607",
+    "subject": "英文",
+    "gradeSemester": "七年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "Nina's hands were full of books, so her brother ____ the door for her.",
+    "options": [
+      "painted",
+      "found",
+      "closed",
+      "opened"
+    ],
+    "answer": 3,
+    "explanation": "答案選項「opened」正確：With both hands occupied, Nina needs the door opened so she can enter。 C「closed」不正確：Closed would block her way instead of helping her get through。",
+    "solutionSteps": [
+      "先讀完整題幹：「Nina's hands were full of books, so her brother ____ the door for her.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 D「opened」。With both hands occupied, Nina needs the door opened so she can enter。",
+      "排除 C「closed」：Closed would block her way instead of helping her get through。"
+    ],
+    "teacherTip": "Infer the helpful action from the obstacle described in the first clause.",
+    "relatedWords": [
+      "open（打開）",
+      "close（關閉）",
+      "hold（扶住）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0608",
+    "subject": "英文",
+    "gradeSemester": "七年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The weather forecast says heavy rain will continue all afternoon. The soccer game has been ____ until Sunday.",
+    "options": [
+      "forgotten",
+      "canceled",
+      "moved",
+      "won"
+    ],
+    "answer": 2,
+    "explanation": "答案選項「moved」正確：The game is not called off; it is rescheduled to Sunday, so moved is correct。 B「canceled」不正確：Canceled means it will not take place at all, but the sentence gives a new date。",
+    "solutionSteps": [
+      "先讀完整題幹：「The weather forecast says heavy rain will continue all afternoon. The soccer game has been ____ until Sunday.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 C「moved」。The game is not called off; it is rescheduled to Sunday, so moved is correct。",
+      "排除 B「canceled」：Canceled means it will not take place at all, but the sentence gives a new date。"
+    ],
+    "teacherTip": "A replacement date signals postponed or moved; no new date would support canceled.",
+    "relatedWords": [
+      "move（改期）",
+      "cancel（取消）",
+      "continue（繼續）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0609",
+    "subject": "英文",
+    "gradeSemester": "八年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The library asks visitors to speak softly because other people are reading. Please keep your voice ____.",
+    "options": [
+      "quiet",
+      "careful",
+      "early",
+      "thirsty"
+    ],
+    "answer": 0,
+    "explanation": "答案選項「quiet」正確：Speaking softly is the same idea as keeping one's voice quiet。 B「careful」不正確：Careful describes acting with caution, not the volume of a voice。",
+    "solutionSteps": [
+      "先讀完整題幹：「The library asks visitors to speak softly because other people are reading. Please keep your voice ____.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 A「quiet」。Speaking softly is the same idea as keeping one's voice quiet。",
+      "排除 B「careful」：Careful describes acting with caution, not the volume of a voice。"
+    ],
+    "teacherTip": "Match the adjective to the noun it describes; a voice can be quiet or loud.",
+    "relatedWords": [
+      "quiet（安靜的）",
+      "softly（輕聲地）",
+      "loud（大聲的）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0610",
+    "subject": "英文",
+    "gradeSemester": "八年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The bus leaves at 8:00, and it is already 7:55. We need to ____ or we will miss it.",
+    "options": [
+      "rest",
+      "smile",
+      "borrow",
+      "hurry"
+    ],
+    "answer": 3,
+    "explanation": "答案選項「hurry」正確：Only five minutes remain before departure, so hurry is necessary。 A「rest」不正確：Rest would use more time and increase the chance of missing the bus。",
+    "solutionSteps": [
+      "先讀完整題幹：「The bus leaves at 8:00, and it is already 7:55. We need to ____ or we will miss it.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 D「hurry」。Only five minutes remain before departure, so hurry is necessary。",
+      "排除 A「rest」：Rest would use more time and increase the chance of missing the bus。"
+    ],
+    "teacherTip": "Use the time difference and consequence to infer whether to hurry or slow down.",
+    "relatedWords": [
+      "hurry（趕快）",
+      "leave（離開）",
+      "miss（錯過）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0611",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The glass fell onto the hard floor and broke into small pieces. It is ____ to touch it with bare hands.",
+    "options": [
+      "delicious",
+      "popular",
+      "safe",
+      "dangerous"
+    ],
+    "answer": 3,
+    "explanation": "答案選項「dangerous」正確：Broken glass can cut skin, so touching it is dangerous。 C「safe」不正確：Safe means沒有危險，contradicting the sharp pieces on the floor。",
+    "solutionSteps": [
+      "先讀完整題幹：「The glass fell onto the hard floor and broke into small pieces. It is ____ to touch it with bare hands.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 D「dangerous」。Broken glass can cut skin, so touching it is dangerous。",
+      "排除 C「safe」：Safe means沒有危險，contradicting the sharp pieces on the floor。"
+    ],
+    "teacherTip": "A possible injury is a strong clue for dangerous; avoid choosing by positive tone alone.",
+    "relatedWords": [
+      "dangerous（危險的）",
+      "safe（安全的）",
+      "piece（碎片）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0612",
+    "subject": "英文",
+    "gradeSemester": "九年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "Sam put the milk in the refrigerator because he wanted it to stay ____.",
+    "options": [
+      "dry",
+      "fresh",
+      "empty",
+      "expensive"
+    ],
+    "answer": 1,
+    "explanation": "答案選項「fresh」正確：A refrigerator keeps milk cold and fresh for longer。 C「empty」不正確：Empty means沒有東西，does not describe the condition Sam wants for the milk。",
+    "solutionSteps": [
+      "先讀完整題幹：「Sam put the milk in the refrigerator because he wanted it to stay ____.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 B「fresh」。A refrigerator keeps milk cold and fresh for longer。",
+      "排除 C「empty」：Empty means沒有東西，does not describe the condition Sam wants for the milk。"
+    ],
+    "teacherTip": "Ask what a refrigerator does to food; it preserves freshness rather than changing price or quantity.",
+    "relatedWords": [
+      "fresh（新鮮的）",
+      "refrigerator（冰箱）",
+      "keep（保持）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0613",
+    "subject": "英文",
+    "gradeSemester": "七年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The trail is steep and rocky. Wear strong shoes to protect your feet and keep your steps ____.",
+    "options": [
+      "safe",
+      "round",
+      "sweet",
+      "foreign"
+    ],
+    "answer": 0,
+    "explanation": "答案選項「safe」正確：Strong shoes on a steep, rocky trail help prevent injury and keep walking safe。 B「round」不正確：Round describes shape, not the risk level of someone's steps on a trail。",
+    "solutionSteps": [
+      "先讀完整題幹：「The trail is steep and rocky. Wear strong shoes to protect your feet and keep your steps ____.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 A「safe」。Strong shoes on a steep, rocky trail help prevent injury and keep walking safe。",
+      "排除 B「round」：Round describes shape, not the risk level of someone's steps on a trail。"
+    ],
+    "teacherTip": "Use the hazard in the first sentence to identify the protection the advice provides.",
+    "relatedWords": [
+      "safe（安全的）",
+      "steep（陡峭的）",
+      "protect（保護）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0614",
+    "subject": "英文",
+    "gradeSemester": "七年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The shop was closed when we arrived, but a sign on the door showed its opening ____.",
+    "options": [
+      "prices",
+      "colors",
+      "flavors",
+      "hours"
+    ],
+    "answer": 3,
+    "explanation": "答案選項「hours」正確：A sign that tells when a shop opens gives its opening hours。 A「prices」不正確：Prices tell how much things cost, not when the shop is open。",
+    "solutionSteps": [
+      "先讀完整題幹：「The shop was closed when we arrived, but a sign on the door showed its opening ____.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 D「hours」。A sign that tells when a shop opens gives its opening hours。",
+      "排除 A「prices」：Prices tell how much things cost, not when the shop is open。"
+    ],
+    "teacherTip": "Notice the word opening; it commonly combines with hours in notices.",
+    "relatedWords": [
+      "opening hours（營業時間）",
+      "closed（關門的）",
+      "sign（標誌）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0615",
+    "subject": "英文",
+    "gradeSemester": "八年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The twins look almost the same, but one has a small ____ beside her left eye.",
+    "options": [
+      "cloud",
+      "noise",
+      "mark",
+      "meal"
+    ],
+    "answer": 2,
+    "explanation": "答案選項「mark」正確：A small visible feature beside the eye is a mark。 D「meal」不正確：A meal is food eaten at one time, not a feature on someone's face。",
+    "solutionSteps": [
+      "先讀完整題幹：「The twins look almost the same, but one has a small ____ beside her left eye.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 C「mark」。A small visible feature beside the eye is a mark。",
+      "排除 D「meal」：A meal is food eaten at one time, not a feature on someone's face。"
+    ],
+    "teacherTip": "Use the body-location clue to select a word for a visible feature.",
+    "relatedWords": [
+      "mark（斑點／記號）",
+      "twin（雙胞胎）",
+      "beside（在旁邊）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0616",
+    "subject": "英文",
+    "gradeSemester": "八年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The science club used a thermometer to ____ the water temperature every five minutes.",
+    "options": [
+      "repair",
+      "measure",
+      "invite",
+      "promise"
+    ],
+    "answer": 1,
+    "explanation": "答案選項「measure」正確：A thermometer provides a temperature reading, so the students measure the water。 C「invite」不正確：Invite means請人參加，cannot take a temperature reading。",
+    "solutionSteps": [
+      "先讀完整題幹：「The science club used a thermometer to ____ the water temperature every five minutes.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 B「measure」。A thermometer provides a temperature reading, so the students measure the water。",
+      "排除 C「invite」：Invite means請人參加，cannot take a temperature reading。"
+    ],
+    "teacherTip": "Match the instrument to its purpose: a thermometer is used to measure temperature.",
+    "relatedWords": [
+      "measure（測量）",
+      "temperature（溫度）",
+      "thermometer（溫度計）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0617",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "After carrying the heavy boxes upstairs, Dad sat down because he felt ____.",
+    "options": [
+      "tired",
+      "proud",
+      "wet",
+      "ready"
+    ],
+    "answer": 0,
+    "explanation": "答案選項「tired」正確：Carrying heavy boxes upstairs uses energy, so tired explains why Dad sat down。 B「proud」不正確：Proud expresses satisfaction, but the sentence gives physical effort as the reason for resting。",
+    "solutionSteps": [
+      "先讀完整題幹：「After carrying the heavy boxes upstairs, Dad sat down because he felt ____.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 A「tired」。Carrying heavy boxes upstairs uses energy, so tired explains why Dad sat down。",
+      "排除 B「proud」：Proud expresses satisfaction, but the sentence gives physical effort as the reason for resting。"
+    ],
+    "teacherTip": "Look for a physical cause and choose the feeling it most directly produces.",
+    "relatedWords": [
+      "tired（疲累的）",
+      "heavy（重的）",
+      "carry（搬運）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0618",
+    "subject": "英文",
+    "gradeSemester": "九年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The little boy could not reach the shelf, so his mother ____ the book down for him.",
+    "options": [
+      "grew",
+      "caught",
+      "spent",
+      "took"
+    ],
+    "answer": 3,
+    "explanation": "答案選項「took」正確：His mother brought the book from the shelf to a lower place; took down fits。 A「grew」不正確：Grew means變大／生長 and does not describe getting a book from a shelf。",
+    "solutionSteps": [
+      "先讀完整題幹：「The little boy could not reach the shelf, so his mother ____ the book down for him.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 D「took」。His mother brought the book from the shelf to a lower place; took down fits。",
+      "排除 A「grew」：Grew means變大／生長 and does not describe getting a book from a shelf。"
+    ],
+    "teacherTip": "Follow the direction in the situation: an unreachable object must be brought down.",
+    "relatedWords": [
+      "take down（拿下）",
+      "reach（伸手拿到）",
+      "shelf（架子）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0619",
+    "subject": "英文",
+    "gradeSemester": "七年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "We have only one bottle of water for the three hikers. Please ____ it with everyone.",
+    "options": [
+      "hide",
+      "drop",
+      "share",
+      "waste"
+    ],
+    "answer": 2,
+    "explanation": "答案選項「share」正確：One bottle must be divided among three hikers, so they should share it。 D「waste」不正確：Waste means use carelessly, the opposite of distributing the limited water。",
+    "solutionSteps": [
+      "先讀完整題幹：「We have only one bottle of water for the three hikers. Please ____ it with everyone.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 C「share」。One bottle must be divided among three hikers, so they should share it。",
+      "排除 D「waste」：Waste means use carelessly, the opposite of distributing the limited water。"
+    ],
+    "teacherTip": "A scarce item needed by a group is usually shared among its members.",
+    "relatedWords": [
+      "share（分享）",
+      "bottle（瓶）",
+      "hiker（健行者）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0620",
+    "subject": "英文",
+    "gradeSemester": "七年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The doctor told Ben to take the medicine twice a day. He should follow the ____ on the label.",
+    "options": [
+      "secrets",
+      "directions",
+      "invitations",
+      "jokes"
+    ],
+    "answer": 1,
+    "explanation": "答案選項「directions」正確：The label explains how and when to take medicine; those are directions。 C「invitations」不正確：Invitations ask someone to attend an event, not how to use medicine。",
+    "solutionSteps": [
+      "先讀完整題幹：「The doctor told Ben to take the medicine twice a day. He should follow the ____ on the label.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 B「directions」。The label explains how and when to take medicine; those are directions。",
+      "排除 C「invitations」：Invitations ask someone to attend an event, not how to use medicine。"
+    ],
+    "teacherTip": "For medicine or equipment, directions means instructions for use.",
+    "relatedWords": [
+      "directions（指示）",
+      "label（標籤）",
+      "twice（兩次）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0621",
+    "subject": "英文",
+    "gradeSemester": "八年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "Although the restaurant was crowded, the waiter found us a table in just five minutes. The service was ____.",
+    "options": [
+      "slow",
+      "quick",
+      "careless",
+      "empty"
+    ],
+    "answer": 1,
+    "explanation": "答案選項「quick」正確：Finding a table in only five minutes despite the crowd shows quick service。 A「slow」不正確：Slow conflicts with the short five-minute wait。",
+    "solutionSteps": [
+      "先讀完整題幹：「Although the restaurant was crowded, the waiter found us a table in just five minutes. The service was ____.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 B「quick」。Finding a table in only five minutes despite the crowd shows quick service。",
+      "排除 A「slow」：Slow conflicts with the short five-minute wait。"
+    ],
+    "teacherTip": "Use the measured wait time, not just the word crowded, to judge speed.",
+    "relatedWords": [
+      "quick（迅速的）",
+      "service（服務）",
+      "crowded（擁擠的）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0622",
+    "subject": "英文",
+    "gradeSemester": "八年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "Ella checked the map twice before leaving because she did not want to get ____ on the way.",
+    "options": [
+      "ready",
+      "rich",
+      "safe",
+      "lost"
+    ],
+    "answer": 3,
+    "explanation": "答案選項「lost」正確：Checking a map helps someone avoid losing the correct route; lost fits。 A「ready」不正確：Ready means prepared, which does not explain why she checks directions twice。",
+    "solutionSteps": [
+      "先讀完整題幹：「Ella checked the map twice before leaving because she did not want to get ____ on the way.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 D「lost」。Checking a map helps someone avoid losing the correct route; lost fits。",
+      "排除 A「ready」：Ready means prepared, which does not explain why she checks directions twice。"
+    ],
+    "teacherTip": "A map is used to find a route and avoid getting lost.",
+    "relatedWords": [
+      "lost（迷路的）",
+      "map（地圖）",
+      "route（路線）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0623",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The baby is sleeping in the next room. Please close the door ____ so it does not make a loud sound.",
+    "options": [
+      "carelessly",
+      "widely",
+      "quietly",
+      "quickly"
+    ],
+    "answer": 2,
+    "explanation": "答案選項「quietly」正確：The goal is to avoid a loud sound, so the door should be closed quietly。 D「quickly」不正確：Quickly describes speed, not sound level; moving fast can still be noisy。",
+    "solutionSteps": [
+      "先讀完整題幹：「The baby is sleeping in the next room. Please close the door ____ so it does not make a loud sound.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 C「quietly」。The goal is to avoid a loud sound, so the door should be closed quietly。",
+      "排除 D「quickly」：Quickly describes speed, not sound level; moving fast can still be noisy。"
+    ],
+    "teacherTip": "When a sentence mentions sound, choose an adverb about volume rather than speed.",
+    "relatedWords": [
+      "quietly（安靜地）",
+      "loud（大聲的）",
+      "close（關上）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0624",
+    "subject": "英文",
+    "gradeSemester": "九年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The old bridge is being repaired, so cars cannot ____ it today.",
+    "options": [
+      "invite",
+      "cross",
+      "borrow",
+      "follow"
+    ],
+    "answer": 1,
+    "explanation": "答案選項「cross」正確：A bridge is something vehicles travel over; repair work prevents cars from crossing it。 C「borrow」不正確：Borrow means take something temporarily and does not fit movement over a bridge。",
+    "solutionSteps": [
+      "先讀完整題幹：「The old bridge is being repaired, so cars cannot ____ it today.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 B「cross」。A bridge is something vehicles travel over; repair work prevents cars from crossing it。",
+      "排除 C「borrow」：Borrow means take something temporarily and does not fit movement over a bridge。"
+    ],
+    "teacherTip": "Identify whether the blank needs a movement verb and what object that verb naturally takes.",
+    "relatedWords": [
+      "cross（穿越）",
+      "bridge（橋）",
+      "repair（修理）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0625",
+    "subject": "英文",
+    "gradeSemester": "七年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "Molly saved part of her allowance each week. After three months, she had enough money to ____ the camera.",
+    "options": [
+      "afford",
+      "avoid",
+      "lend",
+      "hide"
+    ],
+    "answer": 0,
+    "explanation": "答案選項「afford」正確：Saving money until she has enough means she can afford the camera。 B「avoid」不正確：Avoid means stay away from something, not have enough money to buy it。",
+    "solutionSteps": [
+      "先讀完整題幹：「Molly saved part of her allowance each week. After three months, she had enough money to ____ the camera.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 A「afford」。Saving money until she has enough means she can afford the camera。",
+      "排除 B「avoid」：Avoid means stay away from something, not have enough money to buy it。"
+    ],
+    "teacherTip": "Money saved compared with a price points to afford, meaning able to pay.",
+    "relatedWords": [
+      "afford（負擔得起）",
+      "allowance（零用錢）",
+      "save（存錢）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0626",
+    "subject": "英文",
+    "gradeSemester": "七年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The picnic cannot take place today because the park is flooded. We will ____ the picnic until next Saturday.",
+    "options": [
+      "put on",
+      "put away",
+      "put out",
+      "put off"
+    ],
+    "answer": 3,
+    "explanation": "答案選項「put off」正確：The picnic is moved to a later date; put off means postpone, and the noun object can follow the phrase。 A「put on」不正確：Put on means wear or organize a performance; it does not mean delay the picnic。",
+    "solutionSteps": [
+      "先讀完整題幹：「The picnic cannot take place today because the park is flooded. We will ____ the picnic until next Saturday.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 D「put off」。The picnic is moved to a later date; put off means postpone, and the noun object can follow the phrase。",
+      "排除 A「put on」：Put on means wear or organize a performance; it does not mean delay the picnic。"
+    ],
+    "teacherTip": "Learn phrasal verbs as whole units; a later date is the clue for put off.",
+    "relatedWords": [
+      "put off（延期）",
+      "postpone（延後）",
+      "flood（淹水）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0627",
+    "subject": "英文",
+    "gradeSemester": "八年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "You can ____ the meaning of the new word by reading the sentence before and after it.",
+    "options": [
+      "take off",
+      "look after",
+      "figure out",
+      "give up"
+    ],
+    "answer": 2,
+    "explanation": "答案選項「figure out」正確：Using surrounding sentences to discover meaning is to figure it out。 D「give up」不正確：Give up means stop trying, the opposite of using clues to solve the question。",
+    "solutionSteps": [
+      "先讀完整題幹：「You can ____ the meaning of the new word by reading the sentence before and after it.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 C「figure out」。Using surrounding sentences to discover meaning is to figure it out。",
+      "排除 D「give up」：Give up means stop trying, the opposite of using clues to solve the question。"
+    ],
+    "teacherTip": "Figure out means understand or solve after thinking; use nearby context as evidence.",
+    "relatedWords": [
+      "figure out（理解／找出）",
+      "context（上下文）",
+      "give up（放棄）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0628",
+    "subject": "英文",
+    "gradeSemester": "八年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The school garden has very little water this week. Please ____ the plants before they dry out.",
+    "options": [
+      "serve",
+      "water",
+      "count",
+      "fold"
+    ],
+    "answer": 1,
+    "explanation": "答案選項「water」正確：Plants need water, and the sentence says they may dry out; water is the needed action。 C「count」不正確：Count means determine a number and cannot prevent plants from drying。",
+    "solutionSteps": [
+      "先讀完整題幹：「The school garden has very little water this week. Please ____ the plants before they dry out.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 B「water」。Plants need water, and the sentence says they may dry out; water is the needed action。",
+      "排除 C「count」：Count means determine a number and cannot prevent plants from drying。"
+    ],
+    "teacherTip": "Use the consequence dry out to infer the missing care action.",
+    "relatedWords": [
+      "water（澆水）",
+      "plant（植物）",
+      "dry out（乾枯）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0629",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The movie was so funny that the audience laughed from beginning to end. It was ____.",
+    "options": [
+      "boring",
+      "hilarious",
+      "careful",
+      "empty"
+    ],
+    "answer": 1,
+    "explanation": "答案選項「hilarious」正確：The audience laughed throughout, so hilarious describes the very funny movie。 A「boring」不正確：Boring means not interesting and conflicts with continuous laughter。",
+    "solutionSteps": [
+      "先讀完整題幹：「The movie was so funny that the audience laughed from beginning to end. It was ____.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 B「hilarious」。The audience laughed throughout, so hilarious describes the very funny movie。",
+      "排除 A「boring」：Boring means not interesting and conflicts with continuous laughter。"
+    ],
+    "teacherTip": "Audience reactions are evidence for describing a performance or movie.",
+    "relatedWords": [
+      "hilarious（非常好笑的）",
+      "audience（觀眾）",
+      "laugh（笑）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0630",
+    "subject": "英文",
+    "gradeSemester": "九年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "No one could hear the announcement because the music was too loud. The staff asked us to ____ the volume.",
+    "options": [
+      "turn up",
+      "look up",
+      "give up",
+      "turn down"
+    ],
+    "answer": 3,
+    "explanation": "答案選項「turn down」正確：Lowering the volume lets people hear the announcement; turn down means reduce。 A「turn up」不正確：Turn up means make louder, worsening the problem。",
+    "solutionSteps": [
+      "先讀完整題幹：「No one could hear the announcement because the music was too loud. The staff asked us to ____ the volume.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 D「turn down」。Lowering the volume lets people hear the announcement; turn down means reduce。",
+      "排除 A「turn up」：Turn up means make louder, worsening the problem。"
+    ],
+    "teacherTip": "For a sound that is already too loud, choose the phrasal verb meaning reduce.",
+    "relatedWords": [
+      "turn down（調低）",
+      "volume（音量）",
+      "announcement（公告）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0631",
+    "subject": "英文",
+    "gradeSemester": "七年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The classroom windows face west, so it becomes very ____ in the afternoon when the sun shines in.",
+    "options": [
+      "weak",
+      "late",
+      "warm",
+      "empty"
+    ],
+    "answer": 2,
+    "explanation": "答案選項「warm」正確：Afternoon sunlight entering the room raises its temperature, making it warm。 D「empty」不正確：Empty describes whether a room has people or things, not its temperature。",
+    "solutionSteps": [
+      "先讀完整題幹：「The classroom windows face west, so it becomes very ____ in the afternoon when the sun shines in.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 C「warm」。Afternoon sunlight entering the room raises its temperature, making it warm。",
+      "排除 D「empty」：Empty describes whether a room has people or things, not its temperature。"
+    ],
+    "teacherTip": "A direction plus sunlight is a temperature clue; west-facing rooms get afternoon sun.",
+    "relatedWords": [
+      "warm（溫暖的）",
+      "face（朝向）",
+      "sunlight（日光）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0632",
+    "subject": "英文",
+    "gradeSemester": "七年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The sign says 'No swimming.' The water is deep and the current is strong, so swimming here is ____.",
+    "options": [
+      "similar",
+      "dangerous",
+      "ordinary",
+      "cheap"
+    ],
+    "answer": 1,
+    "explanation": "答案選項「dangerous」正確：Deep water and a strong current make swimming dangerous, matching the warning。 C「ordinary」不正確：Ordinary means usual and ignores the clear safety risks in the sentence。",
+    "solutionSteps": [
+      "先讀完整題幹：「The sign says 'No swimming.' The water is deep and the current is strong, so swimming here is ____.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 B「dangerous」。Deep water and a strong current make swimming dangerous, matching the warning。",
+      "排除 C「ordinary」：Ordinary means usual and ignores the clear safety risks in the sentence。"
+    ],
+    "teacherTip": "Warnings are supported by the hazards they list; connect each hazard to safety.",
+    "relatedWords": [
+      "dangerous（危險的）",
+      "current（水流）",
+      "warning（警告）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0633",
+    "subject": "英文",
+    "gradeSemester": "八年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The bus driver stopped at the wrong street. He apologized and ____ the passengers at the correct stop.",
+    "options": [
+      "dropped off",
+      "picked up",
+      "looked for",
+      "turned on"
+    ],
+    "answer": 0,
+    "explanation": "答案選項「dropped off」正確：Leaving passengers at their destination is to drop them off。 B「picked up」不正確：Pick up means collect passengers, not let them get off at a stop。",
+    "solutionSteps": [
+      "先讀完整題幹：「The bus driver stopped at the wrong street. He apologized and ____ the passengers at the correct stop.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 A「dropped off」。Leaving passengers at their destination is to drop them off。",
+      "排除 B「picked up」：Pick up means collect passengers, not let them get off at a stop。"
+    ],
+    "teacherTip": "For transportation phrasal verbs, distinguish boarding (pick up) from leaving (drop off).",
+    "relatedWords": [
+      "drop off（讓乘客下車）",
+      "passenger（乘客）",
+      "stop（站）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0634",
+    "subject": "英文",
+    "gradeSemester": "八年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The recipe says to add a little salt, taste the soup, and then ____ more if needed.",
+    "options": [
+      "borrow",
+      "break",
+      "forget",
+      "add"
+    ],
+    "answer": 3,
+    "explanation": "答案選項「add」正確：The instruction says more salt may be needed, so add is the correct action。 A「borrow」不正確：Borrow means temporarily take and return something; it does not describe putting salt into soup。",
+    "solutionSteps": [
+      "先讀完整題幹：「The recipe says to add a little salt, taste the soup, and then ____ more if needed.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 D「add」。The instruction says more salt may be needed, so add is the correct action。",
+      "排除 A「borrow」：Borrow means temporarily take and return something; it does not describe putting salt into soup。"
+    ],
+    "teacherTip": "Follow the sequence in procedural text: taste first, then add more only if needed.",
+    "relatedWords": [
+      "add（加入）",
+      "recipe（食譜）",
+      "if needed（若有需要）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0635",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "Jane has a fever and a sore throat, so she stayed home to ____ from her illness.",
+    "options": [
+      "collect",
+      "invite",
+      "recover",
+      "discover"
+    ],
+    "answer": 2,
+    "explanation": "答案選項「recover」正確：Staying home while sick is intended to recover, meaning become well again。 D「discover」不正確：Discover means find something new, not regain health。",
+    "solutionSteps": [
+      "先讀完整題幹：「Jane has a fever and a sore throat, so she stayed home to ____ from her illness.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 C「recover」。Staying home while sick is intended to recover, meaning become well again。",
+      "排除 D「discover」：Discover means find something new, not regain health。"
+    ],
+    "teacherTip": "Illness followed by rest points to recover; discover is about finding information.",
+    "relatedWords": [
+      "recover（康復）",
+      "fever（發燒）",
+      "illness（疾病）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0636",
+    "subject": "英文",
+    "gradeSemester": "九年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The glass bottle is reusable. Please wash it and ____ it instead of throwing it away.",
+    "options": [
+      "remove",
+      "reuse",
+      "refuse",
+      "reduce"
+    ],
+    "answer": 1,
+    "explanation": "答案選項「reuse」正確：A reusable bottle can be used again, so reuse is the intended action。 C「refuse」不正確：Refuse means say no; it does not mean use the bottle again。",
+    "solutionSteps": [
+      "先讀完整題幹：「The glass bottle is reusable. Please wash it and ____ it instead of throwing it away.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 B「reuse」。A reusable bottle can be used again, so reuse is the intended action。",
+      "排除 C「refuse」：Refuse means say no; it does not mean use the bottle again。"
+    ],
+    "teacherTip": "Notice the prefix re- in reusable; reuse means use again.",
+    "relatedWords": [
+      "reuse（再利用）",
+      "reusable（可重複使用的）",
+      "throw away（丟棄）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0637",
+    "subject": "英文",
+    "gradeSemester": "七年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The mountain road was covered with snow, and several cars could not move. Traffic was ____ for hours.",
+    "options": [
+      "blocked",
+      "invited",
+      "shared",
+      "painted"
+    ],
+    "answer": 0,
+    "explanation": "答案選項「blocked」正確：Snow prevented cars from moving, so traffic was blocked。 B「invited」不正確：Invited means asked to attend; it cannot describe a road made impassable。",
+    "solutionSteps": [
+      "先讀完整題幹：「The mountain road was covered with snow, and several cars could not move. Traffic was ____ for hours.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 A「blocked」。Snow prevented cars from moving, so traffic was blocked。",
+      "排除 B「invited」：Invited means asked to attend; it cannot describe a road made impassable。"
+    ],
+    "teacherTip": "If vehicles cannot move because something is in the way, traffic is blocked.",
+    "relatedWords": [
+      "block（阻塞）",
+      "traffic（交通）",
+      "move（移動）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0638",
+    "subject": "英文",
+    "gradeSemester": "七年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The museum guide spoke slowly and used pictures so that the young visitors could ____ the story.",
+    "options": [
+      "damage",
+      "borrow",
+      "disappear",
+      "understand"
+    ],
+    "answer": 3,
+    "explanation": "答案選項「understand」正確：Slow speech and pictures help visitors understand the story。 A「damage」不正確：Damage means harm, not comprehend; nothing suggests the children hurt the story。",
+    "solutionSteps": [
+      "先讀完整題幹：「The museum guide spoke slowly and used pictures so that the young visitors could ____ the story.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 D「understand」。Slow speech and pictures help visitors understand the story。",
+      "排除 A「damage」：Damage means harm, not comprehend; nothing suggests the children hurt the story。"
+    ],
+    "teacherTip": "Look for the purpose of the guide's choices; clear explanations help people understand.",
+    "relatedWords": [
+      "understand（理解）",
+      "guide（導覽員）",
+      "visitor（參觀者）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0639",
+    "subject": "英文",
+    "gradeSemester": "八年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The test begins in ten minutes. Please put away your notes and ____ your name on the answer sheet.",
+    "options": [
+      "grow",
+      "catch",
+      "write",
+      "lend"
+    ],
+    "answer": 2,
+    "explanation": "答案選項「write」正確：An answer sheet needs the student's name written on it。 D「lend」不正確：Lend means give something temporarily, not record a name on paper。",
+    "solutionSteps": [
+      "先讀完整題幹：「The test begins in ten minutes. Please put away your notes and ____ your name on the answer sheet.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 C「write」。An answer sheet needs the student's name written on it。",
+      "排除 D「lend」：Lend means give something temporarily, not record a name on paper。"
+    ],
+    "teacherTip": "Use the object after the blank to choose a verb that naturally goes with it.",
+    "relatedWords": [
+      "write（寫）",
+      "answer sheet（答案紙）",
+      "begin（開始）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0640",
+    "subject": "英文",
+    "gradeSemester": "八年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The hotel room was not clean, so the family asked the front desk to ____ it.",
+    "options": [
+      "finish",
+      "change",
+      "climb",
+      "invite"
+    ],
+    "answer": 1,
+    "explanation": "答案選項「change」正確：They need another room because the current one is unclean; change it fits。 C「climb」不正確：Climb means move upward and has no relation to replacing a hotel room。",
+    "solutionSteps": [
+      "先讀完整題幹：「The hotel room was not clean, so the family asked the front desk to ____ it.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 B「change」。They need another room because the current one is unclean; change it fits。",
+      "排除 C「climb」：Climb means move upward and has no relation to replacing a hotel room。"
+    ],
+    "teacherTip": "A complaint about a room's condition often leads to asking for a different room.",
+    "relatedWords": [
+      "change（更換）",
+      "front desk（櫃檯）",
+      "clean（乾淨的）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0641",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The team lost the first two games, but they kept practicing and ____ the final match.",
+    "options": [
+      "won",
+      "borrowed",
+      "closed",
+      "forgot"
+    ],
+    "answer": 0,
+    "explanation": "答案選項「won」正確：The contrast with losing earlier and continued practice supports winning the final。 B「borrowed」不正確：Borrowed means temporarily took something; it cannot describe the result of a match。",
+    "solutionSteps": [
+      "先讀完整題幹：「The team lost the first two games, but they kept practicing and ____ the final match.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 A「won」。The contrast with losing earlier and continued practice supports winning the final。",
+      "排除 B「borrowed」：Borrowed means temporarily took something; it cannot describe the result of a match。"
+    ],
+    "teacherTip": "Track the sequence and contrast words; kept practicing can lead to a later victory.",
+    "relatedWords": [
+      "win（贏）",
+      "final（決賽）",
+      "practice（練習）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0642",
+    "subject": "英文",
+    "gradeSemester": "九年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The classroom was noisy, so the teacher raised her hand and asked everyone to ____ talking.",
+    "options": [
+      "start",
+      "enjoy",
+      "finish",
+      "stop"
+    ],
+    "answer": 3,
+    "explanation": "答案選項「stop」正確：To make a noisy room quiet, students should stop talking。 A「start」不正確：Start talking would make the noise worse。",
+    "solutionSteps": [
+      "先讀完整題幹：「The classroom was noisy, so the teacher raised her hand and asked everyone to ____ talking.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 D「stop」。To make a noisy room quiet, students should stop talking。",
+      "排除 A「start」：Start talking would make the noise worse。"
+    ],
+    "teacherTip": "Use the stated problem to decide whether the action should begin or end.",
+    "relatedWords": [
+      "stop（停止）",
+      "noisy（吵鬧的）",
+      "raise（舉起）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0643",
+    "subject": "英文",
+    "gradeSemester": "七年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "Peter's bicycle tire is flat. He needs a pump to ____ it before riding home.",
+    "options": [
+      "fold",
+      "weigh",
+      "inflate",
+      "paint"
+    ],
+    "answer": 2,
+    "explanation": "答案選項「inflate」正確：A pump puts air into a flat tire; inflate means fill with air。 D「paint」不正確：Paint changes the tire's color but does not make it rideable。",
+    "solutionSteps": [
+      "先讀完整題幹：「Peter's bicycle tire is flat. He needs a pump to ____ it before riding home.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 C「inflate」。A pump puts air into a flat tire; inflate means fill with air。",
+      "排除 D「paint」：Paint changes the tire's color but does not make it rideable。"
+    ],
+    "teacherTip": "Match tools to their function; a pump inflates a tire.",
+    "relatedWords": [
+      "inflate（充氣）",
+      "pump（打氣筒）",
+      "flat tire（沒氣的輪胎）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0644",
+    "subject": "英文",
+    "gradeSemester": "七年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The twins each received a different color cup, so they would not ____ them by mistake.",
+    "options": [
+      "look up",
+      "mix up",
+      "wake up",
+      "give up"
+    ],
+    "answer": 1,
+    "explanation": "答案選項「mix up」正確：Different colors help prevent confusing one cup with the other; mix up means confuse。 C「wake up」不正確：Wake up means stop sleeping, unrelated to telling the cups apart。",
+    "solutionSteps": [
+      "先讀完整題幹：「The twins each received a different color cup, so they would not ____ them by mistake.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 B「mix up」。Different colors help prevent confusing one cup with the other; mix up means confuse。",
+      "排除 C「wake up」：Wake up means stop sleeping, unrelated to telling the cups apart。"
+    ],
+    "teacherTip": "A by mistake clue often points to mix up when items are confused.",
+    "relatedWords": [
+      "mix up（弄混）",
+      "different（不同的）",
+      "by mistake（錯誤地）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0645",
+    "subject": "英文",
+    "gradeSemester": "八年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The phone battery is almost empty. Please ____ it before we leave for the trip.",
+    "options": [
+      "charge",
+      "pour",
+      "cover",
+      "plant"
+    ],
+    "answer": 0,
+    "explanation": "答案選項「charge」正確：A low battery needs electricity; charge the phone before leaving。 B「pour」不正確：Pour means make liquid flow and cannot restore a battery。",
+    "solutionSteps": [
+      "先讀完整題幹：「The phone battery is almost empty. Please ____ it before we leave for the trip.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 A「charge」。A low battery needs electricity; charge the phone before leaving。",
+      "排除 B「pour」：Pour means make liquid flow and cannot restore a battery。"
+    ],
+    "teacherTip": "Battery plus almost empty points to charging, not filling a container.",
+    "relatedWords": [
+      "charge（充電）",
+      "battery（電池）",
+      "almost（幾乎）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0646",
+    "subject": "英文",
+    "gradeSemester": "八年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The sign says the elevator is out of order. We have to take the stairs to the fifth floor ____.",
+    "options": [
+      "already",
+      "perhaps",
+      "together",
+      "instead"
+    ],
+    "answer": 3,
+    "explanation": "答案選項「instead」正確：Because the elevator cannot be used, the stairs are used as a replacement; instead fits。 A「already」不正確：Already means before now and does not express choosing a substitute。",
+    "solutionSteps": [
+      "先讀完整題幹：「The sign says the elevator is out of order. We have to take the stairs to the fifth floor ____.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 D「instead」。Because the elevator cannot be used, the stairs are used as a replacement; instead fits。",
+      "排除 A「already」：Already means before now and does not express choosing a substitute。"
+    ],
+    "teacherTip": "Out of order signals that an alternative is needed; instead introduces that alternative.",
+    "relatedWords": [
+      "instead（改用／代替）",
+      "out of order（故障）",
+      "stairs（樓梯）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0647",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The baby bird fell from its nest, but it has no injuries. The ranger carefully ____ it to the nest.",
+    "options": [
+      "hid",
+      "sold",
+      "returned",
+      "borrowed"
+    ],
+    "answer": 2,
+    "explanation": "答案選項「returned」正確：The bird fell from its own nest; putting it back means returning it。 D「borrowed」不正確：Borrowed means take temporarily and is inappropriate for returning an animal to its nest。",
+    "solutionSteps": [
+      "先讀完整題幹：「The baby bird fell from its nest, but it has no injuries. The ranger carefully ____ it to the nest.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 C「returned」。The bird fell from its own nest; putting it back means returning it。",
+      "排除 D「borrowed」：Borrowed means take temporarily and is inappropriate for returning an animal to its nest。"
+    ],
+    "teacherTip": "Use the starting location and destination: back to where it belongs means return.",
+    "relatedWords": [
+      "return（送回）",
+      "nest（鳥巢）",
+      "injury（受傷）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0648",
+    "subject": "英文",
+    "gradeSemester": "九年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The hikers followed the river for two hours, but they still could not find the campsite. They were ____.",
+    "options": [
+      "famous",
+      "lost",
+      "proud",
+      "thirsty"
+    ],
+    "answer": 1,
+    "explanation": "答案選項「lost」正確：They cannot find their destination after walking, so they are lost。 C「proud」不正確：Proud means feeling pleased about an achievement; it does not describe being unable to find the campsite。",
+    "solutionSteps": [
+      "先讀完整題幹：「The hikers followed the river for two hours, but they still could not find the campsite. They were ____.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 B「lost」。They cannot find their destination after walking, so they are lost。",
+      "排除 C「proud」：Proud means feeling pleased about an achievement; it does not describe being unable to find the campsite。"
+    ],
+    "teacherTip": "When people cannot locate their destination, lost describes their situation.",
+    "relatedWords": [
+      "lost（迷路的）",
+      "campsite（營地）",
+      "follow（跟隨）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0649",
+    "subject": "英文",
+    "gradeSemester": "七年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The school asks students to bring a reusable bottle ____ buying a new plastic one each day.",
+    "options": [
+      "instead of",
+      "because of",
+      "next to",
+      "such as"
+    ],
+    "answer": 0,
+    "explanation": "答案選項「instead of」正確：A reusable bottle replaces buying a new one; instead of means in place of。 B「because of」不正確：Because of gives a reason, but the sentence contrasts two choices rather than a cause。",
+    "solutionSteps": [
+      "先讀完整題幹：「The school asks students to bring a reusable bottle ____ buying a new plastic one each day.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 A「instead of」。A reusable bottle replaces buying a new one; instead of means in place of。",
+      "排除 B「because of」：Because of gives a reason, but the sentence contrasts two choices rather than a cause。"
+    ],
+    "teacherTip": "Instead of is followed by a noun or V-ing and introduces the choice being replaced.",
+    "relatedWords": [
+      "instead of（而不是）",
+      "reusable（可重複使用的）",
+      "plastic（塑膠）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0650",
+    "subject": "英文",
+    "gradeSemester": "七年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "Ava missed the first bus, but another one arrived five minutes later. She was ____ to reach school on time.",
+    "options": [
+      "afraid",
+      "busy",
+      "ready",
+      "able"
+    ],
+    "answer": 3,
+    "explanation": "答案選項「able」正確：A bus arrived soon enough, making it possible for Ava to reach school on time; able fits。 A「afraid」不正確：Afraid means scared; no fear is mentioned, only whether she can arrive on time。",
+    "solutionSteps": [
+      "先讀完整題幹：「Ava missed the first bus, but another one arrived five minutes later. She was ____ to reach school on time.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 D「able」。A bus arrived soon enough, making it possible for Ava to reach school on time; able fits。",
+      "排除 A「afraid」：Afraid means scared; no fear is mentioned, only whether she can arrive on time。"
+    ],
+    "teacherTip": "Be able to expresses possibility or ability; check whether the sentence asks if an outcome is possible.",
+    "relatedWords": [
+      "be able to（能夠）",
+      "arrive（抵達）",
+      "on time（準時）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0651",
+    "subject": "英文",
+    "gradeSemester": "八年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "Although the cake looked small, it was ____ for all eight guests because they each ate only one slice.",
+    "options": [
+      "early",
+      "usual",
+      "enough",
+      "empty"
+    ],
+    "answer": 2,
+    "explanation": "答案選項「enough」正確：One slice for each of eight guests explains that the cake was sufficient; enough fits。 D「empty」不正確：Empty means containing nothing, which conflicts with guests eating slices。",
+    "solutionSteps": [
+      "先讀完整題幹：「Although the cake looked small, it was ____ for all eight guests because they each ate only one slice.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 C「enough」。One slice for each of eight guests explains that the cake was sufficient; enough fits。",
+      "排除 D「empty」：Empty means containing nothing, which conflicts with guests eating slices。"
+    ],
+    "teacherTip": "The quantity is sufficient when it meets the stated need; that is enough.",
+    "relatedWords": [
+      "enough（足夠的）",
+      "slice（薄片）",
+      "guest（客人）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0652",
+    "subject": "英文",
+    "gradeSemester": "八年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The bus was full, so the driver could not ____ any more passengers.",
+    "options": [
+      "take apart",
+      "take on",
+      "take off",
+      "take after"
+    ],
+    "answer": 1,
+    "explanation": "答案選項「take on」正確：A bus accepts passengers by taking them on; it is already full, so it cannot。 C「take off」不正確：Take off means leave the ground or remove clothing, not accept passengers。",
+    "solutionSteps": [
+      "先讀完整題幹：「The bus was full, so the driver could not ____ any more passengers.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 B「take on」。A bus accepts passengers by taking them on; it is already full, so it cannot。",
+      "排除 C「take off」：Take off means leave the ground or remove clothing, not accept passengers。"
+    ],
+    "teacherTip": "Learn take on as accept or carry passengers; the bus being full explains the limit.",
+    "relatedWords": [
+      "take on（載客／承擔）",
+      "passenger（乘客）",
+      "full（滿的）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0653",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "Grace wanted to know whether the store had the shoes in her size, so she called to ____.",
+    "options": [
+      "find out",
+      "give away",
+      "put back",
+      "break down"
+    ],
+    "answer": 0,
+    "explanation": "答案選項「find out」正確：She calls to learn information; find out means discover or learn。 B「give away」不正確：Give away means donate or reveal, not ask a store for information。",
+    "solutionSteps": [
+      "先讀完整題幹：「Grace wanted to know whether the store had the shoes in her size, so she called to ____.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 A「find out」。She calls to learn information; find out means discover or learn。",
+      "排除 B「give away」：Give away means donate or reveal, not ask a store for information。"
+    ],
+    "teacherTip": "A question about availability is a request to find out information.",
+    "relatedWords": [
+      "find out（查明）",
+      "size（尺寸）",
+      "availability（是否有貨）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0654",
+    "subject": "英文",
+    "gradeSemester": "九年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The road was closed for construction. We had to ____ a different route to the airport.",
+    "options": [
+      "make",
+      "do",
+      "have",
+      "take"
+    ],
+    "answer": 3,
+    "explanation": "答案選項「take」正確：English uses take a route to mean travel along it; the closure requires another route。 A「make」不正確：Make a route means create one, not choose and travel along an existing route。",
+    "solutionSteps": [
+      "先讀完整題幹：「The road was closed for construction. We had to ____ a different route to the airport.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 D「take」。English uses take a route to mean travel along it; the closure requires another route。",
+      "排除 A「make」：Make a route means create one, not choose and travel along an existing route。"
+    ],
+    "teacherTip": "Notice fixed collocations: take a route, take a bus, take a seat.",
+    "relatedWords": [
+      "take a route（走某條路）",
+      "construction（施工）",
+      "airport（機場）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0655",
+    "subject": "英文",
+    "gradeSemester": "七年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "It is ____ to drink water after running on a hot day because exercise makes the body lose water.",
+    "options": [
+      "private",
+      "round",
+      "important",
+      "impossible"
+    ],
+    "answer": 2,
+    "explanation": "答案選項「important」正確：Running in heat causes water loss, so drinking water is important。 D「impossible」不正確：Impossible means cannot be done, but the sentence gives a health reason to do it。",
+    "solutionSteps": [
+      "先讀完整題幹：「It is ____ to drink water after running on a hot day because exercise makes the body lose water.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 C「important」。Running in heat causes water loss, so drinking water is important。",
+      "排除 D「impossible」：Impossible means cannot be done, but the sentence gives a health reason to do it。"
+    ],
+    "teacherTip": "The consequence lose water supports the need and importance of drinking.",
+    "relatedWords": [
+      "important（重要的）",
+      "exercise（運動）",
+      "lose（失去）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0656",
+    "subject": "英文",
+    "gradeSemester": "七年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The old photo was too dark to see clearly, so Grandpa ____ it on his computer.",
+    "options": [
+      "invited",
+      "brightened",
+      "borrowed",
+      "divided"
+    ],
+    "answer": 1,
+    "explanation": "答案選項「brightened」正確：Making a dark photo easier to see means increasing its brightness; brightened fits。 C「borrowed」不正確：Borrowed means temporarily took something and does not improve image visibility。",
+    "solutionSteps": [
+      "先讀完整題幹：「The old photo was too dark to see clearly, so Grandpa ____ it on his computer.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 B「brightened」。Making a dark photo easier to see means increasing its brightness; brightened fits。",
+      "排除 C「borrowed」：Borrowed means temporarily took something and does not improve image visibility。"
+    ],
+    "teacherTip": "Use the result wanted, see clearly, to infer the image adjustment.",
+    "relatedWords": [
+      "brighten（調亮）",
+      "photo（照片）",
+      "clearly（清楚地）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0657",
+    "subject": "英文",
+    "gradeSemester": "八年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The shop gives a 20% discount to students who show their school cards. Students can ____ money this way.",
+    "options": [
+      "save",
+      "waste",
+      "owe",
+      "hide"
+    ],
+    "answer": 0,
+    "explanation": "答案選項「save」正確：Paying less because of a discount means saving money。 B「waste」不正確：Waste means use carelessly, the opposite of paying a reduced price。",
+    "solutionSteps": [
+      "先讀完整題幹：「The shop gives a 20% discount to students who show their school cards. Students can ____ money this way.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 A「save」。Paying less because of a discount means saving money。",
+      "排除 B「waste」：Waste means use carelessly, the opposite of paying a reduced price。"
+    ],
+    "teacherTip": "A discount reduces the amount paid; the buyer saves money.",
+    "relatedWords": [
+      "save money（省錢）",
+      "discount（折扣）",
+      "show（出示）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0658",
+    "subject": "英文",
+    "gradeSemester": "八年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The sign says 'Keep off the grass.' Visitors should ____ walking on the lawn.",
+    "options": [
+      "practice",
+      "finish",
+      "enjoy",
+      "avoid"
+    ],
+    "answer": 3,
+    "explanation": "答案選項「avoid」正確：Keep off is a warning not to step on the grass; avoid walking matches。 A「practice」不正確：Practice walking on the lawn would still mean stepping on the grass, which the sign forbids。",
+    "solutionSteps": [
+      "先讀完整題幹：「The sign says 'Keep off the grass.' Visitors should ____ walking on the lawn.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 D「avoid」。Keep off is a warning not to step on the grass; avoid walking matches。",
+      "排除 A「practice」：Practice walking on the lawn would still mean stepping on the grass, which the sign forbids。"
+    ],
+    "teacherTip": "Translate the instruction first; keep off means stay away from a surface.",
+    "relatedWords": [
+      "avoid（避免）",
+      "lawn（草地）",
+      "keep off（勿踩）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0659",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The glass of water was near the edge of the table. Please move it ____ the middle so it will not fall.",
+    "options": [
+      "without",
+      "among",
+      "toward",
+      "during"
+    ],
+    "answer": 2,
+    "explanation": "答案選項「toward」正確：Moving from the edge to the middle means moving toward the center。 D「during」不正確：During refers to a time period and cannot show a direction of movement。",
+    "solutionSteps": [
+      "先讀完整題幹：「The glass of water was near the edge of the table. Please move it ____ the middle so it will not fall.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 C「toward」。Moving from the edge to the middle means moving toward the center。",
+      "排除 D「during」：During refers to a time period and cannot show a direction of movement。"
+    ],
+    "teacherTip": "Edge and middle are locations; choose a preposition expressing movement in that direction.",
+    "relatedWords": [
+      "toward（朝向）",
+      "edge（邊緣）",
+      "middle（中間）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0660",
+    "subject": "英文",
+    "gradeSemester": "九年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The class had to finish the poster today, ____ the printer stopped working this morning.",
+    "options": [
+      "so",
+      "but",
+      "because",
+      "if"
+    ],
+    "answer": 1,
+    "explanation": "答案選項「but」正確：Having to finish the poster conflicts with the printer stopping; but signals contrast。 C「because」不正確：Because would make the printer failure the reason they had to finish, which reverses the intended relationship。",
+    "solutionSteps": [
+      "先讀完整題幹：「The class had to finish the poster today, ____ the printer stopped working this morning.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 B「but」。Having to finish the poster conflicts with the printer stopping; but signals contrast。",
+      "排除 C「because」：Because would make the printer failure the reason they had to finish, which reverses the intended relationship。"
+    ],
+    "teacherTip": "Compare the two clauses: a problem against a requirement calls for contrast.",
+    "relatedWords": [
+      "but（但是）",
+      "printer（印表機）",
+      "although（雖然）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0661",
+    "subject": "英文",
+    "gradeSemester": "七年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The bus was delayed by traffic. ____ we arrived after the movie had started.",
+    "options": [
+      "As a result",
+      "For example",
+      "At first",
+      "In addition"
+    ],
+    "answer": 0,
+    "explanation": "答案選項「As a result」正確：Traffic delay caused the late arrival, so As a result introduces the consequence。 B「For example」不正確：For example introduces an illustration, not the result of the delay。",
+    "solutionSteps": [
+      "先讀完整題幹：「The bus was delayed by traffic. ____ we arrived after the movie had started.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 A「As a result」。Traffic delay caused the late arrival, so As a result introduces the consequence。",
+      "排除 B「For example」：For example introduces an illustration, not the result of the delay。"
+    ],
+    "teacherTip": "Trace cause and result across sentences; use As a result before the consequence.",
+    "relatedWords": [
+      "as a result（因此）",
+      "delay（延誤）",
+      "consequence（結果）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0662",
+    "subject": "英文",
+    "gradeSemester": "七年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The new student speaks softly and rarely talks to classmates. At first, she seemed ____.",
+    "options": [
+      "generous",
+      "careless",
+      "hungry",
+      "shy"
+    ],
+    "answer": 3,
+    "explanation": "答案選項「shy」正確：Speaking softly and rarely talking to classmates suggest shyness。 A「generous」不正確：Generous describes willingness to give, which is not shown by her quiet behavior。",
+    "solutionSteps": [
+      "先讀完整題幹：「The new student speaks softly and rarely talks to classmates. At first, she seemed ____.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 D「shy」。Speaking softly and rarely talking to classmates suggest shyness。",
+      "排除 A「generous」：Generous describes willingness to give, which is not shown by her quiet behavior。"
+    ],
+    "teacherTip": "Use repeated social behavior, not appearance, to infer a personality adjective.",
+    "relatedWords": [
+      "shy（害羞的）",
+      "rarely（很少）",
+      "classmate（同學）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0663",
+    "subject": "英文",
+    "gradeSemester": "八年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The museum is free on the first Sunday of each month. You do not need to ____ an entrance fee then.",
+    "options": [
+      "spend",
+      "lend",
+      "pay",
+      "cost"
+    ],
+    "answer": 2,
+    "explanation": "答案選項「pay」正確：If admission is free, visitors do not need to pay a fee。 D「cost」不正確：Cost describes what a service charges, but the visitor is the subject who pays。",
+    "solutionSteps": [
+      "先讀完整題幹：「The museum is free on the first Sunday of each month. You do not need to ____ an entrance fee then.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 C「pay」。If admission is free, visitors do not need to pay a fee。",
+      "排除 D「cost」：Cost describes what a service charges, but the visitor is the subject who pays。"
+    ],
+    "teacherTip": "Distinguish pay (person gives money) from cost (thing has a price) and spend (use money).",
+    "relatedWords": [
+      "pay a fee（付費）",
+      "free admission（免費入場）",
+      "cost（價值）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0664",
+    "subject": "英文",
+    "gradeSemester": "八年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The train was moving too fast to stop at the station. It passed ____ the platform without stopping.",
+    "options": [
+      "inside",
+      "by",
+      "through",
+      "between"
+    ],
+    "answer": 1,
+    "explanation": "答案選項「by」正確：To pass a platform means travel past it; pass by fits。 C「through」不正確：Through would mean the train went into and across the physical platform, not past it on the track。",
+    "solutionSteps": [
+      "先讀完整題幹：「The train was moving too fast to stop at the station. It passed ____ the platform without stopping.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 B「by」。To pass a platform means travel past it; pass by fits。",
+      "排除 C「through」：Through would mean the train went into and across the physical platform, not past it on the track。"
+    ],
+    "teacherTip": "Pass by indicates going past a place; use the verb-preposition combination as a unit.",
+    "relatedWords": [
+      "pass by（經過）",
+      "platform（月台）",
+      "stop（停靠）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0665",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The farmer planted more trees along the river ____ the soil would not wash away during heavy rain.",
+    "options": [
+      "so that",
+      "even though",
+      "as soon as",
+      "instead of"
+    ],
+    "answer": 0,
+    "explanation": "答案選項「so that」正確：The trees are planted with the purpose of protecting soil; so that introduces purpose。 B「even though」不正確：Even though signals contrast, but there is no contrast between planting and preventing erosion。",
+    "solutionSteps": [
+      "先讀完整題幹：「The farmer planted more trees along the river ____ the soil would not wash away during heavy rain.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 A「so that」。The trees are planted with the purpose of protecting soil; so that introduces purpose。",
+      "排除 B「even though」：Even though signals contrast, but there is no contrast between planting and preventing erosion。"
+    ],
+    "teacherTip": "When one action is done to achieve a result, use so that to express purpose.",
+    "relatedWords": [
+      "so that（以便）",
+      "soil（土壤）",
+      "wash away（沖走）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0666",
+    "subject": "英文",
+    "gradeSemester": "九年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The coach praised Maya because she ____ at every practice and never gave up.",
+    "options": [
+      "looked after",
+      "turned down",
+      "ran out",
+      "worked hard"
+    ],
+    "answer": 3,
+    "explanation": "答案選項「worked hard」正確：Attending practice and not giving up show that Maya worked hard。 A「looked after」不正確：Looked after means cared for someone or something, not practiced diligently。",
+    "solutionSteps": [
+      "先讀完整題幹：「The coach praised Maya because she ____ at every practice and never gave up.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 D「worked hard」。Attending practice and not giving up show that Maya worked hard。",
+      "排除 A「looked after」：Looked after means cared for someone or something, not practiced diligently。"
+    ],
+    "teacherTip": "Use the behavior in the because-clause to identify the quality being praised.",
+    "relatedWords": [
+      "work hard（努力）",
+      "practice（練習）",
+      "give up（放棄）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0667",
+    "subject": "英文",
+    "gradeSemester": "七年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The water bottle has a crack, and water is leaking out. You should ____ using it before your books get wet.",
+    "options": [
+      "enjoy",
+      "forget",
+      "stop",
+      "continue"
+    ],
+    "answer": 2,
+    "explanation": "答案選項「stop」正確：Leaking water could wet the books, so the user should stop using the cracked bottle。 D「continue」不正確：Continue would allow more water to leak and increase the risk。",
+    "solutionSteps": [
+      "先讀完整題幹：「The water bottle has a crack, and water is leaking out. You should ____ using it before your books get wet.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 C「stop」。Leaking water could wet the books, so the user should stop using the cracked bottle。",
+      "排除 D「continue」：Continue would allow more water to leak and increase the risk。"
+    ],
+    "teacherTip": "A warning about a worsening consequence usually calls for stopping the cause.",
+    "relatedWords": [
+      "leak（漏出）",
+      "crack（裂縫）",
+      "stop doing（停止做）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0668",
+    "subject": "英文",
+    "gradeSemester": "七年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The town built a bike path beside the river. It is ____ for people who want to ride safely away from cars.",
+    "options": [
+      "famous",
+      "useful",
+      "useless",
+      "nervous"
+    ],
+    "answer": 1,
+    "explanation": "答案選項「useful」正確：A separate bike path helps cyclists avoid cars, so it is useful。 C「useless」不正確：Useless means not helpful, contradicting the safety purpose stated。",
+    "solutionSteps": [
+      "先讀完整題幹：「The town built a bike path beside the river. It is ____ for people who want to ride safely away from cars.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 B「useful」。A separate bike path helps cyclists avoid cars, so it is useful。",
+      "排除 C「useless」：Useless means not helpful, contradicting the safety purpose stated。"
+    ],
+    "teacherTip": "Connect a facility to its stated purpose to judge whether it is useful.",
+    "relatedWords": [
+      "useful（有用的）",
+      "path（小路）",
+      "safely（安全地）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0669",
+    "subject": "英文",
+    "gradeSemester": "八年級上",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The student did not know the word 'enormous,' but the next sentence said the whale was 25 meters long. Enormous means ____.",
+    "options": [
+      "very large",
+      "very quiet",
+      "very young",
+      "very weak"
+    ],
+    "answer": 0,
+    "explanation": "答案選項「very large」正確：A 25-meter whale is extremely large, giving the meaning of enormous。 B「very quiet」不正確：Very quiet describes sound level, while the sentence gives a measurement of size。",
+    "solutionSteps": [
+      "先讀完整題幹：「The student did not know the word 'enormous,' but the next sentence said the whale was 25 meters long. Enormous means ____.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 A「very large」。A 25-meter whale is extremely large, giving the meaning of enormous。",
+      "排除 B「very quiet」：Very quiet describes sound level, while the sentence gives a measurement of size。"
+    ],
+    "teacherTip": "Use a measurable example in the surrounding text to infer an unfamiliar adjective.",
+    "relatedWords": [
+      "enormous（巨大的）",
+      "measurement（測量）",
+      "size（大小）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0670",
+    "subject": "英文",
+    "gradeSemester": "八年級下",
+    "unit": "字彙與片語",
+    "knowledgePoint": "情境字彙、片語與語意判讀",
+    "difficulty": "基礎至中等",
+    "type": "單題選擇",
+    "question": "The restaurant was completely full, so we put our names on a list and waited for a table to become ____.",
+    "options": [
+      "broken",
+      "similar",
+      "private",
+      "available"
+    ],
+    "answer": 3,
+    "explanation": "答案選項「available」正確：They need a table that is free to use; available means ready for use。 A「broken」不正確：Broken describes damage, not a table becoming free after other diners leave。",
+    "solutionSteps": [
+      "先讀完整題幹：「The restaurant was completely full, so we put our names on a list and waited for a table to become ____.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 D「available」。They need a table that is free to use; available means ready for use。",
+      "排除 A「broken」：Broken describes damage, not a table becoming free after other diners leave。"
+    ],
+    "teacherTip": "A waiting list in a full restaurant signals that customers wait until a table is available.",
+    "relatedWords": [
+      "available（可使用的）",
+      "full（客滿的）",
+      "wait（等候）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0671",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "文法",
+    "knowledgePoint": "時態、句型、子句與文法應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "The phone rang while I ____ my homework, so I answered it after finishing the sentence.",
+    "options": [
+      "will do",
+      "have done",
+      "was doing",
+      "do"
+    ],
+    "answer": 2,
+    "explanation": "答案選項「was doing」正確：The phone rang during an ongoing past action; was doing is past progressive。 D「do」不正確：Do is present simple and does not show the past action already in progress when the phone rang。",
+    "solutionSteps": [
+      "先讀完整題幹：「The phone rang while I ____ my homework, so I answered it after finishing the sentence.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 C「was doing」。The phone rang during an ongoing past action; was doing is past progressive。",
+      "排除 D「do」：Do is present simple and does not show the past action already in progress when the phone rang。"
+    ],
+    "teacherTip": "Use was/were + V-ing for an action in progress when another past event occurred.",
+    "relatedWords": [
+      "was doing（當時正在做）",
+      "ring（響）",
+      "while（當……時）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0672",
+    "subject": "英文",
+    "gradeSemester": "九年級下",
+    "unit": "文法",
+    "knowledgePoint": "時態、句型、子句與文法應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "Every Saturday, Mr. Lin ____ fresh vegetables at the farmers' market before it gets crowded.",
+    "options": [
+      "has bought",
+      "buys",
+      "bought",
+      "is buying"
+    ],
+    "answer": 1,
+    "explanation": "答案選項「buys」正確：Every Saturday indicates a repeated habit, so present simple buys is used。 C「bought」不正確：Bought refers to a completed past event, but the sentence describes a regular routine。",
+    "solutionSteps": [
+      "先讀完整題幹：「Every Saturday, Mr. Lin ____ fresh vegetables at the farmers' market before it gets crowded.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 B「buys」。Every Saturday indicates a repeated habit, so present simple buys is used。",
+      "排除 C「bought」：Bought refers to a completed past event, but the sentence describes a regular routine。"
+    ],
+    "teacherTip": "Frequency phrases such as every Saturday usually signal the present simple.",
+    "relatedWords": [
+      "buy（購買）",
+      "farmers' market（農夫市集）",
+      "crowded（擁擠的）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0673",
+    "subject": "英文",
+    "gradeSemester": "七年級上",
+    "unit": "文法",
+    "knowledgePoint": "時態、句型、子句與文法應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "The classroom door ____ by the janitor every evening after the students leave.",
+    "options": [
+      "is locked",
+      "locks",
+      "locked",
+      "is locking"
+    ],
+    "answer": 0,
+    "explanation": "答案選項「is locked」正確：The door receives the action regularly, so present simple passive is locked fits。 B「locks」不正確：Locks is active and would mean the door performs the action itself; the door is the receiver。",
+    "solutionSteps": [
+      "先讀完整題幹：「The classroom door ____ by the janitor every evening after the students leave.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 A「is locked」。The door receives the action regularly, so present simple passive is locked fits。",
+      "排除 B「locks」：Locks is active and would mean the door performs the action itself; the door is the receiver。"
+    ],
+    "teacherTip": "For a subject receiving a repeated action, use am/is/are + past participle.",
+    "relatedWords": [
+      "is locked（被鎖上）",
+      "janitor（校工）",
+      "every evening（每天晚上）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0674",
+    "subject": "英文",
+    "gradeSemester": "七年級下",
+    "unit": "文法",
+    "knowledgePoint": "時態、句型、子句與文法應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "If Tina ____ early tomorrow, she will have time to review before the exam.",
+    "options": [
+      "will get up",
+      "got up",
+      "getting up",
+      "gets up"
+    ],
+    "answer": 3,
+    "explanation": "答案選項「gets up」正確：In a future real condition, the if-clause uses present simple gets up; the main clause has will。 A「will get up」不正確：Will get up incorrectly puts will in the if-clause of a first conditional。",
+    "solutionSteps": [
+      "先讀完整題幹：「If Tina ____ early tomorrow, she will have time to review before the exam.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 D「gets up」。In a future real condition, the if-clause uses present simple gets up; the main clause has will。",
+      "排除 A「will get up」：Will get up incorrectly puts will in the if-clause of a first conditional。"
+    ],
+    "teacherTip": "First conditional: If + present simple, will + base verb.",
+    "relatedWords": [
+      "get up（起床）",
+      "condition（條件）",
+      "review（複習）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0675",
+    "subject": "英文",
+    "gradeSemester": "八年級上",
+    "unit": "文法",
+    "knowledgePoint": "時態、句型、子句與文法應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "This suitcase is ____ than the one I used last year because it has four wheels.",
+    "options": [
+      "more easy to move",
+      "easy to move",
+      "easier to move",
+      "easiest to move"
+    ],
+    "answer": 2,
+    "explanation": "答案選項「easier to move」正確：Than compares two suitcases, and easy takes the comparative form easier。 D「easiest to move」不正確：Easiest is a superlative used when comparing three or more items, not these two。",
+    "solutionSteps": [
+      "先讀完整題幹：「This suitcase is ____ than the one I used last year because it has four wheels.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 C「easier to move」。Than compares two suitcases, and easy takes the comparative form easier。",
+      "排除 D「easiest to move」：Easiest is a superlative used when comparing three or more items, not these two。"
+    ],
+    "teacherTip": "Than signals a comparison between two; use the comparative form easier.",
+    "relatedWords": [
+      "easy（容易的）",
+      "easier（更容易）",
+      "suitcase（行李箱）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0676",
+    "subject": "英文",
+    "gradeSemester": "八年級下",
+    "unit": "文法",
+    "knowledgePoint": "時態、句型、子句與文法應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "The cookies ____ by my sister yesterday, and Dad took them to work this morning.",
+    "options": [
+      "have bake",
+      "were baked",
+      "baked",
+      "are baking"
+    ],
+    "answer": 1,
+    "explanation": "答案選項「were baked」正確：Cookies receive the action, and yesterday requires past passive were baked。 C「baked」不正確：Baked alone is active and would make the cookies the ones doing the baking。",
+    "solutionSteps": [
+      "先讀完整題幹：「The cookies ____ by my sister yesterday, and Dad took them to work this morning.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 B「were baked」。Cookies receive the action, and yesterday requires past passive were baked。",
+      "排除 C「baked」：Baked alone is active and would make the cookies the ones doing the baking。"
+    ],
+    "teacherTip": "Past time plus a receiver subject calls for was/were + past participle.",
+    "relatedWords": [
+      "were baked（被烤製）",
+      "cookie（餅乾）",
+      "yesterday（昨天）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0677",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "文法",
+    "knowledgePoint": "時態、句型、子句與文法應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "The children ____ in the yard when their mother called them in for dinner.",
+    "options": [
+      "were playing",
+      "play",
+      "will play",
+      "have played"
+    ],
+    "answer": 0,
+    "explanation": "答案選項「were playing」正確：Their play was in progress when the past event, their mother calling, occurred。 B「play」不正確：Play is present simple and does not show an ongoing past action interrupted by the call。",
+    "solutionSteps": [
+      "先讀完整題幹：「The children ____ in the yard when their mother called them in for dinner.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 A「were playing」。Their play was in progress when the past event, their mother calling, occurred。",
+      "排除 B「play」：Play is present simple and does not show an ongoing past action interrupted by the call。"
+    ],
+    "teacherTip": "Pair a continuing past action with a shorter past event using past progressive + simple past.",
+    "relatedWords": [
+      "were playing（當時正在玩）",
+      "yard（院子）",
+      "call in（叫進屋）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0678",
+    "subject": "英文",
+    "gradeSemester": "九年級下",
+    "unit": "文法",
+    "knowledgePoint": "時態、句型、子句與文法應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "We have lived in this town ____ 2021, so we know the neighborhood well.",
+    "options": [
+      "for",
+      "during",
+      "until",
+      "since"
+    ],
+    "answer": 3,
+    "explanation": "答案選項「since」正確：2021 is a starting point, so since introduces the point when the residence began。 A「for」不正確：For introduces a length of time, such as for five years, not a calendar starting point。",
+    "solutionSteps": [
+      "先讀完整題幹：「We have lived in this town ____ 2021, so we know the neighborhood well.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 D「since」。2021 is a starting point, so since introduces the point when the residence began。",
+      "排除 A「for」：For introduces a length of time, such as for five years, not a calendar starting point。"
+    ],
+    "teacherTip": "Use since with a starting time and for with a duration.",
+    "relatedWords": [
+      "since（自從）",
+      "for（持續）",
+      "neighborhood（鄰里）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0679",
+    "subject": "英文",
+    "gradeSemester": "七年級上",
+    "unit": "文法",
+    "knowledgePoint": "時態、句型、子句與文法應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "The school trip is ____ Friday, so students should bring their permission forms by Thursday.",
+    "options": [
+      "in",
+      "from",
+      "on",
+      "at"
+    ],
+    "answer": 2,
+    "explanation": "答案選項「on」正確：A day of the week takes on, so the trip is on Friday。 D「at」不正確：At is used with a clock time, not a weekday。",
+    "solutionSteps": [
+      "先讀完整題幹：「The school trip is ____ Friday, so students should bring their permission forms by Thursday.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 C「on」。A day of the week takes on, so the trip is on Friday。",
+      "排除 D「at」：At is used with a clock time, not a weekday。"
+    ],
+    "teacherTip": "Use on before weekdays and dates; use at for exact clock times.",
+    "relatedWords": [
+      "on Friday（在星期五）",
+      "weekday（平日）",
+      "permission form（同意書）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0680",
+    "subject": "英文",
+    "gradeSemester": "七年級下",
+    "unit": "文法",
+    "knowledgePoint": "時態、句型、子句與文法應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "Neither of the two answers ____ correct; both contain a spelling mistake.",
+    "options": [
+      "be",
+      "is",
+      "are",
+      "were"
+    ],
+    "answer": 1,
+    "explanation": "答案選項「is」正確：Neither is singular in standard school grammar, so it takes is。 C「are」不正確：Are is plural and does not agree with the singular subject neither。",
+    "solutionSteps": [
+      "先讀完整題幹：「Neither of the two answers ____ correct; both contain a spelling mistake.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 B「is」。Neither is singular in standard school grammar, so it takes is。",
+      "排除 C「are」：Are is plural and does not agree with the singular subject neither。"
+    ],
+    "teacherTip": "Treat neither of + plural noun as singular in this structure.",
+    "relatedWords": [
+      "neither（兩者皆非）",
+      "correct（正確的）",
+      "neither of（兩者都不）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0681",
+    "subject": "英文",
+    "gradeSemester": "八年級上",
+    "unit": "文法",
+    "knowledgePoint": "時態、句型、子句與文法應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "My aunt gave me ____ useful advice about preparing for the interview.",
+    "options": [
+      "some",
+      "many",
+      "a few",
+      "an"
+    ],
+    "answer": 0,
+    "explanation": "答案選項「some」正確：Advice is an uncountable noun, so some is appropriate。 B「many」不正確：Many is used with plural countable nouns, while advice is uncountable。",
+    "solutionSteps": [
+      "先讀完整題幹：「My aunt gave me ____ useful advice about preparing for the interview.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 A「some」。Advice is an uncountable noun, so some is appropriate。",
+      "排除 B「many」：Many is used with plural countable nouns, while advice is uncountable。"
+    ],
+    "teacherTip": "Advice is uncountable in English; use some advice, not many advices.",
+    "relatedWords": [
+      "advice（建議，不可數）",
+      "some（一些）",
+      "interview（面試）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0682",
+    "subject": "英文",
+    "gradeSemester": "八年級下",
+    "unit": "文法",
+    "knowledgePoint": "時態、句型、子句與文法應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "The movie was ____ interesting that we watched it twice in one weekend.",
+    "options": [
+      "such",
+      "too",
+      "enough",
+      "so"
+    ],
+    "answer": 3,
+    "explanation": "答案選項「so」正確：The structure is so + adjective + that; interesting is an adjective。 A「such」不正確：Such is followed by a noun phrase, as in such an interesting movie, not directly by an adjective。",
+    "solutionSteps": [
+      "先讀完整題幹：「The movie was ____ interesting that we watched it twice in one weekend.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 D「so」。The structure is so + adjective + that; interesting is an adjective。",
+      "排除 A「such」：Such is followed by a noun phrase, as in such an interesting movie, not directly by an adjective。"
+    ],
+    "teacherTip": "Remember so + adjective/adverb + that, but such + noun phrase + that.",
+    "relatedWords": [
+      "so...that（如此……以致）",
+      "interesting（有趣的）",
+      "twice（兩次）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0683",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "文法",
+    "knowledgePoint": "時態、句型、子句與文法應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "There are ____ apples in the basket, but only a little juice in the bottle.",
+    "options": [
+      "a little",
+      "any",
+      "many",
+      "much"
+    ],
+    "answer": 2,
+    "explanation": "答案選項「many」正確：Apples are countable plural nouns, so many is used。 D「much」不正確：Much is used with uncountable nouns such as juice, not countable apples。",
+    "solutionSteps": [
+      "先讀完整題幹：「There are ____ apples in the basket, but only a little juice in the bottle.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 C「many」。Apples are countable plural nouns, so many is used。",
+      "排除 D「much」：Much is used with uncountable nouns such as juice, not countable apples。"
+    ],
+    "teacherTip": "Choose quantity words by noun type: many for countable plural nouns, much for uncountable nouns.",
+    "relatedWords": [
+      "many（許多，可數）",
+      "much（許多，不可數）",
+      "basket（籃子）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0684",
+    "subject": "英文",
+    "gradeSemester": "九年級下",
+    "unit": "文法",
+    "knowledgePoint": "時態、句型、子句與文法應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "The boy ____ won the spelling contest is my cousin.",
+    "options": [
+      "when",
+      "who",
+      "which",
+      "where"
+    ],
+    "answer": 1,
+    "explanation": "答案選項「who」正確：The blank refers to a person, the boy, and introduces a relative clause; who fits。 C「which」不正確：Which generally refers to things, not a person。",
+    "solutionSteps": [
+      "先讀完整題幹：「The boy ____ won the spelling contest is my cousin.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 B「who」。The blank refers to a person, the boy, and introduces a relative clause; who fits。",
+      "排除 C「which」：Which generally refers to things, not a person。"
+    ],
+    "teacherTip": "Use who for people, which for things, and where for places in relative clauses.",
+    "relatedWords": [
+      "who（關係代名詞，指人）",
+      "contest（比賽）",
+      "cousin（表親）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0685",
+    "subject": "英文",
+    "gradeSemester": "七年級上",
+    "unit": "文法",
+    "knowledgePoint": "時態、句型、子句與文法應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "You ____ wear a helmet when riding a bicycle here; it is required by law.",
+    "options": [
+      "must",
+      "might",
+      "could",
+      "would"
+    ],
+    "answer": 0,
+    "explanation": "答案選項「must」正確：The law requires a helmet, so must expresses obligation。 B「might」不正確：Might expresses possibility, not a legal requirement。",
+    "solutionSteps": [
+      "先讀完整題幹：「You ____ wear a helmet when riding a bicycle here; it is required by law.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 A「must」。The law requires a helmet, so must expresses obligation。",
+      "排除 B「might」：Might expresses possibility, not a legal requirement。"
+    ],
+    "teacherTip": "A law or rule signals obligation; must is stronger than might or could.",
+    "relatedWords": [
+      "must（必須）",
+      "helmet（安全帽）",
+      "required（被要求的）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0686",
+    "subject": "英文",
+    "gradeSemester": "七年級下",
+    "unit": "文法",
+    "knowledgePoint": "時態、句型、子句與文法應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "By the time we arrived at the theater, the movie ____.",
+    "options": [
+      "starts",
+      "will start",
+      "is starting",
+      "had started"
+    ],
+    "answer": 3,
+    "explanation": "答案選項「had started」正確：The movie began before the later past event of our arrival, so past perfect had started fits。 A「starts」不正確：Starts is present tense and cannot describe an event already completed before a past arrival。",
+    "solutionSteps": [
+      "先讀完整題幹：「By the time we arrived at the theater, the movie ____.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 D「had started」。The movie began before the later past event of our arrival, so past perfect had started fits。",
+      "排除 A「starts」：Starts is present tense and cannot describe an event already completed before a past arrival。"
+    ],
+    "teacherTip": "Use past perfect for the earlier of two past events: had + past participle.",
+    "relatedWords": [
+      "had started（已經開始）",
+      "by the time（到……時）",
+      "arrive（抵達）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0687",
+    "subject": "英文",
+    "gradeSemester": "八年級上",
+    "unit": "文法",
+    "knowledgePoint": "時態、句型、子句與文法應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "I enjoy ____ mystery stories on the train because they make the trip feel shorter.",
+    "options": [
+      "to reading",
+      "reads",
+      "reading",
+      "read"
+    ],
+    "answer": 2,
+    "explanation": "答案選項「reading」正確：Enjoy is followed by a gerund, so reading is correct。 D「read」不正確：Read is a bare verb and cannot follow enjoy directly in this construction。",
+    "solutionSteps": [
+      "先讀完整題幹：「I enjoy ____ mystery stories on the train because they make the trip feel shorter.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 C「reading」。Enjoy is followed by a gerund, so reading is correct。",
+      "排除 D「read」：Read is a bare verb and cannot follow enjoy directly in this construction。"
+    ],
+    "teacherTip": "After enjoy, use a noun or V-ing form.",
+    "relatedWords": [
+      "enjoy doing（喜歡做）",
+      "mystery（推理）",
+      "gerund（動名詞）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0688",
+    "subject": "英文",
+    "gradeSemester": "八年級下",
+    "unit": "文法",
+    "knowledgePoint": "時態、句型、子句與文法應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "The students were hungry ____ they had skipped breakfast to catch the early bus.",
+    "options": [
+      "while",
+      "because",
+      "although",
+      "unless"
+    ],
+    "answer": 1,
+    "explanation": "答案選項「because」正確：Skipping breakfast explains the hunger, so because introduces the reason。 C「although」不正確：Although signals contrast, but hunger is a natural result of missing breakfast。",
+    "solutionSteps": [
+      "先讀完整題幹：「The students were hungry ____ they had skipped breakfast to catch the early bus.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 B「because」。Skipping breakfast explains the hunger, so because introduces the reason。",
+      "排除 C「although」：Although signals contrast, but hunger is a natural result of missing breakfast。"
+    ],
+    "teacherTip": "Ask whether the second clause explains or contrasts with the first; here it gives a cause.",
+    "relatedWords": [
+      "because（因為）",
+      "skip（略過）",
+      "catch a bus（搭上公車）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0689",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "文法",
+    "knowledgePoint": "時態、句型、子句與文法應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "This is the ____ book in the series; it has more pages than the other four.",
+    "options": [
+      "longest",
+      "longer",
+      "long",
+      "most long"
+    ],
+    "answer": 0,
+    "explanation": "答案選項「longest」正確：The book is compared with the other four, so the superlative longest is needed。 B「longer」不正確：Longer compares two items, but the sentence compares this book with four others。",
+    "solutionSteps": [
+      "先讀完整題幹：「This is the ____ book in the series; it has more pages than the other four.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 A「longest」。The book is compared with the other four, so the superlative longest is needed。",
+      "排除 B「longer」：Longer compares two items, but the sentence compares this book with four others。"
+    ],
+    "teacherTip": "The phrase in the series plus the other four signals comparison among a group; use a superlative.",
+    "relatedWords": [
+      "long（長）",
+      "longer（較長）",
+      "longest（最長）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0690",
+    "subject": "英文",
+    "gradeSemester": "九年級下",
+    "unit": "文法",
+    "knowledgePoint": "時態、句型、子句與文法應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "The homework ____ before the teacher collected the notebooks yesterday.",
+    "options": [
+      "finished",
+      "is finishing",
+      "has finish",
+      "was finished"
+    ],
+    "answer": 3,
+    "explanation": "答案選項「was finished」正確：Homework receives the action, and yesterday calls for past passive was finished。 A「finished」不正確：Finished alone would make homework the subject performing the action rather than receiving it。",
+    "solutionSteps": [
+      "先讀完整題幹：「The homework ____ before the teacher collected the notebooks yesterday.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 D「was finished」。Homework receives the action, and yesterday calls for past passive was finished。",
+      "排除 A「finished」：Finished alone would make homework the subject performing the action rather than receiving it。"
+    ],
+    "teacherTip": "Check both voice and time: homework receives the action; yesterday requires past tense.",
+    "relatedWords": [
+      "was finished（被完成）",
+      "collect（收取）",
+      "notebook（筆記本）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0691",
+    "subject": "英文",
+    "gradeSemester": "七年級上",
+    "unit": "文法",
+    "knowledgePoint": "時態、句型、子句與文法應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "If you heat ice, it ____ into water.",
+    "options": [
+      "melted",
+      "melting",
+      "melts",
+      "will melt"
+    ],
+    "answer": 2,
+    "explanation": "答案選項「melts」正確：This is a general scientific fact, so both clauses use present simple; ice melts。 D「will melt」不正確：Will melt is not used in the if-clause of a general truth。",
+    "solutionSteps": [
+      "先讀完整題幹：「If you heat ice, it ____ into water.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 C「melts」。This is a general scientific fact, so both clauses use present simple; ice melts。",
+      "排除 D「will melt」：Will melt is not used in the if-clause of a general truth。"
+    ],
+    "teacherTip": "Zero conditional facts use present simple in both the if-clause and result clause.",
+    "relatedWords": [
+      "melt（融化）",
+      "heat（加熱）",
+      "general truth（一般真理）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0692",
+    "subject": "英文",
+    "gradeSemester": "七年級下",
+    "unit": "文法",
+    "knowledgePoint": "時態、句型、子句與文法應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "The girl ____ bicycle was stolen reported it to the police.",
+    "options": [
+      "where",
+      "whose",
+      "who",
+      "which"
+    ],
+    "answer": 1,
+    "explanation": "答案選項「whose」正確：The blank shows possession: the bicycle belongs to the girl, so whose is needed。 C「who」不正確：Who refers to a person as a subject, but does not show possession of the bicycle。",
+    "solutionSteps": [
+      "先讀完整題幹：「The girl ____ bicycle was stolen reported it to the police.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 B「whose」。The blank shows possession: the bicycle belongs to the girl, so whose is needed。",
+      "排除 C「who」：Who refers to a person as a subject, but does not show possession of the bicycle。"
+    ],
+    "teacherTip": "Use whose before a noun to show that something belongs to a person or thing.",
+    "relatedWords": [
+      "whose（誰的）",
+      "bicycle（腳踏車）",
+      "steal（偷）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0693",
+    "subject": "英文",
+    "gradeSemester": "八年級上",
+    "unit": "文法",
+    "knowledgePoint": "時態、句型、子句與文法應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "There is ____ milk left, enough for one cup of tea but not for two.",
+    "options": [
+      "a little",
+      "a few",
+      "many",
+      "several"
+    ],
+    "answer": 0,
+    "explanation": "答案選項「a little」正確：Milk is uncountable and the amount is small but sufficient for one cup; a little fits。 B「a few」不正確：A few is used with plural countable nouns, not milk。",
+    "solutionSteps": [
+      "先讀完整題幹：「There is ____ milk left, enough for one cup of tea but not for two.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 A「a little」。Milk is uncountable and the amount is small but sufficient for one cup; a little fits。",
+      "排除 B「a few」：A few is used with plural countable nouns, not milk。"
+    ],
+    "teacherTip": "Use a little with a small amount of an uncountable noun; a few goes with countable plurals.",
+    "relatedWords": [
+      "a little（少量，不可數）",
+      "a few（少數，可數）",
+      "enough（足夠）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0694",
+    "subject": "英文",
+    "gradeSemester": "八年級下",
+    "unit": "文法",
+    "knowledgePoint": "時態、句型、子句與文法應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "The train had already left ____ we reached the station, so we waited for the next one.",
+    "options": [
+      "unless",
+      "because",
+      "although",
+      "when"
+    ],
+    "answer": 3,
+    "explanation": "答案選項「when」正確：When links the train's departure with the time we reached the station。 A「unless」不正確：Unless means if not and would create a condition that does not fit the past sequence。",
+    "solutionSteps": [
+      "先讀完整題幹：「The train had already left ____ we reached the station, so we waited for the next one.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 D「when」。When links the train's departure with the time we reached the station。",
+      "排除 A「unless」：Unless means if not and would create a condition that does not fit the past sequence。"
+    ],
+    "teacherTip": "Use when to connect events by time; the past perfect marks which happened first.",
+    "relatedWords": [
+      "when（當……時）",
+      "already（已經）",
+      "station（車站）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0695",
+    "subject": "英文",
+    "gradeSemester": "九年級上",
+    "unit": "文法",
+    "knowledgePoint": "時態、句型、子句與文法應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "My brother is good ____ solving math problems, but he finds spelling difficult.",
+    "options": [
+      "on",
+      "for",
+      "at",
+      "in"
+    ],
+    "answer": 2,
+    "explanation": "答案選項「at」正確：The fixed expression is be good at + noun or V-ing; solving is V-ing。 D「in」不正確：Good in is not the standard collocation before an activity in this sentence。",
+    "solutionSteps": [
+      "先讀完整題幹：「My brother is good ____ solving math problems, but he finds spelling difficult.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 C「at」。The fixed expression is be good at + noun or V-ing; solving is V-ing。",
+      "排除 D「in」：Good in is not the standard collocation before an activity in this sentence。"
+    ],
+    "teacherTip": "Memorize adjective-preposition combinations; good at is followed by a noun or V-ing.",
+    "relatedWords": [
+      "be good at（擅長）",
+      "solve（解題）",
+      "difficult（困難的）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0696",
+    "subject": "英文",
+    "gradeSemester": "九年級下",
+    "unit": "文法",
+    "knowledgePoint": "時態、句型、子句與文法應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "The children ____ their grandparents every summer since they moved to the city.",
+    "options": [
+      "will visit",
+      "have visited",
+      "visited",
+      "are visiting"
+    ],
+    "answer": 1,
+    "explanation": "答案選項「have visited」正確：Since marks a period continuing from a past starting point to now, so present perfect have visited fits。 C「visited」不正確：Visited is simple past and does not show the repeated visits continuing up to the present。",
+    "solutionSteps": [
+      "先讀完整題幹：「The children ____ their grandparents every summer since they moved to the city.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 B「have visited」。Since marks a period continuing from a past starting point to now, so present perfect have visited fits。",
+      "排除 C「visited」：Visited is simple past and does not show the repeated visits continuing up to the present。"
+    ],
+    "teacherTip": "Since plus a past starting point often calls for the present perfect.",
+    "relatedWords": [
+      "have visited（一直有拜訪）",
+      "since（自從）",
+      "grandparent（祖父母）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0697",
+    "subject": "英文",
+    "gradeSemester": "七年級上",
+    "unit": "文法",
+    "knowledgePoint": "時態、句型、子句與文法應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "The more carefully you read the directions, ____ mistakes you will make.",
+    "options": [
+      "the fewer",
+      "fewer",
+      "the fewest",
+      "few"
+    ],
+    "answer": 0,
+    "explanation": "答案選項「the fewer」正確：The correlative pattern is the more..., the fewer...; mistakes is countable plural。 B「fewer」不正確：Fewer without the does not complete the paired comparative structure。",
+    "solutionSteps": [
+      "先讀完整題幹：「The more carefully you read the directions, ____ mistakes you will make.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 A「the fewer」。The correlative pattern is the more..., the fewer...; mistakes is countable plural。",
+      "排除 B「fewer」：Fewer without the does not complete the paired comparative structure。"
+    ],
+    "teacherTip": "Use the + comparative in both halves of the pattern the more..., the fewer....",
+    "relatedWords": [
+      "the more...the fewer...（越……越少……）",
+      "carefully（仔細地）",
+      "mistake（錯誤）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0698",
+    "subject": "英文",
+    "gradeSemester": "七年級下",
+    "unit": "文法",
+    "knowledgePoint": "時態、句型、子句與文法應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "I was washing the dishes ____ my sister was drying them.",
+    "options": [
+      "before",
+      "until",
+      "unless",
+      "while"
+    ],
+    "answer": 3,
+    "explanation": "答案選項「while」正確：The two actions happened at the same time, so while is appropriate。 A「before」不正確：Before would say washing happened earlier, but the sentence presents simultaneous actions。",
+    "solutionSteps": [
+      "先讀完整題幹：「I was washing the dishes ____ my sister was drying them.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 D「while」。The two actions happened at the same time, so while is appropriate。",
+      "排除 A「before」：Before would say washing happened earlier, but the sentence presents simultaneous actions。"
+    ],
+    "teacherTip": "Use while to show two actions happening at the same time.",
+    "relatedWords": [
+      "while（當……同時）",
+      "wash（清洗）",
+      "dry（擦乾）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0699",
+    "subject": "英文",
+    "gradeSemester": "八年級上",
+    "unit": "文法",
+    "knowledgePoint": "時態、句型、子句與文法應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "The doctor advised him ____ more vegetables and less fried food.",
+    "options": [
+      "eating",
+      "ate",
+      "to eat",
+      "eat"
+    ],
+    "answer": 2,
+    "explanation": "答案選項「to eat」正確：Advise someone to do something takes to + base verb; to eat is correct。 D「eat」不正確：Eat lacks the infinitive marker required after advised him in this pattern。",
+    "solutionSteps": [
+      "先讀完整題幹：「The doctor advised him ____ more vegetables and less fried food.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 C「to eat」。Advise someone to do something takes to + base verb; to eat is correct。",
+      "排除 D「eat」：Eat lacks the infinitive marker required after advised him in this pattern。"
+    ],
+    "teacherTip": "Use advise + person + to-infinitive.",
+    "relatedWords": [
+      "advise someone to（建議某人）",
+      "vegetable（蔬菜）",
+      "fried（油炸的）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  },
+  {
+    "id": "ENG-0700",
+    "subject": "英文",
+    "gradeSemester": "八年級下",
+    "unit": "文法",
+    "knowledgePoint": "時態、句型、子句與文法應用",
+    "difficulty": "中等",
+    "type": "單題選擇",
+    "question": "Neither the coach nor the players ____ satisfied with the canceled practice.",
+    "options": [
+      "be",
+      "were",
+      "was",
+      "is"
+    ],
+    "answer": 1,
+    "explanation": "答案選項「were」正確：With neither...nor, the verb agrees with the nearer subject players, which is plural; were fits。 C「was」不正確：Was is singular and does not agree with the nearer plural subject players。",
+    "solutionSteps": [
+      "先讀完整題幹：「Neither the coach nor the players ____ satisfied with the canceled practice.」並圈出直接提供的語境、時間或文法線索。",
+      "答案為 B「were」。With neither...nor, the verb agrees with the nearer subject players, which is plural; were fits。",
+      "排除 C「was」：Was is singular and does not agree with the nearer plural subject players。"
+    ],
+    "teacherTip": "In neither...nor, the verb commonly agrees with the subject nearer to it.",
+    "relatedWords": [
+      "neither...nor（既不……也不）",
+      "player（球員）",
+      "satisfied（滿意的）"
+    ],
+    "sourceType": "原創會考程度練習",
+    "review": {
+      "intervalDays": 0,
+      "repetitions": 0,
+      "easeFactor": 2.5,
+      "lastReviewedAt": null,
+      "nextReviewAt": null
+    }
+  }
+]

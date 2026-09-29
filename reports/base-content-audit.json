@@ -1,0 +1,72 @@
+{
+  "國文": {
+    "total": 1000,
+    "uniqueQuestionStems": 1000,
+    "structuralQuestionTemplates": 159,
+    "largestTemplateGroup": 100,
+    "uniqueStemAndOptionSets": 1000,
+    "distinctExplanations": 258,
+    "mostRepeatedExplanation": 100,
+    "distinctStepSets": 177,
+    "malformedOptions": 0,
+    "genericExplanations": 100,
+    "sharedMaterialMentions": 0,
+    "errors": []
+  },
+  "英文": {
+    "total": 1000,
+    "uniqueQuestionStems": 1000,
+    "structuralQuestionTemplates": 379,
+    "largestTemplateGroup": 25,
+    "uniqueStemAndOptionSets": 1000,
+    "distinctExplanations": 587,
+    "mostRepeatedExplanation": 57,
+    "distinctStepSets": 1000,
+    "malformedOptions": 0,
+    "genericExplanations": 0,
+    "sharedMaterialMentions": 0,
+    "errors": []
+  },
+  "數學": {
+    "total": 1000,
+    "uniqueQuestionStems": 1000,
+    "structuralQuestionTemplates": 158,
+    "largestTemplateGroup": 100,
+    "uniqueStemAndOptionSets": 1000,
+    "distinctExplanations": 898,
+    "mostRepeatedExplanation": 10,
+    "distinctStepSets": 898,
+    "malformedOptions": 0,
+    "genericExplanations": 0,
+    "sharedMaterialMentions": 0,
+    "errors": []
+  },
+  "自然": {
+    "total": 1000,
+    "uniqueQuestionStems": 1000,
+    "structuralQuestionTemplates": 134,
+    "largestTemplateGroup": 100,
+    "uniqueStemAndOptionSets": 1000,
+    "distinctExplanations": 139,
+    "mostRepeatedExplanation": 100,
+    "distinctStepSets": 169,
+    "malformedOptions": 0,
+    "genericExplanations": 0,
+    "sharedMaterialMentions": 0,
+    "errors": []
+  },
+  "社會": {
+    "total": 1000,
+    "uniqueQuestionStems": 1000,
+    "structuralQuestionTemplates": 35,
+    "largestTemplateGroup": 100,
+    "uniqueStemAndOptionSets": 1000,
+    "distinctExplanations": 65,
+    "mostRepeatedExplanation": 25,
+    "distinctStepSets": 904,
+    "malformedOptions": 0,
+    "genericExplanations": 0,
+    "sharedMaterialMentions": 0,
+    "errors": []
+  }
+}
