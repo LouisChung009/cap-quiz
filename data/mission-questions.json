@@ -2339,7 +2339,7 @@
     "knowledgePoint": "110年英文第3題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Jill is that the city park is closed for the music festival because now she can’t jog there.",
+    "question": "Jill is ____ that the city park is closed for the music festival because now she can’t jog there.",
     "questionImage": "./assets/official-exams/110-english-p2.webp",
     "imageAlt": "110年國中教育會考英文科第3題官方試卷頁面",
     "options": [
@@ -2389,7 +2389,7 @@
     "knowledgePoint": "110年英文第4題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Steven wants to be a , because he loves to watch people enjoy the food he prepares.",
+    "question": "Steven wants to be a ____, because he loves to watch people enjoy the food he prepares.",
     "questionImage": "./assets/official-exams/110-english-p2.webp",
     "imageAlt": "110年國中教育會考英文科第4題官方試卷頁面",
     "options": [
@@ -2439,7 +2439,7 @@
     "knowledgePoint": "110年英文第5題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Paul misses his parents a lot. He them since he came to work in Taiwan a year ago.",
+    "question": "Paul misses his parents a lot. He ____ them since he came to work in Taiwan a year ago.",
     "questionImage": "./assets/official-exams/110-english-p2.webp",
     "imageAlt": "110年國中教育會考英文科第5題官方試卷頁面",
     "options": [
@@ -2489,7 +2489,7 @@
     "knowledgePoint": "110年英文第6題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Our teacher Ms. Wu seldom laughs, but when she , everyone in the same building can hear her.",
+    "question": "Our teacher Ms. Wu seldom laughs, but when she ____, everyone in the same building can hear her.",
     "questionImage": "./assets/official-exams/110-english-p2.webp",
     "imageAlt": "110年國中教育會考英文科第6題官方試卷頁面",
     "options": [
@@ -2539,7 +2539,7 @@
     "knowledgePoint": "110年英文第7題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "My sister is coming to my home today. She with me for a week.",
+    "question": "My sister is coming to my home today. She ____ with me for a week.",
     "questionImage": "./assets/official-exams/110-english-p2.webp",
     "imageAlt": "110年國中教育會考英文科第7題官方試卷頁面",
     "options": [
@@ -2589,7 +2589,7 @@
     "knowledgePoint": "110年英文第8題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Edward had worked as a computer engineer for ten years. This helped him a lot when he started his own computer shop.",
+    "question": "Edward had worked as a computer engineer for ten years. This ____ helped him a lot when he started his own computer shop.",
     "questionImage": "./assets/official-exams/110-english-p2.webp",
     "imageAlt": "110年國中教育會考英文科第8題官方試卷頁面",
     "options": [
@@ -2639,7 +2639,7 @@
     "knowledgePoint": "110年英文第9題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "If you’re interested in our business plan, this number and ask for Ms. Lee. She’ll answer your questions.",
+    "question": "If you’re interested in our business plan, ____ this number and ask for Ms. Lee. She’ll answer your questions.",
     "questionImage": "./assets/official-exams/110-english-p2.webp",
     "imageAlt": "110年國中教育會考英文科第9題官方試卷頁面",
     "options": [
@@ -2689,7 +2689,7 @@
     "knowledgePoint": "110年英文第10題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Jimmy would not get up for breakfast, his dad had already tried to pull him from his bed several times.",
+    "question": "Jimmy would not get up for breakfast, ____ his dad had already tried to pull him from his bed several times.",
     "questionImage": "./assets/official-exams/110-english-p3.webp",
     "imageAlt": "110年國中教育會考英文科第10題官方試卷頁面",
     "options": [
@@ -2739,7 +2739,7 @@
     "knowledgePoint": "110年英文第11題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Duncan spent all his money trying to the bookstore his mom left him. Sadly, the business never got better, and he had to close it in the end.",
+    "question": "Duncan spent all his money trying to ____ the bookstore his mom left him. Sadly, the business never got better, and he had to close it in the end.",
     "questionImage": "./assets/official-exams/110-english-p3.webp",
     "imageAlt": "110年國中教育會考英文科第11題官方試卷頁面",
     "options": [
@@ -2789,7 +2789,7 @@
     "knowledgePoint": "110年英文第12題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Fiona loves listening to her children sing songs at school.",
+    "question": "Fiona loves listening to her children sing songs ____ at school.",
     "questionImage": "./assets/official-exams/110-english-p3.webp",
     "imageAlt": "110年國中教育會考英文科第12題官方試卷頁面",
     "options": [
@@ -2839,7 +2839,7 @@
     "knowledgePoint": "110年英文第13題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Beverly eats lots of snacks meals. That’s why she is often too full to eat anything at mealtimes.",
+    "question": "Beverly eats lots of snacks ____ meals. That’s why she is often too full to eat anything at mealtimes.",
     "questionImage": "./assets/official-exams/110-english-p3.webp",
     "imageAlt": "110年國中教育會考英文科第13題官方試卷頁面",
     "options": [
@@ -2889,7 +2889,7 @@
     "knowledgePoint": "110年英文第14題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Nora: Can I check your drawer for some tools we can use? Matt: Sure. Take a look. See if you can find in there.",
+    "question": "Nora: Can I check your drawer for some tools we can use? Matt: Sure. Take a look. See if you can find ____ in there.",
     "questionImage": "./assets/official-exams/110-english-p3.webp",
     "imageAlt": "110年國中教育會考英文科第14題官方試卷頁面",
     "options": [
@@ -43137,7 +43137,7 @@
     "knowledgePoint": "114年英文第1題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Look at the picture. A is flying over the houses.",
+    "question": "Look at the picture. A ____ is flying over the houses.",
     "questionImage": "./assets/official-exams/114-english-p2.webp",
     "imageAlt": "114年國中教育會考英文科第1題官方試卷頁面",
     "options": [
@@ -43187,7 +43187,7 @@
     "knowledgePoint": "114年英文第2題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "When I was a teenager, I was very . But now, it’s easier for me to talk to people.",
+    "question": "When I was a teenager, I was very ____. But now, it’s easier for me to talk to people.",
     "questionImage": "./assets/official-exams/114-english-p2.webp",
     "imageAlt": "114年國中教育會考英文科第2題官方試卷頁面",
     "options": [
@@ -43237,7 +43237,7 @@
     "knowledgePoint": "114年英文第3題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Lena doesn’t want to go with John because she is afraid of water.",
+    "question": "Lena doesn’t want to go ____ with John because she is afraid of water.",
     "questionImage": "./assets/official-exams/114-english-p2.webp",
     "imageAlt": "114年國中教育會考英文科第3題官方試卷頁面",
     "options": [
@@ -43287,7 +43287,7 @@
     "knowledgePoint": "114年英文第4題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Cindy enjoys her dad read stories to her before bed.",
+    "question": "Cindy enjoys ____ her dad read stories to her before bed.",
     "questionImage": "./assets/official-exams/114-english-p2.webp",
     "imageAlt": "114年國中教育會考英文科第4題官方試卷頁面",
     "options": [
@@ -43337,7 +43337,7 @@
     "knowledgePoint": "114年英文第5題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Dad is busy cooking in the kitchen. Dinner will be in ten minutes.",
+    "question": "Dad is busy cooking in the kitchen. Dinner will be ____ in ten minutes.",
     "questionImage": "./assets/official-exams/114-english-p2.webp",
     "imageAlt": "114年國中教育會考英文科第5題官方試卷頁面",
     "options": [
@@ -43387,7 +43387,7 @@
     "knowledgePoint": "114年英文第6題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "There are so many new in the office. It’ll take me some time to remember who is who.",
+    "question": "There are so many new ____ in the office. It’ll take me some time to remember who is who.",
     "questionImage": "./assets/official-exams/114-english-p2.webp",
     "imageAlt": "114年國中教育會考英文科第6題官方試卷頁面",
     "options": [
@@ -43437,7 +43437,7 @@
     "knowledgePoint": "114年英文第7題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "I feel like a . I was looking for my keys for hours but they have been in my pocket the whole time.",
+    "question": "I feel like a ____. I was looking for my keys for hours but they have been in my pocket the whole time.",
     "questionImage": "./assets/official-exams/114-english-p2.webp",
     "imageAlt": "114年國中教育會考英文科第7題官方試卷頁面",
     "options": [
@@ -43487,7 +43487,7 @@
     "knowledgePoint": "114年英文第8題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Mr. and Mrs. Wu have three daughters. Two are in high school, and is in elementary school.",
+    "question": "Mr. and Mrs. Wu have three daughters. Two are in high school, and ____ is in elementary school.",
     "questionImage": "./assets/official-exams/114-english-p2.webp",
     "imageAlt": "114年國中教育會考英文科第8題官方試卷頁面",
     "options": [
@@ -43537,7 +43537,7 @@
     "knowledgePoint": "114年英文第9題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "It is hard for trees to along this beach because of the strong winds from the sea.",
+    "question": "It is hard for trees to ____ along this beach because of the strong winds from the sea.",
     "questionImage": "./assets/official-exams/114-english-p2.webp",
     "imageAlt": "114年國中教育會考英文科第9題官方試卷頁面",
     "options": [
@@ -43587,7 +43587,7 @@
     "knowledgePoint": "114年英文第10題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Christmas and I want to visit my aunt abroad. Do you have any plans yet?",
+    "question": "Christmas ____ and I want to visit my aunt abroad. Do you have any plans yet?",
     "questionImage": "./assets/official-exams/114-english-p3.webp",
     "imageAlt": "114年國中教育會考英文科第10題官方試卷頁面",
     "options": [
@@ -43637,7 +43637,7 @@
     "knowledgePoint": "114年英文第11題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Jo won’t be happy if you’re late for his party tonight, so sure that you arrive on time.",
+    "question": "Jo won’t be happy if you’re late for his party tonight, so ____ sure that you arrive on time.",
     "questionImage": "./assets/official-exams/114-english-p3.webp",
     "imageAlt": "114年國中教育會考英文科第11題官方試卷頁面",
     "options": [
@@ -43687,7 +43687,7 @@
     "knowledgePoint": "114年英文第12題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "You may have a long drive because of the terrible . There are usually a lot of cars and buses during this time.",
+    "question": "You may have a long drive because of the terrible ____. There are usually a lot of cars and buses during this time.",
     "questionImage": "./assets/official-exams/114-english-p3.webp",
     "imageAlt": "114年國中教育會考英文科第12題官方試卷頁面",
     "options": [
@@ -43737,7 +43737,7 @@
     "knowledgePoint": "114年英文第13題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "In the future, there will be greater basketball players than Stephen Curry, but now we believe he is the best!",
+    "question": "In the future, there will ____ be greater basketball players than Stephen Curry, but now we believe he is the best!",
     "questionImage": "./assets/official-exams/114-english-p3.webp",
     "imageAlt": "114年國中教育會考英文科第13題官方試卷頁面",
     "options": [
@@ -43787,7 +43787,7 @@
     "knowledgePoint": "114年英文第14題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "I guess the rainwater has come in from the kitchen. See? of the windows are closed except the one in the kitchen.",
+    "question": "I guess the rainwater has come in from the kitchen. See? ____ of the windows are closed except the one in the kitchen.",
     "questionImage": "./assets/official-exams/114-english-p3.webp",
     "imageAlt": "114年國中教育會考英文科第14題官方試卷頁面",
     "options": [
@@ -43837,7 +43837,7 @@
     "knowledgePoint": "114年英文第15題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "machines have been used to pick fruits for a long time, they were not used on strawberry farms until several years ago.",
+    "question": "____ machines have been used to pick fruits for a long time, they were not used on strawberry farms until several years ago.",
     "questionImage": "./assets/official-exams/114-english-p3.webp",
     "imageAlt": "114年國中教育會考英文科第15題官方試卷頁面",
     "options": [
@@ -43887,7 +43887,7 @@
     "knowledgePoint": "114年英文第16題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "There are online videos that teach you exercises you can do at home. They’ll you a trip to the gym, and some money too.",
+    "question": "There are online videos that teach you exercises you can do at home. They’ll ____ you a trip to the gym, and some money too.",
     "questionImage": "./assets/official-exams/114-english-p3.webp",
     "imageAlt": "114年國中教育會考英文科第16題官方試卷頁面",
     "options": [
@@ -43937,7 +43937,7 @@
     "knowledgePoint": "114年英文第17題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Jane’s parents are always happy to see their grandchildren, but mine less so when I visit them with my kids.",
+    "question": "Jane’s parents are always happy to see their grandchildren, but mine ____ less so when I visit them with my kids.",
     "questionImage": "./assets/official-exams/114-english-p3.webp",
     "imageAlt": "114年國中教育會考英文科第17題官方試卷頁面",
     "options": [
@@ -43987,7 +43987,7 @@
     "knowledgePoint": "114年英文第18題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Before she about it, you should tell Daphne you broke her favorite cup.",
+    "question": "Before she ____ about it, you should tell Daphne you broke her favorite cup.",
     "questionImage": "./assets/official-exams/114-english-p3.webp",
     "imageAlt": "114年國中教育會考英文科第18題官方試卷頁面",
     "options": [
@@ -44037,7 +44037,7 @@
     "knowledgePoint": "114年英文第19題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "It was very windy this morning. Some of the shirts on the balcony were blown away in the pond.",
+    "question": "It was very windy this morning. Some of the shirts on the balcony were blown away ____ in the pond.",
     "questionImage": "./assets/official-exams/114-english-p3.webp",
     "imageAlt": "114年國中教育會考英文科第19題官方試卷頁面",
     "options": [
