@@ -4323,21 +4323,20 @@
     "knowledgePoint": "110年數學第3題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "若二元一次聯立方程式 的解為 x = a， y = b，則 a + b 之值為何？ 6y − x = 10 (A) −15 (B) −3 (C) 5 (D)",
-    "questionImage": "./assets/official-exams/110-math-p2.webp",
+    "question": "若二元一次聯立方程式 x = 4y、6y − x = 10 的解為 x = a、y = b，則 a + b 之值為何？",
     "imageAlt": "110年國中教育會考數學科第3題官方試卷頁面",
     "options": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "−15",
+      "−3",
+      "5",
+      "25"
     ],
     "answer": 3,
-    "explanation": "正確答案索引為 D；原始 OCR 未保留可靠的選項文字，請以官方題圖中的 D 選項原文及題目條件核對。",
+    "explanation": "答案 D「25」。由 x = 4y 代入 6y − x = 10，得 6y − 4y = 10，因此 y = 5、x = 20，故 a + b = 20 + 5 = 25。",
     "solutionSteps": [
-      "先讀取官方題圖與題幹條件：「若二元一次聯立方程式 的解為 x = a， y = b，則 a + b 之值為何？ 6y − x = 10 (A) −15 (B) −3 (C) 5 (D)」，確認公式、圖形標示、單位與所求量。",
-      "依題目條件完成運算或逐項檢核；正確答案索引為 D，實際選項文字因原始 OCR 未可靠保留，須以題圖中的 D 選項原文為準。",
-      "將題圖中的 D 選項代回原條件，並檢查正負號、單位、範圍及是否符合所有圖表限制。"
+      "先用 x = 4y 代入另一式 6y − x = 10，得到 6y − 4y = 10。",
+      "合併同類項得 2y = 10，所以 y = 5；再由 x = 4y 算出 x = 20。",
+      "a = x、b = y，因此 a + b = 20 + 5 = 25，選 D。"
     ],
     "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
     "relatedWords": [],
@@ -4355,11 +4354,8 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-math-p2.webp"
-    ]
+    "requiresImage": false,
+    "requiresContext": false
   },
   {
     "id": "OFF-0093",
@@ -4369,7 +4365,7 @@
     "knowledgePoint": "110年數學第4題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "如圖 ( 二 ) ， 矩形 ABCD、 ∆ BDE 中 ， A 點在 BE 上 。 若矩形 ABCD 的面積 為 20 ， ∆ BDE 的面積為 24 ， 則 ∆ ADE 的面積為何？ E",
+    "question": "如圖，矩形 ABCD 與 △BDE 中，A 點在 BE 上。若矩形 ABCD 的面積為 20，△BDE 的面積為 24，則 △ADE 的面積為何？",
     "questionImage": "./assets/official-exams/110-math-p2.webp",
     "imageAlt": "110年國中教育會考數學科第4題官方試卷頁面",
     "options": [
@@ -4379,11 +4375,11 @@
       "16"
     ],
     "answer": 2,
-    "explanation": "依題目所給條件計算或判斷，結果對應 C「14」。",
+    "explanation": "答案 C「14」。△BDE 的底 BE 可分成 AB 與 AE，且兩部分以 AD 為共同高，因此 △BDE 的面積等於 △BAD 與 △ADE 面積之和。△BAD 是矩形 ABCD 的一半，面積為 20 ÷ 2 = 10；所以 △ADE = 24 − 10 = 14。",
     "solutionSteps": [
-      "整理題目已知條件與所求：「如圖 ( 二 ) ， 矩形 ABCD、 ∆ BDE 中 ， A 點在 BE 上 。 若矩形 ABCD 的面積 為 20 ， ∆ BDE 的面積為 24 ， 則 ∆ ADE 的面積為何？ E」。",
-      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 C「14」。",
-      "將 C「14」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+      "矩形 ABCD 的對角線 BD 把矩形分成等面積兩個三角形，所以 △BAD 面積是 20 ÷ 2 = 10。",
+      "因 A 在 BE 上，△BDE 可沿 AD 分成 △BAD 和 △ADE，兩三角形合起來就是題目給的 24。",
+      "因此 △ADE 面積 = 24 − 10 = 14，選 C。"
     ],
     "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
     "relatedWords": [],
@@ -4415,21 +4411,20 @@
     "knowledgePoint": "110年數學第5題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "56 是 53 的多少倍？ (A) 2 (B) 3 (C) 25 (D)",
-    "questionImage": "./assets/official-exams/110-math-p3.webp",
+    "question": "5⁶ 是 5³ 的多少倍？",
     "imageAlt": "110年國中教育會考數學科第5題官方試卷頁面",
     "options": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "2",
+      "3",
+      "25",
+      "125"
     ],
     "answer": 3,
-    "explanation": "正確答案索引為 D；原始 OCR 未保留可靠的選項文字，請以官方題圖中的 D 選項原文及題目條件核對。",
+    "explanation": "答案 D「125」。求 5⁶ 是 5³ 的幾倍，要計算 5⁶ ÷ 5³。同底數相除，指數相減，得 5⁶⁻³ = 5³ = 125。",
     "solutionSteps": [
-      "先讀取官方題圖與題幹條件：「56 是 53 的多少倍？ (A) 2 (B) 3 (C) 25 (D)」，確認公式、圖形標示、單位與所求量。",
-      "依題目條件完成運算或逐項檢核；正確答案索引為 D，實際選項文字因原始 OCR 未可靠保留，須以題圖中的 D 選項原文為準。",
-      "將題圖中的 D 選項代回原條件，並檢查正負號、單位、範圍及是否符合所有圖表限制。"
+      "把『5⁶ 是 5³ 的多少倍』轉成比值 5⁶ ÷ 5³。",
+      "同底數的冪相除，底數不變、指數相減：5⁶ ÷ 5³ = 5³。",
+      "5³ = 5 × 5 × 5 = 125，選 D。"
     ],
     "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
     "relatedWords": [],
@@ -4447,11 +4442,8 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-math-p3.webp"
-    ]
+    "requiresImage": false,
+    "requiresContext": false
   },
   {
     "id": "OFF-0095",
@@ -4462,20 +4454,19 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "下列等式何者不成立？",
-    "questionImage": "./assets/official-exams/110-math-p3.webp",
     "imageAlt": "110年國中教育會考數學科第6題官方試卷頁面",
     "options": [
-      "4 3 + 2 3 = 6 3",
-      "4 3 − 2 3 = 2 3",
-      "4 3 × 2 3 = 8 3",
-      "4 3 ÷ 2 3 ="
+      "4√3 + 2√3 = 6√3",
+      "4√3 − 2√3 = 2√3",
+      "4√3 × 2√3 = 8√3",
+      "4√3 ÷ 2√3 = 2"
     ],
     "answer": 2,
-    "explanation": "依題目所給條件計算或判斷，結果對應 C「4 3 × 2 3 = 8 3」。",
+    "explanation": "答案 C「4√3 × 2√3 = 8√3」不成立。左邊相乘為 4 × 2 × √3 × √3 = 8 × 3 = 24，並非 8√3。其餘三式成立：同類根式加減係數相加減；除法中 √3 約去，結果為 2。",
     "solutionSteps": [
-      "整理題目已知條件與所求：「下列等式何者不成立？」。",
-      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 C「4 3 × 2 3 = 8 3」。",
-      "將 C「4 3 × 2 3 = 8 3」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+      "檢查 A、B：同類根式可合併係數，4√3 + 2√3 = 6√3，4√3 − 2√3 = 2√3，均成立。",
+      "檢查 C：相乘時 √3 × √3 = 3，所以左式等於 4 × 2 × 3 = 24；右式 8√3 不等於 24。",
+      "檢查 D：(4√3) ÷ (2√3) = (4 ÷ 2)(√3 ÷ √3) = 2，因此只有 C 不成立。"
     ],
     "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
     "relatedWords": [],
@@ -4493,11 +4484,8 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-math-p3.webp"
-    ]
+    "requiresImage": false,
+    "requiresContext": false
   },
   {
     "id": "OFF-0096",
