@@ -13,7 +13,7 @@ function answerIsNamed(row, solution) {
   const letter = String.fromCharCode(65 + row.answer);
   const labels = row.subject === "英文"
     ? new RegExp(`(?:answer|correct answer)\\s*(?:is|:|=)?\\s*${letter}\\b`, "i")
-    : new RegExp(`(?:答案|正解|正確答案|故選|所以選|選項)\\s*(?:是|為)?\\s*[「（(]?${letter}(?:[、，：:\\s「]|$)`);
+    : new RegExp(`(?:答案|正解|正確答案|故選|所以選|選項)\\s*(?:是|為)?\\s*[「（(]?${letter}(?:[、，：:.。\\s「]|$)`);
   return labels.test(solution);
 }
 
