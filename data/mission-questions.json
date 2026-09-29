@@ -3447,8 +3447,7 @@
     "knowledgePoint": "110年英文第25題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "What idea is talked about in the reading?",
-    "questionImage": "./assets/official-exams/110-english-p8.webp",
+    "question": "【閱讀材料】Teachers’ Day\nOn Teachers’ Day, we thank our teachers for their hard work. We also celebrate this day to remember Confucius, the great Chinese teacher from 2,500 years ago. Well, that’s everything we’re taught about Teachers’ Day. But the first Teachers’ Day was not on Confucius’s birthday, and it was not about thanking our teachers.\n\nIn 1930, Mr. Tai Shuang-qiu and other teachers celebrated the first Teachers’ Day in Nanjing. But there was nothing to celebrate. Teachers were paid very little and not respected. These teachers took this chance to shout out their problems. They had Teachers’ Day on June 6 because the date was easy to remember and near the end of the school year. This action by Mr. Tai and the other teachers was welcomed and followed by teachers from other cities. In 1939, the government made Teachers’ Day a national holiday. However, it was on August 27, the day when Confucius’s birthday was celebrated. Not everyone hailed this decision: Teachers’ Day was never about Confucius, and Confucius couldn’t speak for all teachers either.\n\nOne funny thing was that the government was wrong about the date of Confucius’s birthday. In 1952, people found out that he was in fact born on September 28. That was when we started to celebrate Teachers’ Day on Confucius’s real birthday.\n\nWhat idea is talked about in the reading?",
     "imageAlt": "110年國中教育會考英文科第25題官方試卷頁面",
     "options": [
       "How Teachers’ Day is celebrated now.",
@@ -3483,12 +3482,8 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/110-english-p7.webp",
-      "./assets/official-exams/110-english-p8.webp"
-    ]
+    "requiresImage": false,
+    "requiresContext": false
   },
   {
     "id": "OFF-0074",
@@ -3498,8 +3493,7 @@
     "knowledgePoint": "110年英文第26題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Which is true about Teachers’ Day from the reading?",
-    "questionImage": "./assets/official-exams/110-english-p8.webp",
+    "question": "【閱讀材料】Teachers’ Day\nOn Teachers’ Day, we thank our teachers for their hard work. We also celebrate this day to remember Confucius, the great Chinese teacher from 2,500 years ago. Well, that’s everything we’re taught about Teachers’ Day. But the first Teachers’ Day was not on Confucius’s birthday, and it was not about thanking our teachers.\n\nIn 1930, Mr. Tai Shuang-qiu and other teachers celebrated the first Teachers’ Day in Nanjing. But there was nothing to celebrate. Teachers were paid very little and not respected. These teachers took this chance to shout out their problems. They had Teachers’ Day on June 6 because the date was easy to remember and near the end of the school year. This action by Mr. Tai and the other teachers was welcomed and followed by teachers from other cities. In 1939, the government made Teachers’ Day a national holiday. However, it was on August 27, the day when Confucius’s birthday was celebrated. Not everyone hailed this decision: Teachers’ Day was never about Confucius, and Confucius couldn’t speak for all teachers either.\n\nOne funny thing was that the government was wrong about the date of Confucius’s birthday. In 1952, people found out that he was in fact born on September 28. That was when we started to celebrate Teachers’ Day on Confucius’s real birthday.\n\nWhich is true about Teachers’ Day from the reading?",
     "imageAlt": "110年國中教育會考英文科第26題官方試卷頁面",
     "options": [
       "It used to be celebrated on different dates.",
@@ -3508,11 +3502,11 @@
       "Teachers decided to celebrate it on Confucius’s birthday."
     ],
     "answer": 0,
-    "explanation": "答案為 A「It used to be celebrated on different dates.」。這個選項最完整符合題幹所給的條件與證據。",
+    "explanation": "答案 A「It used to be celebrated on different dates.」。文中列出 1930 年最初定在 6 月 6 日、1939 年政府將教師節定為國定假日並訂在 8 月 27 日，1952 年確認孔子生日是 9 月 28 日後，才改在 9 月 28 日慶祝，證明日期曾多次不同。B 錯在發起者是教師而非學生；C 把兩千五百年的孔子歷史誤當成南京慶祝教師節的年數；D 錯在 1930 年的教師節原本不是孔子生日。",
     "solutionSteps": [
-      "先閱讀前台顯示的官方題面，依題目條件「Which is true about Teachers’ Day from the reading?」定位本文、圖表、對話或圖片中的直接證據。",
-      "正確答案是 A「It used to be celebrated on different dates.」；將這個選項與題目條件逐一核對後，語意與官方答案一致。",
-      "再檢查其餘選項 B「It was started by students for their teachers.」、C「It has been celebrated in Nanjing for over 2,500 years.」、D「Teachers decided to celebrate it on Confucius’s birthday.」，它們至少有一處不符合題目條件，因此排除。"
+      "先按年代整理三個日期：1930 年 6 月 6 日、1939 年 8 月 27 日、1952 年確認後的 9 月 28 日。",
+      "這些日期代表教師節先後採用過不同日期，因此 A 正確。",
+      "B 的發起者是教師；C 混淆孔子距今約兩千五百年與教師節在南京的歷史；D 與首段明說最初並非孔子生日相反。"
     ],
     "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
     "relatedWords": [
@@ -3534,12 +3528,8 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/110-english-p7.webp",
-      "./assets/official-exams/110-english-p8.webp"
-    ]
+    "requiresImage": false,
+    "requiresContext": false
   },
   {
     "id": "OFF-0075",
@@ -3549,8 +3539,7 @@
     "knowledgePoint": "110年英文第27題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "What does “not everyone hailed this decision” mean in the reading?",
-    "questionImage": "./assets/official-exams/110-english-p8.webp",
+    "question": "【閱讀材料】Teachers’ Day\nOn Teachers’ Day, we thank our teachers for their hard work. We also celebrate this day to remember Confucius, the great Chinese teacher from 2,500 years ago. Well, that’s everything we’re taught about Teachers’ Day. But the first Teachers’ Day was not on Confucius’s birthday, and it was not about thanking our teachers.\n\nIn 1930, Mr. Tai Shuang-qiu and other teachers celebrated the first Teachers’ Day in Nanjing. But there was nothing to celebrate. Teachers were paid very little and not respected. These teachers took this chance to shout out their problems. They had Teachers’ Day on June 6 because the date was easy to remember and near the end of the school year. This action by Mr. Tai and the other teachers was welcomed and followed by teachers from other cities. In 1939, the government made Teachers’ Day a national holiday. However, it was on August 27, the day when Confucius’s birthday was celebrated. Not everyone hailed this decision: Teachers’ Day was never about Confucius, and Confucius couldn’t speak for all teachers either.\n\nOne funny thing was that the government was wrong about the date of Confucius’s birthday. In 1952, people found out that he was in fact born on September 28. That was when we started to celebrate Teachers’ Day on Confucius’s real birthday.\n\nWhat does “not everyone hailed this decision” mean in the reading?",
     "imageAlt": "110年國中教育會考英文科第27題官方試卷頁面",
     "options": [
       "Not everyone cared about the decision.",
@@ -3559,11 +3548,11 @@
       "Not everyone remembered the decision."
     ],
     "answer": 1,
-    "explanation": "答案為 B「Not everyone welcomed the decision.」。這個選項最完整符合題幹所給的條件與證據。",
+    "explanation": "答案 B「Not everyone welcomed the decision.」此處 hailed 是「歡迎、喝采」的意思。前文說政府把教師節定在孔子生日，但有些教師反對，因為教師節原本不是紀念孔子，而且孔子不能代表所有教師；因此不是每個人都歡迎這項決定。A 的 cared 是在不在意，C 的 heard 是有沒有聽說，D 的 remembered 是有沒有記得，都不是 hailed 在此處的意思。",
     "solutionSteps": [
-      "先閱讀前台顯示的官方題面，依題目條件「What does “not everyone hailed this decision” mean in the reading?」定位本文、圖表、對話或圖片中的直接證據。",
-      "正確答案是 B「Not everyone welcomed the decision.」；將這個選項與題目條件逐一核對後，語意與官方答案一致。",
-      "再檢查其餘選項 A「Not everyone cared about the decision.」、C「Not everyone heard about the decision.」、D「Not everyone remembered the decision.」，它們至少有一處不符合題目條件，因此排除。"
+      "看 hailed 所在句：政府決定把教師節改在 8 月 27 日，冒號後接教師不認同的理由。",
+      "因此 not everyone hailed this decision 表示不是每個人都歡迎／贊同這項決定，選 B。",
+      "cared about 是在意、heard about 是聽說、remembered 是記得；都不等於以正面態度接受決定。"
     ],
     "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
     "relatedWords": [
@@ -3585,12 +3574,8 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/110-english-p7.webp",
-      "./assets/official-exams/110-english-p8.webp"
-    ]
+    "requiresImage": false,
+    "requiresContext": false
   },
   {
     "id": "OFF-0076",
@@ -3600,8 +3585,7 @@
     "knowledgePoint": "110年英文第28題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "What does the writer try to do with this reading?",
-    "questionImage": "./assets/official-exams/110-english-p8.webp",
+    "question": "【閱讀材料】Teachers’ Day\nOn Teachers’ Day, we thank our teachers for their hard work. We also celebrate this day to remember Confucius, the great Chinese teacher from 2,500 years ago. Well, that’s everything we’re taught about Teachers’ Day. But the first Teachers’ Day was not on Confucius’s birthday, and it was not about thanking our teachers.\n\nIn 1930, Mr. Tai Shuang-qiu and other teachers celebrated the first Teachers’ Day in Nanjing. But there was nothing to celebrate. Teachers were paid very little and not respected. These teachers took this chance to shout out their problems. They had Teachers’ Day on June 6 because the date was easy to remember and near the end of the school year. This action by Mr. Tai and the other teachers was welcomed and followed by teachers from other cities. In 1939, the government made Teachers’ Day a national holiday. However, it was on August 27, the day when Confucius’s birthday was celebrated. Not everyone hailed this decision: Teachers’ Day was never about Confucius, and Confucius couldn’t speak for all teachers either.\n\nOne funny thing was that the government was wrong about the date of Confucius’s birthday. In 1952, people found out that he was in fact born on September 28. That was when we started to celebrate Teachers’ Day on Confucius’s real birthday.\n\nWhat does the writer try to do with this reading?",
     "imageAlt": "110年國中教育會考英文科第28題官方試卷頁面",
     "options": [
       "To talk about a problem that no one notices.",
@@ -3610,11 +3594,11 @@
       "To give an example of an idea that is hard to understand."
     ],
     "answer": 2,
-    "explanation": "答案為 C「To tell a piece of history that few people know about.」。這個選項最完整符合題幹所給的條件與證據。",
+    "explanation": "答案 C「To tell a piece of history that few people know about.」。作者先提一般人以為教師節是感謝教師、紀念孔子，隨即說明這只是常見印象，接著追溯 1930 年南京教師因待遇低、缺乏尊重而發起教師節，並交代日期如何由 6 月 6 日改到 8 月 27 日，再到 9 月 28 日。文章主要是在介紹教師節的歷史與較少人知道的起源，不是在講趣事或抽象觀念。",
     "solutionSteps": [
-      "先閱讀前台顯示的官方題面，依題目條件「What does the writer try to do with this reading?」定位本文、圖表、對話或圖片中的直接證據。",
-      "正確答案是 C「To tell a piece of history that few people know about.」；將這個選項與題目條件逐一核對後，語意與官方答案一致。",
-      "再檢查其餘選項 A「To talk about a problem that no one notices.」、B「To share a fun experience that was not common.」、D「To give an example of an idea that is hard to understand.」，它們至少有一處不符合題目條件，因此排除。"
+      "分辨文章的寫作目的，不只看單一細節；全文以教師節的起源及日期沿革為主線。",
+      "1930 年教師因低薪、未受尊重而發起教師節，後續段落再交代政府採用日期及孔子生日更正。",
+      "這些內容是在介紹一段教師節歷史，故選 C；A、B、D 均不能概括全文主要內容。"
     ],
     "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
     "relatedWords": [
@@ -3636,12 +3620,8 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/110-english-p7.webp",
-      "./assets/official-exams/110-english-p8.webp"
-    ]
+    "requiresImage": false,
+    "requiresContext": false
   },
   {
     "id": "OFF-0077",
@@ -3651,8 +3631,7 @@
     "knowledgePoint": "110年英文第29題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Why does National Formosa Railway write this letter?",
-    "questionImage": "./assets/official-exams/110-english-p10.webp",
+    "question": "【閱讀材料】National Formosa Railway (NFR) service notice, August 14–28, 2016\nDear Traveler,\nYou have bought an NFR ticket online for a train that runs between White Water City and Cloud City. Because of last month’s typhoon, the Sand Town–Spring Town line will be closed from August 14 to 28, 2016. During this time, some trains will change lines and will not stop at a few stations. Free buses will take travelers to those stations. Please check the route and train information below.\n\nTrain schedules for the changed routes:\nSouthbound RL101: White Water City → Cloud City\nSouthbound RL102: White Water City → Spring Town\nSouthbound RL103: Green City → Cloud City\nNorthbound RL201: Spring Town → Green City\nNorthbound RL202: Cloud City → Green City\n\nTrains running between Green City and Cloud City use the Smoke Town–Spring Town line and stop at every station. Replacement free buses for the closed Sand Town–Spring Town line wait at Green City (southbound) and Spring Town (northbound); they do not stop at Gray Village.\n\nRoute map (in order): White Water City—Green City; from Green City the Smoke Town–Spring Town branch passes Smoke Town, Hill Town and Spring Town, while the Sand Town–Spring Town branch passes Sand Town, Gray Village and Black Town before reaching Spring Town; both lines continue to Cloud City.\n\nWhy does National Formosa Railway write this letter?",
     "imageAlt": "110年國中教育會考英文科第29題官方試卷頁面",
     "options": [
       "There is a train ticket sale.",
@@ -3661,11 +3640,11 @@
       "Some of its trains will run on different lines."
     ],
     "answer": 3,
-    "explanation": "答案為 D「Some of its trains will run on different lines.」。這個選項最完整符合題幹所給的條件與證據。",
+    "explanation": "答案 D「Some of its trains will run on different lines.」颱風造成 Sand Town–Spring Town 路線暫時封閉，因此公告說部分列車會改走其他路線，並有些車站不停靠、改由免費接駁車服務。A 沒有促銷訊息；B 把封閉月份說成七月（原文是 8 月 14–28 日）；C 也不是開新線。",
     "solutionSteps": [
-      "先閱讀前台顯示的官方題面，依題目條件「Why does National Formosa Railway write this letter?」定位本文、圖表、對話或圖片中的直接證據。",
-      "正確答案是 D「Some of its trains will run on different lines.」；將這個選項與題目條件逐一核對後，語意與官方答案一致。",
-      "再檢查其餘選項 A「There is a train ticket sale.」、B「A train line will be closed in July.」、C「It will open a new train line in August.」，它們至少有一處不符合題目條件，因此排除。"
+      "先找公告要旅客注意的事件：Sand Town–Spring Town 線因颱風封閉，日期為 8 月 14 至 28 日。",
+      "公告接著說部分列車會改線、略過部分車站，並以免費巴士接駁；因此 D 概括了寫信原因。",
+      "A 沒提票價優惠，B 日期錯誤，C 把臨時改線誤讀為開新路線。"
     ],
     "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
     "relatedWords": [
@@ -3687,12 +3666,8 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/110-english-p9.webp",
-      "./assets/official-exams/110-english-p10.webp"
-    ]
+    "requiresImage": false,
+    "requiresContext": false
   },
   {
     "id": "OFF-0078",
@@ -3702,8 +3677,7 @@
     "knowledgePoint": "110年英文第30題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "What is true about NFR’s trains between August 14 and 28 2016?",
-    "questionImage": "./assets/official-exams/110-english-p10.webp",
+    "question": "【閱讀材料】National Formosa Railway (NFR) service notice, August 14–28, 2016\nDear Traveler,\nYou have bought an NFR ticket online for a train that runs between White Water City and Cloud City. Because of last month’s typhoon, the Sand Town–Spring Town line will be closed from August 14 to 28, 2016. During this time, some trains will change lines and will not stop at a few stations. Free buses will take travelers to those stations. Please check the route and train information below.\n\nTrain schedules for the changed routes:\nSouthbound RL101: White Water City → Cloud City\nSouthbound RL102: White Water City → Spring Town\nSouthbound RL103: Green City → Cloud City\nNorthbound RL201: Spring Town → Green City\nNorthbound RL202: Cloud City → Green City\n\nTrains running between Green City and Cloud City use the Smoke Town–Spring Town line and stop at every station. Replacement free buses for the closed Sand Town–Spring Town line wait at Green City (southbound) and Spring Town (northbound); they do not stop at Gray Village.\n\nRoute map (in order): White Water City—Green City; from Green City the Smoke Town–Spring Town branch passes Smoke Town, Hill Town and Spring Town, while the Sand Town–Spring Town branch passes Sand Town, Gray Village and Black Town before reaching Spring Town; both lines continue to Cloud City.\n\nWhat is true about NFR’s trains between August 14 and 28, 2016?",
     "imageAlt": "110年國中教育會考英文科第30題官方試卷頁面",
     "options": [
       "No trains will stop at Spring Town.",
@@ -3712,11 +3686,11 @@
       "People can go to Hill Town on any train that runs between Green City and Cloud City."
     ],
     "answer": 3,
-    "explanation": "答案為 D「People can go to Hill Town on any train that runs between Green City and Cloud City.」。這個選項最完整符合題幹所給的條件與證據。",
+    "explanation": "答案 D「People can go to Hill Town on any train that runs between Green City and Cloud City.」公告明說 Green City 與 Cloud City 之間的列車改走 Smoke Town–Spring Town 線，且每站都停；Hill Town 位於這段支線上，所以這些列車都可到 Hill Town。A 錯，支線列車停靠 Spring Town；B 並非所有改線列車都在 Cloud City 停靠；C 免費巴士只接駁指定車站，不能搭到該線任意車站。",
     "solutionSteps": [
-      "先閱讀前台顯示的官方題面，依題目條件「What is true about NFR’s trains between August 14 and 28 2016?」定位本文、圖表、對話或圖片中的直接證據。",
-      "正確答案是 D「People can go to Hill Town on any train that runs between Green City and Cloud City.」；將這個選項與題目條件逐一核對後，語意與官方答案一致。",
-      "再檢查其餘選項 A「No trains will stop at Spring Town.」、B「Trains that change lines will all stop at Cloud City.」、C「People can take the free buses to any station on the Sand Town - Spring Town line.」，它們至少有一處不符合題目條件，因此排除。"
+      "依公告辨認 Green City–Cloud City 的改道列車改走 Smoke Town–Spring Town 支線，且沿途每站停靠。",
+      "路線資料顯示 Hill Town 位於該支線，因此所有行駛這段區間的列車都能前往，選 D。",
+      "A 與『每站停靠』及 Spring Town 位置不符；B 把不同班次的行駛終點混為一談；C 把有限接駁站擴大成任意車站。"
     ],
     "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
     "relatedWords": [
@@ -3738,12 +3712,8 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/110-english-p9.webp",
-      "./assets/official-exams/110-english-p10.webp"
-    ]
+    "requiresImage": false,
+    "requiresContext": false
   },
   {
     "id": "OFF-0079",
@@ -3753,8 +3723,7 @@
     "knowledgePoint": "110年英文第31題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "James lives in Smoke Town. He wants to go to Black Town on August 19. How can he get there?",
-    "questionImage": "./assets/official-exams/110-english-p10.webp",
+    "question": "【閱讀材料】National Formosa Railway (NFR) service notice, August 14–28, 2016\nDear Traveler,\nYou have bought an NFR ticket online for a train that runs between White Water City and Cloud City. Because of last month’s typhoon, the Sand Town–Spring Town line will be closed from August 14 to 28, 2016. During this time, some trains will change lines and will not stop at a few stations. Free buses will take travelers to those stations. Please check the route and train information below.\n\nTrain schedules for the changed routes:\nSouthbound RL101: White Water City → Cloud City\nSouthbound RL102: White Water City → Spring Town\nSouthbound RL103: Green City → Cloud City\nNorthbound RL201: Spring Town → Green City\nNorthbound RL202: Cloud City → Green City\n\nTrains running between Green City and Cloud City use the Smoke Town–Spring Town line and stop at every station. Replacement free buses for the closed Sand Town–Spring Town line wait at Green City (southbound) and Spring Town (northbound); they do not stop at Gray Village.\n\nRoute map (in order): White Water City—Green City; from Green City the Smoke Town–Spring Town branch passes Smoke Town, Hill Town and Spring Town, while the Sand Town–Spring Town branch passes Sand Town, Gray Village and Black Town before reaching Spring Town; both lines continue to Cloud City.\n\nJames lives in Smoke Town. He wants to go to Black Town on August 19. How can he get there?",
     "imageAlt": "110年國中教育會考英文科第31題官方試卷頁面",
     "options": [
       "Take Train RL202 to Green City, get off there, and take the free bus.",
@@ -3763,11 +3732,11 @@
       "Take Train RL101 to Cloud City, get off there, and take the free bus."
     ],
     "answer": 0,
-    "explanation": "答案為 A「Take Train RL202 to Green City, get off there, and take the free bus.」。這個選項最完整符合題幹所給的條件與證據。",
+    "explanation": "答案 A：先搭 RL202 到 Green City，再轉免費巴士。題目日期落在 8 月 14–28 日封線期間；RL202 是由 Cloud City 開往 Green City、行經 Smoke Town 的北向列車，故 James 可在 Smoke Town 上車到 Green City。公告指定往南的免費巴士在 Green City 等候，接駁被封閉線上的車站，包括 Black Town。",
     "solutionSteps": [
-      "先閱讀前台顯示的官方題面，依題目條件「James lives in Smoke Town. He wants to go to Black Town on August 19. How can he get there?」定位本文、圖表、對話或圖片中的直接證據。",
-      "正確答案是 A「Take Train RL202 to Green City, get off there, and take the free bus.」；將這個選項與題目條件逐一核對後，語意與官方答案一致。",
-      "再檢查其餘選項 B「Take Train RL103 to Green City, get off there, and take the free bus.」、C「Take Train RL102 to Spring Town, get off there, and take Train RL201.」、D「Take Train RL101 to Cloud City, get off there, and take the free bus.」，它們至少有一處不符合題目條件，因此排除。"
+      "先確認 8 月 19 日在臨時封線期間，Sand Town–Spring Town 線不能照常搭乘。",
+      "由路線和班次表，Smoke Town 位於 RL202 的 Cloud City–Green City 路段；搭到 Green City 即可接上往南的免費巴士。",
+      "Green City 是公告指定的南向接駁點，免費巴士可接駁到 Black Town；其餘選項的班次方向、車站或轉乘方式不符。"
     ],
     "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
     "relatedWords": [
@@ -3789,12 +3758,8 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/110-english-p9.webp",
-      "./assets/official-exams/110-english-p10.webp"
-    ]
+    "requiresImage": false,
+    "requiresContext": false
   },
   {
     "id": "OFF-0080",
