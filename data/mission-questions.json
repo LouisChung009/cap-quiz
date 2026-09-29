@@ -5015,23 +5015,23 @@
     "knowledgePoint": "110年數學第19題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "如圖 ( 八 )， ∆ ABC 中， D 、 E 、 F 三點分別在 AB、BC、 AC 上，且 四邊形 BEFD 是以 DE 為對稱軸的線對稱圖形，四邊形 CFDE 是以 FE 為對稱軸的線對稱圖形。若 ∠ C = 40°，則 ∠ DFE 的度數為何？",
+    "question": "如圖（八），△ABC 中，D、E、F 分別在 AB、BC、AC 上。四邊形 BEFD 以 DE 為對稱軸，四邊形 CFDE 以 FE 為對稱軸。若 ∠C=40°，則 ∠DFE 為何？",
     "questionImage": "./assets/official-exams/110-math-p7.webp",
     "imageAlt": "110年國中教育會考數學科第19題官方試卷頁面",
     "options": [
-      "65",
-      "70 C",
-      "75 D",
-      "80"
+      "65°",
+      "70°",
+      "75°",
+      "80°"
     ],
     "answer": 3,
-    "explanation": "依題目所給條件計算或判斷，結果對應 D「80」。",
+    "explanation": "答案 D「80°」。設 ∠DFE=x。以 FE 為對稱軸，C 與 D 對稱，因此 ∠FDE=∠C=40°，且 ∠CFE=∠DFE=x。以 DE 為對稱軸，B 與 F 對稱，因此 ∠BDE=∠FDE=40°，且 ∠B=∠DFE=x。四邊形 BCFD 的內角依序為 x、40°、2x、80°，總和 360°，所以 3x+120°=360°，x=80°。",
     "solutionSteps": [
-      "整理題目已知條件與所求：「如圖 ( 八 )， ∆ ABC 中， D 、 E 、 F 三點分別在 AB、BC、 AC 上，且 四邊形 BEFD 是以 DE 為對稱軸的線對稱圖形，四邊形 CFDE 是以 FE 為對稱軸的線對稱圖形。若 ∠ C = 40°，則 ∠ DFE 的度數為何？」。",
-      "依題目條件選用適當公式、幾何關係或代數運算；計算結果對應 D「80」。",
-      "將 D「80」代回題目條件，核對正負號、單位、範圍及圖表資訊後確定答案。"
+      "令 x=∠DFE。四邊形 CFDE 以 FE 為對稱軸，因此反射會交換 C、D，固定 F、E；對稱角相等，得 ∠FDE=∠C=40°，且 ∠CFE=∠DFE=x。",
+      "四邊形 BEFD 以 DE 為對稱軸，反射交換 B、F，固定 D、E；因此 ∠BDE=∠FDE=40°，且 ∠B=∠DFE=x。",
+      "四邊形 BCFD 在 B、C、F、D 的內角依序為 x、40°、2x、80°。利用內角和 360°：x+40°+2x+80°=360°，解得 x=80°，選 D。"
     ],
-    "teacherTip": "先列出已知條件與所求，選擇適用公式，完成後再代回檢查。",
+    "teacherTip": "線對稱會讓對應角相等；先把兩個對稱關係轉成角度，再使用多邊形內角和。",
     "relatedWords": [],
     "sourceType": "官方歷屆真題",
     "source": {
