@@ -4045,8 +4045,7 @@
     "knowledgePoint": "110年英文第38題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "請閱讀圖中的題組文章，完成第 38 題。",
-    "questionImage": "./assets/official-exams/110-english-p13.webp",
+    "question": "【閱讀材料】A rainy night in the park\nUsually I wouldn’t cross the park at this time of night. But walking around the park would take more time, and it was raining so hard that I couldn’t even see clearly what was right before me. So I entered the park. And that was the first stupid thing I did tonight.\n\nSoon after I walked into the park, I saw a man under a tree up ahead. My heart fell. The stories I’d heard about the park ____ (38) ____ into my head at this moment. Anyone with a clear mind would just turn back. But me? No. I did ____ (39) ____ stupid thing: I decided to hurry past him.\n\nJust when I was passing the man, he raised his head and gave me the strangest smile ever. I got scared and started running. “Hey!” the man shouted from behind. “Wait!” He was running after me!\n\nI ran like crazy. I had hoped the trees would keep some rain off. And they ____ (40) ____. But they also made the park look even darker. I couldn’t see what was ahead of me. Then, I ran into something. It was the man!\n\n“Don’t kill me!” I cried.\n\n“What? I ____ (41) ____ to give back your bag! You dropped it,” the man gave me my bag.\n\nNow, I felt saying that to the man was the stupidest thing I did tonight.\n\n【詞語】ahead：在前面；in front of。\n\nChoose the best answer for blank (38).",
     "imageAlt": "110年國中教育會考英文科第38題官方試卷頁面",
     "options": [
       "are all coming",
@@ -4055,11 +4054,11 @@
       "would all come"
     ],
     "answer": 2,
-    "explanation": "答案為 C「were all coming」。這個選項最完整符合題幹所給的條件與證據。",
+    "explanation": "答案 C「were all coming」。故事用過去時間敘述，at this moment 指當時那一刻；作者聽過的各種公園傳聞正在湧入腦海，使用過去進行式 were coming。A 現在進行式連到現在，B 現在完成式不表示當時正在發生，D 過去將來式也不合此處的即時描寫。",
     "solutionSteps": [
-      "先閱讀前台顯示的官方題面，依題目條件「請閱讀圖中的題組文章，完成第 38 題。」定位本文、圖表、對話或圖片中的直接證據。",
-      "正確答案是 C「were all coming」；將這個選項與題目條件逐一核對後，語意與官方答案一致。",
-      "再檢查其餘選項 A「are all coming」、B「have all come」、D「would all come」，它們至少有一處不符合題目條件，因此排除。"
+      "時間錨點是 at this moment，指故事中作者走進公園的那個過去時刻。",
+      "stories 是複數主詞，描寫傳聞當時正湧入腦海，用 were + coming；all 放在助動詞與主要動詞間。",
+      "因此選 were all coming；are 是現在時，have come 表已來到，would come 表假設或過去未來，均不符合當下進行的畫面。"
     ],
     "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
     "relatedWords": [
@@ -4081,11 +4080,8 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-english-p13.webp"
-    ]
+    "requiresImage": false,
+    "requiresContext": false
   },
   {
     "id": "OFF-0087",
@@ -4095,8 +4091,7 @@
     "knowledgePoint": "110年英文第39題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "請閱讀圖中的題組文章，完成第 39 題。",
-    "questionImage": "./assets/official-exams/110-english-p13.webp",
+    "question": "【閱讀材料】A rainy night in the park\nUsually I wouldn’t cross the park at this time of night. But walking around the park would take more time, and it was raining so hard that I couldn’t even see clearly what was right before me. So I entered the park. And that was the first stupid thing I did tonight.\n\nSoon after I walked into the park, I saw a man under a tree up ahead. My heart fell. The stories I’d heard about the park ____ (38) ____ into my head at this moment. Anyone with a clear mind would just turn back. But me? No. I did ____ (39) ____ stupid thing: I decided to hurry past him.\n\nJust when I was passing the man, he raised his head and gave me the strangest smile ever. I got scared and started running. “Hey!” the man shouted from behind. “Wait!” He was running after me!\n\nI ran like crazy. I had hoped the trees would keep some rain off. And they ____ (40) ____. But they also made the park look even darker. I couldn’t see what was ahead of me. Then, I ran into something. It was the man!\n\n“Don’t kill me!” I cried.\n\n“What? I ____ (41) ____ to give back your bag! You dropped it,” the man gave me my bag.\n\nNow, I felt saying that to the man was the stupidest thing I did tonight.\n\n【詞語】ahead：在前面；in front of。\n\nChoose the best answer for blank (39).",
     "imageAlt": "110年國中教育會考英文科第39題官方試卷頁面",
     "options": [
       "another",
@@ -4105,11 +4100,11 @@
       "the other"
     ],
     "answer": 0,
-    "explanation": "答案為 A「another」。這個選項最完整符合題幹所給的條件與證據。",
+    "explanation": "答案 A「another」。作者先說進入公園是當晚第一件愚蠢的事，接著又決定匆忙從陌生男子身旁經過，這是另一件愚蠢的事；another + 單數可數名詞符合句型，也明確表達「又一件」。one stupid thing 文法上可以成立，但只表示「一件蠢事」，沒有 another 所帶出的「再犯一件」語意；the last 是最後一件，the other 通常指兩者中的另一個，均不合上下文。",
     "solutionSteps": [
-      "先閱讀前台顯示的官方題面，依題目條件「請閱讀圖中的題組文章，完成第 39 題。」定位本文、圖表、對話或圖片中的直接證據。",
-      "正確答案是 A「another」；將這個選項與題目條件逐一核對後，語意與官方答案一致。",
-      "再檢查其餘選項 B「one」、C「the last」、D「the other」，它們至少有一處不符合題目條件，因此排除。"
+      "前文明說進入公園是 first stupid thing，先建立第一件蠢事。",
+      "接著作者又匆忙從陌生男子身旁經過，因此要表達『又一件』，another stupid thing 最貼合上下文。",
+      "one stupid thing 文法成立，但沒有『再一件』的語意；the last 表最後一件，the other 通常指兩者中另一個，也不符合這裡的敘事。"
     ],
     "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
     "relatedWords": [
@@ -4131,11 +4126,8 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-english-p13.webp"
-    ]
+    "requiresImage": false,
+    "requiresContext": false
   },
   {
     "id": "OFF-0088",
@@ -4145,8 +4137,7 @@
     "knowledgePoint": "110年英文第40題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "請閱讀圖中的題組文章，完成第 40 題。",
-    "questionImage": "./assets/official-exams/110-english-p13.webp",
+    "question": "【閱讀材料】A rainy night in the park\nUsually I wouldn’t cross the park at this time of night. But walking around the park would take more time, and it was raining so hard that I couldn’t even see clearly what was right before me. So I entered the park. And that was the first stupid thing I did tonight.\n\nSoon after I walked into the park, I saw a man under a tree up ahead. My heart fell. The stories I’d heard about the park ____ (38) ____ into my head at this moment. Anyone with a clear mind would just turn back. But me? No. I did ____ (39) ____ stupid thing: I decided to hurry past him.\n\nJust when I was passing the man, he raised his head and gave me the strangest smile ever. I got scared and started running. “Hey!” the man shouted from behind. “Wait!” He was running after me!\n\nI ran like crazy. I had hoped the trees would keep some rain off. And they ____ (40) ____. But they also made the park look even darker. I couldn’t see what was ahead of me. Then, I ran into something. It was the man!\n\n“Don’t kill me!” I cried.\n\n“What? I ____ (41) ____ to give back your bag! You dropped it,” the man gave me my bag.\n\nNow, I felt saying that to the man was the stupidest thing I did tonight.\n\n【詞語】ahead：在前面；in front of。\n\nChoose the best answer for blank (40).",
     "imageAlt": "110年國中教育會考英文科第40題官方試卷頁面",
     "options": [
       "have",
@@ -4155,11 +4146,11 @@
       "would"
     ],
     "answer": 1,
-    "explanation": "答案為 B「did」。這個選項最完整符合題幹所給的條件與證據。",
+    "explanation": "答案 B「did」。前句作者希望樹木能替他擋掉一些雨；And they did 是用助動詞 did 代替前面已出現的 keep some rain off，意為「樹確實有擋掉一些雨」。故事敘述過去，因此用 did。have、had、would 都不能在此自然地代替前述過去式動作。",
     "solutionSteps": [
-      "先閱讀前台顯示的官方題面，依題目條件「請閱讀圖中的題組文章，完成第 40 題。」定位本文、圖表、對話或圖片中的直接證據。",
-      "正確答案是 B「did」；將這個選項與題目條件逐一核對後，語意與官方答案一致。",
-      "再檢查其餘選項 A「have」、C「had」、D「would」，它們至少有一處不符合題目條件，因此排除。"
+      "先找 they 指誰：前句的 trees（樹木）。",
+      "比較前後兩句：作者希望樹能擋雨，And they ___ 表示樹確實做到；did 代替前面的 keep some rain off，避免重複整個動詞片語。",
+      "敘事時間在過去，因此用過去式助動詞 did；have/had/would 與此處的時態和替代結構不合。"
     ],
     "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
     "relatedWords": [
@@ -4181,11 +4172,8 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-english-p13.webp"
-    ]
+    "requiresImage": false,
+    "requiresContext": false
   },
   {
     "id": "OFF-0089",
@@ -4195,8 +4183,7 @@
     "knowledgePoint": "110年英文第41題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "請閱讀圖中的題組文章，完成第 41 題。",
-    "questionImage": "./assets/official-exams/110-english-p13.webp",
+    "question": "【閱讀材料】A rainy night in the park\nUsually I wouldn’t cross the park at this time of night. But walking around the park would take more time, and it was raining so hard that I couldn’t even see clearly what was right before me. So I entered the park. And that was the first stupid thing I did tonight.\n\nSoon after I walked into the park, I saw a man under a tree up ahead. My heart fell. The stories I’d heard about the park ____ (38) ____ into my head at this moment. Anyone with a clear mind would just turn back. But me? No. I did ____ (39) ____ stupid thing: I decided to hurry past him.\n\nJust when I was passing the man, he raised his head and gave me the strangest smile ever. I got scared and started running. “Hey!” the man shouted from behind. “Wait!” He was running after me!\n\nI ran like crazy. I had hoped the trees would keep some rain off. And they ____ (40) ____. But they also made the park look even darker. I couldn’t see what was ahead of me. Then, I ran into something. It was the man!\n\n“Don’t kill me!” I cried.\n\n“What? I ____ (41) ____ to give back your bag! You dropped it,” the man gave me my bag.\n\nNow, I felt saying that to the man was the stupidest thing I did tonight.\n\n【詞語】ahead：在前面；in front of。\n\nChoose the best answer for blank (41).",
     "imageAlt": "110年國中教育會考英文科第41題官方試卷頁面",
     "options": [
       "was trying",
@@ -4205,11 +4192,11 @@
       "will try"
     ],
     "answer": 0,
-    "explanation": "答案為 A「was trying」。這個選項最完整符合題幹所給的條件與證據。",
+    "explanation": "答案 A「was trying」。男子追上作者時正在做的事，是把掉落的背包還給他；was trying to give back 描述過去某一刻正在進行的動作，後面的 You dropped it 說明原因。try 是原形、would try 是過去觀點下的未來或意願、will try 是未來式，都不符合當時正在進行的情境。",
     "solutionSteps": [
-      "先閱讀前台顯示的官方題面，依題目條件「請閱讀圖中的題組文章，完成第 41 題。」定位本文、圖表、對話或圖片中的直接證據。",
-      "正確答案是 A「was trying」；將這個選項與題目條件逐一核對後，語意與官方答案一致。",
-      "再檢查其餘選項 B「try」、C「would try」、D「will try」，它們至少有一處不符合題目條件，因此排除。"
+      "把對話放回情境：男子追著作者喊 Wait，追上後解釋自己不是要傷害他。",
+      "男子當時正在嘗試把作者掉的背包還回去；以過去進行式 was trying 描寫那一刻進行中的動作。",
+      "主詞 I 配 was；try 原形缺少時態，would try/will try 分別偏向意願或未來，均非此處的即時解釋。"
     ],
     "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
     "relatedWords": [
@@ -4231,11 +4218,8 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-english-p13.webp"
-    ]
+    "requiresImage": false,
+    "requiresContext": false
   },
   {
     "id": "OFF-0090",
