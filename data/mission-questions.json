@@ -12864,7 +12864,7 @@
     "type": "歷屆真題",
     "question": "Look at the picture. The woman is putting on the cake.",
     "questionImage": "./assets/official-exams/111-english-p2.webp",
-    "imageAlt": "111年國中教育會考英文科第1題官方試卷頁面",
+    "imageAlt": "女子正把蠟燭插在蛋糕上；旁邊有叉子、盤子和草莓",
     "options": [
       "candles",
       "forks",
@@ -12872,17 +12872,17 @@
       "strawberries"
     ],
     "answer": 0,
-    "explanation": "答案為 A「candles」。這個選項最完整符合題幹所給的條件與證據。",
+    "explanation": "答案是 A「candles（蠟燭）」。圖中女子正把蠟燭放在蛋糕上，符合 put candles on a cake 的搭配。叉子和盤子放在桌上，草莓已作為蛋糕配料；它們都不是女子正放上蛋糕的物品。",
     "solutionSteps": [
-      "先閱讀前台顯示的官方題面，依題目條件「Look at the picture. The woman is putting on the cake.」定位本文、圖表、對話或圖片中的直接證據。",
-      "正確答案是 A「candles」；將這個選項與題目條件逐一核對後，語意與官方答案一致。",
-      "再檢查其餘選項 B「forks」、C「plates」、D「strawberries」，它們至少有一處不符合題目條件，因此排除。"
+      "觀察圖中蛋糕上方的動作：女子正把物品放在蛋糕上。",
+      "put candles on a cake 表示把蠟燭放在蛋糕上；圖中女子拿著蠟燭，故選 A。",
+      "forks 是餐叉、plates 是盤子、strawberries 是草莓；叉子和盤子在桌上，草莓則已是蛋糕配料，都不是女子正放上去的物品。"
     ],
-    "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
+    "teacherTip": "put ... on ... 表示把某物放在某處；看圖題要同時核對物品和動作，不要只因選項物品出現在圖裡就選它。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "candle（蠟燭）",
+      "put ... on（把……放／插在……上）",
+      "cake decoration（蛋糕裝飾）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
