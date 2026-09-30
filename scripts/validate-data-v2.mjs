@@ -44,7 +44,7 @@ function validate(question, location) {
   if (question.subject === "英文" && /\b(?:in|according to) (?:report|passage|text|article)\s+\d+/i.test(question.question)) errors.push(`${location}: 英文題引用未提供的材料`);
   if (question.sourceType === "官方歷屆真題" && (!question.source?.year || !question.source?.questionNumber || !question.source?.url || typeof question.requiresImage !== "boolean" || (question.requiresImage && !question.questionImage) || (question.requiresContext && !question.questionImages?.length))) errors.push(`${location}: 真題來源、圖表判斷或後台紀錄不完整`);
   if (!isConstructedResponse && question.sourceType === "官方歷屆真題" && question.options.join("") === "ABCD" && !question.requiresImage) errors.push(`${location}: 文字真題選項尚未拆分`);
-  const contextIsEmbedded = /【閱讀材料(?:摘要)?】/.test(question.question);
+  const contextIsEmbedded = /【(?:閱讀材料(?:摘要)?|Reading material(?::|】))/i.test(question.question);
   if (question.sourceType === "官方歷屆真題" && contextPattern.test(question.question) && !contextIsEmbedded && (!question.requiresContext || !question.questionImages?.length)) errors.push(`${location}: 引用本文但缺少閱讀材料`);
   if (question.sourceType === "官方歷屆真題" && question.requiresContext && !question.questionImages?.length) errors.push(`${location}: 題組前文缺少材料頁`);
   if (question.sourceType === "官方歷屆真題" && question.optionsInImage && (!question.requiresImage || question.options.some((option, index) => option !== "ABCD"[index]))) errors.push(`${location}: 圖片選項設定錯誤`);
