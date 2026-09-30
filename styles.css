@@ -74,3 +74,5 @@ body[data-role="scholar"] .explorer-role-art,body[data-role="scholar"] .battle-s
 .expedition-status{flex-wrap:wrap}
 @media(max-width:820px){.hero-explorer{width:min(43vw,280px);height:clamp(230px,54vw,380px);right:2%;bottom:0}.quest-copy{max-width:62%}}
 @media(max-width:520px){.hero-explorer{width:min(48vw,190px);height:clamp(200px,64vw,290px);right:0;bottom:76px}.explorer-role-art{background-size:300% auto}.battle-spirit{background-size:300% auto}.quest-copy{max-width:76%}.spirit-card{grid-template-columns:auto minmax(0,1fr)}.spirit-card button{grid-column:1/-1;width:100%}.garden-hero img{object-fit:contain}.relic-shelf>img{max-height:68vw}}
+
+@media(max-width:680px){.expedition-hero{min-height:470px}.hero-explorer{width:min(62vw,250px);height:clamp(230px,70vw,340px);right:0;bottom:66px}.battle-stage{padding-top:215px}.battle-sky{height:255px}.battle-spirit{width:min(35vw,155px);height:205px;left:0}.garden-hero{height:330px}}
