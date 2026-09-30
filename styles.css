@@ -61,10 +61,10 @@ body[data-role="scholar"] .explorer-role-art,body[data-role="scholar"] .battle-s
 
 @media(max-width:520px){.battle-spirit{width:78px;height:156px;left:8px;bottom:42px}.sound-fab{display:none}}
 
-/* Keep character artwork inside its layout box instead of clipping on phones. */
+/* Keep each equal-width sprite panel proportional in hero and battle views. */
 .hero-explorer{width:min(42vw,300px);height:clamp(240px,42vw,420px);right:clamp(12px,5vw,64px);bottom:0;overflow:visible}
-.explorer-role-art{background-size:300% 100%;background-position-y:center}
-.battle-spirit{background-size:300% 100%;background-position-y:center}
+.explorer-role-art,.role-preview-art>div,.battle-spirit{background-size:300% auto;background-position-y:center}
+.battle-spirit{background-repeat:no-repeat}
 .garden-hero img,.roster-art,.relic-shelf>img{display:block;max-width:100%;height:auto;object-fit:contain}
 .garden-hero img{width:100%;height:100%;object-fit:contain}
 .relic-shelf>img{width:100%;max-height:min(52vw,420px);object-position:center}
@@ -73,4 +73,4 @@ body[data-role="scholar"] .explorer-role-art,body[data-role="scholar"] .battle-s
 .spirit-card button{max-width:100%;white-space:normal}
 .expedition-status{flex-wrap:wrap}
 @media(max-width:820px){.hero-explorer{width:min(43vw,280px);height:clamp(230px,54vw,380px);right:2%;bottom:0}.quest-copy{max-width:62%}}
-@media(max-width:520px){.hero-explorer{width:min(48vw,190px);height:clamp(200px,64vw,290px);right:0;bottom:76px}.quest-copy{max-width:76%}.spirit-card{grid-template-columns:auto minmax(0,1fr)}.spirit-card button{grid-column:1/-1;width:100%}.garden-hero img{object-fit:contain}.relic-shelf>img{max-height:68vw}}
+@media(max-width:520px){.hero-explorer{width:min(48vw,190px);height:clamp(200px,64vw,290px);right:0;bottom:76px}.explorer-role-art{background-size:300% auto}.battle-spirit{background-size:300% auto}.quest-copy{max-width:76%}.spirit-card{grid-template-columns:auto minmax(0,1fr)}.spirit-card button{grid-column:1/-1;width:100%}.garden-hero img{object-fit:contain}.relic-shelf>img{max-height:68vw}}
