@@ -44032,14 +44032,14 @@
     "knowledgePoint": "114年國文第1題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據資料，右側詐騙簡訊使用了哪一種話術？",
-    "questionImage": "./assets/official-exams/114-chinese-p2.webp",
-    "imageAlt": "114年國中教育會考國文科第1題官方試卷頁面",
+    "question": "【話術資料】①語言運用：以友善詞彙使受害人感覺親切。②情感共鳴：藉故事引起同情心，降低警覺。③聲稱相似經歷：宣稱曾遇到類似困境，與受害人建立連結。④引發情緒反應：營造迫切需要採取行動的氛圍，讓受害人衝動決定。\n【簡訊內容】「臺灣自來水公司：貴戶本期水費逾期未繳，合計新臺幣275元，請點選繳費：[偽冒連結]，務必於三日內繳費，逾期將終止供水。」\n右側詐騙簡訊使用了哪一種話術？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "① 語言運用",
+      "② 情感共鳴",
+      "③ 聲稱相似經歷",
+      "④ 引發情緒反應"
     ],
     "answer": 3,
     "explanation": "答案 D。簡訊先聲稱水費欠繳 275 元，再要求收件人在三日內點連結繳費，否則停止供水；欠費威脅和限時期限會引發焦慮，催促收件人立刻行動，符合④「引發情緒反應」。它不是以友善稱呼建立親切感，也沒有故事或相似經歷。",
@@ -44064,12 +44064,10 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p2.webp"
-    ],
-    "optionsInImage": true,
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
+    "optionsInImage": false,
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第1題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
@@ -44180,9 +44178,9 @@
     "knowledgePoint": "114年國文第4題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "關於右側這首詩的解讀，下列何者最恰當？",
-    "questionImage": "./assets/official-exams/114-chinese-p2.webp",
-    "imageAlt": "114年國中教育會考國文科第4題官方試卷頁面",
+    "question": "【詩作】林婉瑜〈愛的24則運算．七〉：\n我的快樂除以我的悲傷\n以為會得到幾倍幾的結果\n得到的商\n卻只是1\n\n關於這首詩的解讀，下列何者最恰當？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "悲傷會過去，快樂會留下",
       "我的快樂等同於我的悲傷",
@@ -44212,11 +44210,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p2.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第4題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
@@ -44281,9 +44277,9 @@
     "knowledgePoint": "114年國文第6題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據以上資料，下列推論何者最恰當？",
-    "questionImage": "./assets/official-exams/114-chinese-p3.webp",
-    "imageAlt": "114年國中教育會考國文科第6題官方試卷頁面",
+    "question": "【資料：疫情下女性所面臨的困境】\n法國自2020年3月17日封城以來，家暴通報數上升30%；阿根廷3月20日封城後，家暴求助增加25%；賽普勒斯及新加坡的家暴專線來電數分別上升30%及33%；加拿大、德國、西班牙、英國及美國的家暴與緊急庇護需求通報數也上升。\n聯合國2020年報告指出，COVID-19席捲全球衍生或加劇性別不平等。專家推測，家庭暴力案件提高，與家庭收入受影響、行動自由受限，以及女性仍承擔多數家庭照顧責任有關；家庭壓力升高時，女性更容易成為家暴受害者。\n\n根據以上資料，下列推論何者最恰當？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "因疫情而封城，易誘發潛在的家庭暴力",
       "疫情期間女性受家暴後通報的意願較高",
@@ -44313,11 +44309,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p3.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第6題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
@@ -44428,14 +44422,14 @@
     "knowledgePoint": "114年國文第9題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "中式花茶依加工方式，可分為三種：第一種是成品內沒有花但香氣濃郁 的茶，如茉莉花茶；第二種是成品內有花的茶，如玫瑰烏龍茶；第三種是純 花茶，成品內沒有茶葉，如菊花茶、蓮花茶等。其中第一種等級最高，又稱 「香片」。香片是將乾燥後的茶葉與新鮮的香花依比例混合，靜置陰涼處，等 茶葉吸收花的香氣後將花篩除，再烘乾製成。 根據本文，下列花茶店店員針對顧客需求所給的建議，何者不恰當？",
-    "questionImage": "./assets/official-exams/114-chinese-p4.webp",
-    "imageAlt": "114年國中教育會考國文科第9題官方試卷頁面",
+    "question": "【閱讀材料】中式花茶依加工方式可分為三種：第一種是成品內沒有花但香氣濃郁的茶，如茉莉花茶；第二種是成品內有花的茶，如玫瑰烏龍茶；第三種是純花茶，成品內沒有茶葉，如菊花茶、蓮花茶。第一種等級最高，又稱「香片」：將乾燥茶葉與新鮮香花依比例混合，靜置陰涼處，待茶葉吸收花香後篩除花瓣，再烘乾製成。\n\n下列花茶店店員針對顧客需求所給的建議，何者不恰當？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "不想喝含有茶葉的茶｜店員建議：可選菊花茶",
+      "想在沖泡時看到花瓣｜店員建議：可買蓮花茶",
+      "想選等級最高的花茶送客戶｜店員建議：可選玫瑰烏龍茶",
+      "想喝製茶新香片｜店員建議：可將乾燥茶葉和新鮮茉莉花混合"
     ],
     "answer": 2,
     "explanation": "答案 C。文中明說成品沒有花、香氣濃的香片等級最高；玫瑰烏龍屬於「成品內有花」的第二種，並非最高等級，所以把它推薦給想買最高級花茶的顧客不恰當。A 不要喝到茶葉可選第三種純花茶；B 想看見花瓣可選第二種；D 想自製茶香片可依文中方法用茶葉和新鮮茉莉花窨製。",
@@ -44460,16 +44454,14 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p4.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第9題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
     },
-    "optionsInImage": true
+    "optionsInImage": false
   },
   {
     "id": "OFF-0884",
