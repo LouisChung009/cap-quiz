@@ -6343,7 +6343,7 @@
     "knowledgePoint": "110年社會第11題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "在咖啡廳打工的大牛，自從年齡不受《勞動基準法》童工規定的保護後，老 闆開始要求他每週五加班到凌晨。某日，大牛與客人發生衝突，因而被移送 少年法庭審理。根據上述內容判斷，下列關於大牛的敘述何者最適當？",
+    "question": "在咖啡廳打工的大牛，已超過《勞動基準法》童工的年齡範圍，但老闆仍要求他每週五加班到凌晨。某日，他與客人發生衝突，因而被移送少年法庭審理。根據上述內容判斷，下列關於大牛的敘述何者最適當？",
     "questionImage": "./assets/official-exams/110-social-p4.webp",
     "imageAlt": "110年國中教育會考社會科第11題官方試卷頁面",
     "options": [
@@ -6375,12 +6375,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/110-social-p3.webp",
-      "./assets/official-exams/110-social-p4.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第11題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -6394,7 +6391,7 @@
     "knowledgePoint": "110年社會第12題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "小皇為了繳交某一主題的課堂報告，蒐集了下列三則新聞報導： 根據調查顯示，過半數國 政府推動老人安 隨著單身及頂客家庭逐漸 中、小學生課後會上安親 養、長期照護等 增加，加上他們常會飼養 班或補習班。親子共處時 社會福利措施， 寵物作伴，使得國內的寵 間從事的活動，多數回答 減輕有照護需求 物數量比0~6歲嬰幼兒總 看電視或用手機上網。 家庭的負擔。 數還多。 根據上述內容判斷，這篇報告所要探討的主題與下列何者最相關？",
+    "question": "小皇為了完成課堂報告，蒐集三則新聞：①調查發現，過半數國中、小學生放學後上安親班或補習班；親子共處時，多數一起看電視或使用手機上網。②政府推動老人安養及長期照護福利，減輕有照護需求家庭的負擔。③單身及頂客家庭增加，飼養寵物陪伴的情形也增加，國內寵物數量已多於 0 至 6 歲嬰幼兒。這份報告最可能探討下列哪個主題？",
     "questionImage": "./assets/official-exams/110-social-p4.webp",
     "imageAlt": "110年國中教育會考社會科第12題官方試卷頁面",
     "options": [
@@ -6426,12 +6423,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/110-social-p3.webp",
-      "./assets/official-exams/110-social-p4.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第12題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -6645,7 +6639,7 @@
     "knowledgePoint": "110年社會第17題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "1942年，中國的對外陸上交通被日軍阻斷，所以 開闢了一條空中通道，由甲地運送戰略物資至雲 南 昆明，如圖(九)所示。該航線因受限於當時螺 旋槳飛機的性能，僅能順著山峰與谷地飛行，軌 跡高低起伏狀似駝峰而被稱為「駝峰航線」。根 據上文，該航線應是越過下列何者？",
+    "question": "1942 年，中國對外陸路交通遭日軍阻斷，盟軍因此開闢「駝峰航線」，由印度東北部阿薩姆一帶飛往中國雲南昆明，運送戰略物資。當時螺旋槳飛機須沿山谷飛行，航線高低起伏如駝峰。依原卷附圖所示路線，該航線越過下列哪個地形區？",
     "questionImage": "./assets/official-exams/110-social-p5.webp",
     "imageAlt": "110年國中教育會考社會科第17題官方試卷頁面",
     "options": [
@@ -6678,9 +6672,8 @@
       "nextReviewAt": null
     },
     "requiresImage": true,
-    "requiresContext": true,
+    "requiresContext": false,
     "questionImages": [
-      "./assets/official-exams/110-social-p4.webp",
       "./assets/official-exams/110-social-p5.webp"
     ],
     "answerKeyReview": {
@@ -7747,7 +7740,7 @@
     "knowledgePoint": "110年社會第39題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "「吳生是徽州人，參加科舉考試屢屢失利，但他沒有放棄金榜題名的希望。 為了糊口謀生，在這個徽州商人活躍於全國，形成商幫組織的時代，他未從 商而選擇行醫。有一年，吳生遠赴省城參加鄉試，卻遇上了身體不適的老友 上門求診，結果老友得以痊癒，自己卻又再度名落孫山。終其一生，他雖未 能如願中舉，但卻成為一位良醫。」上文中的吳生，最可能是下列何時的讀 書人？",
+    "question": "「吳生是徽州人，屢次參加科舉未中，為謀生而行醫。當時徽州商人活躍全國，並形成商幫。有一年，他赴省城參加鄉試，恰逢老友求診；老友痊癒，他卻再次落榜。終其一生未能中舉，卻成為良醫。」依據徽商與商幫興盛的時代背景，吳生最可能是哪一時期的讀書人？",
     "questionImage": "./assets/official-exams/110-social-p10.webp",
     "imageAlt": "110年國中教育會考社會科第39題官方試卷頁面",
     "options": [
@@ -7780,11 +7773,8 @@
       "nextReviewAt": null
     },
     "requiresImage": false,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/110-social-p9.webp",
-      "./assets/official-exams/110-social-p10.webp"
-    ],
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第39題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -7948,7 +7938,7 @@
     "knowledgePoint": "110年社會第43題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "阿治在網路上分享自己潛水過程中觸碰綠蠵龜的影片，引發了爭議。由於他 隨意觸碰保育類動物的行為，涉嫌違反《野生動物保育法》，一旦確定行為 違法，最重將可能面臨有期徒刑的處罰。根據上述內容判斷，若阿治遭罰但 不服，他採行下列哪一方式進行權利救濟最適當？",
+    "question": "阿治在網路上分享自己潛水時觸碰綠蠵龜的影片，引發爭議。由於觸碰保育類動物涉嫌違反《野生動物保育法》，若法院判處有期徒刑，而阿治不服判決，應採取下列哪一方式救濟？",
     "questionImage": "./assets/official-exams/110-social-p10.webp",
     "imageAlt": "110年國中教育會考社會科第43題官方試卷頁面",
     "options": [
@@ -7958,13 +7948,13 @@
       "向高等行政法院提起上訴"
     ],
     "answer": 1,
-    "explanation": "答案 B「向高等法院提起上訴」。題幹已限定阿治可能因違反野生動物保育法而受有期徒刑，屬刑事案件；若不服第一審刑事判決，應依法向第二審法院上訴，通常為高等法院。訴願是對行政處分不服的救濟，不適用刑事判決；請願也不是判決上訴程序，高等行政法院處理行政訴訟而非刑事上訴。",
+    "explanation": "答案 B「向高等法院提起上訴」。題幹明示法院判處有期徒刑，屬刑事案件；若不服刑事判決，應依刑事訴訟審級程序提起上訴，向上級普通法院尋求救濟。訴願與行政訴訟是對行政處分的救濟，不適用於刑事判決。",
     "solutionSteps": [
-      "先分辨處罰性質：題目說可能判有期徒刑，表示刑事案件。",
-      "對刑事第一審判決不服，依審級制度向上級法院上訴。",
-      "選 B；訴願／行政法院處理行政爭訟，不能拿來救濟刑事判決。"
+      "辨認有期徒刑是刑事法院可能作出的刑罰，不是行政罰鍰。",
+      "不服刑事判決應依刑事訴訟程序上訴，而非提訴願。",
+      "題目要求選擇上級普通法院救濟，故選 B；行政法院處理行政爭訟。"
     ],
-    "teacherTip": "公民救濟先辨認爭議是行政處分、民事判決還是刑事判決，再選相應程序。",
+    "teacherTip": "先分辨刑罰與行政罰：有期徒刑屬刑事判決救濟；罰鍰行政處分才走訴願、行政訴訟程序。",
     "relatedWords": [],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -7980,12 +7970,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/110-social-p9.webp",
-      "./assets/official-exams/110-social-p10.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第43題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -8332,9 +8319,8 @@
       "nextReviewAt": null
     },
     "requiresImage": true,
-    "requiresContext": true,
+    "requiresContext": false,
     "questionImages": [
-      "./assets/official-exams/110-social-p11.webp",
       "./assets/official-exams/110-social-p12.webp"
     ],
     "answerKeyReview": {
@@ -8600,7 +8586,7 @@
     "knowledgePoint": "110年社會第56題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【閱讀材料】約翰．馬歇爾畢業於英國劍橋大學，曾參與希臘遺址考古挖掘。1902 年，他獲大英博物館推薦，派往英國在亞洲的殖民地擔任考古局局長；他接續前人工作，挖掘多處古代遺址，並復原研究與佛教有關的塔院遺址。題圖中的雙底線遺址以佛塔、石柱碑文等遺構見證早期佛教藝術。\n\n根據材料，馬歇爾被派遣到的「殖民地」最可能是下列何地？",
+    "question": "【閱讀材料】約翰．馬歇爾畢業於英國劍橋大學，曾參與希臘遺址考古。1902 年，他受派前往英屬印度擔任考古調查局局長，持續挖掘與研究當地古蹟。他也研究桑奇遺址；此地以佛塔、石柱及碑文等遺構，見證早期佛教建築與藝術的發展。\n\n根據材料，馬歇爾被派遣到的殖民地最可能是下列何地？",
     "questionImage": "./assets/official-exams/110-social-p13.webp",
     "imageAlt": "110年國中教育會考社會科第56題官方試卷頁面",
     "options": [
@@ -8634,10 +8620,7 @@
     },
     "requiresImage": false,
     "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/110-social-p12.webp",
-      "./assets/official-exams/110-social-p13.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第56題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -8651,14 +8634,14 @@
     "knowledgePoint": "110年社會第57題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【閱讀材料】約翰．馬歇爾畢業於英國劍橋大學，曾參與希臘遺址考古挖掘。1902 年，他獲大英博物館推薦，派往英國在亞洲的殖民地擔任考古局局長；他接續前人工作，挖掘多處古代遺址，並復原研究與佛教有關的塔院遺址。題圖中的雙底線遺址以佛塔、石柱碑文等遺構見證早期佛教藝術。\n\n文中雙底線處的遺址已列入世界文化遺產，它被指定為世界遺產最可能與下列何者有關？",
+    "question": "【閱讀材料】約翰．馬歇爾畢業於英國劍橋大學，曾參與希臘遺址考古。1902 年，他受派前往英屬印度擔任考古調查局局長，持續挖掘與研究當地古蹟。他也研究桑奇遺址；此地以佛塔、石柱及碑文等遺構，見證早期佛教建築與藝術的發展。\n\n桑奇遺址已列入世界文化遺產，最可能是因為它具有下列哪項價值？",
     "questionImage": "./assets/official-exams/110-social-p13.webp",
     "imageAlt": "110年國中教育會考社會科第57題官方試卷頁面",
     "options": [
       "彰顯伊斯蘭文化的擴張與融合",
       "展現早期佛教建築藝術的特色",
       "見證了殖民體系下的軍事防禦",
-      "保存了工業革命時的工廠形式 12"
+      "保存了工業革命時的工廠形式"
     ],
     "answer": 1,
     "explanation": "答案 B「展現早期佛教建築藝術的特色」。共用材料談馬歇爾在印度考古，並指出被雙底線標示的塔院、石柱碑文與佛陀有關，這些遺址遺構見證早期佛教建築及藝術。題文沒有提伊斯蘭文化融合、殖民軍事防禦或工業革命工廠。",
@@ -8685,10 +8668,7 @@
     },
     "requiresImage": false,
     "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/110-social-p12.webp",
-      "./assets/official-exams/110-social-p13.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第57題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -8702,7 +8682,7 @@
     "knowledgePoint": "110年社會第58題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【閱讀材料】臺灣雲豹原始棲地主要在海拔 1,500 公尺以下的暖溫帶常綠森林。土地大量開發後，近幾十年來雲豹似乎已不見蹤跡，研究者只能從長者及有狩獵經驗的原住民口中蒐集曾捕獲或目擊的資訊；多數受訪者所指稱的地點多位於中央山脈南段的山區。研究人員調查三年多仍未發現雲豹，遂依現有知識繪製可能棲地：先選海拔 300–2,000 公尺、面積超過 40 平方公里的森林；再納入距主要棲地 1 公里內、面積大於 4 平方公里的破碎森林；最後排除距村莊、部落或主要道路 3 公里內的區域。\n\n根據材料，臺灣雲豹原始棲息環境主要為下列哪種天然植被？",
+    "question": "【閱讀材料】臺灣雲豹原始棲地主要在海拔 1,500 公尺以下的暖溫帶常綠森林。土地開發後，研究者從長者與有狩獵經驗的原住民蒐集曾捕獲或目擊的紀錄，多數地點在中央山脈南段。研究人員調查三年多仍未發現雲豹，遂依條件推估可能棲地：先選海拔 300 至 2,000 公尺、面積超過 40 平方公里的森林；再納入距主要棲地 1 公里內且面積大於 4 平方公里的破碎森林；最後排除距村莊、部落或主要道路 3 公里內的區域。\n\n根據材料，臺灣雲豹原始棲息環境主要為下列哪種天然植被？",
     "questionImage": "./assets/official-exams/110-social-p14.webp",
     "imageAlt": "110年國中教育會考社會科第58題官方試卷頁面",
     "options": [
@@ -8736,10 +8716,7 @@
     },
     "requiresImage": false,
     "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/110-social-p13.webp",
-      "./assets/official-exams/110-social-p14.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第58題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -8753,7 +8730,7 @@
     "knowledgePoint": "110年社會第59題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【閱讀材料】臺灣雲豹原始棲地主要在海拔 1,500 公尺以下的暖溫帶常綠森林。土地大量開發後，近幾十年來雲豹似乎已不見蹤跡，研究者只能從長者及有狩獵經驗的原住民口中蒐集曾捕獲或目擊的資訊；多數受訪者所指稱的地點多位於中央山脈南段的山區。研究人員調查三年多仍未發現雲豹，遂依現有知識繪製可能棲地：先選海拔 300–2,000 公尺、面積超過 40 平方公里的森林；再納入距主要棲地 1 公里內、面積大於 4 平方公里的破碎森林；最後排除距村莊、部落或主要道路 3 公里內的區域。\n\n文中多數受訪者目擊雲豹的地點，位於下列哪兩個原住民族的主要分布區？",
+    "question": "【閱讀材料】臺灣雲豹原始棲地主要在海拔 1,500 公尺以下的暖溫帶常綠森林。土地開發後，研究者從長者與有狩獵經驗的原住民蒐集曾捕獲或目擊的紀錄，多數地點在中央山脈南段。研究人員調查三年多仍未發現雲豹，遂依條件推估可能棲地：先選海拔 300 至 2,000 公尺、面積超過 40 平方公里的森林；再納入距主要棲地 1 公里內且面積大於 4 平方公里的破碎森林；最後排除距村莊、部落或主要道路 3 公里內的區域。\n\n文中多數受訪者目擊雲豹的地點，位於下列哪兩個原住民族的主要分布區？",
     "questionImage": "./assets/official-exams/110-social-p14.webp",
     "imageAlt": "110年國中教育會考社會科第59題官方試卷頁面",
     "options": [
@@ -8787,10 +8764,7 @@
     },
     "requiresImage": false,
     "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/110-social-p13.webp",
-      "./assets/official-exams/110-social-p14.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第59題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -8804,7 +8778,7 @@
     "knowledgePoint": "110年社會第60題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【閱讀材料】臺灣雲豹原始棲地主要在海拔 1,500 公尺以下的暖溫帶常綠森林。土地大量開發後，近幾十年來雲豹似乎已不見蹤跡，研究者只能從長者及有狩獵經驗的原住民口中蒐集曾捕獲或目擊的資訊；多數受訪者所指稱的地點多位於中央山脈南段的山區。研究人員調查三年多仍未發現雲豹，遂依現有知識繪製可能棲地：先選海拔 300–2,000 公尺、面積超過 40 平方公里的森林；再納入距主要棲地 1 公里內、面積大於 4 平方公里的破碎森林；最後排除距村莊、部落或主要道路 3 公里內的區域。\n\n根據材料中研究員繪製雲豹可能棲地的原則與流程，其分布圖最接近下列何者？",
+    "question": "【閱讀材料】臺灣雲豹原始棲地主要在海拔 1,500 公尺以下的暖溫帶常綠森林。土地開發後，研究者從長者與有狩獵經驗的原住民蒐集曾捕獲或目擊的紀錄，多數地點在中央山脈南段。研究人員調查三年多仍未發現雲豹，遂依條件推估可能棲地：先選海拔 300 至 2,000 公尺、面積超過 40 平方公里的森林；再納入距主要棲地 1 公里內且面積大於 4 平方公里的破碎森林；最後排除距村莊、部落或主要道路 3 公里內的區域。\n\n根據材料中研究員繪製雲豹可能棲地的原則與流程，其分布圖最接近下列何者？",
     "questionImage": "./assets/official-exams/110-social-p14.webp",
     "imageAlt": "110年國中教育會考社會科第60題官方試卷頁面",
     "options": [
@@ -8839,7 +8813,6 @@
     "requiresImage": true,
     "requiresContext": true,
     "questionImages": [
-      "./assets/official-exams/110-social-p13.webp",
       "./assets/official-exams/110-social-p14.webp"
     ],
     "answerKeyReview": {
@@ -8855,7 +8828,7 @@
     "knowledgePoint": "110年社會第61題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【閱讀材料】食物是人類維持生存的必需品，但世界上仍有許多人吃不飽。聯合國於 1945 年 10 月 16 日成立糧食及農業組織（FAO），希望有效管理全球糧食系統；後來將此日訂為世界糧食日，呼籲關注糧食議題。FAO 報告指出，全球約有 8 億人面臨飢餓，但約三分之一糧食遭浪費，顯示問題在分配不均而非全球總量不足。臺灣每人每年平均浪費約 100 公斤食物，約 3.6 萬公噸食品被當作垃圾；雖目前無缺糧危機，仍有糧食自給率偏低、農地減少、食品安全與浪費等問題。文章主張透過食農教育培養珍惜食物觀念，推動安全生產並提高自給率，以避免糧食危機。\n\n文中國際組織的分布區域及成員性質，與下列何者最類似？",
+    "question": "【閱讀材料】食物是人類維持生存的必需品，但全球仍有許多人挨餓。聯合國糧食及農業組織（FAO）於 1945 年成立，10 月 16 日為世界糧食日，呼籲關注糧食議題。資料指出，全球約有 8 億人面臨飢餓，但約三分之一糧食遭浪費，問題不只是總量，也涉及分配。臺灣每人每年平均浪費約 100 公斤食物，約 3.6 萬公噸食品被當作垃圾；另有糧食自給率偏低、農地減少及食品安全等課題。文章主張透過食農教育培養珍惜食物觀念，推動安全生產並提高自給率。\n\n文中國際組織的分布區域及成員性質，與下列何者最類似？",
     "questionImage": "./assets/official-exams/110-social-p15.webp",
     "imageAlt": "110年國中教育會考社會科第61題官方試卷頁面",
     "options": [
@@ -8889,10 +8862,7 @@
     },
     "requiresImage": false,
     "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/110-social-p14.webp",
-      "./assets/official-exams/110-social-p15.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第61題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -8906,7 +8876,7 @@
     "knowledgePoint": "110年社會第62題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【閱讀材料】食物是人類維持生存的必需品，但世界上仍有許多人吃不飽。聯合國於 1945 年 10 月 16 日成立糧食及農業組織（FAO），希望有效管理全球糧食系統；後來將此日訂為世界糧食日，呼籲關注糧食議題。FAO 報告指出，全球約有 8 億人面臨飢餓，但約三分之一糧食遭浪費，顯示問題在分配不均而非全球總量不足。臺灣每人每年平均浪費約 100 公斤食物，約 3.6 萬公噸食品被當作垃圾；雖目前無缺糧危機，仍有糧食自給率偏低、農地減少、食品安全與浪費等問題。文章主張透過食農教育培養珍惜食物觀念，推動安全生產並提高自給率，以避免糧食危機。\n\n根據上述內容判斷，下列何者最符合文中提及的觀點？",
+    "question": "【閱讀材料】食物是人類維持生存的必需品，但全球仍有許多人挨餓。聯合國糧食及農業組織（FAO）於 1945 年成立，10 月 16 日為世界糧食日，呼籲關注糧食議題。資料指出，全球約有 8 億人面臨飢餓，但約三分之一糧食遭浪費，問題不只是總量，也涉及分配。臺灣每人每年平均浪費約 100 公斤食物，約 3.6 萬公噸食品被當作垃圾；另有糧食自給率偏低、農地減少及食品安全等課題。文章主張透過食農教育培養珍惜食物觀念，推動安全生產並提高自給率。\n\n根據上述內容判斷，下列何者最符合文中提及的觀點？",
     "questionImage": "./assets/official-exams/110-social-p15.webp",
     "imageAlt": "110年國中教育會考社會科第62題官方試卷頁面",
     "options": [
@@ -8940,10 +8910,7 @@
     },
     "requiresImage": false,
     "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/110-social-p14.webp",
-      "./assets/official-exams/110-social-p15.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第62題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -8957,7 +8924,7 @@
     "knowledgePoint": "110年社會第63題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "聯合國糧食及農業組織將 10 月 16 日訂為世界糧食日，並以「永續糧食系統與糧食安全」為題。文中指出，全球每年約有三分之一的食物遭丟棄；小名若要響應文中提及的主題日，下列何種作法最適當？",
+    "question": "【閱讀材料】食物是人類維持生存的必需品，但全球仍有許多人挨餓。聯合國糧食及農業組織（FAO）於 1945 年成立，10 月 16 日為世界糧食日，呼籲關注糧食議題。資料指出，全球約有 8 億人面臨飢餓，但約三分之一糧食遭浪費，問題不只是總量，也涉及分配。臺灣每人每年平均浪費約 100 公斤食物，約 3.6 萬公噸食品被當作垃圾；另有糧食自給率偏低、農地減少及食品安全等課題。文章主張透過食農教育培養珍惜食物觀念，推動安全生產並提高自給率。\n\n若小名要響應世界糧食日及文中主題，下列何種作法最適當？",
     "questionImage": "./assets/official-exams/110-social-p15.webp",
     "imageAlt": "110年國中教育會考社會科第63題官方試卷頁面",
     "options": [
@@ -8991,9 +8958,7 @@
     },
     "requiresImage": false,
     "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/110-social-p14.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第63題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -17021,7 +16986,12 @@
     "question": "圖（十一）為正三角形紙片 ABC，D 在 AB 上、E 在 BC 上。沿 DE 摺疊，使 B 點摺至圖（十二）中的位置；摺後直線 BD、BE 分別與 AC 交於 F、G。已知 AD＝10、AF＝16、DF＝14、BF＝8，求 CG。",
     "questionImage": "./assets/official-exams/111-math-p8.webp",
     "imageAlt": "111年國中教育會考數學科第20題官方試卷頁面",
-    "options": ["7", "8", "9", "10"],
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
     "answer": 2,
     "explanation": "答案是 C「9」。摺後的 B 點（記作 B′）與 D、F 共線，依圖上順序 D、F、B′，所以 DB′=DF+FB′=14+8=22。摺疊保距得 DB′=DB，故 AB=AD+DB=10+22=32。取 A=(0,0)、B=(32,0)、C=(16,16√3)，則 D=(10,0)、F=(8,8√3)，沿 DF 向外 8 單位得 B′=(48/7,88√3/7)。摺線 DE 是 BB′ 的垂直平分線，與 BC 相交於 E；由 (E−D)·(B′−B)=0 得 E=(116/5,44√3/5)。直線 B′E 與 AC（y=√3x）交於 G，解得 G=(23/2,23√3/2)，所以 AG=23。正三角形邊長 AC=32，故 CG=32−23=9。",
     "solutionSteps": [
