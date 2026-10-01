@@ -7827,9 +7827,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-social-p10.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第41題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -7843,7 +7841,7 @@
     "knowledgePoint": "110年社會第42題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "圖(十九)是一則網路新聞報導，根據圖中 內容判斷，在此案的處理過程中，最可能 會出現下列何種情況？",
+    "question": "【網路新聞】消費者注意：豪旺公司未經主管機關許可，自國外引進宣稱具有療效的床墊販售牟利，違反《藥事法》規定。相關單位調查後，決定對該公司業務負責人提起公訴。依此案件處理過程，最可能出現下列哪種情況？",
     "questionImage": "./assets/official-exams/110-social-p10.webp",
     "imageAlt": "110年國中教育會考社會科第42題官方試卷頁面",
     "options": [
@@ -7875,11 +7873,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-social-p10.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第42題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -7893,7 +7889,7 @@
     "knowledgePoint": "110年社會第43題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "阿治在網路上分享自己潛水時觸碰綠蠵龜的影片，引發爭議。由於觸碰保育類動物涉嫌違反《野生動物保育法》，若法院判處有期徒刑，而阿治不服判決，應採取下列哪一方式救濟？",
+    "question": "阿治在網路上分享自己潛水時觸碰綠蠵龜的影片，引發爭議。由於觸碰保育類動物涉嫌違反《野生動物保育法》，若法院作成有期徒刑的一審判決，而阿治不服判決，應採取下列哪一方式救濟？",
     "questionImage": "./assets/official-exams/110-social-p10.webp",
     "imageAlt": "110年國中教育會考社會科第43題官方試卷頁面",
     "options": [
@@ -7975,9 +7971,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-social-p11.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第44題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -8025,9 +8019,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-social-p11.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第45題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -8041,7 +8033,7 @@
     "knowledgePoint": "110年社會第46題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "有鑑於以往選舉活動過於密集，除了選務工作須花費大量成本外，也容易造 成社會紛擾，於是我國目前採用每隔兩年交錯的原則，分別辦理中央層級與 地方層級公職人員的選舉。根據表(八)內容判斷，以民國107年九合一地方公 職人員選舉為例，「 」代表可領取該項選舉選票，若小華具有此次選舉的 投票權，下列何者是他依法可能領取的選票組合之一？ 表(八) 選 市 縣 山地 山地 里 票 直轄市 直轄市 縣 縣轄市 民 議 原住民區 原住民區 (村) 組 市長 市議員 長 市長 代 員 區長 區民代表 長 合 表 甲 乙 丙 丁",
+    "question": "我國為避免選舉過度密集，目前原則上每兩年交錯辦理中央與地方公職人員選舉。下列整理 2018 年九合一選舉可能領取的選票組合：甲：直轄市市長、直轄市議員、縣長、縣議員、縣轄市市長、市民代表、山地原住民區長、山地原住民區民代表、里（村）長；乙：縣長、縣議員、縣轄市市長、市民代表、山地原住民區長、山地原住民區民代表、里（村）長；丙：直轄市市長、直轄市議員、里（村）長；丁：縣轄市市長、山地原住民區民代表、里（村）長。若小華有此次選舉投票權，哪一組是他依法可能領取的選票組合？",
     "questionImage": "./assets/official-exams/110-social-p11.webp",
     "imageAlt": "110年國中教育會考社會科第46題官方試卷頁面",
     "options": [
@@ -8073,11 +8065,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-social-p11.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第46題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -8098,7 +8088,7 @@
       "除夕當晚家家戶戶團圓圍爐",
       "遛狗時隨手清理愛犬的糞便",
       "許多阿拉伯人每日都做禮拜",
-      "騎車時使用手機會被開罰單 10"
+      "騎車時使用手機會被開罰單"
     ],
     "answer": 0,
     "explanation": "答案 A「除夕當晚家家戶戶團圓圍爐」。學校送包子、蛋糕、粽子是以諧音祝福考生的習俗，屬長期沿用、由社會共同接受的風俗規範；除夕團圓圍爐同樣是傳統習俗。B 是明確的公德行為規範，C 是宗教規範，D 是法律規範，性質不同。",
@@ -8175,9 +8165,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-social-p12.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第48題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
