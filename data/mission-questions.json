@@ -40911,9 +40911,9 @@
     "knowledgePoint": "113年社會第41題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "英國的英格蘭足球超級聯賽，在最接近11 月11日的比賽日，會舉辦紀念活 動：比賽前由軍人、球員與觀眾一起進行默哀儀式，各隊球衣上印有紅花圖 案，其餘參與者也在衣服上別著紅花。這是因為英國及其殖民地為紀念第一 次世界大戰犧牲將士，將11月11日訂為紀念日，許多殖民地在獨立後，仍保 留此節日。根據上文，下列何者最可能保有同樣的紀念活動？",
-    "questionImage": "./assets/official-exams/113-social-p12.webp",
-    "imageAlt": "113年國中教育會考社會科第41題官方試卷頁面",
+    "question": "英國的英格蘭足球超級聯賽，在最接近11 月11日的比賽日，會舉辦紀念活 動：比賽前由軍人、球員與觀眾一起進行默哀儀式，各隊球衣上印有紅花圖 案，其餘參與者也在衣服上別著紅花。這是因為英國及其殖民地為紀念第一 次世界大戰犧牲將士，將11月11日訂為紀念日，許多殖民地在獨立後，仍保 留此節日。下列何者最可能保有同樣的紀念活動？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "澳洲職業足球聯賽",
       "巴西足球甲級聯賽",
@@ -40943,12 +40943,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-social-p11.webp",
-      "./assets/official-exams/113-social-p12.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第41題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -40963,8 +40960,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "1970年11月恆河出海口附近出現一座長3.5公里、寬3公里，最高點僅2公尺的 沙洲島，因其位處印度與孟加拉領海交界處，引發兩國領土爭議，但在爭議 還未解決之前，這座島嶼就消失了。根據當地自然環境判斷，該島嶼形成的 原因最可能是下列何者？",
-    "questionImage": "./assets/official-exams/113-social-p12.webp",
-    "imageAlt": "113年國中教育會考社會科第42題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "位處板塊接觸帶，海底火山噴發",
       "恆河集水區的水土保持持續改善",
@@ -40996,9 +40993,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-social-p12.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第42題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -41012,9 +41007,9 @@
     "knowledgePoint": "113年社會第43題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "表(六)為臺灣某時期四個主要港口，每十年的輸出額總和。根據表中資料，下 列何者的推論最恰當？ 表(六) 單位：十萬元 年分 1896-1905 年 1906-1915 年 1916-1925 年 1926-1935 年 港口 對外國 對日本 對外國 對日本 對外國 對日本 對外國 對日本 基隆港 90 312 506 1,215 2,112 5,578 2,321 9,260 淡水港 708 5 563 7 467 0.5 157 0.2 安平港 144 135 49 259 25 67 16 65 打狗港 25 176 45 2,375 831 8,912 479 13,440",
-    "questionImage": "./assets/official-exams/113-social-p12.webp",
-    "imageAlt": "113年國中教育會考社會科第43題官方試卷頁面",
+    "question": "表（六）為臺灣某時期四個主要港口，每十年的輸出額總和。根據表中資料，下列何者的推論最恰當？（單位：十萬元）\n\n港口｜1896–1905年（外國／日本）｜1906–1915年（外國／日本）｜1916–1925年（外國／日本）｜1926–1935年（外國／日本）\n基隆港｜90／312｜506／1,215｜2,112／5,578｜2,321／9,260\n淡水港｜708／5｜563／7｜467／0.5｜157／0.2\n安平港｜144／135｜49／259｜25／67｜16／65\n打狗港｜25／176｜45／2,375｜831／8,912｜479／13,440",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "打狗港的輸出額變化，可能受到殖民母國對糖業的資本挹注影響",
       "由於基隆離日本較近，其港口對殖民母國的輸出額占比較南部多",
@@ -41044,11 +41039,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-social-p12.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第43題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -41062,9 +41055,9 @@
     "knowledgePoint": "113年社會第44題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "文中巫童悲劇的發生，主要反映出下列何種現象？",
-    "questionImage": "./assets/official-exams/113-social-p13.webp",
-    "imageAlt": "113年國中教育會考社會科第44題官方試卷頁面",
+    "question": "【閱讀材料】\n非洲部分地區，有宗教團體灌輸民眾邪靈可能附身於孩童的觀念；被附身的孩子通常被稱為「巫童」，被認為會為家庭帶來災難、貧困和疾病，當地民眾對此深信不疑。巫童由當地宗教人士認定，一旦被判定為巫童，不論年紀多小，都可能遭遺棄、流落街頭；或由宗教人士向父母收取相當於當地一般家庭一年收入的高額費用，為孩子舉行驅魔儀式。過程中，父母可能被要求凌虐巫童，因為宗教人士認為巫童會造成病毒、疾病擴散。近年巫童問題受到國際關注，有些志願團體投入宣導及教育工作，希望藉由知識推廣改正迷信行為，進而保護孩童。\n\n巫童悲劇的發生，主要反映出下列何種現象？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "文化的差異形成文化位階",
       "法律的強制力高於宗教信仰",
@@ -41094,12 +41087,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-social-p12.webp",
-      "./assets/official-exams/113-social-p13.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第44題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -41113,9 +41103,9 @@
     "knowledgePoint": "113年社會第45題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "文中關於巫童所受待遇的描述，最能凸顯下列何者的重要性？",
-    "questionImage": "./assets/official-exams/113-social-p13.webp",
-    "imageAlt": "113年國中教育會考社會科第45題官方試卷頁面",
+    "question": "【閱讀材料】\n非洲部分地區，有宗教團體灌輸民眾邪靈可能附身於孩童的觀念；被附身的孩子通常被稱為「巫童」，被認為會為家庭帶來災難、貧困和疾病，當地民眾對此深信不疑。巫童由當地宗教人士認定，一旦被判定為巫童，不論年紀多小，都可能遭遺棄、流落街頭；或由宗教人士向父母收取相當於當地一般家庭一年收入的高額費用，為孩子舉行驅魔儀式。過程中，父母可能被要求凌虐巫童，因為宗教人士認為巫童會造成病毒、疾病擴散。近年巫童問題受到國際關注，有些志願團體投入宣導及教育工作，希望藉由知識推廣改正迷信行為，進而保護孩童。\n\n文中關於巫童所受待遇的描述，最能凸顯下列何者的重要性？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "基本人權應受到普遍性的保障",
       "公權力的行使應受到法律約束",
@@ -41145,12 +41135,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-social-p12.webp",
-      "./assets/official-exams/113-social-p13.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第45題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -41164,9 +41151,9 @@
     "knowledgePoint": "113年社會第46題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據文中第一段內容判斷，相較於電動機車，部分民眾喜愛使用電動自行車 的原因，最可能為下列何者？",
-    "questionImage": "./assets/official-exams/113-social-p13.webp",
-    "imageAlt": "113年國中教育會考社會科第46題官方試卷頁面",
+    "question": "【閱讀材料】\n過去《道路交通管理處罰條例》中的「電動自行車」僅以電力驅動，因與電動機車的使用差異不大，且不須懸掛車牌、不須駕照、駕駛者無年齡限制、價格較低廉，部分民眾喜愛以它作為代步工具，卻也衍生諸多問題。2022年4月，政府修正《道路交通管理處罰條例》，將「電動自行車」更名為「微型電動二輪車」，規定須領用並懸掛車牌、投保強制汽車責任保險，且年滿14歲才能駕駛；違規者將遭主管機關開罰。修正案於5月4日由總統公布。修法施行前已持有微型電動二輪車者，須在施行後二年內領用並懸掛車牌，逾期也會受罰。由於法規修正後仍有行政工作需要準備，政府宣布新規於2022年11月30日正式施行。\n\n相較於電動機車，部分民眾喜愛使用電動自行車的原因，最可能為下列何者？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "該產品的市場競爭程度日漸提升",
       "選擇使用該項產品的機會成本較低",
@@ -41196,12 +41183,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-social-p12.webp",
-      "./assets/official-exams/113-social-p13.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第46題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -41215,9 +41199,9 @@
     "knowledgePoint": "113年社會第47題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "文中政府於2022年4月所做的變革，其過程須經下列哪一程序？",
-    "questionImage": "./assets/official-exams/113-social-p13.webp",
-    "imageAlt": "113年國中教育會考社會科第47題官方試卷頁面",
+    "question": "【閱讀材料】\n過去《道路交通管理處罰條例》中的「電動自行車」僅以電力驅動，因與電動機車的使用差異不大，且不須懸掛車牌、不須駕照、駕駛者無年齡限制、價格較低廉，部分民眾喜愛以它作為代步工具，卻也衍生諸多問題。2022年4月，政府修正《道路交通管理處罰條例》，將「電動自行車」更名為「微型電動二輪車」，規定須領用並懸掛車牌、投保強制汽車責任保險，且年滿14歲才能駕駛；違規者將遭主管機關開罰。修正案於5月4日由總統公布。修法施行前已持有微型電動二輪車者，須在施行後二年內領用並懸掛車牌，逾期也會受罰。由於法規修正後仍有行政工作需要準備，政府宣布新規於2022年11月30日正式施行。\n\n政府於2022年4月所做的變革，其過程須經下列哪一程序？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "公民投票複決",
       "憲法法庭審理",
@@ -41247,12 +41231,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-social-p12.webp",
-      "./assets/official-exams/113-social-p13.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第47題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -41266,9 +41247,9 @@
     "knowledgePoint": "113年社會第48題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據文中內容判斷，在修正規定施行前已持有微型電動二輪車者，關於其領 用車牌的敘述，下列何者最適當？",
-    "questionImage": "./assets/official-exams/113-social-p13.webp",
-    "imageAlt": "113年國中教育會考社會科第48題官方試卷頁面",
+    "question": "【閱讀材料】\n過去《道路交通管理處罰條例》中的「電動自行車」僅以電力驅動，因與電動機車的使用差異不大，且不須懸掛車牌、不須駕照、駕駛者無年齡限制、價格較低廉，部分民眾喜愛以它作為代步工具，卻也衍生諸多問題。2022年4月，政府修正《道路交通管理處罰條例》，將「電動自行車」更名為「微型電動二輪車」，規定須領用並懸掛車牌、投保強制汽車責任保險，且年滿14歲才能駕駛；違規者將遭主管機關開罰。修正案於5月4日由總統公布。修法施行前已持有微型電動二輪車者，須在施行後二年內領用並懸掛車牌，逾期也會受罰。由於法規修正後仍有行政工作需要準備，政府宣布新規於2022年11月30日正式施行。\n\n在修正規定施行前已持有微型電動二輪車者，關於其領用車牌的敘述，下列何者最適當？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "最晚要在2024年5月3日領用車牌，以免遭受行政處罰",
       "最晚要在2024年5月3日領用車牌，以免遭受刑事處罰",
@@ -41298,12 +41279,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-social-p12.webp",
-      "./assets/official-exams/113-social-p13.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第48題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -41317,9 +41295,9 @@
     "knowledgePoint": "113年社會第49題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據上文及觀察圖(二十三)中不同年分各州眾議員席次的變化情形，可以推論 美國人口在這段期間有下列何項變動？",
-    "questionImage": "./assets/official-exams/113-social-p14.webp",
-    "imageAlt": "113年國中教育會考社會科第49題官方試卷頁面",
+    "question": "【閱讀材料】\n根據《美國憲法》，聯邦眾議院435席依各州人口數分配，每十年依人口普查結果重新分配席次，且每個州至少有1席。表（或圖）呈現不同年份各州席次的變化；每位眾議員代表的人口數會隨人口變化而增減。臺灣現行區域立委席次也採類似方式分配，例如73位區域立委中，臺北市選出8人、雲林縣選出2人。\n\n觀察圖（二十三）中不同年份各州眾議員席次的變化情形，可以推論美國人口在這段期間有下列何項變動？",
+    "questionImage": "./assets/official-exams/113-social-p13.webp",
+    "imageAlt": "113年國中教育會考社會科第49題圖表",
     "options": [
       "南部州人口成長速度較東北部的州快",
       "美國各州持續呈現人口負成長的狀態",
@@ -41350,10 +41328,9 @@
       "nextReviewAt": null
     },
     "requiresImage": true,
-    "requiresContext": true,
+    "requiresContext": false,
     "questionImages": [
-      "./assets/official-exams/113-social-p13.webp",
-      "./assets/official-exams/113-social-p14.webp"
+      "./assets/official-exams/113-social-p13.webp"
     ],
     "answerKeyReview": {
       "status": "verified",
@@ -41368,9 +41345,9 @@
     "knowledgePoint": "113年社會第50題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "影響美國各州人口多寡的因素眾多且不相同，觀察圖(二十三)中2020年眾議院 席次僅有1席的州，下列何者與這些州人口少的原因較無關聯？",
-    "questionImage": "./assets/official-exams/113-social-p14.webp",
-    "imageAlt": "113年國中教育會考社會科第50題官方試卷頁面",
+    "question": "【閱讀材料】\n根據《美國憲法》，聯邦眾議院435席依各州人口數分配，每十年依人口普查結果重新分配席次，且每個州至少有1席。表（或圖）呈現不同年份各州席次的變化；每位眾議員代表的人口數會隨人口變化而增減。臺灣現行區域立委席次也採類似方式分配，例如73位區域立委中，臺北市選出8人、雲林縣選出2人。\n\n觀察圖（二十三）中2020年眾議院席次僅有1席的州，下列何者與這些州人口少的原因較無關聯？",
+    "questionImage": "./assets/official-exams/113-social-p13.webp",
+    "imageAlt": "113年國中教育會考社會科第50題圖表",
     "options": [
       "地形崎嶇",
       "工業就業機會少",
@@ -41403,7 +41380,7 @@
     "requiresImage": true,
     "requiresContext": false,
     "questionImages": [
-      "./assets/official-exams/113-social-p14.webp"
+      "./assets/official-exams/113-social-p13.webp"
     ],
     "answerKeyReview": {
       "status": "verified",
@@ -41418,9 +41395,9 @@
     "knowledgePoint": "113年社會第51題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據上文並參考圖(二十四)臺灣人口分布狀況，下 列關於各行政區立委席次分配的說明何者正確？",
-    "questionImage": "./assets/official-exams/113-social-p14.webp",
-    "imageAlt": "113年國中教育會考社會科第51題官方試卷頁面",
+    "question": "【閱讀材料】\n根據《美國憲法》，聯邦眾議院435席依各州人口數分配，每十年依人口普查結果重新分配席次，且每個州至少有1席。表（或圖）呈現不同年份各州席次的變化；每位眾議員代表的人口數會隨人口變化而增減。臺灣現行區域立委席次也採類似方式分配，例如73位區域立委中，臺北市選出8人、雲林縣選出2人。\n\n參考圖（二十四）臺灣人口分布狀況，下列關於各行政區立委席次分配的說明何者正確？",
+    "questionImage": "./assets/official-exams/113-social-p13.webp",
+    "imageAlt": "113年國中教育會考社會科第51題圖表",
     "options": [
       "屏東縣區域立委席次少於臺東縣",
       "新北市區域立委席次多於宜蘭縣",
@@ -41451,10 +41428,9 @@
       "nextReviewAt": null
     },
     "requiresImage": true,
-    "requiresContext": true,
+    "requiresContext": false,
     "questionImages": [
-      "./assets/official-exams/113-social-p13.webp",
-      "./assets/official-exams/113-social-p14.webp"
+      "./assets/official-exams/113-social-p13.webp"
     ],
     "answerKeyReview": {
       "status": "verified",
@@ -41469,9 +41445,9 @@
     "knowledgePoint": "113年社會第52題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據上文，「新電影」出現之前的戰後臺灣電影，最不可能播映下列何種劇情？",
-    "questionImage": "./assets/official-exams/113-social-p15.webp",
-    "imageAlt": "113年國中教育會考社會科第52題官方試卷頁面",
+    "question": "【閱讀材料】\n1950年代，臺灣電影配合政府「反共抗俄」政策，政府及商業機構拍攝的電影多為官方意識形態的宣傳工具；民間則以對日戰爭、國民失去家園的流亡記憶及本土民俗故事為素材，並發展以閩南語發音的「台語電影」。1960年代，政府強調社會安定，臺灣電影開啟「健康寫實」風格，主張避免暴露社會黑暗面、呈現人性光輝，受到當時海內外華人市場歡迎。1970年代經濟成長後，愛情、武俠、功夫、喜劇等電影類型也進一步成為民眾休閒娛樂。\n\n1980年代初期，臺灣電影受到香港電影新浪潮影響，進入「臺灣新電影」時期。「新電影」強調建立良好導演體制，在劇本創作中融入鄉土文學，拍攝風格以自然、寫實為主，並開始有意識地挑戰官方政治禁忌，因此受到相關單位關切。例如初期代表作《兒子的大玩偶》正式上映前，因片段呈現基層建材行等疑似批判政府形象的畫面，遭官方施壓要求刪減；此事後來稱為「削蘋果事件」。最後在影視記者楊士琪等人聲援下，電影免於刪剪。\n\n「新電影」出現之前的戰後臺灣電影，最不可能播映下列何種劇情？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "中國 明朝年間，來自各路的武功高手在龍門客棧展開激烈戰鬥",
       "國軍將領對抗日軍時陣亡，蔣中正題字「英烈千秋」表示悼念",
@@ -41501,12 +41477,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-social-p14.webp",
-      "./assets/official-exams/113-social-p15.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第52題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -41520,9 +41493,9 @@
     "knowledgePoint": "113年社會第53題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據上文，「新電影」發展之初，最可能以下列何者作為電影題材？",
-    "questionImage": "./assets/official-exams/113-social-p15.webp",
-    "imageAlt": "113年國中教育會考社會科第53題官方試卷頁面",
+    "question": "【閱讀材料】\n1950年代，臺灣電影配合政府「反共抗俄」政策，政府及商業機構拍攝的電影多為官方意識形態的宣傳工具；民間則以對日戰爭、國民失去家園的流亡記憶及本土民俗故事為素材，並發展以閩南語發音的「台語電影」。1960年代，政府強調社會安定，臺灣電影開啟「健康寫實」風格，主張避免暴露社會黑暗面、呈現人性光輝，受到當時海內外華人市場歡迎。1970年代經濟成長後，愛情、武俠、功夫、喜劇等電影類型也進一步成為民眾休閒娛樂。\n\n1980年代初期，臺灣電影受到香港電影新浪潮影響，進入「臺灣新電影」時期。「新電影」強調建立良好導演體制，在劇本創作中融入鄉土文學，拍攝風格以自然、寫實為主，並開始有意識地挑戰官方政治禁忌，因此受到相關單位關切。例如初期代表作《兒子的大玩偶》正式上映前，因片段呈現基層建材行等疑似批判政府形象的畫面，遭官方施壓要求刪減；此事後來稱為「削蘋果事件」。最後在影視記者楊士琪等人聲援下，電影免於刪剪。\n\n「新電影」發展之初，最可能以下列何者作為電影題材？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "宣揚政府推行南進政策所帶來的經濟成就",
       "關注一般農民、勞工等小人物生活中的困頓",
@@ -41552,12 +41525,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-social-p14.webp",
-      "./assets/official-exams/113-social-p15.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第53題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -41571,9 +41541,9 @@
     "knowledgePoint": "113年社會第54題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "上文「削蘋果事件」中，國家企圖限制的人民權利類型，與下列何者最相似？",
-    "questionImage": "./assets/official-exams/113-social-p15.webp",
-    "imageAlt": "113年國中教育會考社會科第54題官方試卷頁面",
+    "question": "【閱讀材料】\n1950年代，臺灣電影配合政府「反共抗俄」政策，政府及商業機構拍攝的電影多為官方意識形態的宣傳工具；民間則以對日戰爭、國民失去家園的流亡記憶及本土民俗故事為素材，並發展以閩南語發音的「台語電影」。1960年代，政府強調社會安定，臺灣電影開啟「健康寫實」風格，主張避免暴露社會黑暗面、呈現人性光輝，受到當時海內外華人市場歡迎。1970年代經濟成長後，愛情、武俠、功夫、喜劇等電影類型也進一步成為民眾休閒娛樂。\n\n1980年代初期，臺灣電影受到香港電影新浪潮影響，進入「臺灣新電影」時期。「新電影」強調建立良好導演體制，在劇本創作中融入鄉土文學，拍攝風格以自然、寫實為主，並開始有意識地挑戰官方政治禁忌，因此受到相關單位關切。例如初期代表作《兒子的大玩偶》正式上映前，因片段呈現基層建材行等疑似批判政府形象的畫面，遭官方施壓要求刪減；此事後來稱為「削蘋果事件」。最後在影視記者楊士琪等人聲援下，電影免於刪剪。\n\n「削蘋果事件」中，國家企圖限制的人民權利類型，與下列何者最相似？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "對法庭上的被告宣告褫奪公權",
       "剝奪貪污罪犯應考公職的資格",
@@ -41603,12 +41573,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-social-p14.webp",
-      "./assets/official-exams/113-social-p15.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第54題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
