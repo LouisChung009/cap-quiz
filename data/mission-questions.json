@@ -34693,9 +34693,9 @@
     "knowledgePoint": "113年國文第31題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據展覽概述，下列推論何者最恰當？",
-    "questionImage": "./assets/official-exams/113-chinese-p11.webp",
-    "imageAlt": "113年國中教育會考國文科第31題官方試卷頁面",
+    "question": "【閱讀材料】「鎮院國寶」展覽概述：范寬（約950–1032年）〈谿山行旅〉、郭熙（約1023–1087年）〈早春圖〉、李唐（約1049–1130年）〈萬壑松風〉素有故宮「鎮院三寶」之譽，2012年由文化部核定公告為國寶級古物。這三件巨幅立軸，分別代表北宋「巨碑式」山水畫的典範。雖非模仿全然真境，卻是透過對自然的靜觀與體悟，重新組織而成的理想山水典型。據畫上紀年推算，時代最近的〈萬壑松風〉，距今已近九百年。因為年代久遠且畫作的絹本質材脆弱，為保護珍貴古物、減少被光線照射的時間，每次展覽至少須間隔三年以上，且展期不得超過42天。2021年故宮特別規劃推出「鎮院國寶」展覽，距離前次三寶合體展出已相隔十年。\n\n根據展覽概述，下列推論何者最恰當？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "北宋時期的畫作可繪於絲織品上",
       "范寬、郭熙、李唐三人係師出同門",
@@ -34725,12 +34725,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-chinese-p10.webp",
-      "./assets/official-exams/113-chinese-p11.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：國文第31題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -34744,9 +34741,9 @@
     "knowledgePoint": "113年國文第32題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "右圖是阿燦根據資料繪製的美術作 業，同學小群核對後發現有疏失處， 最可能是下列何者？",
+    "question": "【閱讀材料】「鎮院國寶」展覽概述：范寬（約950–1032年）〈谿山行旅〉、郭熙（約1023–1087年）〈早春圖〉、李唐（約1049–1130年）〈萬壑松風〉素有故宮「鎮院三寶」之譽，2012年由文化部核定公告為國寶級古物。這三件巨幅立軸，分別代表北宋「巨碑式」山水畫的典範。雖非模仿全然真境，卻是透過對自然的靜觀與體悟，重新組織而成的理想山水典型。據畫上紀年推算，時代最近的〈萬壑松風〉，距今已近九百年。因為年代久遠且畫作的絹本質材脆弱，為保護珍貴古物、減少被光線照射的時間，每次展覽至少須間隔三年以上，且展期不得超過42天。2021年故宮特別規劃推出「鎮院國寶」展覽，距離前次三寶合體展出已相隔十年。\n\n【右圖】阿燦依資料繪製「鎮院國寶」展覽海報，標示范寬、郭熙、李唐及展覽日期2021年10月6日至12月16日。右圖的美術作業有疏失處，最可能是下列何者？",
     "questionImage": "./assets/official-exams/113-chinese-p11.webp",
-    "imageAlt": "113年國中教育會考國文科第32題官方試卷頁面",
+    "imageAlt": "展覽概述與阿燦繪製的「鎮院國寶」展覽海報",
     "options": [
       "展出的起迄日期有誤",
       "應該標明是首次合體展覽",
@@ -34777,9 +34774,8 @@
       "nextReviewAt": null
     },
     "requiresImage": true,
-    "requiresContext": true,
+    "requiresContext": false,
     "questionImages": [
-      "./assets/official-exams/113-chinese-p10.webp",
       "./assets/official-exams/113-chinese-p11.webp"
     ],
     "answerKeyReview": {
@@ -34795,9 +34791,9 @@
     "knowledgePoint": "113年國文第33題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據本文，下列圖表何者最適合用來呈現「人工智慧」、「機器學習」、 「深度學習」三者之間的關係？",
+    "question": "【閱讀材料】2018年流傳一段影片，片中美國前總統歐巴馬竟語出驚人地說：「川普總統完全是個笨蛋！」儘管片中歐巴馬臉部表情、肢體語言都像極了他，但卻不是本尊。影片隨後出現演員皮爾，原來這是他模仿的影片，藉由深偽技術，竟可變成歐巴馬談話的片段。美國媒體製作這段影片的目的在提醒大眾，此類影片極可能成為操縱輿論的利器。當它漸趨氾濫時，散布者的罪惡感也會相對減少，最大的危機就是造成民眾對社會產生不信任感，逐步地破壞民主制度。\n\n深偽技術能製作的除了影像，也包括文字與聲音。一般人說的「人工智慧」，是一個很大的架構，其中一個領域是「機器學習」。而深偽技術是屬於「機器學習」裡的「深度學習」，它是以深度神經網路為架構，對資料表徵進行學習的演算法。\n\n深度學習技術在偽造影像的生成與辨識，是運用「生成對抗網路」，由「生成器」和「辨識器」兩個神經網路組成。生成器就像是演算法透過大量資料去學習狗的模樣，直到可以畫出狗。辨識器則是可以分辨畫的狗和照片的狗。這兩個模型結合後，就像是一邊有一個人畫狗，另一邊有一個老師說這跟真的狗差很多，所以畫的人要再修改。直到有一天這個人畫的狗能騙過老師，而老師在一次次判斷中也越來越厲害。偽造影像的生成與辨識，就是生成器和辨識器之間的競賽。\n\n深偽技術是近年新興的科技，若將它運用於影視作品，可節省製作電影或遊戲的時間，有正面的效益。但也有人利用合成的假影像操弄資訊，進而詐騙牟利、毀人聲譽，製造社會的動盪，讓這項技術引發爭議。\n\n──改寫自〈臺灣團隊研究辨識 Deep Fake 影片：深偽技術的正邪之戰開打〉\n\n根據本文，下列圖表何者最適合用來呈現「人工智慧」、「機器學習」、「深度學習」三者之間的關係？",
     "questionImage": "./assets/official-exams/113-chinese-p12.webp",
-    "imageAlt": "113年國中教育會考國文科第33題官方試卷頁面",
+    "imageAlt": "人工智慧、機器學習與深度學習關係圖選項",
     "options": [
       "A",
       "B",
@@ -34828,9 +34824,8 @@
       "nextReviewAt": null
     },
     "requiresImage": true,
-    "requiresContext": true,
+    "requiresContext": false,
     "questionImages": [
-      "./assets/official-exams/113-chinese-p11.webp",
       "./assets/official-exams/113-chinese-p12.webp"
     ],
     "answerKeyReview": {
@@ -34846,9 +34841,9 @@
     "knowledgePoint": "113年國文第34題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據畫線處的文句，下列關係的說明，何者最接近文中「偽造影像的生成」與 「偽造影像的辨識」兩者之間的競爭？",
-    "questionImage": "./assets/official-exams/113-chinese-p12.webp",
-    "imageAlt": "113年國中教育會考國文科第34題官方試卷頁面",
+    "question": "【閱讀材料】2018年流傳一段影片，片中美國前總統歐巴馬竟語出驚人地說：「川普總統完全是個笨蛋！」儘管片中歐巴馬臉部表情、肢體語言都像極了他，但卻不是本尊。影片隨後出現演員皮爾，原來這是他模仿的影片，藉由深偽技術，竟可變成歐巴馬談話的片段。美國媒體製作這段影片的目的在提醒大眾，此類影片極可能成為操縱輿論的利器。當它漸趨氾濫時，散布者的罪惡感也會相對減少，最大的危機就是造成民眾對社會產生不信任感，逐步地破壞民主制度。\n\n深偽技術能製作的除了影像，也包括文字與聲音。一般人說的「人工智慧」，是一個很大的架構，其中一個領域是「機器學習」。而深偽技術是屬於「機器學習」裡的「深度學習」，它是以深度神經網路為架構，對資料表徵進行學習的演算法。\n\n深度學習技術在偽造影像的生成與辨識，是運用「生成對抗網路」，由「生成器」和「辨識器」兩個神經網路組成。生成器就像是演算法透過大量資料去學習狗的模樣，直到可以畫出狗。辨識器則是可以分辨畫的狗和照片的狗。這兩個模型結合後，就像是一邊有一個人畫狗，另一邊有一個老師說這跟真的狗差很多，所以畫的人要再修改。直到有一天這個人畫的狗能騙過老師，而老師在一次次判斷中也越來越厲害。偽造影像的生成與辨識，就是生成器和辨識器之間的競賽。\n\n深偽技術是近年新興的科技，若將它運用於影視作品，可節省製作電影或遊戲的時間，有正面的效益。但也有人利用合成的假影像操弄資訊，進而詐騙牟利、毀人聲譽，製造社會的動盪，讓這項技術引發爭議。\n\n──改寫自〈臺灣團隊研究辨識 Deep Fake 影片：深偽技術的正邪之戰開打〉\n\n根據畫線處的文句，下列關係的說明，何者最接近文中「偽造影像的生成」與「偽造影像的辨識」兩者之間的競爭？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "就像是光源和影子，透過光源的運用可使影子出現各種變化",
       "就像是投影機和螢幕，投影機投射的影像須藉螢幕顯示出來",
@@ -34878,11 +34873,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-chinese-p12.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：國文第34題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -34896,9 +34889,9 @@
     "knowledgePoint": "113年國文第35題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據本文，下列關於深偽技術或深偽影片的敘述，何者最恰當？",
-    "questionImage": "./assets/official-exams/113-chinese-p13.webp",
-    "imageAlt": "113年國中教育會考國文科第35題官方試卷頁面",
+    "question": "【閱讀材料】2018年流傳一段影片，片中美國前總統歐巴馬竟語出驚人地說：「川普總統完全是個笨蛋！」儘管片中歐巴馬臉部表情、肢體語言都像極了他，但卻不是本尊。影片隨後出現演員皮爾，原來這是他模仿的影片，藉由深偽技術，竟可變成歐巴馬談話的片段。美國媒體製作這段影片的目的在提醒大眾，此類影片極可能成為操縱輿論的利器。當它漸趨氾濫時，散布者的罪惡感也會相對減少，最大的危機就是造成民眾對社會產生不信任感，逐步地破壞民主制度。\n\n深偽技術能製作的除了影像，也包括文字與聲音。一般人說的「人工智慧」，是一個很大的架構，其中一個領域是「機器學習」。而深偽技術是屬於「機器學習」裡的「深度學習」，它是以深度神經網路為架構，對資料表徵進行學習的演算法。\n\n深度學習技術在偽造影像的生成與辨識，是運用「生成對抗網路」，由「生成器」和「辨識器」兩個神經網路組成。生成器就像是演算法透過大量資料去學習狗的模樣，直到可以畫出狗。辨識器則是可以分辨畫的狗和照片的狗。這兩個模型結合後，就像是一邊有一個人畫狗，另一邊有一個老師說這跟真的狗差很多，所以畫的人要再修改。直到有一天這個人畫的狗能騙過老師，而老師在一次次判斷中也越來越厲害。偽造影像的生成與辨識，就是生成器和辨識器之間的競賽。\n\n深偽技術是近年新興的科技，若將它運用於影視作品，可節省製作電影或遊戲的時間，有正面的效益。但也有人利用合成的假影像操弄資訊，進而詐騙牟利、毀人聲譽，製造社會的動盪，讓這項技術引發爭議。\n\n──改寫自〈臺灣團隊研究辨識 Deep Fake 影片：深偽技術的正邪之戰開打〉\n\n根據本文，下列關於深偽技術或深偽影片的敘述，何者最恰當？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "美國媒體藉由皮爾模仿的深偽影片操縱民主",
       "演員可以透過深偽技術增進自己的表演技巧",
@@ -34928,12 +34921,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-chinese-p12.webp",
-      "./assets/official-exams/113-chinese-p13.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：國文第35題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -34947,9 +34937,9 @@
     "knowledgePoint": "113年國文第36題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據本文，古阿明想透過畫作表達的意義，最可能是下列何者？",
-    "questionImage": "./assets/official-exams/113-chinese-p13.webp",
-    "imageAlt": "113年國中教育會考國文科第36題官方試卷頁面",
+    "question": "【閱讀材料】以下小說節錄自鍾肇政《魯冰花》，主角古阿明是來自貧困茶農家庭的小學生。\n\n古阿明昨天在茶園裡畫的作品，郭雲天認為是近一個月以來最好的畫，也是最使他滿意的一幅。\n\n古阿明畫的是茶蟲。那真是個奇異的幻想世界。在一面圖案化的綠色畫面上，各種各樣的大小茶蟲畫得猙獰可怖。此外還有幾個人物──古阿明曾向郭雲天說那三個人是姊姊、小弟弟和他自己。茶蟲有的在拼命地啃茶葉，有的在吃畫面上的一個人物手裡捧著的飯，有的在吃另一個人物的衣服。古阿明那小小的心靈裡的憤恨與恐懼，靠著他那獨特的、大膽的筆觸，毫無遺漏地表露出來。\n\n郭雲天只有暗嘆的份兒，幾乎沒有提供意見的餘地，因為古阿明一開始作畫，就好像已忘了周遭的一切，連他所尊敬的師長在身旁也都似乎渾然忘卻，手不停揮地畫下去。直到畫好後，郭雲天才得到機會提出他的修改意見。他指示他哪裡的顏色還不夠鮮明，哪一筆線條還要加強。\n\n事實上，郭雲天的意見也不多。他不忍破壞掉那純潔的心靈裡所流露出來的、敏銳得就如電流一般的感覺。甚至他明知畫裡的一條蟲在生卵是錯誤的，也還是讓它保持原來的面目。他認為與其改正過來，倒不寧這個樣子較合他的年歲。\n\n根據本文，古阿明想透過畫作表達的意義，最可能是下列何者？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "以茶蟲代表大自然對人類開發的反撲",
       "以茶蟲象徵政府官員對老百姓的監控",
@@ -34979,12 +34969,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-chinese-p12.webp",
-      "./assets/official-exams/113-chinese-p13.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：國文第36題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -34998,9 +34985,9 @@
     "knowledgePoint": "113年國文第37題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據本文，郭雲天對古阿明的畫作意見不多，原因最可能是下列何者？",
-    "questionImage": "./assets/official-exams/113-chinese-p13.webp",
-    "imageAlt": "113年國中教育會考國文科第37題官方試卷頁面",
+    "question": "【閱讀材料】以下小說節錄自鍾肇政《魯冰花》，主角古阿明是來自貧困茶農家庭的小學生。\n\n古阿明昨天在茶園裡畫的作品，郭雲天認為是近一個月以來最好的畫，也是假使他滿意的一幅。\n\n古阿明畫的是茶蟲。那真是個奇異的幻想世界。在一面圖案化的綠色畫面上，各種各樣的大小茶蟲畫得猙獰可怖。此外還有幾個人物──古阿明曾向郭雲天說那三個人是姊姊、小弟弟和他自己。茶蟲有的在拼命地啃茶葉，有的在吃畫面上的一個人物手裡捧著的飯，有的在吃另一個人物的衣服。古阿明那小小的心靈裡的憤恨與恐懼，靠著他那獨特的、大膽的筆觸，毫無遺漏地表露出來。\n\n郭雲天只有暗嘆的份兒，幾乎沒有提供意見的餘地，因為古阿明一開始作畫，就好像已忘了周遭的一切，連他所尊敬的師長在身旁也都似乎渾然忘卻，手不停揮地畫下去。直到畫好後，郭雲天才得到機會提出他的修改意見。他指示他哪裡的顏色還不夠鮮明，哪一筆線條還要加強。\n\n事實上，郭雲天的意見也不多。他不忍破壞掉那純潔的心靈裡所流露出來的、敏銳得就如電流一般的感覺。甚至他明知畫裡的一條蟲在生卵是錯誤的，也還是讓它保持原來的面目。他認為與其改正過來，倒不寧這個樣子較合他的年歲。\n\n根據本文，郭雲天對古阿明的畫作意見不多，原因最可能是下列何者？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "希望古阿明能自己發現缺失",
       "想要保留古阿明特有的創意",
@@ -35030,12 +35017,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-chinese-p12.webp",
-      "./assets/official-exams/113-chinese-p13.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：國文第37題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -35049,9 +35033,9 @@
     "knowledgePoint": "113年國文第38題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "下列關於甲、乙二文文句的說明，何者最恰當？",
-    "questionImage": "./assets/official-exams/113-chinese-p14.webp",
-    "imageAlt": "113年國中教育會考國文科第38題官方試卷頁面",
+    "question": "【閱讀材料】甲文：人讀聖人書二三十年，一旦遇事，便與里巷人無異，或有一聽老成語，便能終身服膺。豈老成之言過於六經哉？只緣讀書不作有用看故也。大抵看史見治則以為治，見亂則以為亂，見一事則止知一事，何取？觀史如身在其中，見事之利害、時之禍患，必掩卷自思，使我遇此等事，當作何處之──如此觀史，學問亦可以進，智識亦可以高，方為有益。\n──改寫自呂祖謙《東萊集》\n\n乙文：讀書時，須細看古人處一事，接一物，是如何思量？如何氣象？及自己處事接物時，又細心將古人比擬。設若古人當此，其措置之法，當是如何？我自己任性為之，又當如何？然後自己過錯始見，古人道理始出。斷不可以古人之書，與自己處事接物為兩事。\n──《左宗棠全集》\n\n下列關於甲、乙二文文句的說明，何者最恰當？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "「一旦遇事，便與里巷人無異」是因書讀得不夠多",
       "「見一事則止知一事」意謂對事情的理解不夠全面",
@@ -35081,12 +35065,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-chinese-p13.webp",
-      "./assets/official-exams/113-chinese-p14.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：國文第38題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -35100,9 +35081,9 @@
     "knowledgePoint": "113年國文第39題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "關於甲、乙二文的說明與比較，下列何者最恰當？",
-    "questionImage": "./assets/official-exams/113-chinese-p14.webp",
-    "imageAlt": "113年國中教育會考國文科第39題官方試卷頁面",
+    "question": "【閱讀材料】甲文：人讀聖人書二三十年，一旦遇事，便與里巷人無異，或有一聽老成語，便能終身服膺。豈老成之言過於六經哉？只緣讀書不作有用看故也。大抵看史見治則以為治，見亂則以為亂，見一事則止知一事，何取？觀史如身在其中，見事之利害、時之禍患，必掩卷自思，使我遇此等事，當作何處之──如此觀史，學問亦可以進，智識亦可以高，方為有益。\n──改寫自呂祖謙《東萊集》\n\n乙文：讀書時，須細看古人處一事，接一物，是如何思量？如何氣象？及自己處事接物時，又細心將古人比擬。設若古人當此，其措置之法，當是如何？我自己任性為之，又當如何？然後自己過錯始見，古人道理始出。斷不可以古人之書，與自己處事接物為兩事。\n──《左宗棠全集》\n\n關於甲、乙二文的說明與比較，下列何者最恰當？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "甲文認為耳熟能詳的淺近道理，更勝於聖賢之言",
       "乙文以古人處事的標準，評斷自身舉措是否合宜",
@@ -35132,12 +35113,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-chinese-p13.webp",
-      "./assets/official-exams/113-chinese-p14.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：國文第39題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -35151,9 +35129,9 @@
     "knowledgePoint": "113年國文第40題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據本文，下列文句「」中的字義，何者說明最恰當？",
-    "questionImage": "./assets/official-exams/113-chinese-p15.webp",
-    "imageAlt": "113年國中教育會考國文科第40題官方試卷頁面",
+    "question": "【閱讀材料】楚人江乙為郢大夫。有入王宮中盜者，令尹以罪乙，請於王而黜之。其母往言於王曰：「妾夜亡布八匹，令尹盜之。」王謂母曰：「令尹信盜之，寡人不為其富貴而不行法焉。若不盜而誣之，楚國有常法。」母曰：「令尹不身盜之也，乃使人盜之。」王曰：「其使人盜奈何？」對曰：「昔孫叔敖之為令尹也，道不拾遺，門不閉關，而盜賊自息。今令尹之治也，耳目不明，盜賊公行，是故使盜得盜妾之布，是與使人盜何以異也？」王曰：「令尹在上，寇盜在下，令尹不知有何罪焉？」\n\n母曰：「昔日妾之子為郢大夫，有盜王宮中之物者，妾子坐而黜，妾子亦豈知之哉？然終坐之。令尹獨何人，而不以是為過也？昔者周武王有言曰：『百姓有過，在予一人。』上不明則下不治，相不賢則國不寧。王其察之。」\n\n──改寫自《列女傳》\n\n根據本文，下列文句「」中的字義，何者說明最恰當？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "妾夜「亡」布八匹：損壞",
       "令尹「信」盜之：隨意",
@@ -35183,12 +35161,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-chinese-p14.webp",
-      "./assets/official-exams/113-chinese-p15.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：國文第40題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -35202,9 +35177,9 @@
     "knowledgePoint": "113年國文第41題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據本文，下列關於令尹與楚王的敘述何者最恰當？",
-    "questionImage": "./assets/official-exams/113-chinese-p15.webp",
-    "imageAlt": "113年國中教育會考國文科第41題官方試卷頁面",
+    "question": "【閱讀材料】楚人江乙為郢大夫。有入王宮中盜者，令尹以罪乙，請於王而黜之。其母往言於王曰：「妾夜亡布八匹，令尹盜之。」王謂母曰：「令尹信盜之，寡人不為其富貴而不行法焉。若不盜而誣之，楚國有常法。」母曰：「令尹不身盜之也，乃使人盜之。」王曰：「其使人盜奈何？」對曰：「昔孫叔敖之為令尹也，道不拾遺，門不閉關，而盜賊自息。今令尹之治也，耳目不明，盜賊公行，是故使盜得盜妾之布，是與使人盜何以異也？」王曰：「令尹在上，寇盜在下，令尹不知有何罪焉？」\n\n母曰：「昔日妾之子為郢大夫，有盜王宮中之物者，妾子坐而黜，妾子亦豈知之哉？然終坐之。令尹獨何人，而不以是為過也？昔者周武王有言曰：『百姓有過，在予一人。』上不明則下不治，相不賢則國不寧。王其察之。」\n\n──改寫自《列女傳》\n\n根據本文，下列關於令尹與楚王的敘述何者最恰當？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "令尹打算偷盜布匹再將罪責嫁禍給他人",
       "令尹主張楚國盜賊橫行是須正視的問題",
@@ -35234,12 +35209,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-chinese-p14.webp",
-      "./assets/official-exams/113-chinese-p15.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：國文第41題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -35253,9 +35225,9 @@
     "knowledgePoint": "113年國文第42題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據本文，江母見楚王的目的最可能是下列何者？",
-    "questionImage": "./assets/official-exams/113-chinese-p15.webp",
-    "imageAlt": "113年國中教育會考國文科第42題官方試卷頁面",
+    "question": "【閱讀材料】楚人江乙為郢大夫。有入王宮中盜者，令尹以罪乙，請於王而黜之。其母往言於王曰：「妾夜亡布八匹，令尹盜之。」王謂母曰：「令尹信盜之，寡人不為其富貴而不行法焉。若不盜而誣之，楚國有常法。」母曰：「令尹不身盜之也，乃使人盜之。」王曰：「其使人盜奈何？」對曰：「昔孫叔敖之為令尹也，道不拾遺，門不閉關，而盜賊自息。今令尹之治也，耳目不明，盜賊公行，是故使盜得盜妾之布，是與使人盜何以異也？」王曰：「令尹在上，寇盜在下，令尹不知有何罪焉？」\n\n母曰：「昔日妾之子為郢大夫，有盜王宮中之物者，妾子坐而黜，妾子亦豈知之哉？然終坐之。令尹獨何人，而不以是為過也？昔者周武王有言曰：『百姓有過，在予一人。』上不明則下不治，相不賢則國不寧。王其察之。」\n\n──改寫自《列女傳》\n\n根據本文，江母見楚王的目的最可能是下列何者？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "想要替兒子江乙頂罪",
       "表達江乙被懲處的不公",
@@ -35285,12 +35257,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-chinese-p14.webp",
-      "./assets/official-exams/113-chinese-p15.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：國文第42題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
