@@ -45825,9 +45825,9 @@
     "knowledgePoint": "114年國文第38題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "下列何者最可能是文中人物的親屬關係示意圖？",
-    "questionImage": "./assets/official-exams/114-chinese-p13.webp",
-    "imageAlt": "114年國中教育會考國文科第38題官方試卷頁面",
+    "question": "【閱讀材料】\n公子光之父吳王諸樊，諸樊有三個弟弟：餘祭、夷眛、季子札。諸樊想讓季子札繼位，但季子札不肯做君王，後來由諸樊之子光繼位。其後，餘祭死，傳位夷眛；夷眛死，應傳季子札，季子札仍不肯立，吳人便立夷眛之子僚為王。公子光說：「若按兄弟次序，季子當立；若按子孫繼承，光才是真正嫡嗣，應當立為君。」\n\n下列何者最可能是文中人物的親屬關係示意圖？",
+    "questionImage": "./assets/official-exams/114-chinese-p14.webp",
+    "imageAlt": "114年國中教育會考國文科第38題人物親屬關係圖選項",
     "options": [
       "A",
       "B",
@@ -45860,7 +45860,7 @@
     "requiresImage": true,
     "requiresContext": false,
     "questionImages": [
-      "./assets/official-exams/114-chinese-p13.webp"
+      "./assets/official-exams/114-chinese-p14.webp"
     ],
     "optionsInImage": true,
     "answerKeyReview": {
@@ -45876,9 +45876,9 @@
     "knowledgePoint": "114年國文第39題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據本文，公子光最無法接受誰擔任吳王？",
-    "questionImage": "./assets/official-exams/114-chinese-p13.webp",
-    "imageAlt": "114年國中教育會考國文科第39題官方試卷頁面",
+    "question": "【閱讀材料】\n公子光之父吳王諸樊，諸樊有三個弟弟：餘祭、夷眛、季子札。諸樊想讓季子札繼位，但季子札不肯做君王，後來由諸樊之子光繼位。其後，餘祭死，傳位夷眛；夷眛死，應傳季子札，季子札仍不肯立，吳人便立夷眛之子僚為王。公子光說：「若按兄弟次序，季子當立；若按子孫繼承，光才是真正嫡嗣，應當立為君。」\n\n根據本文，公子光最無法接受誰擔任吳王？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "餘祭",
       "夷眛",
@@ -45908,15 +45908,14 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p13.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第39題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
-    }
+    },
+    "optionsInImage": false
   },
   {
     "id": "OFF-0914",
@@ -45926,9 +45925,9 @@
     "knowledgePoint": "114年國文第40題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據文意脈絡，下列「」中的詞語，何者替換後意義仍相同？",
-    "questionImage": "./assets/official-exams/114-chinese-p14.webp",
-    "imageAlt": "114年國中教育會考國文科第40題官方試卷頁面",
+    "question": "【閱讀材料】\n司馬光致謝薛虢州贈送石月屏的信中寫道：「日前令郎訪逮，出於筆端，五月舟海，操玩不勝愧喜。比來，數於都下朋從處見此屏，觀其天然巧妙，非刻非繪，似冰雪清，迎然在望，信乎天地異氣、山澤之珠寶也。素心悅之，無從可得，豈意一旦不煩懇請，坐致獲之。性本疏野，雅好所欲，難受文錦十純、白璧百雙，在光之隱，未為重賜。俗故忽忽，久不遑修謝，尤留悚懼。今即注官遠便，想加慈惠，未期接待，倍希珍厚。」\n\n根據文意脈絡，下列引號中的詞語，何者替換後意義仍相同？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "日前「令郎」訪逮：令尊",
       "「比來」，數於都下朋從處見此屏：近來",
@@ -45958,15 +45957,14 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p14.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第40題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
-    }
+    },
+    "optionsInImage": false
   },
   {
     "id": "OFF-0915",
@@ -45976,9 +45974,9 @@
     "knowledgePoint": "114年國文第41題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "關於文中的石月屏，下列敘述何者最恰當？",
-    "questionImage": "./assets/official-exams/114-chinese-p14.webp",
-    "imageAlt": "114年國中教育會考國文科第41題官方試卷頁面",
+    "question": "【閱讀材料】\n司馬光致謝薛虢州贈送石月屏的信中寫道：「日前令郎訪逮，出於筆端，五月舟海，操玩不勝愧喜。比來，數於都下朋從處見此屏，觀其天然巧妙，非刻非繪，似冰雪清，迎然在望，信乎天地異氣、山澤之珠寶也。素心悅之，無從可得，豈意一旦不煩懇請，坐致獲之。性本疏野，雅好所欲，難受文錦十純、白璧百雙，在光之隱，未為重賜。俗故忽忽，久不遑修謝，尤留悚懼。今即注官遠便，想加慈惠，未期接待，倍希珍厚。」\n\n關於文中的石月屏，下列敘述何者最恰當？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "若不是薛虢州贈送石月屏，司馬光無從見其真貌",
       "石月屏雖比文錦、白璧昂貴，但司馬光更重友情",
@@ -46008,15 +46006,14 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p14.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第41題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
-    }
+    },
+    "optionsInImage": false
   },
   {
     "id": "OFF-0916",
@@ -46026,9 +46023,9 @@
     "knowledgePoint": "114年國文第42題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據本文，下列何者最可能是司馬光收下石月屏後的反應？",
-    "questionImage": "./assets/official-exams/114-chinese-p14.webp",
-    "imageAlt": "114年國中教育會考國文科第42題官方試卷頁面",
+    "question": "【閱讀材料】\n司馬光致謝薛虢州贈送石月屏的信中寫道：「日前令郎訪逮，出於筆端，五月舟海，操玩不勝愧喜。比來，數於都下朋從處見此屏，觀其天然巧妙，非刻非繪，似冰雪清，迎然在望，信乎天地異氣、山澤之珠寶也。素心悅之，無從可得，豈意一旦不煩懇請，坐致獲之。性本疏野，雅好所欲，難受文錦十純、白璧百雙，在光之隱，未為重賜。俗故忽忽，久不遑修謝，尤留悚懼。今即注官遠便，想加慈惠，未期接待，倍希珍厚。」\n\n根據本文，下列何者最可能是司馬光收下石月屏後的反應？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "欲登門回禮，惜薛公務繁忙，擬另擇日造訪",
       "獲贈禮物，喜出望外，故寫信向薛表達謝意",
@@ -46058,15 +46055,14 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p14.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第42題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
-    }
+    },
+    "optionsInImage": false
   },
   {
     "id": "OFF-0917",
