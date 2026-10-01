@@ -39929,8 +39929,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "「十四世紀時，由於此物產的生產與銷售，帶動一股商業活動：中國結合自 身及波斯生產的原料，製作成具有特色的商品後，由中國銷往印度、埃及、 波斯等地。十六世紀起，此物產又由西班牙船隻載運，從馬尼拉運往墨西哥 城與利馬；在此同時，歐洲王公貴族對此物產風靡不已，紛紛下單訂作。」 此物產最可能是下列何者？；註：利馬：位於今秘魯境內。",
-    "questionImage": "./assets/official-exams/113-social-p6.webp",
-    "imageAlt": "113年國中教育會考社會科第21題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "番薯",
       "瓷器",
@@ -39960,11 +39960,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-social-p6.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第21題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -39978,11 +39976,11 @@
     "knowledgePoint": "113年社會第22題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "表(二)呈現五個國家 表(二) 2010年某宗教信徒占 教徒占全國總 國家 該 國 總 人 口 數 的 比 人口比例 (%) 例，根據內容判斷， 柬埔寨 96.9 此宗教的發源地最可 泰國 93.2 能位於圖(十二)中甲、 緬甸 80.1 圖(十二) 乙、丙、丁何處？ 不丹 74.7",
+    "question": "表（二）呈現五個國家在 2010 年某宗教信徒占該國總人口的比例。根據內容判斷，此宗教的發源地最可能位於圖（十二）中何處？\n\n國家｜信徒占全國總人口比例\n柬埔寨｜96.9%\n泰國｜93.2%\n緬甸｜80.1%\n不丹｜74.7%\n斯里蘭卡｜69.3%",
     "questionImage": "./assets/official-exams/113-social-p6.webp",
     "imageAlt": "113年國中教育會考社會科第22題官方試卷頁面",
     "options": [
-      "甲 斯里蘭卡 69.3",
+      "甲",
       "乙",
       "丙",
       "丁"
@@ -40028,9 +40026,9 @@
     "knowledgePoint": "113年社會第23題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "表(三)是2022年8月時，我國前四大外籍移工來源國的部分資料： 表(三) 產業移工 社福移工 總人數 類別 ( 營建業、製造業、漁業 ) ( 看護、家庭幫傭 ) 比例 越南 45.4% 12.7% 35.4% 國 菲律賓 25.3% 12.2% 21.3% 籍 印尼 16.1% 74.9% 34.1% 泰國 13.2% 0.2% 9.2% 性 男 71.4% 0.8% 49.8% 別 女 28.6% 99.2% 50.2% 根據表中資料，我們可觀察到關於外籍移工的何種現象？",
-    "questionImage": "./assets/official-exams/113-social-p7.webp",
-    "imageAlt": "113年國中教育會考社會科第23題官方試卷頁面",
+    "question": "表（三）是 2022 年 8 月時，我國前四大外籍移工來源國的部分資料。根據表中資料，我們可觀察到關於外籍移工的何種現象？\n\n國籍｜產業移工（營建、製造、漁業）｜社福移工（看護、家庭幫傭）｜總人數比例\n越南｜45.4%｜12.7%｜35.4%\n菲律賓｜25.3%｜12.2%｜21.3%\n印尼｜16.1%｜74.9%｜34.1%\n泰國｜13.2%｜0.2%｜9.2%\n\n性別｜產業移工｜社福移工｜總人數比例\n男｜71.4%｜0.8%｜49.8%\n女｜28.6%｜99.2%｜50.2%",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "外籍移工的勞動權益因國籍而受到差別待遇",
       "外籍移工從事的工作類別存在明顯性別差異",
@@ -40060,11 +40058,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-social-p7.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第23題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -40079,8 +40075,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "小華整理客廳時發現一疊紙張，如圖(十三)。他拍照 上傳到社群網路詢問它的功能，以下是網友的回覆： 甲：「我們稱它為高速公路回數票，以前沒有電子收費 系統，經過收費站時將它拿給收費員當通行費。 在收費站前減速繳交回數票常會造成塞車，現在 圖(十三) 用電子收費就沒這個問題了。」 乙：「以前忘了帶錢時，把回數票當現金，少數店家也能接受，我還曾經用 它來買便當。」 關於上述高速公路回數票的說明及收費方式的變革，下列敘述何者最適當？",
-    "questionImage": "./assets/official-exams/113-social-p7.webp",
-    "imageAlt": "113年國中教育會考社會科第24題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "科技發展使得交通運輸更順暢",
       "高速公路回數票可在銀行換外幣",
@@ -40110,11 +40106,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-social-p7.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第24題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -40128,14 +40122,14 @@
     "knowledgePoint": "113年社會第25題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "小惠在旅行的過程，曾借宿表(四)中四位親 表(四) 戚家，其中一位旁系血親參選當地的市民 行程 借宿地點 親戚稱謂 代表，因此在借宿的那天晚上，他也參與 第一天 新北市 姨丈 了掃街拜票。根據上述內容判斷，參選者 第二天 花蓮縣 舅舅 最可能是表中何者？ 第三天 臺南市 姑姑",
+    "question": "小惠在旅行的過程，曾借宿表（四）中四位親戚家，其中一位旁系血親參選當地的市民代表，因此在借宿的那天晚上，他也參與了掃街拜票。參選者最可能是表中何者？\n\n行程｜借宿地點｜親戚稱謂\n第一天｜新北市｜姨丈\n第二天｜花蓮縣｜舅舅\n第三天｜臺南市｜姑姑\n第四天｜彰化縣｜伯母",
     "questionImage": "./assets/official-exams/113-social-p7.webp",
     "imageAlt": "113年國中教育會考社會科第25題官方試卷頁面",
     "options": [
-      "姨丈 第四天 彰化縣 伯母",
+      "姨丈",
       "舅舅",
       "姑姑",
-      "伯母 6"
+      "伯母"
     ],
     "answer": 1,
     "explanation": "稱謂線索中，舅舅與姑姑都屬旁系血親，姨丈與伯母則是姻親；還要結合地點判讀。「市民代表」是縣轄市／鄉鎮市民選代表職務，花蓮縣有花蓮市代表選舉，而新北、臺南是直轄市並無此職稱，因此參選者是住在花蓮的舅舅，答案 B。",
@@ -40234,7 +40228,7 @@
     "imageAlt": "113年國中教育會考社會科第27題官方試卷頁面",
     "options": [
       "人口眾多且所得較低",
-      "原料豐富且地廣人稀 圖(十四)",
+      "原料豐富且地廣人稀",
       "動力充足且市場廣大",
       "資金豐沛且技術密集"
     ],
@@ -40336,7 +40330,7 @@
       "甲",
       "乙",
       "丙",
-      "丁 圖(十六)"
+      "丁"
     ],
     "answer": 0,
     "explanation": "臺灣中南部荔枝產區屬暖熱、夏季多雨的亞熱帶至熱帶氣候。南半球季節相反，澳洲北部在臺灣冬季時仍溫暖，且降水條件較適合荔枝；圖中甲位於澳洲東北部，最符合試種條件，答案 A。",
@@ -40379,9 +40373,9 @@
     "knowledgePoint": "113年社會第30題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "清末某位知識分子提出下述主張：「本世紀女權的問題，關鍵在於政治參與。 我認為女子能成為議員，也期望中國在海陸軍、財政部門、外交部門有女性任 職，更希望女子能被選舉為總統。我們必須以塑造尊重男女平權的新國民為起 點，並追求組織新政權為終極目標。」根據上文，此人認為應採取下列何種作 法，最可能創造理想中的女性政治參與環境？",
-    "questionImage": "./assets/official-exams/113-social-p9.webp",
-    "imageAlt": "113年國中教育會考社會科第30題官方試卷頁面",
+    "question": "清末某位知識分子提出下述主張：「本世紀女權的問題，關鍵在於政治參與。 我認為女子能成為議員，也期望中國在海陸軍、財政部門、外交部門有女性任 職，更希望女子能被選舉為總統。我們必須以塑造尊重男女平權的新國民為起 點，並追求組織新政權為終極目標。」此人認為應採取下列何種作 法，最可能創造理想中的女性政治參與環境？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "接受西域的胡人文化",
       "維護傳統的皇帝制度",
@@ -40411,12 +40405,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-social-p8.webp",
-      "./assets/official-exams/113-social-p9.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第30題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
