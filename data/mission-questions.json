@@ -35806,8 +35806,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "John will stay with his sister until he ____ an apartment.",
-    "questionImage": "./assets/official-exams/113-english-p3.webp",
-    "imageAlt": "113年國中教育會考英文科第11題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "will find",
       "would find",
@@ -35843,9 +35843,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-english-p3.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：英文第11題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -35860,8 +35858,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "Students ____ to go on the school trip should ask their parents first.",
-    "questionImage": "./assets/official-exams/113-english-p3.webp",
-    "imageAlt": "113年國中教育會考英文科第12題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "who want",
       "want",
@@ -35897,9 +35895,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-english-p3.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：英文第12題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -35914,8 +35910,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "The temple sits alone in the mountains at a height of 3,000m ____ sea level.",
-    "questionImage": "./assets/official-exams/113-english-p3.webp",
-    "imageAlt": "113年國中教育會考英文科第13題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "above",
       "at",
@@ -35951,9 +35947,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-english-p3.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：英文第13題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -35968,8 +35962,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "Patty spent several days planning to invite Charlie to dinner, ____ she couldn’t say a word when they met.",
-    "questionImage": "./assets/official-exams/113-english-p3.webp",
-    "imageAlt": "113年國中教育會考英文科第14題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "but",
       "if",
@@ -36005,9 +35999,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-english-p3.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：英文第14題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -36022,8 +36014,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "I can’t tell you what I think of the movie because I ____ it. I’ll probably watch it this Saturday.",
-    "questionImage": "./assets/official-exams/113-english-p3.webp",
-    "imageAlt": "113年國中教育會考英文科第15題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "am not seeing",
       "don’t see",
@@ -36059,9 +36051,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-english-p3.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：英文第15題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -36076,8 +36066,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "The new guy at the help desk answers calls like a ____. There are no ups and downs in his voice and you can’t tell if he is happy or sad.",
-    "questionImage": "./assets/official-exams/113-english-p3.webp",
-    "imageAlt": "113年國中教育會考英文科第16題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "father",
       "foreigner",
@@ -36113,9 +36103,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-english-p3.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：英文第16題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -36130,8 +36118,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "Jasmine planned to spend her summer in the country, but right after she got there, she started to ____ the noise in the city.",
-    "questionImage": "./assets/official-exams/113-english-p3.webp",
-    "imageAlt": "113年國中教育會考英文科第17題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "enjoy",
       "mind",
@@ -36167,9 +36155,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-english-p3.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：英文第17題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -36184,8 +36170,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "“Bad traffic” is perhaps the ____ excuse for being late when your boss knows it only takes you five minutes to walk to work.",
-    "questionImage": "./assets/official-exams/113-english-p3.webp",
-    "imageAlt": "113年國中教育會考英文科第18題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "easiest",
       "oldest",
@@ -36221,9 +36207,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-english-p3.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：英文第18題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -36238,8 +36222,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "The housework in Mr. and Mrs. Wang’s family ____ between them and their kids. Everyone’s got their own job to do.",
-    "questionImage": "./assets/official-exams/113-english-p3.webp",
-    "imageAlt": "113年國中教育會考英文科第19題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "is shared",
       "are shared",
@@ -36275,9 +36259,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-english-p3.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：英文第19題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -36292,8 +36274,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "I want to find another dentist because ____ pulled out a good tooth last time I went to him.",
-    "questionImage": "./assets/official-exams/113-english-p3.webp",
-    "imageAlt": "113年國中教育會考英文科第20題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "I",
       "me",
@@ -36329,9 +36311,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-english-p3.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：英文第20題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -36345,9 +36325,9 @@
     "knowledgePoint": "113年英文第21題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Mom: Linda, you’ve been playing computer games all evening! Have you finished your report? Linda: Well, most of it this afternoon, and I’ll finish it by Friday.",
-    "questionImage": "./assets/official-exams/113-english-p4.webp",
-    "imageAlt": "113年國中教育會考英文科第21題官方試卷頁面",
+    "question": "Mom: Linda, you’ve been playing computer games all evening! Have you finished your report? Linda: Well, ____ most of it this afternoon, and I’ll finish it by Friday.",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "I would do",
       "I did",
@@ -36382,11 +36362,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-english-p4.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：英文第21題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -36400,9 +36378,9 @@
     "knowledgePoint": "113年英文第22題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Why did Philip go out?",
-    "questionImage": "./assets/official-exams/113-english-p4.webp",
-    "imageAlt": "113年國中教育會考英文科第22題官方試卷頁面",
+    "question": "【Reading material】It was around eight o’clock on Saturday night. Philip was at home with his little brother, Jason. Jason was hungry and kept crying. But Philip couldn’t cook and their father was not home yet because he was working late in the office. So Philip decided to take Jason out for some food.\n\nHalf an hour later, when they came back home, Philip was surprised to find that their father was talking to the police and a woman outside their house. He didn’t know who the woman was. She looked scared and stood behind the police. Philip’s father was very angry and kept shouting, “I didn’t do anything wrong! I forgot my keys and was just trying to get into my OWN HOUSE!” But the police didn’t believe him until Philip ran to them and explained everything.\n\nThe police told Philip that the woman called 110 when she saw Philip’s father trying to get into a house through a window. That was how it all happened.\n\nWhy did Philip go out?",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "To meet a woman.",
       "To look for his father.",
@@ -36437,12 +36415,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-english-p3.webp",
-      "./assets/official-exams/113-english-p4.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：英文第22題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -36456,9 +36431,9 @@
     "knowledgePoint": "113年英文第23題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Why was Philip’s father angry?",
-    "questionImage": "./assets/official-exams/113-english-p4.webp",
-    "imageAlt": "113年國中教育會考英文科第23題官方試卷頁面",
+    "question": "【Reading material】It was around eight o’clock on Saturday night. Philip was at home with his little brother, Jason. Jason was hungry and kept crying. But Philip couldn’t cook and their father was not home yet because he was working late in the office. So Philip decided to take Jason out for some food.\n\nHalf an hour later, when they came back home, Philip was surprised to find that their father was talking to the police and a woman outside their house. He didn’t know who the woman was. She looked scared and stood behind the police. Philip’s father was very angry and kept shouting, “I didn’t do anything wrong! I forgot my keys and was just trying to get into my OWN HOUSE!” But the police didn’t believe him until Philip ran to them and explained everything.\n\nThe police told Philip that the woman called 110 when she saw Philip’s father trying to get into a house through a window. That was how it all happened.\n\nWhy was Philip’s father angry?",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "He forgot his keys.",
       "The woman was hiding from him.",
@@ -36493,12 +36468,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-english-p3.webp",
-      "./assets/official-exams/113-english-p4.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：英文第23題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -36512,9 +36484,9 @@
     "knowledgePoint": "113年英文第24題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Kevin is going to buy some fresh bread at Baker’s Kitchen. He loves white bread, his mom likes farm bread, his father enjoys bagels, and his sister eats only challah. Which is the earliest possible time for him to get all these breads for his family?",
-    "questionImage": "./assets/official-exams/113-english-p5.webp",
-    "imageAlt": "113年國中教育會考英文科第24題官方試卷頁面",
+    "question": "【Reading material】Want to be the first to bring our popular breads home? Here is when they come fresh out of the oven every day:\n\nFrench bread 7:30am; bread rolls 8:30am; croissants 9:30am (Friday only); white bread 10:30am; bagels 11:30am; pretzels 2:30pm (Friday only); challah 3:30pm; farm bread 4:30pm.\n\nAll breads are half price after 5pm (after 7pm on Saturdays and Sundays). Become a member for $100 and save 10% on all your shopping. Business hours: Monday to Friday, 7:30am–9pm; Saturday and Sunday, 7:30am–8pm.\n\nKevin is going to buy some fresh bread at Baker’s Kitchen. He loves white bread, his mom likes farm bread, his father enjoys bagels, and his sister eats only challah. Which is the earliest possible time for him to get all these breads for his family?",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "11:00am.",
       "4:00pm.",
@@ -36549,12 +36521,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-english-p4.webp",
-      "./assets/official-exams/113-english-p5.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：英文第24題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -36568,9 +36537,9 @@
     "knowledgePoint": "113年英文第25題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "What do we know about Baker’s Kitchen?",
-    "questionImage": "./assets/official-exams/113-english-p5.webp",
-    "imageAlt": "113年國中教育會考英文科第25題官方試卷頁面",
+    "question": "【Reading material】Want to be the first to bring our popular breads home? Here is when they come fresh out of the oven every day:\n\nFrench bread 7:30am; bread rolls 8:30am; croissants 9:30am (Friday only); white bread 10:30am; bagels 11:30am; pretzels 2:30pm (Friday only); challah 3:30pm; farm bread 4:30pm.\n\nAll breads are half price after 5pm (after 7pm on Saturdays and Sundays). Become a member for $100 and save 10% on all your shopping. Business hours: Monday to Friday, 7:30am–9pm; Saturday and Sunday, 7:30am–8pm.\n\nWhat do we know about Baker’s Kitchen?",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "It is open five days a week.",
       "Its breads are half price one hour before closing.",
@@ -36605,12 +36574,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-english-p4.webp",
-      "./assets/official-exams/113-english-p5.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：英文第25題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -36624,9 +36590,9 @@
     "knowledgePoint": "113年英文第26題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "What is recommended to people who want to visit the festival? 【字彙】 recommend 推薦",
-    "questionImage": "./assets/official-exams/113-english-p6.webp",
-    "imageAlt": "113年國中教育會考英文科第26題官方試卷頁面",
+    "question": "【Reading material】The festival will be held at Satyr’s Park from April 1 to May 31. Visitors are welcome to take the free Festival Bus at Goat Street Station to the festival. You can also take the metro (get off at Koala Street Station or Turtle Street Station) or buses No. 28, 103, 125, 157, 259, 505, 908, or 1086. During the festival, Fox Street is closed to cars and becomes a pedestrian street. Garden Square is not open for car parking; a farmers’ market is held there during the festival. Faun’s Weekend Flower Market is open every day from 8am to 2pm during the festival.\n\nWhat is recommended to people who want to visit the festival? 【字彙】recommend 推薦",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "Using the free festival bus service.",
       "Visiting the festival on the weekend.",
@@ -36661,12 +36627,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-english-p5.webp",
-      "./assets/official-exams/113-english-p6.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：英文第26題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -36680,9 +36643,9 @@
     "knowledgePoint": "113年英文第27題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "What can we learn about the farmers’ market from the map?",
+    "question": "【Reading material】The festival will be held at Satyr’s Park from April 1 to May 31. Visitors are welcome to take the free Festival Bus at Goat Street Station to the festival. You can also take the metro (get off at Koala Street Station or Turtle Street Station) or buses No. 28, 103, 125, 157, 259, 505, 908, or 1086. During the festival, Fox Street is closed to cars and becomes a pedestrian street. Garden Square is not open for car parking; a farmers’ market is held there during the festival. Faun’s Weekend Flower Market is open every day from 8am to 2pm during the festival.\n\nWhat can we learn about the farmers’ market from the map?",
     "questionImage": "./assets/official-exams/113-english-p6.webp",
-    "imageAlt": "113年國中教育會考英文科第27題官方試卷頁面",
+    "imageAlt": "Green Festival 周邊街區與交通路線地圖",
     "options": [
       "The farmers’ market is next to the flower market.",
       "The farmers’ market and the festival are on the same block.",
@@ -36718,9 +36681,8 @@
       "nextReviewAt": null
     },
     "requiresImage": true,
-    "requiresContext": true,
+    "requiresContext": false,
     "questionImages": [
-      "./assets/official-exams/113-english-p5.webp",
       "./assets/official-exams/113-english-p6.webp"
     ],
     "answerKeyReview": {
@@ -36736,9 +36698,9 @@
     "knowledgePoint": "113年英文第28題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "What kind of people do Yan’s and Chang’s friends most likely think 【字彙】 likely 可能 Yan and Chang are?",
-    "questionImage": "./assets/official-exams/113-english-p7.webp",
-    "imageAlt": "113年國中教育會考英文科第28題官方試卷頁面",
+    "question": "【Reading material】Yan lived a good life in a big house. One day he invited a friend to dinner at his house. However, on the dinner table there was only one small dish of one small fish. The friend looked quietly at the fish. It was no bigger than a finger. Then he asked Yan if he could borrow a lamp.\n\n“What for?” Yan asked.\n\n“Well, it’s so dark in here,” the friend said with a dry smile, “I can’t see the other delicious dishes you’ve prepared for me.”\n\nChang kept a lot of ducks and chickens on his farm. One day, his best friend came to visit him. At noon, Chang told his friend that he couldn’t let him stay for lunch because there wasn’t much food to eat. The friend looked out at Chang’s farm animals for a moment. Then he asked Chang if he had a big knife.\n\n“Yes, but what for?” Chang asked.\n\n“I’m thinking about killing the horse I rode here so we’ll have something for lunch,” the friend said.\n\n“But how are you going to go home without it?”\n\n“Well, you wouldn’t mind lending me one of your many ducks or chickens so I can ride it home, would you?”\n\nWhat kind of people do Yan’s and Chang’s friends most likely think Yan and Chang are? 【字彙】likely 可能",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "They enjoy good food.",
       "They don’t like to share.",
@@ -36773,12 +36735,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-english-p6.webp",
-      "./assets/official-exams/113-english-p7.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：英文第28題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -36792,9 +36751,9 @@
     "knowledgePoint": "113年英文第29題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "What is it in the second story?",
-    "questionImage": "./assets/official-exams/113-english-p7.webp",
-    "imageAlt": "113年國中教育會考英文科第29題官方試卷頁面",
+    "question": "【Reading material】Yan lived a good life in a big house. One day he invited a friend to dinner at his house. However, on the dinner table there was only one small dish of one small fish. The friend looked quietly at the fish. It was no bigger than a finger. Then he asked Yan if he could borrow a lamp.\n\n“What for?” Yan asked.\n\n“Well, it’s so dark in here,” the friend said with a dry smile, “I can’t see the other delicious dishes you’ve prepared for me.”\n\nChang kept a lot of ducks and chickens on his farm. One day, his best friend came to visit him. At noon, Chang told his friend that he couldn’t let him stay for lunch because there wasn’t much food to eat. The friend looked out at Chang’s farm animals for a moment. Then he asked Chang if he had a big knife.\n\n“Yes, but what for?” Chang asked.\n\n“I’m thinking about killing the horse I rode here so we’ll have something for lunch,” the friend said.\n\n“But how are you going to go home without it?”\n\n“Well, you wouldn’t mind lending me one of your many ducks or chickens so I can ride it home, would you?”\n\nWhat is it in the second story?",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "A big knife.",
       "The horse.",
@@ -36829,12 +36788,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-english-p6.webp",
-      "./assets/official-exams/113-english-p7.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：英文第29題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -36848,9 +36804,9 @@
     "knowledgePoint": "113年英文第30題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Why does the writer talk about doctors and a health center in the reading?",
-    "questionImage": "./assets/official-exams/113-english-p9.webp",
-    "imageAlt": "113年國中教育會考英文科第30題官方試卷頁面",
+    "question": "【Reading material】Usually, people visit bookstores to buy books. But those who walk into Cotoha come to see its owner, Chen Bing-Hong. They bring him books with different problems. Some have lost their covers, some are missing a few pages, and some have pages that are falling out. Chen can always fix the books and make them whole again.\n\nChen sees himself as a doctor. He says that books, like people, get sick and need help. In Taiwan, there are not many “doctors” like him, and most of them work for big libraries and museums. If big libraries and museums are hospitals, Chen’s bookstore is a health center. Big libraries and museums fix important old books with serious problems, and Chen helps people with books that have smaller problems. However, the smaller size of the problems doesn’t mean Chen’s job is less important.\n\nChen gave an example of a science book he once worked on. It was very old and half of its cover was lost. Its owner still wanted to keep it because it was a gift from a teacher who helped him follow his dream of studying science. When he got his book back, he was very surprised at the new-old book. He felt he was brought back to the days with his teacher. Seeing the owner’s smile made Chen happy, because smiles like that are what his magic is for.\n\nWhy does the writer talk about doctors and a health center in the reading?",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "To explain Chen’s services.",
       "To talk about Chen’s future plans.",
@@ -36885,12 +36841,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-english-p8.webp",
-      "./assets/official-exams/113-english-p9.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：英文第30題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -36904,9 +36857,9 @@
     "knowledgePoint": "113年英文第31題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Why is Chen Bing-Hong’s job important in the example he gave?",
-    "questionImage": "./assets/official-exams/113-english-p9.webp",
-    "imageAlt": "113年國中教育會考英文科第31題官方試卷頁面",
+    "question": "【Reading material】Usually, people visit bookstores to buy books. But those who walk into Cotoha come to see its owner, Chen Bing-Hong. They bring him books with different problems. Some have lost their covers, some are missing a few pages, and some have pages that are falling out. Chen can always fix the books and make them whole again.\n\nChen sees himself as a doctor. He says that books, like people, get sick and need help. In Taiwan, there are not many “doctors” like him, and most of them work for big libraries and museums. If big libraries and museums are hospitals, Chen’s bookstore is a health center. Big libraries and museums fix important old books with serious problems, and Chen helps people with books that have smaller problems. However, the smaller size of the problems doesn’t mean Chen’s job is less important.\n\nChen gave an example of a science book he once worked on. It was very old and half of its cover was lost. Its owner still wanted to keep it because it was a gift from a teacher who helped him follow his dream of studying science. When he got his book back, he was very surprised at the new-old book. He felt he was brought back to the days with his teacher. Seeing the owner’s smile made Chen happy, because smiles like that are what his magic is for.\n\nWhy is Chen Bing-Hong’s job important in the example he gave?",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "It allows people to get books as gifts.",
       "It saves people money on new books.",
@@ -36941,12 +36894,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-english-p8.webp",
-      "./assets/official-exams/113-english-p9.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：英文第31題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -36960,9 +36910,9 @@
     "knowledgePoint": "113年英文第32題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "What is his magic?",
-    "questionImage": "./assets/official-exams/113-english-p9.webp",
-    "imageAlt": "113年國中教育會考英文科第32題官方試卷頁面",
+    "question": "【Reading material】Usually, people visit bookstores to buy books. But those who walk into Cotoha come to see its owner, Chen Bing-Hong. They bring him books with different problems. Some have lost their covers, some are missing a few pages, and some have pages that are falling out. Chen can always fix the books and make them whole again.\n\nChen sees himself as a doctor. He says that books, like people, get sick and need help. In Taiwan, there are not many “doctors” like him, and most of them work for big libraries and museums. If big libraries and museums are hospitals, Chen’s bookstore is a health center. Big libraries and museums fix important old books with serious problems, and Chen helps people with books that have smaller problems. However, the smaller size of the problems doesn’t mean Chen’s job is less important.\n\nChen gave an example of a science book he once worked on. It was very old and half of its cover was lost. Its owner still wanted to keep it because it was a gift from a teacher who helped him follow his dream of studying science. When he got his book back, he was very surprised at the new-old book. He felt he was brought back to the days with his teacher. Seeing the owner’s smile made Chen happy, because smiles like that are what his magic is for.\n\nWhat is his magic?",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "Fixing books.",
       "Making book owners smile.",
@@ -36996,12 +36946,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-english-p8.webp",
-      "./assets/official-exams/113-english-p9.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：英文第32題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
