@@ -8313,9 +8313,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-social-p12.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第51題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -8335,8 +8333,8 @@
     "options": [
       "希臘文→拉丁文→阿拉伯文",
       "希臘文→阿拉伯文→拉丁文",
-      "阿拉伯文→拉丁文→希臘文 圖(二十一)",
-      "阿拉伯文→希臘文→拉丁文 11"
+      "阿拉伯文→拉丁文→希臘文",
+      "阿拉伯文→希臘文→拉丁文"
     ],
     "answer": 0,
     "explanation": "答案 A「希臘文→拉丁文→阿拉伯文」。地圖甲處為埃及：西元前四世紀希臘化王朝統治時使用希臘文；羅馬征服後拉丁文成為官方文字；七世紀阿拉伯征服後，官方文字再轉為阿拉伯文。依統治者更替排列，順序是希臘文→拉丁文→阿拉伯文，故選 A。",
@@ -8413,9 +8411,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-social-p13.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第53題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -8513,9 +8509,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-social-p13.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第55題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -8529,7 +8523,7 @@
     "knowledgePoint": "110年社會第56題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【閱讀材料】約翰．馬歇爾畢業於英國劍橋大學，曾參與希臘遺址考古。1902 年，他受派前往英屬印度擔任考古調查局局長，持續挖掘與研究當地古蹟。他也研究桑奇遺址；此地以佛塔、石柱及碑文等遺構，見證早期佛教建築與藝術的發展。\n\n根據材料，馬歇爾被派遣到的殖民地最可能是下列何地？",
+    "question": "【閱讀材料】約翰．馬歇爾畢業於英國劍橋大學，曾參與希臘遺址考古。1902 年，他受派前往英國在亞洲的殖民地擔任考古調查局局長，持續挖掘與研究當地古蹟。他曾研究桑奇遺址；此地的佛塔、石柱與碑文等遺構，見證早期佛教建築及藝術發展。\n\n根據材料，馬歇爾被派遣到的殖民地最可能是下列何地？",
     "questionImage": "./assets/official-exams/110-social-p13.webp",
     "imageAlt": "110年國中教育會考社會科第56題官方試卷頁面",
     "options": [
@@ -8577,7 +8571,7 @@
     "knowledgePoint": "110年社會第57題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【閱讀材料】約翰．馬歇爾畢業於英國劍橋大學，曾參與希臘遺址考古。1902 年，他受派前往英屬印度擔任考古調查局局長，持續挖掘與研究當地古蹟。他也研究桑奇遺址；此地以佛塔、石柱及碑文等遺構，見證早期佛教建築與藝術的發展。\n\n桑奇遺址已列入世界文化遺產，最可能是因為它具有下列哪項價值？",
+    "question": "【閱讀材料】約翰．馬歇爾畢業於英國劍橋大學，曾參與希臘遺址考古。1902 年，他受派前往英國在亞洲的殖民地擔任考古調查局局長，持續挖掘與研究當地古蹟。他曾研究桑奇遺址；此地的佛塔、石柱與碑文等遺構，見證早期佛教建築及藝術發展。\n\n桑奇遺址已列入世界文化遺產，最可能是因為它具有下列哪項價值？",
     "questionImage": "./assets/official-exams/110-social-p13.webp",
     "imageAlt": "110年國中教育會考社會科第57題官方試卷頁面",
     "options": [
