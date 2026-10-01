@@ -39436,9 +39436,9 @@
     "knowledgePoint": "113年社會第11題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "表(一)是小津整理的交易媒介比較表，表中甲、乙最可能為下列哪一組合？ 表(ㄧ) 交易媒介 甲 乙 須事先存入足夠金額，並搭配特定 特色一 可直接支付各項消費 設備才能使用 特色二 由國家發行並賦予價值 多由民間企業發行 特色三 可能會面臨兌換零錢的困擾 免去購物找零錢的困擾",
-    "questionImage": "./assets/official-exams/113-social-p4.webp",
-    "imageAlt": "113年國中教育會考社會科第11題官方試卷頁面",
+    "question": "表（一）是小津整理的交易媒介比較表，表中甲、乙最可能為下列哪一組合？\n\n特色｜甲｜乙\n使用方式｜可直接支付各項消費｜須事先存入足夠金額，並搭配特定設備才能使用\n發行方式｜由國家發行並賦予價值｜多由民間企業發行\n找零｜可能面臨兌換零錢的困擾｜免去購物找零錢的困擾",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "商品貨幣與儲值卡",
       "商品貨幣與信用卡",
@@ -39468,11 +39468,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-social-p4.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第11題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -39487,8 +39485,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "新聞報導：大法官解釋第748號解釋文，宣告《民法》中未有保障同性婚姻之 規定，違反《憲法》保障人民平等權與婚姻自由之意旨，相關機關應在兩年 內完成法律修正或制定，若屆時未完成修法，同性二人可依現行《民法》規 定辦理結婚登記。上述內容顯示出我國《憲法》的哪一項特性？",
-    "questionImage": "./assets/official-exams/113-social-p4.webp",
-    "imageAlt": "113年國中教育會考社會科第12題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "規範範圍最廣",
       "法律位階最高",
@@ -39520,9 +39518,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-social-p4.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第12題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -39537,8 +39533,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "小央花費數萬元購買限量模型，將商品帶回家後遭到父母反對，並立刻陪同 小央返回店家要求退貨。根據我國法律規定，就小央的年齡而言，此項契約 須經法定代理人同意才具備效力，因此店家只能辦理退貨。根據上述內容判 斷，下列何者最可能是訂立該規定的用意？",
-    "questionImage": "./assets/official-exams/113-social-p4.webp",
-    "imageAlt": "113年國中教育會考社會科第13題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "維護無行為能力人的權益",
       "矯正未成年人的犯罪行為",
@@ -39568,12 +39564,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-social-p3.webp",
-      "./assets/official-exams/113-social-p4.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第13題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -39588,10 +39581,10 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "我國原本允許進口新鮮山竹，但2003年時，因新鮮山竹有引進害蟲的疑慮， 所以政府禁止進口，於是市面上只能買到進口的冷凍山竹。2019年4月，政府 公告將開放經殺蟲處理的新鮮山竹進口；同年9月，新鮮山竹上架銷售，雖然 價格高於冷凍山竹，仍在短時間銷售一空，後來各店家也持續補貨販售。根 據上述內容判斷，政府的開放政策帶來下列何項影響？",
-    "questionImage": "./assets/official-exams/113-social-p4.webp",
-    "imageAlt": "113年國中教育會考社會科第14題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
-      "貿易出超金額因而擴大；註：山竹：一種水果。",
+      "貿易出超金額因而擴大",
       "農業出口總額因而上升",
       "購物意願因價格變化而提高",
       "產品選擇因而變得更加多元"
@@ -39619,11 +39612,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-social-p4.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第14題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -39691,9 +39682,9 @@
     "questionImage": "./assets/official-exams/113-social-p5.webp",
     "imageAlt": "113年國中教育會考社會科第16題官方試卷頁面",
     "options": [
-      "甲 0",
+      "甲",
       "乙",
-      "丙 圖(七)",
+      "丙",
       "丁"
     ],
     "answer": 2,
@@ -39744,7 +39735,7 @@
       "甲",
       "乙",
       "丙",
-      "丁 圖(八)"
+      "丁"
     ],
     "answer": 0,
     "explanation": "冬季季風由亞洲大陸吹向日本海，越過海面吸收水氣後，在日本海側迎風坡形成大量降雪。圖中甲位於日本海側的本州中北部，符合雪壁景觀的地理條件，答案 A。",
@@ -39794,7 +39785,7 @@
       "加強防颱工程，預防強風及豪雨損壞鐵路設備",
       "設置加熱系統，克服土壤結凍造成的軌道變形",
       "種植固沙植物，防止風沙危及列車行駛的安全",
-      "興建河岸堤防，避免河流定期氾濫而淹沒鐵軌 圖(九) 4"
+      "興建河岸堤防，避免河流定期氾濫而淹沒鐵軌"
     ],
     "answer": 2,
     "explanation": "圖(九)的新建鐵路位於新疆塔里木盆地周緣，沿線乾燥、沙漠廣布，主要風險是風沙掩埋或危及軌道。種植固沙植物可減少沙丘移動，答案 C。",
@@ -39893,7 +39884,7 @@
     "options": [
       "圖左，因為太陽繞行地球",
       "圖左，因為水星繞行太陽",
-      "圖右，因為月球繞行地球 圖(十一)",
+      "圖右，因為月球繞行地球",
       "圖右，因為木星繞行太陽"
     ],
     "answer": 0,
