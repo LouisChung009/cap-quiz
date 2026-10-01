@@ -29122,9 +29122,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/112-social-p7.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第21題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -29172,9 +29170,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/112-social-p7.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第22題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -29245,7 +29241,7 @@
       "負責審查法律是否違憲",
       "負責審查中央政府預算",
       "經由地方層級的選舉所產生",
-      "由行政院院長提請總統任命 6"
+      "由行政院院長提請總統任命"
     ],
     "answer": 1,
     "explanation": "答案 B。甲能在立法院質詢行政院衛生福利部部長，所任公職是立法委員；中央政府總預算由立法院審議，符合 B。立委不是地方選舉產生，也不是由行政院長提請任命。",
@@ -29272,9 +29268,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/112-social-p7.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第24題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -29438,14 +29432,14 @@
     "knowledgePoint": "112年社會第28題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "臺灣本島的經緯度約介於22 °N～25°N， 120°E～122°E 之間，降水的空間分布受到 地形及季風的影響而有顯著差異。表(三)為 本島四個氣象測站的資料，根據各測站位置 及地形判斷，何者的年降水量可能最多？",
+    "question": "臺灣本島約介於22°N～25°N、120°E～122°E，降水空間分布受地形及季風影響而有顯著差異。表(三)為本島四個氣象測站資料，根據各測站位置及地形判斷，何者年降水量可能最多？\n\n| 測站 | 緯度 | 經度 | 高度（公尺） |\n| 甲 | 23.98°N | 121.61°E | 16.0 |\n| 乙 | 25.13°N | 121.74°E | 26.7 |\n| 丙 | 22.99°N | 120.20°E | 40.8 |\n| 丁 | 23.95°N | 120.59°E | 34.0 |",
     "questionImage": "./assets/official-exams/112-social-p8.webp",
     "imageAlt": "112年國中教育會考社會科第28題官方試卷頁面",
     "options": [
       "甲",
       "乙",
       "丙",
-      "丁 7 70,000 60,000 50,000 40,000 30,000 20,000 13,460 10,000 0 0 10 20 30 40 50 60 70 80 90 100 圖(十) 圖(十一) 圖(十二) 表(三) 測站 緯度 經度 高度(m) 甲 23.98°N 121.61°E 16.0 乙 25.13°N 121.74°E 26.7 丙 22.99°N 120.20°E 40.8 丁 23.95°N 120.59°E 34.0"
+      "丁"
     ],
     "answer": 1,
     "explanation": "答案 B（乙）。乙位於臺灣東北側，冬季受東北季風迎風面影響，且地形抬升增雨；其他測站較偏西部或南部，迎風降水條件較弱。",
@@ -29470,11 +29464,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/112-social-p8.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第28題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -29488,7 +29480,7 @@
     "knowledgePoint": "112年社會第29題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "「距今六千多年前，此地區的人們觀察到，大約每隔365天，天狼星在拂曉的 時候，和太陽同時位於東方的地平線上。因此他們定365天為一年，每年分為 12個月，每月30天，年末加上5天。這種遵循太陽週期的曆法，依自然現象將 一年分為『阿赫特』、『佩雷特』、『夏矛』三個季節，有別於同時期兩河流 域的月亮週期曆法。」根據上文，「此地區」的發明最可能與下列何者有關？",
+    "question": "「距今六千多年前，此地區的人們觀察到，大約每隔365天，天狼星在拂曉的 時候，和太陽同時位於東方的地平線上。因此他們定365天為一年，每年分為 12個月，每月30天，年末加上5天。這種遵循太陽週期的曆法，依自然現象將 一年分為『阿赫特』、『佩雷特』、『夏矛』三個季節，有別於同時期兩河流 域的月亮週期曆法。」根據這段材料，「此地區」的發明最可能與下列何者有關？",
     "questionImage": "./assets/official-exams/112-social-p9.webp",
     "imageAlt": "112年國中教育會考社會科第29題官方試卷頁面",
     "options": [
@@ -29520,12 +29512,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/112-social-p8.webp",
-      "./assets/official-exams/112-social-p9.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第29題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -29573,9 +29562,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/112-social-p9.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第30題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
