@@ -44519,8 +44519,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "「旅行回來，一篇遊記常要寫上許久，有的終究沒寫成。有時不知怎麼濃縮剪 裁，最後只是一片凌亂的札記和草稿。那些沒寫出來的，只好留待時間去處理 了。時間如果不是個偉大的作者，起碼是個傑出的編輯。也許它最後會告訴 我：不寫也罷！」根據文意脈絡，關於畫線處文句的解讀，下列何者最恰當？",
-    "questionImage": "./assets/official-exams/114-chinese-p4.webp",
-    "imageAlt": "114年國中教育會考國文科第11題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "真正優秀的作品，經得起時間的考驗",
       "要寫出一篇好遊記，作者比編輯更重要",
@@ -44552,9 +44552,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p4.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第11題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
@@ -44569,8 +44567,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "「我的本行是科學而非文學（甲）也許這正是我的缺失（乙）也許這反而是我的長處，無論如何我清楚明白（丙）科學需要人文的關懷（丁）而文學需要理性的自覺。」根據文意脈絡，甲、乙、丙、丁四處，何者最適合填入冒號？",
-    "questionImage": "./assets/official-exams/114-chinese-p5.webp",
-    "imageAlt": "114年國中教育會考國文科第12題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "甲",
       "乙",
@@ -44602,9 +44600,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p5.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第12題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
@@ -44619,8 +44615,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "下列文句中的語詞，何者使用最恰當？",
-    "questionImage": "./assets/official-exams/114-chinese-p5.webp",
-    "imageAlt": "114年國中教育會考國文科第13題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "他奮力救人的義舉，淪為一段佳話",
       "我如此盡心，既然得到這樣的待遇",
@@ -44652,9 +44648,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p5.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第13題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
@@ -44669,8 +44663,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "下列文句「」中的字，何者讀音正確？",
-    "questionImage": "./assets/official-exams/114-chinese-p5.webp",
-    "imageAlt": "114年國中教育會考國文科第14題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "有些玩笑話沒拿捏好分寸，就可能變成「揶」揄：ㄧㄝˊ",
       "這家賣場備有各種「晾」晒工具，提供消費者選購：ㄐㄧㄥ",
@@ -44702,9 +44696,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p5.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第14題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
@@ -44719,8 +44711,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "蒲松齡《聊齋志異》共492篇，包括兩種作品：一是幾百字甚至幾十字的 奇聞逸事，另一是長達數千言的故事，是真正的短篇小說，兩種作品各占一 半。《聊齋志異》真正的短篇小說能從前人作品找到「本事」（原型）的約 百篇，意即近二分之一的篇章不是作者獨創，而是改寫前人作品。魯迅說此 書「亦頗有從唐傳奇轉化而出者」。 關於文中《聊齋志異》的說明，下列何者最恰當？",
-    "questionImage": "./assets/official-exams/114-chinese-p5.webp",
-    "imageAlt": "114年國中教育會考國文科第15題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "有些唐傳奇故事是蒲松齡寫作的來源",
       "找不到原型的篇章數不及全書的一半",
@@ -44752,9 +44744,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p5.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第15題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
@@ -44769,8 +44759,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "下列文句，何者用字完全正確？",
-    "questionImage": "./assets/official-exams/114-chinese-p5.webp",
-    "imageAlt": "114年國中教育會考國文科第16題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "所謂有志竟成，努力必能得到回報",
       "得饒人處且饒人，你何必趕進殺絕",
@@ -44802,9 +44792,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p5.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第16題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
@@ -44819,11 +44807,11 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "祖可〈小重山〉：「誰向江頭遺恨濃？碧波流不斷，楚山重。柳煙和雨隔疏鐘。黃昏後，羅幕更朦朧。桃李小園空。阿誰猶笑語，拾殘紅。珠簾捲盡夜來風。人不見，春在綠蕪中。」（阿誰：何人）關於這闋詞的分析，下列何者最恰當？",
-    "questionImage": "./assets/official-exams/114-chinese-p5.webp",
-    "imageAlt": "114年國中教育會考國文科第17題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "上片押平聲韻，下片轉押仄聲韻",
-      "上片寫景抒情，下片敘事兼論理 1.阿誰：何人",
+      "上片寫景抒情，下片敘事兼論理",
       "「碧波流不斷」將「遺恨濃」具體化",
       "藉由「綠蕪」來反襯「桃李」的豔冶"
     ],
@@ -44852,9 +44840,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p5.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第17題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
@@ -44869,8 +44855,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "皎然〈尋陸鴻漸不遇〉：「移家雖帶郭，野徑入桑麻。近種籬邊菊，秋來未著 花。扣門無犬吠，欲去問西家。報道山中去，歸來每日斜。」根據本詩，作者 此次訪友之行曾看見下列何者？",
-    "questionImage": "./assets/official-exams/114-chinese-p6.webp",
-    "imageAlt": "114年國中教育會考國文科第18題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "荒蕪的農地",
       "盛開的菊花",
@@ -44902,9 +44888,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p6.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第18題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
@@ -44919,8 +44903,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "下列文句中的詞語，何者使用最恰當？",
-    "questionImage": "./assets/official-exams/114-chinese-p6.webp",
-    "imageAlt": "114年國中教育會考國文科第19題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "這部電影的戰爭場面逼真，其慘烈不可名狀",
       "他表面上雖然毫不在乎，但心裡卻不以為意",
@@ -44952,9 +44936,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p6.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第19題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
@@ -44969,8 +44951,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "太祖以事責丞相李善長，劉基言：「善長勛舊，能調和諸將。」太祖曰： 「是數欲害汝，汝竟為之言耶？吾將相汝矣。」基頓首曰：「是如易柱，須得 大木。若束小木為之，且立覆。」 關於文中人物的敘述，下列何者最恰當？",
-    "questionImage": "./assets/official-exams/114-chinese-p6.webp",
-    "imageAlt": "114年國中教育會考國文科第20題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "太祖因多次陷害劉基而心存愧疚",
       "太祖想以李善長替代劉基為丞相",
@@ -45002,9 +44984,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p6.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第20題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
