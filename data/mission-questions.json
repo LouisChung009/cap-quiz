@@ -19189,7 +19189,7 @@
       "英國和德國使用不同圖例",
       "英國和美國使用相同圖例",
       "朝鮮和日本使用相同圖例",
-      "德國和日本使用相同圖例 圖(二十一) 10"
+      "德國和日本使用相同圖例"
     ],
     "answer": 1,
     "explanation": "圖例顯示英國與美國同屬對日本作戰的敵對國。美國在 1941 年 12 月珍珠港事件後正式對日參戰，與日本和英國交戰方的共同關係，正是判定地圖為太平洋戰爭爆發後的重要依據，答案 B。",
@@ -19238,7 +19238,7 @@
     "options": [
       "相對乙、丙兩國貨幣皆升值",
       "相對乙、丙兩國貨幣皆貶值",
-      "相對乙國貨幣升值，但相對丙國貨幣貶值 圖(二十二)",
+      "相對乙國貨幣升值，但相對丙國貨幣貶值",
       "相對乙國貨幣貶值，但相對丙國貨幣升值"
     ],
     "answer": 3,
@@ -19332,7 +19332,7 @@
     "knowledgePoint": "111年社會第44題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據上文中裕鐸與洋行的會談結果，當時臺灣對外貿易的情況，最可能是下列何者？",
+    "question": "【閱讀材料】1855年，英商威廉士洋行的商船航行至臺灣府安平外海，並派人上岸詢問是否能在當地貿易。經過安排，船長和臺灣道裕鐸在打狗會面。裕鐸在會談中告知船長，外國商船若直接在安平停泊並不符合規定，臺灣道將受朝廷處罰；但裕鐸和打狗地方官員可以私下允許外國商船停靠港邊或打狗地方進行貿易。\n\n然而，實際上已有很多來往洋船在臺灣附近停泊，禁令未能嚴格執行。數年後，新任臺灣道孔昭慈於1859年又要求外國商船「不准停靠之前一條在安平附近起卸貨物」。一位英國商人分析：「這並非臺灣道刻意禁止外商在臺灣府貿易，而是因為府城當地泉州人組成的商人團體，過去向福建巡撫告狀，指控外國商船收購物產造成物價上漲，影響本地商人的生意。」\n\n【題目】根據上文中裕鐸與洋行的會談結果，當時臺灣對外貿易的情況，最可能是下列何者？",
     "questionImage": "./assets/official-exams/111-social-p12.webp",
     "imageAlt": "111年國中教育會考社會科第44題官方試卷頁面",
     "options": [
@@ -19364,12 +19364,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/111-social-p11.webp",
-      "./assets/official-exams/111-social-p12.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依111年國中教育會考官方選擇題參考答案一覽表核對：社會第44題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1IeMHI4BmTpC_2Oc1lQ1Qj6XWHDf9qwGd/view"
@@ -19383,7 +19380,7 @@
     "knowledgePoint": "111年社會第45題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據上文，外國商人分析臺灣道重申外國商船不得在安平附近起卸貨物的原 因，最可能與下列何者有關？",
+    "question": "【閱讀材料】1855年，英商威廉士洋行的商船航行至臺灣府安平外海，並派人上岸詢問是否能在當地貿易。經過安排，船長和臺灣道裕鐸在打狗會面。裕鐸在會談中告知船長，外國商船若直接在安平停泊並不符合規定，臺灣道將受朝廷處罰；但裕鐸和打狗地方官員可以私下允許外國商船停靠港邊或打狗地方進行貿易。\n\n然而，實際上已有很多來往洋船在臺灣附近停泊，禁令未能嚴格執行。數年後，新任臺灣道孔昭慈於1859年又要求外國商船「不准停靠之前一條在安平附近起卸貨物」。一位英國商人分析：「這並非臺灣道刻意禁止外商在臺灣府貿易，而是因為府城當地泉州人組成的商人團體，過去向福建巡撫告狀，指控外國商船收購物產造成物價上漲，影響本地商人的生意。」\n\n【題目】根據上文，外國商人分析臺灣道重申外國商船不得在安平附近起卸貨物的原因，最可能與下列何者有關？",
     "questionImage": "./assets/official-exams/111-social-p12.webp",
     "imageAlt": "111年國中教育會考社會科第45題官方試卷頁面",
     "options": [
@@ -19415,12 +19412,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/111-social-p11.webp",
-      "./assets/official-exams/111-social-p12.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依111年國中教育會考官方選擇題參考答案一覽表核對：社會第45題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1IeMHI4BmTpC_2Oc1lQ1Qj6XWHDf9qwGd/view"
@@ -19434,7 +19428,7 @@
     "knowledgePoint": "111年社會第46題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據圖(二十四)中「墘」字地名的分布判斷，下列關於「墘」字地名的推論 何者最為合理？",
+    "question": "【閱讀材料】臺灣和地形有關的地名，多是古人依照當時的地理環境命名。隨時間變化，原來的山丘、河流或湖泊可能變遷甚至消失，因此可透過地名推估過去的地景。例如「墘」字代表位於某一地物或水邊旁邊，如厝墘、田墘、港墘與溪墘等。\n\n小瑜家鄉地名也有「墘」字，雖然現今已看不到當時地貌；為印證上述命名原則，她找到1921年日治時期家鄉地圖（圖二十五），並將當時河流及水塘標示在現今電子地圖（圖二十六）上，發現與上述原則一致。\n\n【題目】根據圖(二十四)中「墘」字地名的分布判斷，下列關於「墘」字地名的推論何者最為合理？",
     "questionImage": "./assets/official-exams/111-social-p13.webp",
     "imageAlt": "111年國中教育會考社會科第46題官方試卷頁面",
     "options": [
@@ -19484,7 +19478,7 @@
     "knowledgePoint": "111年社會第47題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據圖(二十五)判斷，在日治時期小瑜的家鄉最可能以哪種產業活動為主？",
+    "question": "【閱讀材料】臺灣和地形有關的地名，多是古人依照當時的地理環境命名。隨時間變化，原來的山丘、河流或湖泊可能變遷甚至消失，因此可透過地名推估過去的地景。例如「墘」字代表位於某一地物或水邊旁邊，如厝墘、田墘、港墘與溪墘等。\n\n小瑜家鄉地名也有「墘」字，雖然現今已看不到當時地貌；為印證上述命名原則，她找到1921年日治時期家鄉地圖（圖二十五），並將當時河流及水塘標示在現今電子地圖（圖二十六）上，發現與上述原則一致。\n\n【題目】根據圖(二十五)判斷，在日治時期小瑜的家鄉最可能以哪種產業活動為主？",
     "questionImage": "./assets/official-exams/111-social-p13.webp",
     "imageAlt": "111年國中教育會考社會科第47題官方試卷頁面",
     "options": [
@@ -19534,14 +19528,14 @@
     "knowledgePoint": "111年社會第48題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據上文中地名的命名原則及圖(二十五)與圖(二十六)的資訊判斷，小瑜的家 鄉地名最可能為下列何者？",
+    "question": "【閱讀材料】臺灣和地形有關的地名，多是古人依照當時的地理環境命名。隨時間變化，原來的山丘、河流或湖泊可能變遷甚至消失，因此可透過地名推估過去的地景。例如「墘」字代表位於某一地物或水邊旁邊，如厝墘、田墘、港墘與溪墘等。\n\n小瑜家鄉地名也有「墘」字，雖然現今已看不到當時地貌；為印證上述命名原則，她找到1921年日治時期家鄉地圖（圖二十五），並將當時河流及水塘標示在現今電子地圖（圖二十六）上，發現與上述原則一致。\n\n【題目】根據上文中地名的命名原則及圖(二十五)與圖(二十六)的資訊判斷，小瑜的家鄉地名最可能為下列何者？",
     "questionImage": "./assets/official-exams/111-social-p13.webp",
     "imageAlt": "111年國中教育會考社會科第48題官方試卷頁面",
     "options": [
       "海墘",
       "潭墘",
       "岸壁墘",
-      "黑礁墘 12"
+      "黑礁墘"
     ],
     "answer": 1,
     "explanation": "圖(二十五)顯示小瑜家鄉附近以田地為主；圖(二十六)的 1921 年河流與水塘位置，對照現今地圖後，家鄉位於水塘邊而非海岸、岩壁或黑礁旁。依題幹地名命名原則，「潭」指水塘，「墘」指旁邊，因此最可能是潭墘，答案 B。",
@@ -19567,7 +19561,7 @@
       "nextReviewAt": null
     },
     "requiresImage": true,
-    "requiresContext": true,
+    "requiresContext": false,
     "questionImages": [
       "./assets/official-exams/111-social-p12.webp",
       "./assets/official-exams/111-social-p13.webp"
@@ -19585,7 +19579,7 @@
     "knowledgePoint": "111年社會第49題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "文中針對我國咖啡的相關敘述，下列何者最適當？",
+    "question": "【閱讀材料】過去以茶文化為主的亞洲人，對咖啡的接受度越來越高，更逐漸在各地形成獨特的咖啡文化。近年臺灣也吹起喝咖啡的風潮。早在日治時期，日本就已將飲用咖啡的習慣帶入臺灣；戰後有業者創立供內用的專業咖啡店，後來也有廠商生產即溶咖啡飲品。直到2010年代末期，美式咖啡連鎖品牌進駐臺灣，引進外帶現煮咖啡後，咖啡市場才出現關鍵性改變，讓喝咖啡變成日常生活的一部分。2018年臺灣平均每人一年喝下超過200杯咖啡，咖啡豆進口量是2008年的兩倍以上，咖啡商機仍持續成長。\n\n南韓人在亞洲地區的咖啡銷售量名列前茅，平均每人一年喝下超過500杯咖啡。咖啡已成為南韓日常生活不可缺少的一部分，也相當受學生喜愛。不少學生熬夜讀書後白天精神不濟，飲用咖啡提神、增加專注力；但攝取過量咖啡因會造成頭痛、心跳加速、睡眠障礙等症狀，可能不利青少年神經及心血管系統發育。南韓政府擔心校園飲用咖啡影響學生健康及醫療資源，因此修法規定自2018年9月起，全國禁止在高中以下校園販售含咖啡因飲料。\n\n我國也有相關法令規範高中以下校園內飲品及點心的販售項目；違規販售不符合規範的商品，主管機關可要求下架。\n\n【題目】文中針對我國咖啡的相關敘述，下列何者最適當？",
     "questionImage": "./assets/official-exams/111-social-p14.webp",
     "imageAlt": "111年國中教育會考社會科第49題官方試卷頁面",
     "options": [
@@ -19617,12 +19611,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/111-social-p13.webp",
-      "./assets/official-exams/111-social-p14.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依111年國中教育會考官方選擇題參考答案一覽表核對：社會第49題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1IeMHI4BmTpC_2Oc1lQ1Qj6XWHDf9qwGd/view"
@@ -19636,7 +19627,7 @@
     "knowledgePoint": "111年社會第50題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據文中內容判斷，南韓政府的作法與下列何項敘述最相符？",
+    "question": "【閱讀材料】過去以茶文化為主的亞洲人，對咖啡的接受度越來越高，更逐漸在各地形成獨特的咖啡文化。近年臺灣也吹起喝咖啡的風潮。早在日治時期，日本就已將飲用咖啡的習慣帶入臺灣；戰後有業者創立供內用的專業咖啡店，後來也有廠商生產即溶咖啡飲品。直到2010年代末期，美式咖啡連鎖品牌進駐臺灣，引進外帶現煮咖啡後，咖啡市場才出現關鍵性改變，讓喝咖啡變成日常生活的一部分。2018年臺灣平均每人一年喝下超過200杯咖啡，咖啡豆進口量是2008年的兩倍以上，咖啡商機仍持續成長。\n\n南韓人在亞洲地區的咖啡銷售量名列前茅，平均每人一年喝下超過500杯咖啡。咖啡已成為南韓日常生活不可缺少的一部分，也相當受學生喜愛。不少學生熬夜讀書後白天精神不濟，飲用咖啡提神、增加專注力；但攝取過量咖啡因會造成頭痛、心跳加速、睡眠障礙等症狀，可能不利青少年神經及心血管系統發育。南韓政府擔心校園飲用咖啡影響學生健康及醫療資源，因此修法規定自2018年9月起，全國禁止在高中以下校園販售含咖啡因飲料。\n\n我國也有相關法令規範高中以下校園內飲品及點心的販售項目；違規販售不符合規範的商品，主管機關可要求下架。\n\n【題目】根據文中內容判斷，南韓政府的作法與下列何項敘述最相符？",
     "questionImage": "./assets/official-exams/111-social-p14.webp",
     "imageAlt": "111年國中教育會考社會科第50題官方試卷頁面",
     "options": [
@@ -19668,12 +19659,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/111-social-p13.webp",
-      "./assets/official-exams/111-social-p14.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依111年國中教育會考官方選擇題參考答案一覽表核對：社會第50題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1IeMHI4BmTpC_2Oc1lQ1Qj6XWHDf9qwGd/view"
@@ -19687,7 +19675,7 @@
     "knowledgePoint": "111年社會第51題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "文中所提及南韓政府修改法律的目的，與下列我國的何項作法最類似？",
+    "question": "【閱讀材料】過去以茶文化為主的亞洲人，對咖啡的接受度越來越高，更逐漸在各地形成獨特的咖啡文化。近年臺灣也吹起喝咖啡的風潮。早在日治時期，日本就已將飲用咖啡的習慣帶入臺灣；戰後有業者創立供內用的專業咖啡店，後來也有廠商生產即溶咖啡飲品。直到2010年代末期，美式咖啡連鎖品牌進駐臺灣，引進外帶現煮咖啡後，咖啡市場才出現關鍵性改變，讓喝咖啡變成日常生活的一部分。2018年臺灣平均每人一年喝下超過200杯咖啡，咖啡豆進口量是2008年的兩倍以上，咖啡商機仍持續成長。\n\n南韓人在亞洲地區的咖啡銷售量名列前茅，平均每人一年喝下超過500杯咖啡。咖啡已成為南韓日常生活不可缺少的一部分，也相當受學生喜愛。不少學生熬夜讀書後白天精神不濟，飲用咖啡提神、增加專注力；但攝取過量咖啡因會造成頭痛、心跳加速、睡眠障礙等症狀，可能不利青少年神經及心血管系統發育。南韓政府擔心校園飲用咖啡影響學生健康及醫療資源，因此修法規定自2018年9月起，全國禁止在高中以下校園販售含咖啡因飲料。\n\n我國也有相關法令規範高中以下校園內飲品及點心的販售項目；違規販售不符合規範的商品，主管機關可要求下架。\n\n【題目】文中所提及南韓政府修改法律的目的，與下列我國的何項作法最類似？",
     "questionImage": "./assets/official-exams/111-social-p14.webp",
     "imageAlt": "111年國中教育會考社會科第51題官方試卷頁面",
     "options": [
@@ -19719,12 +19707,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/111-social-p13.webp",
-      "./assets/official-exams/111-social-p14.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依111年國中教育會考官方選擇題參考答案一覽表核對：社會第51題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1IeMHI4BmTpC_2Oc1lQ1Qj6XWHDf9qwGd/view"
@@ -19738,7 +19723,7 @@
     "knowledgePoint": "111年社會第52題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "文中日本文學家描述的城市現象，與下列何者的關係最密切？",
+    "question": "【閱讀材料】空氣污染是當代世界的嚴重問題，過去英國也曾深受空污危害。日本明治時代文學家夏目漱石在旅英期間的日記寫道：「在倫敦的街上散步時，了不起，當我看到自己出了一個全黑的物體時真是吃驚；千萬民眾都被煤煙和塵灰污染著他們的肺。」當時人們以煤炭作為蒸汽機、家中暖爐與廚具的燃料，加上西歐盛行風，使空氣污染物不斷飄向城市下風處，形成煙霧瀰漫的景觀。\n\n燃煤造成的空污會影響健康，可能降低新生兒存活率或使兒童發育遲緩。十九世紀英國部分城市的居住區分布也反映貧富差距：資本家與中產階級為尋求較佳生活品質，遷往污染較少的區域；較貧困的低技術勞動階級受工作地點與經濟所限，只能住在污染嚴重的區域。因此，思想家恩格斯曾不平地指出：「只有勞動階級才會呼吸受污染的空氣。」\n\n【題目】文中日本文學家描述的城市現象，與下列何者的關係最密切？",
     "questionImage": "./assets/official-exams/111-social-p15.webp",
     "imageAlt": "111年國中教育會考社會科第52題官方試卷頁面",
     "options": [
@@ -19770,12 +19755,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/111-social-p14.webp",
-      "./assets/official-exams/111-social-p15.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依111年國中教育會考官方選擇題參考答案一覽表核對：社會第52題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1IeMHI4BmTpC_2Oc1lQ1Qj6XWHDf9qwGd/view"
@@ -19789,14 +19771,14 @@
     "knowledgePoint": "111年社會第53題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "圖(二十八)是文中國家某空氣汙染嚴重的城市示意 圖。已知圖中某處為低技術勞動階級居住的區域， 根據上文及考量盛行風向的影響，此處最可能位於 圖中甲、乙、丙、丁何處？",
+    "question": "【閱讀材料】空氣污染是當代世界的嚴重問題，過去英國也曾深受空污危害。日本明治時代文學家夏目漱石在旅英期間的日記寫道：「在倫敦的街上散步時，了不起，當我看到自己出了一個全黑的物體時真是吃驚；千萬民眾都被煤煙和塵灰污染著他們的肺。」當時人們以煤炭作為蒸汽機、家中暖爐與廚具的燃料，加上西歐盛行風，使空氣污染物不斷飄向城市下風處，形成煙霧瀰漫的景觀。\n\n燃煤造成的空污會影響健康，可能降低新生兒存活率或使兒童發育遲緩。十九世紀英國部分城市的居住區分布也反映貧富差距：資本家與中產階級為尋求較佳生活品質，遷往污染較少的區域；較貧困的低技術勞動階級受工作地點與經濟所限，只能住在污染嚴重的區域。因此，思想家恩格斯曾不平地指出：「只有勞動階級才會呼吸受污染的空氣。」\n\n【題目】圖(二十八)是文中國家某空氣汙染嚴重的城市示意圖。已知圖中某處為低技術勞動階級居住的區域，根據上文及考量盛行風向的影響，此處最可能位於圖中甲、乙、丙、丁何處？",
     "questionImage": "./assets/official-exams/111-social-p15.webp",
     "imageAlt": "111年國中教育會考社會科第53題官方試卷頁面",
     "options": [
       "甲",
       "乙",
       "丙",
-      "丁 圖(二十八)"
+      "丁"
     ],
     "answer": 1,
     "explanation": "圖(二十八)的主要空氣污染源在中心，盛行風由西向東吹；低技術勞工居住區位於污染源下風處，東側標示乙，較容易承受煙塵，答案 B。",
@@ -19822,9 +19804,8 @@
       "nextReviewAt": null
     },
     "requiresImage": true,
-    "requiresContext": true,
+    "requiresContext": false,
     "questionImages": [
-      "./assets/official-exams/111-social-p14.webp",
       "./assets/official-exams/111-social-p15.webp"
     ],
     "answerKeyReview": {
@@ -19840,7 +19821,7 @@
     "knowledgePoint": "111年社會第54題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "文中關於城市居民居住區域分布所呈現的問題，是下列何者的關懷重點？",
+    "question": "【閱讀材料】空氣污染是當代世界的嚴重問題，過去英國也曾深受空污危害。日本明治時代文學家夏目漱石在旅英期間的日記寫道：「在倫敦的街上散步時，了不起，當我看到自己出了一個全黑的物體時真是吃驚；千萬民眾都被煤煙和塵灰污染著他們的肺。」當時人們以煤炭作為蒸汽機、家中暖爐與廚具的燃料，加上西歐盛行風，使空氣污染物不斷飄向城市下風處，形成煙霧瀰漫的景觀。\n\n燃煤造成的空污會影響健康，可能降低新生兒存活率或使兒童發育遲緩。十九世紀英國部分城市的居住區分布也反映貧富差距：資本家與中產階級為尋求較佳生活品質，遷往污染較少的區域；較貧困的低技術勞動階級受工作地點與經濟所限，只能住在污染嚴重的區域。因此，思想家恩格斯曾不平地指出：「只有勞動階級才會呼吸受污染的空氣。」\n\n【題目】文中關於城市居民居住區域分布所呈現的問題，是下列何者的關懷重點？",
     "questionImage": "./assets/official-exams/111-social-p15.webp",
     "imageAlt": "111年國中教育會考社會科第54題官方試卷頁面",
     "options": [
@@ -19872,12 +19853,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/111-social-p14.webp",
-      "./assets/official-exams/111-social-p15.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依111年國中教育會考官方選擇題參考答案一覽表核對：社會第54題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1IeMHI4BmTpC_2Oc1lQ1Qj6XWHDf9qwGd/view"
