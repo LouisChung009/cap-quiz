@@ -17220,7 +17220,7 @@
     "knowledgePoint": "111年社會第1題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "某宗教的全球大型集會於 2017 年約有 235 萬人參與。來源國表列沙烏地阿拉伯、印尼、巴基斯坦、伊朗、土耳其、奈及利亞、埃及等國。此活動最可能是哪一種？",
+    "question": "【表格資料】2017 年大型宗教集會參與者來源國及人數：沙烏地阿拉伯 600,108 人、印度 221,000 人、巴基斯坦 179,210 人、印尼 170,000 人、孟加拉 127,198 人、埃及 108,000 人；伊朗 86,500 人、土耳其 79,000 人、奈及利亞 79,000 人、阿爾及利亞 36,000 人、摩洛哥 31,000 人，其他國家 635,106 人。\n\n此活動最可能是哪一種宗教集會？",
     "questionImage": "./assets/official-exams/111-social-p2.webp",
     "imageAlt": "111年國中教育會考社會科第1題官方試卷頁面",
     "options": [
@@ -17252,11 +17252,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/111-social-p2.webp"
-    ],
+    "questionImages": [],
     "optionsInImage": false,
     "answerKeyReview": {
       "status": "verified",
@@ -17424,7 +17422,7 @@
     "knowledgePoint": "111年社會第5題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "圖(三)為 1980 年代臺灣雜誌封面，畫面強調新聞自由與「百分之百自由」的訴求。此政治訴求最可能與何者有關？",
+    "question": "1980 年代，臺灣一本雜誌封面提出「要新聞 100% 自由」的訴求。此政治訴求最可能與下列何者有關？",
     "questionImage": "./assets/official-exams/111-social-p3.webp",
     "imageAlt": "111年國中教育會考社會科第5題官方試卷頁面",
     "options": [
@@ -17456,11 +17454,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/111-social-p3.webp"
-    ],
+    "questionImages": [],
     "optionsInImage": false,
     "answerKeyReview": {
       "status": "verified",
@@ -17475,7 +17471,7 @@
     "knowledgePoint": "111年社會第6題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "圖(四)是中國歷史上的官方文件，記載戶主及家中不同年齡成員。依文件登錄人口與年齡資料的內容，政府製作此文件最可能有何目的？",
+    "question": "【戶籍文書資料】中國歷史上的一份官方文件逐戶記錄戶主、妻子、子女等家屬身分及年齡，並標有「建初十二年」的年代。政府製作這類人口與年齡名冊，最可能有何目的？",
     "questionImage": "./assets/official-exams/111-social-p3.webp",
     "imageAlt": "111年國中教育會考社會科第6題官方試卷頁面",
     "options": [
@@ -17507,11 +17503,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/111-social-p3.webp"
-    ],
+    "questionImages": [],
     "optionsInImage": false,
     "answerKeyReview": {
       "status": "verified",
@@ -17609,11 +17603,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/111-social-p3.webp"
-    ],
+    "questionImages": [],
     "optionsInImage": false,
     "answerKeyReview": {
       "status": "verified",
@@ -17710,12 +17702,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/111-social-p3.webp",
-      "./assets/official-exams/111-social-p4.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依111年國中教育會考官方選擇題參考答案一覽表核對：社會第10題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1IeMHI4BmTpC_2Oc1lQ1Qj6XWHDf9qwGd/view"
