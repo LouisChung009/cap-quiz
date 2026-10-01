@@ -6871,7 +6871,7 @@
     "knowledgePoint": "110年社會第22題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "小民蒐集中國近代某一歷史事件的四份相關資料，如表(三)所示。表中的「資 料一」最可能是下列何者？ 表(三) 資料一？ 英國人派來攻打中國的上萬名士兵，在北京天壇紮營。他們的馬， 資料二 蹂躪著一切。 俄國人洗劫北京頤和園的行動已經完成，所有珍貴物品都已經包裝 資料三 好並貼上標籤。 法、德兩國把北京天文台的珍貴儀器據為己有，儀器將被送往巴黎 資料四 和柏林。",
+    "question": "小民蒐集中國近代某一歷史事件的四份相關資料，如下：\n資料一：？\n資料二：英國人派來攻打中國的上萬名士兵，在北京天壇紮營，他們的馬蹂躪著一切。\n資料三：俄國人洗劫北京頤和園的行動已完成，所有珍貴物品都已包裝並貼上標籤。\n資料四：法、德兩國把北京天文台的珍貴儀器據為己有，儀器將被送往巴黎和柏林。\n資料一最可能是下列何者？",
     "questionImage": "./assets/official-exams/110-social-p6.webp",
     "imageAlt": "110年國中教育會考社會科第22題官方試卷頁面",
     "options": [
@@ -6903,11 +6903,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-social-p6.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第22題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -6955,9 +6953,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-social-p6.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第23題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -6971,7 +6967,7 @@
     "knowledgePoint": "110年社會第24題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "以下是一位西方記者對時事的報導：「過去美 歐人士在中國許多城市高高在 上，不僅享有領事裁判權保護，更有本國軍隊在中國駐紮。但『戰爭』改變 了一切，領事裁判權被取消，美 歐人士必須接受中國司法管轄，他們逍遙於 中國司法之外的好日子和地位，一去不復返了。」上述「戰爭」最可能是指 下列何者？",
+    "question": "一位西方記者報導：「過去，美歐人士在中國許多城市享有領事裁判權，也有本國軍隊駐紮。但戰爭改變了一切：領事裁判權被取消，美歐人士必須接受中國司法管轄，逍遙於中國司法之外的日子一去不復返。」上述「戰爭」最可能是指下列何者？",
     "questionImage": "./assets/official-exams/110-social-p6.webp",
     "imageAlt": "110年國中教育會考社會科第24題官方試卷頁面",
     "options": [
@@ -7005,9 +7001,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-social-p6.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第24題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -7155,9 +7149,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-social-p7.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第27題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -7205,10 +7197,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-social-p6.webp",
-      "./assets/official-exams/110-social-p7.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第28題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
