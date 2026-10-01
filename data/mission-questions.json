@@ -40421,14 +40421,14 @@
     "knowledgePoint": "113年社會第31題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "圖(十七)是一張十八世紀末的漫畫及其說明， 作者所要傳遞的訊息，最可能是下列何者？",
+    "question": "圖(十七)是一張十八世紀末的漫畫及其說明， 作者所要傳遞的訊息，最可能是下列何者？（無套褲漢：指中下階級平民。）",
     "questionImage": "./assets/official-exams/113-social-p9.webp",
     "imageAlt": "113年國中教育會考社會科第31題官方試卷頁面",
     "options": [
       "對北美十三州宣布獨立表示反對",
       "對德意志帝國擴建海軍備感威脅",
       "對義大利統一建國運動提出異議",
-      "對法國大革命向外蔓延感到不安；註：無套褲漢：指中下階級平民。 圖(十七)"
+      "對法國大革命向外蔓延感到不安"
     ],
     "answer": 3,
     "explanation": "漫畫年代為十八世紀末，圖說又提到無套褲漢以武力把自由、民主帶到歐洲各國，並打擊教皇權威，指向法國大革命與革命理念向外擴散。作者對此感到不安，答案 D。",
@@ -40472,8 +40472,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "「東漢末年戰亂頻仍，知識分子四散遷徙，人才難覓。曹丕在正式建立曹魏政 權前，為了改善人才選用方式，於延康元年(220年)實施此方法，在各郡設置中 正官，……。」上文中未完的內容，最適合放入下列何者？",
-    "questionImage": "./assets/official-exams/113-social-p9.webp",
-    "imageAlt": "113年國中教育會考社會科第32題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "挑選各地賢能者，根據才學德行與資歷表現分為九等",
       "與耶穌會傳教士進行交流，引進西方科學知識與技術",
@@ -40503,12 +40503,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-social-p8.webp",
-      "./assets/official-exams/113-social-p9.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第32題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -40522,14 +40519,14 @@
     "knowledgePoint": "113年社會第33題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "目前的跨洋資訊傳輸多是透 表(五) 過海底電纜，表(五)為四條 電纜 西側端點所在位置 東側端點所在位置 海底電纜東、西端點的位置 甲 33.73°S，18.44°E 5.42°N，100.33°E 資訊。「太平洋光纖電纜網 乙 40.76°N，72.94°W 50.83°N，4.55°W 路」為一條橫跨太平洋的海 丙 38.73°N，9.15°W 31.26°N，32.31°E 底電纜，該電纜的興建可以 丁 24.86°N，121.83°E 33.91°N，118.42°W 提供兩個端點之間龐大的網 路流量需求，其中一端還能 進一步連接東南亞市場，此 條電纜最可能是表中何者？",
-    "questionImage": "./assets/official-exams/113-social-p9.webp",
-    "imageAlt": "113年國中教育會考社會科第33題官方試卷頁面",
+    "question": "目前的跨洋資訊傳輸多透過海底電纜，表（五）為四條海底電纜東、西端點的位置資訊。「太平洋光纖電纜網路」是一條橫跨太平洋的海底電纜，興建後可提供兩端點間龐大的網路流量需求，其中一端還能進一步連接東南亞市場。此條電纜最可能是表中何者？\n\n電纜｜西側端點｜東側端點\n甲｜33.73°S，18.44°E｜5.42°N，100.33°E\n乙｜40.76°N，72.94°W｜50.83°N，4.55°W\n丙｜38.73°N，9.15°W｜31.26°N，32.31°E\n丁｜24.86°N，121.83°E｜33.91°N，118.42°W",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "甲",
       "乙",
       "丙",
-      "丁 8"
+      "丁"
     ],
     "answer": 3,
     "explanation": "太平洋光纖電纜要連接亞洲與北美，且亞洲端須能接續東南亞。丁的座標為臺灣東北外海（約 24.86°N、121.83°E）至美國加州（約 33.91°N、118.42°W），臺灣端可連接東南亞，符合條件，答案 D。",
@@ -40554,11 +40551,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-social-p9.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第33題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -40622,13 +40617,13 @@
     "knowledgePoint": "113年社會第35題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "近年甲國新聞中常見關於殺人 案件的報導，許多人因而認為 治安不斷惡化，要求主管機關 首長下臺負責。曉晴想探究該 國社會治安情況，在網路上搜 尋到的資料如圖(二十)，圖中 顯示甲國近年殺人案件數，以 及用「殺人」為關鍵詞搜尋國 內網路新聞的搜尋結果數。根 圖(二十) 據上述內容判斷，下列何者最 可能是他探究的結論？",
+    "question": "近年甲國新聞中常見關於殺人 案件的報導，許多人因而認為 治安不斷惡化，要求主管機關 首長下臺負責。曉晴想探究該 國社會治安情況，在網路上搜 尋到的資料如圖(二十)，圖中 顯示甲國近年殺人案件數，以 及用「殺人」為關鍵詞搜尋國 內網路新聞的搜尋結果數。根 圖(二十) 據上述內容判斷，下列何者最 可能是他探究的結論？（變動性＝不穩定性。）",
     "questionImage": "./assets/official-exams/113-social-p10.webp",
     "imageAlt": "113年國中教育會考社會科第35題官方試卷頁面",
     "options": [
       "社會治安不斷惡化顯示媒體未善盡監督政府責任",
       "媒體與社群網路的報導內容會影響公共意見方向",
-      "公共意見雖經過反覆討論但形成後仍具有變動性；註：變動性＝不穩定性",
+      "公共意見雖經過反覆討論但形成後仍具有變動性",
       "閱聽大眾喜好常會影響新聞媒體產業的企業收入"
     ],
     "answer": 1,
@@ -40673,8 +40668,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "我國少子化與高齡化的情況日益嚴重，未來恐面臨勞動力不足的危機。政府 除了促進人口成長以減緩影響程度外，根據人力運用調查資料顯示，2018年 時約有150萬的壯年人口，因須承擔無酬勞動而未就業，有學者建議可設法提 高這些人參與市場勞動的意願。根據上述內容判斷，下列何者最可能是該學 者的建議之一？",
-    "questionImage": "./assets/official-exams/113-social-p10.webp",
-    "imageAlt": "113年國中教育會考社會科第36題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "延後高齡勞工的退休年齡",
       "廣設優質平價的托育機構",
@@ -40704,12 +40699,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-social-p9.webp",
-      "./assets/official-exams/113-social-p10.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第36題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -40774,8 +40766,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "「自來水管在租界內埋設，沿街每十數步設置四尺高的吸水鐵桶，鐵桶下面 與水管連接，使用時將鐵桶上的機關轉開，水就會激射而下。自來水管理單 位有兩處，法國租界的管理處設在萬安里，英國租界的管理處就設在儲水的 水塔旁邊。管線外需要用水的居民也可以請水夫外送，不論遠近，每擔水都 收十文錢。」上述最可能是描寫下列何者的情形？",
-    "questionImage": "./assets/official-exams/113-social-p11.webp",
-    "imageAlt": "113年國中教育會考社會科第38題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "十八世紀初的北京",
       "十八世紀末的廣州；註：四尺：約 120 公分。",
@@ -40805,11 +40797,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-social-p11.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第38題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -40823,12 +40813,12 @@
     "knowledgePoint": "113年社會第39題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "藍蟹原產於美洲，因國際貿易蓬勃發展，透過船舶的壓艙水被帶往地中海， 由於該地氣候適宜生長又缺乏天敵，藍蟹數量大幅增加，而使原生物種的生 存空間受到擠壓。在法國 地中海沿岸，藍蟹已成為常被捕捉到的漁獲，但這 項食材在該國的食用者很少，使漁民生計受到衝擊；反觀北非 突尼西亞，在 原本漁獲減少的情況下，漁民轉而捕捉藍蟹販售，結果獲得不錯的收入。上 述關於二國漁民處境的內容，其所探討的主題最可能為下列何者？",
-    "questionImage": "./assets/official-exams/113-social-p11.webp",
-    "imageAlt": "113年國中教育會考社會科第39題官方試卷頁面",
+    "question": "藍蟹原產於美洲，因國際貿易蓬勃發展，透過船舶的壓艙水被帶往地中海， 由於該地氣候適宜生長又缺乏天敵，藍蟹數量大幅增加，而使原生物種的生 存空間受到擠壓。在法國 地中海沿岸，藍蟹已成為常被捕捉到的漁獲，但這 項食材在該國的食用者很少，使漁民生計受到衝擊；反觀北非 突尼西亞，在 原本漁獲減少的情況下，漁民轉而捕捉藍蟹販售，結果獲得不錯的收入。上 述關於二國漁民處境的內容，其所探討的主題最可能為下列何者？（壓艙水：為維持船舶穩定而汲取至船艙的海水或河水。）",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
-      "漁民如何在市場競爭中受惠；註：壓艙水：為維持船舶穩定而汲取",
-      "漁民如何應對外來文化的衝擊 至船艙的海水或河水。",
+      "漁民如何在市場競爭中受惠",
+      "漁民如何應對外來文化的衝擊",
       "全球化現象如何影響漁民的生活",
       "資訊科技發展如何便利漁民的生活"
     ],
@@ -40855,11 +40845,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-social-p11.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第39題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -40880,7 +40868,7 @@
       "甲線段上移，乙線段上移",
       "甲線段上移，乙線段不變",
       "甲線段下移，乙線段上移",
-      "甲線段下移，乙線段不變 10"
+      "甲線段下移，乙線段不變"
     ],
     "answer": 1,
     "explanation": "調解成立的刑事案件若改由法院判決，法院受理的刑事案件總數會增加，所以代表總案件數的甲線上移；非告訴乃論案件不以當事人是否調解成立決定是否追訴，因此乙線維持不變，答案 B。",
