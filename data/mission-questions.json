@@ -30066,7 +30066,7 @@
       "西元前六世紀的波斯地區",
       "西元六世紀的阿拉伯半島",
       "西元十六世紀的印度半島",
-      "西元十九世紀的南美地區 圖(十三) 10 5,430 5,146 13,794 3,444 46,655 3,662 表(七) 時間 1甲幣可兌換的乙幣 去年 10 今年"
+      "西元十九世紀的南美地區"
     ],
     "answer": 2,
     "explanation": "答案 C。圖中文字指出建築融合印度風格與伊斯蘭建築特色，並有圓頂、拱門及伊斯蘭幾何裝飾，對應印度莫臥兒時期的建築傳統；此類建築主要興盛於十六世紀印度半島。",
@@ -30143,9 +30143,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/112-social-p12.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第42題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -30159,7 +30157,7 @@
     "knowledgePoint": "112年社會第43題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "甲國女性的就業率，長期以來皆大幅低於全國平均值，因此該國政府調查女 性勞動人口中未就業者的原因，表(八)是調查結果中的部分統計資料。關於此 資料的解讀，下列何者最適當？ 表(八) 單位：% 原因 需照顧未滿 需照顧 65 歲 負責打理 健康狀況 其他 年齡(歲) 12 歲子女 以上家屬 家務 不佳 30-34 65.37 0.89 11.43 2.98 19.33 35-39 55.35 2.60 21.39 4.26 16.40 40-44 35.36 5.16 39.70 7.15 12.63 45-49 7.05 8.10 58.04 5.50 21.31 50-54 0.53 7.58 56.69 4.69 30.51",
+    "question": "甲國女性就業率長期大幅低於全國平均，政府調查女性勞動人口未就業原因，表(八)為部分統計資料。資料顯示，何者解讀最適當？（單位：%）\n\n| 年齡 | 照顧未滿12歲子女 | 照顧65歲以上家屬 | 負責家務 | 健康狀況不佳 | 其他 |\n| 30–34 | 65.37 | 0.89 | 11.43 | 2.98 | 19.33 |\n| 35–39 | 55.35 | 2.60 | 21.39 | 4.26 | 16.40 |\n| 40–44 | 35.36 | 5.16 | 39.70 | 7.15 | 12.63 |\n| 45–49 | 7.05 | 8.10 | 58.04 | 5.50 | 21.31 |\n| 50–54 | 0.53 | 7.58 | 56.69 | 4.69 | 30.51 |",
     "questionImage": "./assets/official-exams/112-social-p12.webp",
     "imageAlt": "112年國中教育會考社會科第43題官方試卷頁面",
     "options": [
@@ -30191,11 +30189,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/112-social-p12.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第43題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -30209,7 +30205,7 @@
     "knowledgePoint": "112年社會第44題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "上文中「唐手佐久川」與王國的使節團得以前往中國，最可能與當時中國何 項外交政策有關？",
+    "question": "【閱讀材料】歷史上琉球王國與中國關係密切，數百年的交流使琉球文化在飲食、語言、風俗甚至武術方面都受到中國影響。十九世紀前期，琉球武術家佐久川寬賀數度隨使節團前往中國，拜訪大師精進武藝，並將中國拳法融入傳統武術，形成「唐手」，他也被琉球人尊稱為「唐手佐久川」。之後唐手受到琉球士族重視，成為士族間格鬥武術。十九世紀末琉球政治局勢改變，琉球王國遭日本併吞，士族被迫前往新統治者的都城居住，唐手也傳入日本。經過發展，唐手改以同音異字稱為「空手」，即今日的空手道，後來在世界各地普及。\n\n【題目】上文中「唐手佐久川」與王國使節團得以前往中國，最可能與當時中國何項外交政策有關？",
     "questionImage": "./assets/official-exams/112-social-p12.webp",
     "imageAlt": "112年國中教育會考社會科第44題官方試卷頁面",
     "options": [
@@ -30241,12 +30237,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/112-social-p11.webp",
-      "./assets/official-exams/112-social-p12.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第44題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -30260,7 +30253,7 @@
     "knowledgePoint": "112年社會第45題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "上文提及「政治局勢發生變化」，造成「唐手」向外傳播，此一變化最可能 是指下列何者？",
+    "question": "【閱讀材料】歷史上琉球王國與中國關係密切，數百年的交流使琉球文化在飲食、語言、風俗甚至武術方面都受到中國影響。十九世紀前期，琉球武術家佐久川寬賀數度隨使節團前往中國，拜訪大師精進武藝，並將中國拳法融入傳統武術，形成「唐手」，他也被琉球人尊稱為「唐手佐久川」。之後唐手受到琉球士族重視，成為士族間格鬥武術。十九世紀末琉球政治局勢改變，琉球王國遭日本併吞，士族被迫前往新統治者的都城居住，唐手也傳入日本。經過發展，唐手改以同音異字稱為「空手」，即今日的空手道，後來在世界各地普及。\n\n【題目】上文提及「政治局勢發生變化」，造成「唐手」向外傳播，此一變化最可能是指下列何者？",
     "questionImage": "./assets/official-exams/112-social-p12.webp",
     "imageAlt": "112年國中教育會考社會科第45題官方試卷頁面",
     "options": [
@@ -30292,12 +30285,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/112-social-p11.webp",
-      "./assets/official-exams/112-social-p12.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第45題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -30311,7 +30301,7 @@
     "knowledgePoint": "112年社會第46題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "上文中登山步道開放的起始時間，主要是因為此時已具備下列何項條件？",
+    "question": "【閱讀材料】日本富士山是近似圓錐狀的火山，有四條主要登山路線，開放時間大致為每年7月上旬至9月上旬。路線特色不同，但皆一路向上；民眾可依體力與經驗選擇坡度較緩或較陡的路線，並先搭巴士等交通工具至登山口，再步行登頂。小婷登山經驗豐富，計畫挑戰平均坡度最陡的路線。\n\n| 路線資料 | 甲 | 乙 | 丙 | 丁 |\n| 起點海拔（公尺） | 2,305 | 1,970 | 1,440 | 2,380 |\n| 終點海拔（公尺） | 3,720 | 3,720 | 3,715 | 3,715 |\n| 上山路線長度（公里） | 7.5 | 7.8 | 11.0 | 5.0 |\n| 平均坡度（%） | 18.9 | 22.4 | 20.7 | 26.7 |\n\n平均坡度＝（終點海拔－起點海拔）÷路線長度×100%。\n\n【題目】上文中登山步道開放的起始時間，主要是因為此時已具備下列何項條件？",
     "questionImage": "./assets/official-exams/112-social-p13.webp",
     "imageAlt": "112年國中教育會考社會科第46題官方試卷頁面",
     "options": [
@@ -30343,12 +30333,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/112-social-p12.webp",
-      "./assets/official-exams/112-social-p13.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第46題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -30362,14 +30349,14 @@
     "knowledgePoint": "112年社會第47題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "圖(十四) 為其中一條登山路 線，依據圖中資訊判斷，最 可能為表(九)中的何者？",
+    "question": "【閱讀材料】日本富士山是近似圓錐狀的火山，有四條主要登山路線，開放時間大致為每年7月上旬至9月上旬。路線特色不同，但皆一路向上；民眾可依體力與經驗選擇坡度較緩或較陡的路線，並先搭巴士等交通工具至登山口，再步行登頂。小婷登山經驗豐富，計畫挑戰平均坡度最陡的路線。\n\n| 路線資料 | 甲 | 乙 | 丙 | 丁 |\n| 起點海拔（公尺） | 2,305 | 1,970 | 1,440 | 2,380 |\n| 終點海拔（公尺） | 3,720 | 3,720 | 3,715 | 3,715 |\n| 上山路線長度（公里） | 7.5 | 7.8 | 11.0 | 5.0 |\n| 平均坡度（%） | 18.9 | 22.4 | 20.7 | 26.7 |\n\n平均坡度＝（終點海拔－起點海拔）÷路線長度×100%。\n\n【題目】圖(十四)為其中一條登山路線，依據圖中資訊判斷，最可能為表(九)中的何者？",
     "questionImage": "./assets/official-exams/112-social-p13.webp",
     "imageAlt": "112年國中教育會考社會科第47題官方試卷頁面",
     "options": [
       "甲",
       "乙",
       "丙",
-      "丁 圖(十四)"
+      "丁"
     ],
     "answer": 2,
     "explanation": "答案 C（丙）。等高線圖路線由東側約 1,400 公尺起點向西攀升至約 3,700 公尺終點，高差約 2,300 公尺；依比例尺量得路程約 11 公里，與表中丙路線的起終點高度及長度相符。",
@@ -30412,14 +30399,14 @@
     "knowledgePoint": "112年社會第48題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據表(九)中資訊，小婷與體力、經驗較為不足的民眾，選擇的路線分別為下 列何者？",
+    "question": "【閱讀材料】日本富士山是近似圓錐狀的火山，有四條主要登山路線，開放時間大致為每年7月上旬至9月上旬。路線特色不同，但皆一路向上；民眾可依體力與經驗選擇坡度較緩或較陡的路線，並先搭巴士等交通工具至登山口，再步行登頂。小婷登山經驗豐富，計畫挑戰平均坡度最陡的路線。\n\n| 路線資料 | 甲 | 乙 | 丙 | 丁 |\n| 起點海拔（公尺） | 2,305 | 1,970 | 1,440 | 2,380 |\n| 終點海拔（公尺） | 3,720 | 3,720 | 3,715 | 3,715 |\n| 上山路線長度（公里） | 7.5 | 7.8 | 11.0 | 5.0 |\n| 平均坡度（%） | 18.9 | 22.4 | 20.7 | 26.7 |\n\n平均坡度＝（終點海拔－起點海拔）÷路線長度×100%。\n\n【題目】根據表(九)資訊，小婷與體力、經驗較為不足的民眾，選擇的路線分別為何？",
     "questionImage": "./assets/official-exams/112-social-p13.webp",
     "imageAlt": "112年國中教育會考社會科第48題官方試卷頁面",
     "options": [
       "小婷選甲；體力、經驗較為不足的民眾選丁",
       "小婷選乙；體力、經驗較為不足的民眾選丙",
       "小婷選丙；體力、經驗較為不足的民眾選乙",
-      "小婷選丁；體力、經驗較為不足的民眾選甲 12"
+      "小婷選丁；體力、經驗較為不足的民眾選甲"
     ],
     "answer": 3,
     "explanation": "答案 D。表中平均坡度依序甲 18.9%、乙 22.4%、丙 20.7%、丁 26.7%。小婷經驗豐富，應選平均坡度最大的丁；體力與經驗不足者則選坡度最緩的甲。",
@@ -30444,11 +30431,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/112-social-p13.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第48題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -30462,7 +30447,7 @@
     "knowledgePoint": "112年社會第49題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據上文及圖(十五)的資訊判斷，上述都市的氣候特色應為下列何者？",
+    "question": "【閱讀材料】開普敦位於非洲最南端，是影響世界歷史的重要都市。荷蘭人於1652年來到此地，因氣候適合種植歐洲常見蔬果及釀製葡萄酒，以補充船隻飲食，逐步將此地建成海上貿易補給站。當地好望堡是統治者辦公地點，由奴隸建造；部分奴隸由荷蘭在亞洲的殖民地擄來。1869年蘇伊士運河開通後，許多歐洲船隻改走新航線，開普敦逐漸沒落。今日開普敦以多元文化與豐富生態成為熱門觀光景點。圖(十五)所示城市座標約為18.42°E、33.92°S。\n\n【題目】根據上文及圖(十五)資訊判斷，上述都市的氣候特色為何？",
     "questionImage": "./assets/official-exams/112-social-p14.webp",
     "imageAlt": "112年國中教育會考社會科第49題官方試卷頁面",
     "options": [
@@ -30494,12 +30479,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/112-social-p13.webp",
-      "./assets/official-exams/112-social-p14.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第49題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -30513,7 +30495,7 @@
     "knowledgePoint": "112年社會第50題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "文中提及奴隸的輸出地最可能包含下列何者？",
+    "question": "【閱讀材料】開普敦位於非洲最南端，是影響世界歷史的重要都市。荷蘭人於1652年來到此地，因氣候適合種植歐洲常見蔬果及釀製葡萄酒，以補充船隻飲食，逐步將此地建成海上貿易補給站。當地好望堡是統治者辦公地點，由奴隸建造；部分奴隸由荷蘭在亞洲的殖民地擄來。1869年蘇伊士運河開通後，許多歐洲船隻改走新航線，開普敦逐漸沒落。今日開普敦以多元文化與豐富生態成為熱門觀光景點。圖(十五)所示城市座標約為18.42°E、33.92°S。\n\n【題目】文中提及奴隸的輸出地最可能包含下列何者？",
     "questionImage": "./assets/official-exams/112-social-p14.webp",
     "imageAlt": "112年國中教育會考社會科第50題官方試卷頁面",
     "options": [
@@ -30545,12 +30527,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/112-social-p13.webp",
-      "./assets/official-exams/112-social-p14.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第50題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -30564,7 +30543,7 @@
     "knowledgePoint": "112年社會第51題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "文中提到船隻改走新的通航路線，是因此航路具備下列哪一優勢？",
+    "question": "【閱讀材料】開普敦位於非洲最南端，是影響世界歷史的重要都市。荷蘭人於1652年來到此地，因氣候適合種植歐洲常見蔬果及釀製葡萄酒，以補充船隻飲食，逐步將此地建成海上貿易補給站。當地好望堡是統治者辦公地點，由奴隸建造；部分奴隸由荷蘭在亞洲的殖民地擄來。1869年蘇伊士運河開通後，許多歐洲船隻改走新航線，開普敦逐漸沒落。今日開普敦以多元文化與豐富生態成為熱門觀光景點。圖(十五)所示城市座標約為18.42°E、33.92°S。\n\n【題目】文中提到船隻改走新的通航路線，是因此航路具備下列哪一優勢？",
     "questionImage": "./assets/official-exams/112-social-p14.webp",
     "imageAlt": "112年國中教育會考社會科第51題官方試卷頁面",
     "options": [
@@ -30596,12 +30575,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/112-social-p13.webp",
-      "./assets/official-exams/112-social-p14.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第51題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -30615,7 +30591,7 @@
     "knowledgePoint": "112年社會第52題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "關於文中活動理念對臺灣帶來影響的過程，最適合以下列何者說明？",
+    "question": "【閱讀材料】美國反體罰組織於1998年發起「不打小孩日」，宣傳體罰與兒童人權議題。活動最先在美國推動，後獲國際社會響應；2001年起，其他反體罰及兒童人權團體也在4月30日舉辦活動，倡議終止體罰並推廣正向管教。2006年，臺灣民間團體響應「國際不打小孩日」，舉辦相關活動。當時宣傳標語寫道：「邀請你試著看不要打小孩，至少在這一天不要打；也許你會發現，將來的每一天你都不要打。」\n\n我國政府也以符合聯合國標準為目標，修訂《兒童及少年福利與權益保障法》，促使政府、社會大眾與家長正視兒童福利及虐待問題；並修訂《教育基本法》，明文禁止校園體罰，以保障兒童受教權。這些作法旨在預防並保護兒童免於各種暴力侵害，提供更完善的成長環境。\n\n【題目】關於文中活動理念對臺灣帶來影響的過程，最適合以下列何者說明？",
     "questionImage": "./assets/official-exams/112-social-p15.webp",
     "imageAlt": "112年國中教育會考社會科第52題官方試卷頁面",
     "options": [
@@ -30647,12 +30623,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/112-social-p14.webp",
-      "./assets/official-exams/112-social-p15.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第52題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -30666,7 +30639,7 @@
     "knowledgePoint": "112年社會第53題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據圖(十六)判斷，關於這則宣傳標語所呈現的意義，下列敘述何者最適當？",
+    "question": "【閱讀材料】美國反體罰組織於1998年發起「不打小孩日」，宣傳體罰與兒童人權議題。活動最先在美國推動，後獲國際社會響應；2001年起，其他反體罰及兒童人權團體也在4月30日舉辦活動，倡議終止體罰並推廣正向管教。2006年，臺灣民間團體響應「國際不打小孩日」，舉辦相關活動。當時宣傳標語寫道：「邀請你試著看不要打小孩，至少在這一天不要打；也許你會發現，將來的每一天你都不要打。」\n\n我國政府也以符合聯合國標準為目標，修訂《兒童及少年福利與權益保障法》，促使政府、社會大眾與家長正視兒童福利及虐待問題；並修訂《教育基本法》，明文禁止校園體罰，以保障兒童受教權。這些作法旨在預防並保護兒童免於各種暴力侵害，提供更完善的成長環境。\n\n【題目】根據宣傳標語判斷，其呈現的意義最適當為何？",
     "questionImage": "./assets/official-exams/112-social-p15.webp",
     "imageAlt": "112年國中教育會考社會科第53題官方試卷頁面",
     "options": [
@@ -30698,11 +30671,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/112-social-p15.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第53題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -30716,7 +30687,7 @@
     "knowledgePoint": "112年社會第54題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "關於文末前、後所提及我國的二項法規，下列敘述何者最適當？",
+    "question": "【閱讀材料】美國反體罰組織於1998年發起「不打小孩日」，宣傳體罰與兒童人權議題。活動最先在美國推動，後獲國際社會響應；2001年起，其他反體罰及兒童人權團體也在4月30日舉辦活動，倡議終止體罰並推廣正向管教。2006年，臺灣民間團體響應「國際不打小孩日」，舉辦相關活動。當時宣傳標語寫道：「邀請你試著看不要打小孩，至少在這一天不要打；也許你會發現，將來的每一天你都不要打。」\n\n我國政府也以符合聯合國標準為目標，修訂《兒童及少年福利與權益保障法》，促使政府、社會大眾與家長正視兒童福利及虐待問題；並修訂《教育基本法》，明文禁止校園體罰，以保障兒童受教權。這些作法旨在預防並保護兒童免於各種暴力侵害，提供更完善的成長環境。\n\n【題目】關於文末提及我國的兩項法規，下列敘述何者最適當？",
     "questionImage": "./assets/official-exams/112-social-p15.webp",
     "imageAlt": "112年國中教育會考社會科第54題官方試卷頁面",
     "options": [
@@ -30748,12 +30719,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/112-social-p14.webp",
-      "./assets/official-exams/112-social-p15.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第54題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
