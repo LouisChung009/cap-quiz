@@ -18302,7 +18302,7 @@
     "knowledgePoint": "111年社會第23題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "甲國政府自2019年起，要求記者須通過關於國家領袖思想的考試後，才能取 得記者證，藉以強化他們對國家領袖的效忠。圖(十二)是近年該國政府核發記 者證數量的變化，而表(三)則是無國界記者組織提出的全球新聞自由指數報告 中，該國近年的排名狀況，排名越前面代表新聞自由程度越高。根據相關資 訊判斷，關於甲國政府的此項作法，下列敘述何者最合理？ 表(三) 時間(年) 新聞自由指數排名 2015 全球倒數第5 2016 全球倒數第5 2017 全球倒數第5 2018 全球倒數第5 2019 全球倒數第4 2020 全球倒數第4 圖(十二)",
+    "question": "甲國政府自2019年起，要求記者須通過關於國家領袖思想的考試後，才能取得記者證，藉以強化他們對國家領袖的效忠。圖(十二)為近年該國政府核發記者證數量（萬張）：2015年約12、2016年約2、2017年約2、2018年約1、2019年約1、2020年約20。表(三)為無國界記者組織提出的全球新聞自由指數排名（排名越前代表新聞自由程度越高）：2015至2018年皆全球倒數第5，2019至2020年皆全球倒數第4。根據相關資訊判斷，關於甲國政府的此項作法，下列敘述何者最合理？",
     "questionImage": "./assets/official-exams/111-social-p7.webp",
     "imageAlt": "111年國中教育會考社會科第23題官方試卷頁面",
     "options": [
@@ -18334,11 +18334,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/111-social-p7.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依111年國中教育會考官方選擇題參考答案一覽表核對：社會第23題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1IeMHI4BmTpC_2Oc1lQ1Qj6XWHDf9qwGd/view"
@@ -18352,13 +18350,13 @@
     "knowledgePoint": "111年社會第24題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "表(四)呈現阿森在近三屆我國總統選舉資格的 表(四) 變化情形。根據表中內容判斷，阿森在第14屆 總統選舉 總統選舉 屆次 至第15屆之間，最可能發生了下列哪一件事？ 參選資格 投票資格",
+    "question": "表(四)呈現阿森在近三屆我國總統選舉資格的變化情形。根據表中內容判斷，阿森在第14屆至第15屆之間，最可能發生了下列哪一件事？\n\n| 屆次 | 總統選舉參選資格 | 總統選舉投票資格 |\n| 13 | 不具備 | 具備 |\n| 14 | 不具備 | 具備 |\n| 15 | 不具備 | 不具備 |",
     "questionImage": "./assets/official-exams/111-social-p7.webp",
     "imageAlt": "111年國中教育會考社會科第24題官方試卷頁面",
     "options": [
-      "被政黨開除黨籍 13 不具備 具備",
-      "遭法院監護宣告 14 不具備 具備",
-      "遷移戶籍至其他縣市 15 不具備 不具備",
+      "被政黨開除黨籍",
+      "遭法院監護宣告",
+      "遷移戶籍至其他縣市",
       "遭法院判處褫奪公權"
     ],
     "answer": 1,
@@ -18384,11 +18382,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/111-social-p7.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依111年國中教育會考官方選擇題參考答案一覽表核對：社會第24題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1IeMHI4BmTpC_2Oc1lQ1Qj6XWHDf9qwGd/view"
@@ -18409,7 +18405,7 @@
       "如何提升違法官員彈劾案件的辦案效率",
       "如何落實嚴謹審核中央政府年度總決算",
       "我國仍維持死刑刑罰是否違反基本人權",
-      "公務人員的選才制度是否有改善的空間 6"
+      "公務人員的選才制度是否有改善的空間"
     ],
     "answer": 2,
     "explanation": "大法官主要職權包括憲法解釋及審查法律、命令是否違憲。死刑是否違反基本人權屬憲法與基本權議題，最適合詢問大法官被提名人，答案 C。",
@@ -18436,9 +18432,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/111-social-p7.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依111年國中教育會考官方選擇題參考答案一覽表核對：社會第25題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1IeMHI4BmTpC_2Oc1lQ1Qj6XWHDf9qwGd/view"
@@ -18612,7 +18606,7 @@
       "連續5天出現39.3℃以上高溫"
     ],
     "answer": 3,
-    "explanation": "臺北最暖月為 7 月，1981–2010 年 7 月平均最高氣溫是 34.3°C。依熱浪定義須高於此值 5°C，因此門檻為 34.3＋5＝39.3°C，且需連續 5 日達標，答案 D。",
+    "explanation": "表中 7 月的平均最高氣溫最高，為 34.3°C。依題幹字面定義，熱浪標準是連續 5 日每日最高氣溫都高於 34.3＋5＝39.3°C。官方答案為 D，其選項以「39.3°C以上」表述門檻；作答重點是取最高月均最高溫、加 5°C，再檢查連續 5 日。",
     "solutionSteps": [
       "從表(五)找最暖月的平均最高氣溫：7 月為 34.3°C。",
       "依定義加 5°C：34.3＋5＝39.3°C。",
@@ -18634,12 +18628,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/111-social-p7.webp",
-      "./assets/official-exams/111-social-p8.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依111年國中教育會考官方選擇題參考答案一覽表核對：社會第29題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1IeMHI4BmTpC_2Oc1lQ1Qj6XWHDf9qwGd/view"
@@ -18687,9 +18678,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/111-social-p9.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依111年國中教育會考官方選擇題參考答案一覽表核對：社會第30題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1IeMHI4BmTpC_2Oc1lQ1Qj6XWHDf9qwGd/view"
