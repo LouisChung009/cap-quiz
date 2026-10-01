@@ -17405,9 +17405,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/111-social-p2.webp"
-    ],
+    "questionImages": [],
     "optionsInImage": false,
     "answerKeyReview": {
       "status": "verified",
@@ -17654,9 +17652,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/111-social-p4.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依111年國中教育會考官方選擇題參考答案一覽表核對：社會第9題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1IeMHI4BmTpC_2Oc1lQ1Qj6XWHDf9qwGd/view"
@@ -17718,12 +17714,12 @@
     "knowledgePoint": "111年社會第11題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "創新科技公司為了讓其產品「LED省電 燈泡」的銷售量增加，在各大報紙刊登廣 告，內容如圖(六)所示。根據圖中內容判 斷，該公司最可能是採取下列何種方式來 達成目標？",
+    "question": "創新科技公司為了增加 LED 省電燈泡銷量，在報紙刊登廣告：原價每個 200 元，特價 140 元（七折）；一次購買 10 個，再優惠 100 元。公司最主要採取哪種方式吸引消費者？",
     "questionImage": "./assets/official-exams/111-social-p4.webp",
     "imageAlt": "111年國中教育會考社會科第11題官方試卷頁面",
     "options": [
       "降低成本",
-      "價格競爭 圖(六)",
+      "價格競爭",
       "建立品牌形象",
       "延長營業時間"
     ],
@@ -17750,11 +17746,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/111-social-p4.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依111年國中教育會考官方選擇題參考答案一覽表核對：社會第11題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1IeMHI4BmTpC_2Oc1lQ1Qj6XWHDf9qwGd/view"
@@ -17818,13 +17812,13 @@
     "knowledgePoint": "111年社會第13題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "表(二)是四位同窗好友的 表(二) 相關資料。若僅根據表中 出生時 姓名 出生地 現況 內容判斷，何者最可能 父母的國籍 不曾具有我國國籍？ 王大軒 洛杉磯 中華民國 擔任立法委員",
+    "question": "【表格資料】四位同窗好友的出生地、出生時父母國籍及現況如下：王大軒—洛杉磯—中華民國—擔任立法委員；李大賢—臺中—美國—在澳洲工作；陳小涵—臺北—美國—擔任高雄市議員；林小潔—西雅圖—中華民國—在日本留學。依表中資料判斷，何者最可能不曾具有我國國籍？",
     "questionImage": "./assets/official-exams/111-social-p4.webp",
     "imageAlt": "111年國中教育會考社會科第13題官方試卷頁面",
     "options": [
-      "王大軒 李大賢 臺中 美國 在澳洲工作",
-      "李大賢 陳小涵 臺北 美國 擔任高雄市市議員",
-      "陳小涵 林小潔 西雅圖 中華民國 在日本留學",
+      "王大軒",
+      "李大賢",
+      "陳小涵",
       "林小潔"
     ],
     "answer": 1,
@@ -17850,11 +17844,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/111-social-p4.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依111年國中教育會考官方選擇題參考答案一覽表核對：社會第13題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1IeMHI4BmTpC_2Oc1lQ1Qj6XWHDf9qwGd/view"
@@ -17902,9 +17894,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/111-social-p5.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依111年國中教育會考官方選擇題參考答案一覽表核對：社會第14題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1IeMHI4BmTpC_2Oc1lQ1Qj6XWHDf9qwGd/view"
@@ -18052,9 +18042,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/111-social-p5.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依111年國中教育會考官方選擇題參考答案一覽表核對：社會第17題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1IeMHI4BmTpC_2Oc1lQ1Qj6XWHDf9qwGd/view"
@@ -18118,14 +18106,14 @@
     "knowledgePoint": "111年社會第19題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "「歷史事實」與「歷史解釋」的區別，在於歷史事實是客觀呈現過去發生的 事件；而歷史解釋則是後人運用歷史資料，對相關歷史事件進行的詮釋與評 價。下列敘述中，何者最適合歸類為「歷史事實」？",
+    "question": "「歷史事實」是客觀呈現過去發生的事件；「歷史解釋」則是後人運用史料，對事件加以詮釋或評價。下列四段敘述中，何者最適合歸類為「歷史事實」？\n甲：一些唐朝名人熱衷追求突厥式生活，甚至能忍受不舒服的帳篷生活。\n乙：承乾太子在生活起居各方面，稱得上是一位傑出的模仿者。\n丙：承乾太子不說漢語，而在皇宮空地搭建突厥帳篷，穿突厥可汗服飾，並以佩刀切割熟牛肉。\n丁：具有這種奇特喜好的人，在當時皇室中很有限。\n註：突厥為歐亞大陸上的游牧民族；可汗是部分游牧民族統治者的稱號。",
     "questionImage": "./assets/official-exams/111-social-p6.webp",
     "imageAlt": "111年國中教育會考社會科第19題官方試卷頁面",
     "options": [
       "甲",
       "乙",
       "丙",
-      "丁；註：突厥：歐亞大陸上的一支游牧民族； 可汗：部分游牧民族統治者的稱號。"
+      "丁"
     ],
     "answer": 2,
     "explanation": "題目要分辨可由資料確認的事件，與後人對事件的評價。丙描述突厥可汗在皇帝面前不下跪、在空地搭帳篷等具體行為，可用史料檢核；甲、乙、丁含「傲慢」「傑出」「特別喜好」等評價性判斷，答案 C。",
@@ -18150,11 +18138,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/111-social-p6.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依111年國中教育會考官方選擇題參考答案一覽表核對：社會第19題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1IeMHI4BmTpC_2Oc1lQ1Qj6XWHDf9qwGd/view"
@@ -18168,21 +18154,21 @@
     "knowledgePoint": "111年社會第20題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "圖(十一)為臺灣某年報紙刊登的二則社 會新聞。根據內容判斷，新聞報導的 事情最早可能發生於下列何時？",
+    "question": "【報紙社會新聞】新聞一：一名 34 歲男子在艋舺玩樂而散盡積蓄，想到自來水水源地尋短，家人報警後他被捕；後來他又在龍山寺口街白吃白喝，遭店家報警逮捕。新聞二：一名 25 歲男子竊取兒童 220 圓，帶著 17 歲女友私奔；其兄長與警察在臺南火車站發現並追蹤他，他當時正想搭乘開往打狗的列車逃走。這些新聞報導的事情最早可能發生於下列何時？",
     "questionImage": "./assets/official-exams/111-social-p6.webp",
     "imageAlt": "111年國中教育會考社會科第20題官方試卷頁面",
     "options": [
       "日本統治時期",
       "清帝國統治時期",
       "中華民國政府遷臺初期",
-      "中華民國政府推動十大建設期間 圖(十一)"
+      "中華民國政府推動十大建設期間"
     ],
     "answer": 0,
-    "explanation": "圖(十一)的社會新聞用語及報導情境可對應日治時期臺灣報紙與當時社會制度，年代早於清帝國統治結束後的其他三個選項，因此最早可能發生於日本統治時期，答案 A。",
+    "explanation": "答案 A「日本統治時期」。兩則報導都保留「艋舺」與「打狗」舊地名，表示事情發生在兩地改名為萬華、高雄之前；同時新聞已出現警察處理案件，並有列車往返臺南、打狗的交通情境，顯示當時已有近代警政與鐵路。綜合判斷，最早可能是日本統治時期，而不是清代。",
     "solutionSteps": [
-      "先從報紙兩則新聞的用語、機構名稱及社會背景辨認時代。",
-      "圖中文字指向日本統治下的臺灣社會，而非清代或戰後政府時期。",
-      "四個選項中最早且符合線索的是日本統治時期，答案 A。"
+      "先找能定位年代的線索：報導使用艋舺、打狗兩個舊地名。",
+      "新聞同時出現警察處理案件及火車往返的情境，顯示近代警政與鐵路已存在。",
+      "舊地名與近代設施並存，最符合日本統治時期，選 A。"
     ],
     "teacherTip": "年代判讀先找制度與機構線索；題目問「最早可能」時也要比較選項先後。",
     "relatedWords": [],
@@ -18200,11 +18186,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/111-social-p6.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依111年國中教育會考官方選擇題參考答案一覽表核對：社會第20題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1IeMHI4BmTpC_2Oc1lQ1Qj6XWHDf9qwGd/view"
