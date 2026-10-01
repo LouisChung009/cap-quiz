@@ -29576,13 +29576,13 @@
     "knowledgePoint": "112年社會第31題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "表(四)呈現甲國於兩次世界大戰中， 表(四) 在歐洲戰場開始參戰與結束參戰的 甲國在歐洲 第一次 第二次 原因。表中的「？」最適合填入下 戰場的情形 世界大戰 世界大戰 列何者？ 開始 支援「斯拉 德國毀約攻",
+    "question": "表(四)呈現甲國在兩次世界大戰中，於歐洲戰場開始參戰與結束參戰的原因。表中的「？」最適合填入何者？\n\n| 甲國在歐洲戰場的情形 | 第一次世界大戰 | 第二次世界大戰 |\n| 開始參戰的原因 | 支援「斯拉夫兄弟」 | 德國毀約攻打國土 |\n| 結束參戰的原因 | ？ | 德國投降 |",
     "questionImage": "./assets/official-exams/112-social-p9.webp",
     "imageAlt": "112年國中教育會考社會科第31題官方試卷頁面",
     "options": [
-      "美國投下原子彈，敵國投降 參戰的原因 夫兄弟」 打國土",
-      "簽署《凡爾賽條約》，戰敗投降 結束？ 德國投降",
-      "國內共產政權成立，向同盟國議和 參戰的原因",
+      "美國投下原子彈，敵國投降",
+      "簽署《凡爾賽條約》，戰敗投降",
+      "國內共產政權成立，向同盟國議和",
       "美國反對無限制潛艇政策，援助協約國"
     ],
     "answer": 2,
@@ -29660,9 +29660,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/112-social-p9.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第32題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -29683,7 +29681,7 @@
       "西元前五世紀的希臘哲學家",
       "西元八世紀的基督教教士",
       "西元十七世紀的歐洲天文學者",
-      "西元十八世紀的啟蒙運動思想家 8"
+      "西元十八世紀的啟蒙運動思想家"
     ],
     "answer": 1,
     "explanation": "答案 B。西羅馬帝國滅亡後，法蘭克王國查理曼為培養行政與教會所需的識字人才，推動加洛林文藝復興，邀請學者、教士設校並抄寫拉丁文典籍；因此相關學者最可能是八世紀基督教教士。",
@@ -29710,9 +29708,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/112-social-p9.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第33題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -29758,11 +29754,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/112-social-p10.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第34題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -29810,9 +29804,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/112-social-p10.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第35題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -29858,12 +29850,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/112-social-p9.webp",
-      "./assets/official-exams/112-social-p10.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第36題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -29909,12 +29898,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/112-social-p9.webp",
-      "./assets/official-exams/112-social-p10.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第37題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -29928,11 +29914,11 @@
     "knowledgePoint": "112年社會第38題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "表(六)為某作家的三部長篇 表(六) 小說內容簡介，該作家藉此 著作 內 容 簡 介 構築十九至二十世紀臺灣歷 刻畫多位臺灣青年在南洋戰場上被戰爭折 甲 史的發展過程。根據表中內 磨至精神崩潰，甚至喪生的悲慘命運。 容判斷，這三部小說呈現的 敘述客家族群在臺灣中部山區生產樟腦， 乙 時代先後順序，最可能是下 為保衛家園參與武裝抗日的故事。 列何者？ 描繪臺灣人藉由參加文化協會、組織農民 丙",
+    "question": "表(六)為某作家的三部長篇小說內容簡介，該作家藉此構築十九至二十世紀臺灣歷史發展過程。根據表中內容判斷，三部小說呈現的時代先後順序最可能為何？\n\n| 著作 | 內容簡介 |\n| 甲 | 描寫多位臺灣青年在南洋戰場上遭戰爭折磨，精神崩潰甚至喪生的命運。 |\n| 乙 | 敘述客家族群在臺灣中部山區生產樟腦，為保衛家園參與武裝抗日。 |\n| 丙 | 描繪臺灣人藉文化協會、農民運動抵抗殖民統治。 |",
     "questionImage": "./assets/official-exams/112-social-p11.webp",
     "imageAlt": "112年國中教育會考社會科第38題官方試卷頁面",
     "options": [
-      "乙→甲→丙 運動，抵抗殖民統治的事蹟。",
+      "乙→甲→丙",
       "丙→乙→甲",
       "丙→甲→乙",
       "乙→丙→甲"
@@ -29960,11 +29946,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/112-social-p11.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第38題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -29978,16 +29962,16 @@
     "knowledgePoint": "112年社會第39題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "明 清時期，蠶絲業是中國 江南地區的重要產業。當時產出的生絲，主要供應國 內需求，部分對外出口。下列何者最可能反映1830年代生絲出口的情況？ (A) (B) (C) (D) 9,998 0",
+    "question": "明清時期，蠶絲業是中國江南地區的重要產業。當時生絲主要供應國內需求，部分對外出口。下列哪一組數據最可能反映1830年代生絲出口情況？（單位：擔）",
     "questionImage": "./assets/official-exams/112-social-p11.webp",
     "imageAlt": "112年國中教育會考社會科第39題官方試卷頁面",
     "options": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "A：廣州9,998；上海0",
+      "B：廣州5,430；上海5,146",
+      "C：廣州3,444；上海13,794",
+      "D：廣州3,662；上海46,655"
     ],
-    "optionsInImage": true,
+    "optionsInImage": false,
     "answer": 0,
     "explanation": "答案是 A。1830 年代上海尚未依《南京條約》開放為通商口岸，對外貿易主要集中於廣州；因此生絲出口呈現廣州有出口、上海幾乎沒有的情形。圖 A 顯示廣州 9,998 擔、上海 0，符合當時的通商格局。",
     "solutionSteps": [
@@ -30011,11 +29995,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/112-social-p11.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第39題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -30029,7 +30011,7 @@
     "knowledgePoint": "112年社會第40題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "表(七)是甲、乙兩國匯率變動的情形。根據表中 內容判斷，若其他條件不變，且所有成本完全 反應在商品售價上，相較於去年，在今年甲、 乙兩國的市場中，最可能出現下列何種情形？",
+    "question": "表(七)呈現甲、乙兩國匯率變動。去年1單位甲幣可兌換10單位乙幣，今年1單位甲幣可兌換20單位乙幣。若其他條件不變，且所有成本完全反映在商品售價上，相較於去年，今年甲、乙兩國市場最可能出現何種情形？",
     "questionImage": "./assets/official-exams/112-social-p11.webp",
     "imageAlt": "112年國中教育會考社會科第40題官方試卷頁面",
     "options": [
@@ -30061,11 +30043,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/112-social-p11.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第40題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
