@@ -7015,7 +7015,7 @@
     "knowledgePoint": "110年社會第25題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "圖(十一)為甲、乙、丙三人在社群網站的留言內容。若三人在這段期間的投資 報酬率高低關係為丙＞甲＞乙，下列何者最可能是丙的留言內容？ 圖(十一)",
+    "question": "圖(十一)呈現甲、乙、丙三人在社群網站的留言。甲說：「我這段期間投資的報酬率還不錯，剛好 20%。」乙說：「我的投資金額和甲相同，但獲利金額只有甲的一半。」若三人的投資報酬率高低為丙＞甲＞乙，哪一則最可能是丙的留言？",
     "questionImage": "./assets/official-exams/110-social-p7.webp",
     "imageAlt": "110年國中教育會考社會科第25題官方試卷頁面",
     "options": [
@@ -7047,11 +7047,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-social-p7.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第25題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -7345,9 +7343,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-social-p8.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第31題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -7361,7 +7357,7 @@
     "knowledgePoint": "110年社會第32題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "歐洲兩大河流藉由某一運河相互連結，以提 表(五) 升河流的航運價值。甲港口為該運河上重要 國家 船舶貨運量(公噸) 的轉運樞紐，表(五)為2016年兩條河流流域 荷蘭 100,488 內各國與甲港口之間的船舶貨運量。由表中 德國 68,520 資訊判斷，可推論出其中一條河流的貨運量 比利時 50,813 較大，該河流應是注入哪個海域？ 奧地利 34,498",
+    "question": "歐洲萊茵河與多瑙河以運河相連。甲港口是運河上的重要轉運樞紐。下表為 2016 年各國與甲港口間的船舶貨運量：荷蘭 100,488 公噸、德國 68,520 公噸、比利時 50,813 公噸、奧地利 34,498 公噸、匈牙利 8,891 公噸、法國 5,552 公噸、斯洛伐克 4,094 公噸、羅馬尼亞 854 公噸。根據表中資料，貨運量較大的河流注入哪個海域？",
     "questionImage": "./assets/official-exams/110-social-p8.webp",
     "imageAlt": "110年國中教育會考社會科第32題官方試卷頁面",
     "options": [
@@ -7393,11 +7389,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-social-p8.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第32題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -7445,9 +7439,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-social-p8.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第33題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -7545,9 +7537,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-social-p9.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第35題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -7561,7 +7551,7 @@
     "knowledgePoint": "110年社會第36題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "歷史老師上課時，使用圖(十六)講解某一史事所造成的影 響，圖中的「？」最可能是下列哪一史事？",
+    "question": "歷史老師上課時以因果圖說明某史事的影響：神聖羅馬帝國瓦解、民族意識受到激發、拉丁美洲爭取獨立。圖中的「？」最可能是哪一史事？",
     "questionImage": "./assets/official-exams/110-social-p9.webp",
     "imageAlt": "110年國中教育會考社會科第36題官方試卷頁面",
     "options": [
@@ -7593,11 +7583,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-social-p9.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第36題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -7611,14 +7599,14 @@
     "knowledgePoint": "110年社會第37題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "圖(十七)是一張戰爭期間發給的通行證部分內 容，此通行證最可能使用於何時何地？",
+    "question": "【通行證內容】英國領事致法軍司令：持本通行證者為宣教士馬偕博士，他希望進入貴國占領地探訪所屬教會。身為英國領事，懇請准許馬偕進入並在當地安全通行。依這份通行證所述的占領情境，最可能是下列何時何地？",
     "questionImage": "./assets/official-exams/110-social-p9.webp",
     "imageAlt": "110年國中教育會考社會科第37題官方試卷頁面",
     "options": [
       "鴉片戰爭期間的打狗",
       "英 法聯軍期間的安平",
       "中 法戰爭期間的基隆",
-      "甲午戰爭期間的澎湖 圖(十七)"
+      "甲午戰爭期間的澎湖"
     ],
     "answer": 2,
     "explanation": "答案 C「中法戰爭期間的基隆」。通行證由英國領事寫給法軍司令，請求允許馬偕進入「貴國占領地」探訪教會，顯示法軍正在臺灣占領一處地區。中法戰爭期間法軍曾進攻並占領基隆，符合人物、發證者與地點線索；打狗、安平和澎湖分別對應其他戰事或不符此次法軍占領地。",
@@ -7643,11 +7631,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-social-p9.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第37題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -7695,9 +7681,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-social-p9.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第38題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
