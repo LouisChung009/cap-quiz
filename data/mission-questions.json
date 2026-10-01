@@ -38986,9 +38986,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-social-p2.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第1題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -39002,7 +39000,7 @@
     "knowledgePoint": "113年社會第2題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "由波蘭、匈牙利、斯洛伐克、捷克組成的維謝格拉德集團，近年來約有20% 至30%的商品出口至德國，因此當德國經濟成長減緩時，該集團國家的產業 可能衰退。根據上文，集團成員國最可能採取下列何項政策，以減少產業衰 退所帶來的負面影響？",
+    "question": "由波蘭、匈牙利、斯洛伐克、捷克組成的維謝格拉德集團，近年來約有20% 至30%的商品出口至德國，因此當德國經濟成長減緩時，該集團國家的產業 可能衰退。根據上述資訊，集團成員國最可能採取下列何項政策，以減少產業衰 退所帶來的負面影響？",
     "questionImage": "./assets/official-exams/113-social-p2.webp",
     "imageAlt": "113年國中教育會考社會科第2題官方試卷頁面",
     "options": [
@@ -39034,12 +39032,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/113-social-p1.webp",
-      "./assets/official-exams/113-social-p2.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第2題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -39060,7 +39055,7 @@
       "甲",
       "乙",
       "丙",
-      "丁 圖(一)"
+      "丁"
     ],
     "answer": 1,
     "explanation": "題文指出營盤腳位在上營盤的西北山腳，因此上營盤應位於它的東南側較高處。依圖中營盤腳位置與等高線判讀，乙點在其東南側且海拔較高，符合屯兵設營的地勢，答案 B。",
@@ -39086,9 +39081,8 @@
       "nextReviewAt": null
     },
     "requiresImage": true,
-    "requiresContext": true,
+    "requiresContext": false,
     "questionImages": [
-      "./assets/official-exams/113-social-p1.webp",
       "./assets/official-exams/113-social-p2.webp"
     ],
     "answerKeyReview": {
@@ -39111,7 +39105,7 @@
       "西亞、北非",
       "東亞、南亞",
       "南歐、南美洲",
-      "北美洲、大洋洲 圖(二)"
+      "北美洲、大洋洲"
     ],
     "answer": 0,
     "explanation": "圖(二)標示全球使用人口第五多的語言為阿拉伯語。阿拉伯語主要分布於西亞與北非，與選項 A 相符。",
@@ -39188,9 +39182,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-social-p3.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第5題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -39204,13 +39196,13 @@
     "knowledgePoint": "113年社會第6題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "圖(三)為一首歌曲部分歌詞的翻譯，其內容聚 焦於中國歷史上某一事件。歌詞中「在東方的 血腥戰爭」，最可能是指下列何者？",
+    "question": "【歌詞節錄】「北京55日：慈禧太后想要將『洋鬼子』趕出北京，因此允許起事的民間組織開火攻擊軍事館，開啟一場在東方的血腥戰爭……」（「洋鬼子」是鄙視外國人的稱呼。）\n\n這首歌曲聚焦於中國歷史事件，歌詞中的「在東方的血腥戰爭」最可能指何者？",
     "questionImage": "./assets/official-exams/113-social-p3.webp",
     "imageAlt": "113年國中教育會考社會科第6題官方試卷頁面",
     "options": [
-      "蒙古大軍南下滅宋，成功入主中國 圖(三)",
+      "蒙古大軍南下滅宋，成功入主中國",
       "英國為鴉片貿易問題出兵攻打中國",
-      "八個國家組成聯軍向中國發動攻擊；註：洋鬼子：鄙視外國人的稱呼。",
+      "八個國家組成聯軍向中國發動攻擊",
       "國民政府誓師北伐，終結軍閥割據"
     ],
     "answer": 2,
@@ -39236,11 +39228,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-social-p3.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第6題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -39254,14 +39244,14 @@
     "knowledgePoint": "113年社會第7題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "古代人們在繪製地圖時，通常會將自己所處的區域放在地圖 中央。圖(四)是某地區出土的古世界地圖及其說明，該地區 當時所使用的文字，最可能為下列何者？ (A) (B) (C) (D) 圖(四)",
+    "question": "古代人繪製地圖時，通常會將自己所處區域放在地圖中央。圖(四)為某地區出土的古世界地圖及說明：圖中將巴比倫城置於中央，周圍呈現兩河流域古代世界觀。該地區當時使用的文字最可能為何？",
     "questionImage": "./assets/official-exams/113-social-p3.webp",
     "imageAlt": "113年國中教育會考社會科第7題官方試卷頁面",
     "options": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "象形文字",
+      "拉丁文",
+      "片假名",
+      "楔形文字"
     ],
     "answer": 3,
     "explanation": "圖中把巴比倫城置於世界中央，並呈現兩河流域周邊的古代世界觀，對應古巴比倫文明。巴比倫人使用楔形文字，故選項 D 正確。",
@@ -39286,11 +39276,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-social-p3.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第7題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -39338,9 +39326,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-social-p3.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第8題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -39358,10 +39344,10 @@
     "questionImage": "./assets/official-exams/113-social-p3.webp",
     "imageAlt": "113年國中教育會考社會科第9題官方試卷頁面",
     "options": [
-      "荷蘭 聯合東印度公司與漢人",
+      "荷蘭聯合東印度公司與漢人",
       "清帝國與福建、廣東的漢人",
       "顏思齊集團與沿海的原住民",
-      "鄭氏政權與大肚王國原住民 2"
+      "鄭氏政權與大肚王國原住民"
     ],
     "answer": 0,
     "explanation": "題目描述 17 世紀甲方提供土地、耕牛與借貸，招募乙方築城並種植稻米、甘蔗，且以強制力約束乙方，符合荷蘭聯合東印度公司在臺灣的土地開發與漢人承佃模式，答案 A。",
@@ -39388,9 +39374,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-social-p3.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第9題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -39404,13 +39388,13 @@
     "knowledgePoint": "113年社會第10題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "圖(五)是老師在黑板上解釋某法律的部分內容， 根據圖中內容判斷，下列何者是該法律最主要的 立法目的？",
+    "question": "圖(五)為老師在黑板上解釋法律的部分內容：父母、監護人應禁止兒童及少年吸菸、飲酒、嚼檳榔；業者應拒絕兒童及少年進入不良場所，違者可處罰鍰。根據內容判斷，該法律最主要的立法目的為何？",
     "questionImage": "./assets/official-exams/113-social-p4.webp",
     "imageAlt": "113年國中教育會考社會科第10題官方試卷頁面",
     "options": [
       "避免家庭暴力事件的發生",
       "處理兒童及少年犯罪事件",
-      "確保兒童及少年身心發展 圖(五)",
+      "確保兒童及少年身心發展",
       "維護社會秩序及善良風俗"
     ],
     "answer": 2,
@@ -39436,11 +39420,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-social-p4.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第10題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
