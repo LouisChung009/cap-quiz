@@ -50334,7 +50334,7 @@
     "type": "歷屆真題",
     "question": "一對姊妹先後結婚，圖(四)呈現四人親屬關係。根據圖示，甲、乙、丙、丁四人之間最不可能存在何種關係？（圖示：兩姊妹各自與配偶結婚。）",
     "questionImage": "./assets/official-exams/114-social-p4.webp",
-    "imageAlt": "114年國中教育會考社會科第14題官方試卷頁面",
+    "imageAlt": "114年國中教育會考社會科第14題親屬關係圖",
     "options": [
       "配偶",
       "姻親",
@@ -50369,7 +50369,9 @@
     },
     "requiresImage": true,
     "requiresContext": false,
-    "questionImages": [],
+    "questionImages": [
+      "./assets/official-exams/114-social-p4.webp"
+    ],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：社會第14題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
@@ -50541,8 +50543,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "近年來由於新冠肺炎疫情造成嚴重的通貨膨脹，使得甲地的房價及物價高 漲，影響其生活品質。此外，因為在鄰國的乙地1天的薪水，在甲地約1小時 就賺得到，於是有一部分的甲地人搬至乙地居住，再利用遠距工作或每天通 勤至甲地上班，藉以降低房租及生活消費。上述甲地與乙地依序最可能位於 何國？",
-    "questionImage": "./assets/official-exams/114-social-p5.webp",
-    "imageAlt": "114年國中教育會考社會科第18題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "法國、英國",
       "美國、墨西哥",
@@ -50575,11 +50577,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/114-social-p5.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：社會第18題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
