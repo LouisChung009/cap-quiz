@@ -28152,9 +28152,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/112-social-p2.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第1題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -28175,7 +28173,7 @@
       "串連北中南的工業園區",
       "降低高速公路的車流量",
       "增加高鐵接駁的便利性",
-      "彌補公共運輸網的不足 圖(一)"
+      "彌補公共運輸網的不足"
     ],
     "answer": 3,
     "explanation": "答案 D。圖中幸福巴士路線分布於一般公共運輸較難服務的部分行政區，政策又明言要滿足就學、就醫與洽公需求，顯示其功能是補足既有公共運輸網的缺口。",
@@ -28201,9 +28199,8 @@
       "nextReviewAt": null
     },
     "requiresImage": true,
-    "requiresContext": true,
+    "requiresContext": false,
     "questionImages": [
-      "./assets/official-exams/112-social-p1.webp",
       "./assets/official-exams/112-social-p2.webp"
     ],
     "answerKeyReview": {
@@ -28253,9 +28250,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/112-social-p2.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第3題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -28269,7 +28264,7 @@
     "knowledgePoint": "112年社會第4題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "表(一)為中國不同年分的人口普查部分資料。觀察表中幼年人口比例的變動， 下列何者最可能是造成2010到2020年微幅變化的原因之一？ 表(一) 單位：% 年分 1953 1964 1982 1990 2000 2010 2020 年齡組成 0-14 歲 36.28 40.69 33.59 27.69 22.89 16.60 17.95 15-64 歲 59.31 55.75 61.50 66.74 70.15 74.53 68.55 65 歲以上 4.41 3.56 4.91 5.57 6.96 8.87 13.50",
+    "question": "表(一)為中國不同年份的人口普查部分資料。觀察表中幼年人口比例的變動，下列何者最可能是造成2010到2020年微幅變化的原因之一？\n\n| 年齡組成 | 1953 | 1964 | 1982 | 1990 | 2000 | 2010 | 2020 |\n| 0–14歲 | 36.28% | 40.69% | 33.59% | 27.69% | 22.89% | 16.60% | 17.95% |\n| 15–64歲 | 59.31% | 55.75% | 61.50% | 66.74% | 70.15% | 74.53% | 68.55% |\n| 65歲以上 | 4.41% | 3.56% | 4.91% | 5.57% | 6.96% | 8.87% | 13.50% |",
     "questionImage": "./assets/official-exams/112-social-p2.webp",
     "imageAlt": "112年國中教育會考社會科第4題官方試卷頁面",
     "options": [
@@ -28301,11 +28296,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/112-social-p2.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第4題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -28323,8 +28316,8 @@
     "questionImage": "./assets/official-exams/112-social-p3.webp",
     "imageAlt": "112年國中教育會考社會科第5題官方試卷頁面",
     "options": [
-      "自幼纏足；註：剃度出家：是指剃髮並接受佛教戒律，成為僧侶。",
-      "吸食鴉片 薙髮留辮：剃除大部分頭髮，僅在腦後編成髮辮的滿族髪式。",
+      "自幼纏足",
+      "吸食鴉片",
       "剃度出家",
       "薙髮留辮"
     ],
@@ -28351,11 +28344,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/112-social-p3.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第5題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -28369,7 +28360,7 @@
     "knowledgePoint": "112年社會第6題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "表(二)為兩個雜誌社的成員，他們在某時期曾 表(二) 遭法院判刑入獄。隨著時局更迭，2019年政 雜 誌 社 成 員 府公告撤銷原本的有罪判決，讓他們獲得平 自由中國 雷震等人 反。表中人員當時被判刑，最可能與下列何 美麗島 黃信介等人 者有關？",
+    "question": "表(二)為兩個雜誌社的成員，他們在某時期曾遭法院判刑入獄。隨著時局更迭，2019年政府公告撤銷原本的有罪判決，讓他們獲得平反。\n\n| 雜誌社 | 成員 |\n| 自由中國 | 雷震等人 |\n| 美麗島 | 黃信介等人 |\n\n表中人員當時被判刑，最可能與下列何者有關？",
     "questionImage": "./assets/official-exams/112-social-p3.webp",
     "imageAlt": "112年國中教育會考社會科第6題官方試卷頁面",
     "options": [
@@ -28401,11 +28392,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/112-social-p3.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第6題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -28451,11 +28440,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/112-social-p3.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第7題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -28476,7 +28463,7 @@
       "日本與荷蘭互相合作",
       "荷蘭與西班牙互相敵對",
       "鄭氏政權與英國互相合作",
-      "清帝國與鄭氏政權互相敵對 2"
+      "清帝國與鄭氏政權互相敵對"
     ],
     "answer": 3,
     "explanation": "答案 D。李科羅原受鄭氏統治者保護，1663 年返廈門時當地政權已更替；他擔心被送往北京，反映清帝國與據守臺灣、廈門一帶的鄭氏政權處於對立，故選 D。",
@@ -28553,9 +28540,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/112-social-p4.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第9題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -28569,14 +28554,14 @@
     "knowledgePoint": "112年社會第10題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "圖(三)為某島國周邊範圍的示意圖，甲 區塊為該國的土地，乙、丙區塊為環繞 在甲周圍的海域，而丁、戊、己區塊則 分別為甲、乙、丙所對應大氣層內的空 中領域。根據圖中內容判斷，該國完整 的領土範圍應為下列何者？",
+    "question": "圖(三)為某島國周邊範圍的示意圖，甲 區塊為該國的土地，乙、丙區塊為環繞 在甲周圍的海域，而丁、戊、己區塊則 分別為甲、乙、丙所對應大氣層內的空 中領域。根據圖中內容判斷，該國完整 的領土範圍應為下列何者？（圖中「大氣層」指圍繞地球周圍的空氣。）",
     "questionImage": "./assets/official-exams/112-social-p4.webp",
     "imageAlt": "112年國中教育會考社會科第10題官方試卷頁面",
     "options": [
       "甲、丁",
-      "甲、乙、丁 圖(三)",
+      "甲、乙、丁",
       "甲、乙、丁、戊",
-      "甲、乙、丙、丁、戊；註：大氣層：圍繞地球周圍的空氣。"
+      "甲、乙、丙、丁、戊"
     ],
     "answer": 2,
     "explanation": "答案 C。國家的領土包括領海範圍內的陸地、海域及其上空；圖示對應甲島嶼、乙領海與丁、戊兩區上空。丙為領海外的海域，己則是其上空，皆非該國領土。",
@@ -28619,14 +28604,14 @@
     "knowledgePoint": "112年社會第11題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "圖(四)是小強在網路上張貼的問題 及四位網友的回答，根據圖中內 容判斷，下列何者的回答可以給 小強適當的協助？",
+    "question": "【題目材料】小強：同學在教室裡惡作劇把椅子拉開，害我跌倒手腳擦傷，我該怎麼要求賠償？\n\n網友回覆：\n小臻：這種事，找消費者保護官就對了！\n小康：若不想上法院，找調解就解決了！\n小芬：查一下家庭暴力防治法就知道了！\n小俊：向檢察官提出自訴即可解決！\n\n根據以上內容，何者的回答可以給小強適當的協助？",
     "questionImage": "./assets/official-exams/112-social-p4.webp",
     "imageAlt": "112年國中教育會考社會科第11題官方試卷頁面",
     "options": [
       "小臻",
       "小康",
       "小芬",
-      "小俊 圖(四)"
+      "小俊"
     ],
     "answer": 1,
     "explanation": "答案 B（小康）。小強在教室遭同學拉椅子而跌倒受傷，若希望不經訴訟處理，可透過調解協商賠償。消費者保護官處理消費爭議，家庭暴力防治法不適用；刑事案件也不是向檢察官提出自訴。",
@@ -28651,11 +28636,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/112-social-p4.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第11題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -28669,12 +28652,12 @@
     "knowledgePoint": "112年社會第12題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "某日，小晴沒來上課，班上同學們問 《紀念日及節日實施辦法》第4條： 了老師才知道，因為小晴是太魯閣族 下列民俗節日，除春節放假三日 的原住民，所以他今天放假和家人一 外，其餘均放假一日： 起返回部落參與感恩祭。老師也藉機 一、春節。 以圖(五)中的法律規範，向同學們說 明小晴可以放假的依據。根據上述內 六、原住民族歲時祭儀：各該原住 容判斷，主管機關將原住民族的傳統 民族放假日期，由行政院原住 祭儀納入法律規範的原因，其主要考 民族委員會參酌各該原住民族 量最可能是下列何者？ 習俗公告，並刊登政府公報。",
+    "question": "某日，小晴沒來上課，班上同學問老師後得知，她是太魯閣族原住民，今天放假與家人返回部落參與感恩祭。老師藉機說明她放假的法律依據。\n\n《紀念日及節日實施辦法》第4條規定：民俗節日除春節放假三日外，其餘均放假一日；原住民族歲時祭儀的放假日期，由行政院原住民族委員會參酌各該原住民族習俗公告，並刊登政府公報。\n\n主管機關將原住民族傳統祭儀納入法律規範，主要考量最可能為何？",
     "questionImage": "./assets/official-exams/112-social-p4.webp",
     "imageAlt": "112年國中教育會考社會科第12題官方試卷頁面",
     "options": [
       "落實部落自治，提升地方行政效率",
-      "推動觀光發展，增加青年工作機會 圖(五)",
+      "推動觀光發展，增加青年工作機會",
       "凝聚居民認同，改善社區生活環境",
       "尊重多元文化，促進部落文化傳承"
     ],
@@ -28701,12 +28684,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/112-social-p3.webp",
-      "./assets/official-exams/112-social-p4.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第12題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -28754,9 +28734,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/112-social-p5.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第13題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -28770,7 +28748,7 @@
     "knowledgePoint": "112年社會第14題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "圖(六)的詩為唐代詩人登上今湖北 襄陽的一座山 頭，見石碑碑文有感而發之作。詩中「水落魚梁 淺」指山腳下的魚梁沙洲因水位變化而露出水面， 作者藉以說明環境與世事的變化。關於形成「水落 魚梁淺」現象的原因，下列推論何者最為適切？ 圖(六)",
+    "question": "唐代詩人孟浩然登上今湖北襄陽的峴山，見石碑碑文有感而作〈與諸子登峴山〉。詩句「水落魚梁淺」指山腳下的魚梁沙洲因水位下降而露出水面，作者藉此說明環境與世事的變化。形成「水落魚梁淺」現象的原因，何者最適切？",
     "questionImage": "./assets/official-exams/112-social-p5.webp",
     "imageAlt": "112年國中教育會考社會科第14題官方試卷頁面",
     "options": [
@@ -28802,11 +28780,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/112-social-p5.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第14題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -28824,9 +28800,9 @@
     "questionImage": "./assets/official-exams/112-social-p5.webp",
     "imageAlt": "112年國中教育會考社會科第15題官方試卷頁面",
     "options": [
-      "臺灣的紡織品出口至越南 7 11",
+      "臺灣的紡織品出口至越南",
       "加拿大的小麥出口至日本",
-      "墨西哥的汽車出口至智利 圖(七)",
+      "墨西哥的汽車出口至智利",
       "馬來西亞的石油出口至印度"
     ],
     "answer": 0,
@@ -28870,7 +28846,7 @@
     "knowledgePoint": "112年社會第16題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "某地區於2017年入選為世界遺產，該地區涵蓋了森林、谷地、潟湖及珊瑚礁 等景觀，遺產的中心是玻里尼西亞普遍可見的毛利集會中心，此遺產是毛利 文化極具代表性的見證。根據上文描述判斷，該遺產最可能位於下列何處？",
+    "question": "某地區於2017年入選為世界遺產，該地區涵蓋了森林、谷地、潟湖及珊瑚礁 等景觀，遺產的中心是玻里尼西亞普遍可見的毛利集會中心，此遺產是毛利 文化極具代表性的見證。根據上述描述判斷，該遺產最可能位於下列何處？",
     "questionImage": "./assets/official-exams/112-social-p5.webp",
     "imageAlt": "112年國中教育會考社會科第16題官方試卷頁面",
     "options": [
@@ -28902,12 +28878,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/112-social-p4.webp",
-      "./assets/official-exams/112-social-p5.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第16題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -28922,7 +28895,7 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "《周成過臺灣》是著名的民間傳說，其時代背景符合史實。故事描述周成拋 下故鄉泉州的妻兒，獨自來臺經商。適逢淡水、雞籠開港通商，周成在大稻 埕從事新興商品出口而致富。後來周成移情別戀，謀殺了來臺灣探視的妻 子，最終受到報應而死。根據上述內容，周成最有可能從事下列何種商品的 貿易？",
-    "questionImage": "./assets/official-exams/112-social-p6.webp",
+    "questionImage": "./assets/official-exams/112-social-p5.webp",
     "imageAlt": "112年國中教育會考社會科第17題官方試卷頁面",
     "options": [
       "茶葉",
@@ -28953,12 +28926,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/112-social-p5.webp",
-      "./assets/official-exams/112-social-p6.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第17題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -29006,9 +28976,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/112-social-p6.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第18題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -29072,11 +29040,11 @@
     "knowledgePoint": "112年社會第20題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "「關於我的『政治主張』，因為和蔣委員長在意見上的衝突，已經沒有和解的 跡象。我考慮了三種方法來解決此事，第一是辭職、第二是勸諫、第三是兵 諫。第一個方法因為我的國難家仇，和東北軍部下們的反對而不可行。最近我 試了第二個方法，但導致蔣委員長極端憤怒。因此我決定採取第三個方法，以 武力拘禁蔣委員長。」上述「政治主張」最可能為下列何者？",
+    "question": "「關於我的『政治主張』，因為和蔣委員長（此處指蔣中正）在意見上的衝突，已經沒有和解的 跡象。我考慮了三種方法來解決此事，第一是辭職、第二是勸諫、第三是兵 諫。第一個方法因為我的國難家仇，和東北軍部下們的反對而不可行。最近我 試了第二個方法，但導致蔣委員長極端憤怒。因此我決定採取第三個方法，以 武力拘禁蔣委員長。」上述「政治主張」最可能為下列何者？",
     "questionImage": "./assets/official-exams/112-social-p6.webp",
     "imageAlt": "112年國中教育會考社會科第20題官方試卷頁面",
     "options": [
-      "立即停止內戰，聯合各黨派抗日；註：蔣委員長：此處指蔣中正。",
+      "立即停止內戰，聯合各黨派抗日",
       "反對洪憲帝制，起兵討伐袁世凱",
       "終結軍閥混戰，完成中國的統一",
       "攘外必先安內，全力剿滅共產黨"
@@ -29104,11 +29072,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/112-social-p6.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第20題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
