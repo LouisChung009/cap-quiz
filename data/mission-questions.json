@@ -45384,9 +45384,9 @@
     "knowledgePoint": "114年國文第29題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據甲文，關於劇本的創作，下列敘述何者最恰當？",
-    "questionImage": "./assets/official-exams/114-chinese-p10.webp",
-    "imageAlt": "114年國中教育會考國文科第29題官方試卷頁面",
+    "question": "【閱讀材料】\n甲文：導演希區考克說：「製作一部偉大的電影需要三樣東西：劇本、劇本、劇本。」劇本除對白外，還須以視覺化描寫讓觀眾進入真實世界、維持注意力。視覺化寫作包含四項：一、場景外觀（地點看起來如何，須描寫其獨特之處）；二、場景事件（場景中發生什麼事、人物正在做什麼）；三、角色外貌（角色的外觀、服裝與神情）；四、角色行動（角色如何移動、做出什麼動作，並藉身體動作呈現心理）。\n乙劇本：室內，安德魯的練習室。安德魯在昏暗狹小的練習室練習雙跳，前方譜架上的電子節拍器閃爍，紅色數字顯示速度380。他停下來將速度調為390，再繼續練習，試著跟上400的速度，卻逐漸跟不上；全力以赴、汗流浹背、雙手起泡。這時「喀啦」，他的右鼓棒斷成兩半。他停下，疲憊地看著自己的手，再看仍在作響的節拍器，抬頭望向海報中的人物——巴迪．瑞奇俯在鼓上。\n\n根據甲文，關於劇本的創作，下列敘述何者最恰當？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "增加對白的比例可讓電影更有視覺效果",
       "要看懂電影必須先學習視覺化寫作的技能",
@@ -45416,15 +45416,14 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p10.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第29題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
-    }
+    },
+    "optionsInImage": false
   },
   {
     "id": "OFF-0904",
@@ -45434,9 +45433,9 @@
     "knowledgePoint": "114年國文第30題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "關於乙劇本的寫作分析，下列何者最恰當？",
-    "questionImage": "./assets/official-exams/114-chinese-p10.webp",
-    "imageAlt": "114年國中教育會考國文科第30題官方試卷頁面",
+    "question": "【閱讀材料】\n甲文：導演希區考克說：「製作一部偉大的電影需要三樣東西：劇本、劇本、劇本。」劇本除對白外，還須以視覺化描寫讓觀眾進入真實世界、維持注意力。視覺化寫作包含四項：一、場景外觀（地點看起來如何，須描寫其獨特之處）；二、場景事件（場景中發生什麼事、人物正在做什麼）；三、角色外貌（角色的外觀、服裝與神情）；四、角色行動（角色如何移動、做出什麼動作，並藉身體動作呈現心理）。\n乙劇本：室內，安德魯的練習室。安德魯在昏暗狹小的練習室練習雙跳，前方譜架上的電子節拍器閃爍，紅色數字顯示速度380。他停下來將速度調為390，再繼續練習，試著跟上400的速度，卻逐漸跟不上；全力以赴、汗流浹背、雙手起泡。這時「喀啦」，他的右鼓棒斷成兩半。他停下，疲憊地看著自己的手，再看仍在作響的節拍器，抬頭望向海報中的人物——巴迪．瑞奇俯在鼓上。\n\n關於乙劇本的寫作分析，下列何者最恰當？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "透過極簡的對白讓事件留有餘韻",
       "藉「關上」一詞讓角色間有衝突",
@@ -45466,16 +45465,14 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p10.webp",
-      "./assets/official-exams/114-chinese-p11.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第30題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
-    }
+    },
+    "optionsInImage": false
   },
   {
     "id": "OFF-0905",
@@ -45485,9 +45482,9 @@
     "knowledgePoint": "114年國文第31題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "乙劇本畫線處的文句，最無法呼應甲文中哪一項視覺化寫作的要素？",
-    "questionImage": "./assets/official-exams/114-chinese-p10.webp",
-    "imageAlt": "114年國中教育會考國文科第31題官方試卷頁面",
+    "question": "【閱讀材料】\n甲文：導演希區考克說：「製作一部偉大的電影需要三樣東西：劇本、劇本、劇本。」劇本除對白外，還須以視覺化描寫讓觀眾進入真實世界、維持注意力。視覺化寫作包含四項：一、場景外觀（地點看起來如何，須描寫其獨特之處）；二、場景事件（場景中發生什麼事、人物正在做什麼）；三、角色外貌（角色的外觀、服裝與神情）；四、角色行動（角色如何移動、做出什麼動作，並藉身體動作呈現心理）。\n乙劇本：室內，安德魯的練習室。安德魯在昏暗狹小的練習室練習雙跳，前方譜架上的電子節拍器閃爍，紅色數字顯示速度380。他停下來將速度調為390，再繼續練習，試著跟上400的速度，卻逐漸跟不上；全力以赴、汗流浹背、雙手起泡。這時「喀啦」，他的右鼓棒斷成兩半。他停下，疲憊地看著自己的手，再看仍在作響的節拍器，抬頭望向海報中的人物——巴迪．瑞奇俯在鼓上。\n\n乙劇本畫線處的文句，最無法呼應甲文中哪一項視覺化寫作要素？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "場景外觀",
       "場景事件",
@@ -45517,16 +45514,14 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p10.webp",
-      "./assets/official-exams/114-chinese-p11.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第31題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
-    }
+    },
+    "optionsInImage": false
   },
   {
     "id": "OFF-0906",
@@ -45536,9 +45531,9 @@
     "knowledgePoint": "114年國文第32題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據本文，那些人不停追問他人到底賺多少錢，其原因最不可能是下列何者？",
-    "questionImage": "./assets/official-exams/114-chinese-p11.webp",
-    "imageAlt": "114年國中教育會考國文科第32題官方試卷頁面",
+    "question": "【閱讀材料】\n這個社會非常擔心沒有錢，所以常把他人當作比較對象，追問現在與將來能賺多少錢。發問者未必知道多少錢才算足夠；他們不關切生活品質、工作熱忱、自我實現、健康狀態與人生信念等無形價值能否換算成金錢，只想知道一個數字，好和其他欲望所需的金額比較。巨額令人羨慕，微薄的數字則引發焦慮，也阻礙對未來的樂觀想像。支付代價從來不便宜；要把「夠」放在哪個金額上或許難以決定，但出賣自我、夢想、健康、幸福、信念，到了「夠」的時候，沒有人能不說夠。\n\n那些人不停追問他人到底賺多少錢，其原因最不可能是下列何者？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "對貧窮的恐懼",
       "對未來想像的單一",
@@ -45568,15 +45563,14 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p11.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第32題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
-    }
+    },
+    "optionsInImage": false
   },
   {
     "id": "OFF-0907",
@@ -45586,9 +45580,9 @@
     "knowledgePoint": "114年國文第33題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據文意脈絡，畫線處文句的涵義，與下列何者最接近？",
-    "questionImage": "./assets/official-exams/114-chinese-p11.webp",
-    "imageAlt": "114年國中教育會考國文科第33題官方試卷頁面",
+    "question": "【閱讀材料】\n這個社會非常擔心沒有錢，所以常把他人當作比較對象，追問現在與將來能賺多少錢。發問者未必知道多少錢才算足夠；他們不關切生活品質、工作熱忱、自我實現、健康狀態與人生信念等無形價值能否換算成金錢，只想知道一個數字，好和其他欲望所需的金額比較。巨額令人羨慕，微薄的數字則引發焦慮，也阻礙對未來的樂觀想像。支付代價從來不便宜；要把「夠」放在哪個金額上或許難以決定，但出賣自我、夢想、健康、幸福、信念，到了「夠」的時候，沒有人能不說夠。\n\n根據文意脈絡，畫線處文句的涵義與下列何者最接近？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "充分的實現自我",
       "不再與他人比較",
@@ -45618,15 +45612,14 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p11.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第33題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
-    }
+    },
+    "optionsInImage": false
   },
   {
     "id": "OFF-0908",
@@ -45636,14 +45629,14 @@
     "knowledgePoint": "114年國文第34題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據本文，下列店家的說明何者最不可能是「縮水式漲價」？ (A) (B) (C) (D)",
-    "questionImage": "./assets/official-exams/114-chinese-p11.webp",
-    "imageAlt": "114年國中教育會考國文科第34題官方試卷頁面",
+    "question": "【閱讀材料】\n包裝裡的空氣比去年多、盒內餅片變少，未必是錯覺。廠商以價格不變、份量減少的方式變相漲價，從衛生紙、早餐穀片到罐頭都可能出現。為避免消費者直接看到售價上漲，有些品牌採取減少內容量的方式；也有品牌調整商品規格或包裝，使標示價格看似不變、實際取得的商品量下降。調查發現，62%受訪者表示，若遇到減量或規格調整，可能停止購買，反應比單純漲價更強烈。部分企業因此改走另一條路，例如推出銅板價小包裝或新口味，或提供不同用途、特色的替代商品，讓消費者不易直接與原商品價格比較，降低抗拒購買的心理。\n\n下列店家的說明何者最不可能是「縮水式漲價」？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "(A)因氣候異常造成收成歉收，部分產品價格將微幅調漲。",
+      "(B)近期蛋品價格持續上漲，即日起指定餐點附的滷蛋由一顆改為半顆。",
+      "(C)飲料瓶改採曲線設計，價格不變，容量由500毫升減為400毫升。",
+      "(D)因應原物料價格調整，原本隨教材附贈的作業簿改為另行付費。"
     ],
     "answer": 0,
     "explanation": "答案 A。縮水式漲價是售價沒有明顯上調，卻減少內容量、縮小尺寸或降低規格，讓消費者用相近價格買到較少商品。A 說因原料異常漲價而調整售價，屬於直接漲價，不是縮水式漲價。B 把麵量減半、C 把瓶裝容量由 500 c.c. 改為 400 c.c.、D 不再附贈作業簿，都以減少商品或附加內容維持表面價格，較符合本文定義。",
@@ -45668,12 +45661,10 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p11.webp"
-    ],
-    "optionsInImage": true,
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
+    "optionsInImage": false,
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第34題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
@@ -45687,9 +45678,9 @@
     "knowledgePoint": "114年國文第35題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據本文，消費者對企業選擇的「另一條路」較不抗拒的原因，最可能是下列 何者？",
-    "questionImage": "./assets/official-exams/114-chinese-p11.webp",
-    "imageAlt": "114年國中教育會考國文科第35題官方試卷頁面",
+    "question": "【閱讀材料】\n包裝裡的空氣比去年多、盒內餅片變少，未必是錯覺。廠商以價格不變、份量減少的方式變相漲價，從衛生紙、早餐穀片到罐頭都可能出現。為避免消費者直接看到售價上漲，有些品牌採取減少內容量的方式；也有品牌調整商品規格或包裝，使標示價格看似不變、實際取得的商品量下降。調查發現，62%受訪者表示，若遇到減量或規格調整，可能停止購買，反應比單純漲價更強烈。部分企業因此改走另一條路，例如推出銅板價小包裝或新口味，或提供不同用途、特色的替代商品，讓消費者不易直接與原商品價格比較，降低抗拒購買的心理。\n\n消費者對企業選擇的「另一條路」較不抗拒，最可能是下列何者？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "較可感受廠商回饋的誠意",
       "較符合實際上的使用需求",
@@ -45719,15 +45710,14 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p11.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第35題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
-    }
+    },
+    "optionsInImage": false
   },
   {
     "id": "OFF-0910",
@@ -45737,9 +45727,9 @@
     "knowledgePoint": "114年國文第36題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "關於文中新、舊《五代史》對南唐君主的記載，下列敘述何者最恰當？",
-    "questionImage": "./assets/official-exams/114-chinese-p12.webp",
-    "imageAlt": "114年國中教育會考國文科第36題官方試卷頁面",
+    "question": "【閱讀材料】\n五代十國是唐亡後至宋統一前，各地分立的政權。北方五代更替頻繁，政權正統性多由北方中原王朝承接；南唐等十國則屬偏安政權。南唐後主李煜向宋太祖趙匡胤投降時，後世史書對南唐的記載與定位並不相同。《舊五代史》將十國中稱帝者列為「僭偽列傳」，南唐也在其中；南唐部分只寫到第三主李煜，未記後主。《新五代史》提及後主李煜入宋，卻未完整記述南唐史事。\n作者指出，理解這些差異須注意中國史家重視王朝傳承的「正統情結」。五代北方政權更迭迅速、戰亂頻仍，朝廷難以長期發展文化與民生；相較之下，南唐君主重視文教、珍藏圖書、設立教坊並延攬文士，南唐因而成為文化重鎮。\n\n關於文中新、舊《五代史》對南唐君主的記載，下列敘述何者最恰當？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "《舊五代史》記錄李昪，是因為認同他的正統地位",
       "新、舊《五代史》都不肯承認南唐君主的帝王身分",
@@ -45769,15 +45759,14 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p12.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第36題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
-    }
+    },
+    "optionsInImage": false
   },
   {
     "id": "OFF-0911",
@@ -45787,9 +45776,9 @@
     "knowledgePoint": "114年國文第37題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據本文，下列何者最接近作者的觀點？",
-    "questionImage": "./assets/official-exams/114-chinese-p12.webp",
-    "imageAlt": "114年國中教育會考國文科第37題官方試卷頁面",
+    "question": "【閱讀材料】\n五代十國是唐亡後至宋統一前，各地分立的政權。北方五代更替頻繁，政權正統性多由北方中原王朝承接；南唐等十國則屬偏安政權。南唐後主李煜向宋太祖趙匡胤投降時，後世史書對南唐的記載與定位並不相同。《舊五代史》將十國中稱帝者列為「僭偽列傳」，南唐也在其中；南唐部分只寫到第三主李煜，未記後主。《新五代史》提及後主李煜入宋，卻未完整記述南唐史事。\n作者指出，理解這些差異須注意中國史家重視王朝傳承的「正統情結」。五代北方政權更迭迅速、戰亂頻仍，朝廷難以長期發展文化與民生；相較之下，南唐君主重視文教、珍藏圖書、設立教坊並延攬文士，南唐因而成為文化重鎮。\n\n下列何者最接近作者的觀點？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "應該重視王朝興替的「正統情結」",
       "北方政權相對穩定，有利於人文建設",
@@ -45819,15 +45808,14 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p12.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第37題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
-    }
+    },
+    "optionsInImage": false
   },
   {
     "id": "OFF-0912",
