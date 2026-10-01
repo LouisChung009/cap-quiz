@@ -44998,14 +44998,14 @@
     "knowledgePoint": "114年國文第21題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "世界盃足球賽在16強賽到4強賽之間採單淘汰制（輸一場即遭淘汰），根據這 張賽程表推判，下列結果何者最可能出現？",
-    "questionImage": "./assets/official-exams/114-chinese-p6.webp",
-    "imageAlt": "114年國中教育會考國文科第21題官方試卷頁面",
+    "question": "【賽程資料】16強採單淘汰制（輸一場即淘汰）。左半區隊伍：荷蘭、美國、阿根廷、澳大利亞、日本、克羅埃西亞、巴西、南韓；右半區隊伍：英格蘭、塞內加爾、法國、波蘭、摩洛哥、西班牙、葡萄牙、瑞士。冠軍與亞軍由決賽決定；兩支四強落敗隊再爭季軍。下列哪一組冠軍、亞軍、季軍結果最可能出現？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "冠軍阿根廷、亞軍巴西、季軍英格蘭",
+      "冠軍荷蘭、亞軍波蘭、季軍澳大利亞",
+      "冠軍法國、亞軍西班牙、季軍葡萄牙",
+      "冠軍克羅埃西亞、亞軍摩洛哥、季軍塞內加爾"
     ],
     "answer": 3,
     "explanation": "答案 D。淘汰賽輸一場即出局，冠軍與亞軍必須分屬左右兩個賽區，而季軍是另一場準決賽的敗方。D 中克羅埃西亞位於左半區、摩洛哥位於右半區，可在冠軍戰相遇；塞內加爾也可能在右半區另一支路線輸掉準決賽，取得季軍。A 的阿根廷與巴西都在左半區，不可能同列冠亞軍；B 的荷蘭、澳洲無法同時成為冠軍與季軍；C 的法國、西班牙同在右半區，亦不能分列冠亞軍。",
@@ -45030,12 +45030,10 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p6.webp"
-    ],
-    "optionsInImage": true,
+    "questionImages": [],
+    "optionsInImage": false,
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第21題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
@@ -45096,14 +45094,14 @@
     "knowledgePoint": "114年國文第23題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "「令遠方之卒守塞，一歲而更，不知胡人之能。不如選常居者家室田作，且以 備之，以便為之高城深塹。先為室屋、具田器，乃募民免罪、拜爵，予冬夏 衣、廩食，能自給而止。塞下之民，祿利不厚，不可使久居危難之地。胡人入 驅而能止其所驅者，以其半予之。如是則邑里相救助，赴胡不避死，全親戚而 利其財也。此與遠方之戍卒，不習地勢而心畏胡者，功相萬也。」關於文中 「遠卒守塞」、「募民屯戍」的比較，下列何者最恰當？",
-    "questionImage": "./assets/official-exams/114-chinese-p7.webp",
-    "imageAlt": "114年國中教育會考國文科第23題官方試卷頁面",
+    "question": "【比較資料】\n比較項目｜遠卒守塞｜募民屯戍\n駐地的久暫｜久居｜一歲而更\n獲得的福利｜室屋、田器｜冬夏衣、廩食\n對地勢的了解｜熟習｜不熟習\n對胡人的心態｜畏懼｜不畏懼\n\n「遠方之卒守塞」與「募民屯戍」的做法如上。關於文中兩者的比較，下列何者最恰當？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "(A)駐地久暫：遠卒久居；募民一年輪替",
+      "(B)獲得福利：遠卒有室屋、田器；募民有冬夏衣、糧食",
+      "(C)地勢熟悉度：遠卒熟悉；募民不熟悉",
+      "(D)對胡人心態：遠卒畏懼；募民不畏懼"
     ],
     "answer": 3,
     "explanation": "答案 D。遠方徵來的戍卒不熟悉塞下地勢、心裡畏懼胡人；改募當地居民屯戍，居民熟悉環境，又要保護家人、田產，遇到胡人來犯時會互相救助、不避死戰。因此兩種方法對「對胡人的心態」可分別概括為畏懼與不畏懼。",
@@ -45128,12 +45126,10 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p7.webp"
-    ],
-    "optionsInImage": true,
+    "questionImages": [],
+    "optionsInImage": false,
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第23題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
@@ -45194,9 +45190,9 @@
     "knowledgePoint": "114年國文第25題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據本文，下列關於公呆的敘述何者最恰當？",
-    "questionImage": "./assets/official-exams/114-chinese-p8.webp",
-    "imageAlt": "114年國中教育會考國文科第25題官方試卷頁面",
+    "question": "【閱讀材料】\n作者的外孫談起一顆名叫「明」的北極圓蛤：牠已活超過五百年，科學家推估出生於明朝，因此得名；北極海底還可能有更老的蛤蜊。作者則回憶自己年幼時跟著舅舅勞動，最喜歡到海邊挖「公呆」。公呆生活在潮濕窪地，遇到動物接近會噴水示警；這可能嚇走敵人，卻也會暴露位置，讓挖蛤的人找到牠們。公呆常攤平在潮泥表面，只需薄土覆蓋，殼薄且容易被踩破。作者回憶公呆很容易挖到；孫子擔心過度捕撈會使牠絕種，外婆則說公呆生命短，秋天轉冷時常成群死亡。孫子進一步認為，公呆並非懶惰，而是因生命短暫、承受不了壓力，才以攤平的方式生活；牠們仍能在有限時間裡享受陽光與陪伴。\n\n根據本文，下列關於公呆的敘述何者最恰當？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "若移至深海生活，可以延長生命",
       "噴水嚇阻敵人，反而暴露藏身處",
@@ -45226,11 +45222,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p8.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第25題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
@@ -45244,9 +45238,9 @@
     "knowledgePoint": "114年國文第26題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "關於本文的寫作分析，下列何者最恰當？",
-    "questionImage": "./assets/official-exams/114-chinese-p8.webp",
-    "imageAlt": "114年國中教育會考國文科第26題官方試卷頁面",
+    "question": "【閱讀材料】\n作者的外孫談起一顆名叫「明」的北極圓蛤：牠已活超過五百年，科學家推估出生於明朝，因此得名；北極海底還可能有更老的蛤蜊。作者則回憶自己年幼時跟著舅舅勞動，最喜歡到海邊挖「公呆」。公呆生活在潮濕窪地，遇到動物接近會噴水示警；這可能嚇走敵人，卻也會暴露位置，讓挖蛤的人找到牠們。公呆常攤平在潮泥表面，只需薄土覆蓋，殼薄且容易被踩破。作者回憶公呆很容易挖到；孫子擔心過度捕撈會使牠絕種，外婆則說公呆生命短，秋天轉冷時常成群死亡。孫子進一步認為，公呆並非懶惰，而是因生命短暫、承受不了壓力，才以攤平的方式生活；牠們仍能在有限時間裡享受陽光與陪伴。\n\n關於本文的寫作分析，下列何者最恰當？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "以祖孫對話暗示不同世代價值觀的差異",
       "以作者童年拾蛤經驗抒發對親人的懷念",
@@ -45276,11 +45270,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p8.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第26題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
@@ -45294,9 +45286,9 @@
     "knowledgePoint": "114年國文第27題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "小原根據本文與圖(一)畫了一張灰面鵟鷹遷徙路線圖，如圖(二)。小嵐認為 小原在圖中標示的遷徙路線有疏漏和錯誤，他提出了下列說法。對照本文 後，何者可以成立？ 圖(一) 圖(二)",
+    "question": "【閱讀材料】\n灰面鵟鷹是過境臺灣的候鳥。每年十月起，牠們從日本、琉球列島或中國東北南下，經臺灣前往菲律賓度冬；三月再集結北返。研究人員長期追蹤後發現，春季北返有兩條路線：一條從度冬地北上，經臺灣東南外海的蘭嶼、琉球，返回日本繁殖地；另一條經臺灣西岸，再回到中國東北、北韓或日本。臺灣中部八卦山是重要休息站。每年春天成千上萬灰面鵟鷹從南方來，彰化人稱牠們「南路鷹」。八卦山次生林提供豐富食物；猛禽遷徙仰賴氣流滑翔，需沿山脈尋找上升氣流以提升高度，八卦山具備此地形條件。\n\n小原根據本文與圖（一）畫出灰面鵟鷹遷徙路線圖，如圖（二）。小嵐認為路線有疏漏和錯誤，以下哪一說法可以成立？",
     "questionImage": "./assets/official-exams/114-chinese-p9.webp",
-    "imageAlt": "114年國中教育會考國文科第27題官方試卷頁面",
+    "imageAlt": "114年國中教育會考國文科第27題遷徙路線圖",
     "options": [
       "北上的路線應該在臺灣南部出海",
       "北上的路線少畫了經由蘭嶼的這條",
@@ -45327,7 +45319,7 @@
       "nextReviewAt": null
     },
     "requiresImage": true,
-    "requiresContext": true,
+    "requiresContext": false,
     "questionImages": [
       "./assets/official-exams/114-chinese-p9.webp"
     ],
@@ -45344,9 +45336,9 @@
     "knowledgePoint": "114年國文第28題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據本文，八卦山成為灰面鵟鷹重要休息站的原因，最可能是下列何者？",
-    "questionImage": "./assets/official-exams/114-chinese-p9.webp",
-    "imageAlt": "114年國中教育會考國文科第28題官方試卷頁面",
+    "question": "【閱讀材料】\n灰面鵟鷹是過境臺灣的候鳥。每年十月起，牠們從日本、琉球列島或中國東北南下，經臺灣前往菲律賓度冬；三月再集結北返。研究人員長期追蹤後發現，春季北返有兩條路線：一條從度冬地北上，經臺灣東南外海的蘭嶼、琉球，返回日本繁殖地；另一條經臺灣西岸，再回到中國東北、北韓或日本。臺灣中部八卦山是重要休息站。每年春天成千上萬灰面鵟鷹從南方來，彰化人稱牠們「南路鷹」。八卦山次生林提供豐富食物；猛禽遷徙仰賴氣流滑翔，需沿山脈尋找上升氣流以提升高度，八卦山具備此地形條件。\n\n八卦山成為灰面鵟鷹重要休息站的原因，最可能是下列何者？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "林相完整，雨量豐沛",
       "地形獨特，容易識別",
@@ -45376,11 +45368,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-p9.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第28題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
