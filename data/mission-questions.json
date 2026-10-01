@@ -5927,9 +5927,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-social-p2.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第2題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -6027,9 +6025,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-social-p2.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第4題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -6125,11 +6121,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-social-p3.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第6題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -6227,9 +6221,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-social-p3.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第8題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -6243,7 +6235,7 @@
     "knowledgePoint": "110年社會第9題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "以下是一位外國記者對臺灣的記錄：「在插滿了新國旗的建築物內，擠入了 許多情緒高昂的人們。新國旗以藍色為背景，中間有隻黃色老虎，尾巴翹得 半天高；官員與群眾燃放鞭炮互相打氣。……直到日本軍艦在沿岸偵察的消 息傳來，群眾像被潑了盆冷水般紛紛走避，官員則退入房內商量對策。這時 大家才發現，想要爭取建立新的政權，除了升旗、放鞭炮以外，還有其他更 重要的事情要做。」上述內容與下列何者最為相關？",
+    "question": "一位外國記者記錄：1895 年，臺灣某地建築插上藍底黃虎旗，群眾情緒高昂，官民燃放鞭炮；當日本軍艦抵近的消息傳來，眾人才意識到建立新政權還需面對軍事威脅。上述內容與下列何者最為相關？",
     "questionImage": "./assets/official-exams/110-social-p3.webp",
     "imageAlt": "110年國中教育會考社會科第9題官方試卷頁面",
     "options": [
@@ -6275,11 +6267,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-social-p3.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：社會第9題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
