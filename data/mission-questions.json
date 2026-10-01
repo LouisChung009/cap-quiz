@@ -35273,7 +35273,7 @@
     "knowledgePoint": "113年英文第1題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Look at the picture. There is under the door.",
+    "question": "Look at the picture. There is ____ under the door.",
     "questionImage": "./assets/official-exams/113-english-p2.webp",
     "imageAlt": "113年國中教育會考英文科第1題官方試卷頁面",
     "options": [
@@ -35329,8 +35329,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "My ____ hurts so much that I cannot even turn my head.",
-    "questionImage": "./assets/official-exams/113-english-p2.webp",
-    "imageAlt": "113年國中教育會考英文科第2題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "arm",
       "knee",
@@ -35367,9 +35367,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-english-p2.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：英文第2題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -35384,8 +35382,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "Our school basketball team won the national game last night. We are so ____ them.",
-    "questionImage": "./assets/official-exams/113-english-p2.webp",
-    "imageAlt": "113年國中教育會考英文科第3題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "popular with",
       "proud of",
@@ -35422,9 +35420,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-english-p2.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：英文第3題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -35439,8 +35435,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "Tomorrow is Sam’s last day in the office. Nobody knows why he decided to ____.",
-    "questionImage": "./assets/official-exams/113-english-p2.webp",
-    "imageAlt": "113年國中教育會考英文科第4題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "hide",
       "leave",
@@ -35477,9 +35473,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-english-p2.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：英文第4題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -35494,8 +35488,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "It’s not a good idea to go mountain climbing in this bad ____. We should wait until the typhoon goes away.",
-    "questionImage": "./assets/official-exams/113-english-p2.webp",
-    "imageAlt": "113年國中教育會考英文科第5題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "chance",
       "dream",
@@ -35532,9 +35526,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-english-p2.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：英文第5題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -35549,8 +35541,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "Chris loves walking with Anna on snowy days, but Anna hates ____ very much.",
-    "questionImage": "./assets/official-exams/113-english-p2.webp",
-    "imageAlt": "113年國中教育會考英文科第6題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "them",
       "so",
@@ -35587,9 +35579,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-english-p2.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：英文第6題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -35604,8 +35594,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "Lora likes to eat bananas that are already a little brown on the outside, and so ____ I.",
-    "questionImage": "./assets/official-exams/113-english-p2.webp",
-    "imageAlt": "113年國中教育會考英文科第7題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "am",
       "do",
@@ -35642,9 +35632,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-english-p2.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：英文第7題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -35659,8 +35647,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "Your refrigerator shouldn’t be making loud noises now, but if it ____ does, just give me a call and I’ll come check it again.",
-    "questionImage": "./assets/official-exams/113-english-p2.webp",
-    "imageAlt": "113年國中教育會考英文科第8題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "already",
       "even",
@@ -35697,9 +35685,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-english-p2.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：英文第8題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -35714,8 +35700,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "After winning money in the card game, Jay decided to try again. He felt that he might also be ____ a second time.",
-    "questionImage": "./assets/official-exams/113-english-p2.webp",
-    "imageAlt": "113年國中教育會考英文科第9題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "famous",
       "interested",
@@ -35752,9 +35738,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-english-p2.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：英文第9題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -35769,8 +35753,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "The knife doesn’t cut very well. It’s not as ____ as before.",
-    "questionImage": "./assets/official-exams/113-english-p3.webp",
-    "imageAlt": "113年國中教育會考英文科第10題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "bright",
       "heavy",
@@ -35807,9 +35791,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-english-p3.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：英文第10題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
