@@ -18698,7 +18698,7 @@
     "options": [
       "朝廷驅逐在華的耶穌會傳教士",
       "玉米、馬鈴薯等美洲作物傳入",
-      "義和團事變對社會經濟的衝擊 圖(十六)",
+      "義和團事變對社會經濟的衝擊",
       "鄭氏勢力擁兵東南與清廷對抗"
     ],
     "answer": 3,
@@ -18776,9 +18776,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/111-social-p9.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依111年國中教育會考官方選擇題參考答案一覽表核對：社會第32題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1IeMHI4BmTpC_2Oc1lQ1Qj6XWHDf9qwGd/view"
@@ -18797,7 +18795,7 @@
     "imageAlt": "111年國中教育會考社會科第33題官方試卷頁面",
     "options": [
       "甲",
-      "乙 圖(十七)",
+      "乙",
       "丙",
       "丁"
     ],
@@ -18849,7 +18847,7 @@
       "審理總統、副總統彈劾案",
       "表決對行政院的糾正提案",
       "召開行政院會議規畫施政方針",
-      "行政院部會首長進行施政報告 8"
+      "行政院部會首長進行施政報告"
     ],
     "answer": 3,
     "explanation": "立法院可邀請行政院院長及各部會首長到立法院進行施政報告，並接受質詢，因此議事直播最可能看到部會首長施政報告，答案 D。",
@@ -18876,9 +18874,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/111-social-p9.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依111年國中教育會考官方選擇題參考答案一覽表核對：社會第34題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1IeMHI4BmTpC_2Oc1lQ1Qj6XWHDf9qwGd/view"
@@ -18926,9 +18922,7 @@
     },
     "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/111-social-p10.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依111年國中教育會考官方選擇題參考答案一覽表核對：社會第35題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1IeMHI4BmTpC_2Oc1lQ1Qj6XWHDf9qwGd/view"
@@ -18949,13 +18943,13 @@
       "皆為甲商店",
       "皆為乙商店",
       "大華：甲商店，小年：乙商店",
-      "大華：乙商店，小年：甲商店 圖(十八)"
+      "大華：乙商店，小年：甲商店"
     ],
     "answer": 3,
-    "explanation": "大華只看距離，地圖上乙店較近，因此到甲店會放棄較近的乙店，機會成本較高；小年只看價格，甲店較貴、乙店較便宜，因此到乙店會放棄低價的甲店優惠（題意以另一店的價格差作為機會成本），答案 D。",
+    "explanation": "地圖上大華家在左上，甲店在右上、乙店在左下，因此大華到甲店較近；小年家在右下，到乙店較近。只重視就近的大華若改到乙店，會放棄較近的甲店；只重視便宜的小年若到較貴的甲店，會放棄乙店低價。兩人機會成本較高的選擇分別是乙店、甲店，答案 D。",
     "solutionSteps": [
-      "先依地圖比較住家到兩店距離：大華住家到乙店較近，到甲店較遠。",
-      "大華重視就近，選較遠的甲店會放棄較近選項；小年重視低價，甲店售價高於乙店。",
+      "讀地圖位置：大華家位於左上，甲店右上、乙店左下；小年家位於右下。",
+      "大華到甲店較近，因此選乙店會放棄較近的選項；小年重視低價，選較貴的甲店會放棄乙店的低價。",
       "按題目設定，兩人未選方案的主要代價對應大華選乙店、小年選甲店，答案 D。"
     ],
     "teacherTip": "機會成本依個人重視的稀缺條件判斷；先看題目指定是距離還是價格。",
@@ -19024,12 +19018,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
-    "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/111-social-p9.webp",
-      "./assets/official-exams/111-social-p10.webp"
-    ],
+    "requiresImage": false,
+    "requiresContext": false,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依111年國中教育會考官方選擇題參考答案一覽表核對：社會第37題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1IeMHI4BmTpC_2Oc1lQ1Qj6XWHDf9qwGd/view"
@@ -19050,7 +19041,7 @@
       "印度",
       "秘魯",
       "澳洲",
-      "菲律賓 圖(十九)"
+      "菲律賓"
     ],
     "answer": 2,
     "explanation": "題目指出該國位於南半球、歐洲人自十八世紀移入，原住民語言大量消失；圖中硬幣也以原住民語言與殖民歷史為主題，最符合澳洲，答案 C。",
@@ -19075,11 +19066,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/111-social-p10.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依111年國中教育會考官方選擇題參考答案一覽表核對：社會第38題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1IeMHI4BmTpC_2Oc1lQ1Qj6XWHDf9qwGd/view"
