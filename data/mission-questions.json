@@ -3179,7 +3179,7 @@
     "knowledgePoint": "110年英文第15題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "What is this ad for?",
+    "question": "閱讀材料（第15–16題）：\nWe’re online now!\nWe’ve prepared many wonderful surprises for you at e-BeautiMed, BeautiMed’s online store!\nSurprise 1: Join ‘BeautiMed Friend’ online for free and get 2,000 BeautiMed points.\nSurprise 2: Already a ‘BeautiMed Friend’? Come collect your free gift by entering your ‘BeautiMed Friend’ card number at e-BeautiMed before 8/31.\nSurprise 3: Get 500 BeautiMed points by shopping at e-BeautiMed and you’ll get 500 more points if you spend more than $1,000.\nSurprise 4: Shop at e-BeautiMed during 7/1–8/31 and you may win $5,000 or free movie tickets.\nSurprise 5: Invite a friend to join ‘BeautiMed Friend’ and you both can get 1,000 points each.\n\nWhat is this ad for?",
     "questionImage": "./assets/official-exams/110-english-p4.webp",
     "imageAlt": "110年國中教育會考英文科第15題官方試卷頁面",
     "options": [
@@ -3215,12 +3215,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/110-english-p3.webp",
-      "./assets/official-exams/110-english-p4.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：英文第15題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -3234,7 +3231,7 @@
     "knowledgePoint": "110年英文第16題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "What will NOT get you BeautiMed points?",
+    "question": "閱讀材料（第15–16題）：\nWe’re online now!\nWe’ve prepared many wonderful surprises for you at e-BeautiMed, BeautiMed’s online store!\nSurprise 1: Join ‘BeautiMed Friend’ online for free and get 2,000 BeautiMed points.\nSurprise 2: Already a ‘BeautiMed Friend’? Come collect your free gift by entering your ‘BeautiMed Friend’ card number at e-BeautiMed before 8/31.\nSurprise 3: Get 500 BeautiMed points by shopping at e-BeautiMed and you’ll get 500 more points if you spend more than $1,000.\nSurprise 4: Shop at e-BeautiMed during 7/1–8/31 and you may win $5,000 or free movie tickets.\nSurprise 5: Invite a friend to join ‘BeautiMed Friend’ and you both can get 1,000 points each.\n\nWhat will NOT get you BeautiMed points?",
     "questionImage": "./assets/official-exams/110-english-p4.webp",
     "imageAlt": "110年國中教育會考英文科第16題官方試卷頁面",
     "options": [
@@ -3270,12 +3267,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/110-english-p3.webp",
-      "./assets/official-exams/110-english-p4.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：英文第16題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -3289,7 +3283,7 @@
     "knowledgePoint": "110年英文第17題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Lynn took some photos at Tom’s party. Which is most likely one of them? (A) (B) 【字彙】 likely 可能 (C) (D)",
+    "question": "對話（第17–18題）：\nJoey: Lynn, have you tried Caldron? I’ve heard that restaurant is good.\nLynn: I have. I went there once for Tom’s party.\nJoey: And?\nLynn: Well, I never thought I would have to cook for myself when eating out.\nJoey: But it’s fun to cook your own food.\nLynn: I don’t see any fun in that. Besides, I want nice food.\nJoey: So you didn’t like the food there?\nLynn: Everything tasted the same. I mean, they were all cooked in the same boiling pot. How could they taste different? I just kept throwing strange things into the pot. I didn’t even know what half the things were made of.\nJoey: Don’t worry. Everything should be safe to eat after a hot bath in the pot. And you didn’t get sick after that, right? Besides, you tried something different there. Still a good experience, I think?\nLynn: I don’t think we share the same idea of good experiences.\n\nLynn took some photos at Tom’s party. Which is most likely one of them? (A) (B) 【字彙】 likely 可能 (C) (D)",
     "questionImage": "./assets/official-exams/110-english-p5.webp",
     "imageAlt": "110年國中教育會考英文科第17題官方試卷頁面",
     "options": [
@@ -3326,7 +3320,7 @@
       "nextReviewAt": null
     },
     "requiresImage": true,
-    "requiresContext": false,
+    "requiresContext": true,
     "questionImages": [
       "./assets/official-exams/110-english-p5.webp"
     ],
@@ -3343,7 +3337,7 @@
     "knowledgePoint": "110年英文第18題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "What can we learn about Lynn from the dialogue?",
+    "question": "對話（第17–18題）：\nJoey: Lynn, have you tried Caldron? I’ve heard that restaurant is good.\nLynn: I have. I went there once for Tom’s party.\nJoey: And?\nLynn: Well, I never thought I would have to cook for myself when eating out.\nJoey: But it’s fun to cook your own food.\nLynn: I don’t see any fun in that. Besides, I want nice food.\nJoey: So you didn’t like the food there?\nLynn: Everything tasted the same. I mean, they were all cooked in the same boiling pot. How could they taste different? I just kept throwing strange things into the pot. I didn’t even know what half the things were made of.\nJoey: Don’t worry. Everything should be safe to eat after a hot bath in the pot. And you didn’t get sick after that, right? Besides, you tried something different there. Still a good experience, I think?\nLynn: I don’t think we share the same idea of good experiences.\n\nWhat can we learn about Lynn from the dialogue?",
     "questionImage": "./assets/official-exams/110-english-p5.webp",
     "imageAlt": "110年國中教育會考英文科第18題官方試卷頁面",
     "options": [
@@ -3379,12 +3373,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/110-english-p4.webp",
-      "./assets/official-exams/110-english-p5.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：英文第18題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -3398,7 +3389,7 @@
     "knowledgePoint": "110年英文第19題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "What do we know about Woollie from Katie’s diary?",
+    "question": "Katie 的日記（第19–21題）：\nDear Diary,\nI was very sad to hear what happened to Woollie yesterday. Woollie was my favorite sheep. I have a storybook about Woollie. It says when Woollie was four, he ran away from Mr. Armstrong’s farm, and it took Mr. Armstrong six years to find Woollie. But Woollie had grown so much fleece that he didn’t even look like a sheep. Mr. Armstrong decided to cut his fleece on TV so everyone could see. Daddy said this happened on the day I was born. Woollie’s fleece weighed 27 kg, and could make clothes for 20 large men. I asked Daddy if his favorite vest was made from Woollie’s fleece. Daddy said no, because Woollie’s fleece was sold to collect money for sick kids. In the storybook, Woollie was taken to see Ms. Stella Clark, the leader of our city then. They even had tea together. Daddy said Woollie did meet Ms. Clark, but he wasn’t sure if they had tea. Daddy said Woollie was put down because he was too sick and there was no way to help him. I cried. I hope Woollie will be happy up there in the sky.\n\nWhat do we know about Woollie from Katie’s diary?",
     "questionImage": "./assets/official-exams/110-english-p6.webp",
     "imageAlt": "110年國中教育會考英文科第19題官方試卷頁面",
     "options": [
@@ -3434,12 +3425,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/110-english-p5.webp",
-      "./assets/official-exams/110-english-p6.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：英文第19題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -3453,7 +3441,7 @@
     "knowledgePoint": "110年英文第20題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "Which picture of Woollie and Ms. Clark did Katie talk about in her diary? (A) (B) (C) (D)",
+    "question": "Katie 的日記（第19–21題）：\nDear Diary,\nI was very sad to hear what happened to Woollie yesterday. Woollie was my favorite sheep. I have a storybook about Woollie. It says when Woollie was four, he ran away from Mr. Armstrong’s farm, and it took Mr. Armstrong six years to find Woollie. But Woollie had grown so much fleece that he didn’t even look like a sheep. Mr. Armstrong decided to cut his fleece on TV so everyone could see. Daddy said this happened on the day I was born. Woollie’s fleece weighed 27 kg, and could make clothes for 20 large men. I asked Daddy if his favorite vest was made from Woollie’s fleece. Daddy said no, because Woollie’s fleece was sold to collect money for sick kids. In the storybook, Woollie was taken to see Ms. Stella Clark, the leader of our city then. They even had tea together. Daddy said Woollie did meet Ms. Clark, but he wasn’t sure if they had tea. Daddy said Woollie was put down because he was too sick and there was no way to help him. I cried. I hope Woollie will be happy up there in the sky.\n\nWhich picture of Woollie and Ms. Clark did Katie talk about in her diary? (A) (B) (C) (D)",
     "questionImage": "./assets/official-exams/110-english-p6.webp",
     "imageAlt": "110年國中教育會考英文科第20題官方試卷頁面",
     "options": [
@@ -3490,7 +3478,7 @@
       "nextReviewAt": null
     },
     "requiresImage": true,
-    "requiresContext": false,
+    "requiresContext": true,
     "questionImages": [
       "./assets/official-exams/110-english-p6.webp"
     ],
@@ -3507,7 +3495,7 @@
     "knowledgePoint": "110年英文第21題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "What happened when Woollie was put down?",
+    "question": "Katie 的日記（第19–21題）：\nDear Diary,\nI was very sad to hear what happened to Woollie yesterday. Woollie was my favorite sheep. I have a storybook about Woollie. It says when Woollie was four, he ran away from Mr. Armstrong’s farm, and it took Mr. Armstrong six years to find Woollie. But Woollie had grown so much fleece that he didn’t even look like a sheep. Mr. Armstrong decided to cut his fleece on TV so everyone could see. Daddy said this happened on the day I was born. Woollie’s fleece weighed 27 kg, and could make clothes for 20 large men. I asked Daddy if his favorite vest was made from Woollie’s fleece. Daddy said no, because Woollie’s fleece was sold to collect money for sick kids. In the storybook, Woollie was taken to see Ms. Stella Clark, the leader of our city then. They even had tea together. Daddy said Woollie did meet Ms. Clark, but he wasn’t sure if they had tea. Daddy said Woollie was put down because he was too sick and there was no way to help him. I cried. I hope Woollie will be happy up there in the sky.\n\nWhat happened when Woollie was put down?",
     "questionImage": "./assets/official-exams/110-english-p6.webp",
     "imageAlt": "110年國中教育會考英文科第21題官方試卷頁面",
     "options": [
@@ -3544,10 +3532,8 @@
       "nextReviewAt": null
     },
     "requiresImage": false,
-    "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/110-english-p6.webp"
-    ],
+    "requiresContext": true,
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：英文第21題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -3561,7 +3547,7 @@
     "knowledgePoint": "110年英文第22題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "What can we learn about The Piano Lesson from the reading?",
+    "question": "閱讀材料（第22–24題）：\nHere’s The Piano Lesson, one of Henri Matisse’s most famous paintings. The boy in the picture is the painter’s son, Pierre. In the picture, Pierre looks quite serious. Why? Well, look at the yellow candle on the red piano. It’s almost burned down. So maybe Pierre has already practiced for hours. And Matisse uses a lot of gray, not a very fun color, right? It shows how the poor kid feels, don’t you think?\nOn the top right corner, you can see a woman sitting straight on a seat. Is she Pierre’s piano teacher? Or his mother? Well, if you’re a Matisse fan, you’ll know this is in fact another painting by him, Woman on a High Stool. Interesting, right? Matisse likes to do that a lot. In fact, there’s another work by Matisse in the picture. Did you find it? Right! The sculpture on the bottom left corner!\nMatisse painted this picture in 1916. Pierre was already 16 then, but the artist painted his son much younger than he really was. Pierre had gone away to be a soldier, and Matisse didn’t know whether he would come back. Maybe this is a worried father’s way to remember the good old days.\n\nWhat can we learn about The Piano Lesson from the reading?",
     "questionImage": "./assets/official-exams/110-english-p7.webp",
     "imageAlt": "110年國中教育會考英文科第22題官方試卷頁面",
     "options": [
@@ -3616,7 +3602,7 @@
     "knowledgePoint": "110年英文第23題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "What does do that mean in the reading?",
+    "question": "閱讀材料（第22–24題）：\nHere’s The Piano Lesson, one of Henri Matisse’s most famous paintings. The boy in the picture is the painter’s son, Pierre. In the picture, Pierre looks quite serious. Why? Well, look at the yellow candle on the red piano. It’s almost burned down. So maybe Pierre has already practiced for hours. And Matisse uses a lot of gray, not a very fun color, right? It shows how the poor kid feels, don’t you think?\nOn the top right corner, you can see a woman sitting straight on a seat. Is she Pierre’s piano teacher? Or his mother? Well, if you’re a Matisse fan, you’ll know this is in fact another painting by him, Woman on a High Stool. Interesting, right? Matisse likes to do that a lot. In fact, there’s another work by Matisse in the picture. Did you find it? Right! The sculpture on the bottom left corner!\nMatisse painted this picture in 1916. Pierre was already 16 then, but the artist painted his son much younger than he really was. Pierre had gone away to be a soldier, and Matisse didn’t know whether he would come back. Maybe this is a worried father’s way to remember the good old days.\n\nWhat does do that mean in the reading?",
     "questionImage": "./assets/official-exams/110-english-p7.webp",
     "imageAlt": "110年國中教育會考英文科第23題官方試卷頁面",
     "options": [
@@ -3652,12 +3638,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/110-english-p6.webp",
-      "./assets/official-exams/110-english-p7.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：英文第23題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -3671,7 +3654,7 @@
     "knowledgePoint": "110年英文第24題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "What is NOT used in the reading to refer to Henri Matisse? 【字彙】 refer to 指稱",
+    "question": "閱讀材料（第22–24題）：\nHere’s The Piano Lesson, one of Henri Matisse’s most famous paintings. The boy in the picture is the painter’s son, Pierre. In the picture, Pierre looks quite serious. Why? Well, look at the yellow candle on the red piano. It’s almost burned down. So maybe Pierre has already practiced for hours. And Matisse uses a lot of gray, not a very fun color, right? It shows how the poor kid feels, don’t you think?\nOn the top right corner, you can see a woman sitting straight on a seat. Is she Pierre’s piano teacher? Or his mother? Well, if you’re a Matisse fan, you’ll know this is in fact another painting by him, Woman on a High Stool. Interesting, right? Matisse likes to do that a lot. In fact, there’s another work by Matisse in the picture. Did you find it? Right! The sculpture on the bottom left corner!\nMatisse painted this picture in 1916. Pierre was already 16 then, but the artist painted his son much younger than he really was. Pierre had gone away to be a soldier, and Matisse didn’t know whether he would come back. Maybe this is a worried father’s way to remember the good old days.\n\nWhat is NOT used in the reading to refer to Henri Matisse? 【字彙】 refer to 指稱",
     "questionImage": "./assets/official-exams/110-english-p7.webp",
     "imageAlt": "110年國中教育會考英文科第24題官方試卷頁面",
     "options": [
@@ -3707,12 +3690,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": true,
-    "questionImages": [
-      "./assets/official-exams/110-english-p6.webp",
-      "./assets/official-exams/110-english-p7.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：英文第24題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"

@@ -39,14 +39,15 @@ function validate(question, location) {
     if (!Number.isInteger(question.answer) || question.answer < 0 || question.answer > 3) errors.push(`${location}: 答案索引無效`);
   }
   if (!Array.isArray(question.solutionSteps) || question.solutionSteps.length < 3) errors.push(`${location}: 解題步驟不足`);
+  if (question.subject === "數學" && /^(?:無|元|公里|平方公分|分|分鐘|度|人|張|公分)$/.test(question.unit)) errors.push(`${location}: 數學單元欄不可填答案單位或「無」`);
   if (question.subject === "英文" && (!Array.isArray(question.relatedWords) || question.relatedWords.length < 2)) errors.push(`${location}: 缺少英文提示`);
   if (question.subject === "英文" && !isConstructedResponse && !answerIsNamed(question)) errors.push(`${location}: 英文解析未能明確指出標答`);
   if (question.subject === "英文" && /\b(?:in|according to) (?:report|passage|text|article)\s+\d+/i.test(question.question)) errors.push(`${location}: 英文題引用未提供的材料`);
-  if (question.sourceType === "官方歷屆真題" && (!question.source?.year || !question.source?.questionNumber || !question.source?.url || typeof question.requiresImage !== "boolean" || (question.requiresImage && !question.questionImage) || (question.requiresContext && !question.questionImages?.length))) errors.push(`${location}: 真題來源、圖表判斷或後台紀錄不完整`);
+  const contextIsEmbedded = /(?:【(?:閱讀材料(?:摘要)?|資料(?:[甲乙])?)】|閱讀材料(?:（|\(|:)|對話(?:（|\(|:)|Katie 的日記|Reading material(?::|】))/i.test(question.question);
+  if (question.sourceType === "官方歷屆真題" && (!question.source?.year || !question.source?.questionNumber || !question.source?.url || typeof question.requiresImage !== "boolean" || (question.requiresImage && !question.questionImage) || (question.requiresContext && !question.questionImages?.length && !contextIsEmbedded))) errors.push(`${location}: 真題來源、圖表判斷或後台紀錄不完整`);
   if (!isConstructedResponse && question.sourceType === "官方歷屆真題" && question.options.join("") === "ABCD" && !question.requiresImage) errors.push(`${location}: 文字真題選項尚未拆分`);
-  const contextIsEmbedded = /【(?:閱讀材料(?:摘要)?|Reading material(?::|】))/i.test(question.question);
   if (question.sourceType === "官方歷屆真題" && contextPattern.test(question.question) && !contextIsEmbedded && (!question.requiresContext || !question.questionImages?.length)) errors.push(`${location}: 引用本文但缺少閱讀材料`);
-  if (question.sourceType === "官方歷屆真題" && question.requiresContext && !question.questionImages?.length) errors.push(`${location}: 題組前文缺少材料頁`);
+  if (question.sourceType === "官方歷屆真題" && question.requiresContext && !question.questionImages?.length && !contextIsEmbedded) errors.push(`${location}: 題組前文缺少材料頁`);
   if (question.sourceType === "官方歷屆真題" && question.optionsInImage && (!question.requiresImage || question.options.some((option, index) => option !== "ABCD"[index]))) errors.push(`${location}: 圖片選項設定錯誤`);
   if (/試題結束|請翻頁繼續作答|\(cid:\d+\)/i.test(`${question.question} ${(question.options || []).join(" ")}`)) errors.push(`${location}: 含試卷頁尾或 OCR 雜訊`);
   if (allIds.has(question.id)) errors.push(`${location}: ID 重複 ${question.id}`);
