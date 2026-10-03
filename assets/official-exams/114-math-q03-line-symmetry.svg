@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 320" role="img" aria-labelledby="title desc">
+  <title id="title">八條等長線段與標號線段</title>
+  <desc id="desc">方格紙上以八條等長線段組成階梯形；上方水平線段標一，左側垂直線段標二，下方水平線段標三，右側垂直線段標四。</desc>
+  <g fill="none" stroke="#9299a1" stroke-width="1" stroke-dasharray="3 4">
+    <path d="M70 55H290M70 155H290M70 255H290M80 45V265M180 45V265M280 45V265"/>
+  </g>
+  <g fill="none" stroke="#111" stroke-width="5" stroke-linecap="square">
+    <path d="M80 55H180M80 55V155M80 155H180M180 55V155M180 155H280M280 55V155M180 155V255M80 255H180"/>
+  </g>
+  <g fill="#111" font-family="Arial, sans-serif" font-size="25" text-anchor="middle">
+    <text x="130" y="35">①</text>
+    <text x="48" y="117">②</text>
+    <text x="130" y="294">③</text>
+    <text x="312" y="117">④</text>
+  </g>
+  <text x="180" y="316" fill="#333" font-family="sans-serif" font-size="13" text-anchor="middle">圖（一）</text>
+</svg>

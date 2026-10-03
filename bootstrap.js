@@ -46,7 +46,8 @@ try {
     } catch { /* Offline mode keeps the latest local copy. */ }
     gate.classList.add("hidden");
     app.classList.remove("auth-pending");
-    await import("./app.js?v=7.2.0");
+    const runtimeVersion = new URL(import.meta.url).searchParams.get("v");
+    await import(`./app.js${runtimeVersion ? `?v=${encodeURIComponent(runtimeVersion)}` : ""}`);
   }
 } catch (error) {
   clearTimeout(authRedirectTimer);

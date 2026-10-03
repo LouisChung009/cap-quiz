@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" role="img" aria-labelledby="title desc">
+  <title id="title">111年國文第4題「獸」字字體選項</title>
+  <desc id="desc">四種「獸」字字形由左至右排列，辨認其金文、小篆、隸書、楷書字體演變。</desc>
+  <rect width="880" height="340" rx="24" fill="#fff"/>
+  <g fill="#111" font-family="serif" text-anchor="middle">
+    <text x="112" y="88" font-size="25" font-family="sans-serif">依序辨認字形</text>
+    <text x="112" y="242" font-size="156" font-weight="700" transform="rotate(-5 112 195)">獸</text>
+    <text x="326" y="88" font-size="25" font-family="sans-serif">小篆</text>
+    <text x="326" y="242" font-size="156" font-weight="500" transform="scale(.82 1) translate(72 0)">獸</text>
+    <text x="548" y="88" font-size="25" font-family="sans-serif">隸書</text>
+    <text x="548" y="242" font-size="156" font-weight="700" transform="scale(1.05 .84) translate(-26 42)">獸</text>
+    <text x="768" y="88" font-size="25" font-family="sans-serif">楷書</text>
+    <text x="768" y="242" font-size="156" font-weight="700">獸</text>
+  </g>
+  <g fill="none" stroke="#d7e2ea" stroke-width="2">
+    <path d="M220 114v150M438 114v150M658 114v150"/>
+  </g>
+</svg>

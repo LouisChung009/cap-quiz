@@ -70,9 +70,9 @@ exportData.question = "表(十)是臺灣農工業產品在外銷貿易額中所�
 exportData.options = ["推動耕者有其田", "加入世界貿易組織", "實施出口導向政策", "成立新竹科學工業園區"];
 const archaeology = rows.find(item => item.id === "OFF-0171");
 const heritage = rows.find(item => item.id === "OFF-0172");
-const archaeologyContext = "【閱讀材料】約翰．馬歇爾畢業於英國劍橋大學，曾參與希臘遺址考古挖掘。1902 年，他獲大英博物館推薦，派往英國在亞洲的殖民地擔任考古局局長；他接續前人工作，挖掘多處古代遺址，並復原研究與佛教有關的塔院遺址。題圖中的雙底線遺址以佛塔、石柱碑文等遺構見證早期佛教藝術。\n\n";
-archaeology.question = `${archaeologyContext}根據材料，馬歇爾被派遣到的「殖民地」最可能是下列何地？`;
-heritage.question = `${archaeologyContext}文中雙底線處的遺址已列入世界文化遺產，它被指定為世界遺產最可能與下列何者有關？`;
+const archaeologyContext = "【閱讀材料】約翰．馬歇爾畢業於英國劍橋大學，曾參與希臘遺址考古。1902 年，他獲大英博物館推薦，前往英國在亞洲的殖民地擔任考古局局長，持續挖掘與研究當地古蹟；其中，他曾復原並研究桑奇遺址（原文雙底線標示處），其佛塔、石柱與碑文見證早期佛教建築及藝術發展。\n\n";
+archaeology.question = `${archaeologyContext}根據材料，馬歇爾被派遣到的殖民地最可能是下列何地？`;
+heritage.question = `${archaeologyContext}文中雙底線標示的遺址已列入世界文化遺產，最可能是因為它具有下列哪項價值？`;
 archaeology.requiresImage = false;
 heritage.requiresImage = false;
 const leopard = "【閱讀材料】臺灣雲豹原始棲地主要在海拔 1,500 公尺以下的暖溫帶常綠森林。土地大量開發後，近幾十年來雲豹似乎已不見蹤跡，研究者只能從長者及有狩獵經驗的原住民口中蒐集曾捕獲或目擊的資訊；多數受訪者所指稱的地點多位於中央山脈南段的山區。研究人員調查三年多仍未發現雲豹，遂依現有知識繪製可能棲地：先選海拔 300–2,000 公尺、面積超過 40 平方公里的森林；再納入距主要棲地 1 公里內、面積大於 4 平方公里的破碎森林；最後排除距村莊、部落或主要道路 3 公里內的區域。\n\n";

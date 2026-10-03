@@ -31,7 +31,7 @@ for (const [id, fix] of Object.entries(fixes)) {
   const row = questions.find(item => item.id === id);
   if (!row || row.subject !== "英文" || row.sourceType !== "官方歷屆真題" || row.requiresContext || row.requiresImage) throw new Error(`題目不符合安全修復範圍：${id}`);
   row.question = fix.question;
-  row.explanation = `${fix.explanation} 正確答案：${String.fromCharCode(65 + row.answer)}「${row.options[row.answer]}」。`;
+  row.explanation = fix.explanation;
   row.solutionSteps = fix.steps;
   row.teacherTip = "先以句中的時間、因果與搭配線索判斷，再代入選項檢查文法和語意。";
   if (!row.explanation.includes(row.options[row.answer]) || row.solutionSteps.length !== 3) throw new Error(`${id}: 解說欄位驗證失敗`);

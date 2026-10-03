@@ -29,17 +29,63 @@ const rows = [
 ];
 
 if (rows.length !== 20) throw new Error(`Expected 20 rows; got ${rows.length}`);
+const reasoningChecks = [
+  "「三位同學」是共同主語，「各自」將整理工作分配給每個人。",
+  "「晚餐後」交代固定情境，「經常」表示這種練習在不同日子反覆發生。",
+  "號誌轉紅是時間線索，「立即」表示停車緊接著發生。",
+  "「不包含校外比賽」指出被排除的範圍，故「只」限制適用對象。",
+  "只剩一位尚未聯絡，證明工作接近完成，但仍有未完成部分。",
+  "「並未」直接管轄「忘記約定」；晚到另由公車延誤解釋。",
+  "「變得平緩」是逐步變化，「加快腳步」不表示路況突然改變。",
+  "展覽開始已先於目前；仍可購票只說明售票，不改變開始時間。",
+  "後半句「讓學生比較紋理」交代帶石頭的目的。",
+  "「大多數時候騎自行車」與搭火車形成頻率對照。",
+  "執行者是隊長，檢查對象是每個扣環；「親自」排除代辦。",
+  "三個是最低需求數量，更多也可以，少於三個則不符合。",
+  "「一下子」提示轉強突然發生，與每天固定或逐漸減弱不同。",
+  "「完全」加強「沒有碰」的否定程度，否定的是碰模型這個行為。",
+  "「原本以為」提供預期，「很快就到了」提供相反的實際結果。",
+  "「多次試跑」是達成前的努力證據，「終於」標記延遲後成功。",
+  "「其他同學不在名單內」確認限定的是誰會收到通知。",
+  "「大約」修飾二十分鐘的精確度，不否定整理這件事確曾發生。",
+  "活動最後改到室內舉行，表示取消的可能接近實現但並未成真。",
+  "「每個時段都有人」說明不同工作人員依序替班，而非同時離開。"
+];
+const teacherTips = [
+  "「各自」著重分配方式；不要誤讀成同時或共同完成。",
+  "頻率副詞要依反覆發生的情境判斷，不能只看某一次行動。",
+  "分辨「立即」等時間副詞時，先找它和事件的時間先後。",
+  "「只」的焦點會限定後接或語境中的對象，需連同排除語句閱讀。",
+  "「幾乎」不等於「全部」；用尚未完成的細節檢查程度。",
+  "否定詞的作用範圍要看它直接否定的謂語，不要混淆原因子句。",
+  "「逐漸」表示變化歷程，與變化幅度或方向不同。",
+  "「已經」以說話或敘述時間為參照，指出事件先前已發生。",
+  "「特地」常帶有目的性；從後面的目的子句找依據。",
+  "「偶爾」表示低頻但非零，不能直接等同「從不」。",
+  "「親自」標示動作由本人執行，注意與受事對象區分。",
+  "數量詞「至少」表下限，不是上限也不必然等於剛好。",
+  "「忽然」強調事件發生方式或時間的突發性。",
+  "程度副詞與否定詞連用時，先確認被否定的動作。",
+  "轉折副詞需要比較預期與結果兩端的語意。",
+  "「終於」通常暗示達成前有一段等待、困難或反覆嘗試。",
+  "範圍副詞須和名單、數量或適用對象等界線一起解讀。",
+  "估量副詞改變數值精確程度，不必然代表事件不確定。",
+  "「差點」是否成真要用後續結果核對，別把可能當成事實。",
+  "「輪流」表示依序交替，和同時進行或固定由一人負責不同。"
+];
 for (const [index, [question, options, answer, explanation, step1, step3, knowledgePoint]] of rows.entries()) {
   const id = `CHI-${String(821 + index).padStart(4, "0")}`;
   const row = questions.find((item) => item.id === id);
   if (!row || options.length !== 4 || new Set(options).size !== 4 || answer < 0 || answer > 3) throw new Error(`Invalid data for ${id}`);
+  const answerIndex = index === 19 ? 0 : index % 4;
+  [options[answer], options[answerIndex]] = [options[answerIndex], options[answer]];
   row.question = question;
   row.options = options;
-  row.answer = answer;
+  row.answer = answerIndex;
   row.knowledgePoint = knowledgePoint;
-  row.explanation = explanation;
-  row.solutionSteps = [step1, "依副詞與句中動作、狀態、時間或範圍詞的搭配確認它表達的訊息。", step3];
-  row.teacherTip = "副詞常標示時間、頻率、程度、否定、範圍或行動方式。";
+  row.explanation = `${explanation}答案為 ${String.fromCharCode(65 + answerIndex)}「${options[answerIndex]}」。`;
+  row.solutionSteps = [step1, reasoningChecks[index], step3];
+  row.teacherTip = teacherTips[index];
 }
 
 await writeFile(path, `${JSON.stringify(questions, null, 2)}\n`, "utf8");

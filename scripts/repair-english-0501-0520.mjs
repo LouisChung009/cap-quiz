@@ -1,0 +1,39 @@
+import { readFile, writeFile } from "node:fs/promises";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
+
+const root = dirname(dirname(fileURLToPath(import.meta.url)));
+const file = join(root, "data", "english.json");
+const rows = JSON.parse(await readFile(file, "utf8"));
+const items = [
+  ["被動語態", "The school library ___ by student volunteers every Friday.", ["cleans", "is cleaned", "cleaned", "is cleaning"], 1, "library 是被清潔的對象，every Friday 表示固定規則，使用現在簡單式被動 is cleaned。", ["判斷主詞 library 承受清潔動作。", "every Friday 表示習慣性安排。", "單數主詞用 is + p.p.，選 is cleaned。"], "現在被動式 am/is/are + 過去分詞；依主詞決定 be 動詞。", ["volunteer", "clean", "every Friday"]],
+  ["過去被動語態", "The bridge ___ in 1928 and is still used by local residents.", ["built", "was built", "is built", "has building"], 1, "橋梁是被建造的，in 1928 指過去，使用 was built。", ["主詞 bridge 承受 build 動作。", "時間 in 1928 是過去。", "過去被動為 was + p.p.，選 was built。"], "build–built–built；過去被動 be 動詞用 was/were。", ["bridge", "build", "resident"]],
+  ["現在完成被動", "More than 200 trees ___ in the park since the renovation began.", ["plant", "planted", "have been planted", "are planting"], 2, "trees 是被種植的；since 表從過去延續至今，使用現在完成被動 have been planted。", ["主詞 trees 承受 plant。", "since renovation began 表延續到現在。", "複數主詞搭 have been + p.p.，選 C。"], "現在完成被動：has/have been + p.p.。", ["renovation", "plant", "since"]],
+  ["情態助動詞被動", "All chemical waste must ___ according to the safety rules.", ["dispose", "be disposed of", "disposed", "be disposing"], 1, "chemical waste 必須被妥善處理，情態助動詞後的被動形式為 must be + p.p.；dispose of 是固定片語。", ["主詞 waste 承受處理動作。", "must 後用 be + p.p. 表被動。", "dispose of 的 p.p. 為 disposed，選 be disposed of。"], "情態助動詞 + be + p.p.；dispose of 不可漏掉介系詞 of。", ["chemical waste", "dispose of", "according to"]],
+  ["現在進行被動", "The road ___ right now, so drivers should use the next street.", ["repairs", "is repaired", "is being repaired", "has repaired"], 2, "right now 表示道路目前正在被修理，使用現在進行被動 is being repaired。", ["road 承受 repair。", "right now 表示動作正在進行。", "現在進行被動 is being + p.p.，選 C。"], "正在進行的被動式：am/is/are being + p.p.。", ["road", "driver", "right now"]],
+  ["過去被動語態", "The missing wallet ___ under a seat after the concert ended.", ["found", "was found", "is finding", "has find"], 1, "wallet 是被找到的對象，after the concert ended 表示過去，使用 was found。", ["主詞 wallet 承受 find 動作。", "事件發生在演唱會結束後。", "find–found–found，選 was found。"], "find 的過去分詞為 found；被動式需有 be 動詞。", ["missing", "wallet", "concert"]],
+  ["主動與被動辨析", "The chef ___ the vegetables before adding them to the soup.", ["was washed", "washed", "were washed", "is washing"], 1, "chef 是清洗蔬菜的執行者，主詞主動做動作；敘述過去步驟用 washed。", ["找出動作執行者 the chef。", "主詞執行 wash，使用主動語態。", "過去式選 washed。"], "不是每句都要用被動；確認主詞是動作者或承受者。", ["chef", "vegetable", "add"]],
+  ["過去完成被動", "By the time the guests arrived, the tables ___ for dinner.", ["had set", "had been set", "were setting", "have set"], 1, "桌子是被擺好的，且在另一個過去事件 guests arrived 前已完成，使用過去完成被動 had been set。", ["by the time 標示兩個過去事件先後。", "tables 承受 set 動作。", "較早完成的被動用 had been + p.p.，選 B。"], "過去完成被動：had been + p.p.；set 三態同形。", ["by the time", "guest", "set the table"]],
+  ["被動語態與來源", "This poem ___ by a high school student and later won a writing prize.", ["writes", "wrote", "was written", "has writing"], 2, "poem 是被創作的作品，by a high school student 指執行者，且 later won 為過去，使用 was written。", ["主詞 poem 承受 write。", "by 後面指出作者。", "write–wrote–written，選 was written。"], "被動式 be + p.p.；write 的過去分詞是 written。", ["poem", "prize", "write"]],
+  ["現在簡單式被動", "English ___ in many countries as a second language.", ["speaks", "is spoken", "spoke", "is speaking"], 1, "English 是被使用的語言，描述普遍現況用現在被動 is spoken。", ["主詞 English 承受 speak。", "many countries 表普遍現象。", "單數語言名稱搭 is + spoken。"], "語言或商品作主詞時常用被動；speak–spoke–spoken。", ["second language", "country", "speak"]],
+  ["過去被動語態", "The old photographs ___ during the flood last summer.", ["damaged", "were damaged", "are damaged", "have damaging"], 1, "photographs 是受損對象，last summer 指過去；複數主詞用 were damaged。", ["主詞 photographs 承受 damage。", "時間 last summer 指過去。", "複數過去被動選 were damaged。"], "過去被動：was/were + p.p.；複數主詞用 were。", ["photograph", "flood", "damage"]],
+  ["被動語態疑問句", "When ___ the new sports center ___ to the public?", ["did / open", "was / opened", "is / opening", "has / open"], 1, "sports center 是被開放的；疑問句過去被動為 Was + 主詞 + p.p.?，正確組合是「was / opened」。", ["中心承受 open 動作。", "被動疑問句把 be 動詞移到主詞前。", "過去單數用 Was...opened?，選 B「was / opened」。"], "被動疑問句使用 be + 主詞 + p.p.；不要把 did 與過去分詞混搭。", ["sports center", "public", "open"]],
+  ["未來被動語態", "The final results ___ on the school website tomorrow.", ["will post", "will be posted", "posted", "are posting"], 1, "results 將被公布，tomorrow 指未來，使用 will be posted。", ["主詞 results 承受 post。", "tomorrow 表未來。", "未來被動 will be + p.p.，選 B。"], "未來被動：will be + 過去分詞。", ["result", "post", "website"]],
+  ["動名詞", "After ___ the instructions, the students began the experiment.", ["read", "reading", "to read", "reads"], 1, "介系詞 after 後接動名詞 reading。", ["確認 after 是介系詞。", "介系詞後的動詞用 V-ing。", "選 reading。"], "介系詞後接名詞或 V-ing；不要與 after + 子句混為一談。", ["instruction", "begin", "experiment"]],
+  ["不定詞目的", "The team used a larger font ___ the chart easier to read.", ["make", "making", "to make", "made"], 2, "使用較大字體的目的是讓圖表更容易閱讀，目的用 to make。", ["理解 used a larger font 的目的。", "目的用 to + 原形動詞。", "選 to make。"], "to V 可表目的；make + 受詞 + 形容詞。", ["font", "chart", "easier"]],
+  ["現在完成式", "Since the new rule started, the number of plastic bags ___ by half.", ["falls", "fell", "has fallen", "is falling"], 2, "since 表從規定開始至今，結果已減半，使用現在完成式 has fallen。", ["辨認 since 的起點。", "變化延續至現在。", "the number 單數，選 has fallen。"], "the number of + 複數名詞視為單數；fall–fell–fallen。", ["since", "rule", "by half"]],
+  ["關係子句", "The website ___ gives free pronunciation practice is useful for learners.", ["who", "where", "that", "when"], 2, "先行詞 website 指物，關係子句中作主詞，可用 that。", ["找先行詞 website。", "子句缺主詞且先行詞是物。", "選 that。"], "that/which 可指物；who 指人，where 指地點。", ["website", "pronunciation", "learner"]],
+  ["字彙語境", "The instructions are ___; even a first-time user can follow them.", ["complicated", "clear", "ancient", "private"], 1, "第一次使用者也能照著操作，表示說明 clear（清楚易懂）。", ["從 even a first-time user can follow 推知。", "需要表示容易理解的形容詞。", "選 clear。"], "clear ≈ easy to understand；complicated 意為複雜，語意相反。", ["clear", "follow", "first-time"]],
+  ["閱讀理解", "A notice says, “The west elevator is under inspection. Please use the east elevator until 3 p.m.” Which elevator should visitors use before 3 p.m.?", ["The west elevator", "The east elevator", "Both are closed", "The stairs are forbidden"], 1, "告示說西側電梯檢修，下午 3 點前請使用東側電梯，因此選 The east elevator。", ["找出時間限制 until 3 p.m.。", "辨認檢修的是 west elevator。", "替代方案是 east elevator。"], "公告題要辨別故障設備、替代方案與有效時間。", ["inspection", "elevator", "until"]],
+  ["過去完成式", "The train ___ before we reached the station, so we had to wait for the next one.", ["leaves", "has left", "had left", "was leaving"], 2, "火車在我們抵達前已離開，較早的過去事件用過去完成式 had left。", ["排出兩個過去事件的先後。", "train 離開早於 we reached。", "較早事件用 had + p.p.，選 had left。"], "過去完成式 had + p.p. 表示在另一過去事件前已完成。", ["reach", "station", "the next one"]],
+];
+
+for (let index = 0; index < items.length; index += 1) {
+  const row = rows.find(item => item.id === `ENG-${String(501 + index).padStart(4, "0")}`);
+  if (!row) throw new Error(`Missing ENG-${501 + index}`);
+  const [knowledgePoint, question, options, answer, explanation, solutionSteps, teacherTip, relatedWords] = items[index];
+  if (options.length !== 4 || new Set(options).size !== 4 || !options[answer]) throw new Error(`Invalid choices for ${row.id}`);
+  Object.assign(row, { gradeSemester: "八年級下", unit: "文法與閱讀", knowledgePoint, difficulty: index % 3 === 0 ? "中等" : "進階", type: index >= 18 ? "素養題" : "單題選擇", question, options, answer, explanation, solutionSteps, teacherTip, relatedWords });
+}
+await writeFile(file, `${JSON.stringify(rows, null, 2)}\n`);
+console.log("Rewrote ENG-0501–0520 with varied grammar, passive, vocabulary, and reading items.");

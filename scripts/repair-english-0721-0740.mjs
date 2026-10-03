@@ -1,0 +1,39 @@
+import { readFile, writeFile } from "node:fs/promises";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
+
+const root = dirname(dirname(fileURLToPath(import.meta.url)));
+const file = join(root, "data", "english.json");
+const rows = JSON.parse(await readFile(file, "utf8"));
+const items = [
+  ["閱讀推論", "Nora left her bicycle at the repair shop and received a claim ticket. What will she most likely do later?", ["Pick up the bicycle", "Buy a train ticket", "Return a library book", "Call the weather office"], 0, "Nora 把腳踏車送修並拿到取車單，之後最可能回店取車；正確答案是 Pick up the bicycle。", ["找出 bicycle 留在 repair shop。", "claim ticket 用於領取物品。", "推論她之後會取回腳踏車。"], "推論要根據物品、地點和收據用途，不加入題幹外情節。", ["repair shop", "claim ticket", "pick up"]],
+  ["過去式", "The school newspaper ___ an interview with the new principal last week.", ["publishes", "published", "has published", "is publishing"], 1, "last week 是明確過去時間，publish 用過去式 published。", ["圈出 last week。", "事件在過去完成。", "選 published。"], "明確過去時間常搭過去簡單式。", ["newspaper", "interview", "principal"]],
+  ["字彙語境", "The instructions were clear, so the visitors found the exhibit without asking for help.", ["easy to understand", "difficult to see", "too expensive", "very old"], 0, "clear 描述說明易懂；訪客不必求助便找到展品，符合 easy to understand。", ["從 without asking for help 推知。", "clear 修飾 instructions。", "選 easy to understand。"], "clear 可表示清楚易懂，也可描述視覺清晰，依名詞判斷。", ["exhibit", "clear", "instruction"]],
+  ["現在完成式", "The science club ___ a robot that can sort plastic bottles.", ["builds", "built", "has built", "is building"], 2, "句子強調已完成機器人並呈現現有成果，使用現在完成式 has built。", ["找出完成作品的結果。", "成果與現在相關。", "club 單數搭 has built。"], "現在完成式 has/have + p.p. 表完成結果。", ["sort", "plastic bottle", "robot"]],
+  ["閱讀理解", "A notice says, “The music room is unavailable during lunch. Students may practice there after 1:10 p.m.” When may students use the room?", ["Before lunch only", "During lunch", "After 1:10 p.m.", "Only after school"], 2, "告示禁止午餐時間使用，並允許 1:10 p.m. 之後練習；答案是 After 1:10 p.m.。", ["讀出不可使用的時段。", "找出可使用的時間。", "選 After 1:10 p.m.。"], "公告題要區分 unavailable 時段與重新開放時間。", ["unavailable", "practice", "during"]],
+  ["被動語態", "The school auditorium ___ for the graduation ceremony last June.", ["decorates", "decorated", "was decorated", "is decorating"], 2, "auditorium 是被布置的場所，last June 指過去，使用 was decorated。", ["主詞 auditorium 承受 decorate。", "last June 是過去時間。", "選 was decorated。"], "過去被動 was/were + p.p.。", ["auditorium", "graduation", "decorate"]],
+  ["連接詞", "___ the bus was delayed, the team still arrived before the game began.", ["Because", "Although", "Unless", "So"], 1, "公車延誤但隊伍仍及時到達，形成讓步轉折，使用 Although。", ["辨認延誤與及時抵達的反預期。", "需要讓步連接詞。", "選 Although。"], "although 表雖然；because 表原因。", ["delay", "arrive", "although"]],
+  ["關係代名詞", "The photographer ___ took the pictures for the school magazine is my cousin.", ["which", "who", "where", "whose"], 1, "先行詞 photographer 指人，且關係子句缺主詞，使用 who。", ["找先行詞 photographer。", "關係子句缺少表拍照者的主詞。", "選 who。"], "who 指人；which 指物。", ["photographer", "magazine", "cousin"]],
+  ["閱讀推論", "The library sent a message: “Your requested book has arrived. Please pick it up within five days.” What should the student do?", ["Return a different book", "Collect the requested book soon", "Wait five weeks", "Cancel the library"], 1, "正確答案是 Collect the requested book soon。訊息說預約書已到，需在五天內領取，因此學生應盡快取書。", ["定位 has arrived。", "理解 pick it up 是領取。", "注意期限 within five days。"], "通知常同時提供狀態、行動與期限，三者都要核對。", ["request", "arrive", "within"]],
+  ["動名詞", "My brother is interested in ___ how weather satellites work.", ["learn", "to learn", "learning", "learned"], 2, "介系詞 in 後接動名詞 learning。", ["辨認片語 interested in。", "介系詞後接 V-ing。", "選 learning。"], "be interested in doing；in 是介系詞，不是不定詞標記。", ["satellite", "weather", "interested in"]],
+  ["比較級", "The new science lab is ___ than the old one, with more space for experiments.", ["modern", "more modern", "most modern", "modernly"], 1, "than 表兩者比較；多音節形容詞 modern 用 more 構成比較級。", ["辨認 than。", "比較新舊實驗室。", "選 more modern。"], "多音節形容詞通常以 more/most 構成比較級/最高級。", ["laboratory", "experiment", "modern"]],
+  ["字彙與易混淆詞", "The medicine should be kept in a cool, dry place away from sunlight.", ["stored", "borrowed", "described", "invited"], 0, "藥品應放在陰涼乾燥處，表示應被儲存於該處，stored 最合適。", ["找出 should be kept 的同義表達。", "place 指存放位置。", "選 stored。"], "store 是儲存；keep 依語境也可指保存或放置。", ["medicine", "dry", "sunlight"]],
+  ["時間子句", "As soon as the final speaker ___, the audience will leave the hall.", ["will finish", "finishes", "finished", "finishing"], 1, "as soon as 引導未來時間子句時使用現在式 finishes。", ["定位 as soon as 子句。", "未來時間子句不用 will。", "speaker 單數，選 finishes。"], "as soon as/when/until + 現在式可表示未來時間。", ["speaker", "audience", "hall"]],
+  ["不定詞目的", "The students used colored labels ___ the recycling bins easier to identify.", ["make", "making", "to make", "made"], 2, "使用彩色標籤的目的是讓回收桶更容易辨認，使用 to make。", ["判斷 used labels 的目的。", "目的用 to + 原形。", "選 to make。"], "to V 表目的；make + 受詞 + 形容詞。", ["label", "recycling bin", "identify"]],
+  ["閱讀理解", "A timetable states, “The 10:20 tour starts at the east entrance. The 1:00 tour starts at the visitor center.” Where does the 10:20 tour begin?", ["The visitor center", "The east entrance", "The west gate", "The museum shop"], 1, "時刻表直接指出 10:20 導覽從 east entrance 開始。", ["定位 10:20 tour。", "沿該項目讀取地點。", "選 The east entrance。"], "對照表格時確認使用同一活動列，避免串到另一場次。", ["timetable", "tour", "entrance"]],
+  ["假設語氣", "If the school ___ a larger gym, more teams could practice at the same time.", ["has", "had", "will have", "is having"], 1, "could practice 表假設結果，if 子句用過去式 had。", ["辨認主句 could practice。", "假設現有場地更大。", "選 had。"], "第二類條件句 If + 過去式，主句 could/would + 原形。", ["gym", "team", "at the same time"]],
+  ["副詞", "The guide spoke ___ so the visitors at the back could hear every detail.", ["loud", "loudly", "loudness", "louder"], 1, "空格修飾 spoke，描述說話方式用副詞 loudly。", ["找被修飾的動詞 spoke。", "動作方式使用副詞。", "選 loudly。"], "loud 是形容詞或副詞；此處考副詞形式 loudly。", ["guide", "detail", "hear"]],
+  ["閱讀推論", "A student left a note: “I borrowed your ruler because mine was broken. I put yours back in your pencil case.” What can the owner infer?", ["The ruler is still missing", "The ruler was returned to the pencil case", "The pencil case was borrowed", "The student bought a new ruler"], 1, "便條明確說把尺放回筆袋，因此可推知尺已歸還筆袋。", ["找出 put yours back 的動作。", "yours 指對方的尺。", "選 The ruler was returned to the pencil case。"], "代名詞 yours 回指前文物品，推論要追蹤指涉對象。", ["ruler", "broken", "pencil case"]],
+  ["現在完成式", "We ___ the first chapter already, but we have not discussed it yet.", ["read", "have read", "are reading", "will read"], 1, "already 表示已完成，且結果與現在相關，使用現在完成式 have read。", ["找出 already。", "閱讀第一章已完成。", "we 搭 have read。"], "already 常用於現在完成式肯定句；read 三態拼字同形。", ["chapter", "already", "discuss"]],
+  ["情態助動詞", "You ___ touch the laboratory samples; some may contain harmful chemicals.", ["must", "mustn't", "don't have to", "would"], 1, "樣本可能含有害化學物，告示要求禁止觸摸，使用 mustn't。", ["找出安全風險。", "句意是禁止，不是沒有必要。", "選 mustn't。"], "mustn't 表禁止；don't have to 表不必。", ["sample", "harmful", "chemical"]],
+];
+
+for (let index = 0; index < items.length; index += 1) {
+  const row = rows.find(item => item.id === `ENG-${String(721 + index).padStart(4, "0")}`);
+  if (!row) throw new Error(`Missing ENG-${721 + index}`);
+  const [knowledgePoint, question, options, answer, explanation, solutionSteps, teacherTip, relatedWords] = items[index];
+  if (options.length !== 4 || new Set(options).size !== 4 || !options[answer]) throw new Error(`Invalid choices for ${row.id}`);
+  Object.assign(row, { gradeSemester: "九年級上", unit: "文法與閱讀", knowledgePoint, difficulty: index % 3 === 0 ? "中等" : "進階", type: index >= 4 ? "素養題" : "單題選擇", question, options, answer, explanation, solutionSteps, teacherTip, relatedWords });
+}
+await writeFile(file, `${JSON.stringify(rows, null, 2)}\n`);
+console.log("Rewrote ENG-0721–0740 with distinct inference, vocabulary, grammar, and reading items.");

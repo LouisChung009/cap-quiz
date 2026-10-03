@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">114年國文第38題人物親屬關係圖</title>
+  <desc id="desc">四種親屬圖排列選項，方框表示人物，連線表示親子關係。</desc>
+  <style>
+    .card{fill:#fff;stroke:#9cb0be;stroke-width:2}.line{fill:none;stroke:#263746;stroke-width:2}.box{fill:#fff;stroke:#263746;stroke-width:2}.label{font:22px "Noto Sans TC",sans-serif;fill:#172635;text-anchor:middle;dominant-baseline:middle}.choice{font:700 24px "Noto Sans TC",sans-serif;fill:#172635}
+  </style>
+  <g transform="translate(16 16)">
+    <rect class="card" width="420" height="248" rx="16"/><text class="choice" x="20" y="34">（A）</text>
+    <rect class="box" x="185" y="52" width="50" height="34"/><path class="line" d="M210 86v24M72 110h276M72 110v20M164 110v20M256 110v20M348 110v20M72 164v20M256 164v20"/>
+    <rect class="box" x="42" y="130" width="60" height="34"/><text class="label" x="72" y="147">諸樊</text><rect class="box" x="134" y="130" width="60" height="34"/><text class="label" x="164" y="147">餘祭</text><rect class="box" x="226" y="130" width="60" height="34"/><text class="label" x="256" y="147">夷昧</text><rect class="box" x="308" y="130" width="80" height="34"/><text class="label" x="348" y="147">季子札</text>
+    <rect class="box" x="42" y="184" width="60" height="34"/><text class="label" x="72" y="201">光</text><rect class="box" x="226" y="184" width="60" height="34"/><text class="label" x="256" y="201">僚</text>
+  </g>
+  <g transform="translate(464 16)">
+    <rect class="card" width="420" height="248" rx="16"/><text class="choice" x="20" y="34">（B）</text>
+    <rect class="box" x="185" y="52" width="50" height="34"/><path class="line" d="M210 86v24M72 110h276M72 110v20M164 110v20M256 110v20M348 110v20M72 164v20M348 164v20"/>
+    <rect class="box" x="42" y="130" width="60" height="34"/><text class="label" x="72" y="147">諸樊</text><rect class="box" x="134" y="130" width="60" height="34"/><text class="label" x="164" y="147">光</text><rect class="box" x="226" y="130" width="60" height="34"/><text class="label" x="256" y="147">餘祭</text><rect class="box" x="308" y="130" width="80" height="34"/><text class="label" x="348" y="147">夷昧</text>
+    <rect class="box" x="32" y="184" width="80" height="34"/><text class="label" x="72" y="201">季子札</text><rect class="box" x="318" y="184" width="60" height="34"/><text class="label" x="348" y="201">僚</text>
+  </g>
+  <g transform="translate(16 296)">
+    <rect class="card" width="420" height="248" rx="16"/><text class="choice" x="20" y="34">（C）</text>
+    <rect class="box" x="178" y="52" width="64" height="34"/><text class="label" x="210" y="69">諸樊</text><path class="line" d="M210 86v24M112 110h196M112 110v20M210 110v20M308 110v20M112 164v20M210 164v20"/>
+    <rect class="box" x="82" y="130" width="60" height="34"/><text class="label" x="112" y="147">餘祭</text><rect class="box" x="180" y="130" width="60" height="34"/><text class="label" x="210" y="147">夷昧</text><rect class="box" x="268" y="130" width="80" height="34"/><text class="label" x="308" y="147">季子札</text>
+    <rect class="box" x="82" y="184" width="60" height="34"/><text class="label" x="112" y="201">光</text><rect class="box" x="180" y="184" width="60" height="34"/><text class="label" x="210" y="201">僚</text>
+  </g>
+  <g transform="translate(464 296)">
+    <rect class="card" width="420" height="248" rx="16"/><text class="choice" x="20" y="34">（D）</text>
+    <rect class="box" x="178" y="52" width="64" height="34"/><text class="label" x="210" y="69">諸樊</text><path class="line" d="M210 86v24M72 110h276M72 110v20M164 110v20M256 110v20M348 110v20M256 164v20"/>
+    <rect class="box" x="42" y="130" width="60" height="34"/><text class="label" x="72" y="147">光</text><rect class="box" x="134" y="130" width="60" height="34"/><text class="label" x="164" y="147">餘祭</text><rect class="box" x="226" y="130" width="60" height="34"/><text class="label" x="256" y="147">夷昧</text><rect class="box" x="308" y="130" width="80" height="34"/><text class="label" x="348" y="147">季子札</text>
+    <rect class="box" x="226" y="184" width="60" height="34"/><text class="label" x="256" y="201">僚</text>
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+import { readFile, writeFile } from "node:fs/promises";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
+
+const root = dirname(dirname(fileURLToPath(import.meta.url)));
+const file = join(root, "data", "english.json");
+const rows = JSON.parse(await readFile(file, "utf8"));
+const items = [
+  ["字彙語境", "The city added signs to ___ cyclists of the sharp turn ahead.", ["warn", "invite", "borrow", "compare"], 0, "正確答案是 warn。路牌提醒騎士前方有急彎。", ["找出 signs 的功能。", "定位 sharp turn ahead 的危險。", "選 warn。"], "warn someone of/about a danger 表示提醒某人注意危險。", ["cyclist", "sharp turn", "warn"]],
+  ["時態與時間副詞", "Mina ___ her science project last night and submitted it this morning.", ["finishes", "has finished", "finished", "is finishing"], 2, "正確答案是 finished。last night 是已結束的過去時間，使用過去簡單式。", ["圈出 last night。", "判斷完成動作發生於過去。", "選 finished。"], "明確過去時間 last night 搭配過去式；後句 this morning 需依語境另看時間。", ["project", "submit", "last night"]],
+  ["閱讀理解", "A poster says, “Free eye checks are available in Room 204 from 1 to 3 p.m. Bring your student ID.” What should a student bring?", ["A student ID", "A library card", "A parent’s note", "A lunch ticket"], 0, "正確答案是 A student ID。海報明確要求攜帶學生證。", ["定位 Bring your。", "確認其後要求的物品。", "選 A student ID。"], "公告題依明確指示找物品，不要把地點或服務內容當答案。", ["eye check", "available", "student ID"]],
+  ["動詞補語", "The doctor advised Leo ___ more water during the hot weather.", ["drink", "to drink", "drinking", "drank"], 1, "正確答案是 to drink。advise + 受詞 + to V，表示建議某人做某事。", ["找出 advised Leo。", "Leo 是 drink 的執行者。", "選 to drink。"], "advise someone to do something；advise doing something 則省略受詞。", ["advise", "hot weather", "water"]],
+  ["介系詞搭配", "The students apologized ___ being late to the community meeting.", ["for", "with", "at", "from"], 0, "正確答案是 for。固定搭配 apologize for + 名詞或 V-ing，表示為某事道歉。", ["辨認 apologized。", "空格後接 being late。", "選 for。"], "apologize to someone for doing something：to 接對象，for 接原因。", ["apologize", "community", "meeting"]],
+  ["比較級", "A rechargeable battery is usually ___ wasteful than a single-use one over time.", ["less", "least", "fewer", "fewest"], 0, "正確答案是 less。wasteful 是形容詞，和 than 搭配比較程度用 less。", ["找出 than。", "判斷比較形容詞 wasteful 的程度。", "選 less。"], "less 修飾形容詞；fewer 修飾可數複數名詞。", ["rechargeable", "single-use", "wasteful"]],
+  ["閱讀推論", "A message says, “The printer is out of paper. Extra paper is stored in the cabinet beside the window.” What should the student do before printing?", ["Get paper from the cabinet", "Move the printer outside", "Wait for the window to open", "Delete the document"], 0, "正確答案是 Get paper from the cabinet。訊息指出印表機缺紙，並提供補充紙張的存放位置。", ["找出 out of paper。", "定位 Extra paper is stored。", "選 Get paper from the cabinet。"], "兩句資訊串連：先確認問題，再依指示找材料。", ["out of", "cabinet", "print"]],
+  ["被動語態", "The invitations ___ by hand before they were placed in the envelopes.", ["addressed", "were addressed", "are addressing", "have addressed"], 1, "正確答案是 were addressed。邀請函是被寫上地址的對象，整段為過去事件，使用過去被動。", ["判斷 invitations 是動作承受者。", "句子以 were placed 表過去。", "選 were addressed。"], "過去被動為 was/were + p.p.；複數主詞用 were。", ["invitation", "by hand", "envelope"]],
+  ["片語動詞", "The teacher asked the class to ___ the key details in the article with a highlighter.", ["point out", "run out", "take after", "put off"], 0, "正確答案是 point out。用螢光筆標出文章重點，是指出關鍵細節。", ["看出 with a highlighter 的用途。", "判斷動作為標示重點。", "選 point out。"], "point out 表指出；point to 常指用手指向某物。", ["detail", "article", "highlighter"]],
+  ["連接詞", "The museum was not open on Monday, ___ our class visited it on Tuesday instead.", ["so", "although", "unless", "whereas"], 0, "正確答案是 so。週一閉館導致班級改在週二參觀，後句是結果。", ["確認 not open 與 visited on Tuesday 的因果。", "判斷後句是安排結果。", "選 so。"], "so 接結果；although 需要前後形成讓步。", ["museum", "instead", "Monday"]],
+  ["現在完成式", "I ___ that author’s novels for years, so I recognize her writing style.", ["read", "have read", "am reading", "will read"], 1, "正確答案是 have read。for years 表長時間經驗延續到現在，且能辨認其文風。", ["找出 for years。", "確認經驗影響現在。", "選 have read。"], "現在完成式可表示累積至今的經驗；read 三態拼字相同。", ["author", "novel", "style"]],
+  ["關係代名詞", "The website ___ offers free language lessons is maintained by a university.", ["who", "that", "where", "whose"], 1, "正確答案是 that。先行詞 website 是物，且 offers 前缺主詞，可用 that。", ["找出先行詞 website。", "檢查 offers 前缺少主詞。", "選 that。"], "which 也可指物；where 是關係副詞，後方子句結構完整才用。", ["website", "maintain", "language lesson"]],
+  ["閱讀理解", "A timetable says, “Guided tours leave at 10:15 a.m. and 2:45 p.m. Each tour lasts 50 minutes.” How long is the afternoon tour?", ["45 minutes", "50 minutes", "2 hours 45 minutes", "3 hours 35 minutes"], 1, "正確答案是 50 minutes。時刻表直接說明每場導覽持續五十分鐘。", ["找出 Each tour lasts。", "確認題目問下午場但未改變時長。", "選 50 minutes。"], "避免把出發時間 2:45 誤當成導覽時長。", ["guided tour", "last", "timetable"]],
+  ["假設語氣", "If the team ___ more carefully, it would avoid repeating the same error.", ["plans", "planned", "will plan", "is planning"], 1, "正確答案是 planned。主句 would avoid 表假設結果，if 子句使用過去式。", ["找出 would avoid。", "判斷是假設建議。", "選 planned。"], "第二類條件句用 If + 過去式，主句 would + 原形。", ["repeat", "error", "conditional"]],
+  ["副詞", "The guide spoke ___ enough for visitors at the back to hear the directions.", ["loud", "loudly", "loudness", "louder"], 1, "正確答案是 loudly。空格修飾 spoke，描述說話的方式，需要副詞。", ["找出被修飾的 spoke。", "動作方式用副詞。", "選 loudly。"], "loud 可作形容詞或副詞，但此題考常用副詞形式 loudly。", ["guide", "direction", "visitor"]],
+  ["字彙語境", "The instructions were ___, listing each step in the order it should be completed.", ["sequential", "distant", "fragile", "generous"], 0, "正確答案是 sequential。說明依照步驟完成順序排列，表示有先後次序。", ["找出 each step in the order。", "判斷形容詞描述排列方式。", "選 sequential。"], "sequential 表按順序的；sequence 是名詞「順序」。", ["instruction", "step", "sequence"]],
+  ["附加問句", "The library closes at six on Fridays, ___?", ["doesn't it", "isn't it", "does it", "won't it"], 0, "正確答案是 doesn't it。主句為現在簡單式 closes，附加問句用 doesn't，library 換 it。", ["辨認 closes 是一般動詞。", "肯定主句搭否定附加問句。", "選 doesn't it。"], "第三人稱單數現在式的一般動詞附加問句用 does/doesn't。", ["library", "Friday", "close"]],
+  ["閱讀推論", "A student sees a notice: “Wet paint. Please use the opposite staircase.” Which route should the student take?", ["The other staircase", "The freshly painted stairs", "The elevator under repair", "The staff-only corridor"], 0, "正確答案是 The other staircase。opposite staircase 指另一側樓梯，避免接觸濕漆。", ["理解 Wet paint 的警告。", "找出 Please use 的替代路線。", "選 The other staircase。"], "opposite 在此表示相對的另一側，不是相反方向的抽象概念。", ["wet paint", "opposite", "staircase"]],
+  ["時間子句", "Once the package ___, please check that all the parts are inside.", ["arrives", "will arrive", "arrived", "arriving"], 0, "正確答案是 arrives。once 引導未來時間子句時使用現在式；package 為單數。", ["找出 Once 子句。", "主句是未來指示 please check。", "時間子句用 arrives。"], "未來時間子句不用 will，且單數主詞動詞加 -s。", ["package", "part", "once"]],
+  ["字彙辨析", "The two paintings look ___ from a distance, but their colors are different up close.", ["alike", "alive", "alone", "asleep"], 0, "正確答案是 alike。兩幅畫遠看相似，靠近後顏色才不同。", ["對照 look from a distance 與 different up close。", "找出表示外觀相似的形容詞。", "選 alike。"], "alike 表相似，常放在 be/look 後；like 通常作介系詞表示像。", ["painting", "distance", "up close"]],
+];
+
+for (let index = 0; index < items.length; index += 1) {
+  const row = rows.find(item => item.id === `ENG-${String(941 + index).padStart(4, "0")}`);
+  if (!row) throw new Error(`Missing ENG-${941 + index}`);
+  const [knowledgePoint, question, options, answer, explanation, solutionSteps, teacherTip, relatedWords] = items[index];
+  if (options.length !== 4 || new Set(options).size !== 4 || !options[answer]) throw new Error(`Invalid choices for ${row.id}`);
+  Object.assign(row, { gradeSemester: "九年級上", unit: "文法與閱讀", knowledgePoint, difficulty: index % 3 === 0 ? "中等" : "進階", type: index >= 2 ? "素養題" : "單題選擇", question, options, answer, explanation, solutionSteps, teacherTip, relatedWords });
+}
+await writeFile(file, `${JSON.stringify(rows, null, 2)}\n`);
+console.log("Rewrote ENG-0941–0960 with distinct exam skills and contexts.");

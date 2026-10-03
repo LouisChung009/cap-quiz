@@ -13,7 +13,7 @@ await build({
 await rm("public", { recursive: true, force: true });
 await mkdir("public", { recursive: true });
 for (const entry of [
-  "index.html", "app.js", "bootstrap.js", "styles.css", "sw.js",
+  "index.html", "app.js", "bootstrap.js", "question-validation.js", "styles.css", "sw.js",
   "manifest.webmanifest", "icon.svg", "privacy.html", "terms.html", "help.html",
   "account", "admin", "assets", "data", "vendor"
 ]) await cp(entry, `public/${entry}`, { recursive: true });

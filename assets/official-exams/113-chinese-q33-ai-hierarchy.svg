@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 540" role="img" aria-labelledby="title desc">
+  <title id="title">人工智慧、機器學習、深度學習關係圖選項</title>
+  <desc id="desc">A 為分層三角形，B 為由外至內的巢狀圓，C 為三集合交疊，D 為循環箭頭。</desc>
+  <style>
+    .card{fill:#fff;stroke:#9aabb7;stroke-width:2}.line{fill:none;stroke:#263746;stroke-width:2}.shape{fill:#f3f7fa;stroke:#263746;stroke-width:2}.choice{font:700 24px "Noto Sans TC",sans-serif;fill:#172635}.label{font:20px "Noto Sans TC",sans-serif;fill:#172635;text-anchor:middle;dominant-baseline:middle}
+  </style>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 10 5 0 10z" fill="#263746"/></marker></defs>
+  <g transform="translate(16 16)">
+    <rect class="card" width="416" height="244" rx="16"/><text class="choice" x="20" y="34">（A）</text>
+    <path class="shape" d="M96 208 208 54 320 208z"/><path class="line" d="M135 154h146M171 104h74"/>
+    <text class="label" x="208" y="83">人工智慧</text><text class="label" x="208" y="128">機器學習</text><text class="label" x="208" y="181">深度學習</text>
+  </g>
+  <g transform="translate(448 16)">
+    <rect class="card" width="416" height="244" rx="16"/><text class="choice" x="20" y="34">（B）</text>
+    <circle class="shape" cx="208" cy="145" r="88"/><circle class="shape" cx="208" cy="158" r="60"/><circle class="shape" cx="208" cy="174" r="32"/>
+    <text class="label" x="208" y="79">人工智慧</text><text class="label" x="208" y="126">機器學習</text><text class="label" x="208" y="174">深度學習</text>
+  </g>
+  <g transform="translate(16 280)">
+    <rect class="card" width="416" height="244" rx="16"/><text class="choice" x="20" y="34">（C）</text>
+    <circle class="shape" cx="208" cy="100" r="56"/><circle class="shape" cx="166" cy="156" r="56"/><circle class="shape" cx="250" cy="156" r="56"/>
+    <text class="label" x="208" y="100">人工智慧</text><text class="label" x="146" y="165">機器學習</text><text class="label" x="272" y="165">深度學習</text>
+  </g>
+  <g transform="translate(448 280)">
+    <rect class="card" width="416" height="244" rx="16"/><text class="choice" x="20" y="34">（D）</text>
+    <rect class="shape" x="161" y="58" width="96" height="48" rx="12"/><text class="label" x="209" y="82">人工智慧</text>
+    <rect class="shape" x="54" y="160" width="112" height="48" rx="12"/><text class="label" x="110" y="184">機器學習</text>
+    <rect class="shape" x="252" y="160" width="112" height="48" rx="12"/><text class="label" x="308" y="184">深度學習</text>
+    <path class="line" marker-end="url(#arrow)" d="M165 106 122 155M166 184h82M299 158 256 106"/>
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+import { readFile, writeFile } from "node:fs/promises";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
+
+const root = dirname(dirname(fileURLToPath(import.meta.url)));
+const file = join(root, "data", "english.json");
+const rows = JSON.parse(await readFile(file, "utf8"));
+const items = [
+  ["字彙語境", "The new policy will ___ students to borrow two books at a time instead of one.", ["allow", "prevent", "remind", "compare"], 0, "正確答案是 allow。新規定使學生可以一次借兩本書。", ["找出 students 的行為 borrow。", "判斷 policy 帶來的許可。", "選 allow。"], "allow + 受詞 + to V 表允許某人做某事。", ["policy", "borrow", "allow"]],
+  ["過去式與過去進行式", "The power went out while the band ___ on stage.", ["performs", "was performing", "has performed", "will perform"], 1, "正確答案是 was performing。停電發生時，樂團正在台上表演。", ["辨認 went out 是突發事件。", "表演是當時持續的背景動作。", "選 was performing。"], "while 常接過去進行式，呈現另一事件發生時的背景。", ["power went out", "perform", "while"]],
+  ["閱讀理解", "A label on the science cabinet says, “Return all glassware to this shelf after use. Do not place wet items inside.” What should students do before putting glassware away?", ["Dry it", "Leave it on the floor", "Put it in a backpack", "Wash the shelf"], 0, "正確答案是 Dry it。標籤禁止放入潮濕物品，因此玻璃器材需先擦乾。", ["找出 Do not place wet items。", "推知要避免器材潮濕。", "選 Dry it。"], "否定指示可推回需要採取的預防動作。", ["glassware", "cabinet", "wet"]],
+  ["動名詞", "The student admitted ___ the wrong file to the class website.", ["upload", "to upload", "uploading", "uploaded"], 2, "正確答案是 uploading。admit 後接 V-ing，表示承認做過某事。", ["找出 admitted。", "回想 admit 的補語形式。", "選 uploading。"], "admit doing；注意 admit 的過去式 admitted 雙寫 t。", ["admit", "file", "website"]],
+  ["介系詞搭配", "The new playground is accessible ___ students with mobility needs.", ["to", "for", "at", "from"], 0, "正確答案是 to。固定搭配 accessible to，表示對某群體可使用或容易到達。", ["辨認 accessible。", "找出固定介系詞。", "選 to。"], "accessible to someone；不要因為有 for students 就誤選 for。", ["playground", "accessible to", "mobility"]],
+  ["比較級", "The morning ferry is ___ crowded than the one that leaves at noon.", ["less", "least", "little", "few"], 0, "正確答案是 less。than 表比較，crowded 是形容詞，以 less crowded 表較不擁擠。", ["找出 than。", "判斷比較方向是人較少。", "選 less。"], "less + 形容詞表示程度較低；fewer 主要修飾可數名詞。", ["ferry", "crowded", "noon"]],
+  ["閱讀推論", "A weather app warns of icy roads before sunrise. Which action is safest for a driver?", ["Drive more slowly and leave extra distance", "Follow the car ahead closely", "Brake sharply at every turn", "Turn off the headlights"], 0, "正確答案是 Drive more slowly and leave extra distance。結冰路面會降低抓地力，減速並增加車距較安全。", ["抓出 icy roads 的風險。", "比較各選項是否降低打滑風險。", "選 Drive more slowly and leave extra distance。"], "安全推論採取與明示風險直接相關的措施，避免加入題幹未支持的假設。", ["icy", "sunrise", "distance"]],
+  ["被動語態", "The results of the survey ___ on the school website next Monday.", ["will post", "will be posted", "posted", "are posting"], 1, "正確答案是 will be posted。結果是被發布的對象，next Monday 表未來，使用未來被動。", ["確認 results 是受詞角色。", "辨認未來時間。", "選 will be posted。"], "will be + p.p. 表未來被動；主詞複數不影響 will。", ["survey", "result", "post"]],
+  ["片語動詞", "The school decided to ___ the old computers to a community center.", ["give away", "give up", "give in", "give off"], 0, "正確答案是 give away。學校把舊電腦捐贈給社區中心。", ["找出 to a community center。", "推知是無償提供物品。", "選 give away。"], "give away 表贈送；give up 表放棄，注意受詞與語境。", ["community center", "old computer", "give away"]],
+  ["連接詞", "The forecast predicted heavy rain; ___, the outdoor match was moved to the gym.", ["therefore", "however", "meanwhile", "instead of"], 0, "正確答案是 therefore。預報大雨導致戶外比賽移到體育館，後句是結果。", ["確認預報與改場地的因果。", "選擇表示結果的副詞。", "選 therefore。"], "therefore 表因此；however 表轉折，不適用因果鏈。", ["forecast", "predict", "therefore"]],
+  ["現在完成式", "My parents ___ this apartment since I was in elementary school.", ["own", "owned", "have owned", "are owning"], 2, "正確答案是 have owned。since 引出過去起點，擁有狀態延續到現在，使用現在完成式。", ["圈出 since。", "確認擁有狀態仍持續。", "選 have owned。"], "延續至今的狀態動詞常用現在完成式，不用進行式。", ["apartment", "elementary school", "since"]],
+  ["關係代名詞", "The river ___ flows through the village is popular with cyclists.", ["who", "that", "whose", "where"], 1, "正確答案是 that。先行詞 river 是物，關係子句缺主詞，可用 that。", ["找出先行詞 river。", "flows 前缺主詞。", "選 that。"], "物作先行詞且關係子句缺主詞，可用 that/which。", ["river", "village", "cyclist"]],
+  ["閱讀理解", "A message from the clinic says, “Your test results are ready. Please call between 1 and 4 p.m. to speak with a nurse.” When should the patient call?", ["Between 1 and 4 p.m.", "Before 8 a.m.", "After midnight", "Only on weekends"], 0, "正確答案是 Between 1 and 4 p.m.。診所明確指定下午一點到四點致電。", ["定位 Please call between。", "讀出時間範圍兩端。", "選 Between 1 and 4 p.m.。"], "between A and B 需同時包含起點和終點，不要只讀其中一個數字。", ["clinic", "result", "between"]],
+  ["假設語氣", "If we ___ the earlier train, we would have reached the airport before noon.", ["take", "took", "had taken", "will take"], 2, "正確答案是 had taken。主句 would have reached 表對過去結果的假設，if 子句用過去完成式。", ["找出 would have reached。", "判斷是假設過去未發生的選擇。", "選 had taken。"], "第三類條件句的 if 子句為 had + p.p.。", ["earlier train", "airport", "third conditional"]],
+  ["形容詞與副詞", "The mechanic worked ___ to repair the bicycle before the shop closed.", ["quick", "quickly", "quickness", "quicker"], 1, "正確答案是 quickly。空格修飾 worked，描述工作速度，需用副詞。", ["找出被修飾的 worked。", "動作方式使用副詞。", "選 quickly。"], "quick 是形容詞；quickly 是副詞，可修飾動詞。", ["mechanic", "repair", "close"]],
+  ["字彙語境", "The principal gave a brief ___ of the new attendance rules at the assembly.", ["explanation", "permission", "direction", "comparison"], 0, "正確答案是 explanation。校長在集會上簡短說明新出席規定。", ["根據 gave a brief ___ of rules 判斷名詞。", "說明規則最符合語意。", "選 explanation。"], "explanation 是說明；permission 是許可，詞義不可只看常見校園情境。", ["principal", "attendance", "assembly"]],
+  ["附加問句", "Your cousins haven't visited the new aquarium, ___?", ["have they", "haven't they", "did they", "don't they"], 0, "正確答案是 have they。主句是否定現在完成式，附加問句用肯定 have，主詞 cousins 換 they。", ["找出 haven't visited。", "否定主句配肯定附加問句。", "選 have they。"], "附加問句沿用完成式助動詞 have/has。", ["cousin", "aquarium", "tag question"]],
+  ["閱讀推論", "A museum ticket says, “Last entry is 30 minutes before closing.” If the museum closes at 5:00 p.m., what is the latest entry time?", ["4:00 p.m.", "4:30 p.m.", "5:00 p.m.", "5:30 p.m."], 1, "正確答案是 4:30 p.m.。閉館前 30 分鐘為最後入場時間，5:00 減 30 分鐘是 4:30。", ["找出 closing time。", "依 last entry 提前 30 分鐘計算。", "選 4:30 p.m.。"], "時間計算先辨認基準事件與提前量，再從閉館時間往回推。", ["last entry", "closing", "latest"]],
+  ["時間子句", "I will send you the photos after I ___ them from my camera.", ["will download", "download", "downloaded", "downloading"], 1, "正確答案是 download。after 引導未來時間子句時用現在簡單式。", ["找出 after 子句。", "主句 will send 表未來。", "時間子句不用 will，選 download。"], "表示未來的時間子句用現在式，即使事件確實發生在未來。", ["photo", "download", "after"]],
+  ["字彙辨析", "The instructions were ___, so each student knew exactly which materials to bring.", ["specific", "doubtful", "distant", "nervous"], 0, "正確答案是 specific。每位學生都清楚知道要帶哪些材料，表示說明具體明確。", ["利用 knew exactly 推論。", "找出表示具體明確的形容詞。", "選 specific。"], "specific 指明確具體；general 表一般概括，意思相反。", ["material", "exactly", "specific"]],
+];
+
+for (let index = 0; index < items.length; index += 1) {
+  const row = rows.find(item => item.id === `ENG-${String(861 + index).padStart(4, "0")}`);
+  if (!row) throw new Error(`Missing ENG-${861 + index}`);
+  const [knowledgePoint, question, options, answer, explanation, solutionSteps, teacherTip, relatedWords] = items[index];
+  if (options.length !== 4 || new Set(options).size !== 4 || !options[answer]) throw new Error(`Invalid choices for ${row.id}`);
+  Object.assign(row, { gradeSemester: "九年級上", unit: "文法與閱讀", knowledgePoint, difficulty: index % 3 === 0 ? "中等" : "進階", type: index >= 2 ? "素養題" : "單題選擇", question, options, answer, explanation, solutionSteps, teacherTip, relatedWords });
+}
+await writeFile(file, `${JSON.stringify(rows, null, 2)}\n`);
+console.log("Rewrote ENG-0861–0880 with distinct exam skills and contexts.");

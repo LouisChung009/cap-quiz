@@ -1,19 +1,22 @@
 {
   "name": "cap-quiz",
   "version": "1.0.0",
-  "description": "國中教育會考練習 PWA：5,000 題原創題、110–114 年 1,088 題官方真題與真題類題。",
+  "description": "國中教育會考練習 PWA：5,000 題原創題、110–114 年 1,098 題官方真題與真題類題。",
   "main": "app.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "test": "npm run validate:data --silent && npm run validate:random --silent && npm run validate:mission --silent && npm run validate:syntax --silent && npm run validate:quality --silent",
+    "test": "npm run validate:data --silent && npm run validate:difficulty --silent && npm run validate:random --silent && npm run validate:mission --silent && npm run validate:syntax --silent && npm run validate:quality --silent && npm run validate:answer-consistency --silent && npm run validate:official-keys --silent",
     "build": "node scripts/build-client.mjs",
     "validate:data": "node scripts/validate-data-v2.mjs",
+    "validate:difficulty": "node scripts/validate-difficulty-filter.mjs",
     "validate:random": "node scripts/validate-randomness.mjs",
     "validate:syntax": "node scripts/validate-syntax.mjs",
     "validate:mission": "node scripts/validate-mission-mix.mjs",
-    "validate:quality": "node scripts/validate-content-quality.mjs"
+    "validate:quality": "node scripts/validate-content-quality.mjs",
+    "validate:answer-consistency": "node scripts/validate-answer-key-consistency.mjs",
+    "validate:official-keys": "node scripts/audit-110-official-answer-table.mjs && node scripts/audit-111-official-answer-table.mjs && node scripts/audit-112-official-answer-table.mjs && node scripts/audit-113-official-answer-table.mjs && node scripts/audit-114-official-answer-table.mjs"
   },
   "repository": {
     "type": "git",
