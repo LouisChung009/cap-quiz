@@ -623,6 +623,14 @@ const english111AnagramQuestion = official.find(question => question.id === "OFF
 const english111PurposeQuestion = official.find(question => question.id === "OFF-0317");
 if (!english111AnagramQuestion?.teacherTip?.includes("odd / unusual") || !english111AnagramQuestion.teacherTip.includes("difficult") || !english111AnagramQuestion.relatedWords?.some(word => word.startsWith("unusual"))) errors.push("111英文第42題: strange 同義詞或易混淆詞提醒缺漏");
 if (!english111PurposeQuestion?.teacherTip?.includes("not merely") || !english111PurposeQuestion.relatedWords?.some(word => word.startsWith("not merely"))) errors.push("111英文第43題: more than just 同義片語或篇章判讀提醒缺漏");
+const english111Q2to20Clues = [[2, "therefore"], [3, "turn on the lights"], [4, "well-liked"], [5, "needed to"], [6, "decision"], [7, "common"], [8, "spend time doing"], [9, "how deep it is"], [10, "the laziest"], [11, "has lived"], [12, "come after"], [13, "Yesterday"], [14, "sensible"], [15, "is looking for"], [16, "see + 受詞 + 原形動詞"], [17, "was taken away"], [18, "one 代替"], [19, "studied"], [20, "網路留言"]];
+const english111Q2to20Rows = [];
+for (const [number, clue] of english111Q2to20Clues) {
+  const row = official.find(question => question.id === `OFF-${String(number + 274).padStart(4, "0")}`);
+  if (!row || row.source?.year !== 111 || row.source.questionNumber !== number || row.options?.length !== 4 || !row.teacherTip?.includes(clue) || (row.relatedWords?.length ?? 0) < 3 || !row.solutionSteps?.length) errors.push(`111英文第${number}題: 題目專屬語言提醒、近義詞或四選項資料缺漏`);
+  english111Q2to20Rows.push(row);
+}
+if (new Set(english111Q2to20Rows.map(row => row?.teacherTip?.trim())).size !== 19) errors.push("111英文第2–20題: 教師提醒重複，請修正共用模板回退");
 const english114CityCardQuestion = official.find(question => question.id === "OFF-0941");
 if (!english114CityCardQuestion?.question.includes("Museum of White Lake City History are in Zone 1") || !english114CityCardQuestion.question.includes("White Lake is in Zone 2") || english114CityCardQuestion.answer !== 2) errors.push("114英文第25題: 地圖分區文字與最省方案答案不一致");
 for (const id of ["OFF-0951", "OFF-0952", "OFF-0953"]) {

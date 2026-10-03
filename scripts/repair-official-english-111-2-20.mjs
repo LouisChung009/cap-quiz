@@ -24,12 +24,59 @@ const reviewed = {
   "OFF-0294": { explanation: "Brad 要依上下文選 trolling 的意思：Josh 看完節目後問「Why are they trolling me like this?」，文中接著說對方想讓他分享對節目的看法，而且最後只想得到好聽的話。這裡的 trolling 是網路上用言語刺激或惹怒他人的意思，故選 D。其餘選項分別是歌唱慶祝、使物體旋轉、從船上拖釣，和文章的螢幕互動情境不符。", solutionSteps: ["先看 Josh 的行為：他看完節目、關掉螢幕，並問為何有人這樣 trolling 他。", "後文說對方想誘使他發表看法，且想得到好聽的話；此處指網路上以言語挑釁或惹怒他人，選 D。", "歌唱慶祝、使物體旋轉、拖釣魚線都無法解釋螢幕上的留言互動和對方索取評論的情節。"] },
 };
 
+const teacherTips = {
+  "OFF-0276": "so ≈ therefore / thus（所以）；句子是「電影兩點開始，因此提議 1:45 見面」。勿把 because（因為）誤用成結果連接詞。",
+  "OFF-0277": "leave the lights on 是「讓燈保持開著」；turn on the lights 表「打開燈」這個動作。此處描述睡覺時的持續狀態。",
+  "OFF-0278": "popular ≈ well-liked（受歡迎）；more fans 支持受歡迎，不代表 rich（有錢）或一定 famous（知名）。",
+  "OFF-0279": "had to ≈ needed to / was required to（過去不得不）；勿和 used to（過去常常）混淆，後者不表示被要求。",
+  "OFF-0280": "choice ≈ decision（選擇／決定）；make a choice 是固定搭配，題幹只能在 bag 和 shoes 之間二選一。",
+  "OFF-0281": "easy ≈ simple（容易）；common 是「常見」，不是「容易」。同類題做過很多次是熟練、變容易的線索。",
+  "OFF-0282": "take time to do ≈ spend time doing（花時間做）；注意兩種句型結構不同，不要在 took time 後直接接 preparing。",
+  "OFF-0283": "deep 表示水的垂直深度；how deep it is 是間接問句語序，勿倒裝成 how deep is it。",
+  "OFF-0284": "the laziest 是 lazy 的最高級；all the boys 指三人以上範圍，故用 the + 最高級，勿選比較級 lazier。",
+  "OFF-0285": "has lived for sixty years 表示居住延續至今；so 後描述她現在很了解這個地方，用 knows。勿因前面有 has 就把後句也改成完成式。",
+  "OFF-0286": "follow ≈ come after（接著發生）；雨會在颱風離開後接續而來。will 後接原形動詞，勿加 -s 或 -ed。",
+  "OFF-0287": "Yesterday 與 got home 標示過去敘事；動詞時態要和已發生的事件一致，勿只看 invited 就忽略整句時間線。",
+  "OFF-0288": "be wise ≈ be sensible / prudent（明智）；be wise not to do 表「最好不要做」。勿把 helpful（有幫助）當成審慎建議。",
+  "OFF-0289": "Have you found ... yet? 暗示仍在找工作；is looking for 表現在進行中的尋找，勿與 has looked for（已找過）混淆。",
+  "OFF-0290": "see + 受詞 + 原形動詞可表示看見完整動作；get in and drive away 共用 saw 的感官結構，兩個動詞都用原形。",
+  "OFF-0291": "女孩是被帶走的人，需用被動語態 was taken away；勿把 took（主動過去式）或單獨 taken 當完整被動句。",
+  "OFF-0292": "one 代替前述同類的單數 bus，表示「其中一班」；it 指特定那一班，another 才是「另一班」。",
+  "OFF-0293": "got a very good grade 是已完成的過去事件；用 studied 描述考前一週的習慣，勿讓 every night 誘使你誤用現在式。",
+  "OFF-0294": "trolling 要看網路留言情境及想激怒人的意圖；字典同形字可有不同義，不要把拖釣魚等字面義套進網路語境。"
+};
+
+const relatedWords = {
+  "OFF-0276": ["so（所以；therefore／thus）", "because（因為）", "or（或者）"],
+  "OFF-0277": ["leave the lights on（讓燈保持亮著）", "turn on（打開）", "dark（黑暗）"],
+  "OFF-0278": ["popular（受歡迎）", "well-liked（受人喜愛）", "famous（知名）"],
+  "OFF-0279": ["have to／had to（必須／過去必須）", "need to（需要）", "used to（過去常常）"],
+  "OFF-0280": ["choice（選擇）", "decision（決定）", "make a choice（作選擇）"],
+  "OFF-0281": ["easy（容易）", "simple（簡單）", "common（常見；非易）"],
+  "OFF-0282": ["take time to do（花時間做）", "spend time doing（花時間做）", "prepare（準備）"],
+  "OFF-0283": ["deep（深）", "far（遠）", "long（長）"],
+  "OFF-0284": ["lazy（懶惰）", "lazier（較懶）", "the laziest（最懶）"],
+  "OFF-0285": ["live（居住）", "know（了解）", "for + 時間（持續多久）"],
+  "OFF-0286": ["follow（接著／跟隨）", "come after（隨後發生）", "heavier（更大的／更重的）"],
+  "OFF-0287": ["yesterday（昨天）", "go out（外出）", "went out（外出；過去式）"],
+  "OFF-0288": ["wise（明智）", "sensible（合理審慎）", "prudent（謹慎明智）"],
+  "OFF-0289": ["look for（尋找）", "search for（尋找）", "yet（至今；尚未）"],
+  "OFF-0290": ["see + O + V（看見完整動作）", "get in（上車）", "drive away（開車離開）"],
+  "OFF-0291": ["take away（帶走）", "be taken away（被帶走）", "police（警方）"],
+  "OFF-0292": ["one（同類之一）", "it（特定對象）", "another（另一個）"],
+  "OFF-0293": ["study（讀書）", "studied（過去式）", "grade（成績）"],
+  "OFF-0294": ["troll（網路挑釁）", "tease（取笑／逗弄）", "anger（使生氣）"]
+};
+
 for (const [id, correction] of Object.entries(reviewed)) {
   const row = questions.find(item => item.id === id);
   if (!row || row.subject !== "英文" || row.sourceType !== "官方歷屆真題") throw new Error(`找不到英文官方題 ${id}`);
   if (correction.question) row.question = correction.question;
-  Object.assign(row, { ...correction, teacherTip: "先定位句中的時間、因果或搭配線索，再把選項代入完整句子，同時核對文法與語意。" });
-  if (!`${row.explanation} ${row.solutionSteps.join(" ")}`.includes(row.options[row.answer])) throw new Error(`${id}: 解析未包含標答`);
+  Object.assign(row, { ...correction, teacherTip: teacherTips[id], relatedWords: relatedWords[id] });
+  if (!teacherTips[id] || relatedWords[id]?.length < 3) throw new Error(`${id}: 英文提示或近義詞未設定`);
+  const answerLetter = String.fromCharCode(65 + row.answer);
+  const solutionText = `${row.explanation} ${row.solutionSteps.join(" ")}`;
+  if (!solutionText.toLowerCase().includes(row.options[row.answer].toLowerCase()) && !solutionText.includes(`選 ${answerLetter}`) && !solutionText.includes(`答案是 ${answerLetter}`)) throw new Error(`${id}: 解析未包含標答`);
   if (row.solutionSteps.length !== 3) throw new Error(`${id}: 解題步驟數不正確`);
 }
 
