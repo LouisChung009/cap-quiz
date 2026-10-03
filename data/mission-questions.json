@@ -15171,7 +15171,7 @@
       "Visiting the museum in the morning."
     ],
     "answer": 2,
-    "explanation": "答案是 C：一天走一段步道。文章建議一段步道安排一天，並要早點出發，因為每段至少需要七小時。露營只限少數營地；自行車不能走較窄的支線；文章沒有建議早上參觀博物館。",
+    "explanation": "答案是 C：一天走一段步道。文章建議一段步道安排一天，並要早點出發，因為每段至少需要七小時。露營只限少數營地；自行車不能走較窄的支線；文章沒有建議早上參觀博物館。 Answer: C.",
     "solutionSteps": [
       "找建議句：‘Plan one day for one part of the trail and start your hike early in the morning.’",
       "文章也說每一段至少要走七小時，支持一天安排一段。",
@@ -15221,7 +15221,7 @@
       "A way of moving around."
     ],
     "answer": 1,
-    "explanation": "答案是 B「A place to stay in（住宿的地方）」。上下文接著列出露營和住旅館兩種方式，兩者都是住宿選擇，因此 lodging 指住宿。",
+    "explanation": "答案是 B「A place to stay in（住宿的地方）」。上下文接著列出露營和住旅館兩種方式，兩者都是住宿選擇，因此 lodging 指住宿。 Answer: B.",
     "solutionSteps": [
       "先看 lodging 後面接著列舉的兩種方式：camping 和 staying at a hotel。",
       "露營與旅館都是旅客過夜、停留的住宿方式。",
@@ -15273,7 +15273,7 @@
       "Parts 4 and 4a."
     ],
     "answer": 0,
-    "explanation": "答案是 A：Parts 1 and 2。依原卷路線圖，從 Cove 走 Part 1 可到 Dove，再走 Part 2 到 Kint；路線靠近 Sloan Castle，且其中一段鄰近河流，符合參觀古堡及河邊賞鳥的兩個條件。路線圖是必要作答資料，已保留。",
+    "explanation": "答案是 A：Parts 1 and 2。依原卷路線圖，從 Cove 走 Part 1 可到 Dove，再走 Part 2 到 Kint；路線靠近 Sloan Castle，且其中一段鄰近河流，符合參觀古堡及河邊賞鳥的兩個條件。路線圖是必要作答資料，已保留。 Answer: A.",
     "solutionSteps": [
       "從起點 Cove 出發，先沿 Part 1 到 Dove，再接 Part 2 到 Kint。",
       "對照路線圖，這組連續路段可到 Sloan Castle 附近，且其中一段鄰近河流，符合參觀古堡與河邊賞鳥的目的。",
@@ -15425,17 +15425,18 @@
       "important"
     ],
     "answer": 0,
-    "explanation": "答案是 A「strange（奇怪的）」。文章舉 ‘restaurant’ 變成 ‘Eat rats, run!’ 的例子，說明易位後的語句有時意思很奇特。 Answer: A.",
+    "explanation": "答案是 A「strange（奇怪的）」。文章舉 ‘restaurant’ 變成 ‘Eat rats, run!’ 的例子，說明易位後的語句有時意思很奇特。",
     "solutionSteps": [
       "先看 ‘restaurant’ 和 ‘Eat rats, run!’ 這組例子。",
       "新組成的語句內容荒誕、出人意料，作者用它說明 anagram 有時會形成奇怪的意思。",
       "因此選 strange（奇怪的），答案 A；difficult、delicious、important 都不符合這個例子的語氣。"
     ],
-    "teacherTip": "形容詞填空要用後面的例子判斷語氣和意思，不能只看單字熟悉度。",
+    "teacherTip": "strange ≈ odd / unusual（奇怪／不尋常）；勿把 difficult（困難）混為「意思奇怪」，要根據餐廳字母重排後的荒誕例子判斷。",
     "relatedWords": [
       "strange（奇怪的）",
-      "meaning（意思）",
-      "fun（有趣的）"
+      "odd（奇怪的）",
+      "unusual（不尋常的）",
+      "difficult（困難的；勿混淆）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -15475,15 +15476,16 @@
       "not first used to learn words"
     ],
     "answer": 0,
-    "explanation": "答案是 A「more than just games（不只是遊戲）」。下文接著說回文可用於學數學、作曲，易位詞可用來隱藏資訊，這些用途說明它們不只是文字遊戲。 Answer: A.",
+    "explanation": "答案是 A「more than just games（不只是遊戲）」。下文接著說回文可用於學數學、作曲，易位詞可用來隱藏資訊，這些用途說明它們不只是文字遊戲。",
     "solutionSteps": [
       "讀空格後的支持內容：回文可協助學數學和作曲，易位詞可隱藏重要研究。",
       "這些用途超出遊戲本身，所以作者要說兩者不只是遊戲。",
       "選 A。B、C、D 都與下文列出的實際用途無關或相反。"
     ],
-    "teacherTip": "主旨句的空格要能統整後文列出的多項用途，而不只是重述單一例子。",
+    "teacherTip": "more than just games ≈ not merely games（不只是遊戲）；用後文列出的用途統整主旨，別只看到前文的 word games 就選項。",
     "relatedWords": [
-      "more than（不只是／超過）",
+      "more than just（不只是）",
+      "not merely（不僅／不只是）",
       "use（用途）",
       "hide（隱藏）"
     ],

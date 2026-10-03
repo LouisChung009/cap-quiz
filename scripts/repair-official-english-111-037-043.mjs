@@ -33,31 +33,31 @@ const updates = {
   },
   "OFF-0314": {
     question: `${wordGames}\n\nFill in blank 40 in the passage above.`,
-    explanation: "答案是 D「for example（例如）」。後面列出 eye、Bob、my gym 等回文例子，因此需要用 for example 引出例子。 Answer: D.",
+    explanation: "答案是 D「for example（例如）」。後面列出 eye、Bob、my gym 等回文例子，因此需要用 for example 引出例子。",
     solutionSteps: ["先看空格後的內容：接著列出 eye、Bob、my gym 和一個完整句子。", "這些都是 palindrome 的實例，所以需要表示舉例的連接語。", "for example 意為「例如」，選 D；in fact、at first、of course 都不負責引出例子。"],
     teacherTip: "連接詞題要看前後句的邏輯關係；列舉例子時用 for example。",
     relatedWords: ["palindrome（回文）", "for example（例如）", "spelling（拼字）"]
   },
   "OFF-0315": {
     question: `${wordGames}\n\nFill in blank 41 in the passage above.`,
-    explanation: "答案是 C「it makes」。mistake 的七個字母重新排列後，可組成 it makes；兩者字母數量及字母種類相同。 Answer: C.",
+    explanation: "答案是 C「it makes」。mistake 的七個字母重新排列後，可組成 it makes；兩者字母數量及字母種類相同。",
     solutionSteps: ["把 mistake 的字母列出：m、i、s、t、a、k、e。", "it makes 也使用 i、t、m、a、k、e、s，各字母恰好各一次。", "所以 it makes 是 mistake 的 anagram，選 C；其他片語含有不同字母或字母數不符。"],
     teacherTip: "Anagram 必須保留原詞所有字母，不能增減或重複字母。",
     relatedWords: ["anagram（易位構詞／字母重排詞）", "rearrange（重新排列）", "letter（字母）"]
   },
   "OFF-0316": {
     question: `${wordGames}\n\nFill in blank 42 in the passage above.`,
-    explanation: "答案是 A「strange（奇怪的）」。文章舉 ‘restaurant’ 變成 ‘Eat rats, run!’ 的例子，說明易位後的語句有時意思很奇特。 Answer: A.",
+    explanation: "答案是 A「strange（奇怪的）」。文章舉 ‘restaurant’ 變成 ‘Eat rats, run!’ 的例子，說明易位後的語句有時意思很奇特。",
     solutionSteps: ["先看 ‘restaurant’ 和 ‘Eat rats, run!’ 這組例子。", "新組成的語句內容荒誕、出人意料，作者用它說明 anagram 有時會形成奇怪的意思。", "因此選 strange（奇怪的），答案 A；difficult、delicious、important 都不符合這個例子的語氣。"],
-    teacherTip: "形容詞填空要用後面的例子判斷語氣和意思，不能只看單字熟悉度。",
-    relatedWords: ["strange（奇怪的）", "meaning（意思）", "fun（有趣的）"]
+    teacherTip: "strange ≈ odd / unusual（奇怪／不尋常）；勿把 difficult（困難）混為「意思奇怪」，要根據餐廳字母重排後的荒誕例子判斷。",
+    relatedWords: ["strange（奇怪的）", "odd（奇怪的）", "unusual（不尋常的）", "difficult（困難的；勿混淆）"]
   },
   "OFF-0317": {
     question: `${wordGames}\n\nFill in blank 43 in the passage above.`,
-    explanation: "答案是 A「more than just games（不只是遊戲）」。下文接著說回文可用於學數學、作曲，易位詞可用來隱藏資訊，這些用途說明它們不只是文字遊戲。 Answer: A.",
+    explanation: "答案是 A「more than just games（不只是遊戲）」。下文接著說回文可用於學數學、作曲，易位詞可用來隱藏資訊，這些用途說明它們不只是文字遊戲。",
     solutionSteps: ["讀空格後的支持內容：回文可協助學數學和作曲，易位詞可隱藏重要研究。", "這些用途超出遊戲本身，所以作者要說兩者不只是遊戲。", "選 A。B、C、D 都與下文列出的實際用途無關或相反。"],
-    teacherTip: "主旨句的空格要能統整後文列出的多項用途，而不只是重述單一例子。",
-    relatedWords: ["more than（不只是／超過）", "use（用途）", "hide（隱藏）"]
+    teacherTip: "more than just games ≈ not merely games（不只是遊戲）；用後文列出的用途統整主旨，別只看到前文的 word games 就選項。",
+    relatedWords: ["more than just（不只是）", "not merely（不僅／不只是）", "use（用途）", "hide（隱藏）"]
   }
 };
 

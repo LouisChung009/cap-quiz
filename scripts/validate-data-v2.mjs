@@ -611,6 +611,18 @@ for (const [id, clue] of [["OFF-0534", "前視圖會把不同深度"], ["OFF-053
 }
 const english114ChatQuestion = official.find(question => question.id === "OFF-0938");
 if (!english114ChatQuestion?.question.includes("Jenny: ‘I agree.") || !english114ChatQuestion.question.includes("Mark: ‘I didn't mean that")) errors.push("114英文第22題: 群聊發言者標籤或回應缺失");
+const english111WordGamesKeys = ["D", "C", "A", "A"];
+for (let offset = 0; offset < english111WordGamesKeys.length; offset += 1) {
+  const number = offset + 40;
+  const row = official.find(question => question.id === `OFF-${String(number + 274).padStart(4, "0")}`);
+  const answerLetter = row && String.fromCharCode(65 + row.answer);
+  const hasFullPassage = row?.question.includes("English words are made of 26 letters") && row.question.includes("restaurant") && row.question.includes("Palindromes can be used to learn mathematics and make music") && row.question.includes("Anagrams are also a good way to hide something");
+  if (!row || row.source?.year !== 111 || row.source.questionNumber !== number || answerLetter !== english111WordGamesKeys[offset] || row.options?.length !== 4 || !hasFullPassage || row.requiresImage || row.questionImage || row.questionImages?.length || !row.explanation?.trim() || !row.solutionSteps?.length || !row.teacherTip?.trim() || row.answerKeyReview?.status !== "verified" || /Answer:\s*[A-D]/i.test(row.explanation)) errors.push(`111英文第${number}題: 回文與易位詞題組的原文、答案、解析或四選項不完整`);
+}
+const english111AnagramQuestion = official.find(question => question.id === "OFF-0316");
+const english111PurposeQuestion = official.find(question => question.id === "OFF-0317");
+if (!english111AnagramQuestion?.teacherTip?.includes("odd / unusual") || !english111AnagramQuestion.teacherTip.includes("difficult") || !english111AnagramQuestion.relatedWords?.some(word => word.startsWith("unusual"))) errors.push("111英文第42題: strange 同義詞或易混淆詞提醒缺漏");
+if (!english111PurposeQuestion?.teacherTip?.includes("not merely") || !english111PurposeQuestion.relatedWords?.some(word => word.startsWith("not merely"))) errors.push("111英文第43題: more than just 同義片語或篇章判讀提醒缺漏");
 const english114CityCardQuestion = official.find(question => question.id === "OFF-0941");
 if (!english114CityCardQuestion?.question.includes("Museum of White Lake City History are in Zone 1") || !english114CityCardQuestion.question.includes("White Lake is in Zone 2") || english114CityCardQuestion.answer !== 2) errors.push("114英文第25題: 地圖分區文字與最省方案答案不一致");
 for (const id of ["OFF-0951", "OFF-0952", "OFF-0953"]) {
