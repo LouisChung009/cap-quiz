@@ -36,40 +36,10 @@
     "suggestedFix": "重寫 explanation／solutionSteps，明確引用材料中的句子、數據、位置或圖像特徵，並逐項說明排除理由。"
   },
   {
-    "id": "OFF-0518",
-    "severity": "high",
-    "problem": "題目依賴本文、對話、圖表、地圖、菜單或圖片，但 requiresImage=false，前台不顯示既有官方頁圖，僅靠題幹與選項無法作答。；解析多為「答案最符合條件／把選項代回」的模板句，未引用圖表、本文句子或關鍵證據；圖片選項為 A/B/C/D 時尤其無法說明判斷依據。",
-    "suggestedFix": "設 requiresImage=true；題組題同時設 requiresContext=true，questionImages 應包含材料起始頁至本題頁，並確認前台逐題可見完整材料。；重寫 explanation／solutionSteps，明確引用材料中的句子、數據、位置或圖像特徵，並逐項說明排除理由。"
-  },
-  {
-    "id": "OFF-0519",
-    "severity": "high",
-    "problem": "題目依賴本文、對話、圖表、地圖、菜單或圖片，但 requiresImage=false，前台不顯示既有官方頁圖，僅靠題幹與選項無法作答。；解析多為「答案最符合條件／把選項代回」的模板句，未引用圖表、本文句子或關鍵證據；圖片選項為 A/B/C/D 時尤其無法說明判斷依據。",
-    "suggestedFix": "設 requiresImage=true；題組題同時設 requiresContext=true，questionImages 應包含材料起始頁至本題頁，並確認前台逐題可見完整材料。；重寫 explanation／solutionSteps，明確引用材料中的句子、數據、位置或圖像特徵，並逐項說明排除理由。"
-  },
-  {
-    "id": "OFF-0520",
-    "severity": "high",
-    "problem": "題目依賴本文、對話、圖表、地圖、菜單或圖片，但 requiresImage=false，前台不顯示既有官方頁圖，僅靠題幹與選項無法作答。；解析多為「答案最符合條件／把選項代回」的模板句，未引用圖表、本文句子或關鍵證據；圖片選項為 A/B/C/D 時尤其無法說明判斷依據。",
-    "suggestedFix": "設 requiresImage=true；題組題同時設 requiresContext=true，questionImages 應包含材料起始頁至本題頁，並確認前台逐題可見完整材料。；重寫 explanation／solutionSteps，明確引用材料中的句子、數據、位置或圖像特徵，並逐項說明排除理由。"
-  },
-  {
     "id": "OFF-0521",
     "severity": "medium",
     "problem": "解析多為「答案最符合條件／把選項代回」的模板句，未引用圖表、本文句子或關鍵證據；圖片選項為 A/B/C/D 時尤其無法說明判斷依據。",
     "suggestedFix": "重寫 explanation／solutionSteps，明確引用材料中的句子、數據、位置或圖像特徵，並逐項說明排除理由。"
-  },
-  {
-    "id": "OFF-0522",
-    "severity": "high",
-    "problem": "題目依賴本文、對話、圖表、地圖、菜單或圖片，但 requiresImage=false，前台不顯示既有官方頁圖，僅靠題幹與選項無法作答。；解析多為「答案最符合條件／把選項代回」的模板句，未引用圖表、本文句子或關鍵證據；圖片選項為 A/B/C/D 時尤其無法說明判斷依據。",
-    "suggestedFix": "設 requiresImage=true；題組題同時設 requiresContext=true，questionImages 應包含材料起始頁至本題頁，並確認前台逐題可見完整材料。；重寫 explanation／solutionSteps，明確引用材料中的句子、數據、位置或圖像特徵，並逐項說明排除理由。"
-  },
-  {
-    "id": "OFF-0523",
-    "severity": "high",
-    "problem": "題目依賴本文、對話、圖表、地圖、菜單或圖片，但 requiresImage=false，前台不顯示既有官方頁圖，僅靠題幹與選項無法作答。；解析多為「答案最符合條件／把選項代回」的模板句，未引用圖表、本文句子或關鍵證據；圖片選項為 A/B/C/D 時尤其無法說明判斷依據。",
-    "suggestedFix": "設 requiresImage=true；題組題同時設 requiresContext=true，questionImages 應包含材料起始頁至本題頁，並確認前台逐題可見完整材料。；重寫 explanation／solutionSteps，明確引用材料中的句子、數據、位置或圖像特徵，並逐項說明排除理由。"
   },
   {
     "id": "OFF-0524",
@@ -78,34 +48,10 @@
     "suggestedFix": "重寫 explanation／solutionSteps，明確引用材料中的句子、數據、位置或圖像特徵，並逐項說明排除理由。"
   },
   {
-    "id": "OFF-0525",
-    "severity": "high",
-    "problem": "題目依賴本文、對話、圖表、地圖、菜單或圖片，但 requiresImage=false，前台不顯示既有官方頁圖，僅靠題幹與選項無法作答。；題幹或選項含 OCR／試卷版面雜訊（頁碼、字型碼、字彙圖示或排序符號），可能造成選項文字錯誤或干擾閱讀。；解析多為「答案最符合條件／把選項代回」的模板句，未引用圖表、本文句子或關鍵證據；圖片選項為 A/B/C/D 時尤其無法說明判斷依據。",
-    "suggestedFix": "設 requiresImage=true；題組題同時設 requiresContext=true，questionImages 應包含材料起始頁至本題頁，並確認前台逐題可見完整材料。；依官方試卷人工校對，移除頁碼與字型碼；保留必要字彙提示時改成乾淨文字，排序箭頭改為一般可顯示符號。；重寫 explanation／solutionSteps，明確引用材料中的句子、數據、位置或圖像特徵，並逐項說明排除理由。"
-  },
-  {
     "id": "OFF-0526",
     "severity": "medium",
     "problem": "解析多為「答案最符合條件／把選項代回」的模板句，未引用圖表、本文句子或關鍵證據；圖片選項為 A/B/C/D 時尤其無法說明判斷依據。",
     "suggestedFix": "重寫 explanation／solutionSteps，明確引用材料中的句子、數據、位置或圖像特徵，並逐項說明排除理由。"
-  },
-  {
-    "id": "OFF-0527",
-    "severity": "high",
-    "problem": "題目依賴本文、對話、圖表、地圖、菜單或圖片，但 requiresImage=false，前台不顯示既有官方頁圖，僅靠題幹與選項無法作答。；解析多為「答案最符合條件／把選項代回」的模板句，未引用圖表、本文句子或關鍵證據；圖片選項為 A/B/C/D 時尤其無法說明判斷依據。",
-    "suggestedFix": "設 requiresImage=true；題組題同時設 requiresContext=true，questionImages 應包含材料起始頁至本題頁，並確認前台逐題可見完整材料。；重寫 explanation／solutionSteps，明確引用材料中的句子、數據、位置或圖像特徵，並逐項說明排除理由。"
-  },
-  {
-    "id": "OFF-0528",
-    "severity": "high",
-    "problem": "題目依賴本文、對話、圖表、地圖、菜單或圖片，但 requiresImage=false，前台不顯示既有官方頁圖，僅靠題幹與選項無法作答。；解析多為「答案最符合條件／把選項代回」的模板句，未引用圖表、本文句子或關鍵證據；圖片選項為 A/B/C/D 時尤其無法說明判斷依據。",
-    "suggestedFix": "設 requiresImage=true；題組題同時設 requiresContext=true，questionImages 應包含材料起始頁至本題頁，並確認前台逐題可見完整材料。；重寫 explanation／solutionSteps，明確引用材料中的句子、數據、位置或圖像特徵，並逐項說明排除理由。"
-  },
-  {
-    "id": "OFF-0529",
-    "severity": "high",
-    "problem": "題目依賴本文、對話、圖表、地圖、菜單或圖片，但 requiresImage=false，前台不顯示既有官方頁圖，僅靠題幹與選項無法作答。；解析多為「答案最符合條件／把選項代回」的模板句，未引用圖表、本文句子或關鍵證據；圖片選項為 A/B/C/D 時尤其無法說明判斷依據。",
-    "suggestedFix": "設 requiresImage=true；題組題同時設 requiresContext=true，questionImages 應包含材料起始頁至本題頁，並確認前台逐題可見完整材料。；重寫 explanation／solutionSteps，明確引用材料中的句子、數據、位置或圖像特徵，並逐項說明排除理由。"
   },
   {
     "id": "OFF-0530",

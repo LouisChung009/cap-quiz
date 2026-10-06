@@ -2366,6 +2366,21 @@ for (let number = 24; number <= 35; number += 1) {
   const content = [row?.question, row?.explanation, ...(row?.solutionSteps || []), row?.teacherTip, ...(row?.options || [])].join(" ").toLowerCase();
   if (!row || !english112Q24to35Evidence[number - 24].every(clue => content.includes(clue.toLowerCase()))) errors.push(`112英文第${number}題: 原卷題材、答案證據或詳解錨點缺漏`);
 }
+const english112TextOnlyPassages = [
+  ["OFF-0518", 30, "Mosquitoes in the rain"],
+  ["OFF-0519", 31, "Mosquitoes in the rain"],
+  ["OFF-0520", 32, "Mosquitoes in the rain"],
+  ["OFF-0522", 34, "Who was"],
+  ["OFF-0523", 35, "Who was"],
+  ["OFF-0525", 37, "toys and gender"],
+  ["OFF-0527", 39, "Marie Colvin, a war reporter"],
+  ["OFF-0528", 40, "Marie Colvin, a war reporter"],
+  ["OFF-0529", 41, "Marie Colvin, a war reporter"]
+];
+for (const [id, number, materialClue] of english112TextOnlyPassages) {
+  const row = official.find(question => question.id === id);
+  if (!row || row.source?.year !== 112 || row.source.questionNumber !== number || !row.question.includes(materialClue) || row.requiresImage || row.questionImage || row.questionImages?.length || row.options?.length !== 4 || row.solutionSteps?.length < 3 || !row.teacherTip?.trim() || (row.relatedWords?.length ?? 0) < 3 || row.answerKeyReview?.status !== "verified" || /\(cid:\d+\)/i.test(row.question)) errors.push(`112英文第${number}題: 共用閱讀材料、答案、解題教學欄位缺漏或錯誤依賴試卷圖`);
+}
 const english112Q36to43Evidence = [
   ["What idea", "gender decide", "building toys", "find out what they are interested in"],
   ["this rule", "watch and follow", "find out what they really like"],
