@@ -30,6 +30,8 @@ for (let index = 0; index < 10; index++) {
   }
 }
 const item10 = rows.find(row => row.id === "OFF-0620");
+const hydrogen = rows.find(row => row.id === "OFF-0617");
+if (!hydrogen || hydrogen.requiresImage || hydrogen.questionImages?.length || !hydrogen.question.includes("綠氫：以再生能源電力製氫") || !hydrogen.options?.[1]?.includes("風力發電") || !hydrogen.options[1].includes("電解水") || hydrogen.answer !== 1 || !hydrogen.explanation.includes("綠氫")) failures.push("OFF-0617: self-contained hydrogen-production evidence, correct key, or explanation missing");
 if (item10?.requiresImage || item10?.questionImages?.length || /圖\s*[（(]五/.test(item10?.question ?? "")) failures.push("OFF-0620: answer-revealing synthetic figure reference remains");
 if (!item10?.question.includes("侵入原有岩層") || !item10.question.includes("海水侵蝕") || item10.answer !== 1) failures.push("OFF-0620: self-contained geology evidence or verified key missing");
 try { await access(join(root, "assets", "official-exams", "112-science-q10-rock-intrusion.svg")); failures.push("OFF-0620: deleted answer-revealing graphic is still present"); }
