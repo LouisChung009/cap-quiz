@@ -24,6 +24,8 @@ const weather = rows.find(row => row.id === "OFF-0852");
 if (!weather?.question.includes("太平洋高氣壓範圍") || !weather.options?.[1]?.includes("太平洋高氣壓範圍") || weather.question.includes("太平洋暖氣團")) failures.push("OFF-0852: Pacific High source wording is inaccurate or incomplete");
 const chlorine = rows.find(row => row.id === "OFF-0853");
 if (!["0.39", "0.33", "0.28", "0.22", "0.18", "0.15", "0.13", "0.09", "0.30", "0.20", "0.03", "0.00"].every(value => chlorine?.question.includes(value))) failures.push("OFF-0853: source residual-chlorine data incomplete");
+const rockCycle = rows.find(row => row.id === "OFF-0849");
+if (!rockCycle || rockCycle.answer !== 3 || !rockCycle.question.includes("岩漿侵入地殼") || !rockCycle.question.includes("丙作用") || rockCycle.question.includes("cid:") || rockCycle.options?.[3] !== "丙為壓密與膠結，使碎屑顆粒結合" || !rockCycle.solutionSteps?.some(step => step.includes("搬運、沉積"))) failures.push("OFF-0849: clean source wording, keyed choice, or rock-cycle reasoning missing");
 
 if (failures.length) {
   console.error(failures.join("\n"));
