@@ -69,15 +69,15 @@ const repairs = {
     answerKeyReview: review(28, 6, "依 Libby 放棄休閒活動去工作賺錢的例子核對 D。"),
   },
   "OFF-0945": {
-    question: `${comicContext}\n\nWhat do the comics tell us?`, questionImage: `${base}114-english-p7.webp`, questionImages: [`${base}114-english-p7.webp`, `${base}114-english-p8.webp`], requiresImage: true, requiresContext: false,
+    question: `${comicContext}\n\nWhat do the comics tell us?`, questionImage: `${base}114-english-p8.webp`, imageAlt: "復活節島六格漫畫：森林由繁茂到砍伐殆盡，土地乾旱、居民爭奪資源；末格警告不要讓地球成為另一個復活節島", questionImages: [`${base}114-english-p8.webp`], requiresImage: true, requiresContext: false,
     explanation: "答案 C, Save our planet before it's too late。漫畫呈現復活節島從樹木豐茂到森林消失、土地乾旱與居民衝突的過程，最後把警告連結到地球：不要讓地球成為另一個復活節島。",
     solutionSteps: ["依漫畫順序讀圖：砍樹供生活與搬運石像，樹木減少，地下水不足、土地乾旱，最後居民爭奪資源。", "末格寫 ‘Let's not make Earth, our only home, another Easter Island.’ 這是警告現代人避免重蹈環境崩壞。", "因此主旨是及時保護地球，選 C；不是只享受當下、沿用舊方法或單純善待他人。"],
     teacherTip: "漫畫主旨通常結合事件因果和最後一格的警語；不要把其中一格的細節誤當整篇主旨。",
     relatedWords: ["planet（行星；此處指地球）", "before it's too late（趁還來得及）", "environment（環境）"],
-    answerKeyReview: review(29, 7, "依森林消失的因果及末格警語核對主旨 C；保留必需的漫畫圖。"),
+    answerKeyReview: review(29, 8, "依森林消失的因果及末格警語核對主旨 C；保留必需的漫畫圖。"),
   },
   "OFF-0946": {
-    question: `${comicContext}\n\nWhat can we learn about the people in the comics?`, questionImage: `${base}114-english-p7.webp`, questionImages: [`${base}114-english-p7.webp`, `${base}114-english-p8.webp`], requiresImage: true, requiresContext: false,
+    question: `${comicContext}\n\nWhat can we learn about the people in the comics?`, questionImage: `${base}114-english-p8.webp`, imageAlt: "復活節島六格漫畫：島民搬動石像並將其移到戰場，以展現力量；圖中同時呈現森林減少與土地乾旱", questionImages: [`${base}114-english-p8.webp`], requiresImage: true, requiresContext: false,
     explanation: "答案 D, They used statues to show how strong they were。第六格明說雕像被移到戰場以展現權力（show their power）；D 的意思是用石像展示力量，與此相符。",
     solutionSteps: ["定位第六格文字：The statues were moved to fighting grounds to show their power。", "show their power 與 show how strong they were 意思相近，都是展示力量／權勢。", "選 D。漫畫沒有說他們先放火再開戰、一直為土地植物打仗，或向石像祈禱。"],
     teacherTip: "power 可指力量或權勢；題目常用同義改寫，需辨認 show their power ≈ show how strong they were。",

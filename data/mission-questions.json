@@ -46773,8 +46773,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "【Comic context】Around the year 400, people came to Easter Island, where there were many trees. They used trees to make fire and build houses. They also made large statues and moved them with wood. Trees were needed in every part of life; over time fewer trees remained. Without enough trees to keep water under the ground, the land became dry and plants did not grow. People began to fight for water and food, and the statues were moved to fighting grounds to show power. The last trees were probably cut down, and when the last trees fell, people on the island fell too. The final panel warns: ‘Let's not make Earth, our only home, another Easter Island.’\n\nWhat do the comics tell us?",
-    "questionImage": "./assets/official-exams/114-english-p7.webp",
-    "imageAlt": "114年國中教育會考英文科第29題官方試卷頁面",
+    "questionImage": "./assets/official-exams/114-english-p8.webp",
+    "imageAlt": "復活節島六格漫畫：森林由繁茂到砍伐殆盡，土地乾旱、居民爭奪資源；末格警告不要讓地球成為另一個復活節島",
     "options": [
       "Enjoy life while we can.",
       "Follow the old ways of life.",
@@ -46811,12 +46811,12 @@
     "requiresImage": true,
     "requiresContext": false,
     "questionImages": [
-      "./assets/official-exams/114-english-p7.webp",
       "./assets/official-exams/114-english-p8.webp"
     ],
     "answerKeyReview": {
       "status": "verified",
-      "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：英文第29題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
+      "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：英文第29題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view",
+      "evidenceSources": ["./assets/official-exams/114-english-p8.webp"]
     }
   },
   {
@@ -46828,8 +46828,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "【Comic context】Around the year 400, people came to Easter Island, where there were many trees. They used trees to make fire and build houses. They also made large statues and moved them with wood. Trees were needed in every part of life; over time fewer trees remained. Without enough trees to keep water under the ground, the land became dry and plants did not grow. People began to fight for water and food, and the statues were moved to fighting grounds to show power. The last trees were probably cut down, and when the last trees fell, people on the island fell too. The final panel warns: ‘Let's not make Earth, our only home, another Easter Island.’\n\nWhat can we learn about the people in the comics?",
-    "questionImage": "./assets/official-exams/114-english-p7.webp",
-    "imageAlt": "114年國中教育會考英文科第30題官方試卷頁面",
+    "questionImage": "./assets/official-exams/114-english-p8.webp",
+    "imageAlt": "復活節島六格漫畫：島民搬動石像並將其移到戰場，以展現力量；圖中同時呈現森林減少與土地乾旱",
     "options": [
       "They made fire before starting a fight.",
       "They fought for land and plants all the time.",
@@ -46866,12 +46866,12 @@
     "requiresImage": true,
     "requiresContext": false,
     "questionImages": [
-      "./assets/official-exams/114-english-p7.webp",
       "./assets/official-exams/114-english-p8.webp"
     ],
     "answerKeyReview": {
       "status": "verified",
-      "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：英文第30題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
+      "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：英文第30題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view",
+      "evidenceSources": ["./assets/official-exams/114-english-p8.webp"]
     }
   },
   {

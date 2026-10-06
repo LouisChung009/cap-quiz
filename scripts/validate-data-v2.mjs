@@ -847,6 +847,8 @@ for (const [id, figure, page, box] of [["OFF-0065", "110-english-q17-food-choice
 }
 const questionDataVersion = clientScript.match(/QUESTION_DATA_VERSION="([^"]+)"/)?.[1];
 if (!questionDataVersion || !serviceWorker.includes(`./data/mission-questions.json?v=${questionDataVersion}`)) errors.push("題庫版本與服務工作者快取版本不一致");
+const appVersion = clientScript.match(/APP_VERSION="([^"]+)"/)?.[1];
+if (!appVersion || !serviceWorker.includes(`./app.js?v=${appVersion}`) || !serviceWorker.includes(`./bootstrap.js?v=${appVersion}`) || !appShell.includes(`./bootstrap.js?v=${appVersion}`)) errors.push("主程式版本與 HTML／服務工作者快取版本不一致");
 for (const [assetIndex, pattern] of [[1, /href="\.\/(styles\.css\?v=[^"]+)"/], [2, /src="\.\/(bootstrap\.js\?v=[^"]+)"/]]) {
   const entry = appShell.match(pattern)?.[1];
   if (!entry || !serviceWorker.includes(`ASSETS[${assetIndex}]="./${entry}"`)) errors.push(`主頁資源與服務工作者第${assetIndex}項快取版本不一致`);
@@ -2319,6 +2321,11 @@ for (const [id, clue] of [["OFF-0534", "前視圖會把不同深度"], ["OFF-053
 }
 const english114ChatQuestion = official.find(question => question.id === "OFF-0938");
 if (!english114ChatQuestion?.question.includes("Jenny: ‘I agree.") || !english114ChatQuestion.question.includes("Mark: ‘I didn't mean that")) errors.push("114英文第22題: 群聊發言者標籤或回應缺失");
+for (const [id, clue] of [["OFF-0945", "another Easter Island"], ["OFF-0946", "What can we learn about the people"]]) {
+  const row = official.find(question => question.id === id);
+  const expectedAsset = "./assets/official-exams/114-english-p8.webp";
+  if (!row?.question.includes(clue) || !row.requiresImage || row.questionImage !== expectedAsset || row.questionImages?.length !== 1 || row.questionImages[0] !== expectedAsset || !row.imageAlt?.includes("漫畫") || !row.answerKeyReview?.evidenceSources?.includes(expectedAsset) || !serviceWorker.includes("114-english-p8.webp")) errors.push(`${id}: 114英文復活節島漫畫題必須只顯示第8頁圖像、具描述性替代文字、第8頁核對來源及離線快取`);
+}
 const english111WordGamesKeys = ["D", "C", "A", "A"];
 const english111Q1 = official.find(question => question.id === "OFF-0275");
 if (!english111Q1 || english111Q1.source?.year !== 111 || english111Q1.source.questionNumber !== 1 || english111Q1.answer !== 0 || english111Q1.options?.length !== 4 || !english111Q1.explanation.includes("candles") || !english111Q1.questionImages?.includes("./assets/official-exams/111-english-q01-cake-figure.svg") || english111Q1.questionImages.some(path => /111-english-p2\.webp/.test(path)) || !serviceWorker.includes("111-english-q01-cake-figure.svg") || !serviceWorker.includes("111-english-p2.webp")) errors.push("111英文第1題: 官方答案、圖中動作說明、局部蛋糕圖或離線相依圖檔不完整");

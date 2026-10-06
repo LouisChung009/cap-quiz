@@ -23,7 +23,7 @@ for (const [id, number, key, cue] of [["OFF-0899", 25, 1, "答案 B"], ["OFF-090
 }
 assert.match(serviceWorker, /114-chinese-q25-q26-oyster-passage\.svg/);
 assert.match(serviceWorker, /114-chinese-p8\.webp/);
-assert.match(serviceWorker, /mission-questions\.json\?v=64/);
+assert.match(serviceWorker, /mission-questions\.json\?v=65/);
 await access(join(root, "assets/official-exams/114-chinese-p8.webp"));
 const svg = await readFile(join(root, figure.slice(2)), "utf8");
 assert.match(svg, /viewBox="94 164 682 614"/);
