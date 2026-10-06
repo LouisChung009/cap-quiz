@@ -2514,6 +2514,12 @@ for (const [number, image] of [[15, "114-science-q15-plate-map.png"], [16, "114-
 }
 const redLightInference = science114(14);
 if (!redLightInference?.explanation.includes("選項 D") || !redLightInference.explanation.includes("題目單選措辭略有歧義") || !redLightInference.teacherTip.includes("較寬鬆上界")) errors.push("114自然第14題: 紅光推論中選項D的邏輯歧義未揭露");
+const science114Substances = science114(4);
+if (!science114Substances?.question.includes("硫磺") || !science114Substances.question.includes("笑氣（N₂O）") || science114Substances.answer !== 0 || science114Substances.requiresImage || science114Substances.questionImages?.length || !science114Substances.solutionSteps?.some(step => step.includes("共兩種"))) errors.push("114自然第4題: 元素／化合物題需以完整文字作答，答案或原子種類推理錯誤");
+const science114NervousSystem = science114(12);
+if (!science114NervousSystem?.question.includes("受器：小明嘴巴、阿華腳") || !science114NervousSystem.question.includes("傳導神經：小明僅有感覺神經元") || science114NervousSystem.answer !== 2 || science114NervousSystem.requiresImage || science114NervousSystem.questionImages?.length || !science114NervousSystem.explanation.includes("感覺神經與運動神經")) errors.push("114自然第12題: 神經系統比較資料、正解或文字推理缺漏");
+const science114Ions = science114(17);
+if (!science114Ions?.question.includes("Ca²⁺") || !science114Ions.question.includes("Cl⁻") || science114Ions.answer !== 0 || science114Ions.requiresImage || science114Ions.questionImages?.length || !science114Ions.solutionSteps?.some(step => step.includes("y=20−2=18")) || !science114Ions.solutionSteps?.some(step => step.includes("z=17+1=18"))) errors.push("114自然第17題: 離子質子／電子資料、正解或電荷推理缺漏");
 for (const [number, answer, clue] of [[21, 3, "70°C 的質量變化率均高於 50°C"], [22, 2, "木質部"], [23, 1, "B為8百帕"], [24, 0, "四個不同屬"], [25, 1, "0.96 mW"], [26, 3, "Q=mcΔT"], [27, 3, "反光鏡"], [28, 1, "碘被還原"], [29, 3, "m丙＞m甲＞m乙"], [30, 0, "兩隻黑眼親代都必須帶有 a"], [31, 0, "電流方向向北"], [32, 1, "68 g H₂S"]]) {
   const row = science114(number);
   if (!row || row.answer !== answer || !row.explanation.includes(clue) || !row.solutionSteps?.length || !row.teacherTip) errors.push(`114自然第${number}題: 官方答案、解題依據或教師提醒與已審題內容不符`);

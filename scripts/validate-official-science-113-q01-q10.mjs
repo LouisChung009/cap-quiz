@@ -31,7 +31,7 @@ for (let index = 0; index < 10; index++) {
 const route = rows.find(row => row.id === "OFF-0825");
 if (!route?.question.includes("皆由 X 前往 Y") || !route.question.includes("甲為直線路線，乙為曲折路線") || route.requiresImage) failures.push("OFF-0825: route question must remain self-contained without the source page");
 const elementTable = rows.find(row => row.id === "OFF-0828");
-if (!["氟（F）｜9｜17｜19.0", "氯（Cl）｜17｜17｜35.5", "溴（Br）｜35｜17｜79.9"].every(value => elementTable?.question.includes(value))) failures.push("OFF-0828: element table transcription incomplete");
+if (!["氟（F）｜9｜17｜19.0", "氯（Cl）｜17｜17｜35.5", "溴（Br）｜35｜17｜79.9"].every(value => elementTable?.question.includes(value)) || elementTable?.answer !== 2 || elementTable?.requiresImage || elementTable?.questionImages?.length || !elementTable?.solutionSteps?.some(step => step.includes("自然界元素豐度"))) failures.push("OFF-0828: self-contained element table, keyed answer, or evidence explanation incomplete");
 const weather = rows.find(row => row.id === "OFF-0827");
 if (!weather?.question.includes("橫軸刻度代表當日正午 12 點") || !weather.question.includes("未來幾天的天氣概況")) failures.push("OFF-0827: chart interpretation context missing");
 if (failures.length) {
