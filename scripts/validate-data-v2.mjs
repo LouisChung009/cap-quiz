@@ -2216,6 +2216,13 @@ const official = mission.filter(question => question.sourceType === "官方歷�
 const similar = mission.filter(question => question.type === "會考類題");
 if (official.length !== 1098) errors.push(`官方真題 ${official.length}，應為 1098`);
 if (similar.length !== 10) errors.push(`類題 ${similar.length}，應為 10`);
+const english113Q21 = mission.find(question => question.id === "OFF-0723");
+const english113Q22 = mission.find(question => question.id === "OFF-0724");
+const english113Q23 = mission.find(question => question.id === "OFF-0725");
+if (!english113Q21 || english113Q21.options?.[3] !== "I’ll do" || english113Q21.options?.some(option => option.includes("第二部分") || option.includes("Philip")) || english113Q21.answer !== 1 || english113Q21.source?.year !== 113 || english113Q21.source?.questionNumber !== 21) errors.push("113英文第21題: 選項遭題組 OCR 污染或官方答案／題號不符");
+for (const [row, number, answer] of [[english113Q22, 22, 3], [english113Q23, 23, 2]]) {
+  if (!row || !row.question.includes("Philip") || !row.question.includes("Jason") || !row.question.includes("police") || row.answer !== answer || row.source?.year !== 113 || row.source?.questionNumber !== number || row.requiresContext) errors.push(`113英文第${number}題: 共用閱讀材料、官方答案或題號缺漏`);
+}
 for (const [id, number, expectedQuestion, expectedAnswer] of [["OFF-0049", 1, "In the picture, the boy is", "bowing to"], ["OFF-0050", 2, "Listen! The baby", "is crying"]]) {
   const row = mission.find(question => question.id === id);
   if (!row || row.source?.year !== 110 || row.source?.questionNumber !== number || !row.question.includes(expectedQuestion) || row.options[row.answer] !== expectedAnswer) errors.push(`${id}: 110年英文題號、題幹或標答錯置`);
