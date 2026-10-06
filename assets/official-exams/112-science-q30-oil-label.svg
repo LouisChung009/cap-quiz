@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" role="img" aria-labelledby="title desc">
+  <title id="title">黑麻油商品標示比較</title>
+  <desc id="desc">甲牌標示260立方公分、240公克；乙牌標示275毫升、275公克。1立方公分等於1毫升。</desc>
+  <rect width="900" height="320" rx="24" fill="#f4f7fb"/><text x="450" y="52" text-anchor="middle" font-family="sans-serif" font-size="26" font-weight="700" fill="#10273b">購物網站商品資訊（題目資料重繪）</text>
+  <g font-family="sans-serif" text-anchor="middle"><rect x="90" y="86" width="330" height="190" rx="18" fill="#fff" stroke="#96aabd" stroke-width="3"/><rect x="480" y="86" width="330" height="190" rx="18" fill="#fff" stroke="#96aabd" stroke-width="3"/><text x="255" y="132" font-size="24" font-weight="700" fill="#0f766e">甲牌黑麻油</text><text x="255" y="190" font-size="29" fill="#10273b">260 c.c.</text><text x="255" y="235" font-size="29" fill="#10273b">240 g</text><text x="645" y="132" font-size="24" font-weight="700" fill="#0f766e">乙牌黑麻油</text><text x="645" y="190" font-size="29" fill="#10273b">275 mL</text><text x="645" y="235" font-size="29" fill="#10273b">275 g</text><text x="450" y="306" font-size="19" fill="#40566d">1 c.c. = 1 cm³ = 1 mL　｜　比較質量與體積以判斷密度</text></g>
+</svg>

@@ -1,0 +1,5 @@
+# Mathematics authored-bank audit: MAT-0701–0710
+
+Reviewed the ten question stems, option sets, keyed answers, solution steps, and teacher guidance. Checked the ratio-share, fraction-of-quantity, sequential discount, rectangle-perimeter equation, taxi fare, linear-function substitution, verbal equation, reverse tax calculation, similar-triangle area scaling, and circle-area scaling. Replaced a rounded reverse-tax example with an exact-value version and clarified MAT-0710 to say the radius becomes twice its original length (not “increases by twice”).
+
+Added per-item regression assertions for answer indexes, difficulty, units, knowledge points, calculation evidence, and teacher tips. Validation: full `npm test` passed across 6,108 records, including 100,000 randomized picks with no within-round repeats, duplicate/template checks, answer-position balance, and zero mismatches among extracted official answer keys. `git diff --check` passed. External teacher sign-off and production deployment remain outstanding.

@@ -1,0 +1,5 @@
+# Mathematics authored-bank audit: MAT-0581–0590
+
+Recomputed all ten answer keys and reviewed explanations, steps, and metadata. Replaced repeated discount, consecutive-even sum, consecutive-integer sum, and square perimeter/area patterns with time conversion, proportional equation modeling, division-with-remainder, and parallel-line angle reasoning. Recalibrated MAT-0585 to foundational percent calculation, and checked the remaining inequality, unit-rate, rectangle-area-change, ratio, and successive-fraction questions. Added regressions asserting the key, four-option count, difficulty, skill tag, worked-step evidence, and teacher tip for each item.
+
+Validation: all five authored subject banks contain 1,000 items; the combined dataset has 6,108 unique IDs. `npm test` passed, including 10,000 randomized rounds / 100,000 picks with no within-round repeats, template and answer checks, and zero mismatches across extracted official answer keys. `git diff --check` passed. Qualified teacher sign-off and production deployment remain pending.

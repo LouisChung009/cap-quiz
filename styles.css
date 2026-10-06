@@ -109,3 +109,125 @@ button:disabled{cursor:not-allowed!important;transform:none!important;filter:sat
 .expedition-hero .challenge-entry .start-button{display:block;width:100%;min-width:0}
 @media(max-width:820px){.expedition-hero{min-height:560px}.expedition-hero .quest-copy{max-width:calc(100% - 76px);padding-bottom:0}}
 @media(max-width:520px){.expedition-hero{min-height:540px;grid-template-columns:minmax(0,1fr) 62px;grid-template-rows:minmax(0,1fr) auto auto;gap:12px;padding:18px}.expedition-hero .quest-copy{max-width:100%;padding-bottom:0}.expedition-hero .challenge-entry{width:100%;margin-top:12px}.expedition-hero .challenge-entry small{max-width:100%}}
+
+.expedition-hero{grid-template-rows:minmax(180px,1fr) auto auto;row-gap:14px}
+.expedition-hero .quest-copy{grid-row:2;align-self:start;min-width:0}
+.expedition-hero .goal-ring{grid-row:2;align-self:start}
+.expedition-hero .challenge-entry{grid-row:3;position:relative!important;inset:auto!important;align-self:start;justify-self:stretch;width:min(100%,440px);min-width:0;margin:0;padding:0;transform:none;z-index:5}
+.expedition-hero .challenge-entry .start-button{position:relative;inset:auto;width:100%;min-width:0;margin:0;transform:none;z-index:auto!important}
+.expedition-hero .challenge-entry #startChallenge{z-index:auto!important}
+.expedition-hero .challenge-entry small{display:block;position:relative;max-width:100%;line-height:1.5;overflow-wrap:anywhere}
+@media(max-width:520px){.expedition-hero{min-height:620px;grid-template-rows:minmax(180px,1fr) auto auto;row-gap:18px}.expedition-hero .challenge-entry{width:100%}}
+.expedition-hero .quest-copy{grid-row:2;align-self:start;min-width:0;margin:0;z-index:6}
+.expedition-hero .goal-ring{grid-row:2;align-self:start}
+.expedition-hero .challenge-entry{grid-area:3/1/4/-1;position:relative!important;inset:auto!important;align-self:start;justify-self:stretch;min-width:0;margin:0;padding:0;transform:none;z-index:5}
+.expedition-hero .challenge-entry .start-button{position:relative!important;inset:auto!important;display:block;width:100%;min-width:0;margin:0;transform:none;z-index:auto!important}
+.expedition-hero .challenge-entry small{display:block;position:relative;max-width:100%;line-height:1.5;margin:0;overflow-wrap:anywhere}
+@media(max-width:520px){.expedition-hero{min-height:620px;grid-template-rows:minmax(180px,1fr) auto auto;row-gap:18px}}
+.question-image-crop{position:relative;width:100%;aspect-ratio:var(--crop-ratio);overflow:hidden;background:#fff;border-radius:11px}.question-image-crop img{position:absolute;left:var(--crop-left);top:var(--crop-top);display:block;width:var(--source-image-width);max-width:none;height:auto;max-height:none;object-fit:initial;object-position:initial;background:transparent;border-radius:0}
+
+.expedition-hero{grid-template-rows:minmax(240px,1fr) auto auto;row-gap:20px}
+.expedition-hero .quest-copy,.expedition-hero .goal-ring{grid-row:2}
+.expedition-hero .challenge-entry{grid-area:3/1/4/-1;display:grid;position:static!important;align-self:start;justify-self:stretch;width:min(100%,440px);min-width:0;gap:8px;margin:0;padding:0;transform:none;z-index:5}
+.expedition-hero .challenge-entry .start-button{display:block;position:static!important;width:100%;min-width:0;min-height:56px;margin:0;transform:none;z-index:auto!important}
+.expedition-hero .challenge-entry small{display:block;position:static;max-width:100%;margin:0;line-height:1.5;overflow-wrap:anywhere;white-space:normal}
+@media(max-width:520px){.expedition-hero{min-height:640px;grid-template-rows:minmax(220px,1fr) auto auto;row-gap:20px}}
+
+.expedition-hero{grid-template-rows:minmax(260px,1fr) auto auto;row-gap:18px;min-height:500px}
+.expedition-hero .quest-copy{grid-area:2/1/3/2;align-self:start;min-width:0;max-width:min(100%,560px);padding:0;overflow-wrap:anywhere}
+.expedition-hero .goal-ring{grid-area:2/2/3/3;align-self:start}
+.expedition-hero .challenge-entry{grid-area:3/1/4/-1;position:static!important;display:grid;justify-self:start;align-self:start;width:min(100%,440px);min-width:0;gap:8px;margin:0;padding:0;transform:none;z-index:5}
+.expedition-hero .challenge-entry .start-button{position:static!important;display:block;width:100%;min-width:0;min-height:56px;margin:0;transform:none;z-index:auto!important}
+.expedition-hero .challenge-entry small{position:static;display:block;max-width:100%;margin:0;line-height:1.5;overflow-wrap:anywhere;white-space:normal}
+@media(max-width:680px){.expedition-hero{min-height:620px;grid-template-columns:minmax(0,1fr) 62px;grid-template-rows:minmax(220px,1fr) auto auto;row-gap:18px;padding:18px}.expedition-hero .quest-copy{grid-area:2/1/3/2}.expedition-hero .goal-ring{grid-area:2/2/3/3}.expedition-hero .challenge-entry{grid-area:3/1/4/-1;justify-self:stretch;width:100%}}
+@media(max-width:380px){.expedition-hero{min-height:660px;grid-template-rows:minmax(240px,1fr) auto auto}.expedition-hero .quest-copy h1{font-size:21px;line-height:1.3}.expedition-hero .challenge-entry{gap:10px}}
+
+.expedition-hero{grid-template-columns:minmax(0,1fr) auto;grid-template-rows:minmax(260px,1fr) auto auto;row-gap:18px;min-height:540px;height:auto;padding-bottom:24px}
+.expedition-hero .quest-copy{grid-area:2/1/3/2;min-width:0;max-width:100%;align-self:start;position:relative;z-index:2}
+.expedition-hero .quest-copy h1,.expedition-hero .quest-copy p{max-width:100%;overflow-wrap:anywhere}
+.expedition-hero .goal-ring{grid-area:2/2/3/3;align-self:start;position:relative;z-index:2}
+.expedition-hero .challenge-entry{grid-area:3/1/4/-1;position:relative!important;inset:auto!important;display:grid;align-self:start;justify-self:start;width:min(100%,440px);min-width:0;gap:8px;margin:0;transform:none;z-index:2}
+.expedition-hero .challenge-entry .start-button{position:relative!important;inset:auto!important;display:block;width:100%;min-width:0;min-height:56px;margin:0;transform:none;z-index:0!important}
+.expedition-hero .challenge-entry small{position:relative;display:block;max-width:100%;margin:0;line-height:1.5;overflow-wrap:anywhere;white-space:normal}
+@media(max-width:680px){.expedition-hero{min-height:620px;grid-template-columns:minmax(0,1fr) 62px;grid-template-rows:minmax(240px,1fr) auto auto;row-gap:16px;padding:18px 18px 24px}.expedition-hero .quest-copy{grid-area:2/1/3/2}.expedition-hero .goal-ring{grid-area:2/2/3/3}.expedition-hero .challenge-entry{grid-area:3/1/4/-1;justify-self:stretch;width:100%}}
+@media(max-width:380px){.expedition-hero{min-height:660px;grid-template-rows:minmax(260px,1fr) auto auto}.expedition-hero .quest-copy h1{font-size:21px;line-height:1.3}}
+
+.expedition-hero{grid-template-rows:minmax(0,1fr) auto auto;align-content:stretch}
+.expedition-hero .quest-copy{grid-row:2;align-self:start;margin:0 0 4px}
+.expedition-hero .challenge-entry{grid-row:3;align-self:start;position:static!important;inset:auto!important;margin:0!important;transform:none!important}
+.expedition-hero .challenge-entry .start-button{position:static!important;inset:auto!important;transform:none!important}
+@media(max-width:680px){.expedition-hero{grid-template-rows:minmax(240px,1fr) auto auto;row-gap:20px;min-height:640px;padding-bottom:28px}.expedition-hero .quest-copy{grid-area:2/1/3/2}.expedition-hero .challenge-entry{grid-area:3/1/4/-1;justify-self:stretch;width:100%}}
+
+.expedition-hero{height:auto;min-height:0;grid-template-rows:minmax(220px,1fr) auto auto;align-content:initial;row-gap:18px;padding-bottom:28px}
+.expedition-hero .quest-copy{grid-row:2;align-self:start;margin:0;z-index:2}
+.expedition-hero .goal-ring{grid-row:2;align-self:start}
+.expedition-hero .challenge-entry{grid-row:3;grid-column:1/-1;position:static!important;inset:auto!important;display:grid;align-self:start;justify-self:start;width:min(100%,440px);min-width:0;gap:8px;margin:0!important;padding:0;transform:none!important;z-index:2}
+.expedition-hero .challenge-entry .start-button{position:static!important;inset:auto!important;display:block;width:100%;min-width:0;min-height:56px;margin:0;transform:none!important;z-index:auto!important}
+.expedition-hero .challenge-entry small{position:static;display:block;max-width:100%;margin:0;line-height:1.5;overflow-wrap:anywhere;white-space:normal}
+@media(max-width:680px){.expedition-hero{grid-template-columns:minmax(0,1fr) 62px;grid-template-rows:minmax(220px,1fr) auto auto;row-gap:18px;padding:18px 18px 28px}.expedition-hero .quest-copy{grid-area:2/1/3/2}.expedition-hero .goal-ring{grid-area:2/2/3/3}.expedition-hero .challenge-entry{grid-area:3/1/4/-1;justify-self:stretch;width:100%}}
+@media(max-width:380px){.expedition-hero{grid-template-rows:minmax(220px,1fr) auto auto;row-gap:16px;padding:16px 16px 24px}.expedition-hero .quest-copy h1{font-size:21px;line-height:1.3}}
+
+.expedition-hero{display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-rows:minmax(220px,1fr) auto auto;grid-template-areas:"visual visual" "copy meter" "action action";align-content:stretch;row-gap:18px;min-height:540px;height:auto;padding-bottom:28px}
+.expedition-hero .hero-explorer{grid-area:visual}
+.expedition-hero .quest-copy{grid-area:copy;position:relative;align-self:start;min-width:0;max-width:min(100%,560px);margin:0;padding:0;z-index:3}
+.expedition-hero .goal-ring{grid-area:meter;position:relative;align-self:start;z-index:3}
+.expedition-hero .challenge-entry{grid-area:action;position:relative!important;inset:auto!important;display:grid;align-self:start;justify-self:start;width:min(100%,440px);min-width:0;gap:8px;margin:0!important;padding:0;transform:none!important;z-index:3}
+.expedition-hero .challenge-entry .start-button{position:relative!important;inset:auto!important;display:block;width:100%;min-width:0;min-height:56px;margin:0;transform:none!important;z-index:auto!important}
+.expedition-hero .challenge-entry small{position:relative;display:block;max-width:100%;margin:0;line-height:1.5;overflow-wrap:anywhere;white-space:normal}
+@media(max-width:680px){.expedition-hero{grid-template-columns:minmax(0,1fr) 62px;grid-template-rows:minmax(220px,1fr) auto auto;grid-template-areas:"visual visual" "copy meter" "action action";row-gap:18px;min-height:640px;padding:18px 18px 28px}.expedition-hero .challenge-entry{justify-self:stretch;width:100%}}
+@media(max-width:380px){.expedition-hero{grid-template-rows:minmax(220px,1fr) auto auto;row-gap:16px;min-height:660px;padding:16px 16px 24px}.expedition-hero .quest-copy h1{font-size:21px;line-height:1.3}}
+
+.expedition-hero{grid-template-areas:"visual visual" "copy meter" "action action";grid-template-rows:minmax(220px,1fr) auto auto;align-content:stretch;row-gap:20px;height:auto;min-height:540px;padding-bottom:28px}
+.expedition-hero .hero-explorer{grid-area:visual;pointer-events:none}
+.expedition-hero .quest-copy{grid-area:copy;position:relative;inset:auto;align-self:start;min-width:0;max-width:100%;margin:0;padding:0;z-index:3}
+.expedition-hero .goal-ring{grid-area:meter;position:relative;inset:auto;align-self:start;z-index:3}
+.expedition-hero .challenge-entry{grid-area:action;position:relative!important;inset:auto!important;display:grid;align-self:start;justify-self:start;width:min(100%,440px);min-width:0;gap:9px;margin:0!important;padding:0;transform:none!important;z-index:3}
+.expedition-hero .challenge-entry .start-button{position:relative!important;inset:auto!important;display:block;width:100%;min-width:0;min-height:56px;margin:0;transform:none!important;z-index:auto!important}
+.expedition-hero .challenge-entry small{position:relative;inset:auto;display:block;max-width:100%;margin:0;line-height:1.5;overflow-wrap:anywhere;white-space:normal}
+@media(max-width:680px){.expedition-hero{grid-template-columns:minmax(0,1fr) 62px;grid-template-rows:minmax(220px,1fr) auto auto;grid-template-areas:"visual visual" "copy meter" "action action";row-gap:20px;min-height:640px;padding:18px 18px 28px}.expedition-hero .challenge-entry{justify-self:stretch;width:100%}}
+@media(max-width:380px){.expedition-hero{grid-template-rows:minmax(220px,1fr) auto auto;row-gap:18px;min-height:660px;padding:16px 16px 24px}.expedition-hero .quest-copy h1{font-size:21px;line-height:1.3}}
+
+.expedition-hero{grid-template-rows:minmax(220px,1fr) auto auto;grid-template-areas:"visual visual" "copy meter" "action action";height:auto;min-height:540px;overflow:hidden;align-content:stretch;row-gap:20px;padding-bottom:30px}
+.expedition-hero .quest-copy{grid-area:copy;position:relative;inset:auto;align-self:start;min-width:0;max-width:100%;margin:0;padding:0;z-index:3}
+.expedition-hero .goal-ring{grid-area:meter;position:relative;inset:auto;align-self:start;z-index:3}
+.expedition-hero .challenge-entry{grid-area:action;position:relative!important;inset:auto!important;display:grid;align-self:start;justify-self:start;width:min(100%,440px);min-width:0;gap:8px;margin:0!important;padding:0;transform:none!important;z-index:3}
+.expedition-hero .challenge-entry .start-button{position:relative!important;inset:auto!important;display:block;width:100%;min-width:0;min-height:56px;margin:0;transform:none!important;z-index:auto!important}
+.expedition-hero .challenge-entry small{position:relative;inset:auto;display:block;max-width:100%;margin:0;line-height:1.5;overflow-wrap:anywhere;white-space:normal}
+@media(max-width:680px){.expedition-hero{grid-template-columns:minmax(0,1fr) 62px;grid-template-rows:minmax(220px,1fr) auto auto;grid-template-areas:"visual visual" "copy meter" "action action";row-gap:20px;min-height:640px;padding:18px 18px 30px}.expedition-hero .challenge-entry{justify-self:stretch;width:100%}}
+@media(max-width:380px){.expedition-hero{grid-template-rows:minmax(220px,1fr) auto auto;row-gap:18px;min-height:660px;padding:16px 16px 26px}.expedition-hero .quest-copy h1{font-size:21px;line-height:1.3}}
+
+.expedition-hero{grid-template-rows:minmax(260px,auto) auto auto;align-content:start;row-gap:16px;height:auto;min-height:0;padding-bottom:26px}
+.expedition-hero .quest-copy{align-self:start;margin:0;min-width:0}
+.expedition-hero .challenge-entry{align-self:start;position:static!important;inset:auto!important;margin:0!important;transform:none!important}
+.expedition-hero .challenge-entry .start-button{position:static!important;inset:auto!important;transform:none!important}
+@media(max-width:680px){.expedition-hero{grid-template-rows:minmax(260px,auto) auto auto;row-gap:16px;min-height:0;padding-bottom:26px}}
+@media(max-width:380px){.expedition-hero{grid-template-rows:minmax(240px,auto) auto auto;row-gap:14px;min-height:0;padding:16px 16px 24px}}
+
+.expedition-hero{grid-template-columns:minmax(0,1fr) auto;grid-template-rows:minmax(220px,1fr) auto auto;grid-template-areas:"visual visual" "copy meter" "action action";row-gap:18px;height:auto;min-height:520px;padding-bottom:28px}
+.expedition-hero .quest-copy{grid-area:copy;position:relative;min-width:0;max-width:100%;align-self:start;z-index:3}
+.expedition-hero .goal-ring{grid-area:meter;position:relative;align-self:start;z-index:3}
+.expedition-hero .challenge-entry{grid-area:action;position:relative!important;inset:auto!important;display:grid;justify-self:start;align-self:start;width:min(100%,440px);min-width:0;gap:9px;margin:0!important;padding:0;transform:none!important;z-index:3}
+.expedition-hero .challenge-entry .start-button{position:relative!important;inset:auto!important;display:block;width:100%;min-width:0;min-height:56px;margin:0;transform:none!important;z-index:auto!important}
+.expedition-hero .challenge-entry small{position:relative;display:block;max-width:100%;margin:0;line-height:1.5;overflow-wrap:anywhere;white-space:normal}
+@media(max-width:680px){.expedition-hero{grid-template-columns:minmax(0,1fr) 62px;grid-template-rows:minmax(240px,1fr) auto auto;grid-template-areas:"visual visual" "copy meter" "action action";row-gap:18px;min-height:600px;padding:18px 18px 28px}.expedition-hero .challenge-entry{justify-self:stretch;width:100%}}
+@media(max-width:380px){.expedition-hero{grid-template-rows:minmax(240px,1fr) auto auto;row-gap:16px;min-height:620px;padding:16px 16px 24px}.expedition-hero .quest-copy h1{font-size:21px;line-height:1.3}}
+.filters{grid-template-columns:repeat(3,minmax(0,1fr)) auto}.filters label,.filters select{min-width:0;width:100%}.world-nav{grid-template-columns:repeat(5,minmax(0,1fr))}@media(max-width:680px){.filters{grid-template-columns:1fr 1fr}.filters .filter-button{grid-column:1/-1}}
+
+/* Stabilize the hero sprite: the source sheet has three equal landscape panels. */
+.expedition-hero>.hero-explorer{top:0;right:7%;bottom:auto;width:min(42vw,280px);height:min(84vw,560px);aspect-ratio:1/2;overflow:visible;}
+.expedition-hero .explorer-role-art{inset:0;width:100%;height:100%;background-size:300% auto;mix-blend-mode:screen;}
+body[data-role="scout"] .expedition-hero .explorer-role-art{background-position:0 0!important;}
+body[data-role="ranger"] .expedition-hero .explorer-role-art{background-position:50% 0!important;}
+body[data-role="scholar"] .expedition-hero .explorer-role-art{background-position:100% 0!important;}
+.team-slot{border-color:#31546a;background:linear-gradient(145deg,#102536,#0a1a28);color:#a9c4d4;box-shadow:inset 0 0 22px #3cc5ff0a;}
+.team-slot span{color:var(--accent);text-shadow:0 0 18px color-mix(in srgb,var(--accent) 45%,transparent);}
+@media(max-width:680px){
+  .expedition-hero>.hero-explorer{top:0;right:3%;bottom:auto;width:min(46vw,245px);height:min(92vw,490px);aspect-ratio:1/2;}
+  .expedition-hero .explorer-role-art{background-size:300% auto;}
+  .expedition-hero .personal-badge{display:grid;right:44%;top:20%;}
+  .expedition-hero .personal-spirit{right:4%;top:18%;}
+}
+@media(max-width:380px){.expedition-hero>.hero-explorer{width:min(52vw,205px);height:min(104vw,410px);right:1%;}}
+.official-question-figure .question-image-object,.official-practice-card .question-image-object{display:block;width:100%;height:min(68vh,680px);max-height:680px;object-fit:contain;object-position:top;background:#fff;border-radius:11px}
+.question-image-crop .question-image-object{position:absolute;left:var(--crop-left);top:var(--crop-top);width:var(--source-image-width);max-height:none;height:auto;border-radius:0}
+.question-image-fallback{display:grid;justify-items:center;gap:8px;min-height:140px;padding:20px;color:#d8e8f2;background:#102536;border:1px dashed #6b91a5;border-radius:11px;text-align:center}.question-image-fallback p{margin:0}.question-image-fallback a{color:#63c9ff;text-decoration:underline}

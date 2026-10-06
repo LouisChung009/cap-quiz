@@ -19,6 +19,13 @@ export function matchesDifficulty(item, selectedDifficulty) {
   return item?.difficulty === selectedDifficulty;
 }
 
+export function matchesSource(item, selectedSource) {
+  if (selectedSource === "official") return item?.sourceType === "官方歷屆真題";
+  if (selectedSource === "similar") return item?.sourceType === "依114年官方真題能力指標原創";
+  if (selectedSource === "original") return item?.sourceType !== "官方歷屆真題" && item?.sourceType !== "依114年官方真題能力指標原創";
+  return true;
+}
+
 export function normalizeResponse(value) {
   return String(value ?? "").normalize("NFKC").toLocaleLowerCase().replace(/[\s,，。]/g, "").replace(/[÷／]/g, "/");
 }

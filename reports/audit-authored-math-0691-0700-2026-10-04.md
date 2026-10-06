@@ -1,0 +1,5 @@
+# Mathematics authored-bank audit: MAT-0691–0700
+
+Reviewed each stem, answer index, option set, worked solution, and teacher tip. Replaced the all-statistics/probability run with linear equations, speed/time conversion, fraction subtraction, triangle-prism volume, simultaneous equations, and isosceles-triangle perimeter while retaining two representative data/probability questions. Recalibrated MAT-0695 and MAT-0700 difficulty. The duplicate scan exposed MAT-0699 as an exact stem-and-option clone of MAT-0610; changed it to a distinct quadratic asking for the larger root and added assertions for this batch.
+
+Validation: `npm test` passed across all 6,108 records. It confirmed five authored banks of 1,000 each, unique IDs and stems, exact answer-position balance, 10,000 randomized rounds / 100,000 picks with no within-round repeats, content/explanation checks, and zero mismatches among extracted official answer keys. `git diff --check` passed. This is internal review; external teacher approval and production deployment remain outstanding.

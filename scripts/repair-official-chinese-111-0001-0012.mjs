@@ -32,7 +32,8 @@ const fixes = {
     teacherTip: "字體演變依序掌握金文、小篆、隸書、楷書；辨形時看結構與筆畫特徵。",
     requiresImage: true,
     requiresContext: false,
-    questionImages: ["./assets/official-exams/111-chinese-p2.webp"]
+    questionImage: "./assets/official-exams/111-chinese-q04-original-glyph-crop.svg",
+    questionImages: ["./assets/official-exams/111-chinese-q04-original-glyph-crop.svg"]
   },
   "OFF-0237": {
     explanation: "正確答案為 D「不用現金支付使人對花錢的感受變得較遲鈍」。文章對照紙鈔逐漸減少時的可見提醒，以及卡片只留下輸贏紀錄、讓人難以感受到支出的差異。",

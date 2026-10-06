@@ -1,0 +1,5 @@
+# Mathematics authored-bank audit: MAT-0731–0740
+
+Reviewed each item's answer, distractors, worked steps, and teaching tip. Upgraded the circle question to infer radius from circumference and then compute area; replaced a basic range drill with Euclidean GCD, prism volume with cuboid surface area, midpoint with coordinate distance, a one-root square equation with a shifted two-root equation, and a monic quadratic already used elsewhere with a distinct non-monic quadratic. Changed the square-only perimeter problem to a rectangle ratio/perimeter/area application. Retained one basic probability, mean, and percentage item for foundational coverage.
+
+Added regression assertions for each record and corrected unit and difficulty metadata. Full `npm test` passed across 6,108 records: five authored banks of 1,000, unique IDs/stems, exact answer-position balance, 10,000 randomized rounds / 100,000 picks without within-round repeats, and zero mismatches among extracted official keys. `git diff --check` passed. External teacher review and live deployment remain pending.

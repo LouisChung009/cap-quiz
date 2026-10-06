@@ -1,0 +1,5 @@
+# Mathematics authored-bank audit: MAT-0641–0650
+
+Recomputed all ten keys and steps. Broke up another continuous block of statistics/probability items by replacing weighted mean, median/mode, mean removal, range, dice and card events, repeated probability, average transformation, and median templates with triangle-angle, equation, area, LCM, fraction-addition, volume, and time-conversion questions. The full-bank duplicate-stem check discovered MAT-0645 duplicated MAT-0404; replaced it with a distinct exterior-angle problem. Calibrated direct geometry questions to foundational difficulty and added batch regressions.
+
+Validation: all five authored subject banks contain 1,000 items; the combined dataset has 6,108 unique IDs. `npm test` passed, including the 5,000-item unique-stem check, 10,000 randomized rounds / 100,000 picks with no within-round repeats, template and answer checks, and zero mismatches across extracted official answer keys. `git diff --check` passed. Qualified teacher sign-off and production deployment remain pending.

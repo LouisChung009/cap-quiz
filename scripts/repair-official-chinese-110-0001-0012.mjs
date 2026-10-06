@@ -18,7 +18,10 @@ const fixes = {
     explanation: "使用說明列出三種不易對焦的情況：主體和背景顏色相近、對焦點同時覆蓋遠近主體、畫面有重複圖案。C 的綠色仙人掌和沙漠背景色差明顯，且沒有欄杆造成的前後景重疊或規律圖案，因此最容易成功對焦。A 雪人和雪地近色；B 欄杆與盆栽形成前後景；D 馬賽克磁磚有重複圖案。答案是 C「沙漠中的綠色仙人掌」。",
     solutionSteps: ["把說明書中的失敗條件整理成近色、遠近重疊、重複圖案三項。", "逐一檢查選項：A 符合近色，B 有前後景，D 有重複圖案。", "C 的仙人掌與沙漠有明顯色差，且避開另外兩種干擾，因此選 C。"],
     requiresImage: true,
-    requiresContext: false
+    requiresContext: false,
+    questionImage: "./assets/official-exams/110-chinese-q03-focus-scenes.svg",
+    imageAlt: "原卷四幅景物依序為雪地上的雪人、欄杆後的盆栽、沙漠中的綠色仙人掌、花色相同的馬賽克磁磚。",
+    questionImages: ["./assets/official-exams/110-chinese-q03-focus-scenes.svg"]
   },
   "OFF-0006": {
     question: `${poem}\n\n詩中「盆栽」對生活的態度，與下列何者最接近？`,

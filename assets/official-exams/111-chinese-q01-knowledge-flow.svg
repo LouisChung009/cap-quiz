@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" role="img" aria-labelledby="title desc">
+  <title id="title">掌握知識的流程示意圖</title>
+  <desc id="desc">閱讀、重新組織知識、用自己的方式說明，最後成為真正掌握的知識。</desc>
+  <rect width="900" height="240" rx="24" fill="#f4f7fb"/>
+  <g font-family="sans-serif" text-anchor="middle">
+    <g fill="#10273b"><rect x="24" y="68" width="174" height="100" rx="18"/><rect x="254" y="68" width="174" height="100" rx="18"/><rect x="484" y="68" width="174" height="100" rx="18"/><rect x="714" y="68" width="162" height="100" rx="18"/></g>
+    <g fill="#fff" font-size="27" font-weight="700"><text x="111" y="127">閱讀</text><text x="341" y="112">重新組織</text><text x="341" y="146">知識</text><text x="571" y="112">用自己的方式</text><text x="571" y="146">說明</text><text x="795" y="112">真正掌握</text><text x="795" y="146">知識</text></g>
+    <g fill="#38bdf8"><path d="M205 109h33v-15l20 24-20 24v-15h-33z"/><path d="M435 109h33v-15l20 24-20 24v-15h-33z"/><path d="M665 109h33v-15l20 24-20 24v-15h-33z"/></g>
+  </g>
+</svg>

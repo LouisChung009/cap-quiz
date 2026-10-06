@@ -1,0 +1,27 @@
+import assert from "node:assert/strict";
+import { access, readFile } from "node:fs/promises";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
+
+const root = dirname(dirname(fileURLToPath(import.meta.url)));
+const bank = JSON.parse(await readFile(join(root, "data/mission-questions.json"), "utf8"));
+const question = bank.find(item => item.id === "OFF-0003");
+const image = "./assets/official-exams/110-chinese-q03-focus-scenes.svg";
+const serviceWorker = await readFile(join(root, "sw.js"), "utf8");
+assert.ok(question);
+assert.equal(question.source?.year, 110);
+assert.equal(question.source?.questionNumber, 3);
+assert.equal(question.answer, 2);
+assert.equal(question.requiresImage, true);
+assert.equal(question.questionImage, image);
+assert.deepEqual(question.questionImages, [image]);
+assert.equal(question.options.length, 4);
+assert.match(question.imageAlt, /雪人.*盆栽.*仙人掌.*馬賽克/);
+assert.match(serviceWorker, /110-chinese-q03-focus-scenes\.svg/);
+assert.match(serviceWorker, /110-chinese-p2\.webp/);
+await access(join(root, image.slice(2)));
+await access(join(root, "assets/official-exams/110-chinese-p2.webp"));
+const svg = await readFile(join(root, image.slice(2)), "utf8");
+assert.match(svg, /viewBox="95 405 690 410"/);
+assert.match(svg, /110-chinese-p2\.webp/);
+console.log("110 Chinese Q3 source figure, options, key, alt text, and offline assets passed.");

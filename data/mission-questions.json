@@ -127,8 +127,13 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": false,
+    "requiresImage": true,
     "requiresContext": false,
+    "questionImage": "./assets/official-exams/110-chinese-q03-focus-scenes.svg",
+    "imageAlt": "原卷四幅景物依序為雪地上的雪人、欄杆後的盆栽、沙漠中的綠色仙人掌、花色相同的馬賽克磁磚。",
+    "questionImages": [
+      "./assets/official-exams/110-chinese-q03-focus-scenes.svg"
+    ],
     "answerKeyReview": {
       "status": "verified",
       "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：國文第3題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
@@ -555,6 +560,12 @@
       "B",
       "C",
       "D"
+    ],
+    "optionDescriptions": [
+      "黑色濃墨的多字筆畫上下交疊，形成一個豎向的字形組合，沒有外框。",
+      "白色字形彼此交疊，置於深色菱形外框內。",
+      "黑色大字形位於上方，下方另有兩行較小字形，整體呈上下排列。",
+      "多個字形分置於圓形圖案內，中央留有圓孔，各字沒有共用成單一筆畫組合。"
     ],
     "answer": 0,
     "explanation": "題目所附原卷圖中，古錢把「唯、吾、知、足」四字的字形共用「口」形來組合。標答 A 的圖樣也把字形筆畫疊合成一個整體，靠共用筆畫構成圖樣；B、C、D 的字樣主要是分別排字或置於幾何外框內，沒有呈現同樣的共筆合字方式。題庫選項文字只有 A–D，判讀依據是 questionImage 中的圖形。",
@@ -1516,7 +1527,7 @@
       "上流家庭曾因瓷器怕熱先加奶；其他階層也加牛奶減苦，形成跨階層的共同線索。",
       "這些線索可推知英國紅茶多會加牛奶，選 C。A、B 國別或證據不符；D 把器具使用顧慮說成高級茶具不能盛熱茶。"
     ],
-    "teacherTip": "看到「絹本」要先辨認材質：絹是絲織品；別把共同展出誤當成師承相同。",
+    "teacherTip": "推論題要找材料反覆呈現的共同線索：文中上流階級與勞動階級都曾提到加牛奶；不要把英國人的飲茶習慣推及美國，也不要超出材料斷定茶具限制。",
     "relatedWords": [],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -2042,7 +2053,7 @@
     "knowledgePoint": "110年國文第46題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【甲】\n柳開少好任氣，大言凌物。應舉時，以文章投於主考簾前，凡千軸，載以獨輪車。引試日，自擁車入，欲以此駭眾取名。其時張景能文有名，唯袖一書簾前獻之。主考大稱賞，擢景優等。時人為之語曰：「柳開千軸，不如張景一書。」\n——改寫自沈括《夢溪筆談》\n\n【乙】\n張景，字晦之，江陵公安人。幼能長言，嗜學尤力。貧不治產，往從柳開。開以文自名，而薦寵士類，一見歡甚，悉出家書予之，由是屬辭益有法度。開每曰：「今朝中之士，誰踰晦之者！」即厚餽，使如京師。後中進士。\n——改寫自宋祁〈故大理評事張公墓誌銘〉\n\n【丙】相關人物簡表（生卒年／中舉年份）\n柳開：948–1001／973；張景：970–1018／1000；宋祁：998–1061／1024；沈括：1031–1095／1063。\n\n詞語提示：1. 凌物：傲視他人。2. 引試：面試。3. 張公：指張景。4. 墓誌銘：記錄死者生平事蹟的石刻文字。\n\n【乙】\n張景，字晦之，江陵公安人。幼能長，嗜學尤力。貧不治產，往從柳開。開以文自名，而篤愛士類，一見歡甚，悉出家書予之，由是屬辭益有法度。開每曰：「今朝中之士，誰踰晦之者！」即厚餉，使如京師。後中進士。\n——改寫自宋祁〈故大理評事張公墓誌銘〉\n\n【丙】相關人物簡表（生卒年／中舉年份）\n柳開：948–1001／973；張景：970–1018／1000；宋祁：998–1061／1024；沈括：1031–1095／1063。\n\n詞語提示：「駭眾取名」的「名」指聲名；「嗜學尤力」的「尤」指特別、更加；「悉出家書予之」的「悉」指全數；「使如京師」的「如」指前往。\n\n下列文句「」中字的意義說明，何者最恰當？",
+    "question": "【甲】\n柳開少好任氣，大言凌物。應舉時，以文章投於主考簾前，凡千軸，載以獨輪車。引試日，自擁車入，欲以此駭眾取名。其時張景能文有名，唯袖一書簾前獻之。主考大稱賞，擢景優等。時人為之語曰：「柳開千軸，不如張景一書。」\n——改寫自沈括《夢溪筆談》\n\n【乙】\n張景，字晦之，江陵公安人。幼能長言，嗜學尤力。貧不治產，往從柳開。柳開以文自名，而篤愛士類，一見歡甚，悉出家書予之，由是屬辭益有法度。柳開常說：「如今朝中的士人，誰能超過晦之？」便厚贈資財，送他前往京師，後來張景考中進士。\n——改寫自宋祁〈故大理評事張公墓誌銘〉\n\n【丙】相關人物簡表\n柳開：948–1001／973\n張景：970–1018／1000\n宋祁：998–1061／1024\n沈括：1031–1095／1063\n\n詞語提示：「凌物」指傲視他人；「引試」指面試；「晦之」是張景的字；「墓誌銘」是記錄死者生平事蹟的文字；「駭眾取名」的「名」指聲名；「嗜學尤力」的「尤」指特別、更加；「悉出家書予之」的「悉」指全數；「使如京師」的「如」指前往。\n\n下列文句「」中字的意義說明，何者最恰當？",
     "options": [
       "駭眾取「名」――姓名",
       "嗜學「尤」力――尚且",
@@ -2050,13 +2061,13 @@
       "使「如」京師――前往"
     ],
     "answer": 3,
-    "explanation": "正確答案為 D「使「如」京師――前往」。答案選 D。「如京師」的「如」是「前往」；A 的「名」指名聲，B 的「尤」指特別、更加，C 的「悉」指全部，都與選項解釋不合。",
+    "explanation": "答案 D「使如京師──前往」。「如京師」是前往京城的意思。A「駭眾取名」的名是聲名，不是姓名；B「嗜學尤力」的尤是特別、更加，不是尚且；C「悉出家書予之」的悉是全數，不是明白。",
     "solutionSteps": [
-      "先依句意判斷：「使如京師」是派他到京城，故「如」解作前往。",
-      "再核對其他字義：「駭眾取名」的名是名聲；「嗜學尤力」的尤是更加；「悉出家書」的悉是全部。",
-      "只有 D 的「如—前往」配對正確。"
+      "先利用題幹詞語提示確認四個字在原句中的語境義。",
+      "「使如京師」意為送／派他前往京城，因此「如」解作前往。",
+      "其餘三項分別把聲名、更加、全數誤解成姓名、尚且、明白，只有 D 正確。"
     ],
-    "teacherTip": "文言字義要放回句子判斷，尤其注意一字多義及副詞、動詞用法。",
+    "teacherTip": "文言字義需放回原句判讀；同一個字在不同語境可能有不同意思。",
     "relatedWords": [],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -2076,7 +2087,11 @@
     "requiresContext": false,
     "answerKeyReview": {
       "status": "verified",
-      "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：國文第46題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
+      "note": "依110年國中教育會考國文原卷第14頁與官方答案表核對；官方答案D。",
+      "evidenceSources": [
+        "assets/official-exams/110-chinese-p15.webp",
+        "https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
+      ]
     }
   },
   {
@@ -2087,7 +2102,7 @@
     "knowledgePoint": "110年國文第47題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【甲】\n柳開少好任氣，大言凌物。應舉時，以文章投於主考簾前，凡千軸，載以獨輪車。引試日，自擁車入，欲以此駭眾取名。其時張景能文有名，唯袖一書簾前獻之。主考大稱賞，擢景優等。時人為之語曰：「柳開千軸，不如張景一書。」\n——改寫自沈括《夢溪筆談》\n\n【乙】\n張景，字晦之，江陵公安人。幼能長言，嗜學尤力。貧不治產，往從柳開。開以文自名，而薦寵士類，一見歡甚，悉出家書予之，由是屬辭益有法度。開每曰：「今朝中之士，誰踰晦之者！」即厚餽，使如京師。後中進士。\n——改寫自宋祁〈故大理評事張公墓誌銘〉\n\n【丙】相關人物簡表（生卒年／中舉年份）\n柳開：948–1001／973；張景：970–1018／1000；宋祁：998–1061／1024；沈括：1031–1095／1063。\n\n詞語提示：1. 凌物：傲視他人。2. 引試：面試。3. 張公：指張景。4. 墓誌銘：記錄死者生平事蹟的石刻文字。\n\n【乙】\n張景，字晦之，江陵公安人。幼能長，嗜學尤力。貧不治產，往從柳開。開以文自名，而篤愛士類，一見歡甚，悉出家書予之，由是屬辭益有法度。開每曰：「今朝中之士，誰踰晦之者！」即厚餉，使如京師。後中進士。\n——改寫自宋祁〈故大理評事張公墓誌銘〉\n\n【丙】相關人物簡表（生卒年／中舉年份）\n柳開：948–1001／973；張景：970–1018／1000；宋祁：998–1061／1024；沈括：1031–1095／1063。\n\n詞語提示：「駭眾取名」的「名」指聲名；「嗜學尤力」的「尤」指特別、更加；「悉出家書予之」的「悉」指全數；「使如京師」的「如」指前往。\n\n關於甲、乙兩文的內容，下列說明何者最不恰當？",
+    "question": "【甲】\n柳開少好任氣，大言凌物。應舉時，以文章投於主考簾前，凡千軸，載以獨輪車。引試日，自擁車入，欲以此駭眾取名。其時張景能文有名，唯袖一書簾前獻之。主考大稱賞，擢景優等。時人為之語曰：「柳開千軸，不如張景一書。」\n——改寫自沈括《夢溪筆談》\n\n【乙】\n張景，字晦之，江陵公安人。幼能長言，嗜學尤力。貧不治產，往從柳開。柳開以文自名，而篤愛士類，一見歡甚，悉出家書予之，由是屬辭益有法度。柳開常說：「如今朝中的士人，誰能超過晦之？」便厚贈資財，送他前往京師，後來張景考中進士。\n——改寫自宋祁〈故大理評事張公墓誌銘〉\n\n【丙】相關人物簡表\n柳開：948–1001／973\n張景：970–1018／1000\n宋祁：998–1061／1024\n沈括：1031–1095／1063\n\n詞語提示：「凌物」指傲視他人；「引試」指面試；「晦之」是張景的字；「墓誌銘」是記錄死者生平事蹟的文字；「駭眾取名」的「名」指聲名；「嗜學尤力」的「尤」指特別、更加；「悉出家書予之」的「悉」指全數；「使如京師」的「如」指前往。\n\n關於甲、乙兩文的內容，下列說明何者最不恰當？",
     "options": [
       "甲文比較柳開、張景才華的高下",
       "乙文敘述張景投靠柳開後的際遇",
@@ -2095,13 +2110,13 @@
       "兩文皆肯定張景不凡的文才"
     ],
     "answer": 2,
-    "explanation": "正確答案為 C「兩文皆凸顯柳開自大的形象」。答案選 C。乙文寫柳開賞識並資助張景，並未凸顯柳開自大；甲文則記柳開以文章求名、被張景一篇文章比下。故「兩文皆凸顯柳開自大」不恰當。",
+    "explanation": "答案 C。甲文寫柳開載千軸文章應試，張景只獻一書卻獲主考賞識，並以「柳開千軸，不如張景一書」對比兩人的表現；乙文則寫柳開賞識張景、給他家藏書並資助他赴京。只有甲文呈現柳開「大言凌物」的形象，乙文重點是提攜張景，所以「兩文皆凸顯柳開自大」不恰當。",
     "solutionSteps": [
-      "先分辨甲、乙：甲文以「柳開千軸，不如張景一書」比較兩人的文章聲名。",
-      "乙文重點是柳開賞識張景、給他書籍並資助赴京，呈現提攜後進。",
-      "因此兩文並未都凸顯柳開自大，C 不恰當；其餘選項可由兩段記事支持。"
+      "先分別抓兩文重點：甲文以應試經過對比柳開與張景；乙文記柳開賞識、資助張景。",
+      "甲文開頭明言柳開「少好任氣，大言凌物」，並寫他以千軸文章炫示；乙文沒有重述這種自大行為。",
+      "因此不能說兩文都凸顯柳開自大，選 C。A、B、D 均可由兩文內容找到依據。"
     ],
-    "teacherTip": "比較題要逐篇找證據，不能把甲文人物形象直接套到乙文。",
+    "teacherTip": "比較兩篇材料時，逐篇確認人物形象，不要把甲文的描寫直接套用到乙文。",
     "relatedWords": [],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -2121,7 +2136,11 @@
     "requiresContext": false,
     "answerKeyReview": {
       "status": "verified",
-      "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：國文第47題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
+      "note": "依110年國中教育會考國文原卷第14頁及官方答案表核對；原卷的乙文與年表已整理為完整、單一版本。官方答案C。",
+      "evidenceSources": [
+        "assets/official-exams/110-chinese-p15.webp",
+        "https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
+      ]
     }
   },
   {
@@ -2132,7 +2151,7 @@
     "knowledgePoint": "110年國文第48題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【甲】\n柳開少好任氣，大言凌物。應舉時，以文章投於主考簾前，凡千軸，載以獨輪車。引試日，自擁車入，欲以此駭眾取名。其時張景能文有名，唯袖一書簾前獻之。主考大稱賞，擢景優等。時人為之語曰：「柳開千軸，不如張景一書。」\n——改寫自沈括《夢溪筆談》\n\n【乙】\n張景，字晦之，江陵公安人。幼能長言，嗜學尤力。貧不治產，往從柳開。開以文自名，而薦寵士類，一見歡甚，悉出家書予之，由是屬辭益有法度。開每曰：「今朝中之士，誰踰晦之者！」即厚餽，使如京師。後中進士。\n——改寫自宋祁〈故大理評事張公墓誌銘〉\n\n【丙】相關人物簡表（生卒年／中舉年份）\n柳開：948–1001／973；張景：970–1018／1000；宋祁：998–1061／1024；沈括：1031–1095／1063。\n\n詞語提示：1. 凌物：傲視他人。2. 引試：面試。3. 張公：指張景。4. 墓誌銘：記錄死者生平事蹟的石刻文字。\n\n【乙】\n張景，字晦之，江陵公安人。幼能長，嗜學尤力。貧不治產，往從柳開。開以文自名，而篤愛士類，一見歡甚，悉出家書予之，由是屬辭益有法度。開每曰：「今朝中之士，誰踰晦之者！」即厚餉，使如京師。後中進士。\n——改寫自宋祁〈故大理評事張公墓誌銘〉\n\n【丙】相關人物簡表（生卒年／中舉年份）\n柳開：948–1001／973；張景：970–1018／1000；宋祁：998–1061／1024；沈括：1031–1095／1063。\n\n詞語提示：「駭眾取名」的「名」指聲名；「嗜學尤力」的「尤」指特別、更加；「悉出家書予之」的「悉」指全數；「使如京師」的「如」指前往。\n\n根據年表對照甲、乙兩文，下列推論何者最合理？",
+    "question": "【甲】\n柳開少好任氣，大言凌物。應舉時，以文章投於主考簾前，凡千軸，載以獨輪車。引試日，自擁車入，欲以此駭眾取名。其時張景能文有名，唯袖一書簾前獻之。主考大稱賞，擢景優等。時人為之語曰：「柳開千軸，不如張景一書。」\n——改寫自沈括《夢溪筆談》\n\n【乙】\n張景，字晦之，江陵公安人。幼能長言，嗜學尤力。貧不治產，往從柳開。柳開以文自名，而篤愛士類，一見歡甚，悉出家書予之，由是屬辭益有法度。柳開常說：「如今朝中的士人，誰能超過晦之？」便厚贈資財，送他前往京師，後來張景考中進士。\n——改寫自宋祁〈故大理評事張公墓誌銘〉\n\n【丙】相關人物簡表\n柳開：948–1001／973\n張景：970–1018／1000\n宋祁：998–1061／1024\n沈括：1031–1095／1063\n\n詞語提示：「凌物」指傲視他人；「引試」指面試；「晦之」是張景的字；「墓誌銘」是記錄死者生平事蹟的文字；「駭眾取名」的「名」指聲名；「嗜學尤力」的「尤」指特別、更加；「悉出家書予之」的「悉」指全數；「使如京師」的「如」指前往。\n\n根據丙表所列年分，對照甲、乙兩文內容，下列推論何者最合理？",
     "options": [
       "柳開中舉前已受張景愛戴",
       "宋祁跟柳開兩人頗有交情",
@@ -2140,13 +2159,13 @@
       "乙文所述內容較甲文可信"
     ],
     "answer": 3,
-    "explanation": "正確答案為 D「乙文所述內容較甲文可信」。答案選 D。甲文為沈括《夢溪筆談》記載，乙文為宋祁所撰張景墓誌銘。年表顯示張景生於 970 年、卒於 1018 年；宋祁生於 998 年，與張景生活年代重疊，沈括生於 1031 年、晚於張景去世。乙文作者與人物年代較近，且為張景墓誌，故相對較可信。",
+    "explanation": "答案 D。丙表顯示張景生於970年、卒於1018年；宋祁生於998年，與張景生活年代重疊；沈括則生於1031年，晚於張景去世。乙文作者宋祁的年代較接近張景，且乙文為張景墓誌銘，因此依題目提供的年表，乙文相較甲文可信度較高。",
     "solutionSteps": [
-      "先辨作者：甲出自沈括《夢溪筆談》，乙出自宋祁所撰張景墓誌銘。",
-      "對照年表：張景 970–1018，宋祁 998–1061，兩人年代重疊；沈括 1031–1095，出生晚於張景去世。",
-      "乙文的作者年代較接近張景，且文類為墓誌銘，故依表格與文體判斷，D「乙文所述內容較甲文可信」最合理。"
+      "先讀年表：張景970–1018，宋祁998–1061，沈括1031–1095。",
+      "乙文作者宋祁出生時張景仍在世；甲文作者沈括出生時張景已去世。",
+      "因此宋祁與張景年代較接近，且乙文是墓誌銘，依題幹資訊可推得乙文相對較可信，選 D。注意這是根據年表作相對判斷，不代表墓誌銘必然完全客觀。"
     ],
-    "teacherTip": "史料可信度可考量作者與事件的時間距離及文類，但時間接近本身仍不是絕對證明。",
+    "teacherTip": "史料可信度題只能依題目給的年代、作者身分與文類作相對推論；「年代較近」不等於內容必定毫無偏誤。",
     "relatedWords": [],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -2166,7 +2185,11 @@
     "requiresContext": false,
     "answerKeyReview": {
       "status": "verified",
-      "note": "依110年國中教育會考官方選擇題參考答案一覽表核對：國文第48題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
+      "note": "依110年國中教育會考國文原卷第14頁與官方答案表核對；完整年表已轉錄入題幹。官方答案D。",
+      "evidenceSources": [
+        "assets/official-exams/110-chinese-p15.webp",
+        "https://drive.google.com/file/d/1z7jBxC9t24e2Y3WK71XxWe0JOjJRLcNW/view"
+      ]
     }
   },
   {
@@ -2195,9 +2218,9 @@
     ],
     "teacherTip": "看圖字彙題先描述人物姿勢與互動，再選能精確表達動作的片語。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "bow to（向……鞠躬）",
+      "bowing（鞠躬；bow 的 V-ing）",
+      "cheer for（替……加油）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -2247,9 +2270,9 @@
     ],
     "teacherTip": "Listen! 常用來引出正在發生的聲音或事件，留意現在進行式的時間線索。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "cry（哭）",
+      "is crying（正在哭；現在進行式）",
+      "Listen!（聽！提示當下注意）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -2296,9 +2319,9 @@
     ],
     "teacherTip": "情緒字彙題先找 because、so 等因果線索，再判斷事件帶來的是正面或負面感受。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "unhappy（不高興的）",
+      "upset（難過／煩悶的；近義詞）",
+      "excited（興奮的；相反情緒）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -2345,9 +2368,9 @@
     ],
     "teacherTip": "職業字彙題用 because 後的工作內容判斷職稱，不要只看單字熟悉度。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "cook（廚師；也可作「烹煮」）",
+      "chef（主廚；較專業的廚師）",
+      "prepare food（準備食物）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -2394,9 +2417,9 @@
     ],
     "teacherTip": "看到 since + 過去時間／子句，檢查主句是否描述從該時點延續到現在的狀態或經驗。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "since（自從；引出起始時間）",
+      "haven't seen（截至現在都沒見過）",
+      "miss someone（想念某人）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -2443,9 +2466,9 @@
     ],
     "teacherTip": "句尾或子句中的 do/does 常代替前面已出現的動詞；先補回被省略的動作再判斷。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "seldom（很少；rarely 的近義詞）",
+      "does（代替前文的一般動詞）",
+      "laugh（發笑）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -2492,9 +2515,9 @@
     ],
     "teacherTip": "用事件順序判斷時態：先抵達、再住一週；已安排的未來行程可用 will 描述。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "stay（停留／住宿）",
+      "will stay（將會住宿；未來安排）",
+      "for a week（持續一週）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -2541,9 +2564,9 @@
     ],
     "teacherTip": "近義字要看上下文焦點；多年「做過某工作」通常強調 experience，而非單純知道資訊。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "experience（經驗；實際經歷）",
+      "knowledge（知識；知道的資訊）",
+      "work experience（工作經驗）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -2590,9 +2613,9 @@
     ],
     "teacherTip": "看到 and 連接兩個指令時，檢查兩邊是否都用原形動詞，並確認句子是在要求讀者做什麼。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "call this number（打這個電話）",
+      "ask for someone（找某人／請某人接聽）",
+      "be interested in（對……有興趣）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -2639,9 +2662,9 @@
     ],
     "teacherTip": "先辨認兩子句的邏輯關係；看到「努力做了，結果仍相反」通常要考讓步連接詞。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "although（雖然；讓步連接詞）",
+      "even though（即使／雖然；近義表達）",
+      "get up（起床）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -2688,9 +2711,9 @@
     ],
     "teacherTip": "多義動詞要從後續結果判斷；save 可指救人，也可指挽救陷入困境的事業。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "save a business（挽救事業）",
+      "keep a business afloat（讓事業維持下去）",
+      "close down（歇業／關門）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -2737,9 +2760,9 @@
     ],
     "teacherTip": "名詞後的關係子句若關係代名詞作受詞，可以省略；檢查留下的子句是否有主詞和動詞。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "songs they learned（他們學過的歌）",
+      "relative clause（關係子句）",
+      "that（作受詞時可省略的關係代名詞）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -2786,9 +2809,9 @@
     ],
     "teacherTip": "熟記 between meals 這類時間搭配，再用後句的結果檢查時間是否合理。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "between meals（兩餐之間）",
+      "snack（點心；零食）",
+      "mealtime（用餐時間）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -2835,9 +2858,9 @@
     ],
     "teacherTip": "問句、否定句常用 any 表示「任何／一些」；先找它代替的名詞，再確認單複數。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "any（任何／一些；常見於疑問句）",
+      "tool（工具）",
+      "drawer（抽屜）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -2886,9 +2909,9 @@
     ],
     "teacherTip": "主旨題先看標題與首段，再區分核心訊息和內文列出的單一優惠。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "online store（網路商店）",
+      "shop online（網路購物）",
+      "promotion（促銷活動）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -2938,9 +2961,9 @@
     ],
     "teacherTip": "問 NOT 時把每個選項逐一對回廣告的動作與回饋，注意「gift」和「points」不是同一種獎勵。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "points（點數）",
+      "free gift（免費贈品；不等於點數）",
+      "spend more than（消費超過）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -2973,8 +2996,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "對話（第17–18題）：\nJoey: Lynn, have you tried Caldron? I’ve heard that restaurant is good.\nLynn: I have. I went there once for Tom’s party.\nJoey: And?\nLynn: Well, I never thought I would have to cook for myself when eating out.\nJoey: But it’s fun to cook your own food.\nLynn: I don’t see any fun in that. Besides, I want nice food.\nJoey: So you didn’t like the food there?\nLynn: Everything tasted the same. I mean, they were all cooked in the same boiling pot. How could they taste different? I just kept throwing strange things into the pot. I didn’t even know what half the things were made of.\nJoey: Don’t worry. Everything should be safe to eat after a hot bath in the pot. And you didn’t get sick after that, right? Besides, you tried something different there. Still a good experience, I think?\nLynn: I don’t think we share the same idea of good experiences.\n\nLynn took some photos at Tom’s party. Which is most likely one of them? (A) (B) 【字彙】 likely 可能 (C) (D)",
-    "questionImage": "./assets/official-exams/110-english-p5.webp",
-    "imageAlt": "110年國中教育會考英文科第17題官方試卷頁面",
+    "questionImage": "./assets/official-exams/110-english-q17-food-choices.svg",
+    "imageAlt": "原卷四幅圖依序為戶外聚會、圍桌共煮火鍋、共享披薩、個人餐盤；需比對 Lynn 提到的共鍋用餐情境。",
     "options": [
       "A",
       "B",
@@ -2990,9 +3013,9 @@
     ],
     "teacherTip": "圖文配對時把對話中具體名詞（pot）轉成可觀察的圖像特徵，再排除只有一般用餐情境的圖片。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "hot pot（火鍋）",
+      "cook for oneself（自己煮／自己料理）",
+      "eat out（外食）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -3011,7 +3034,7 @@
     "requiresImage": true,
     "requiresContext": true,
     "questionImages": [
-      "./assets/official-exams/110-english-p5.webp"
+      "./assets/official-exams/110-english-q17-food-choices.svg"
     ],
     "answerKeyReview": {
       "status": "verified",
@@ -3044,9 +3067,9 @@
     ],
     "teacherTip": "推論人物態度要優先採用人物自己的評價語句，並留意反方人物 Joey 的意見不能算成 Lynn 的改變。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "taste the same（吃起來都一樣）",
+      "enjoy（享受／喜歡）",
+      "good experience（愉快的經驗）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -3094,11 +3117,11 @@
       "The TV shearing happened after he was found, on the day Katie was born, so Woollie was already at least ten then.",
       "Thus Woollie is older than Katie (A); the other choices misread the visit, illness, or fleece details."
     ],
-    "teacherTip": "For chronology questions, build an event sequence and use only age/time relationships stated or directly implied in the passage.",
+    "teacherTip": "年齡推論要先排出事件順序：Woollie 四歲逃走，六年後被找到；再用日記作者出生的時間點比較年齡，不要把故事書與爸爸不確定的茶敘細節當成已證實。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "fleece（羊毛；羊身上的毛）",
+      "run away（逃跑）",
+      "put down（安樂死；委婉用語）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -3131,8 +3154,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "Katie 的日記（第19–21題）：\nDear Diary,\nI was very sad to hear what happened to Woollie yesterday. Woollie was my favorite sheep. I have a storybook about Woollie. It says when Woollie was four, he ran away from Mr. Armstrong’s farm, and it took Mr. Armstrong six years to find Woollie. But Woollie had grown so much fleece that he didn’t even look like a sheep. Mr. Armstrong decided to cut his fleece on TV so everyone could see. Daddy said this happened on the day I was born. Woollie’s fleece weighed 27 kg, and could make clothes for 20 large men. I asked Daddy if his favorite vest was made from Woollie’s fleece. Daddy said no, because Woollie’s fleece was sold to collect money for sick kids. In the storybook, Woollie was taken to see Ms. Stella Clark, the leader of our city then. They even had tea together. Daddy said Woollie did meet Ms. Clark, but he wasn’t sure if they had tea. Daddy said Woollie was put down because he was too sick and there was no way to help him. I cried. I hope Woollie will be happy up there in the sky.\n\nWhich picture of Woollie and Ms. Clark did Katie talk about in her diary? (A) (B) (C) (D)",
-    "questionImage": "./assets/official-exams/110-english-p6.webp",
-    "imageAlt": "110年國中教育會考英文科第20題官方試卷頁面",
+    "questionImage": "./assets/official-exams/110-english-q20-woollie-tea-choices.svg",
+    "imageAlt": "原卷四幅圖依序為剪羊毛、秤羊毛、Woollie 與市長喝茶、羊與市長合照；日記提到 Woollie 與市長一起喝茶。",
     "options": [
       "A",
       "B",
@@ -3148,9 +3171,9 @@
     ],
     "teacherTip": "看圖題要區分「文章提到的事件」和「題目問的那張照片」；核對人物組合與場景細節。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "picture of（……的照片／圖像）",
+      "leader（領導者）",
+      "meet someone（與某人會面）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -3169,7 +3192,7 @@
     "requiresImage": true,
     "requiresContext": true,
     "questionImages": [
-      "./assets/official-exams/110-english-p6.webp"
+      "./assets/official-exams/110-english-q20-woollie-tea-choices.svg"
     ],
     "answerKeyReview": {
       "status": "verified",
@@ -3202,9 +3225,9 @@
     ],
     "teacherTip": "片語有多義時用緊鄰原因判斷；too sick and no way to help 指向安樂死義。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "put down（安樂死；委婉語）",
+      "euthanize（使動物安樂死）",
+      "die（死亡）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -3237,8 +3260,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "閱讀材料（第22–24題）：\nHere’s The Piano Lesson, one of Henri Matisse’s most famous paintings. The boy in the picture is the painter’s son, Pierre. In the picture, Pierre looks quite serious. Why? Well, look at the yellow candle on the red piano. It’s almost burned down. So maybe Pierre has already practiced for hours. And Matisse uses a lot of gray, not a very fun color, right? It shows how the poor kid feels, don’t you think?\nOn the top right corner, you can see a woman sitting straight on a seat. Is she Pierre’s piano teacher? Or his mother? Well, if you’re a Matisse fan, you’ll know this is in fact another painting by him, Woman on a High Stool. Interesting, right? Matisse likes to do that a lot. In fact, there’s another work by Matisse in the picture. Did you find it? Right! The sculpture on the bottom left corner!\nMatisse painted this picture in 1916. Pierre was already 16 then, but the artist painted his son much younger than he really was. Pierre had gone away to be a soldier, and Matisse didn’t know whether he would come back. Maybe this is a worried father’s way to remember the good old days.\n\nWhat can we learn about The Piano Lesson from the reading?",
-    "questionImage": "./assets/official-exams/110-english-p7.webp",
-    "imageAlt": "110年國中教育會考英文科第22題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "Matisse painted it when his son was away from home.",
       "The woman who sits on a seat behind the boy is his mother.",
@@ -3254,9 +3277,9 @@
     ],
     "teacherTip": "閱讀推論要分清作者明說、提出疑問和推測；問句中的猜想不能當成已證實事實。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "painted when his son was away（兒子離家時作畫）",
+      "soldier（士兵）",
+      "a worried father（憂心的父親）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -3305,9 +3328,9 @@
     ],
     "teacherTip": "指示代名詞題要先向前找最近、語意完整的動作；把 that 換回該動作檢查句子是否通順。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "do that（做那件事；回指前文動作）",
+      "put ... in（把……放進……）",
+      "sculpture（雕塑）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -3357,9 +3380,9 @@
     ],
     "teacherTip": "人物指稱題沿著每個稱呼所在句的主詞與代名詞回指，特別注意文中同時出現父子兩人。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "refer to（指稱／提及）",
+      "the artist（藝術家）",
+      "a worried father（憂心的父親）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -3408,9 +3431,9 @@
     ],
     "teacherTip": "主旨題沿文章轉折與因果找核心；本篇的 But 和 because 把「後來紀念孔子」與「最初教師訴求」區分開。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "Teachers’ Day（教師節）",
+      "celebrate（慶祝）",
+      "be paid very little（薪資很低）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -3456,11 +3479,11 @@
       "這些日期代表教師節先後採用過不同日期，因此 A 正確。",
       "B 的發起者是教師；C 混淆孔子距今約兩千五百年與教師節在南京的歷史；D 與首段明說最初並非孔子生日相反。"
     ],
-    "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
+    "teacherTip": "比較教師節日期時按年份列出 6 月 6 日、8 月 27 日、9 月 28 日；切勿把孔子生日或南京慶祝年數混成同一件事。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "used to（過去曾經）",
+      "date（日期）",
+      "national holiday（國定假日）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -3506,11 +3529,11 @@
       "因此 not everyone hailed this decision 表示不是每個人都歡迎／贊同這項決定，選 B。",
       "cared about 是在意、heard about 是聽說、remembered 是記得；都不等於以正面態度接受決定。"
     ],
-    "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
+    "teacherTip": "hailed 在此指歡迎或喝采；先用冒號後教師反對孔子的理由判斷態度，再區分歡迎、在意、聽聞和記得。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "hail a decision（歡迎／喝采支持決定）",
+      "welcome（歡迎；近義詞）",
+      "approve（贊同）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -3556,11 +3579,11 @@
       "1930 年教師因低薪、未受尊重而發起教師節，後續段落再交代政府採用日期及孔子生日更正。",
       "這些內容是在介紹一段教師節歷史，故選 C；A、B、D 均不能概括全文主要內容。"
     ],
-    "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
+    "teacherTip": "寫作目的要概括全文：本篇用 1930、1939、1952 年的教師節沿革糾正常見印象，不是只挑一個日期細節。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "purpose（目的）",
+      "history（歷史）",
+      "origin（起源）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -3606,11 +3629,11 @@
       "公告接著說部分列車會改線、略過部分車站，並以免費巴士接駁；因此 D 概括了寫信原因。",
       "A 沒提票價優惠，B 日期錯誤，C 把臨時改線誤讀為開新路線。"
     ],
-    "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
+    "teacherTip": "讀改線公告時分清班次起訖站、改走支線，以及免費巴士的接駁站；路線封閉不等於新線開通。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "service notice（服務公告）",
+      "change lines（改走其他路線）",
+      "replacement bus（替代接駁巴士）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -3656,11 +3679,11 @@
       "路線資料顯示 Hill Town 位於該支線，因此所有行駛這段區間的列車都能前往，選 D。",
       "A 與『每站停靠』及 Spring Town 位置不符；B 把不同班次的行駛終點混為一談；C 把有限接駁站擴大成任意車站。"
     ],
-    "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
+    "teacherTip": "先從 Green City 沿 Smoke Town–Spring Town 支線定位 Hill Town，再核對公告說該區間列車每站停靠；別把其他班次終點或接駁巴士混入。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "station（車站）",
+      "branch line（支線）",
+      "stop at every station（每站停靠）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -3706,11 +3729,11 @@
       "由路線和班次表，Smoke Town 位於 RL202 的 Cloud City–Green City 路段；搭到 Green City 即可接上往南的免費巴士。",
       "Green City 是公告指定的南向接駁點，免費巴士可接駁到 Black Town；其餘選項的班次方向、車站或轉乘方式不符。"
     ],
-    "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
+    "teacherTip": "路線題先依居住站找可搭班次，再依方向核對接駁點；此題要在 Smoke Town 上車到 Green City，接著搭南向免費巴士。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "change lines（改走其他路線）",
+      "replacement bus（替代接駁巴士）",
+      "get off at（在……下車）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -3756,11 +3779,11 @@
       "接著轉到戰爭轟炸、學校關閉等 Darayya 面臨的問題 a，再說學生因此決定建圖書館 b。",
       "最後談閱讀讓人暫忘戰爭、想像更好的未來 d，順序是 c-a-b-d，選 D。"
     ],
-    "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
+    "teacherTip": "段落排序可替每段標主題字母：先介紹圖書館特色 c，再交代戰爭困境 a、建館經過 b，最後說明帶來的慰藉與希望 d。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "order（順序）",
+      "idea（主旨／想法）",
+      "in what order（按照什麼順序）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -3806,11 +3829,11 @@
       "作者又說閱讀讓他們能夢想戰後更好的生活，這同時包含閱讀的樂趣與希望。",
       "因此選 B；文章沒有提到發放食物、學習作戰或教師授課。"
     ],
-    "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
+    "teacherTip": "推論讀者為何冒險去圖書館，要以文末直接寫出的閱讀樂趣和戰後希望作答，不要把地下圖書館誤解成糧食或軍事據點。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "find joy in（從……得到樂趣）",
+      "hope（希望）",
+      "dream of（夢想……）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -3856,11 +3879,11 @@
       "他們把圖書館建在地下來防轟炸，說明建館發生在戰爭期間，選 A。",
       "文章說被炸的是房屋，不是圖書館；沒有紀念死者的目的，找書地點也在當地被炸房屋，因此 B、C、D 均不符。"
     ],
-    "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
+    "teacherTip": "題目問圖書館本身的資訊；分清遭轟炸的是城內房屋、建館時間在戰爭期間，以及書籍是在當地房屋中尋找。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "underground（地下的）",
+      "bomb（轟炸）",
+      "collect books（收集書籍）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -3906,11 +3929,11 @@
       "作者又特別提醒『不要去我們舊家旁的 Northbank Park』，指出這是原本容易去錯的舊地點。",
       "因此空格填 D「Northbank Park」；A 是新地點附近的動物園，B 是搬去的新城市，C 是現在的派對地點。"
     ],
-    "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
+    "teacherTip": "邀請函同時提到舊家、新公寓和現在的花園；用 moved 與旁邊地點線索分清過去地址和派對新地點。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "old house（舊住所）",
+      "move（搬家）",
+      "garden party（花園派對）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -3956,11 +3979,11 @@
       "這句室內安排就是對下雨的預案，所以前面應說『若發生這種情況，我們有計畫』，選 A。",
       "B、C、D 分別與後文的直接搬到室內、條件邏輯或已確定的派對安排不合。"
     ],
-    "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
+    "teacherTip": "天氣預報可能下雨後，緊接著的 If it rains 就是已準備好的室內備案；以後文措施判斷前句是在說計畫。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "weather report（天氣預報）",
+      "rainy（下雨的）",
+      "make a plan（擬定計畫）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -4006,11 +4029,11 @@
       "天氣好並非主辦者能控制，說 if we’re lucky（如果我們夠幸運）符合此情境。",
       "crazy（瘋狂）、good（好）、strong（強壯）都不能自然描述遇到晴天的運氣，故選 C。"
     ],
-    "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
+    "teacherTip": "lucky 描寫天氣配合的好運；若填 good，雖能修飾人，卻無法自然表達「碰巧天晴」的意思。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "lucky（幸運的）",
+      "fortunate（幸運的；近義詞）",
+      "if it is fine（如果天氣晴朗）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -4056,11 +4079,11 @@
       "stories 是複數主詞，描寫傳聞當時正湧入腦海，用 were + coming；all 放在助動詞與主要動詞間。",
       "因此選 were all coming；are 是現在時，have come 表已來到，would come 表假設或過去未來，均不符合當下進行的畫面。"
     ],
-    "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
+    "teacherTip": "敘事的 at this moment 是過去故事中的某一刻；搭配作者腦中傳聞湧現的背景動作，用過去進行式。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "at that moment（在那一刻）",
+      "were coming（當時正湧現／傳來）",
+      "past continuous（過去進行式）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -4106,11 +4129,11 @@
       "接著作者又匆忙從陌生男子身旁經過，因此要表達『又一件』，another stupid thing 最貼合上下文。",
       "one stupid thing 文法成立，但沒有『再一件』的語意；the last 表最後一件，the other 通常指兩者中另一個，也不符合這裡的敘事。"
     ],
-    "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
+    "teacherTip": "another 表「又一個／另一個」；先前進公園已被作者稱為一件蠢事，匆忙經過陌生人則是再一件。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "another（再一個；不特定的另一個）",
+      "the other（兩者中的另一個）",
+      "the last（最後一個）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -4156,11 +4179,11 @@
       "比較前後兩句：作者希望樹能擋雨，And they ___ 表示樹確實做到；did 代替前面的 keep some rain off，避免重複整個動詞片語。",
       "敘事時間在過去，因此用過去式助動詞 did；have/had/would 與此處的時態和替代結構不合。"
     ],
-    "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
+    "teacherTip": "did 在此代替前面已出現的 keep some rain off；理解助動詞省略時要把被代替的動作補回句意。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "did（代替前文過去式動作）",
+      "keep the rain off（擋雨）",
+      "auxiliary verb（助動詞）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -4206,11 +4229,11 @@
       "男子當時正在嘗試把作者掉的背包還回去；以過去進行式 was trying 描寫那一刻進行中的動作。",
       "主詞 I 配 was；try 原形缺少時態，would try/will try 分別偏向意願或未來，均非此處的即時解釋。"
     ],
-    "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
+    "teacherTip": "作者撞上男子時，男子正在做的是歸還掉落的袋子；用過去進行式呈現該時刻正在發生的動作。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "try to give back（試著歸還）",
+      "return a bag（歸還袋子）",
+      "was trying（當時正試著；過去進行式）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -8075,13 +8098,13 @@
       "阿拉伯文→希臘文→拉丁文"
     ],
     "answer": 0,
-    "explanation": "答案 A「希臘文→拉丁文→阿拉伯文」。地圖甲處為埃及：西元前四世紀希臘化王朝統治時使用希臘文；羅馬征服後拉丁文成為官方文字；七世紀阿拉伯征服後，官方文字再轉為阿拉伯文。依統治者更替排列，順序是希臘文→拉丁文→阿拉伯文，故選 A。",
+    "explanation": "依本題的預期概括，答案 A「希臘文→拉丁文→阿拉伯文」：希臘化王朝、羅馬帝國、阿拉伯政權先後統治埃及。不過這是以帝國代表性語言作簡化排序；羅馬統治時期，希臘文仍長期廣泛用於埃及行政，拉丁文並未全面取代它。題目若把「官方使用」理解為埃及地方行政語言，選項的表述不夠精確；作答時應辨認其所採的政權語言概括，並留意這項史實限制。",
     "solutionSteps": [
       "先依題圖定位甲處為埃及，題目問外來統治者更替後的官方文字先後。",
       "埃及先受希臘化政權統治，後納入羅馬帝國，再於七世紀遭阿拉伯征服。",
-      "對應官方文字為希臘文→拉丁文→阿拉伯文，選 A。"
+      "依題目採用的政權代表性語言概括，作答選 A；但不可延伸成拉丁文全面取代羅馬時期埃及行政中的希臘文。"
     ],
-    "teacherTip": "地中海島嶼的語言變化常反映先後統治者；先定位，再排政權年代。",
+    "teacherTip": "史實補充：羅馬統治埃及時，希臘文仍廣泛用於地方行政；原題把政權代表性語言簡化為時序，不能當作語言全面替換的完整描述。",
     "relatedWords": [],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -8502,7 +8525,7 @@
     "knowledgePoint": "110年社會第61題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【閱讀材料】食物是人類維持生存的必需品，但全球仍有許多人挨餓。聯合國糧食及農業組織（FAO）於 1945 年成立，10 月 16 日為世界糧食日，呼籲關注糧食議題。資料指出，全球約有 8 億人面臨飢餓，但約三分之一糧食遭浪費，問題不只是總量，也涉及分配。臺灣每人每年平均浪費約 100 公斤食物，約 3.6 萬公噸食品被當作垃圾；另有糧食自給率偏低、農地減少及食品安全等課題。文章主張透過食農教育培養珍惜食物觀念，推動安全生產並提高自給率。\n\n文中國際組織的分布區域及成員性質，與下列何者最類似？",
+    "question": "【閱讀材料】食物是人類維持生存的必需品，但全球仍有許多人挨餓。聯合國糧食及農業組織（FAO）於 1945 年成立，10 月 16 日為世界糧食日，呼籲關注糧食議題。原卷引用的當時統計指出，全球約有 8 億人面臨飢餓，但約三分之一糧食遭浪費，問題不只是總量，也涉及分配。臺灣每人每年平均浪費約 100 公斤食物，約 3.6 萬公噸食品被當作垃圾；另有糧食自給率偏低、農地減少及食品安全等課題。文章主張透過食農教育培養珍惜食物觀念，推動安全生產並提高自給率。\n\n文中國際組織的分布區域及成員性質，與下列何者最類似？",
     "questionImage": "",
     "imageAlt": "110年國中教育會考社會科第61題官方試卷頁面",
     "options": [
@@ -9510,7 +9533,7 @@
     "answer": 2,
     "explanation": "正答 C「180 秒」。同材質且由相同穩定熱源加熱，吸熱量與加熱時間成正比；比熱相同時 Q=mcΔT。甲需熱量正比於 100×20=2000，耗時 120 秒；乙正比於 300×10=3000，故 X/120=3000/2000，X=180 秒。A、B、D 都不符合這個 1.5 倍比例。",
     "solutionSteps": [
-      "表(三)給甲質量 100 g、升溫 20°C、時間 120 s；乙質量 300 g、升溫 10°C。兩者材質相同，所以比熱相同。",
+      "題目給甲質量 100 g、升溫 20°C、時間 120 s；乙質量 300 g、升溫 10°C。兩者材質相同，所以比熱相同。",
       "以 Q=mcΔT 比較：乙/甲所需熱量=(300×10)/(100×20)=1.5；相同熱源功率下，時間也為 1.5 倍。",
       "X=120×1.5=180 s，對應 C（index 2）；B 的 120 s 忽略乙需熱量較大。"
     ],
@@ -9706,7 +9729,7 @@
       "胡蘿蔔為本實驗的反應物，且接觸面積越大，氧氣的最終總產量越多"
     ],
     "answer": 0,
-    "explanation": "正答 A「探討胡蘿蔔接觸面積與反應速率」。每次取胡蘿蔔 20 g、加入 5% 雙氧水 50 mL，量測反應開始後 5 分鐘收集的氧氣；改變胡蘿蔔形狀（泥狀、丁塊、片狀、絲狀、薄片）是在改變接觸面積，觀察固定時間內產氣量。B 把改變因素說成濃度；C 忽略水量可能影響雙氧水濃度；D 把胡蘿蔔當反應物且把短時間速率誤作最終產量。 正確答案為 A「本實驗是在探討胡蘿蔔接觸面積與反應速率的關係」。",
+    "explanation": "答案 A「探討胡蘿蔔接觸面積與反應速率」。每次取胡蘿蔔 20 g、加入 5% 雙氧水 50 mL，量測反應開始後 5 分鐘收集的氧氣；改變胡蘿蔔形狀（泥狀、丁塊、片狀、絲狀、薄片）是在改變接觸面積，觀察固定時間內產氣量。B 把改變因素說成濃度；C 忽略水量可能影響雙氧水濃度；D 把胡蘿蔔當反應物且把短時間速率誤作最終產量。",
     "solutionSteps": [
       "實驗固定胡蘿蔔質量 20 g、雙氧水濃度 5%、體積 50 mL，並比較反應前 5 分鐘收集的氧氣體積。",
       "唯一刻意改變的是胡蘿蔔切法；表(五)的泥狀、丁塊、片狀、絲狀、薄片分別收集 395、48、63、328、180 mL。切得較細通常讓接觸面積增大，固定時間內產氣量反映反應速率。",
@@ -11280,7 +11303,7 @@
     "knowledgePoint": "110年自然第54題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【閱讀材料】圖(二十五)為恐龍及現存鳥類的演化樹。空心圓表示某類生物出現的時間，實心圓表示滅絕時間；甲類生物位於與現存鳥類相關的支系。表(十二)列出相關生物年代：三角龍68–65 Ma、暴龍68–66 Ma、劍龍155–150 Ma、始祖鳥151–149 Ma（Ma為百萬年前）。演化樹與年代圖請見原卷圖示。\n\n根據表(十二)的生存年代，哪一項事件有可能發生？",
+    "question": "【閱讀材料】圖(二十五)為恐龍及現存鳥類的演化樹。空心圓表示某類生物出現的時間，實心圓表示滅絕時間；甲類生物位於與現存鳥類相關的支系。表(十二)列出相關生物年代：三角龍68–65 Ma、暴龍68–66 Ma、劍龍155–150 Ma、始祖鳥151–149 Ma（Ma為百萬年前）。本題僅依表(十二)所列生存年代判斷。\n\n根據表(十二)的生存年代，哪一項事件有可能發生？",
     "questionImage": "",
     "imageAlt": "",
     "options": [
@@ -11473,9 +11496,9 @@
     "knowledgePoint": "111年國文第4題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【字形選項】\n四個「獸」字由左至右依序如下：\n(A)金文 → 楷書 → 小篆 → 隸書\n(B)金文 → 小篆 → 隸書 → 楷書\n(C)小篆 → 隸書 → 金文 → 楷書\n(D)小篆 → 金文 → 楷書 → 隸書\n\n字形由左至右依序最可能為何種字體？",
-    "questionImage": "./assets/official-exams/111-chinese-q04-glyph-options.svg",
-    "imageAlt": "四種「獸」字字形由左至右排列，判斷其字體演變順序",
+    "question": "下表中的四個「獸」字由左至右排列，依序最可能為何種字體？",
+    "questionImage": "./assets/official-exams/111-chinese-q04-original-glyph-crop.svg",
+    "imageAlt": "111年國中國文會考原卷第4題字形表局部裁切，包含由左至右四個「獸」字字形",
     "options": [
       "金文 → 楷書 → 小篆 → 隸書",
       "金文 → 小篆 → 隸書 → 楷書",
@@ -11483,9 +11506,9 @@
       "小篆 → 金文 → 楷書 → 隸書"
     ],
     "answer": 1,
-    "explanation": "正確答案為 B「金文 → 小篆 → 隸書 → 楷書」。原題表格中的「獸」字由早期金文形體，依序演變為較規整的小篆、筆畫較平直的隸書，再到結構定型的楷書。",
+    "explanation": "正確答案為 B「金文 → 小篆 → 隸書 → 楷書」。原卷字形表由左至右依序呈現早期金文、線條較規整的小篆、筆畫較平直的隸書，最後是結構定型的楷書。",
     "solutionSteps": [
-      "先辨認最早的象形古文字形，圖中第一字為金文。",
+      "先辨認原卷表格中最早的古文字形，第一字為金文。",
       "第二字線條較規整，是小篆；第三字呈隸書形態。",
       "第四字是楷書，因此順序為金文、小篆、隸書、楷書，選 B。"
     ],
@@ -11505,10 +11528,10 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": false,
+    "requiresImage": true,
     "requiresContext": false,
     "questionImages": [
-      "./assets/official-exams/111-chinese-q04-glyph-options.svg"
+      "./assets/official-exams/111-chinese-q04-original-glyph-crop.svg"
     ],
     "answerKeyReview": {
       "status": "verified",
@@ -12306,7 +12329,7 @@
     "solutionSteps": [
       "會意字是把不同部件的意義組合起來表示新義。",
       "D「刪」由「冊」與「刀」構成，對應以刀刪削簡冊內容，字形和字義可相互說明。",
-      "因此選 D；本題須對照表格中的字形及字義，前台保留原卷表格圖供核對。"
+      "因此選 D；題目已將表格各列轉成文字，直接比較部件與字義即可，不需要另看整頁試卷圖。"
     ],
     "teacherTip": "造字法題要同時檢視字形構件與本義；不能只因部件是形聲字就猜測。",
     "relatedWords": [],
@@ -13318,7 +13341,7 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "Look at the picture. The woman is putting ____ on the cake.",
-    "questionImage": "./assets/official-exams/111-english-p2.webp",
+    "questionImage": "./assets/official-exams/111-english-q01-cake-figure.svg",
     "imageAlt": "女子正把蠟燭插在蛋糕上；旁邊有叉子、盤子和草莓",
     "options": [
       "candles",
@@ -13356,7 +13379,7 @@
     "requiresImage": true,
     "requiresContext": false,
     "questionImages": [
-      "./assets/official-exams/111-english-p2.webp"
+      "./assets/official-exams/111-english-q01-cake-figure.svg"
     ],
     "answerKeyReview": {
       "status": "verified",
@@ -14359,7 +14382,7 @@
     "knowledgePoint": "111年英文第21題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【Reading material: Tea-Rock advertisement】‘You Drink Tea-Rock & We Send You to the USA.’ The ad thanks customers for being with the company for ‘Twenty Summers & Winters.’ To enter, cut out two tea-cup pictures from Tea-Rock tea bottles and paste them on a postcard. Write your name, birthday, telephone number, e-mail address, and favorite Tea-Rock tea. Send it to Tea-Rock 20, PO Box 70265, Miao-Song, between January 10 and March 15, 2010. The first prize is two tickets from Taipei to New York. Other prizes include a TV and an MP4 player.\n\nWhat does Tea-Rock celebrate?",
+    "question": "【Reading material: Tea-Rock advertisement】‘You Drink Tea-Rock & We Send You to the USA.’ The ad says, ‘Thank You for Being with Us for Twenty Summers & Winters.’ To enter, cut out two tea-cup pictures from Tea-Rock tea bottles and paste them on a postcard. Write your name, birthday, telephone number, e-mail address, and favorite Tea-Rock tea. Send it to Tea-Rock 20, PO Box 70265, Miao-Song, between January 10 and March 15, 2010. The first prize is two tickets from Taipei to New York. Other prizes include a TV and an MP4 player.\n\nWhat does Tea-Rock celebrate?",
     "options": [
       "Their sales in 20 countries.",
       "The coming out of their 20th kind of tea.",
@@ -14367,10 +14390,10 @@
       "The opening of their 20th store in the USA."
     ],
     "answer": 2,
-    "explanation": "答案是 C「Their 20th year of business（營業第 20 年）」。廣告用 ‘Twenty Summers & Winters’ 表達與顧客共度二十個夏冬；在四個選項中，這句最支持 Tea-Rock 慶祝營業二十年的解讀，但原文沒有逐字寫出 ‘20th year of business’。其他選項所說的銷售國家數、茶品數和美國門市數都沒有廣告證據。",
+    "explanation": "答案是 C「Their 20th year of business（營業第 20 年）」。原文寫 ‘Thank You for Being with Us for Twenty Summers & Winters’，表示品牌與顧客共度二十個夏冬；因此四個選項中最合理的是慶祝營業二十年。原文沒有直接寫 ‘20th year of business’，所以這是依廣告宣傳語推論，而不是逐字陳述。A 的國家數、B 的茶品數和 D 的美國店數都沒有文中證據。",
     "solutionSteps": [
-      "找廣告中的時間線索：‘Thank You for Being with Us for Twenty Summers & Winters.’",
-      "這句宣傳語指向與顧客共度二十年，是四個選項中最符合營業年數的線索。",
+      "找廣告中的時間線索：‘Thank You for Being with Us for Twenty Summers & Winters.’（感謝顧客與品牌共度二十個夏冬。）",
+      "這句宣傳語指向與顧客共度二十年，是四個選項中最符合營業年數的線索；它是推論線索，不是明寫成立年份。",
       "選 C；需注意這是依宣傳語選出最合理解讀，原文並未直接寫出「營業第 20 年」。"
     ],
     "teacherTip": "閱讀廣告題要把標題和宣傳語當作證據；不要看到數字 20 就自行推成店數、商品數或國家數。",
@@ -14714,14 +14737,14 @@
       "People who enjoy team sports.",
       "People who want to start exercising.",
       "People who want to fix their heart problems.",
-      "People who already have a habit of exercising."
+      "People who enjoy exercising but are too busy to go to the gym."
     ],
     "answer": 3,
-    "explanation": "答案是 D「People who already have a habit of exercising」；這是四個選項中最接近原文「喜歡運動但太忙去健身房」的人。需留意，enjoy exercising 不必然等同於 already have a habit；原選項比文章說得更強，因此 D 是最佳可選答案，而非原文逐字支持的同義句。",
+    "explanation": "答案是 D。文章最後指出，Tabata 可能適合喜歡運動、但太忙而無法去健身房的人；D 忠實表達這兩個條件。A 的團隊運動偏好未提及，B 的「想開始運動」不等於已喜歡運動，C 想治療心臟問題則與文章提醒心臟問題者不適合相反。",
     "solutionSteps": [
       "文章說 Tabata 可能適合喜歡運動但太忙、無法去健身房的人。",
       "文章排除很少運動或有心臟問題者；A、B、C 分別沒有支持、與排除條件衝突，或改成治療心臟病。",
-      "D 是四個選項中最接近喜歡運動者的答案，但「喜歡運動」不必然表示已養成習慣；這是原選項用語比原文更強之處。"
+      "D 同時保留『喜歡運動』和『太忙而不能去健身房』兩項條件，與原文相符；因此答案為 D。"
     ],
     "teacherTip": "用文章的正反條件排除選項；may be right 不代表對所有人都安全或必然適合。",
     "relatedWords": [
@@ -14733,6 +14756,7 @@
     "source": {
       "year": 111,
       "questionNumber": 28,
+      "editorialNote": "原卷 D 選項的 already have a habit of exercising 強於文章原意；為避免超出文本推論，本站已依原文改寫 D 選項。此題非逐字原卷選項。",
       "url": "https://cap.rcpet.edu.tw/exam/111/111exam.html",
       "paperUrl": "https://drive.google.com/file/d/1IyJBtIjySeyVAisE1YiCclYsSldQpHBf/view"
     },
@@ -14867,11 +14891,11 @@
       "The number of workers who get paid more and rise higher in the company."
     ],
     "answer": 0,
-    "explanation": "答案是 A「The way workers show they are hard-working（員工藉以表現勤奮的方式）」。原文寫道 ‘Working long hours has become a way to show that people are hard-working. Clearly, this must be changed before the problem gets any worse.’ 其中 this 回指把長工時當成勤奮證明的風氣。",
+    "explanation": "答案是 A「The way workers show they are hard-working（員工藉以表現勤奮的方式）」。原文先說 ‘Working long hours has become a way to show that people are hard-working’，緊接著說 ‘Clearly, this must be changed’；this 回指前句「把長工時當成勤奮證明」的觀念。B 是上一段的餐廳與咖啡店現象，C 是第二段的員工行動，D 把加薪升遷機率誤成員工人數，皆非 this 的先行語。",
     "solutionSteps": [
       "定位原句：‘Working long hours has become a way to show that people are hard-working. Clearly, this must be changed before the problem gets any worse.’",
       "this 緊接在前述觀點之後，回指把長工時當成勤奮表現的風氣。",
-      "因此選 A；它不是指餐廳營業時間、員工是否回家或升遷人數。"
+      "因此選 A；它不是指餐廳營業時間、員工是否回家，也不是把加薪升遷的機率誤當成員工人數。"
     ],
     "teacherTip": "代名詞 this 常回指前一句的概念或整件事；先讀前後句再判斷。",
     "relatedWords": [
@@ -14960,8 +14984,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "【Reading material: ‘Language and Power: Cameroon’s Story’】In the modern world, speaking English is often a way to get power, but this is not true for English speakers in Cameroon. In 1919, Kamerun (the name of Cameroon at the time) was divided into two parts: one belonged to France and the other to the UK. In 1960, French Cameroon became the Republic of Cameroon, and the UK’s part joined it in 1961. The new country was called the Federal Republic of Cameroon. French and English are both official languages, but only about 20% of the people speak English; the government has been in French speakers’ hands since the two parts became one country.\n\nFor a long time, English speakers have felt unwelcome. It is difficult for them to get government jobs, and they are often asked to speak French in business and at official events. They have become more resentful of the government and decided to fight for themselves. Since last year, they have tried to build their own country. At a public meeting, they said they were no longer part of Cameroon and called their new country ‘Ambazonia.’ When police tried to stop the meeting, at least eight people were killed.\n\nWhich map is most likely the map of Cameroon in 1962?",
-    "questionImage": "./assets/official-exams/111-english-p12.webp",
-    "imageAlt": "111年國中教育會考英文科第33題官方試卷頁面",
+    "questionImage": "./assets/official-exams/111-english-q33-maps.svg",
+    "imageAlt": "111年英文會考喀麥隆歷史地圖四選項",
     "options": [
       "A",
       "B",
@@ -14998,7 +15022,7 @@
     "requiresImage": true,
     "requiresContext": true,
     "questionImages": [
-      "./assets/official-exams/111-english-p12.webp"
+      "./assets/official-exams/111-english-q33-maps.svg"
     ],
     "answerKeyReview": {
       "status": "verified",
@@ -15164,6 +15188,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "【Reading material: The Southend Trail】The Southend Trail is a 120-km trail popular with nature lovers. It passes beautiful lakes, crosses rivers, and goes through mountains and hills. This gives bird lovers some of the best places for birdwatching. The trail also takes visitors to Southend Museum and two famous castles, Edward Castle and Sloan Castle. Plan one day for one part of the trail and start your hike early in the morning, because each part takes at least seven hours. Visitors may bike, but must stay on the main trail because the side trails are not wide enough for biking. There are two kinds of lodging: camping is popular in summer but allowed only at a few campgrounds; visitors can also stay at hotels in towns, some of which serve breakfast.\n\nWhat is recommended to people who are visiting the Southend Trail?",
+    "questionImage": "./assets/official-exams/111-english-q39-trail-map.svg",
+    "imageAlt": "Southend Trail 全路線、主線與支線、河流及可露營營地標示圖",
     "options": [
       "Camping on the side trails.",
       "Biking along the side trails.",
@@ -15171,11 +15197,11 @@
       "Visiting the museum in the morning."
     ],
     "answer": 2,
-    "explanation": "答案是 C：一天走一段步道。文章建議一段步道安排一天，並要早點出發，因為每段至少需要七小時。露營只限少數營地；自行車不能走較窄的支線；文章沒有建議早上參觀博物館。 Answer: C.",
+    "explanation": "答案是 C：一天走一段步道。文章明確建議一天安排一段並早點出發，因為每段至少需要七小時。地圖只標出少數指定營地，不能把整條支線都當成露營區；自行車也不可走支線。文章沒有建議早上參觀博物館。",
     "solutionSteps": [
       "找建議句：‘Plan one day for one part of the trail and start your hike early in the morning.’",
       "文章也說每一段至少要走七小時，支持一天安排一段。",
-      "所以選 C。A、B 與營地限制及支線太窄不能騎車相反，D 的早上參觀並非文章建議。"
+      "所以選 C。A 把指定營地擴大成所有支線，B 違反支線太窄不能騎車的限制；D 的早上參觀並非文章建議。"
     ],
     "teacherTip": "問建議時找文中的 should、best、plan 等明確建議語句，避免自行推想行程。",
     "relatedWords": [
@@ -15197,9 +15223,11 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": false,
+    "requiresImage": true,
     "requiresContext": false,
-    "questionImages": [],
+    "questionImages": [
+      "./assets/official-exams/111-english-q39-trail-map.svg"
+    ],
     "answerKeyReview": {
       "status": "verified",
       "note": "依111年國中教育會考官方選擇題參考答案一覽表核對：英文第37題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1IeMHI4BmTpC_2Oc1lQ1Qj6XWHDf9qwGd/view"
@@ -15221,7 +15249,7 @@
       "A way of moving around."
     ],
     "answer": 1,
-    "explanation": "答案是 B「A place to stay in（住宿的地方）」。上下文接著列出露營和住旅館兩種方式，兩者都是住宿選擇，因此 lodging 指住宿。 Answer: B.",
+    "explanation": "答案是 B「A place to stay in（住宿的地方）」。上下文接著列出露營和住旅館兩種方式，兩者都是住宿選擇，因此 lodging 指住宿。",
     "solutionSteps": [
       "先看 lodging 後面接著列舉的兩種方式：camping 和 staying at a hotel。",
       "露營與旅館都是旅客過夜、停留的住宿方式。",
@@ -15264,8 +15292,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "【Reading material: The Southend Trail】The Southend Trail is a 120-km trail popular with nature lovers. It passes beautiful lakes, crosses rivers, and goes through mountains and hills. This gives bird lovers some of the best places for birdwatching. The trail also takes visitors to Southend Museum and two famous castles, Edward Castle and Sloan Castle. Plan one day for one part of the trail and start your hike early in the morning, because each part takes at least seven hours. Visitors may bike, but must stay on the main trail because the side trails are not wide enough for biking. There are two kinds of lodging: camping is popular in summer but allowed only at a few campgrounds; visitors can also stay at hotels in towns, some of which serve breakfast.\n\nKaylen will start his trip from Cove. He plans to visit one of the old castles. He also wants to go birdwatching near the river. Which parts of the trail should Kaylen go on?",
-    "questionImage": "./assets/official-exams/111-english-p13.webp",
-    "imageAlt": "111年國中教育會考英文科第39題官方試卷頁面",
+    "questionImage": "./assets/official-exams/111-english-q39-trail-map.svg",
+    "imageAlt": "111年英文會考 Southend Trail 路線、城堡與河流位置圖",
     "options": [
       "Parts 1 and 2.",
       "Parts 1 and 2a.",
@@ -15273,7 +15301,7 @@
       "Parts 4 and 4a."
     ],
     "answer": 0,
-    "explanation": "答案是 A：Parts 1 and 2。依原卷路線圖，從 Cove 走 Part 1 可到 Dove，再走 Part 2 到 Kint；路線靠近 Sloan Castle，且其中一段鄰近河流，符合參觀古堡及河邊賞鳥的兩個條件。路線圖是必要作答資料，已保留。 Answer: A.",
+    "explanation": "答案是 A：Parts 1 and 2。依原卷路線圖，從 Cove 走 Part 1 可到 Dove，再走 Part 2 到 Kint；路線靠近 Sloan Castle，且其中一段鄰近河流，符合參觀古堡及河邊賞鳥的兩個條件。路線圖是必要作答資料，已保留。",
     "solutionSteps": [
       "從起點 Cove 出發，先沿 Part 1 到 Dove，再接 Part 2 到 Kint。",
       "對照路線圖，這組連續路段可到 Sloan Castle 附近，且其中一段鄰近河流，符合參觀古堡與河邊賞鳥的目的。",
@@ -15302,7 +15330,7 @@
     "requiresImage": true,
     "requiresContext": true,
     "questionImages": [
-      "./assets/official-exams/111-english-p13.webp"
+      "./assets/official-exams/111-english-q39-trail-map.svg"
     ],
     "answerKeyReview": {
       "status": "verified",
@@ -16810,7 +16838,7 @@
     "type": "歷屆真題",
     "question": "某宗教的全球大型集會於 2017 年約有 235 萬人參與。來源國及人數如下：沙烏地阿拉伯 600,108 人、印尼 221,000 人、巴基斯坦 179,210 人、印度 170,000 人、孟加拉 127,198 人、埃及 108,000 人、伊朗 86,500 人、土耳其 79,000 人、奈及利亞 79,000 人、阿富汗 36,000 人、摩洛哥 31,000 人、其他國家 635,106 人。此活動最可能是哪一種？",
     "questionImage": "",
-    "imageAlt": "111年國中教育會考社會科第1題官方試卷頁面",
+    "imageAlt": "",
     "options": [
       "佛教浴佛節",
       "印度教大壺節",
@@ -16961,7 +16989,7 @@
     "type": "歷屆真題",
     "question": "截至 2019 年底，臺灣 40 座主要水庫中，淤積率超過 30% 的有 15 座；例如石門水庫淤積率達 74.8%，烏山頭水庫達 49.2%。泥砂淤積會降低蓄水功能，下列哪項策略最能改善此現象？",
     "questionImage": "",
-    "imageAlt": "111年國中教育會考社會科第4題官方試卷頁面",
+    "imageAlt": "",
     "options": [
       "強化集水區崩塌裸露地的植被復育",
       "擴大在河川下游種植防風林的面積",
@@ -17010,7 +17038,7 @@
     "type": "歷屆真題",
     "question": "圖(三)為 1980 年代臺灣雜誌封面，畫面強調新聞自由與「百分之百自由」的訴求。此政治訴求最可能與何者有關？",
     "questionImage": "",
-    "imageAlt": "111年國中教育會考社會科第5題官方試卷頁面",
+    "imageAlt": "",
     "options": [
       "中共當局代表選票及總統直選",
       "政府應妥善處理二二八事件",
@@ -17059,7 +17087,7 @@
     "type": "歷屆真題",
     "question": "圖(四)是中國歷史上的官方文件，記載戶主及家中不同年齡成員。依文件登錄人口與年齡資料的內容，政府製作此文件最可能有何目的？",
     "questionImage": "",
-    "imageAlt": "111年國中教育會考社會科第6題官方試卷頁面",
+    "imageAlt": "",
     "options": [
       "配合科舉選拔人才",
       "掌握人力以徵集賦稅和勞役",
@@ -17157,7 +17185,7 @@
     "type": "歷屆真題",
     "question": "圖(五)為臺灣考古遺址同一文化層出土的四種石器：甲為架高陶罐以便生火炊煮的石支腳；乙為多種錘打功能的凹石；丙為磨製石器；丁為網墜。何者最適合作為判斷該文化層所屬時代的證據？",
     "questionImage": "",
-    "imageAlt": "111年國中教育會考社會科第8題官方試卷頁面",
+    "imageAlt": "",
     "options": [
       "甲",
       "乙",
@@ -17206,7 +17234,7 @@
     "type": "歷屆真題",
     "question": "某宮廟因違法擴建道路及廟宇建築，涉嫌竊占國土及濫墾山坡地，相關單位 多次介入協調，要求廟方自行拆除，但該廟負責人認為廟地選址及擴建的決 定皆為神明指示，堅決不願退讓，於是相關單位除了開罰六萬元外，並將 負責人移送法辦。上述內容最可能是關於下列哪二者之間的衝突？",
     "questionImage": "",
-    "imageAlt": "111年國中教育會考社會科第9題官方試卷頁面",
+    "imageAlt": "",
     "options": [
       "環境保育與經濟發展",
       "法律規範與宗教信仰",
@@ -17254,7 +17282,7 @@
     "type": "歷屆真題",
     "question": "國中生小安寄了一封陳情信給某位公職人員，信中敘述父親因沉迷賭博，導致家 中債臺高築，害他的父母離異、家庭破碎，希望有人能幫幫他，讓父親不再沉溺 賭海。該名公職人員收到信後立刻啟動偵辦，循線破獲非法賭場，並依法對賭場 業者與賭徒提起公訴。根據上述內容判斷，小安寄信的對象應是下列何者？",
     "questionImage": "",
-    "imageAlt": "111年國中教育會考社會科第10題官方試卷頁面",
+    "imageAlt": "",
     "options": [
       "法官",
       "律師",
@@ -18805,10 +18833,10 @@
       "相對乙國貨幣貶值，但相對丙國貨幣升值"
     ],
     "answer": 3,
-    "explanation": "圖(二十二)中甲對乙、丙皆有出口，且甲的進出口數量在同一期間都大幅增加。甲貨幣相對乙貶值，使甲乙雙邊商品價格競爭力提高；但甲貨幣相對丙升值，表示丙貨幣相對甲貶值，丙對甲的商品也較有價格競爭力，因此兩方向數量可同時增加，答案 D。",
+    "explanation": "圖(二十二)顯示甲出口到乙，而丙出口到甲。甲幣相對乙貶值，甲商品對乙更便宜，有利甲出口增加；甲幣相對丙升值，丙商品換成甲幣後更便宜，有利甲進口增加，因此兩方向數量可同時增加，答案 D。",
     "solutionSteps": [
-      "先從箭頭辨認甲與乙、丙都有商品出口往來，且題目指出甲的進、出口量都增加。",
-      "甲相對乙貶值可使甲商品對乙較便宜；甲相對丙升值則意味丙貨幣相對甲貶值，丙商品對甲較便宜。",
+      "讀箭頭方向：甲把商品出口到乙；丙把商品出口到甲，所以甲進口自丙。",
+      "甲幣相對乙貶值會使甲貨物對乙更便宜，有利出口；甲幣相對丙升值會使丙貨物對甲更便宜，有利進口。",
       "雙邊價格競爭力分別提升，較能解釋甲進出口同時增加，答案 D。"
     ],
     "teacherTip": "匯率要分別看雙邊貨幣關係；進口量和出口量同增時，可能是對不同貿易夥伴呈現不同升貶值。",
@@ -19332,10 +19360,10 @@
       "丁"
     ],
     "answer": 1,
-    "explanation": "圖(二十八)的主要空氣污染源在中心，盛行風由西向東吹；低技術勞工居住區位於污染源下風處，東側標示乙，較容易承受煙塵，答案 B。",
+    "explanation": "圖(二十八)的主要空氣污染源在中心；文中所說的西歐盛行西風，是由西往東吹，污染物會飄向東側下風處。圖上東側標示乙，因此低技術勞工居住區最可能在乙，答案 B。",
     "solutionSteps": [
       "先讀圖上的北向與方位：乙在污染源東側。",
-      "文章指出盛行風把煙霧吹往城市下風處；圖中風向由西向東。",
+      "文章指出西歐盛行西風把煙霧吹向城市下風處；西風是由西往東吹。",
       "污染源東側的乙位於下風處，答案 B。"
     ],
     "teacherTip": "風向名稱指風吹來的方向；西風由西往東吹，煙塵會移向東側。",
@@ -20697,7 +20725,7 @@
     "explanation": "答案 B。以表（六）的每度電排碳量加權比較發電組成，燃煤約 790 g、燃氣約 380 g，核能與再生能源接近 0。圖中甲、乙兩國 2030 年都降低燃煤比例並提高再生能源比例；其餘燃料比例的變化不足以抵銷這個方向，所以兩國平均每度電的碳排放量都會下降。",
     "solutionSteps": [
       "用圖讀取發電比例，並以表中排碳係數作加權平均：平均排碳＝各能源比例×其每度排碳量後相加。燃煤約790 g、燃氣約380 g，核能與再生能源接近0。",
-      "甲國燃煤約由43%降至25%、燃氣由33%降至26%，低碳能源比例上升；加權排碳由約465.1降至296.3 g/度，下降。",
+      "甲國燃煤由33%降至25%、燃氣由43%降至26%，低碳能源比例上升；加權排碳由 0.33×790＋0.43×380＝424.1 降至 0.25×790＋0.26×380＝296.3 g/度。",
       "乙國燃煤由47%降至32%、燃氣由30%升至45%；每15個百分點由燃煤轉燃氣，約減少0.15×(790−380)=61.5 g/度。因此兩國都下降，選 B。"
     ],
     "teacherTip": "比較平均排碳量時用各能源占比乘上單位發電排碳係數再加總；只看燃煤比例可能忽略燃氣也有排碳。",
@@ -21479,7 +21507,7 @@
     "knowledgePoint": "111年自然第43題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "沼氣是有機物在缺氧條件下發酵產生的混合氣體，含有二氧化碳但不會產生氧氣。牧牧將集氣瓶中的氣體通入澄清石灰水，搖晃後觀察是否變混濁；小歡將燃著的線香放入集氣瓶，觀察是否持續燃燒。兩種方法能否用來判斷發酵仍在產氣？",
+    "question": "沼氣是有機物經厭氧發酵產生的氣體，主要成分為甲烷、二氧化碳，另含微量硫化氫。牧牧將集氣瓶中的氣體通入澄清石灰水，搖晃後觀察是否變混濁；小歡將燃著的線香放入集氣瓶，觀察是否持續燃燒。兩人以此判斷收集氣體的過程中發酵是否仍在進行，何者合理？",
     "questionImage": "",
     "imageAlt": "",
     "options": [
@@ -21489,13 +21517,13 @@
       "只有小歡合理"
     ],
     "answer": 2,
-    "explanation": "答案 C，只有牧牧的方法合理。二氧化碳會使澄清石灰水產生碳酸鈣沉澱而混濁，可作為氣體含二氧化碳的檢驗。燃著線香持續燃燒表示有助燃的氧氣；厭氧發酵不產生氧氣，因此不能以此證明發酵仍在進行。",
+    "explanation": "答案 C，只有牧牧的判讀合理。沼氣主成分甲烷可燃、二氧化碳不可燃也不助燃；澄清石灰水變混濁能檢出沼氣中的二氧化碳。小歡把線香持續燃燒解讀成有助燃性氣體並據此推論發酵進行，判讀不成立：甲烷本身可燃，不等於它能助燃；線香現象不能證明沼氣中有氧氣。",
     "solutionSteps": [
-      "牧牧檢驗的是二氧化碳：CO₂ 通入澄清石灰水會生成難溶的碳酸鈣，溶液因此變混濁，與沼氣含二氧化碳相符。",
-      "小歡檢驗的是助燃性氧氣。線香持續燃燒只能支持瓶內有氧氣，不能證明厭氧發酵產氣；發酵也不會產生氧氣。",
-      "所以只有牧牧的檢測結果能作為沼氣成分的證據，答案為 C。"
+      "依題組資料，沼氣主要含甲烷與二氧化碳。二氧化碳通入澄清石灰水會形成碳酸鈣沉澱，使溶液混濁，因此牧牧的現象可檢出沼氣中的二氧化碳。",
+      "甲烷具有可燃性，但不具助燃性；二氧化碳也不助燃。小歡把線香持續燃燒直接當成『存在助燃性氣體』，混淆了可燃物和助燃物，不能據此證明沼氣含氧或發酵仍在進行。",
+      "所以牧牧的檢測說明合理，小歡的推論不合理，選 C。需分清：甲烷是燃料，氧氣才是常見助燃氣體。"
     ],
-    "teacherTip": "先問每個實驗現象代表哪種氣體，再確認該氣體是否真是此反應會產生的產物。",
+    "teacherTip": "分清可燃性與助燃性：甲烷能燃燒但不會助燃；二氧化碳既不燃燒也不助燃。",
     "relatedWords": [],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -21731,8 +21759,12 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "圖（二十七）中甲安培計測量丙支路電流，乙位於主幹，測量流入並聯網路的總電流。表（十二）記錄 I甲＝200 mA、I乙＝100 mA。對這組讀數及「I甲＞I乙」的判斷，何者最適當？",
-    "questionImage": "",
-    "imageAlt": "",
+    "questionImage": "./assets/official-exams/111-science-q48-parallel-current.svg",
+    "imageAlt": "甲安培計位於丙支路，乙安培計位於並聯主幹的電路示意圖",
+    "requiresImage": true,
+    "questionImages": [
+      "./assets/official-exams/111-science-q48-parallel-current.svg"
+    ],
     "options": [
       "合理，因為電流由電池負極流出，且甲較靠近負極",
       "合理，因為甲測得的電流是丙、丁兩支路電流總和",
@@ -21762,9 +21794,7 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依111年國中教育會考官方選擇題參考答案一覽表核對：自然第48題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1IeMHI4BmTpC_2Oc1lQ1Qj6XWHDf9qwGd/view"
@@ -23917,11 +23947,11 @@
       "句型 a ____ of grapes 表示「一籃葡萄」，英文搭配是 a basket of grapes，因此選 basket。",
       "bag 是袋子、bowl 是碗、box 是盒子；它們都不符合圖中有提把、用來盛葡萄的籃子。"
     ],
-    "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
+    "teacherTip": "先看圖片中葡萄盛裝的容器，再分辨 basket（籃子）、bag（袋子）、bowl（碗）和 box（盒子）；不要只靠 a ... of 的句型選答案。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "basket（一籃；有提把的籃子）",
+      "bunch（一串；常用於葡萄）",
+      "container（容器；盛裝物品的器具）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -23971,11 +24001,11 @@
       "在公開場合唱歌能展現歌聲，singing 符合語意；enjoy 後使用 V-ing。",
       "dancing、drawing、shopping 都可作 enjoy 的動名詞補語，但不能解釋他以歌聲為傲。"
     ],
-    "teacherTip": "先以句中的時間、因果與搭配線索判斷，再代入選項檢查文法和語意。",
+    "teacherTip": "enjoy 後面接動名詞 V-ing；再用 beautiful voice 判斷活動內容是 singing，而不是只檢查文法就停。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "sing（唱歌）",
+      "perform（表演；登台演出）",
+      "vocal（聲音的；歌唱的）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -24023,11 +24053,11 @@
       "說話者應提高音量，must shout 是符合情境的建議。",
       "explain 不一定提高音量，hurry 是趕快，listen 是聽；都不是讓她聽見的必要作法。"
     ],
-    "teacherTip": "先以句中的時間、因果與搭配線索判斷，再代入選項檢查文法和語意。",
+    "teacherTip": "對聽力不好的人說話，應提高音量；shout 是大聲說，listen 卻是聆聽，留意動作方向和說話對象。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "shout（大聲喊／說）",
+      "speak loudly（大聲說話）",
+      "raise one's voice（提高音量）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -24075,11 +24105,11 @@
       "watch someone doing something 強調看到動作進行中，故用 dancing。",
       "danced 是過去式，has danced 是完成式，to dance 是不定詞，均不符合 watched + 受詞 + V-ing 的句型。"
     ],
-    "teacherTip": "先以句中的時間、因果與搭配線索判斷，再代入選項檢查文法和語意。",
+    "teacherTip": "watch + 受詞 + V-ing 強調看到動作正在發生；不要把它和 watch + 受詞 + 原形的完整動作混為一談。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "watch someone doing（看見某人正在做）",
+      "watch someone do（看見某人做完整動作）",
+      "dance（跳舞；動詞原形）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -24127,11 +24157,11 @@
       "白色是顏色，因此 several different colors 與後文的選擇呼應。",
       "prices、shapes、sizes 分別是價格、形狀、尺寸，不能直接解釋為何特別指出白色那雙。"
     ],
-    "teacherTip": "先以句中的時間、因果與搭配線索判斷，再代入選項檢查文法和語意。",
+    "teacherTip": "white pair 是顏色線索；比較同款鞋時要分清 colors、sizes、shapes 和 prices。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "color（顏色；美式拼法）",
+      "colour（顏色；英式拼法）",
+      "shade（色調；顏色深淺）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -24179,11 +24209,11 @@
       "描述地震發生時正在進行的動作，用 was/were + V-ing；主詞 He 用 was jogging。",
       "jogged 是單純過去，不凸顯當時正在進行；has jogged 是現在完成，would jog 是過去將來或習慣，皆不合。"
     ],
-    "teacherTip": "先以句中的時間、因果與搭配線索判斷，再代入選項檢查文法和語意。",
+    "teacherTip": "at the time 指地震發生時正在進行的背景動作；搭配過去事件時檢查過去進行式 was/were + V-ing。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "jog（慢跑）",
+      "run（跑步；較廣義）",
+      "at the time（當時；那個時候）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -24231,11 +24261,11 @@
       "think about 後接 V-ing；changing his job 表示考慮換工作，與任職十年形成對照。",
       "finding、remembering、starting his job 分別是找工作、想起工作、開始工作，均非「考慮換工作」的意思。"
     ],
-    "teacherTip": "先以句中的時間、因果與搭配線索判斷，再代入選項檢查文法和語意。",
+    "teacherTip": "think about 後接名詞或 V-ing；changing his job 是考慮轉職，先確認片語結構再看搭配意思。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "change one's job（換工作）",
+      "switch jobs（轉換工作）",
+      "think about + V-ing（考慮做某事）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -24283,11 +24313,11 @@
       "座位都有人且有人站著，表示車上 full（滿了）。",
       "題幹沒有說車子髒、快或出錯；dirty、fast、wrong 都不是滿載的同義描述。"
     ],
-    "teacherTip": "先以句中的時間、因果與搭配線索判斷，再代入選項檢查文法和語意。",
+    "teacherTip": "All the seats were taken 和有人站著都指向車廂已滿；不要被 dirty、fast 等單一形容詞帶偏。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "full（滿的）",
+      "crowded（擁擠的）",
+      "packed（擠滿的；客滿的）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -24335,11 +24365,11 @@
       "後半句是違反警告可能造成的後果，or 在此表示「否則」。",
       "but 是但是、if 是如果、so 是所以，都不能像 or 一樣連接警告與負面後果。"
     ],
-    "teacherTip": "先以句中的時間、因果與搭配線索判斷，再代入選項檢查文法和語意。",
+    "teacherTip": "祈使句後接 or 可表示「否則」及可能後果；辨清警告語意，不要誤選表示結果的 so。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "or（否則；祈使句後的警告語氣）",
+      "otherwise（否則；相近連接副詞）",
+      "burn（燒焦；燃燒）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -24387,11 +24417,11 @@
       "wanted to know 後用 why 引導間接問句，語序為主詞 he 在動詞 kicked 前。",
       "where、when、whether 分別問地點、時間、是否，不能詢問原因。"
     ],
-    "teacherTip": "先以句中的時間、因果與搭配線索判斷，再代入選項檢查文法和語意。",
+    "teacherTip": "後句的 reason 是解題線索：間接問句問原因用 why，語序維持主詞在動詞前。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "why（為什麼；詢問原因）",
+      "reason（原因）",
+      "indirect question（間接問句；用陳述語序）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -24439,11 +24469,11 @@
       "a headache 可比喻令人頭痛、麻煩的人或事情，符合 To them 的觀點。",
       "daughter 是女兒、example 是例子、gift 是禮物，不能總結這些困擾。"
     ],
-    "teacherTip": "先以句中的時間、因果與搭配線索判斷，再代入選項檢查文法和語意。",
+    "teacherTip": "a headache 可比喻令人頭痛的麻煩人物或事情；辨認轉義，不要只按 headache 的字面症狀理解。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "a headache（令人頭痛的麻煩人物／事情）",
+      "trouble（麻煩）",
+      "cause problems（造成問題）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -24491,11 +24521,11 @@
       "go camping 的現在進行式 are going 可表示已安排的近期未來活動。",
       "went 是過去、were going 是過去進行、have gone 表已經出發，皆不合未來週末安排。"
     ],
-    "teacherTip": "先以句中的時間、因果與搭配線索判斷，再代入選項檢查文法和語意。",
+    "teacherTip": "this weekend 與 by Friday 顯示已安排的近期行程；現在進行式也能表達確定的未來計畫。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "go camping（去露營）",
+      "this weekend（這個週末）",
+      "be going（已安排將去）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -24543,11 +24573,11 @@
       "事件發生在過去，複數主詞搭配 were + 過去分詞；bite 的過去分詞是 bitten。",
       "bit 是主動過去式、bite 是原形、have bitten 是主動完成式，均不符合主詞與語態。"
     ],
-    "teacherTip": "先以句中的時間、因果與搭配線索判斷，再代入選項檢查文法和語意。",
+    "teacherTip": "since 子句描述耳朵在過去被咬的事件；耳朵是受詞且為複數，需用 were + bitten。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "bite（咬；原形）",
+      "bit（咬；過去式）",
+      "bitten（咬；過去分詞）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -24595,11 +24625,11 @@
       "第一類條件句的主句用 will + 原形，故為 there will be。",
       "are 是現在式、has 對應單數所有、will have 不符合 there be 存在句型。"
     ],
-    "teacherTip": "先以句中的時間、因果與搭配線索判斷，再代入選項檢查文法和語意。",
+    "teacherTip": "第一類條件句用 If + 現在式，主句以 will + 原形表示可能的未來結果；there be 的未來式是 there will be。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "there will be（將會有）",
+      "fun（樂趣；不可數名詞）",
+      "if-clause（條件子句）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -24647,11 +24677,11 @@
       "顧客諮詢與回覆屬於服務，service 是最合適的名詞。",
       "item 是商品、business 是商業活動、price 是價格，均非回信與顧客應對品質。"
     ],
-    "teacherTip": "先以句中的時間、因果與搭配線索判斷，再代入選項檢查文法和語意。",
+    "teacherTip": "抱怨寄信後沒有回覆，談的是商店對顧客的 service；不要把商品、價格或公司本身當成服務品質。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "service（服務）",
+      "customer service（顧客服務）",
+      "respond to an email（回覆電子郵件）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -24699,11 +24729,11 @@
       "因此看清島嶼的可能性更低，less possible 與情境相符。",
       "less difficult 意為較不困難，方向相反；lucky 和 special 也不能搭配描述看見的可能性。"
     ],
-    "teacherTip": "先以句中的時間、因果與搭配線索判斷，再代入選項檢查文法和語意。",
+    "teacherTip": "less possible 表示可能性更低；less difficult 反而是「沒那麼困難」，比較級否定詞會改變意思方向。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "possible（可能的）",
+      "likely（可能發生的；近義詞）",
+      "less difficult（較不困難；語意相反方向）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -24751,11 +24781,11 @@
       "finally 表示經過等待或努力後「終於」發生，符合前後文。",
       "almost、even、still 分別是幾乎、甚至、仍然，都沒有表達終於找到的意思。"
     ],
-    "teacherTip": "先以句中的時間、因果與搭配線索判斷，再代入選項檢查文法和語意。",
+    "teacherTip": "找了數月而且『現在找到了』，結果語氣對應 finally（終於）；不要選 still（仍然）或 almost（幾乎）。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "finally（終於）",
+      "at last（終於；近義詞）",
+      "still（仍然；表示持續）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -24803,11 +24833,11 @@
       "新競爭使原本不佳的情況惡化，make things worse 是自然搭配。",
       "easier、more boring、more convenient 分別表示更容易、更無聊、更方便，不符合商店生意受損的脈絡。"
     ],
-    "teacherTip": "先以句中的時間、因果與搭配線索判斷，再代入選項檢查文法和語意。",
+    "teacherTip": "make things worse 是固定搭配，表示讓既有壞情況惡化；不要把 more boring 當成任何負面情境都可用。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "make things worse（使情況更糟）",
+      "worse（更差；bad 的比較級）",
+      "competition（競爭）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -24855,11 +24885,11 @@
       "the one 指那個人，who pulled him out... 是修飾人的關係子句，組成 the one who。",
       "who 單獨缺少先行詞；the one 缺關係代名詞；the one she 不能連接主動子句，均不合。"
     ],
-    "teacherTip": "先以句中的時間、因果與搭配線索判斷，再代入選項檢查文法和語意。",
+    "teacherTip": "the one who 指『那個曾做某事的人』；who 引導修飾人的關係子句，不能把 who 單獨放在 be 動詞後。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "the one who（那個……的人）",
+      "pull someone out（把某人拉出來）",
+      "on fire（著火）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -24901,17 +24931,17 @@
       "would practice"
     ],
     "answer": 2,
-    "explanation": "before I went to this high school 與 gave it up 都描述過去；游泳練習發生在那段過去期間，因此用 practiced。現在完成式和現在進行式不合過去時間；would practice 可表過去習慣，但此處題目敘述一段已結束的訓練經歷，過去式最直接。",
+    "explanation": "答案依官方答案表為 C「practiced」。before I went to this high school 和 I gave it up 把游泳經驗放在已結束的過去，過去式可直接敘述那段練習經歷。A 現在完成式與已結束的時間不合，B 現在進行式也不合；D would practice 在特定語境可表過去習慣，但題目沒有提供慣常頻率或反覆情境，因此 C 是最直接、最符合題目時間敘述的答案。",
     "solutionSteps": [
       "went 和 gave it up 都是過去式，交代已結束的時間線。",
-      "練習發生於上高中之前，使用 practiced 描述過去一段時間的活動。",
-      "have practiced、am practicing 連結現在；would practice 偏向過去反覆習慣，非此處直接敘述經歷的最佳選擇。"
+      "練習發生於上高中之前，依官方答案用 practiced 直接敘述這段已結束的過去經歷。",
+      "have practiced、am practicing 連結現在；would practice 可以表示過去反覆習慣，但題目沒有慣常頻率線索，因此不如 C 直接。"
     ],
-    "teacherTip": "先以句中的時間、因果與搭配線索判斷，再代入選項檢查文法和語意。",
+    "teacherTip": "before I went 和 gave it up 都把經歷放在已結束的過去；本題敘述一段過去時期，應用 practiced。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "practice swimming（練習游泳）",
+      "give it up（放棄／停止做某事）",
+      "heavy schoolwork（繁重課業）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -24959,11 +24989,11 @@
       "expect + 子句表示預期某事發生，many people expect he will win 語意完整。",
       "forget、notice、plan 分別是忘記、注意到、計畫，不能表達對得獎結果的預測。"
     ],
-    "teacherTip": "先以句中的時間、因果與搭配線索判斷，再代入選項檢查文法和語意。",
+    "teacherTip": "so good ... that ... 表示程度造成結果；預期某人會得獎用 expect + 子句，不是 plan（計畫）。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "expect（預期）",
+      "predict（預測；近義詞）",
+      "win a prize（得獎）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -25011,11 +25041,11 @@
       "現在完成式 has saved 表示已拯救且結果與現在相關，單數主詞搭配 has。",
       "and saved 缺少並列結構、saving 不是有限動詞、to save 是不定詞，均不能獨立作謂語。"
     ],
-    "teacherTip": "先以句中的時間、因果與搭配線索判斷，再代入選項檢查文法和語意。",
+    "teacherTip": "that just came out 與拯救生命的結果連到現在；單數主詞 medicine 搭配現在完成式 has saved。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "save lives（拯救生命）",
+      "has saved（已經拯救；現在完成式）",
+      "come out on the market（上市）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -25063,11 +25093,11 @@
       "描述過去經常發生、現在不一定延續的習慣，用 used to + 原形動詞。",
       "will come 是未來、comes 是現在習慣、has come 是現在完成，都與回憶往事的時間框架不符。"
     ],
-    "teacherTip": "先以句中的時間、因果與搭配線索判斷，再代入選項檢查文法和語意。",
+    "teacherTip": "Now I often think of those days 表示回望已結束的往事；used to 描述過去反覆發生、現在不再如此的習慣。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "used to（過去常常；今已不再）",
+      "come and sit（過來坐下）",
+      "those days（那些往日）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -25115,11 +25145,11 @@
       "兌換規則寫明 15 顆星可免費換一杯 $60 飲料；這筆訂單中只有一杯符合該兌換額度，故折抵 $60。",
       "$290 − $60 = $230，因此選 B。不要將兩杯飲料都當成免費，也不要把星星折抵整筆餐費。"
     ],
-    "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
+    "teacherTip": "先逐項加總餐點原價，再只扣除星星可兌換的一杯飲料；優惠不能重複套用到整筆帳單。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "collect stars（集點）",
+      "redeem（兌換）",
+      "drink（飲料）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -25169,11 +25199,11 @@
       "8 月 11 日是星期五，5:00 pm 在營業時段內，日曆當天也沒有活動衝突，因此可前往。",
       "8 月 1 日的 8:30 pm 已打烊；8 月 13 日是第二個星期日；8 月 28 日是星期一，均不合規定，所以選 B。"
     ],
-    "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
+    "teacherTip": "查日曆題要同時核對日期是星期幾、餐廳營業時段及休息日；只符合時間不代表當天有營業。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "opening hours（營業時間）",
+      "closed（休息／不營業）",
+      "the second Sunday（第二個星期日）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -25223,11 +25253,11 @@
       "題目問 WRONG way；A 要求送醫前餵食，直接違反不要餵食的指示，因此是錯誤做法。",
       "未受傷且羽毛少時，能到巢就放回、找不到巢就聯絡動物中心；已有羽毛則留在原處，B、C、D 都符合筆記。"
     ],
-    "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
+    "teacherTip": "幼鳥求助流程要先看是否受傷及羽毛狀態；即使要送醫也不可先餵食，別把照護常識想當然。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "out of its nest（離巢）",
+      "hurt（受傷的）",
+      "few feathers（羽毛很少）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -25277,11 +25307,11 @@
       "箭頭指向 WRONG! Birds don’t care!，表示親鳥不會在意幼鳥身上的人味，仍會照顧牠們。",
       "因此選 A。推離巢、清洗氣味或另築巢都不是筆記所說的反應。"
     ],
-    "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
+    "teacherTip": "題目問人類氣味時先辨識筆記中的 WRONG! 更正標記；常見迷思不等於作者支持的事實。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "smell（氣味／聞起來）",
+      "give up（放棄）",
+      "take care of（照顧）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -25331,11 +25361,11 @@
       "Stage 2 明列 Do not have refrigerators to keep food fresh，與選項 C「卡車上沒有冰箱保鮮」相符。",
       "A、B 描述圖表未列出的包裝或採收問題；D 也未出現在任何階段，所以選 C。"
     ],
-    "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
+    "teacherTip": "把浪費原因放回供應鏈階段定位；On the road 指運輸途中，不能把農場、工廠與商店的原因混在一起。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "refrigerator（冰箱）",
+      "keep food fresh（保持食物新鮮）",
+      "on the road（運輸途中）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -25379,17 +25409,17 @@
       "South & Southeast Asia has a higher percentage of food waste at Stage 4 than the other two areas."
     ],
     "answer": 3,
-    "explanation": "答案 D。比較圖表 Stage 4（At stores）：南亞與東南亞為 4.6%，高於北美與大洋洲的 2.4% 及歐洲的 2.2%。A 錯在三區最高比例不是都在 Stage 5；B 錯在歐洲 Stage 3 是 3.9%，並非最低；C 的 10.5% 低於歐洲 11.3%。",
+    "explanation": "答案 D。比較圖表 Stage 4（At stores）：南亞與東南亞為 4.6%，高於北美與大洋洲的 2.4% 及歐洲的 2.2%。A 錯在三區最高比例不是都在 Stage 5；B 把歐洲 Stage 3 的 3.9% 說成低於另外兩區，但北美與大洋洲為 3.4%、南亞與東南亞為 9.6%，所以不成立；C 的北美與大洋洲 Stage 1 為 10.5%，低於歐洲的 11.3%。",
     "solutionSteps": [
       "先定位 Stage 4（At stores）那一欄，讀出三區數值：北美與大洋洲 2.4%、歐洲 2.2%、南亞與東南亞 4.6%。",
       "比較 4.6% 與另外兩區的 2.4%、2.2%，南亞與東南亞確實較高，因此 D 正確。",
-      "A 不成立，因為南亞與東南亞最高的是 Stage 2；B 的歐洲 Stage 3 為 3.9%，高於另外兩區；C 的 10.5% 低於歐洲 Stage 1 的 11.3%。"
+      "A 不成立，因為南亞與東南亞最高的是 Stage 2；B 不成立，歐洲 Stage 3 的 3.9% 高於北美與大洋洲的 3.4%，但低於南亞與東南亞的 9.6%，不是低於另外兩區；C 的 10.5% 低於歐洲 Stage 1 的 11.3%。"
     ],
-    "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
+    "teacherTip": "比較跨區百分比時固定同一 Stage，再讀三個地區數值；不要把某區某階段最高誤當成全區趨勢。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "percentage（百分比）",
+      "at stores（在商店階段）",
+      "higher than（高於）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -25439,11 +25469,11 @@
       "文章接著說下落約 6 cm 後，蚊子會從雨滴滾開並飛走；這正是選項 B 的先後順序。",
       "A、C 沒有原文依據；D 說蚊子隨雨滴落地，與牠會先滾離並飛走相反。"
     ],
-    "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
+    "teacherTip": "蚊子逃雨滴的步驟有先後：受撞、隨雨滴下落、滾離、飛走；答案若漏掉脫離雨滴就不完整。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "raindrop（雨滴）",
+      "roll off（滾離）",
+      "fly off（飛離）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -25491,11 +25521,11 @@
       "因為蚊子很輕，雨滴撞擊時它承受的力不足以致命，所以選 A。",
       "體毛的作用是防水而非保護它免受撞擊；與雨滴一樣大不是安全原因，文章也說牠不靠力量抵抗雨滴。"
     ],
-    "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
+    "teacherTip": "蚊子不易被雨滴撞死的原因是質量極小、承受力有限；體毛在文中是防水線索，不是抗撞原因。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "light（輕的）",
+      "mass（質量）",
+      "force（力）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -25543,11 +25573,11 @@
       "若蚊子飛得太低，雨滴撞到牠後便沒有時間滾離並飛走，接著會撞上地面。",
       "所以危險情況是飛得太靠近地面，選 A；雨下得大、被撞很多次或下落超過 6 cm 都不是文中所說的條件。"
     ],
-    "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
+    "teacherTip": "危險情境由 if flies too low 指出；地面太近使蚊子沒有足夠距離滾離雨滴，勿把雨勢大小自行加成條件。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "too low（太低）",
+      "hit the ground（撞到地面）",
+      "fly off（飛離）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -25595,11 +25625,11 @@
       "三種說法都在解釋 Beethoven 寫這首曲子的對象或原因；文章明確說它們只是猜測。",
       "因此共同主題是 Beethoven 為何寫《For Elise》，選 D；文章沒有證實真正戀人，也不是在談演奏者或作品流行原因。"
     ],
-    "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
+    "teacherTip": "三個 Elise 故事都是『作品獻給誰』的不同猜測；題目問共同主題時，不要把任一猜測當成已證實的真相。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "dedicate a piece to（將作品獻給……）",
+      "composer（作曲家）",
+      "true love（真愛）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -25647,11 +25677,11 @@
       "1867 年比 Beethoven 去世晚 40 年，因此樂譜是在他死後才被發現，選 C。",
       "Fidelio 是 Röckel 唱過的歌劇，不是樂曲首次出現處；Elise 身分沒有定論，文章也沒說樂譜現藏於維也納市府。"
     ],
-    "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
+    "teacherTip": "手稿於 1867 年被發現是文中明確事實；『誰是 Elise』仍無定論，分清可知事實與作者保留的猜測。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "manuscript（手稿）",
+      "be found（被發現）",
+      "after someone's death（某人去世後）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -25699,11 +25729,11 @@
       "Malfatti 把手稿留給家人，後來他人抄寫時誤寫題獻；不是她自行改名。",
       "Barensfeld 是向 Malfatti 學琴，不是 Beethoven 的學生；三人也沒有都被朋友稱作 Elise，所以選 B。"
     ],
-    "teacherTip": "先把選項代回完整句子，再同時檢查文法與語意；只符合其中一項仍不能選。",
+    "teacherTip": "三位女性的經歷不可互換：Röckel 是 Beethoven 的朋友，Malfatti 是其愛慕對象，Barensfeld 是 Malfatti 的學生。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "close friend（親密朋友）",
+      "student（學生）",
+      "admire（仰慕）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -25753,9 +25783,9 @@
     ],
     "teacherTip": "main idea／mostly about 問全文主旨；不要只抓第一段的例子，要找能涵蓋全文的觀點。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "gender（性別）",
+      "gender stereotype（性別刻板印象）",
+      "toy choice（玩具選擇）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -25805,9 +25835,9 @@
     ],
     "teacherTip": "指示詞 this／that 要回看前文找明確先行內容；題目問 why 時，再找後文的因果或結果句。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "this／that（這／那；回指前文）",
+      "reason（理由）",
+      "result（結果）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -25857,9 +25887,9 @@
     ],
     "teacherTip": "看到 example，找能把抽象主張具體化的細節；不要把主張、例子和結果混為一談。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "example（例子）",
+      "specific example（具體例子）",
+      "illustrate（舉例說明）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -25909,9 +25939,9 @@
     ],
     "teacherTip": "mostly about = main idea。檢查全文各段共同主題；不要讓一個醒目的地名或事件（war reports、Yale、Homs）帶偏答案。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "reporter（記者）",
+      "career（職涯）",
+      "frontline（前線）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -25961,9 +25991,9 @@
     ],
     "teacherTip": "empathy = understand and share another person’s feelings；相近詞 sympathy 多指同情，compassion 指憐憫並關心。易錯：不要把理解感受誤選成拍照或替對方改變人生。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "empathy（理解並感受他人處境）",
+      "sympathy（同情）",
+      "compassion（憐憫並關懷）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -26013,9 +26043,9 @@
     ],
     "teacherTip": "Which is true 題要逐項核對人物、地點、時間與事件；once／after／when 等時間詞很容易改變敘述。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "report（報導）",
+      "be killed（遇害）",
+      "Middle East（中東）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -26065,9 +26095,9 @@
     ],
     "teacherTip": "不同地區對同一物品的 names／words 是地域詞彙差異；不要把運動鞋的例子誤判成運動規則或拼字。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "what things are called（物品如何稱呼）",
+      "sneakers（運動鞋；美式常用）",
+      "plimsolls（帆布膠底鞋；英式舊稱）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -26117,9 +26147,9 @@
     ],
     "teacherTip": "祖父、作者、女兒代表不同世代，線索指向 age／generation；不要只因句中有地名就選 where they grew up。",
     "relatedWords": [
-      "context clue（上下文線索）",
-      "eliminate（排除不合選項）",
-      "paraphrase（換句話說）"
+      "generation（世代）",
+      "age group（年齡層）",
+      "grow up（成長／長大）"
     ],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -26533,8 +26563,12 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "如圖 ( 三 )，梯形 ABCD 中，AD // BC。若 ∠ ADC = 140°，且 BD⊥CD， 則 ∠ DBC 的度數為何？",
-    "questionImage": "",
-    "imageAlt": "",
+    "questionImage": "./assets/official-exams/112-math-q08-trapezoid-angles.svg",
+    "imageAlt": "AD平行BC、角ADC為140度且BD垂直CD的梯形示意圖",
+    "requiresImage": true,
+    "questionImages": [
+      "./assets/official-exams/112-math-q08-trapezoid-angles.svg"
+    ],
     "options": [
       "30",
       "40",
@@ -26565,9 +26599,7 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：數學第8題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -27179,8 +27211,12 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "圖 ( 十二 ) 有一東西向的直線吊橋橫跨溪谷，小維、阿良分別從西橋頭、東橋頭同時開始 往吊橋的另一頭筆直地走過去， 如圖 ( 十二 ) 所示。 已知小維從西橋頭走了 84 步，阿良從東橋頭走了 60 步時，兩人在吊橋上的某點交會，且交會之後 阿良再走 70 步恰好走到西橋頭。若小維每步的距離相等，阿良每步的距離 相等，則交會之後小維再走多少步會恰好走到東橋頭？",
-    "questionImage": "",
-    "imageAlt": "",
+    "questionImage": "./assets/official-exams/112-math-q21-bridge-walkers.svg",
+    "imageAlt": "東西向吊橋，小維與阿良相遇位置及各自步數示意圖",
+    "requiresImage": true,
+    "questionImages": [
+      "./assets/official-exams/112-math-q21-bridge-walkers.svg"
+    ],
     "options": [
       "46",
       "50",
@@ -27211,9 +27247,7 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：數學第21題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -27431,8 +27465,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "近年來，在政府與民間的努力下，開發出米麵包、米蛋糕、米布丁、米鳳梨 酥、米冰淇淋等新米食。上述作法最可能達成下列何項效益？",
-    "questionImage": "./assets/official-exams/112-social-p2.webp",
-    "imageAlt": "112年國中教育會考社會科第1題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "降低稻米生產成本",
       "減少水稻耕作人力",
@@ -27479,8 +27513,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "交通部 公路總局為了滿足部分地區民眾就學、就醫及 洽公的需求，以及達成某項目的，推動「幸福巴士」 政策。圖(一)為2019年8月時設有營運路線的行政區分 布。根據上述及右圖資訊推論，該目的最可能為下列 何者？",
-    "questionImage": "./assets/official-exams/112-social-p2.webp",
-    "imageAlt": "112年國中教育會考社會科第2題官方試卷頁面",
+    "questionImage": "./assets/official-exams/112-social-q02-happiness-bus-map.svg",
+    "imageAlt": "112年社會科第2題幸福巴士營運路線圖",
     "options": [
       "串連北中南的工業園區",
       "降低高速公路的車流量",
@@ -27513,7 +27547,7 @@
     "requiresImage": true,
     "requiresContext": false,
     "questionImages": [
-      "./assets/official-exams/112-social-p2.webp"
+      "./assets/official-exams/112-social-q02-happiness-bus-map.svg"
     ],
     "answerKeyReview": {
       "status": "verified",
@@ -27529,8 +27563,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "格陵蘭島位處北極圈附近，某研究針對島上居民進行「氣候變遷對人類心理 影響」的抽樣調查，結果顯示大部分受訪者曾親身經歷全球暖化對生活帶來 的影響，氣候變遷正為北極地區居民帶來前所未有的壓力和焦慮。下列何者 最可能為當地居民擔憂的事情？",
-    "questionImage": "./assets/official-exams/112-social-p2.webp",
-    "imageAlt": "112年國中教育會考社會科第3題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "日益變薄的冰層讓雪橇通行變得危險",
       "冰河侵蝕日漸增強導致耕地面積減少",
@@ -27577,8 +27611,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "表(一)為中國不同年份的人口普查部分資料。觀察表中幼年人口比例的變動，下列何者最可能是造成2010到2020年微幅變化的原因之一？\n\n| 年齡組成 | 1953 | 1964 | 1982 | 1990 | 2000 | 2010 | 2020 |\n| 0–14歲 | 36.28% | 40.69% | 33.59% | 27.69% | 22.89% | 16.60% | 17.95% |\n| 15–64歲 | 59.31% | 55.75% | 61.50% | 66.74% | 70.15% | 74.53% | 68.55% |\n| 65歲以上 | 4.41% | 3.56% | 4.91% | 5.57% | 6.96% | 8.87% | 13.50% |",
-    "questionImage": "./assets/official-exams/112-social-p2.webp",
-    "imageAlt": "112年國中教育會考社會科第4題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "開放生育第二胎",
       "實施一胎化政策",
@@ -27625,8 +27659,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "清末一位知識分子提到：「今日多數的中國婦女終身只待在家中，不曾見過 什麼人、沒去過其他城市、身邊沒有學習的夥伴而孤陋寡聞，只能學一些無 關緊要的東西，而這些東西遠比不上有用的知識。這是因為現在還有毀壞人 體的風俗，這樣的風俗沒有廢除，新式的女子學校就無法設立。這項風俗延 續了數百年直到今日，是外國人眼中的笑柄。」上述「風俗」最可能是下列 何者？",
-    "questionImage": "./assets/official-exams/112-social-p3.webp",
-    "imageAlt": "112年國中教育會考社會科第5題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "自幼纏足",
       "吸食鴉片",
@@ -27673,8 +27707,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "表(二)為兩個雜誌社的成員，他們在某時期曾遭法院判刑入獄。隨著時局更迭，2019年政府公告撤銷原本的有罪判決，讓他們獲得平反。\n\n| 雜誌社 | 成員 |\n| 自由中國 | 雷震等人 |\n| 美麗島 | 黃信介等人 |\n\n表中人員當時被判刑，最可能與下列何者有關？",
-    "questionImage": "./assets/official-exams/112-social-p3.webp",
-    "imageAlt": "112年國中教育會考社會科第6題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "受威爾遜的影響，主張民族自決",
       "反對皇民化時期推動的統治措施",
@@ -27721,8 +27755,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "圖(二)是法國1750至2000年人民平均壽命 曲線圖。下列何者最能合理解釋圖中甲、 乙、丙、丁四個箭頭處，平均壽命變動的 主要原因？",
-    "questionImage": "./assets/official-exams/112-social-p3.webp",
-    "imageAlt": "112年國中教育會考社會科第7題官方試卷頁面",
+    "questionImage": "./assets/official-exams/112-social-q07-life-expectancy.svg",
+    "imageAlt": "112年社會科第7題法國平均壽命曲線圖",
     "options": [
       "宗教改革後，教派間對立引發流血衝突",
       "派遣移民前往殖民地，使國內人口減少",
@@ -27755,7 +27789,7 @@
     "requiresImage": true,
     "requiresContext": false,
     "questionImages": [
-      "./assets/official-exams/112-social-p3.webp"
+      "./assets/official-exams/112-social-q07-life-expectancy.svg"
     ],
     "answerKeyReview": {
       "status": "verified",
@@ -27819,8 +27853,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "我國國民在面對新冠肺炎疫情時，可透過接種疫苗來降低染疫風險，但逾期 停留或逾期居留的外國人卻無法接種疫苗，一旦染疫後，可能也無法得到適 當的醫療服務，甚至危及他們的生命安全，因此有民間團體呼籲政府應將這 些人納入公費疫苗施打對象。後來，政府基於防疫需求與風險控管，在國內 疫苗供應充足的情況下，以專案方式為這些人施打疫苗。上述民間團體的呼 籲隱含下列哪一觀點？",
-    "questionImage": "./assets/official-exams/112-social-p4.webp",
-    "imageAlt": "112年國中教育會考社會科第9題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "公民參政權應受到重視",
       "政府應得到人民定期授權",
@@ -27867,8 +27901,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "圖(三)為某島國周邊範圍的示意圖，甲 區塊為該國的土地，乙、丙區塊為環繞 在甲周圍的海域，而丁、戊、己區塊則 分別為甲、乙、丙所對應大氣層內的空 中領域。根據圖中內容判斷，該國完整 的領土範圍應為下列何者？（圖中「大氣層」指圍繞地球周圍的空氣。）",
-    "questionImage": "./assets/official-exams/112-social-p4.webp",
-    "imageAlt": "112年國中教育會考社會科第10題官方試卷頁面",
+    "questionImage": "./assets/official-exams/112-social-q10-territory.svg",
+    "imageAlt": "112年社會科第10題領土範圍示意圖",
     "options": [
       "甲、丁",
       "甲、乙、丁",
@@ -27901,7 +27935,7 @@
     "requiresImage": true,
     "requiresContext": false,
     "questionImages": [
-      "./assets/official-exams/112-social-p4.webp"
+      "./assets/official-exams/112-social-q10-territory.svg"
     ],
     "answerKeyReview": {
       "status": "verified",
@@ -27917,8 +27951,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "【題目材料】小強：同學在教室裡惡作劇把椅子拉開，害我跌倒手腳擦傷，我該怎麼要求賠償？\n\n網友回覆：\n小臻：這種事，找消費者保護官就對了！\n小康：若不想上法院，找調解就解決了！\n小芬：查一下家庭暴力防治法就知道了！\n小俊：向檢察官提出自訴即可解決！\n\n根據以上內容，何者的回答可以給小強適當的協助？",
-    "questionImage": "./assets/official-exams/112-social-p4.webp",
-    "imageAlt": "112年國中教育會考社會科第11題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "小臻",
       "小康",
@@ -27965,8 +27999,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "某日，小晴沒來上課，班上同學問老師後得知，她是太魯閣族原住民，今天放假與家人返回部落參與感恩祭。老師藉機說明她放假的法律依據。\n\n《紀念日及節日實施辦法》第4條規定：民俗節日除春節放假三日外，其餘均放假一日；原住民族歲時祭儀的放假日期，由行政院原住民族委員會參酌各該原住民族習俗公告，並刊登政府公報。\n\n主管機關將原住民族傳統祭儀納入法律規範，主要考量最可能為何？",
-    "questionImage": "./assets/official-exams/112-social-p4.webp",
-    "imageAlt": "112年國中教育會考社會科第12題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "落實部落自治，提升地方行政效率",
       "推動觀光發展，增加青年工作機會",
@@ -28013,8 +28047,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "棗椰樹屬於棕櫚科植物，主要分布在熱帶乾燥地區，其果實稱為椰棗，既可 作糧食，又是製糖的原料。全球有上億棵棗椰樹，其中前兩大分布區為西亞 和甲地區，椰棗也成為這些地區重要的出口農產品。上述甲地區最可能為下 列何者？",
-    "questionImage": "./assets/official-exams/112-social-p5.webp",
-    "imageAlt": "112年國中教育會考社會科第13題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "北非",
       "南歐",
@@ -28060,9 +28094,9 @@
     "knowledgePoint": "112年社會第14題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "唐代詩人孟浩然登上今湖北襄陽的峴山，見石碑碑文有感而作〈與諸子登峴山〉。詩句「水落魚梁淺」指山腳下的魚梁沙洲因水位下降而露出水面，作者藉此說明環境與世事的變化。形成「水落魚梁淺」現象的原因，何者最適切？",
-    "questionImage": "./assets/official-exams/112-social-p5.webp",
-    "imageAlt": "112年國中教育會考社會科第14題官方試卷頁面",
+    "question": "唐代詩人孟浩然登上今湖北襄陽的峴山，見石碑碑文有感而作〈與諸子登峴山〉。詩作全文：「人事有代謝，往來成古今。江山留勝跡，我輩復登臨。水落魚梁淺，天寒夢澤深。羊公碑尚在，讀罷淚沾襟。」詩句「水落魚梁淺」指山腳下的魚梁沙洲因水位下降而露出水面，作者藉此說明環境與世事的變化。形成「水落魚梁淺」現象的原因，何者最適切？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "沙洲上游融冰增加造成水位升降",
       "季節性降水差異產生的水位變化",
@@ -28109,8 +28143,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "圖(七)為跨太平洋夥伴全面 進步協定(CPTPP)的11個成 員國。該協定於2018年12月 30日生效，各成員國之間將 8 階段性的廢除關稅，以促進 1 貿易往來。此協定生效後， 2 5 9 3 下列何者最可能因關稅劣勢 而受到衝擊？",
-    "questionImage": "./assets/official-exams/112-social-p5.webp",
-    "imageAlt": "112年國中教育會考社會科第15題官方試卷頁面",
+    "questionImage": "./assets/official-exams/112-social-q15-cptpp-members.svg",
+    "imageAlt": "112年社會科第15題CPTPP成員國地圖",
     "options": [
       "臺灣的紡織品出口至越南",
       "加拿大的小麥出口至日本",
@@ -28143,7 +28177,7 @@
     "requiresImage": true,
     "requiresContext": false,
     "questionImages": [
-      "./assets/official-exams/112-social-p5.webp"
+      "./assets/official-exams/112-social-q15-cptpp-members.svg"
     ],
     "answerKeyReview": {
       "status": "verified",
@@ -28159,8 +28193,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "某地區於2017年入選為世界遺產，該地區涵蓋了森林、谷地、潟湖及珊瑚礁 等景觀，遺產的中心是玻里尼西亞普遍可見的毛利集會中心，此遺產是毛利 文化極具代表性的見證。根據上述描述判斷，該遺產最可能位於下列何處？",
-    "questionImage": "./assets/official-exams/112-social-p5.webp",
-    "imageAlt": "112年國中教育會考社會科第16題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "(11.88°N，2.49°E)",
       "(49.93°N，115.43°E)",
@@ -28207,8 +28241,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "《周成過臺灣》是著名的民間傳說，其時代背景符合史實。故事描述周成拋 下故鄉泉州的妻兒，獨自來臺經商。適逢淡水、雞籠開港通商，周成在大稻 埕從事新興商品出口而致富。後來周成移情別戀，謀殺了來臺灣探視的妻 子，最終受到報應而死。根據上述內容，周成最有可能從事下列何種商品的 貿易？",
-    "questionImage": "./assets/official-exams/112-social-p5.webp",
-    "imageAlt": "112年國中教育會考社會科第17題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "茶葉",
       "鹿皮",
@@ -28255,8 +28289,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "以下是某歷史人物在其著作中的相關內容：「我們可以假設人類在社會形成 以前，所有人都是平等的。然而人們為了解決集體生活所產生的問題，透過 公眾的協商形成公意，且將全部的權力，託付由公意組成的政府，因為能夠 代表公意的政府，是不受私念限制、必然公正的。政府依循公意制定法律、 建立秩序，人們只要守法、服從公意，就能得到真正的自由。」上述內容最 可能與下列何者有關？",
-    "questionImage": "./assets/official-exams/112-social-p6.webp",
-    "imageAlt": "112年國中教育會考社會科第18題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "盧梭關於主權在民的主張",
       "希特勒針對種族主義的論述",
@@ -28303,8 +28337,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "圖(八)是霞喀羅國家步道的介紹圖，其舊名為「霞喀羅、薩克亞金警備道路」。 此道路的開闢，是因為過去臺灣統治者為達到某一目的而下令修築。根據圖中 內容判斷，統治者最初開闢這條道路的目的，最可能與下列何者有關？ 圖(八)",
-    "questionImage": "./assets/official-exams/112-social-p6.webp",
-    "imageAlt": "112年國中教育會考社會科第19題官方試卷頁面",
+    "questionImage": "./assets/official-exams/112-social-q19-xiakaluo-trail.svg",
+    "imageAlt": "112年社會科第19題霞喀羅警備道路路線圖",
     "options": [
       "劃界封山的施行",
       "新式製糖的推動",
@@ -28337,7 +28371,7 @@
     "requiresImage": true,
     "requiresContext": false,
     "questionImages": [
-      "./assets/official-exams/112-social-p6.webp"
+      "./assets/official-exams/112-social-q19-xiakaluo-trail.svg"
     ],
     "answerKeyReview": {
       "status": "verified",
@@ -28353,8 +28387,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "「關於我的『政治主張』，因為和蔣委員長（此處指蔣中正）在意見上的衝突，已經沒有和解的 跡象。我考慮了三種方法來解決此事，第一是辭職、第二是勸諫、第三是兵 諫。第一個方法因為我的國難家仇，和東北軍部下們的反對而不可行。最近我 試了第二個方法，但導致蔣委員長極端憤怒。因此我決定採取第三個方法，以 武力拘禁蔣委員長。」上述「政治主張」最可能為下列何者？",
-    "questionImage": "./assets/official-exams/112-social-p6.webp",
-    "imageAlt": "112年國中教育會考社會科第20題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "立即停止內戰，聯合各黨派抗日",
       "反對洪憲帝制，起兵討伐袁世凱",
@@ -28401,8 +28435,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "雅加達自十七世紀以來一直是印尼的政治、經濟中心，不過由於人口過於集 中加上大量開發，對環境已產生過多負荷。近年來，雅加達的民眾飽受交通 壅塞、空氣汙染、地層下陷及水患之苦，因此印尼政府計畫將首都遷至婆羅 洲。但有生態專家提出警告，該處是紅毛猩猩的棲息地，遷都計畫所需的開 發過程必須謹慎評估，否則反而可能破壞環境，造成生態浩劫。上述討論內 容與下列何項議題最相符？",
-    "questionImage": "./assets/official-exams/112-social-p7.webp",
-    "imageAlt": "112年國中教育會考社會科第21題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "歷史古都的文化保存",
       "遷移首都的機會成本",
@@ -28449,8 +28483,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "國際刑警組織共有195個成員國，總部建有一個存放上百萬名國際刑事罪犯檔 案的資料庫供成員國使用。我國目前受限於一個中國原則，無法加入此國際 組織，因此未能分享或接收該組織的情報資訊，所以難以確認入境我國的旅 客在境外是否有犯罪紀錄，而從我國潛逃出境的犯罪者也較難被繩之以法。 上述內容顯示一個中國原則對我國產生下列哪一影響？",
-    "questionImage": "./assets/official-exams/112-social-p7.webp",
-    "imageAlt": "112年國中教育會考社會科第22題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "兩岸互信不足造成軍事衝突現象頻傳",
       "兩岸交流趨緩使得經濟貿易往來受阻",
@@ -28497,8 +28531,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "圖(九)呈現我國1998至2018年間， 收入最高20%家庭與收入最低20% 家庭的可支配所得成長率變化，其 中灰階區塊是曾發生經濟成長率大 幅衰退的兩段時間。根據圖中內容 判斷，上述兩個灰階區塊的數據， 呈現出下列哪一現象？；註：家庭可支配所得：家庭可以自由使用 於消費或儲蓄的所得。 圖(九)",
-    "questionImage": "./assets/official-exams/112-social-p7.webp",
-    "imageAlt": "112年國中教育會考社會科第23題官方試卷頁面",
+    "questionImage": "./assets/official-exams/112-social-q23-income-chart.svg",
+    "imageAlt": "112年社會科第23題：所得最高與最低20%家庭可支配所得成長率圖",
     "options": [
       "收入較高者的財富減損情況較嚴重",
       "收入較低者的生活面臨較嚴重衝擊",
@@ -28531,7 +28565,7 @@
     "requiresImage": true,
     "requiresContext": false,
     "questionImages": [
-      "./assets/official-exams/112-social-p7.webp"
+      "./assets/official-exams/112-social-q23-income-chart.svg"
     ],
     "answerKeyReview": {
       "status": "verified",
@@ -28547,8 +28581,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "甲在質詢行政院 衛生福利部部長時，指出某飲料製造商早已知道自家產品出 現變質問題，嚴重影響消費者權益，但該公司卻不主動回收處理，反而繼續 販售變質的產品，對於這種明知故犯的行為，政府應予以重罰。關於甲所擔 任的公職，下列敘述何者正確？",
-    "questionImage": "./assets/official-exams/112-social-p7.webp",
-    "imageAlt": "112年國中教育會考社會科第24題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "負責審查法律是否違憲",
       "負責審查中央政府預算",
@@ -28595,8 +28629,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "圖(十)為世界銀行繪製用來展現世界各 國經濟實力的示意圖，圖中矩形面積 的大小可呈現2011年該國經濟規模的大 小。圖中甲國最可能是下列何者？",
-    "questionImage": "./assets/official-exams/112-social-p8.webp",
-    "imageAlt": "112年國中教育會考社會科第25題官方試卷頁面",
+    "questionImage": "./assets/official-exams/112-social-q25-world-gdp.svg",
+    "imageAlt": "112年社會科第25題：2011年世界各國GDP矩形面積圖",
     "options": [
       "印度",
       "美國",
@@ -28629,7 +28663,7 @@
     "requiresImage": true,
     "requiresContext": false,
     "questionImages": [
-      "./assets/official-exams/112-social-p8.webp"
+      "./assets/official-exams/112-social-q25-world-gdp.svg"
     ],
     "answerKeyReview": {
       "status": "verified",
@@ -28645,8 +28679,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "圖(十一)為貫穿美洲的泛美 公路示意圖，主幹線北起美 國 阿拉斯加，南至智利。美 洲多國可透過這個公路系統 相互連結，但巴拿馬到哥倫 比亞之間的路段至今尚未修 建。根據圖中資訊判斷，該 路段未修建的原因之一最可 能為下列何者？",
-    "questionImage": "./assets/official-exams/112-social-p8.webp",
-    "imageAlt": "112年國中教育會考社會科第26題官方試卷頁面",
+    "questionImage": "./assets/official-exams/112-social-q26-pan-american-route.svg",
+    "imageAlt": "112年社會科第26題：泛美公路及巴拿馬—哥倫比亞未建路段地圖",
     "options": [
       "年溫差大施工困難",
       "保護熱帶雨林生態",
@@ -28679,7 +28713,7 @@
     "requiresImage": true,
     "requiresContext": false,
     "questionImages": [
-      "./assets/official-exams/112-social-p8.webp"
+      "./assets/official-exams/112-social-q26-pan-american-route.svg"
     ],
     "answerKeyReview": {
       "status": "verified",
@@ -28695,8 +28729,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "西班牙海外島嶼的某座火 山於2021年 9月噴發，圖 (十二) 為其噴發後熔岩流 及 火 山 灰 落 塵 分 布 的 狀 況。根據圖中資訊判斷， 下列推論何者較為合理？",
-    "questionImage": "./assets/official-exams/112-social-p8.webp",
-    "imageAlt": "112年國中教育會考社會科第27題官方試卷頁面",
+    "questionImage": "./assets/official-exams/112-social-q27-la-palma-eruption.svg",
+    "imageAlt": "112年社會科第27題：拉帕爾馬火山熔岩流、火山灰分布與比例尺",
     "options": [
       "當時的主要風向為西風",
       "該區域的地勢西高東低",
@@ -28729,7 +28763,7 @@
     "requiresImage": true,
     "requiresContext": false,
     "questionImages": [
-      "./assets/official-exams/112-social-p8.webp"
+      "./assets/official-exams/112-social-q27-la-palma-eruption.svg"
     ],
     "answerKeyReview": {
       "status": "verified",
@@ -28745,8 +28779,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "臺灣本島約介於22°N～25°N、120°E～122°E，降水空間分布受地形及季風影響而有顯著差異。表(三)為本島四個氣象測站資料，根據各測站位置及地形判斷，何者年降水量可能最多？\n\n| 測站 | 緯度 | 經度 | 高度（公尺） |\n| 甲 | 23.98°N | 121.61°E | 16.0 |\n| 乙 | 25.13°N | 121.74°E | 26.7 |\n| 丙 | 22.99°N | 120.20°E | 40.8 |\n| 丁 | 23.95°N | 120.59°E | 34.0 |",
-    "questionImage": "./assets/official-exams/112-social-p8.webp",
-    "imageAlt": "112年國中教育會考社會科第28題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "甲",
       "乙",
@@ -28793,8 +28827,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "「距今六千多年前，此地區的人們觀察到，大約每隔365天，天狼星在拂曉的 時候，和太陽同時位於東方的地平線上。因此他們定365天為一年，每年分為 12個月，每月30天，年末加上5天。這種遵循太陽週期的曆法，依自然現象將 一年分為『阿赫特』、『佩雷特』、『夏矛』三個季節，有別於同時期兩河流 域的月亮週期曆法。」根據這段材料，「此地區」的發明最可能與下列何者有關？",
-    "questionImage": "./assets/official-exams/112-social-p9.webp",
-    "imageAlt": "112年國中教育會考社會科第29題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "推算河川氾濫情形，掌握農業生產",
       "公民參與城邦事務，展現民主精神",
@@ -28841,8 +28875,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "某中共領導人接見日本國會議員時提到：「戰後日本很快就發達起來，這經 驗很值得中國學習。當然，別人的經驗照搬也不行，中國有中國的條件，日 本有日本的條件。我們不但要引進發達國家的資金和技術，充分利用各國的 好經驗，並且要把這種經驗與中國的實際情況結合起來。」上述談話最可能 與下列何者有關？",
-    "questionImage": "./assets/official-exams/112-social-p9.webp",
-    "imageAlt": "112年國中教育會考社會科第30題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "發起文化大革命，破除四舊",
       "推動農工大躍進，超英趕美",
@@ -28889,8 +28923,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "表(四)呈現甲國在兩次世界大戰中，於歐洲戰場開始參戰與結束參戰的原因。表中的「？」最適合填入何者？\n\n| 甲國在歐洲戰場的情形 | 第一次世界大戰 | 第二次世界大戰 |\n| 開始參戰的原因 | 支援「斯拉夫兄弟」 | 德國毀約攻打國土 |\n| 結束參戰的原因 | ？ | 德國投降 |",
-    "questionImage": "./assets/official-exams/112-social-p9.webp",
-    "imageAlt": "112年國中教育會考社會科第31題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "美國投下原子彈，敵國投降",
       "簽署《凡爾賽條約》，戰敗投降",
@@ -28920,11 +28954,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/112-social-p9.webp"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第31題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -28938,9 +28970,9 @@
     "knowledgePoint": "112年社會第32題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "西元前十ㄧ世紀周人滅商後，其勢力持續向東方擴展，由於周管轄的土地與人 口在短時間內急速增加，為了天下的長治久安，因此周朝的統治者，設計出一 套有效的政治制度管理各地。上述政治制度的內容，最可能是下列何者？",
-    "questionImage": "./assets/official-exams/112-social-p9.webp",
-    "imageAlt": "112年國中教育會考社會科第32題官方試卷頁面",
+    "question": "西元前十一世紀周人滅商後，其勢力持續向東方擴展，由於周管轄的土地與人 口在短時間內急速增加，為了天下的長治久安，因此周朝的統治者，設計出一 套有效的政治制度管理各地。上述政治制度的內容，最可能是下列何者？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "在領土內設置郡、縣，官員由國君直接任免",
       "實施科舉制度，促進社會各階層人才的流動",
@@ -28987,8 +29019,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "「某位君主為了統治上的考量，需要招募許多能夠書寫的人才。一開始在他的 國度中，竟然找不到太多有文化的人，這是因為西羅馬帝國滅亡後，城市生活 逐漸消失，文化知識也幾乎被遺忘殆盡。因此這位君主特地聘請知名學者，來 主持文化復興工作，諸如設立新學校、抄寫古羅馬的重要拉丁文著作，使拉丁 文成為各地共通的文字系統。」上述學者的身分，最可能是下列何者？",
-    "questionImage": "./assets/official-exams/112-social-p9.webp",
-    "imageAlt": "112年國中教育會考社會科第33題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "西元前五世紀的希臘哲學家",
       "西元八世紀的基督教教士",
@@ -29035,8 +29067,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "在探討一國國內不同地區醫療資源差異時，通常會先觀察醫師人數和病床 數，由相關數據與人口數的相對關係，可大致推論一個地區的醫療資源是否 不足。表(五)是某國2018年四個地區關於人口與醫療資源的資料： 表(五) 地 人口總數 老年人口 醫師人數 平均每位醫師 病床數 平均每張病床 區 (人) 比例(%) (人) 負擔人數(人) (張) 負擔人數(人) 甲 2,562,738 19.50 9,719 263.7 19,951 128.5 乙 2,272,459 13.26 3,824 594.3 11,988 189.6 丙 673,309 19.42 881 764.3 3,204 210.1 丁 322,836 17.95 820 393.7 4,073 79.3 根據表中資料判斷，關於甲、乙、丙、丁四個地區的醫療資源，下列何項推 論最適當？",
-    "questionImage": "./assets/official-exams/112-social-p10.webp",
-    "imageAlt": "112年國中教育會考社會科第34題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "老年人口最多的地區醫療資源最為不足",
       "人口總數最少的地區醫療資源最為不足",
@@ -29083,8 +29115,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "「飢餓行銷」是一種常見的行銷手法，指的是業者在短時間內利用各種管道 宣傳大批民眾排隊購買的熱潮，營造該項商品都會很快被搶購一空的情況， 透過媒體將商品炒作成為時下流行的話題，進而引起民眾的消費欲望。關於 上述行銷手法對於消費市場的影響，下列敘述何者最適當？",
-    "questionImage": "./assets/official-exams/112-social-p10.webp",
-    "imageAlt": "112年國中教育會考社會科第35題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "廠商間的競爭使消費者的選擇增加",
       "業者的行銷手法將提高市場競爭程度",
@@ -29131,8 +29163,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "若有人為了在選舉時讓支持的候選人當選，配合動員把戶籍遷移到非實際居 住的行政區，企圖影響選舉結果，此種行為可能觸犯《刑法》，檢察官將代 表國家主動起訴違法者。根據上述內容判斷，關於某位違法遷移戶籍者在接 受偵查、審判的過程中，下列何種情況最可能出現？",
-    "questionImage": "./assets/official-exams/112-social-p10.webp",
-    "imageAlt": "112年國中教育會考社會科第36題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "遭到落選者提起民事訴訟要求損害賠償",
       "在遭檢察官偵查的過程中度過18歲生日",
@@ -29140,13 +29172,13 @@
       "因為觸犯告訴乃論之罪而受到刑事處罰"
     ],
     "answer": 2,
-    "explanation": "答案 C。為影響選舉而遷入戶籍，可能涉及選舉法規對投票資格的居住期間要求；戶籍須在投票日前一定期間完成遷入，若在投票日前六個月遷移，可能符合題目所述的可疑情況。此罪由檢察官主動追訴，並非告訴乃論。",
+    "explanation": "答案 C。選舉資格除年滿 20 歲外，總統、副總統選舉須在該選舉區繼續居住滿 6 個月，其他公職選舉通常為 4 個月。題目中的人若在投票日前 6 個月遷入該區，可能符合總統、副總統選舉的設籍期間條件；若遷入地並非實際居住地，仍可能涉及違法遷籍，由檢察官依法偵辦。",
     "solutionSteps": [
-      "題幹已說檢察官代表國家主動起訴，表示此為非告訴乃論的刑事案件，D 不合。",
-      "遷移戶籍影響選舉人名冊，判斷關鍵在法定居住／設籍期間與投票日的間隔。",
-      "投票日前六個月遷入屬題目設定中最可能出現的情況，答案 C；其餘選項混淆民事求償或行為人年齡條件。"
+      "先分辨選舉種類的居住期間：總統、副總統選舉為 6 個月，其他公職選舉通常為 4 個月；投票權另須年滿 20 歲。",
+      "投票日前 6 個月遷入，可能達到總統、副總統選舉的設籍期間門檻；但若非實際居住而虛偽遷籍，仍可能被檢察官偵辦。",
+      "因此「被查出是在投票日的六個月前遷移戶籍」最符合題意，答案 C。假設年齡已達法定門檻，並非表示虛偽遷籍本身合法。"
     ],
-    "teacherTip": "選舉與刑事程序題要分清民刑事、告訴乃論與公訴，並以題目要求的法定期間作判斷。",
+    "teacherTip": "設籍期間依選舉種類不同：總統、副總統選舉 6 個月，其他公職通常 4 個月；期間達標不會讓虛偽遷籍合法化。",
     "relatedWords": [],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -29179,8 +29211,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "臺灣少子女化危機惡化的速度超乎想像，面對人口負成長的人口懸崖，有學 者認為政府過往提出的相關政策已是緩不濟急，或許可以透過社會增加的方 向，思考提高國民人數的對策。根據上述內容判斷，下列何項對策與該學者 的意見最相符？",
-    "questionImage": "./assets/official-exams/112-social-p10.webp",
-    "imageAlt": "112年國中教育會考社會科第37題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "提高外籍移工僱用人數",
       "鼓勵各國人才歸化入籍",
@@ -29227,8 +29259,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "表(六)為某作家的三部長篇小說內容簡介，該作家藉此構築十九至二十世紀臺灣歷史發展過程。根據表中內容判斷，三部小說呈現的時代先後順序最可能為何？\n\n| 著作 | 內容簡介 |\n| 甲 | 描寫多位臺灣青年在南洋戰場上遭戰爭折磨，精神崩潰甚至喪生的命運。 |\n| 乙 | 敘述客家族群在臺灣中部山區生產樟腦，為保衛家園參與武裝抗日。 |\n| 丙 | 描繪臺灣人藉文化協會、農民運動抵抗殖民統治。 |",
-    "questionImage": "./assets/official-exams/112-social-p11.webp",
-    "imageAlt": "112年國中教育會考社會科第38題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "乙→甲→丙",
       "丙→乙→甲",
@@ -29275,8 +29307,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "明清時期，蠶絲業是中國江南地區的重要產業。當時生絲主要供應國內需求，部分對外出口。下列哪一組數據最可能反映1830年代生絲出口情況？（單位：擔）",
-    "questionImage": "./assets/official-exams/112-social-p11.webp",
-    "imageAlt": "112年國中教育會考社會科第39題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "A：廣州9,998；上海0",
       "B：廣州5,430；上海5,146",
@@ -29324,8 +29356,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "表(七)呈現甲、乙兩國匯率變動。去年1單位甲幣可兌換10單位乙幣，今年1單位甲幣可兌換20單位乙幣。若其他條件不變，且所有成本完全反映在商品售價上，相較於去年，今年甲、乙兩國市場最可能出現何種情形？",
-    "questionImage": "./assets/official-exams/112-social-p11.webp",
-    "imageAlt": "112年國中教育會考社會科第40題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "甲國商品在乙國的銷售量下滑",
       "乙國商品在甲國的銷售量下滑",
@@ -29372,8 +29404,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "圖(十三)是一座歷史建築，根據圖中內 容判斷，該建築最可能興建於下列何時 何地？",
-    "questionImage": "./assets/official-exams/112-social-p11.webp",
-    "imageAlt": "112年國中教育會考社會科第41題官方試卷頁面",
+    "questionImage": "./assets/official-exams/112-social-q41-mughal-palace.svg",
+    "imageAlt": "112年社會科第41題：印度莫臥兒王朝宮殿照片與原卷圖說",
     "options": [
       "西元前六世紀的波斯地區",
       "西元六世紀的阿拉伯半島",
@@ -29406,7 +29438,7 @@
     "requiresImage": true,
     "requiresContext": false,
     "questionImages": [
-      "./assets/official-exams/112-social-p11.webp"
+      "./assets/official-exams/112-social-q41-mughal-palace.svg"
     ],
     "answerKeyReview": {
       "status": "verified",
@@ -29422,8 +29454,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "為維護消費者權益，政府制定法律對市場上供應不實有機農產品的業者處以 罰鍰，同時也能保障生產真正有機農產品農民的權益。上述主管機關對不實 業者的處罰，與下列何者受到的處罰類型相同？",
-    "questionImage": "./assets/official-exams/112-social-p12.webp",
-    "imageAlt": "112年國中教育會考社會科第42題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "小華拒絕歸還向同事借的相機",
       "大明竊取隔壁鄰居家中的財物",
@@ -29470,8 +29502,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "甲國女性就業率長期大幅低於全國平均，政府調查女性勞動人口未就業原因，表(八)為部分統計資料。資料顯示，何者解讀最適當？（單位：%）\n\n| 年齡 | 照顧未滿12歲子女 | 照顧65歲以上家屬 | 負責家務 | 健康狀況不佳 | 其他 |\n| 30–34 | 65.37 | 0.89 | 11.43 | 2.98 | 19.33 |\n| 35–39 | 55.35 | 2.60 | 21.39 | 4.26 | 16.40 |\n| 40–44 | 35.36 | 5.16 | 39.70 | 7.15 | 12.63 |\n| 45–49 | 7.05 | 8.10 | 58.04 | 5.50 | 21.31 |\n| 50–54 | 0.53 | 7.58 | 56.69 | 4.69 | 30.51 |",
-    "questionImage": "./assets/official-exams/112-social-p12.webp",
-    "imageAlt": "112年國中教育會考社會科第43題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "老年人口比例呈現上升趨勢",
       "家庭職能因社會變遷而弱化",
@@ -29518,8 +29550,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "【閱讀材料】歷史上琉球王國與中國關係密切，數百年的交流使琉球文化在飲食、語言、風俗甚至武術方面都受到中國影響。十九世紀前期，琉球武術家佐久川寬賀數度隨使節團前往中國，拜訪大師精進武藝，並將中國拳法融入傳統武術，形成「唐手」，他也被琉球人尊稱為「唐手佐久川」。之後唐手受到琉球士族重視，成為士族間格鬥武術。十九世紀末琉球政治局勢改變，琉球王國遭日本併吞，士族被迫前往新統治者的都城居住，唐手也傳入日本。經過發展，唐手改以同音異字稱為「空手」，即今日的空手道，後來在世界各地普及。\n\n【題目】上文中「唐手佐久川」與王國使節團得以前往中國，最可能與當時中國何項外交政策有關？",
-    "questionImage": "./assets/official-exams/112-social-p12.webp",
-    "imageAlt": "112年國中教育會考社會科第44題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "聯合西域部族對抗外患",
       "簽訂條約，開放五口通商",
@@ -29566,8 +29598,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "【閱讀材料】歷史上琉球王國與中國關係密切，數百年的交流使琉球文化在飲食、語言、風俗甚至武術方面都受到中國影響。十九世紀前期，琉球武術家佐久川寬賀數度隨使節團前往中國，拜訪大師精進武藝，並將中國拳法融入傳統武術，形成「唐手」，他也被琉球人尊稱為「唐手佐久川」。之後唐手受到琉球士族重視，成為士族間格鬥武術。十九世紀末琉球政治局勢改變，琉球王國遭日本併吞，士族被迫前往新統治者的都城居住，唐手也傳入日本。經過發展，唐手改以同音異字稱為「空手」，即今日的空手道，後來在世界各地普及。\n\n【題目】上文提及「政治局勢發生變化」，造成「唐手」向外傳播，此一變化最可能是指下列何者？",
-    "questionImage": "./assets/official-exams/112-social-p12.webp",
-    "imageAlt": "112年國中教育會考社會科第45題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "中國因甲午戰爭失敗割讓領土",
       "天皇積極效法唐朝推展新制度",
@@ -29614,8 +29646,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "【閱讀材料】日本富士山是近似圓錐狀的火山，有四條主要登山路線，開放時間大致為每年7月上旬至9月上旬。路線特色不同，但皆一路向上；民眾可依體力與經驗選擇坡度較緩或較陡的路線，並先搭巴士等交通工具至登山口，再步行登頂。小婷登山經驗豐富，計畫挑戰平均坡度最陡的路線。\n\n| 路線資料 | 甲 | 乙 | 丙 | 丁 |\n| 起點海拔（公尺） | 2,305 | 1,970 | 1,440 | 2,380 |\n| 終點海拔（公尺） | 3,720 | 3,720 | 3,715 | 3,715 |\n| 上山路線長度（公里） | 7.5 | 7.8 | 11.0 | 5.0 |\n| 平均坡度（%） | 18.9 | 22.4 | 20.7 | 26.7 |\n\n平均坡度＝（終點海拔－起點海拔）÷路線長度×100%。\n\n【題目】上文中登山步道開放的起始時間，主要是因為此時已具備下列何項條件？",
-    "questionImage": "./assets/official-exams/112-social-p13.webp",
-    "imageAlt": "112年國中教育會考社會科第46題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "地質穩定且地震較少",
       "山上的積雪大多已融化",
@@ -29662,8 +29694,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "【閱讀材料】日本富士山是近似圓錐狀的火山，有四條主要登山路線，開放時間大致為每年7月上旬至9月上旬。路線特色不同，但皆一路向上；民眾可依體力與經驗選擇坡度較緩或較陡的路線，並先搭巴士等交通工具至登山口，再步行登頂。小婷登山經驗豐富，計畫挑戰平均坡度最陡的路線。\n\n| 路線資料 | 甲 | 乙 | 丙 | 丁 |\n| 起點海拔（公尺） | 2,305 | 1,970 | 1,440 | 2,380 |\n| 終點海拔（公尺） | 3,720 | 3,720 | 3,715 | 3,715 |\n| 上山路線長度（公里） | 7.5 | 7.8 | 11.0 | 5.0 |\n| 平均坡度（%） | 18.9 | 22.4 | 20.7 | 26.7 |\n\n平均坡度＝（終點海拔－起點海拔）÷路線長度×100%。\n\n【題目】圖(十四)為其中一條登山路線，依據圖中資訊判斷，最可能為表(九)中的何者？",
-    "questionImage": "./assets/official-exams/112-social-p13.webp",
-    "imageAlt": "112年國中教育會考社會科第47題官方試卷頁面",
+    "questionImage": "./assets/official-exams/112-social-q47-fuji-contour-map.svg?v=7.5.176",
+    "imageAlt": "112年社會科第47題：富士山登山路線等高線圖、起終點與比例尺",
     "options": [
       "甲",
       "乙",
@@ -29696,7 +29728,7 @@
     "requiresImage": true,
     "requiresContext": false,
     "questionImages": [
-      "./assets/official-exams/112-social-p13.webp"
+      "./assets/official-exams/112-social-q47-fuji-contour-map.svg?v=7.5.176"
     ],
     "answerKeyReview": {
       "status": "verified",
@@ -29712,8 +29744,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "【閱讀材料】日本富士山是近似圓錐狀的火山，有四條主要登山路線，開放時間大致為每年7月上旬至9月上旬。路線特色不同，但皆一路向上；民眾可依體力與經驗選擇坡度較緩或較陡的路線，並先搭巴士等交通工具至登山口，再步行登頂。小婷登山經驗豐富，計畫挑戰平均坡度最陡的路線。\n\n| 路線資料 | 甲 | 乙 | 丙 | 丁 |\n| 起點海拔（公尺） | 2,305 | 1,970 | 1,440 | 2,380 |\n| 終點海拔（公尺） | 3,720 | 3,720 | 3,715 | 3,715 |\n| 上山路線長度（公里） | 7.5 | 7.8 | 11.0 | 5.0 |\n| 平均坡度（%） | 18.9 | 22.4 | 20.7 | 26.7 |\n\n平均坡度＝（終點海拔－起點海拔）÷路線長度×100%。\n\n【題目】根據表(九)資訊，小婷與體力、經驗較為不足的民眾，選擇的路線分別為何？",
-    "questionImage": "./assets/official-exams/112-social-p13.webp",
-    "imageAlt": "112年國中教育會考社會科第48題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "小婷選甲；體力、經驗較為不足的民眾選丁",
       "小婷選乙；體力、經驗較為不足的民眾選丙",
@@ -29753,15 +29785,17 @@
   },
   {
     "id": "OFF-0605",
+    "questionImage": "",
+    "imageAlt": "",
+    "requiresImage": false,
+    "questionImages": [],
     "subject": "社會",
     "gradeSemester": "會考總複習",
     "unit": "歷屆會考",
     "knowledgePoint": "112年社會第49題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【閱讀材料】開普敦位於非洲最南端，是影響世界歷史的重要都市。荷蘭人於1652年來到此地，因氣候適合種植歐洲常見蔬果及釀製葡萄酒，以補充船隻飲食，逐步將此地建成海上貿易補給站。當地好望堡是統治者辦公地點，由奴隸建造；部分奴隸由荷蘭在亞洲的殖民地擄來。1869年蘇伊士運河開通後，許多歐洲船隻改走新航線，開普敦逐漸沒落。今日開普敦以多元文化與豐富生態成為熱門觀光景點。圖(十五)所示城市座標約為18.42°E、33.92°S。\n\n【題目】根據上文及圖(十五)資訊判斷，上述都市的氣候特色為何？",
-    "questionImage": "./assets/official-exams/112-social-p14.webp",
-    "imageAlt": "112年國中教育會考社會科第49題官方試卷頁面",
+    "question": "【閱讀材料】開普敦位於非洲最南端，是影響世界歷史的重要都市。荷蘭人於1652年來到此地，因氣候適合種植歐洲常見蔬果及釀製葡萄酒，以補充船隻飲食，逐步將此地建成海上貿易補給站。當地好望堡是統治者辦公地點，由奴隸建造；部分奴隸由荷蘭在亞洲的殖民地擄來。1869年蘇伊士運河開通後，許多歐洲船隻改走新航線，開普敦逐漸沒落。今日開普敦以多元文化與豐富生態成為熱門觀光景點。開普敦座標約為18.42°E、33.92°S。\n\n【題目】根據上文及提供的座標資訊判斷，上述都市的氣候特色為何？",
     "options": [
       "一月寒冷且年溫差大",
       "一月溫暖且雨量較少",
@@ -29791,9 +29825,7 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第49題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -29801,15 +29833,17 @@
   },
   {
     "id": "OFF-0606",
+    "questionImage": "",
+    "imageAlt": "",
+    "requiresImage": false,
+    "questionImages": [],
     "subject": "社會",
     "gradeSemester": "會考總複習",
     "unit": "歷屆會考",
     "knowledgePoint": "112年社會第50題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【閱讀材料】開普敦位於非洲最南端，是影響世界歷史的重要都市。荷蘭人於1652年來到此地，因氣候適合種植歐洲常見蔬果及釀製葡萄酒，以補充船隻飲食，逐步將此地建成海上貿易補給站。當地好望堡是統治者辦公地點，由奴隸建造；部分奴隸由荷蘭在亞洲的殖民地擄來。1869年蘇伊士運河開通後，許多歐洲船隻改走新航線，開普敦逐漸沒落。今日開普敦以多元文化與豐富生態成為熱門觀光景點。圖(十五)所示城市座標約為18.42°E、33.92°S。\n\n【題目】文中提及奴隸的輸出地最可能包含下列何者？",
-    "questionImage": "./assets/official-exams/112-social-p14.webp",
-    "imageAlt": "112年國中教育會考社會科第50題官方試卷頁面",
+    "question": "【閱讀材料】開普敦位於非洲最南端，是影響世界歷史的重要都市。荷蘭人於1652年來到此地，因氣候適合種植歐洲常見蔬果及釀製葡萄酒，以補充船隻飲食，逐步將此地建成海上貿易補給站。當地好望堡是統治者辦公地點，由奴隸建造；部分奴隸由荷蘭在亞洲的殖民地擄來。1869年蘇伊士運河開通後，許多歐洲船隻改走新航線，開普敦逐漸沒落。今日開普敦以多元文化與豐富生態成為熱門觀光景點。開普敦座標約為18.42°E、33.92°S。\n\n【題目】文中提及奴隸的輸出地最可能包含下列何者？",
     "options": [
       "南洋群島",
       "朝鮮半島",
@@ -29839,9 +29873,7 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第50題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -29849,15 +29881,17 @@
   },
   {
     "id": "OFF-0607",
+    "questionImage": "",
+    "imageAlt": "",
+    "requiresImage": false,
+    "questionImages": [],
     "subject": "社會",
     "gradeSemester": "會考總複習",
     "unit": "歷屆會考",
     "knowledgePoint": "112年社會第51題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【閱讀材料】開普敦位於非洲最南端，是影響世界歷史的重要都市。荷蘭人於1652年來到此地，因氣候適合種植歐洲常見蔬果及釀製葡萄酒，以補充船隻飲食，逐步將此地建成海上貿易補給站。當地好望堡是統治者辦公地點，由奴隸建造；部分奴隸由荷蘭在亞洲的殖民地擄來。1869年蘇伊士運河開通後，許多歐洲船隻改走新航線，開普敦逐漸沒落。今日開普敦以多元文化與豐富生態成為熱門觀光景點。圖(十五)所示城市座標約為18.42°E、33.92°S。\n\n【題目】文中提到船隻改走新的通航路線，是因此航路具備下列哪一優勢？",
-    "questionImage": "./assets/official-exams/112-social-p14.webp",
-    "imageAlt": "112年國中教育會考社會科第51題官方試卷頁面",
+    "question": "【閱讀材料】開普敦位於非洲最南端，是影響世界歷史的重要都市。荷蘭人於1652年來到此地，因氣候適合種植歐洲常見蔬果及釀製葡萄酒，以補充船隻飲食，逐步將此地建成海上貿易補給站。當地好望堡是統治者辦公地點，由奴隸建造；部分奴隸由荷蘭在亞洲的殖民地擄來。1869年蘇伊士運河開通後，許多歐洲船隻改走新航線，開普敦逐漸沒落。今日開普敦以多元文化與豐富生態成為熱門觀光景點。開普敦座標約為18.42°E、33.92°S。\n\n【題目】文中提到船隻改走新的通航路線，是因此航路具備下列哪一優勢？",
     "options": [
       "大幅縮短至印度洋周邊的航行路程",
       "可避免通過滿布浮冰的大西洋海域",
@@ -29887,9 +29921,7 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：社會第51題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -29904,8 +29936,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "【閱讀材料】美國反體罰組織於1998年發起「不打小孩日」，宣傳體罰與兒童人權議題。活動最先在美國推動，後獲國際社會響應；2001年起，其他反體罰及兒童人權團體也在4月30日舉辦活動，倡議終止體罰並推廣正向管教。2006年，臺灣民間團體響應「國際不打小孩日」，舉辦相關活動。當時宣傳標語寫道：「邀請你試著看不要打小孩，至少在這一天不要打；也許你會發現，將來的每一天你都不要打。」\n\n我國政府也以符合聯合國標準為目標，修訂《兒童及少年福利與權益保障法》，促使政府、社會大眾與家長正視兒童福利及虐待問題；並修訂《教育基本法》，明文禁止校園體罰，以保障兒童受教權。這些作法旨在預防並保護兒童免於各種暴力侵害，提供更完善的成長環境。\n\n【題目】關於文中活動理念對臺灣帶來影響的過程，最適合以下列何者說明？",
-    "questionImage": "./assets/official-exams/112-social-p15.webp",
-    "imageAlt": "112年國中教育會考社會科第52題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "法律修改程序的變化",
       "科技發展帶來的衝擊",
@@ -29952,8 +29984,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "【閱讀材料】美國反體罰組織於1998年發起「不打小孩日」，宣傳體罰與兒童人權議題。活動最先在美國推動，後獲國際社會響應；2001年起，其他反體罰及兒童人權團體也在4月30日舉辦活動，倡議終止體罰並推廣正向管教。2006年，臺灣民間團體響應「國際不打小孩日」，舉辦相關活動。當時宣傳標語寫道：「邀請你試著看不要打小孩，至少在這一天不要打；也許你會發現，將來的每一天你都不要打。」\n\n我國政府也以符合聯合國標準為目標，修訂《兒童及少年福利與權益保障法》，促使政府、社會大眾與家長正視兒童福利及虐待問題；並修訂《教育基本法》，明文禁止校園體罰，以保障兒童受教權。這些作法旨在預防並保護兒童免於各種暴力侵害，提供更完善的成長環境。\n\n【題目】根據宣傳標語判斷，其呈現的意義最適當為何？",
-    "questionImage": "./assets/official-exams/112-social-p15.webp",
-    "imageAlt": "112年國中教育會考社會科第53題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "主張對實施體罰者提起訴訟加以處罰",
       "藉由改變家長價值觀來帶動社會變遷",
@@ -30000,8 +30032,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "【閱讀材料】美國反體罰組織於1998年發起「不打小孩日」，宣傳體罰與兒童人權議題。活動最先在美國推動，後獲國際社會響應；2001年起，其他反體罰及兒童人權團體也在4月30日舉辦活動，倡議終止體罰並推廣正向管教。2006年，臺灣民間團體響應「國際不打小孩日」，舉辦相關活動。當時宣傳標語寫道：「邀請你試著看不要打小孩，至少在這一天不要打；也許你會發現，將來的每一天你都不要打。」\n\n我國政府也以符合聯合國標準為目標，修訂《兒童及少年福利與權益保障法》，促使政府、社會大眾與家長正視兒童福利及虐待問題；並修訂《教育基本法》，明文禁止校園體罰，以保障兒童受教權。這些作法旨在預防並保護兒童免於各種暴力侵害，提供更完善的成長環境。\n\n【題目】關於文末提及我國的兩項法規，下列敘述何者最適當？",
-    "questionImage": "./assets/official-exams/112-social-p15.webp",
-    "imageAlt": "112年國中教育會考社會科第54題官方試卷頁面",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "以法律位階而言，前者具有最高性",
       "以法律位階而言，後者具有固定性",
@@ -30479,15 +30511,17 @@
   },
   {
     "id": "OFF-0620",
+    "questionImage": "",
+    "imageAlt": "",
+    "requiresImage": false,
+    "questionImages": [],
     "subject": "自然",
     "gradeSemester": "會考總複習",
     "unit": "歷屆會考",
     "knowledgePoint": "112年自然第10題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "圖(五)為網友分享的海蝕平臺與火成岩脈 照片，有研究指出此地的火成岩脈是 岩漿侵入原有的岩層而形成，由於火成 岩脈抵抗海水侵蝕的能力較原有的岩層 強，因此會像牆一樣，立於海蝕平臺 之上。根據上述說明，下列有關此地的 火成岩脈、平臺上原有的岩層以及海水 侵蝕作用的發生先後順序，何者最合 理？ 圖(五)",
-    "questionImage": "",
-    "imageAlt": "",
+    "question": "某海蝕平臺上可見火成岩脈突出如牆。研究指出，岩脈是岩漿侵入原有岩層後形成，且岩脈抵抗海水侵蝕的能力較原有岩層強，因此周圍岩層受侵蝕後岩脈留在平臺上。根據上述說明，火成岩脈、平臺上原有岩層及海水侵蝕作用的發生先後順序，何者最合理？",
     "options": [
       "火成岩脈最先形成，岩層再沉積，最後海水侵蝕",
       "岩層最先沉積，火成岩脈再形成，最後海水侵蝕",
@@ -30517,9 +30551,7 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：自然第10題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -30723,15 +30755,17 @@
   },
   {
     "id": "OFF-0625",
+    "questionImage": "",
+    "imageAlt": "",
+    "requiresImage": false,
+    "questionImages": [],
     "subject": "自然",
     "gradeSemester": "會考總複習",
     "unit": "歷屆會考",
     "knowledgePoint": "112年自然第15題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "阿正閱讀一篇報導寫著：日本學者分析史前人類遺骸後，認為當時住在沖繩的史前人類很可能來自於臺灣，研究團隊為了驗證從臺灣航海遷徙的可能性，於 2019 年進行實驗。如圖(七)所示，阿正認為研究團隊會選在夏天進行實驗，是因為這時的洋流與季風風向有助於從臺灣航海向北至沖繩列島，進而到達日本列島。根據阿正的判斷，研究團隊進行實驗時的季風風向與洋流應為下列何者？",
-    "questionImage": null,
-    "imageAlt": "",
+    "question": "日本學者分析史前人類遺骸後，認為沖繩史前人類可能來自臺灣。研究團隊為驗證從臺灣航海遷徙的可能性，於 2019 年夏季進行實驗，規劃由臺灣向北航行至沖繩列島，再前往日本列島。若考慮季風與洋流對航行的影響，當時最可能利用下列哪一組季風風向與洋流？",
     "options": [
       "東北季風與黑潮",
       "西南季風與黑潮",
@@ -30761,9 +30795,7 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：自然第15題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -31135,13 +31167,13 @@
       "乙受力時間較長，且 F甲 < F乙"
     ],
     "answer": 2,
-    "explanation": "答案是 C。速度—時間圖中甲的速度在 0–20 s 由 0 增至 30 m/s，之後維持定值；乙在 10–40 s 由 0 增至 20 m/s，之後維持定值。因此甲受外力 20 s、乙受外力 30 s，乙較久。斜率代表加速度：甲為 30/20=1.5 m/s²，乙為 20/30≈0.67 m/s²；兩物體質量相同，依 F=ma，甲所受外力較大。",
+    "explanation": "答案是 C。速度—時間圖中甲的速度在 0–20 s 由 0 增至 30 m/s；乙在 10–40 s 由 0 增至 20 m/s，因此乙受外力 30 s，甲受力 20 s。斜率代表加速度：甲為 30/20=1.5 m/s²，乙為 20/30≈0.67 m/s²；兩物體質量相同，依 F=ma，甲所受外力較大。",
     "solutionSteps": [
-      "從速度維持定值的轉折點讀出施力時間：甲由 0 到 20 s 共 20 s；乙由 10 到 40 s 共 30 s。",
+    "從速度改變的斜線區間讀施力時間：甲 0–20 s 共 20 s；乙由 10 到 40 s 共 30 s。",
       "比較斜率求加速度：甲 30/20=1.5 m/s²；乙 20/(40−10)≈0.67 m/s²。",
-      "質量相同，甲加速度較大代表 F甲>F乙；與乙施力時間較長合併，選 C。"
+      "質量相同，甲加速度較大代表 F甲>F乙；乙施力時間較長，選 C。"
     ],
-    "teacherTip": "v–t 圖斜率是加速度；水平線表示合力為零，不是物體停止。",
+    "teacherTip": "v–t 圖斜率是加速度；水平線表示速度不變、合力為零，不是物體停止。",
     "relatedWords": [],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -31169,6 +31201,12 @@
   },
   {
     "id": "OFF-0634",
+    "questionImage": "./assets/official-exams/112-science-q24-membrane-test.svg",
+    "imageAlt": "葡萄糖液試管以半透膜封口後倒置於澱粉液燒杯的實驗裝置",
+    "requiresImage": true,
+    "questionImages": [
+      "./assets/official-exams/112-science-q24-membrane-test.svg"
+    ],
     "subject": "自然",
     "gradeSemester": "會考總複習",
     "unit": "歷屆會考",
@@ -31176,8 +31214,6 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "圖(十三)為物質進出膜的實驗裝置，先在試管中裝入 葡萄糖液，並將試管口用一層膜密封，再倒置於裝有 澱粉液的燒杯中。已知葡萄糖能通過此膜，但澱粉不 能通過此膜，若靜置一段時間平衡後，分別取出溶液 以試劑進行檢測，則出現下列何現象最合理？",
-    "questionImage": null,
-    "imageAlt": "",
     "options": [
       "以碘液檢測，僅試管中的溶液變色",
       "以碘液檢測，試管和燒杯中的溶液皆變色",
@@ -31207,9 +31243,7 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：自然第24題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -31273,7 +31307,7 @@
     "knowledgePoint": "112年自然第26題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "砒霜是一種毒物，主成分為三氧化二砷(As O)。古代製作砒霜的技術較不成 2 3 熟，砒霜中會含有少量的不純物質――硫或硫化物，硫或硫化物接觸到銀， 會使銀氧化產生黑色的硫化銀(Ag S)，這就是古裝劇中常見的以銀針試毒， 2 銀針變黑即表示有毒。依據上述，下列推論何者最合理？",
+    "question": "砒霜是一種毒物，主成分為三氧化二砷（As₂O₃）。古代製作砒霜的技術較不成熟，砒霜中會含有少量的不純物質——硫或硫化物；硫或硫化物接觸到銀，會使銀氧化並產生黑色的硫化銀（Ag₂S），這就是古裝劇中常見的以銀針試毒，銀針變黑即表示有毒。依據上述，下列推論何者最合理？",
     "questionImage": null,
     "imageAlt": "",
     "options": [
@@ -31283,13 +31317,13 @@
       "將銀針改成活性較小的金屬如黃金，也會反應產生硫化物"
     ],
     "answer": 0,
-    "explanation": "答案是 A。硫或硫化物與銀形成黑色 Ag₂S 時，銀失去電子成為 Ag⁺，被氧化；硫得到電子形成硫化物離子，發生還原，因此硫化物是氧化劑。砒霜的主成分 As₂O₃ 並非使銀針變黑的成分；越純的砒霜含硫雜質越少，反應不會更明顯；不活潑的金也不會像銀一樣反應。",
+    "explanation": "答案為 A『硫化物發生還原反應而使銀針變黑』（依官方答案索引；嚴格而言，僅在硫指元素硫時成立）。按題目預期的元素硫反應理解，硫由單質 S⁰ 得電子形成 Ag₂S 中的 S²⁻，因此硫被還原；銀由 Ag⁰ 變成 Ag⁺，被氧化。As₂O₃ 本身不是使銀針變黑的含硫雜質。需注意題幹把『硫或硫化物』並列，化學用語不夠精確：若指原已為 S²⁻ 的硫化物，就不能說硫再被還原；此處的 A 僅能按元素硫的氧化還原反應成立。",
     "solutionSteps": [
-      "判斷銀生成 Ag₂S 的氧化數變化：銀由 0 變成 +1，失電子而被氧化。",
-      "硫由單質/硫化物來源得到電子成為 S²⁻，硫被還原，故硫化物作氧化劑。",
-      "選 A；變黑來自含硫雜質，不是三氧化二砷本身。"
+      "按元素硫 S⁰ 與銀生成 Ag₂S 的預期反應判斷：銀由 0 價升至 +1 價，失電子而被氧化。",
+      "硫由 0 價降至 −2 價，得到電子而被還原；因此 A 的推論僅在『硫』指元素硫時成立。",
+      "官方答案索引為 A；但若把題幹中的『硫化物』嚴格理解為已含 S²⁻ 的化合物，『硫化物被還原』並不成立，題幹存在用詞歧義。"
     ],
-    "teacherTip": "氧化劑使別人氧化、自己被還原；別只憑「銀氧化」就把銀判成氧化劑。",
+    "teacherTip": "氧化還原先追蹤元素氧化數；本題『硫或硫化物』用語有歧義，勿把已是 S²⁻ 的硫化物一概說成可再被還原。",
     "relatedWords": [],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -31577,13 +31611,13 @@
       "D"
     ],
     "answer": 2,
-    "explanation": "口腔原本接近中性，餐後酸性增加會使 pH 下降；嚼無糖口香糖刺激唾液分泌後，酸性降低、pH 回升。符合先下降再回升且回到接近中性的圖為 C，答案 C。",
+    "explanation": "先讀圖（十八）：嚼口香糖後，唾液量由約 0.5 mL 上升至約 5.5 mL，之後仍高於嚼食前；因此另一張圖的 pH 應在餐後先下降，開始嚼食後再隨唾液增加而回升。起始口腔接近中性，pH 約 7；四圖中只有 C 同時呈現先降後升並回到約 7，答案 C。",
     "solutionSteps": [
-      "pH 越低代表酸性越強；餐後口腔變酸，所以曲線應先由接近中性的 pH 約 7 向下。",
-      "嚼無糖口香糖後唾液增加，有助於中和酸性，曲線應再向上回到接近 pH 7。",
-      "四圖中只有 C 呈現先下降、嚼食後回升，且起始值接近 7，答案 C。"
+      "先看圖（十八）的唾液量：開始嚼食後曲線由約 0.5 mL 升至約 5.5 mL，表示唾液分泌增加。",
+      "用餐後口腔變酸，pH 應低於原本接近中性的約 7；嚼食後唾液增加，酸性降低，所以 pH 應回升。",
+      "比對另一圖的四個選項，C 從約 7 先降至約 4.5，再回到約 7，符合前述時間與方向，答案 C。"
     ],
-    "teacherTip": "勿把 pH 下降說成酸性下降；pH 越低，酸性越強。",
+    "teacherTip": "本題要把兩張圖串起來：圖（十八）先證明嚼食後唾液增加，再判斷 pH 的反向變化；pH 越低代表酸性越強。",
     "relatedWords": [],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -32108,7 +32142,7 @@
     "knowledgePoint": "112年自然第43題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "若壯壯跟安安兩人對於早餐飲品的需求為：壯壯：我想要攝取較多的胺基酸。安安：我要減少攝取糖。則根據營養比較表，在攝取相同容量飲品的情況下，推論兩人的選擇，下列何者最合理？\n\n營養比較表（每 100 mL；X 為燕麥奶、Y 為牛奶）：蛋白質 1.3/3 g、脂肪 2.6/3.0 g、糖 8.1/4.5 g、膳食纖維 2/0 g、鈣 120/100 mg。",
+    "question": "若壯壯跟安安兩人對於早餐飲品的需求為：壯壯：我想要攝取較多的胺基酸。安安：我要減少攝取糖。則根據營養比較表，在攝取相同容量飲品的情況下，推論兩人的選擇，下列何者最合理？\n\n營養比較表（每 200 mL；X 為燕麥奶、Y 為牛奶）：蛋白質 1.3/3 g、脂肪 2.6/3.0 g、糖 8.1/4.5 g、膳食纖維 2/0 g、鈣 120/100 mg。",
     "questionImage": null,
     "imageAlt": "",
     "options": [
@@ -32118,9 +32152,9 @@
       "壯壯選擇燕麥奶，安安選擇牛奶"
     ],
     "answer": 0,
-    "explanation": "營養表以相同的 100 mL 比較：牛奶蛋白質 3 g，高於燕麥奶的 1.3 g，通常也提供較多胺基酸；糖方面牛奶 4.5 g，低於燕麥奶的 8.1 g。壯壯要較多胺基酸、安安要少攝取糖，兩人都選牛奶，答案 A。",
+    "explanation": "營養表以相同的 200 mL 比較：牛奶蛋白質 3 g，高於燕麥奶的 1.3 g，通常也提供較多胺基酸；糖方面牛奶 4.5 g，低於燕麥奶的 8.1 g。壯壯要較多胺基酸、安安要少攝取糖，兩人都選牛奶，答案 A。",
     "solutionSteps": [
-      "先對照表格的相同份量 100 mL，避免把不同容量的數值直接比較。",
+      "先對照表格的相同份量 200 mL，避免把不同容量的數值直接比較。",
       "壯壯需要較多胺基酸；牛奶蛋白質 3 g，高於燕麥奶 1.3 g。",
       "安安要減少糖；牛奶含糖 4.5 g，低於燕麥奶 8.1 g，所以兩人皆選牛奶，答案 A。"
     ],
@@ -32352,7 +32386,7 @@
     "knowledgePoint": "112年自然第48題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據下列實驗資料，「前處理」最可能為下列何者？\n\n實驗以同品種、相同方式種植的小白菜比較洗滌方法，再分別採用不洗、清水浸泡、清水加食鹽水浸泡、清水加蔬果洗潔劑浸泡或清水直接沖洗。結果以農藥抑制率記錄，抑制率越高代表殘留越多；為公平比較，前處理應使各組的起始條件可比。",
+    "question": "根據下列實驗資料，「前處理」最可能為下列何者？\n\n實驗以同品種、相同方式種植的小白菜，採收後先浸泡於農藥溶液，再分組比較洗滌方法。結果：甲不洗滌 44.74%；乙清水浸泡 34.21%；丙清水加食鹽水浸泡 42.11%；丁清水加蔬果洗潔劑浸泡 18.42%；戊清水直接沖洗 2.52%。數值為農藥抑制率，越高代表殘留越多；為公平比較，前處理應使各組的起始條件可比。",
     "questionImage": null,
     "imageAlt": "",
     "options": [
@@ -32394,6 +32428,12 @@
   },
   {
     "id": "OFF-0659",
+    "questionImage": "./assets/official-exams/112-science-q49-liquefaction-model.svg",
+    "imageAlt": "地層、地下水位與地震參數輸入後估算低中高液化潛勢的模型",
+    "requiresImage": true,
+    "questionImages": [
+      "./assets/official-exams/112-science-q49-liquefaction-model.svg"
+    ],
     "subject": "自然",
     "gradeSemester": "會考總複習",
     "unit": "歷屆會考",
@@ -32401,8 +32441,6 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "依據下列土壤液化模型說明，圖(三十一)中模擬地震參數所得到的結果，與下列何種資料所呈現的 特性最直接相關？\n\n土壤液化是地震時可能伴隨的災害：飽和砂土受強烈搖晃時，砂粒與水重新排列，地表建物可能下陷或傾斜。模型綜合地層組成、地下水位及模擬地震參數，估計低、中、高液化潛勢；潛勢越高，地震時發生液化的可能性越大。",
-    "questionImage": null,
-    "imageAlt": "",
     "options": [
       "地震強度",
       "地震規模",
@@ -32432,9 +32470,7 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依112年國中教育會考官方選擇題參考答案一覽表核對：自然第49題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view"
@@ -32498,9 +32534,9 @@
     "knowledgePoint": "113年國文第1題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "粉絲專頁貼文寫著「秋刀魚已經加薪了」，並標出新售價每條 50 元。這則貼文的用意最可能是什麼？",
-    "questionImage": "",
-    "imageAlt": "113年國中教育會考國文科第1題官方試卷頁面",
+    "question": "這則粉絲專頁貼文的用意，最可能是下列何者？",
+    "questionImage": "./assets/official-exams/113-chinese-q01-social-post.svg",
+    "imageAlt": "113年會考國文第1題秋刀魚粉絲專頁貼文，圖中文字包含新售價50元與「秋刀魚已經加薪了」",
     "options": [
       "徵求粉絲專頁新小編",
       "預告直播促銷的期程",
@@ -32530,9 +32566,11 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": false,
+    "requiresImage": true,
     "requiresContext": false,
-    "questionImages": [],
+    "questionImages": [
+      "./assets/official-exams/113-chinese-q01-social-post.svg"
+    ],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：國文第1題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -32642,7 +32680,7 @@
     "knowledgePoint": "113年國文第4題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "某些問卷使用否定詞，受訪者有時不易理解而感到混淆。根據下表，阿寶的立場與其選擇相符的是哪一項？\n\n問卷題目｜阿寶的立場｜阿寶的選擇\n(A)您是否同意廢除最低工資的設立？｜最低工資要受到保障｜同意\n(B)您是否同意禁止種植基因改造植物？｜反對基因改造｜同意\n(C)您是否同意政府不應全面禁止動物實驗？｜人類福祉應優先於其他動物｜不同意\n(D)您是否同意政府不可為了國家建設而提高稅率？｜不想多繳稅｜不同意",
+    "question": "某些問卷使用否定詞，受訪者有時不易理解而感到混淆。根據下列各人的立場與選擇，何者相符？\n\n【A】問卷題目：您是否同意廢除最低工資的設立？\n阿寶的立場：最低工資要受到保障；阿寶的選擇：同意\n\n【B】問卷題目：您是否同意禁止種植基因改造植物？\n阿寶的立場：反對基因改造；阿寶的選擇：同意\n\n【C】問卷題目：您是否同意政府不應全面禁止動物實驗？\n阿寶的立場：人類福祉應優先於其他動物；阿寶的選擇：不同意\n\n【D】問卷題目：您是否同意政府不可為了國家建設而提高稅率？\n阿寶的立場：不想多繳稅；阿寶的選擇：不同意",
     "questionImage": "",
     "imageAlt": "113年國中教育會考國文科第4題官方試卷頁面",
     "options": [
@@ -32690,9 +32728,9 @@
     "knowledgePoint": "113年國文第5題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "某書店開幕廣告以中秋夜為情境，邀請民眾到店喝咖啡、聽歌、讀書、跳舞、賞月，並標出開幕當晚的營業資訊。根據廣告內容，下列敘述何者錯誤？",
-    "questionImage": "",
-    "imageAlt": "113年國中教育會考國文科第5題官方試卷頁面",
+    "question": "右側是某書店開幕當晚的廣告文案。根據內容，下列敘述何者錯誤？",
+    "questionImage": "./assets/official-exams/113-chinese-q05-bookstore-ad.svg",
+    "imageAlt": "113年會考國文第5題中秋書店開幕廣告，含活動項目與開幕夜營業資訊",
     "options": [
       "融合節慶的元素",
       "邀請民眾蒞店同樂",
@@ -32722,9 +32760,11 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": false,
+    "requiresImage": true,
     "requiresContext": false,
-    "questionImages": [],
+    "questionImages": [
+      "./assets/official-exams/113-chinese-q05-bookstore-ad.svg"
+    ],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：國文第5題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -33608,7 +33648,7 @@
     "knowledgePoint": "113年國文第24題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "「夫繭，捨而不治，則腐蠹而棄。使女工繅 之，以為美錦，國君服而朝之。 1 身者，繭也，捨而不治，則智行腐蠹。使賢者教之，以為世士，則天下諸侯莫 敢不敬。」關於本文的分析，下列敘述何者最恰當？\n\n字詞註釋：繅，音ㄙㄠ，煮繭抽絲。",
+    "question": "「夫繭，捨而不治，則腐蠹而棄。使女工繅之，以為美錦，國君服而朝之。身者，繭也，捨而不治，則智行腐蠹。使賢者教之，以為世士，則天下諸侯莫敢不敬。」關於本文的分析，下列敘述何者最恰當？\n\n字詞註釋：繅，音ㄙㄠ，煮繭抽絲。",
     "questionImage": "",
     "imageAlt": "113年國中教育會考國文科第24題官方試卷頁面",
     "options": [
@@ -33999,6 +34039,8 @@
       "沒有按照畫家出生年分先後排序",
       "未得官方核定不宜以「國寶」稱之"
     ],
+    "questionImage": "./assets/official-exams/113-chinese-q32-poster.svg",
+    "imageAlt": "故宮鎮院國寶展覽海報，日期為 2021 年 10 月 6 日至 12 月 16 日",
     "answer": 0,
     "explanation": "答案是 A。概述說特展每次至少間隔三年以上，且展期不得超過 42 天；題幹給出的 2021 年 10 月 6 日至 12 月 16 日相隔 71 天（含首尾則 72 天），超出規定。B 不對：概述明說前一次三寶合體展出在十年前，因此這次並非首次；C 沒有規定姓名須按出生年排列；D 三件作品早在 2012 年已由文化部核定為國寶級古物。",
     "solutionSteps": [
@@ -34022,9 +34064,11 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": false,
+    "requiresImage": true,
     "requiresContext": false,
-    "questionImages": [],
+    "questionImages": [
+      "./assets/official-exams/113-chinese-q32-poster.svg"
+    ],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：國文第32題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -34522,7 +34566,15 @@
     "type": "歷屆真題",
     "question": "Look at the picture. There is ____ under the door.",
     "questionImage": "./assets/official-exams/113-english-p2.webp",
-    "imageAlt": "113年國中教育會考英文科第1題官方試卷頁面",
+    "imageAlt": "門下信封、門旁植物、門上告示牌與傘架雨傘的情境圖",
+    "imageCrop": {
+      "sourceWidth": 869,
+      "sourceHeight": 1199,
+      "x": 510,
+      "y": 112,
+      "width": 282,
+      "height": 260
+    },
     "options": [
       "an envelope",
       "a plant",
@@ -34850,7 +34902,7 @@
       "will"
     ],
     "answer": 1,
-    "explanation": "答案是 B「do」。前句主要動詞是 likes，後句用 and so + 助動詞 + 主詞表「某人也一樣」；第三人稱單數 Lora likes 以 do-support 的 does 表示，空格前已有 so，句型完整應是 and so do I? 但主詞 I 對應第一人稱，助動詞用 do。am 對應 be 動詞，have/will 都不與 likes 的一般現在式一致。",
+    "explanation": "答案是 B「do」。句型為 and so + 助動詞 + 主詞，表示「某人也一樣」。前句的主要動詞 likes 是一般現在式，因此用 do-support；空格後的主詞是 I，助動詞要用 do，完整句子是 and so do I。am 用於 be 動詞句，have 和 will 也不符合前句的時態與動詞類型。",
     "solutionSteps": [
       "辨識 and so + 助動詞 + 主詞 的附和句型。",
       "前句一般現在式動詞 like 用 do/does 代替；主詞是 I，所以用 do。",
@@ -35892,7 +35944,15 @@
     "type": "歷屆真題",
     "question": "【Reading material】The festival will be held at Satyr’s Park from April 1 to May 31. Visitors are welcome to take the free Festival Bus at Goat Street Station to the festival. You can also take the metro (get off at Koala Street Station or Turtle Street Station) or buses No. 28, 103, 125, 157, 259, 505, 908, or 1086. During the festival, Fox Street is closed to cars and becomes a pedestrian street. Garden Square is not open for car parking; a farmers’ market is held there during the festival. Faun’s Weekend Flower Market is open every day from 8am to 2pm during the festival.\n\nWhat can we learn about the farmers’ market from the map?",
     "questionImage": "./assets/official-exams/113-english-p6.webp",
-    "imageAlt": "Green Festival 周邊街區與交通路線地圖",
+    "imageAlt": "Green Festival 周邊街道、農夫市集、節慶場地與地鐵站位置圖",
+    "imageCrop": {
+      "sourceWidth": 869,
+      "sourceHeight": 1199,
+      "x": 108,
+      "y": 390,
+      "width": 669,
+      "height": 390
+    },
     "options": [
       "The farmers’ market is next to the flower market.",
       "The farmers’ market and the festival are on the same block.",
@@ -37718,6 +37778,12 @@
   },
   {
     "id": "OFF-0764",
+    "questionImage": "./assets/official-exams/113-math-q19-numberline.svg",
+    "imageAlt": "標示A負二、O零、B二及位於A左側P點的數線",
+    "requiresImage": true,
+    "questionImages": [
+      "./assets/official-exams/113-math-q19-numberline.svg"
+    ],
     "subject": "數學",
     "gradeSemester": "會考總複習",
     "unit": "歷屆會考",
@@ -37725,8 +37791,6 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "圖 ( 十一 ) 的數線上有 A(−2)、O(0)、B(2) 三點。今打算在此數線上標示 P ( p)、 Q(q) 兩點，且 p、 q 互為倒數， 若 P 在 A 的左側， 則下列敘述何者正確？",
-    "questionImage": "",
-    "imageAlt": "113年國中教育會考數學科第19題官方試卷頁面",
     "options": [
       "Q 在 AO 上，且 AQ < QO",
       "Q 在 AO 上，且 AQ > QO",
@@ -37757,9 +37821,7 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：數學第19題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -38368,8 +38430,16 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "古代人繪製地圖時，通常會將自己所處區域放在地圖中央。圖(四)為某地區出土的古世界地圖及說明：圖中將巴比倫城置於中央，周圍呈現兩河流域古代世界觀。該地區當時使用的文字最可能為何？",
-    "questionImage": "",
-    "imageAlt": "",
+    "questionImage": "./assets/official-exams/113-social-p3.webp",
+    "imageAlt": "原卷第7題的四種古文字圖像選項，依序為象形文字、拉丁文、片假名與楔形文字",
+    "imageCrop": {
+      "sourceWidth": 869,
+      "sourceHeight": 1199,
+      "x": 96,
+      "y": 456,
+      "width": 542,
+      "height": 112
+    },
     "options": [
       "象形文字",
       "拉丁文",
@@ -38399,9 +38469,11 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": false,
+    "requiresImage": true,
     "requiresContext": false,
-    "questionImages": [],
+    "questionImages": [
+      "./assets/official-exams/113-social-p3.webp"
+    ],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第7題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -39189,15 +39261,17 @@
   },
   {
     "id": "OFF-0794",
+    "questionImage": "",
+    "imageAlt": "",
+    "requiresImage": false,
+    "questionImages": [],
     "subject": "社會",
     "gradeSemester": "會考總複習",
     "unit": "歷屆會考",
     "knowledgePoint": "113年社會第24題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "小華整理客廳時發現一疊紙張，如圖(十三)。他拍照 上傳到社群網路詢問它的功能，以下是網友的回覆： 甲：「我們稱它為高速公路回數票，以前沒有電子收費 系統，經過收費站時將它拿給收費員當通行費。 在收費站前減速繳交回數票常會造成塞車，現在 圖(十三) 用電子收費就沒這個問題了。」 乙：「以前忘了帶錢時，把回數票當現金，少數店家也能接受，我還曾經用 它來買便當。」 關於上述高速公路回數票的說明及收費方式的變革，下列敘述何者最適當？",
-    "questionImage": "",
-    "imageAlt": "",
+    "question": "小華整理客廳時發現一疊過去使用的高速公路回數票。他拍照上傳到社群網路詢問它的功能，以下是網友的回覆：甲：「我們稱它為高速公路回數票，以前沒有電子收費系統，經過收費站時將它拿給收費員當通行費。在收費站前減速繳交回數票常會造成塞車，現在用電子收費就沒這個問題了。」乙：「以前忘了帶錢時，把回數票當現金，少數店家也能接受，我還曾經用它來買便當。」關於上述高速公路回數票的說明及收費方式的變革，下列敘述何者最適當？",
     "options": [
       "科技發展使得交通運輸更順暢",
       "高速公路回數票可在銀行換外幣",
@@ -39227,9 +39301,7 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第24題官方答案A，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -39683,9 +39755,9 @@
     "knowledgePoint": "113年社會第34題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "圖(十八)是小安過去的網路貼文，圖(十九)是當時動物之家認養規定的部分內容： 圖(十八) 圖(十九) 根據圖(十八)、圖(十九)的內容判斷，小安參與的這兩次投票，先後順序最可 能為下列何者？",
-    "questionImage": "./assets/official-exams/113-social-q34-post-and-rules.svg",
-    "imageAlt": "113年會考社會第34題網路貼文及動物之家認養規定",
+    "question": "小安的網路貼文寫道：「前年投票後的星期三，我想認養貓，因未滿20歲，請爸爸陪我到動物之家辦理。這次投票後的星期三，認養規定沒有改變，我已能自行辦理，打算再認養一隻。」動物之家規定：「年滿20歲且無禁養紀錄者可親自申請；未滿20歲者須由法定代理人或監護人申請，並由本人陪同辦理。」本題以113年（2024年）為貼文當年。根據貼文與規定，小安先後參與的兩次投票最可能為何？",
+    "questionImage": "",
+    "imageAlt": "",
     "options": [
       "地方選舉、中央選舉",
       "地方選舉、公民投票",
@@ -39693,11 +39765,11 @@
       "公民投票、中央選舉"
     ],
     "answer": 3,
-    "explanation": "依兩則貼文的投票年代與動物之家規定，第一次投票時小安尚未滿 20 歲，第二次時已能以本人身分辦理認養。公民投票權年齡先降至 18 歲，中央選舉投票年齡仍為 20 歲，因此先是公民投票、後是中央選舉，答案 D。",
+    "explanation": "貼文以 113 年（2024 年）為當年，「前年」指 2022 年。當時小安未滿 20 歲但已達 18 歲，因此能參加公民投票，不能參加投票年齡為 20 歲的地方或中央選舉；到 2024 年她已滿 20 歲，可參加中央選舉。先公民投票、後中央選舉，答案 D。",
     "solutionSteps": [
-      "對照貼文中的年份及辦理認養時是否須由法定代理人陪同，判斷小安第一次投票時未滿 20 歲。",
-      "當時年滿 18 歲即可參加公民投票，但中央選舉投票年齡仍是 20 歲。",
-      "她之後年滿 20 歲才可參加中央選舉，因此順序為公民投票、中央選舉，答案 D。"
+      "先讀時間線：「前年」相對於 113 年（2024 年）是 2022 年；第二次投票發生在 2024 年。",
+      "第一次認養須父親陪同，表示她未滿 20 歲；但既然能投票，年齡至少已滿 18 歲。2022 年她可投公民投票，未達地方及中央選舉的 20 歲門檻。",
+      "第二次已年滿 20 歲，可參加中央選舉，因此先公民投票、後中央選舉，答案 D。"
     ],
     "teacherTip": "區分公民投票與中央選舉的投票年齡；不要把兩者門檻當成相同。",
     "relatedWords": [],
@@ -39715,11 +39787,9 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/113-social-q34-post-and-rules.svg"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依113年國中教育會考官方選擇題參考答案一覽表核對：社會第34題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view"
@@ -41342,7 +41412,7 @@
     "knowledgePoint": "113年自然第14題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "圖示將河川鯰魚族群數量分為甲、乙、丙、丁四個時期：甲數量增加，乙持續增加，丙大致穩定，丁減少。哪個時期可判定「出生數＋遷入數＞死亡數＋遷出數」？",
+    "question": "圖示將河川鯰魚族群數量分為甲、乙、丙、丁四個時期：甲大致穩定，乙增加，丙大致穩定，丁減少。哪個時期可判定「出生數＋遷入數＞死亡數＋遷出數」？",
     "questionImage": null,
     "imageAlt": "",
     "options": [
@@ -42020,21 +42090,21 @@
     "knowledgePoint": "113年自然第28題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "美環將兩種不同的天氣系統分為甲、乙類，並舉例說明，但例子有錯誤，應如何更正才合理？甲類地面附近空氣會由周圍流入中心，例為颱風與太平洋暖氣團範圍；乙類地面附近空氣會由中心向周圍流出，例為蒙古大陸冷氣團。",
+    "question": "美環將兩種不同的天氣系統分為甲、乙類，並舉例說明，但例子有錯誤，應如何更正才合理？甲類地面附近空氣會由周圍流入中心，例為颱風與太平洋高氣壓範圍；乙類地面附近空氣會由中心向周圍流出，例為蒙古大陸冷氣團。",
     "questionImage": null,
     "imageAlt": "",
     "options": [
       "颱風移至乙類，另外兩者不變",
-      "太平洋暖氣團移至乙類，另外兩者不變",
+      "太平洋高氣壓範圍移至乙類，另外兩者不變",
       "颱風移至乙類，蒙古大陸冷氣團移至甲類",
-      "颱風與太平洋暖氣團移至乙類，蒙古大陸冷氣團移至甲類"
+      "颱風與太平洋高氣壓範圍移至乙類，蒙古大陸冷氣團移至甲類"
     ],
     "answer": 1,
-    "explanation": "答案 B。依題目表格的分類，甲、乙分別代表低氣壓中心的向內輻合與高氣壓中心的向外發散。颱風屬低氣壓，留在甲；題目所列太平洋暖氣團範圍屬高壓控制的天氣現象，應移到乙；蒙古大陸冷氣團原列乙，不必移動。",
+    "explanation": "答案 B。依題目表格的分類，甲、乙分別代表低氣壓中心的向內輻合與高氣壓中心的向外發散。颱風屬低氣壓，留在甲；太平洋高氣壓範圍屬高壓控制區，應移到乙；蒙古大陸冷氣團原列乙，不必移動。",
     "solutionSteps": [
       "先按流向辨認：向中心流入的是低壓輻合；由中心向外的是高壓發散。",
-      "颱風是低氣壓中心的天氣現象，留在甲；太平洋暖氣團範圍對應高壓控制區，移到乙。",
-      "蒙古大陸冷氣團的分類不需改動，因此只移動太平洋暖氣團，選 B。"
+      "颱風是低氣壓中心的天氣現象，留在甲；太平洋高氣壓範圍屬高壓控制區，移到乙。",
+      "蒙古大陸冷氣團的分類不需改動，因此只移動太平洋高氣壓範圍，選 B。"
     ],
     "teacherTip": "低氣壓中心近地面氣流輻合，高氣壓中心近地面氣流發散；依題目表格的天氣系統範圍判讀，不要只憑暖、冷字樣分類。",
     "relatedWords": [],
@@ -43349,6 +43419,12 @@
       "C",
       "D"
     ],
+    "optionDescriptions": [
+      "方整楷書筆畫，字形左右分列，橫豎撇捺清楚。",
+      "細長直立的古文字形，以中間長豎為主，兩側有短橫。",
+      "上下組構的古文字形，上部有分叉筆畫，下部有數道平行橫畫。",
+      "線條較圓弧的古文字形，左側彎折，右側有弧圈與短橫。"
+    ],
     "answer": 0,
     "explanation": "答案 A。A 圖字形筆畫方整、構形為後起的楷書「封」字，不屬《說文解字》以小篆為主並兼收秦以前古文字、籀文的範圍。B、C、D 都呈現篆籀或更早字形，可見題圖所示的古文字構件與線條特徵。",
     "solutionSteps": [
@@ -43439,9 +43515,9 @@
     "knowledgePoint": "114年國文第7題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "根據甲、乙二圖，下列敘述何者最恰當？",
-    "questionImage": "./assets/official-exams/114-chinese-q07-couplet-diagrams.png",
-    "imageAlt": "114年會考國文第7題必要字形或示意圖",
+    "question": "【甲圖】對聯張貼位置：仄聲貼右、平聲貼左。\n【乙圖】對聯聲律示意：上聯末字為仄聲，下聯末字為平聲。\n根據甲、乙二圖，下列敘述何者最恰當？",
+    "questionImage": null,
+    "imageAlt": "",
     "options": [
       "皆指出如何區分漢語的聲調",
       "皆指出對聯「仄起平收」的原則",
@@ -43449,13 +43525,13 @@
       "皆說明站在屋外、面向大門的右邊要貼下聯"
     ],
     "answer": 1,
-    "explanation": "答案 B。甲圖直接標示「仄聲貼右、平聲貼左」，乙圖也以對聯末字標出仄聲與平聲的配置，兩圖共同呈現傳統對聯「仄起平收」的聲律原則。A 不是辨認四聲的教學；C 的張貼順序並非兩圖共同說明；D 把觀看方向和上下聯位置混為一談。",
+    "explanation": "答案 B。甲圖直接標示「仄聲貼右、平聲貼左」；乙圖呈現上聯末字仄聲、下聯末字平聲，兩圖共同說明對聯的「仄起平收」原則。A 把聲律配置誤說成區分漢語全部聲調；C 的張貼順序不是兩圖共同資訊；D 混淆張貼位置與觀看方向。",
     "solutionSteps": [
-      "比較甲、乙兩圖共同標示的規則，而非只看其中一張圖的張貼步驟。",
-      "兩圖都以對聯末字的平、仄聲作為上下聯配置依據，符合上聯仄收、下聯平收。",
-      "這就是「仄起平收」原則，選 B；其餘選項不是兩圖共同傳達的內容。"
+      "甲圖提供左右張貼位置，乙圖提供上下聯末字的平仄線索，先分開讀取兩圖資訊。",
+      "乙圖說明上聯末字用仄聲、下聯末字用平聲，這就是「仄起平收」。",
+      "甲圖另說仄聲貼右、平聲貼左；題目問兩圖共同表達的原則，因此選 B，而非聲調分類或張貼順序。"
     ],
-    "teacherTip": "「仄起平收」簡記為上聯末字仄聲、下聯末字平聲；張貼左右則要再配合面向大門的方向判斷。",
+    "teacherTip": "對聯末字平仄（上聯仄、下聯平）與張貼左右位置是相關但不同的判斷；先看題目問聲律還是位置。",
     "relatedWords": [],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -43471,14 +43547,16 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": true,
+    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [
-      "./assets/official-exams/114-chinese-q07-couplet-diagrams.png"
-    ],
+    "questionImages": [],
     "answerKeyReview": {
-      "status": "verified",
-      "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：國文第7題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
+      "status": "已依114年官方國文題本第2頁核對文字與原圖",
+      "note": "答案 B；題目所需兩圖共同規則已轉錄於題幹，避免前台再顯示整頁PDF截圖。",
+      "evidenceSources": [
+        "assets/official-exams/114-chinese-p2.webp",
+        "assets/official-exams/114-chinese-q07-couplet-diagrams.png"
+      ]
     }
   },
   {
@@ -43634,7 +43712,7 @@
     "knowledgePoint": "114年國文第11題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "「旅行回來，一篇遊記常要寫上許久，有的終究沒寫成。有時不知怎麼濃縮剪 裁，最後只是一片凌亂的札記和草稿。那些沒寫出來的，只好留待時間去處理 了。時間如果不是個偉大的作者，起碼是個傑出的編輯。也許它最後會告訴 我：不寫也罷！」根據文意脈絡，關於畫線處文句的解讀，下列何者最恰當？",
+    "question": "「旅行回來，一篇遊記常要寫上許久，有的終究沒寫成。有時不知怎麼濃縮剪裁，最後只是一片凌亂的札記和草稿。那些沒寫出來的，只好留待時間去處理了。【畫線句：時間如果不是個偉大的作者，起碼是個傑出的編輯。】也許它最後會告訴我：不寫也罷！」根據文意脈絡，關於畫線處文句的解讀，下列何者最恰當？",
     "questionImage": "",
     "imageAlt": "",
     "options": [
@@ -44323,8 +44401,8 @@
     "knowledgePoint": "114年國文第25題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【閱讀材料】\n作者的外孫談起一顆名叫「明」的北極圓蛤：牠已活超過五百年，科學家推估出生於明朝，因此得名；北極海底還可能有更老的蛤蜊。作者則回憶自己年幼時跟著舅舅勞動，最喜歡到海邊挖「公呆」。公呆生活在潮濕窪地，遇到動物接近會噴水示警；這可能嚇走敵人，卻也會暴露位置，讓挖蛤的人找到牠們。公呆常攤平在潮泥表面，只需薄土覆蓋，殼薄且容易被踩破。作者回憶公呆很容易挖到；孫子擔心過度捕撈會使牠絕種，外婆則說公呆生命短，秋天轉冷時常成群死亡。孫子進一步認為，公呆並非懶惰，而是因生命短暫、承受不了壓力，才以攤平的方式生活；牠們仍能在有限時間裡享受陽光與陪伴。\n\n根據本文，下列關於公呆的敘述何者最恰當？",
-    "imageAlt": "",
+    "question": "根據本文，下列關於公呆的敘述何者最恰當？",
+    "imageAlt": "114年會考國文第25至26題共用閱讀材料，鍾文音〈公呆〉全文掃描裁圖；內容含祖孫對話與公呆習性描述",
     "options": [
       "若移至深海生活，可以延長生命",
       "噴水嚇阻敵人，反而暴露藏身處",
@@ -44332,13 +44410,13 @@
       "群體死亡前，會一起躺平晒太陽"
     ],
     "answer": 1,
-    "explanation": "答案 B。公呆遇到動物靠噴水示警或嚇退，但水柱會暴露牠們藏在泥灘中的位置，反而容易再被發現。文中說牠們生活在淺灘、壽命短且殼薄，深海更冷、壓力更大，並不會延長生命；殼薄也不耐碰撞；躺平晒太陽是趁活著享受溫暖與陪伴，不是群體死亡前的儀式。",
+    "explanation": "答案 B。原文指出公呆遇到動物接近時會噴水示警，雖可能嚇走水鳥，卻也會暴露牠們藏在泥灘中的位置，讓挖蛤的人發現。A 把北極圓蛤「明」的長壽錯套到公呆；C 與公呆殼薄、容易破損相反；D 把秋季轉冷後成群死亡誤解成主動一起晒太陽。",
     "solutionSteps": [
-      "先找防禦行為：有動物接近時，公呆會噴水，可能嚇退敵人。",
-      "作者指出噴水同時會暴露位置，使牠更容易被發現，因此 B 符合文意。",
-      "深海寒冷且壓力大，公呆殼薄無法承受；躺平晒太陽也不是死亡前行為，其他選項不成立。"
+      "在原文找公呆的防禦行為：有動物接近時會一起噴水，可能嚇走水鳥。",
+      "作者接著指出，噴水也會暴露牠們的位置，反而讓挖蛤的人發現；這正是 B 的敘述。",
+      "「明」是北極圓蛤而非公呆；公呆殼薄易破，秋天成群死亡也不表示牠們為了晒太陽而聚集。"
     ],
-    "teacherTip": "讀作者的敘事時分辨事實與推論；「或許嚇退敵人」後面緊接「暴露位置」，構成行為的反效果。",
+    "teacherTip": "閱讀生物行為題要分清敘述對象；同一篇文章中的不同蛤蜊不能互換特徵。",
     "relatedWords": [],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -44354,9 +44432,11 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": false,
-    "requiresContext": false,
-    "questionImages": [],
+    "requiresImage": true,
+    "requiresContext": true,
+    "questionImages": [
+      "./assets/official-exams/114-chinese-q25-q26-oyster-passage.svg"
+    ],
     "answerKeyReview": {
       "status": "已依114年官方國文題本閱讀材料與翰林解析卷核對",
       "note": "材料說噴水警示會暴露藏身位置；僅保留含閱讀材料的必要頁圖。答案 B。",
@@ -44364,7 +44444,8 @@
         "assets/official-exams/114-chinese-p8.webp",
         "https://public.ehanlin.com.tw/pre-exam/cap/114%E6%9C%83%E8%80%83%E5%9C%8B%E6%96%87%E8%A7%A3%E6%9E%90.pdf"
       ]
-    }
+    },
+    "questionImage": "./assets/official-exams/114-chinese-q25-q26-oyster-passage.svg"
   },
   {
     "id": "OFF-0900",
@@ -44374,8 +44455,8 @@
     "knowledgePoint": "114年國文第26題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【閱讀材料】\n作者的外孫談起一顆名叫「明」的北極圓蛤：牠已活超過五百年，科學家推估出生於明朝，因此得名；北極海底還可能有更老的蛤蜊。作者則回憶自己年幼時跟著舅舅勞動，最喜歡到海邊挖「公呆」。公呆生活在潮濕窪地，遇到動物接近會噴水示警；這可能嚇走敵人，卻也會暴露位置，讓挖蛤的人找到牠們。公呆常攤平在潮泥表面，只需薄土覆蓋，殼薄且容易被踩破。作者回憶公呆很容易挖到；孫子擔心過度捕撈會使牠絕種，外婆則說公呆生命短，秋天轉冷時常成群死亡。孫子進一步認為，公呆並非懶惰，而是因生命短暫、承受不了壓力，才以攤平的方式生活；牠們仍能在有限時間裡享受陽光與陪伴。\n\n關於本文的寫作分析，下列何者最恰當？",
-    "imageAlt": "",
+    "question": "關於本文的寫作分析，下列何者最恰當？",
+    "imageAlt": "114年會考國文第25至26題共用閱讀材料，鍾文音〈公呆〉全文掃描裁圖；內容含祖孫對話與公呆習性描述",
     "options": [
       "以祖孫對話暗示不同世代價值觀的差異",
       "以作者童年拾蛤經驗抒發對親人的懷念",
@@ -44383,13 +44464,13 @@
       "藉公呆的形象比喻活到老學到老的態度"
     ],
     "answer": 0,
-    "explanation": "答案 A。文章由外婆與孫子的對話呈現不同世代對生活的看法：外婆以勞動生活經驗看待短命、殼薄的公呆，孫子則從環境與生命議題提出疑問。這種對話使兩代價值觀差異浮現。文中沒有作者懷念親人，也非在倡議永續發展；公呆象徵的是現代「躺平」態度，不是活到老學到老。",
+    "explanation": "答案 A。文章以外婆和外孫談「明」與公呆的對話推進：外婆先從勞動經驗描述公呆，外孫則反駁牠們不是懶，而是殼薄、承受不了壓力。祖孫不同的解讀暗示兩代價值觀差異。文章不是懷念親人、宣導生態保育，也不是借公呆說活到老學到老。",
     "solutionSteps": [
-      "辨認寫作形式：外婆先講公呆，孫子不斷追問，兩人對生命與生活的理解不同。",
-      "這些對話呈現外婆的生活經驗和孫子的環境／生命觀，暗示世代價值觀差異。",
-      "文章沒有懷親、永續倡議或終身學習的主旨，因此選 A。"
+      "辨認全文結構：外婆講述自己挖公呆的往事，外孫提出不同解釋，兩人的對話貫穿文章。",
+      "外婆以生活經驗看公呆的習性；外孫則從殼薄、生命短等角度理解牠，呈現世代觀點差異。",
+      "因此 A 最恰當；其餘選項所說的懷親、永續倡議與終身學習都不是文章主旨。"
     ],
-    "teacherTip": "寫作分析題要看對話如何推動主題；不要把文中出現的環保或生命議題直接放大成全文主旨。",
+    "teacherTip": "分析寫作手法時，先看人物互動如何推進主題，再判斷選項是否把局部內容誤當全文主旨。",
     "relatedWords": [],
     "sourceType": "官方歷屆真題",
     "source": {
@@ -44405,9 +44486,11 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": false,
-    "requiresContext": false,
-    "questionImages": [],
+    "requiresImage": true,
+    "requiresContext": true,
+    "questionImages": [
+      "./assets/official-exams/114-chinese-q25-q26-oyster-passage.svg"
+    ],
     "answerKeyReview": {
       "status": "已依114年官方國文題本閱讀材料與翰林解析卷核對",
       "note": "祖孫對公呆的不同解讀暗示世代價值觀差異；答案 A。",
@@ -44415,7 +44498,8 @@
         "assets/official-exams/114-chinese-p8.webp",
         "https://public.ehanlin.com.tw/pre-exam/cap/114%E6%9C%83%E8%80%83%E5%9C%8B%E6%96%87%E8%A7%A3%E6%9E%90.pdf"
       ]
-    }
+    },
+    "questionImage": "./assets/official-exams/114-chinese-q25-q26-oyster-passage.svg"
   },
   {
     "id": "OFF-0901",
@@ -44530,7 +44614,7 @@
     "knowledgePoint": "114年國文第29題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【閱讀材料】\n甲文：導演希區考克說：「製作一部偉大的電影需要三樣東西：劇本、劇本、劇本。」劇本除對白外，還須以視覺化描寫讓觀眾進入真實世界、維持注意力。視覺化寫作包含四項：一、場景外觀（地點看起來如何，須描寫其獨特之處）；二、場景事件（場景中發生什麼事、人物正在做什麼）；三、角色外貌（角色的外觀、服裝與神情）；四、角色行動（角色如何移動、做出什麼動作，並藉身體動作呈現心理）。\n乙劇本：室內，安德魯的練習室。安德魯在昏暗狹小的練習室練習雙跳，前方譜架上的電子節拍器閃爍，紅色數字顯示速度380。他停下來將速度調為390，再繼續練習，試著跟上400的速度，卻逐漸跟不上；全力以赴、汗流浹背、雙手起泡。這時「喀啦」，他的右鼓棒斷成兩半。他停下，疲憊地看著自己的手，再看仍在作響的節拍器，抬頭望向海報中的人物——巴迪．瑞奇俯在鼓上。\n\n根據甲文，關於劇本的創作，下列敘述何者最恰當？",
+    "question": "【閱讀材料】\n甲文：\n電影大師希區考克說：「製作一部偉大的電影需要三樣東西：劇本、劇本、劇本。」由此可見劇本對電影的重要性。在劇本中，對白固然重要，但劇本必須深植於令人感覺真實的世界裡，才能有生命，也才能攫住觀眾。而視覺化寫作，就能創造出這個世界。\n\n劇本中的視覺化書寫是指在劇本中，除了對白之外的所有部分，亦即視覺描寫。任何能夠讓讀者或觀眾腦中浮現出圖像的描寫方式，就是視覺化寫作。視覺化寫作的要素有以下四種：\n一、場景外觀：劇中的地點看起來如何？須具體寫出地點的獨特之處，別只是說房間裡有燈和水桶，而要說出這個廚房的特色。\n二、場景事件：場景中發生什麼事？火車呼嘯而過？小鳥飛過窗邊？角色周邊有什麼正在發生？\n三、角色外貌：劇中角色看起來是整潔體面還是不修邊幅？雙眼有神還是疲憊？他們穿的是制服或便服？劇本作者選擇的視覺細節會透露角色的性格及當下的狀態。\n四、角色行動：角色如何行動？當這個角色聽見別人對他說「我愛你」，他是低頭沈默或歡喜地跳起來？角色的肢體動作可以反映出他們的心理。\n──改寫自《視覺化寫作：4個電影劇本範例》\n\n乙劇本：\n室內，安德魯的練習室。安德魯正在陰暗狹小的練習室裡，試著打出雙跳。在他左前方銀灰色譜架上的電子節拍器，正閃爍，紅色的電子數字顯示目前速度設定在380。\n\n安德魯停了下，重新設定為390。又繼續打擊，試著跟上。再將節拍器調到400。現在完全跟不上。全力以赴、汗流浹背、雙手起泡，這時——喀啦。安德魯的右鼓棒斷成兩半。\n\n他停下來，疲憊地看著自己的手，半身汗濕，雙手發痛。回頭看節拍器仍在響。他喘著氣，將它關上。抬頭看海報中的人物——巴迪．瑞奇俯在鼓上。\n──改寫自電影劇本《進擊的鼓手》\n\n根據甲文，關於劇本的創作，下列敘述何者最恰當？",
     "imageAlt": "",
     "options": [
       "增加對白的比例可讓電影更有視覺效果",
@@ -44572,7 +44656,8 @@
         "https://public.ehanlin.com.tw/pre-exam/cap/114%E6%9C%83%E8%80%83%E5%9C%8B%E6%96%87%E8%A7%A3%E6%9E%90.pdf"
       ]
     },
-    "optionsInImage": false
+    "optionsInImage": false,
+    "questionImage": ""
   },
   {
     "id": "OFF-0904",
@@ -44582,7 +44667,7 @@
     "knowledgePoint": "114年國文第30題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【閱讀材料】\n甲文：導演希區考克說：「製作一部偉大的電影需要三樣東西：劇本、劇本、劇本。」劇本除對白外，還須以視覺化描寫讓觀眾進入真實世界、維持注意力。視覺化寫作包含四項：一、場景外觀（地點看起來如何，須描寫其獨特之處）；二、場景事件（場景中發生什麼事、人物正在做什麼）；三、角色外貌（角色的外觀、服裝與神情）；四、角色行動（角色如何移動、做出什麼動作，並藉身體動作呈現心理）。\n乙劇本：室內，安德魯的練習室。安德魯在昏暗狹小的練習室練習雙跳，前方譜架上的電子節拍器閃爍，紅色數字顯示速度380。他停下來將速度調為390，再繼續練習，試著跟上400的速度，卻逐漸跟不上；全力以赴、汗流浹背、雙手起泡。這時「喀啦」，他的右鼓棒斷成兩半。他停下，疲憊地看著自己的手，再看仍在作響的節拍器，抬頭望向海報中的人物——巴迪．瑞奇俯在鼓上。\n\n關於乙劇本的寫作分析，下列何者最恰當？",
+    "question": "【閱讀材料】\n甲文：\n電影大師希區考克說：「製作一部偉大的電影需要三樣東西：劇本、劇本、劇本。」由此可見劇本對電影的重要性。在劇本中，對白固然重要，但劇本必須深植於令人感覺真實的世界裡，才能有生命，也才能攫住觀眾。而視覺化寫作，就能創造出這個世界。\n\n劇本中的視覺化書寫是指在劇本中，除了對白之外的所有部分，亦即視覺描寫。任何能夠讓讀者或觀眾腦中浮現出圖像的描寫方式，就是視覺化寫作。視覺化寫作的要素有以下四種：\n一、場景外觀：劇中的地點看起來如何？須具體寫出地點的獨特之處，別只是說房間裡有燈和水桶，而要說出這個廚房的特色。\n二、場景事件：場景中發生什麼事？火車呼嘯而過？小鳥飛過窗邊？角色周邊有什麼正在發生？\n三、角色外貌：劇中角色看起來是整潔體面還是不修邊幅？雙眼有神還是疲憊？他們穿的是制服或便服？劇本作者選擇的視覺細節會透露角色的性格及當下的狀態。\n四、角色行動：角色如何行動？當這個角色聽見別人對他說「我愛你」，他是低頭沈默或歡喜地跳起來？角色的肢體動作可以反映出他們的心理。\n──改寫自《視覺化寫作：4個電影劇本範例》\n\n乙劇本：\n室內，安德魯的練習室。安德魯正在陰暗狹小的練習室裡，試著打出雙跳。在他左前方銀灰色譜架上的電子節拍器，正閃爍，紅色的電子數字顯示目前速度設定在380。\n\n安德魯停了下，重新設定為390。又繼續打擊，試著跟上。再將節拍器調到400。現在完全跟不上。全力以赴、汗流浹背、雙手起泡，這時——喀啦。安德魯的右鼓棒斷成兩半。\n\n他停下來，疲憊地看著自己的手，半身汗濕，雙手發痛。回頭看節拍器仍在響。他喘著氣，將它關上。抬頭看海報中的人物——巴迪．瑞奇俯在鼓上。\n──改寫自電影劇本《進擊的鼓手》\n\n關於乙劇本的寫作分析，下列何者最恰當？",
     "imageAlt": "",
     "options": [
       "透過極簡的對白讓事件留有餘韻",
@@ -44625,7 +44710,8 @@
         "https://public.ehanlin.com.tw/pre-exam/cap/114%E6%9C%83%E8%80%83%E5%9C%8B%E6%96%87%E8%A7%A3%E6%9E%90.pdf"
       ]
     },
-    "optionsInImage": false
+    "optionsInImage": false,
+    "questionImage": ""
   },
   {
     "id": "OFF-0905",
@@ -44635,7 +44721,7 @@
     "knowledgePoint": "114年國文第31題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【閱讀材料】\n甲文：導演希區考克說：「製作一部偉大的電影需要三樣東西：劇本、劇本、劇本。」劇本除對白外，還須以視覺化描寫讓觀眾進入真實世界、維持注意力。視覺化寫作包含四項：一、場景外觀（地點看起來如何，須描寫其獨特之處）；二、場景事件（場景中發生什麼事、人物正在做什麼）；三、角色外貌（角色的外觀、服裝與神情）；四、角色行動（角色如何移動、做出什麼動作，並藉身體動作呈現心理）。\n乙劇本：室內，安德魯的練習室。安德魯在昏暗狹小的練習室練習雙跳，前方譜架上的電子節拍器閃爍，紅色數字顯示速度380。他停下來將速度調為390，再繼續練習，試著跟上400的速度，卻逐漸跟不上；全力以赴、汗流浹背、雙手起泡。這時「喀啦」，他的右鼓棒斷成兩半。他停下，疲憊地看著自己的手，再看仍在作響的節拍器，抬頭望向海報中的人物——巴迪．瑞奇俯在鼓上。\n【原題畫線處】「安德魯的練習室」、「前方譜架上的電子節拍器……速度380」、「全力以赴、汗流浹背、雙手起泡」、「喀啦」及「巴迪．瑞奇俯在鼓上」。\n\n乙劇本畫線處的文句，最無法呼應甲文中哪一項視覺化寫作要素？",
+    "question": "【閱讀材料】\n甲文：\n電影大師希區考克說：「製作一部偉大的電影需要三樣東西：劇本、劇本、劇本。」由此可見劇本對電影的重要性。在劇本中，對白固然重要，但劇本必須深植於令人感覺真實的世界裡，才能有生命，也才能攫住觀眾。而視覺化寫作，就能創造出這個世界。\n\n劇本中的視覺化書寫是指在劇本中，除了對白之外的所有部分，亦即視覺描寫。任何能夠讓讀者或觀眾腦中浮現出圖像的描寫方式，就是視覺化寫作。視覺化寫作的要素有以下四種：\n一、場景外觀：劇中的地點看起來如何？須具體寫出地點的獨特之處，別只是說房間裡有燈和水桶，而要說出這個廚房的特色。\n二、場景事件：場景中發生什麼事？火車呼嘯而過？小鳥飛過窗邊？角色周邊有什麼正在發生？\n三、角色外貌：劇中角色看起來是整潔體面還是不修邊幅？雙眼有神還是疲憊？他們穿的是制服或便服？劇本作者選擇的視覺細節會透露角色的性格及當下的狀態。\n四、角色行動：角色如何行動？當這個角色聽見別人對他說「我愛你」，他是低頭沈默或歡喜地跳起來？角色的肢體動作可以反映出他們的心理。\n──改寫自《視覺化寫作：4個電影劇本範例》\n\n乙劇本：\n【原題畫線處】\n室內，【畫線處：安德魯的練習室】。安德魯正在陰暗狹小的練習室裡，試著打出雙跳。在他左前方銀灰色譜架上的電子節拍器，正閃爍，紅色的電子數字顯示目前速度設定在380。\n\n安德魯停了下，重新設定為390。又繼續打擊，試著跟上。再將節拍器調到400。現在完全跟不上。【畫線處：全力以赴、汗流浹背、雙手起泡】，這時——【畫線處：喀啦】。安德魯的右鼓棒斷成兩半。\n\n他停下來，疲憊地看著自己的手，半身汗濕，雙手發痛。回頭看節拍器仍在響。他喘著氣，將它關上。抬頭看海報中的人物——【畫線處：巴迪．瑞奇俯在鼓上】。\n──改寫自電影劇本《進擊的鼓手》\n\n乙劇本畫線處的文句，最無法呼應甲文中哪一項視覺化寫作要素？",
     "questionImage": "",
     "imageAlt": "",
     "options": [
@@ -44733,7 +44819,7 @@
     "knowledgePoint": "114年國文第33題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【閱讀材料】\n這個社會非常擔心沒有錢，所以常把他人當作比較對象，追問現在與將來能賺多少錢。發問者未必知道多少錢才算足夠；他們不關切生活品質、工作熱忱、自我實現、健康狀態與人生信念等無形價值能否換算成金錢，只想知道一個數字，好和其他欲望所需的金額比較。巨額令人羨慕，微薄的數字則引發焦慮，也阻礙對未來的樂觀想像。支付代價從來不便宜；要把「夠」放在哪個金額上或許難以決定，但出賣自我、夢想、健康、幸福、信念，到了「夠」的時候，沒有人能不說夠。\n\n根據文意脈絡，畫線處文句的涵義與下列何者最接近？",
+    "question": "【閱讀材料】\n這個社會非常擔心沒有錢，所以常把他人當作比較對象，追問現在與將來能賺多少錢。發問者未必知道多少錢才算足夠；他們不關切生活品質、工作熱忱、自我實現、健康狀態與人生信念等無形價值能否換算成金錢，只想知道一個數字，好和其他欲望所需的金額比較。巨額令人羨慕，微薄的數字則引發焦慮，也阻礙對未來的樂觀想像。支付代價從來不便宜；要把「夠」放在哪個金額上或許難以決定，但出賣自我、夢想、健康、幸福、信念，【畫線句：到了「夠」的時候，沒有人能不說夠。】\n\n根據文意脈絡，畫線處文句的涵義與下列何者最接近？",
     "questionImage": "",
     "imageAlt": "",
     "options": [
@@ -47181,7 +47267,7 @@
     "knowledgePoint": "114年英文第38題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【Reading material】Most kids want gifts from their parents on their birthdays, but Cameron doesn't. On his birthday, he gives his mom a gift. He started doing this in his first year of junior high school. That year, during class, he watched a video about how a baby is pushed from its mother's body. After class, he was amazed by how brave a woman must be to have a baby and thought, ‘Thank God I'll never have to do that!’ When Cameron came home that day, he held his mom in his arms for a long time. He decided that his birthday should not be about him, but about his mom. During those nine months inside his mom, he ate and slept while his mom did all the hard work. The birthday gift Cameron prepared was a bag of cookies he baked. They tasted bad, but his mom said they were the best thing she ever got. Hearing that made his heart sing. Now, on his birthday every year, Cameron makes a gift for his mother to thank her for giving him life. This year, Cameron is going to give his mom a nice dress. A few months ago, he learned to make dresses at school and decided to make one for his mom.\n\nChoose the correct answer for question 38.",
+    "question": "【Reading material】Most kids want gifts from their parents on their birthdays, but Cameron doesn't. On his birthday, he gives his mom a gift. He started doing this in his first year of junior high school. That year, during class, he watched a video about how a baby is pushed from its mother's body. After class, he was amazed by how brave a woman must be to have a baby and thought, ‘Thank God I'll never have to do that!’ When Cameron came home that day, he held his mom in his arms for a long time. He decided that his birthday should not be about him, but about his mom. During those nine months inside his mom, he ate and slept while his mom did all the hard work. The birthday gift Cameron prepared was a bag of cookies he baked. They tasted bad, but his mom said they were the best thing she ever got. Hearing that made his heart sing. Now, on his birthday every year, Cameron makes a gift for his mother to thank her for giving him life. This year, Cameron is going to give his mom a nice dress. A few months ago, he learned to make dresses at school and decided to make one for his mom.\n\nQuestion 38: He ____ doing this in his first year of junior high school.",
     "questionImage": "",
     "imageAlt": "",
     "options": [
@@ -47236,7 +47322,7 @@
     "knowledgePoint": "114年英文第39題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【Reading material】Most kids want gifts from their parents on their birthdays, but Cameron doesn't. On his birthday, he gives his mom a gift. He started doing this in his first year of junior high school. That year, during class, he watched a video about how a baby is pushed from its mother's body. After class, he was amazed by how brave a woman must be to have a baby and thought, ‘Thank God I'll never have to do that!’ When Cameron came home that day, he held his mom in his arms for a long time. He decided that his birthday should not be about him, but about his mom. During those nine months inside his mom, he ate and slept while his mom did all the hard work. The birthday gift Cameron prepared was a bag of cookies he baked. They tasted bad, but his mom said they were the best thing she ever got. Hearing that made his heart sing. Now, on his birthday every year, Cameron makes a gift for his mother to thank her for giving him life. This year, Cameron is going to give his mom a nice dress. A few months ago, he learned to make dresses at school and decided to make one for his mom.\n\nChoose the correct answer for question 39.",
+    "question": "【Reading material】Most kids want gifts from their parents on their birthdays, but Cameron doesn't. On his birthday, he gives his mom a gift. He started doing this in his first year of junior high school. That year, during class, he watched a video about how a baby is pushed from its mother's body. After class, he was amazed by how brave a woman must be to have a baby and thought, ‘Thank God I'll never have to do that!’ When Cameron came home that day, he held his mom in his arms for a long time. He decided that his birthday should not be about him, but about his mom. During those nine months inside his mom, he ate and slept while his mom did all the hard work. The birthday gift Cameron prepared was a bag of cookies he baked. They tasted bad, but his mom said they were the best thing she ever got. Hearing that made his heart sing. Now, on his birthday every year, Cameron makes a gift for his mother to thank her for giving him life. This year, Cameron is going to give his mom a nice dress. A few months ago, he learned to make dresses at school and decided to make one for his mom.\n\nQuestion 39: After class, _____. How brave a woman is to have a baby! Thank God I'll never have to do that!",
     "questionImage": "",
     "imageAlt": "",
     "options": [
@@ -47291,7 +47377,7 @@
     "knowledgePoint": "114年英文第40題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【Reading material】Most kids want gifts from their parents on their birthdays, but Cameron doesn't. On his birthday, he gives his mom a gift. He started doing this in his first year of junior high school. That year, during class, he watched a video about how a baby is pushed from its mother's body. After class, he was amazed by how brave a woman must be to have a baby and thought, ‘Thank God I'll never have to do that!’ When Cameron came home that day, he held his mom in his arms for a long time. He decided that his birthday should not be about him, but about his mom. During those nine months inside his mom, he ate and slept while his mom did all the hard work. The birthday gift Cameron prepared was a bag of cookies he baked. They tasted bad, but his mom said they were the best thing she ever got. Hearing that made his heart sing. Now, on his birthday every year, Cameron makes a gift for his mother to thank her for giving him life. This year, Cameron is going to give his mom a nice dress. A few months ago, he learned to make dresses at school and decided to make one for his mom.\n\nChoose the correct answer for question 40.",
+    "question": "【Reading material】Most kids want gifts from their parents on their birthdays, but Cameron doesn't. On his birthday, he gives his mom a gift. He started doing this in his first year of junior high school. That year, during class, he watched a video about how a baby is pushed from its mother's body. After class, he was amazed by how brave a woman must be to have a baby and thought, ‘Thank God I'll never have to do that!’ When Cameron came home that day, he held his mom in his arms for a long time. He decided that his birthday should not be about him, but about his mom. During those nine months inside his mom, he ate and slept while his mom did all the hard work. The birthday gift Cameron prepared was a bag of cookies he baked. They tasted bad, but his mom said they were the best thing she ever got. Hearing that made his heart sing. Now, on his birthday every year, Cameron makes a gift for his mother to thank her for giving him life. This year, Cameron is going to give his mom a nice dress. A few months ago, he learned to make dresses at school and decided to make one for his mom.\n\nQuestion 40: He decided that his birthday _____. During those nine months inside his mom, he just ate and slept while his mom was doing all the hard work.",
     "questionImage": "",
     "imageAlt": "",
     "options": [
@@ -47346,7 +47432,7 @@
     "knowledgePoint": "114年英文第41題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【Reading material】Most kids want gifts from their parents on their birthdays, but Cameron doesn't. On his birthday, he gives his mom a gift. He started doing this in his first year of junior high school. That year, during class, he watched a video about how a baby is pushed from its mother's body. After class, he was amazed by how brave a woman must be to have a baby and thought, ‘Thank God I'll never have to do that!’ When Cameron came home that day, he held his mom in his arms for a long time. He decided that his birthday should not be about him, but about his mom. During those nine months inside his mom, he ate and slept while his mom did all the hard work. The birthday gift Cameron prepared was a bag of cookies he baked. They tasted bad, but his mom said they were the best thing she ever got. Hearing that made his heart sing. Now, on his birthday every year, Cameron makes a gift for his mother to thank her for giving him life. This year, Cameron is going to give his mom a nice dress. A few months ago, he learned to make dresses at school and decided to make one for his mom.\n\nChoose the correct answer for question 41.",
+    "question": "【Reading material】Most kids want gifts from their parents on their birthdays, but Cameron doesn't. On his birthday, he gives his mom a gift. He started doing this in his first year of junior high school. That year, during class, he watched a video about how a baby is pushed from its mother's body. After class, he was amazed by how brave a woman must be to have a baby and thought, ‘Thank God I'll never have to do that!’ When Cameron came home that day, he held his mom in his arms for a long time. He decided that his birthday should not be about him, but about his mom. During those nine months inside his mom, he ate and slept while his mom did all the hard work. The birthday gift Cameron prepared was a bag of cookies he baked. They tasted bad, but his mom said they were the best thing she ever got. Hearing that made his heart sing. Now, on his birthday every year, Cameron makes a gift for his mother to thank her for giving him life. This year, Cameron is going to give his mom a nice dress. A few months ago, he learned to make dresses at school and decided to make one for his mom.\n\nQuestion 41: The ____ ‘birthday gift’ Cameron prepared was a bag of cookies he baked.",
     "questionImage": "",
     "imageAlt": "",
     "options": [
@@ -47401,7 +47487,7 @@
     "knowledgePoint": "114年英文第42題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【Reading material】Most kids want gifts from their parents on their birthdays, but Cameron doesn't. On his birthday, he gives his mom a gift. He started doing this in his first year of junior high school. That year, during class, he watched a video about how a baby is pushed from its mother's body. After class, he was amazed by how brave a woman must be to have a baby and thought, ‘Thank God I'll never have to do that!’ When Cameron came home that day, he held his mom in his arms for a long time. He decided that his birthday should not be about him, but about his mom. During those nine months inside his mom, he ate and slept while his mom did all the hard work. The birthday gift Cameron prepared was a bag of cookies he baked. They tasted bad, but his mom said they were the best thing she ever got. Hearing that made his heart sing. Now, on his birthday every year, Cameron makes a gift for his mother to thank her for giving him life. This year, Cameron is going to give his mom a nice dress. A few months ago, he learned to make dresses at school and decided to make one for his mom.\n\nChoose the correct answer for question 42.",
+    "question": "【Reading material】Most kids want gifts from their parents on their birthdays, but Cameron doesn't. On his birthday, he gives his mom a gift. He started doing this in his first year of junior high school. That year, during class, he watched a video about how a baby is pushed from its mother's body. After class, he was amazed by how brave a woman must be to have a baby and thought, ‘Thank God I'll never have to do that!’ When Cameron came home that day, he held his mom in his arms for a long time. He decided that his birthday should not be about him, but about his mom. During those nine months inside his mom, he ate and slept while his mom did all the hard work. The birthday gift Cameron prepared was a bag of cookies he baked. They tasted bad, but his mom said they were the best thing she ever got. Hearing that made his heart sing. Now, on his birthday every year, Cameron makes a gift for his mother to thank her for giving him life. This year, Cameron is going to give his mom a nice dress. A few months ago, he learned to make dresses at school and decided to make one for his mom.\n\nQuestion 42: The cookies tasted so bad, but his mom said they were the best thing she ever got. Hearing that _____. It was so much better than getting a gift.",
     "questionImage": "",
     "imageAlt": "",
     "options": [
@@ -47456,7 +47542,7 @@
     "knowledgePoint": "114年英文第43題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【Reading material】Most kids want gifts from their parents on their birthdays, but Cameron doesn't. On his birthday, he gives his mom a gift. He started doing this in his first year of junior high school. That year, during class, he watched a video about how a baby is pushed from its mother's body. After class, he was amazed by how brave a woman must be to have a baby and thought, ‘Thank God I'll never have to do that!’ When Cameron came home that day, he held his mom in his arms for a long time. He decided that his birthday should not be about him, but about his mom. During those nine months inside his mom, he ate and slept while his mom did all the hard work. The birthday gift Cameron prepared was a bag of cookies he baked. They tasted bad, but his mom said they were the best thing she ever got. Hearing that made his heart sing. Now, on his birthday every year, Cameron makes a gift for his mother to thank her for giving him life. This year, Cameron is going to give his mom a nice dress. A few months ago, he learned to make dresses at school and decided to make one for his mom.\n\nChoose the correct answer for question 43.",
+    "question": "【Reading material】Most kids want gifts from their parents on their birthdays, but Cameron doesn't. On his birthday, he gives his mom a gift. He started doing this in his first year of junior high school. That year, during class, he watched a video about how a baby is pushed from its mother's body. After class, he was amazed by how brave a woman must be to have a baby and thought, ‘Thank God I'll never have to do that!’ When Cameron came home that day, he held his mom in his arms for a long time. He decided that his birthday should not be about him, but about his mom. During those nine months inside his mom, he ate and slept while his mom did all the hard work. The birthday gift Cameron prepared was a bag of cookies he baked. They tasted bad, but his mom said they were the best thing she ever got. Hearing that made his heart sing. Now, on his birthday every year, Cameron makes a gift for his mother to thank her for giving him life. This year, Cameron is going to give his mom a nice dress. A few months ago, he learned to make dresses at school and decided to make one for his mom.\n\nQuestion 43: This year, Cameron ____ his mom a nice dress.",
     "questionImage": "",
     "imageAlt": "",
     "options": [
@@ -51390,15 +51476,17 @@
   },
   {
     "id": "OFF-1036",
+    "questionImage": "",
+    "imageAlt": "",
+    "requiresImage": false,
+    "questionImages": [],
     "subject": "社會",
     "gradeSemester": "會考總複習",
     "unit": "歷屆會考",
     "knowledgePoint": "114年社會第52題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【閱讀材料】南喬治亞島位於南大西洋，雖環境冰寒，仍有許多海豹、象鼻海豹、企鵝及特有植物。1775年庫克船長登島後宣布其為英國領土，並以當時英王命名。二十世紀初島上設有捕鯨站，現已廢棄。1927年阿根廷聲稱擁有該島主權，成為往後與英國衝突的原因之一；1982年戰爭結束後仍由英國管轄。該島幾乎無常住人口，是觀光船中途站。2017年，一座約4,200平方公里的巨大冰山脫離陸地，在海上漂流。圖(二十一)標示其不同時間位置；冰山持續崩裂融化，科學家依過往漂流路徑推測它可能撞上南喬治亞島。\n\n根據題幹中的主權聲索紀錄，與英國產生領土紛爭的國家為何？",
-    "questionImage": "",
-    "imageAlt": "",
+    "question": "【閱讀材料】南喬治亞島位於南大西洋，雖環境冰寒，仍有許多海豹、象鼻海豹、企鵝及特有植物。1775年庫克船長登島後宣布其為英國領土，並以當時英王命名。二十世紀初島上設有捕鯨站，現已廢棄。1927年阿根廷聲稱擁有該島主權，成為往後與英國衝突的原因之一；1982年戰爭結束後仍由英國管轄。該島幾乎無常住人口，是觀光船中途站。2017年，一座約4,200平方公里的巨大冰山脫離陸地，在海上漂流；冰山持續崩裂融化，科學家依過往漂流路徑推測它可能撞上南喬治亞島。\n\n根據題幹中的主權聲索紀錄，與英國產生領土紛爭的國家為何？",
     "options": [
       "南非",
       "澳洲",
@@ -51431,9 +51519,7 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：社會第52題官方答案C，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
@@ -51494,15 +51580,17 @@
   },
   {
     "id": "OFF-1038",
+    "questionImage": "",
+    "imageAlt": "",
+    "requiresImage": false,
+    "questionImages": [],
     "subject": "社會",
     "gradeSemester": "會考總複習",
     "unit": "歷屆會考",
     "knowledgePoint": "114年社會第54題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "【閱讀材料】南喬治亞島位於南大西洋，雖環境冰寒，仍有許多海豹、象鼻海豹、企鵝及特有植物。1775年庫克船長登島後宣布其為英國領土，並以當時英王命名。二十世紀初島上設有捕鯨站，現已廢棄。1927年阿根廷聲稱擁有該島主權，成為往後與英國衝突的原因之一；1982年戰爭結束後仍由英國管轄。該島幾乎無常住人口，是觀光船中途站。2017年，一座約4,200平方公里的巨大冰山脫離陸地，在海上漂流。圖(二十一)標示其不同時間位置；冰山持續崩裂融化，科學家依過往漂流路徑推測它可能撞上南喬治亞島。\n\n上述冰山若撞上南喬治亞島，最可能造成何種影響？",
-    "questionImage": "",
-    "imageAlt": "",
+    "question": "【閱讀材料】南喬治亞島位於南大西洋，雖環境冰寒，仍有許多海豹、象鼻海豹、企鵝及特有植物。1775年庫克船長登島後宣布其為英國領土，並以當時英王命名。二十世紀初島上設有捕鯨站，現已廢棄。1927年阿根廷聲稱擁有該島主權，成為往後與英國衝突的原因之一；1982年戰爭結束後仍由英國管轄。該島幾乎無常住人口，是觀光船中途站。2017年，一座約4,200平方公里的巨大冰山脫離陸地，在海上漂流；冰山持續崩裂融化，科學家依過往漂流路徑推測它可能撞上南喬治亞島。\n\n上述冰山若撞上南喬治亞島，最可能造成何種影響？",
     "options": [
       "巨浪侵襲島嶼陸地，阻礙工業發展",
       "附近海水鹽度上升，改變海洋生態",
@@ -51535,9 +51623,7 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：社會第54題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
@@ -53643,15 +53729,17 @@
   },
   {
     "id": "OFF-1080",
+    "questionImage": "",
+    "imageAlt": "",
+    "requiresImage": false,
+    "questionImages": [],
     "subject": "自然",
     "gradeSemester": "會考總複習",
     "unit": "歷屆會考",
     "knowledgePoint": "114年自然第42題",
     "difficulty": "進階",
     "type": "歷屆真題",
-    "question": "瑞典學生拍攝影片表達節能的重要性，影片中請來奧運自行車選手踩單車發電烤吐司，最終選手踩到精疲力竭，才烤好一片吐司，如圖（二十六），過程中發電的平均電功率約 700 W，總共產生的電能約 0.021 kWh。若以一度電 3 元計算，上述過程產生的電能，其對應的電費應如何計算？",
-    "questionImage": null,
-    "imageAlt": "",
+    "question": "瑞典學生拍攝影片表達節能的重要性，影片中請來奧運自行車選手踩單車發電烤吐司，最終選手踩到精疲力竭，才烤好一片吐司。過程中發電的平均電功率約 700 W，總共產生的電能約 0.021 kWh。若以一度電 3 元計算，上述過程產生的電能，其對應的電費應如何計算？",
     "options": [
       "700 ÷ 1000 × 3 元",
       "0.021 × 3 元",
@@ -53681,9 +53769,7 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": false,
     "requiresContext": false,
-    "questionImages": [],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：自然第42題官方答案B，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"

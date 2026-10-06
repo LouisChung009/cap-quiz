@@ -3,7 +3,7 @@ import { readFile, writeFile } from "node:fs/promises";
 const path = new URL("../data/math.json", import.meta.url);
 const bank = JSON.parse(await readFile(path, "utf8"));
 const items = [
-  { q: "甲、乙兩數的比為 3：4，若甲數是 18，乙數是多少？", o: ["24", "21", "27", "32"], a: 0, k: "比與比例", d: "基礎", e: "甲數的 3 份等於 18，每份為 18÷3＝6；乙數有 4 份，所以是 4×6＝24。", s: ["甲數 3 份對應 18，因此每份為 18÷3＝6。", "乙數有 4 份，計算 4×6＝24。", "甲乙比 18：24 化簡為 3：4，符合條件。"] },
+  { q: "甲、乙兩組共分得 42 張活動券，張數比為 3：4。乙組比甲組多分得幾張？", o: ["12 張", "6 張", "18 張", "24 張"], a: 1, k: "比例總量與差量", u: "比與比例應用", d: "中等", e: "兩組合計 3＋4＝7 份，每份 42÷7＝6 張。乙組比甲組多 4－3＝1 份，所以多 1×6＝6 張，答案 B。", s: ["先算比的總份數：3＋4＝7 份。", "42 張平均分成 7 份，每份為 42÷7＝6 張。", "乙比甲多 4－3＝1 份，因此多 1×6＝6 張，選 B。"], t: "已知兩組總量時，先加總比的份數求每份，再以份數差乘每份量；不要把總量直接當作一方的數量。" },
   { q: "4 公斤橘子售價 320 元，照相同單價買 7.5 公斤要多少元？", o: ["600 元", "480 元", "560 元", "640 元"], a: 0, k: "單價與比例", d: "中等", e: "每公斤單價為 320÷4＝80 元；7.5 公斤需 80×7.5＝600 元。", s: ["先求每公斤單價：320÷4＝80 元。", "依相同單價計算 7.5 公斤：80×7.5＝600 元。", "用 600÷7.5＝80 元檢查，與原單價一致。"] },
   { q: "解方程式 5(x－3)＝2x＋12，x 的值為何？", o: ["9", "7", "5", "11"], a: 0, k: "一元一次方程式", d: "中等", e: "展開得 5x－15＝2x＋12，移項得 3x＝27，所以 x＝9。", s: ["先展開括號：5x－15＝2x＋12。", "兩邊移項整理：3x＝27。", "解得 x＝9；代回兩側皆為 30。"] },
   { q: "四次測驗平均為 82 分，前三次為 72、80、89 分，第四次得幾分？", o: ["87 分", "82 分", "85 分", "91 分"], a: 0, k: "平均數", d: "中等", e: "四次總分須為 4×82＝328 分；前三次總和為 241 分，第四次為 328－241＝87 分。", s: ["四次總分為 4×82＝328 分。", "前三次總分為 72＋80＋89＝241 分。", "第四次分數為 328－241＝87 分。"] },
@@ -42,7 +42,7 @@ for (const [index, item] of items.entries()) {
   const key = norm(`${item.q}|${item.o.join("|")}`);
   if (keys.has(key)) throw new Error(`Duplicate question ${id}`);
   keys.add(key);
-  Object.assign(row, { gradeSemester: grades[index], unit: item.k, knowledgePoint: item.k, difficulty: item.d, type: "素養題", question: item.q, options: item.o, answer: item.a, explanation: item.e, solutionSteps: item.s, teacherTip: "先辨認已知量和所求，再選擇定義、公式或方程式；算後代回驗證。", relatedWords: [], sourceType: "原創會考程度練習" });
+  Object.assign(row, { gradeSemester: grades[index], unit: item.u || item.k, knowledgePoint: item.k, difficulty: item.d, type: "素養題", question: item.q, options: item.o, answer: item.a, explanation: item.e, solutionSteps: item.s, teacherTip: item.t || "先辨認已知量和所求，再選擇定義、公式或方程式；算後代回驗證。", relatedWords: [], sourceType: "原創會考程度練習" });
 }
 
 await writeFile(path, `${JSON.stringify(bank, null, 2)}\n`, "utf8");

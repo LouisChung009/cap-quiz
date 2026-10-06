@@ -1,0 +1,5 @@
+# Mathematics authored-bank audit: MAT-0571–0580
+
+Recalculated all ten answer keys and checked every explanation, three-step solution, difficulty, unit, knowledge point, and teacher tip. Replaced repeated median, rectangle-perimeter/area, similar-perimeter, sector-area, volume-conversion, map-scale, and budget-inequality templates with weighted mean, triangle exterior-angle reasoning, sector perimeter, surface-area scaling, two-point slope, and simultaneous equations. Retained the simple-interest, closed-loop spacing, and Pythagorean questions after checking their arithmetic and conditions. Added item-level regression assertions for all ten records.
+
+Validation: all five authored subject banks contain 1,000 items; the combined dataset has 6,108 unique IDs. `npm test` passed, including 10,000 randomized rounds / 100,000 picks with no within-round repeats, template and answer checks, and zero mismatches across extracted official answer keys. `git diff --check` passed. Qualified teacher sign-off and production deployment remain pending.
