@@ -2497,6 +2497,10 @@ for (const id of ["OFF-0951", "OFF-0952", "OFF-0953"]) {
 const english114Q31to43Keys = ["B", "D", "A", "B", "C", "C", "C", "B", "C", "C", "A", "B", "A"];
 const english114Q31 = official.find(item => item.id === "OFF-0947");
 if (english114Q31?.questionImage !== "./assets/official-exams/114-english-p9.webp" || english114Q31?.questionImages?.join("|") !== "./assets/official-exams/114-english-p8.webp|./assets/official-exams/114-english-p9.webp" || !english114Q31?.requiresImage || !english114Q31?.requiresContext) errors.push("114英文第31題: 必須顯示包含Picture 7與題目選項的官方第8頁，並保留題組前頁材料");
+for (const id of ["OFF-0948", "OFF-0949", "OFF-0950"]) {
+  const item = official.find(question => question.id === id);
+  if (!item || item.requiresImage || item.questionImage || item.questionImages?.length) errors.push(`${id}: 114英文文字題已完整轉錄，不應顯示多餘整頁試卷圖`);
+}
 const english114Q31to43 = [];
 for (let number = 31; number <= 43; number += 1) {
   const row = official.find(question => question.source?.year === 114 && question.subject === "英文" && question.source.questionNumber === number);

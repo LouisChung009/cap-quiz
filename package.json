@@ -9,6 +9,7 @@
   "scripts": {
     "validate:official-chinese-110-q03": "node scripts/validate-official-chinese-110-q03.mjs",
     "reconcile:social-111-q11-q20": "node scripts/reconcile-social-111-q11-q20.mjs",
+    "reconcile:english-114-q31-q36": "node scripts/reconcile-english-114-q31-q36.mjs",
     "validate:stale-social-0116-0125": "node scripts/clear-stale-social-audit-0116-0125.mjs",
     "validate:stale-science-0400-0406-0417-0424": "node scripts/clear-stale-science-audit-0400-0406-0417-0424.mjs",
     "validate:stale-english-0601-0700": "node scripts/clear-stale-english-audit-0601-0700.mjs",
