@@ -10,6 +10,7 @@ ASSETS.push("./assets/official-exams/110-social-q36-cause-effects.svg","./assets
 ASSETS.push("./assets/official-exams/112-chinese-q08-stamp-options.svg","./assets/official-exams/112-chinese-q17-sdg-chart.svg","./assets/official-exams/112-chinese-p5.webp","./assets/official-exams/112-chinese-q38-figure.svg","./assets/official-exams/112-chinese-p13.webp","./assets/official-exams/112-english-q01-grapes.svg","./assets/official-exams/112-english-p2.webp");
 ASSETS[8]="./data/mission-questions.json?v=65";
 ASSETS.push("./assets/official-exams/114-english-p8.webp");
+ASSETS.push("./assets/official-exams/114-english-p9.webp");
 ASSETS[9]="./data/chinese.json?v=4.6.85";
 ASSETS[10]="./data/english.json?v=4.6.104";
 ASSETS[11]="./data/math.json?v=4.6.61";

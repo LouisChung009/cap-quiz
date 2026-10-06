@@ -46773,7 +46773,7 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "【Comic context】Around the year 400, people came to Easter Island, where there were many trees. They used trees to make fire and build houses. They also made large statues and moved them with wood. Trees were needed in every part of life; over time fewer trees remained. Without enough trees to keep water under the ground, the land became dry and plants did not grow. People began to fight for water and food, and the statues were moved to fighting grounds to show power. The last trees were probably cut down, and when the last trees fell, people on the island fell too. The final panel warns: ‘Let's not make Earth, our only home, another Easter Island.’\n\nWhat do the comics tell us?",
-    "questionImage": "./assets/official-exams/114-english-p8.webp",
+    "questionImage": "./assets/official-exams/114-english-p9.webp",
     "imageAlt": "復活節島六格漫畫：森林由繁茂到砍伐殆盡，土地乾旱、居民爭奪資源；末格警告不要讓地球成為另一個復活節島",
     "options": [
       "Enjoy life while we can.",
@@ -46811,7 +46811,8 @@
     "requiresImage": true,
     "requiresContext": false,
     "questionImages": [
-      "./assets/official-exams/114-english-p8.webp"
+      "./assets/official-exams/114-english-p8.webp",
+      "./assets/official-exams/114-english-p9.webp"
     ],
     "answerKeyReview": {
       "status": "verified",
@@ -46828,7 +46829,7 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "【Comic context】Around the year 400, people came to Easter Island, where there were many trees. They used trees to make fire and build houses. They also made large statues and moved them with wood. Trees were needed in every part of life; over time fewer trees remained. Without enough trees to keep water under the ground, the land became dry and plants did not grow. People began to fight for water and food, and the statues were moved to fighting grounds to show power. The last trees were probably cut down, and when the last trees fell, people on the island fell too. The final panel warns: ‘Let's not make Earth, our only home, another Easter Island.’\n\nWhat can we learn about the people in the comics?",
-    "questionImage": "./assets/official-exams/114-english-p8.webp",
+    "questionImage": "./assets/official-exams/114-english-p9.webp",
     "imageAlt": "復活節島六格漫畫：島民搬動石像並將其移到戰場，以展現力量；圖中同時呈現森林減少與土地乾旱",
     "options": [
       "They made fire before starting a fight.",
@@ -46866,7 +46867,8 @@
     "requiresImage": true,
     "requiresContext": false,
     "questionImages": [
-      "./assets/official-exams/114-english-p8.webp"
+      "./assets/official-exams/114-english-p8.webp",
+      "./assets/official-exams/114-english-p9.webp"
     ],
     "answerKeyReview": {
       "status": "verified",
@@ -46883,7 +46885,7 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "【Reading material】Around the year 400, people came to Easter Island, where there were many trees. They used trees to make fire and build houses. They also made large statues and moved them with wood. Trees were needed in every part of their lives. Years passed, and there were fewer and fewer trees. Without enough trees to keep water under the ground, the land became dry and plants did not grow. People began to fight for water and food. The statues were moved to fighting grounds to show their power. The last trees were probably cut down at this time. Those who cut down the last trees surely understood how important trees were—but still, they did it. When the last trees fell to the ground, people on the island fell, too. The final panel warns: ‘Let's not make Earth, our only home, another Easter Island.’\n\nWhat does ‘did it’ in Picture 7 mean?",
-    "questionImage": "./assets/official-exams/114-english-p8.webp",
+    "questionImage": "./assets/official-exams/114-english-p9.webp",
     "imageAlt": "114年國中教育會考英文科第31題官方試卷頁面",
     "options": [
       "Fall to the ground.",
@@ -46920,8 +46922,8 @@
     "requiresImage": true,
     "requiresContext": true,
     "questionImages": [
-      "./assets/official-exams/114-english-p7.webp",
-      "./assets/official-exams/114-english-p8.webp"
+      "./assets/official-exams/114-english-p8.webp",
+      "./assets/official-exams/114-english-p9.webp"
     ],
     "answerKeyReview": {
       "status": "已依114年官方英文科題本第31題核對",

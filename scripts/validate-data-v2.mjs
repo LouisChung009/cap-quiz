@@ -2323,8 +2323,9 @@ const english114ChatQuestion = official.find(question => question.id === "OFF-09
 if (!english114ChatQuestion?.question.includes("Jenny: ‘I agree.") || !english114ChatQuestion.question.includes("Mark: ‘I didn't mean that")) errors.push("114英文第22題: 群聊發言者標籤或回應缺失");
 for (const [id, clue] of [["OFF-0945", "another Easter Island"], ["OFF-0946", "What can we learn about the people"]]) {
   const row = official.find(question => question.id === id);
-  const expectedAsset = "./assets/official-exams/114-english-p8.webp";
-  if (!row?.question.includes(clue) || !row.requiresImage || row.questionImage !== expectedAsset || row.questionImages?.length !== 1 || row.questionImages[0] !== expectedAsset || !row.imageAlt?.includes("漫畫") || !row.answerKeyReview?.evidenceSources?.includes(expectedAsset) || !serviceWorker.includes("114-english-p8.webp")) errors.push(`${id}: 114英文復活節島漫畫題必須只顯示第8頁圖像、具描述性替代文字、第8頁核對來源及離線快取`);
+  const contextAsset = "./assets/official-exams/114-english-p8.webp";
+  const questionAsset = "./assets/official-exams/114-english-p9.webp";
+  if (!row?.question.includes(clue) || !row.requiresImage || row.questionImage !== questionAsset || row.questionImages?.join("|") !== `${contextAsset}|${questionAsset}` || !row.imageAlt?.includes("漫畫") || !row.answerKeyReview?.evidenceSources?.includes(contextAsset) || !serviceWorker.includes("114-english-p8.webp") || !serviceWorker.includes("114-english-p9.webp")) errors.push(`${id}: 114英文復活節島漫畫題必須顯示漫畫材料頁與題目頁、具描述性替代文字、核對來源及離線快取`);
 }
 const english111WordGamesKeys = ["D", "C", "A", "A"];
 const english111Q1 = official.find(question => question.id === "OFF-0275");
@@ -2494,6 +2495,8 @@ for (const id of ["OFF-0951", "OFF-0952", "OFF-0953"]) {
   if (!item || (item.question.match(/The picture shows a UK electricity worker in the 1970s/g) || []).length !== 1) errors.push(`${id}: 114英文閱讀材料重複或缺漏`);
 }
 const english114Q31to43Keys = ["B", "D", "A", "B", "C", "C", "C", "B", "C", "C", "A", "B", "A"];
+const english114Q31 = official.find(item => item.id === "OFF-0947");
+if (english114Q31?.questionImage !== "./assets/official-exams/114-english-p9.webp" || english114Q31?.questionImages?.join("|") !== "./assets/official-exams/114-english-p8.webp|./assets/official-exams/114-english-p9.webp" || !english114Q31?.requiresImage || !english114Q31?.requiresContext) errors.push("114英文第31題: 必須顯示包含Picture 7與題目選項的官方第8頁，並保留題組前頁材料");
 const english114Q31to43 = [];
 for (let number = 31; number <= 43; number += 1) {
   const row = official.find(question => question.source?.year === 114 && question.subject === "英文" && question.source.questionNumber === number);
