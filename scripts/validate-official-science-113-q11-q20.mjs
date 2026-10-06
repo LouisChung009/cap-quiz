@@ -29,6 +29,10 @@ const genetics = rows.find(row => row.id === "OFF-0836");
 if (!genetics?.question.includes("4 隻長翅及 6 隻短翅") || !genetics.question.includes("400 隻長翅、600 隻短翅")) failures.push("OFF-0836: original sample observation or extrapolation missing");
 const acid = rows.find(row => row.id === "OFF-0841");
 if (!["pH 2.4", "6.82%", "7.87%", "pH 3.7", "4.15%", "4.92%", "pH 3.1", "5.95%", "6.76%", "丙＜甲＜乙"].every(value => acid?.question.includes(value))) failures.push("OFF-0841: table values or experiment-two ranking missing");
+const psi = rows.find(row => row.id === "OFF-0840");
+if (!psi?.question.includes("1 psi＝1 磅力／平方英寸") || psi.answer !== 1 || !psi.explanation.includes("單位面積所受的力")) failures.push("OFF-0840: pressure-unit interpretation or keyed answer missing");
+const organic = rows.find(row => row.id === "OFF-0843");
+if (!organic?.question.includes("甲含 C 75%、H 25%") || !organic.question.includes("乙含 C 27%、H 0%、O 73%") || !organic.question.includes("丙含 C 100%") || organic.answer !== 1 || !organic.solutionSteps?.some(step => step.includes("無機碳氧化物"))) failures.push("OFF-0843: source composition data or organic-compound reasoning missing");
 const isobars = rows.find(row => row.id === "OFF-0839");
 if (!isobars?.question.includes("1020 hPa") || !isobars.question.includes("等壓線") || !isobars.options?.[3]?.includes("風向")) failures.push("OFF-0839: isobar-map question lacks required source context");
 
