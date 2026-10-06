@@ -2527,6 +2527,16 @@ const science114NervousSystem = science114(12);
 if (!science114NervousSystem?.question.includes("受器：小明嘴巴、阿華腳") || !science114NervousSystem.question.includes("傳導神經：小明僅有感覺神經元") || science114NervousSystem.answer !== 2 || science114NervousSystem.requiresImage || science114NervousSystem.questionImages?.length || !science114NervousSystem.explanation.includes("感覺神經與運動神經")) errors.push("114自然第12題: 神經系統比較資料、正解或文字推理缺漏");
 const science114Ions = science114(17);
 if (!science114Ions?.question.includes("Ca²⁺") || !science114Ions.question.includes("Cl⁻") || science114Ions.answer !== 0 || science114Ions.requiresImage || science114Ions.questionImages?.length || !science114Ions.solutionSteps?.some(step => step.includes("y=20−2=18")) || !science114Ions.solutionSteps?.some(step => step.includes("z=17+1=18"))) errors.push("114自然第17題: 離子質子／電子資料、正解或電荷推理缺漏");
+const science114Compass = science114(31);
+for (const image of ["114-science-q31-circuit-setups.png", "114-science-q31-compass-options.png"]) {
+  const imagePath = `./assets/official-exams/${image}`;
+  if (!science114Compass?.questionImages?.includes(imagePath) || !serviceWorker.includes(image)) errors.push(`114自然第31題: 電流磁效應必要圖 ${image} 未附或未預載`);
+  try { await access(join(root, "assets/official-exams", image)); }
+  catch { errors.push(`114自然第31題: 必要圖檔 ${image} 不存在`); }
+}
+if (!science114Compass?.question.includes("南北向") || science114Compass.answer !== 0 || /\(cid:\d+\)/i.test(science114Compass.question)) errors.push("114自然第31題: 清楚題幹、官方答案或電流方向資料缺漏");
+const science114Moon = science114(49);
+if (!science114Moon?.question.includes("上弦月") || !science114Moon.question.includes("下弦月") || science114Moon.answer !== 2 || !science114Moon.questionImages?.some(image => image.endsWith("114-science-q49-moon-phase-options.svg")) || /\(cid:\d+\)/i.test(science114Moon.question)) errors.push("114自然第49題: 月相題幹、必要選項圖或答案缺漏／含 OCR 污染");
 for (const [number, answer, clue] of [[21, 3, "70°C 的質量變化率均高於 50°C"], [22, 2, "木質部"], [23, 1, "B為8百帕"], [24, 0, "四個不同屬"], [25, 1, "0.96 mW"], [26, 3, "Q=mcΔT"], [27, 3, "反光鏡"], [28, 1, "碘被還原"], [29, 3, "m丙＞m甲＞m乙"], [30, 0, "兩隻黑眼親代都必須帶有 a"], [31, 0, "電流方向向北"], [32, 1, "68 g H₂S"]]) {
   const row = science114(number);
   if (!row || row.answer !== answer || !row.explanation.includes(clue) || !row.solutionSteps?.length || !row.teacherTip) errors.push(`114自然第${number}題: 官方答案、解題依據或教師提醒與已審題內容不符`);
