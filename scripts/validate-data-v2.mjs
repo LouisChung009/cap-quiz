@@ -2756,12 +2756,12 @@ for (const [number, image] of [[43, "114-social-q43-artifacts.svg"], [44, "114-s
   const row = social114(number);
   if (!row?.requiresImage || row.questionImage !== `./assets/official-exams/${image}` || !row.questionImages?.includes(row.questionImage) || !serviceWorker.includes(image)) errors.push(`114社會第${number}題: 必要文物／雕像圖缺漏或未加入離線快取`);
 }
-for (const [number, image] of [[43, "114-social-q43-artifacts.svg"], [44, "114-social-q44-god-statue.svg"], [53, "114-social-q53-iceberg-map.svg"]]) {
+for (const [number, image] of [[43, "114-social-q43-artifacts.svg"], [44, "114-social-q44-god-statue.svg"], [51, "114-social-q51-tombstone.svg"], [53, "114-social-q53-iceberg-map.svg"]]) {
   const row = social114(number);
   if (!row?.requiresImage || row.questionImage !== `./assets/official-exams/${image}` || !row.questionImages?.includes(row.questionImage) || !serviceWorker.includes(image)) errors.push(`114社會第${number}題: 必要圖像未使用專用裁切或未加入離線快取`);
 }
 const parsiTombstone = social114(51);
-if (!parsiTombstone?.question.includes("西元1850年") || !parsiTombstone.question.includes("伊嗣俟紀元1219年") || parsiTombstone.requiresImage || parsiTombstone.questionImages?.length) errors.push("114社會第51題: 墓碑日期線索未提供或仍依賴整頁掃描");
+if (!parsiTombstone?.question.includes("西元1850年") || !parsiTombstone.question.includes("伊嗣俟紀元1219年") || !parsiTombstone.requiresImage || parsiTombstone.questionImage !== "./assets/official-exams/114-social-q51-tombstone.svg") errors.push("114社會第51題: 墓碑日期線索或專用裁切圖缺失");
 for (const [number, answer, clue] of [[51, 3, "耶茲德格德三世"], [52, 2, "阿根廷於1927年主張南喬治亞島主權"], [53, 1, "整體朝東北漂流"], [54, 3, "破壞沿岸環境並威脅生物"]]) {
   const row = social114(number);
   if (!row || row.answer !== answer || !row.explanation.includes(clue) || !row.solutionSteps?.length || !row.teacherTip) errors.push(`114社會第${number}題: 官方答案、材料推論或教師提醒與已審內容不符`);

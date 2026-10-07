@@ -23,7 +23,9 @@ const evidence = [
 ];
 const figures = new Map([
   [43, "./assets/official-exams/114-social-q43-artifacts.svg"],
-  [44, "./assets/official-exams/114-social-q44-god-statue.svg"]
+  [44, "./assets/official-exams/114-social-q44-god-statue.svg"],
+  [51, "./assets/official-exams/114-social-q51-tombstone.svg"],
+  [53, "./assets/official-exams/114-social-q53-iceberg-map.svg"]
 ]);
 const sourcePages = [
   "./assets/official-exams/114-social-p11.webp",

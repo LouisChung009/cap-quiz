@@ -51434,8 +51434,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "【閱讀材料】巴斯人的祖先原居伊朗高原。七世紀上半葉阿拉伯軍隊擊敗薩珊王朝後，伊斯蘭勢力逐漸統治當地，巴斯人遷往印度半島西部避難。當地穆斯林統治者對不同宗教文化較為寬容，使巴斯人得以從事貿易，並世代信仰源自伊朗高原的宗教。十七世紀後期，巴斯商人開始與歐洲商人合作，促進孟買等印度西部城市繁榮，也隨歐洲商人到中國經商。十八世紀後期至十九世紀初，巴斯商人在歐洲與中國的貿易網絡中扮演重要角色，並與控制印度的英國殖民者共同在華活動，留下會館及墓園。十九世紀中期以後，受美國內戰造成英國紡織原料短缺、蘇伊士運河開通促進航運等因素影響，巴斯商人增加對印度及歐洲產業投資，對中國貿易比例逐漸下降。\n\n墓碑記載此人於西元1850年去世，並列出伊嗣俟紀元1219年。關於這種紀年方式的解讀，何者最適當？",
-    "questionImage": "",
-    "imageAlt": "",
+    "questionImage": "./assets/official-exams/114-social-q51-tombstone.svg",
+    "imageAlt": "巴斯人墓碑上的西元與伊嗣俟紀元日期",
     "options": [
       "當時類似的巴斯墓葬，多集中於今日山東 青島一帶",
       "根據時間可確認，此人於《南京條約》簽訂前來華",
@@ -51468,9 +51468,11 @@
       "lastReviewedAt": null,
       "nextReviewAt": null
     },
-    "requiresImage": false,
+    "requiresImage": true,
     "requiresContext": false,
-    "questionImages": [],
+    "questionImages": [
+      "./assets/official-exams/114-social-q51-tombstone.svg"
+    ],
     "answerKeyReview": {
       "status": "verified",
       "note": "依114年國中教育會考官方選擇題參考答案一覽表核對：社會第51題官方答案D，與目前正解索引及選項相符。答案表：https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view"
