@@ -15,6 +15,6 @@ await mkdir("public", { recursive: true });
 for (const entry of [
   "index.html", "app.js", "bootstrap.js", "question-validation.js", "styles.css", "sw.js",
   "manifest.webmanifest", "icon.svg", "privacy.html", "terms.html", "help.html",
-  "account", "admin", "assets", "data", "vendor"
+  "account", "admin", "assets", "data", "shared", "vendor"
 ]) await cp(entry, `public/${entry}`, { recursive: true });
 console.log("Static PWA copied to public/");

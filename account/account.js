@@ -1,9 +1,10 @@
 import { getClerk } from "../vendor/auth-runtime.js";
+import { safeInternalReturnTo } from "../shared/internal-return-to.js";
 
 const mount = document.querySelector("#clerkMount");
 const message = document.querySelector("[data-message]");
 const flow = document.body.dataset.authFlow;
-const returnTo = new URLSearchParams(location.search).get("returnTo") || "/";
+const returnTo = safeInternalReturnTo(new URLSearchParams(location.search).get("returnTo") || "/");
 
 try {
   const clerk = await getClerk();
