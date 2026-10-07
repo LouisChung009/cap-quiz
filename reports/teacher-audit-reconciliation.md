@@ -11,6 +11,7 @@ Updated: 2026-10-07 (113 Social Studies review at `8209f37`; report refreshed at
 - The 113 Social Studies data/audit reconciliation is in `8209f37`; a follow-up report-only update is in `911af18`. At verification, Vercel reported the `911af18` production deployment Ready and GitHub Pages workflow #228 succeeded. This report is published on GitHub Pages; Vercel does not expose the reports directory.
 - 112 Social Studies Q41–54 were compared with source pages and official answer keys; fourteen superseded flags were removed only after regressions passed. See `reports/recheck-social-112-q41-q50-2026-10-07.md` and `reports/recheck-social-112-q51-q54-2026-10-07.md`.
 - 113 Social Studies Q1–10 were compared with source pages and official answer keys; ten superseded flags were removed only after source-linked checks passed. See `reports/recheck-social-113-q01-q10-2026-10-07.md`. This was source-based AI review, not teacher certification.
+- 113 Social Studies Q11–20 were compared with source pages and official answer keys; ten additional superseded flags were removed after checks of answer indices, explanations, figure assets, and offline source-page dependencies. See `reports/recheck-social-113-q11-q20-2026-10-07.md`. This was source-based AI review, not teacher certification.
 
 ## 國文
 - Authored items: 1000
@@ -52,7 +53,7 @@ Updated: 2026-10-07 (113 Social Studies review at `8209f37`; report refreshed at
 - Authored items: 1000
 - Authored items with teacher-signed review fields: 0
 - Authored items awaiting qualified teacher review: 1000
-- Unverified official-question flags: 98
+- Unverified official-question flags: 88
 - Unverified authored-question flags: 1000
 - Stale IDs: 0
 - Subject mismatches: 0
