@@ -1,6 +1,6 @@
 # Current teacher-audit reconciliation
 
-Generated: 2026-10-07T03:09:02.675Z
+Generated: 2026-10-07T03:14:50.474Z
 
 ## Interpretation
 - This is an audit-work tracker, not teacher certification or a confirmed-defect count.
@@ -15,6 +15,7 @@ Generated: 2026-10-07T03:09:02.675Z
 - 114 Social Studies Q51–54 were checked against the official answer table and original pages; the missing focused tombstone was added, the Q53 map was verified, and all four superseded flags were removed after regressions passed. See `reports/recheck-social-114-q51-q54-2026-10-07.md`.
 - 114 English Q37–43 were checked against the official answer table and complete source passages; seven superseded flags were removed after answer, evidence, teaching-field, and no-redundant-scan checks passed. See `reports/recheck-english-114-q37-q43-2026-10-07.md`.
 - 114 English Q1 and Q20–28 were rechecked against original pages and official answer keys; ten superseded flags were removed after answer, passage, worked-solution, and focused-image checks passed. See `reports/recheck-english-114-q01-q28-selected-2026-10-07.md`.
+- 111 English Q34, Q38, and Q40–43 were rechecked against original pages and official answer keys; six superseded flags were removed after answer, passage, solution, and image-dependency checks passed. See `reports/recheck-english-111-q34-q38-q40-q43-2026-10-07.md`.
 - 114 Science Q1–10 were rechecked against cached official paper pages 2–4 and the existing official-key review; nine remaining explanation flags were removed only after answer, worked-reasoning, source-cue, and image-dependency checks passed (Q4 had already been cleared). See `reports/recheck-science-114-q01-q10-2026-10-07.md`.
 
 ## 國文
@@ -28,7 +29,7 @@ Generated: 2026-10-07T03:09:02.675Z
 ## 英文
 - Authored items: 1000
 - Authored items with teacher-signed review fields: 0
-- Unverified official-question flags: 18
+- Unverified official-question flags: 12
 - Unverified authored-question flags: 0
 - Stale IDs: 0
 - Subject mismatches: 0
