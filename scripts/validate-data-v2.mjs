@@ -2950,7 +2950,7 @@ for (const [id, unit, point] of [["CHI-0141", "語法", "語文知識與句意"]
 const chineseCouplet = chineseAuthored.find(item => item.id === "CHI-0145");
 if (!chineseCouplet || chineseCouplet.answer !== 2 || !chineseCouplet.teacherTip.includes("對偶")) errors.push("CHI-0145: 對偶題的教師提醒不匹配");
 const genericLanguageTip = "文言、成語或修辭題先依上下文判斷";
-for (const [id, unit, point, tip] of [["CHI-0151", "成語", "不恥下問的語境義", "下問"], ["CHI-0152", "成語", "成語情境判讀", "以身作則"], ["CHI-0153", "修辭", "譬喻與語境義", "本體"], ["CHI-0154", "文言文", "文言虛詞其", "句位"], ["CHI-0155", "語法", "複句關係判讀", "轉折"], ["CHI-0156", "修辭", "明喻", "喻詞"], ["CHI-0157", "閱讀理解", "景物描寫效果", "動詞"], ["CHI-0158", "字音", "多音字辨音", "讀音"], ["CHI-0159", "文言文", "文言實詞義辨析", "前文"], ["CHI-0160", "修辭", "擬人", "非人主體"]]) {
+for (const [id, unit, point, tip] of [["CHI-0151", "成語", "不恥下問的語境義", "下問"], ["CHI-0152", "成語", "成語情境判讀", "言傳身教"], ["CHI-0153", "修辭", "譬喻與語境義", "本體"], ["CHI-0154", "文言文", "文言虛詞其", "句位"], ["CHI-0155", "語法", "複句關係判讀", "轉折"], ["CHI-0156", "修辭", "明喻", "喻詞"], ["CHI-0157", "閱讀理解", "景物描寫效果", "動詞"], ["CHI-0158", "字音", "多音字辨音", "讀音"], ["CHI-0159", "文言文", "文言實詞義辨析", "前文"], ["CHI-0160", "修辭", "擬人", "非人主體"]]) {
   const question = chineseAuthored.find(item => item.id === id);
   if (!question || question.unit !== unit || question.knowledgePoint !== point || question.teacherTip.includes(genericLanguageTip) || !question.teacherTip.includes(tip)) errors.push(`${id}: 單元、考點或個別教師提醒不符`);
 }
