@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-10-07T00:37:46.144Z",
+  "subjects": {
+    "國文": {
+      "authoredQuestions": 1000,
+      "authoredTeacherSignedReviews": 0,
+      "authoredTeacherReviewMissing": 1000,
+      "auditEntries": 0,
+      "unverifiedOfficialFlags": 0,
+      "unverifiedAuthoredFlags": 0,
+      "staleFindings": 0,
+      "subjectMismatches": 0
+    },
+    "英文": {
+      "authoredQuestions": 1000,
+      "authoredTeacherSignedReviews": 0,
+      "authoredTeacherReviewMissing": 1000,
+      "auditEntries": 35,
+      "unverifiedOfficialFlags": 35,
+      "unverifiedAuthoredFlags": 0,
+      "staleFindings": 0,
+      "subjectMismatches": 0
+    },
+    "數學": {
+      "authoredQuestions": 1000,
+      "authoredTeacherSignedReviews": 0,
+      "authoredTeacherReviewMissing": 1000,
+      "auditEntries": 0,
+      "unverifiedOfficialFlags": 0,
+      "unverifiedAuthoredFlags": 0,
+      "staleFindings": 0,
+      "subjectMismatches": 0
+    },
+    "自然": {
+      "authoredQuestions": 1000,
+      "authoredTeacherSignedReviews": 0,
+      "authoredTeacherReviewMissing": 1000,
+      "auditEntries": 1080,
+      "unverifiedOfficialFlags": 80,
+      "unverifiedAuthoredFlags": 1000,
+      "staleFindings": 0,
+      "subjectMismatches": 0
+    },
+    "社會": {
+      "authoredQuestions": 1000,
+      "authoredTeacherSignedReviews": 0,
+      "authoredTeacherReviewMissing": 1000,
+      "auditEntries": 1122,
+      "unverifiedOfficialFlags": 122,
+      "unverifiedAuthoredFlags": 1000,
+      "staleFindings": 0,
+      "subjectMismatches": 0
+    }
+  }
+}
