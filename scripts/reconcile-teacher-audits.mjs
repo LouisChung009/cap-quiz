@@ -20,7 +20,23 @@ const official = JSON.parse(await readFile(join(root, "data", "mission-questions
 for (const question of official) questionById.set(question.id, question);
 
 const result = { generatedAt: new Date().toISOString(), subjects: {} };
-const markdown = ["# Current teacher-audit reconciliation", "", `Generated: ${result.generatedAt}`, ""];
+const markdown = [
+  "# Current teacher-audit reconciliation",
+  "",
+  `Generated: ${result.generatedAt}`,
+  "",
+  "## Interpretation",
+  "- This is an audit-work tracker, not teacher certification or a confirmed-defect count.",
+  "- “Unverified” entries are prior audit flags still needing item-by-item disposition; passing automated tests does not clear an item-level claim.",
+  "- All 5,000 authored questions still await qualified subject-teacher review; signed teacher-review fields are absent.",
+  "- Automated acceptance passed locally: `npm test`, `npm run build`, exact authored-stem/explanation duplicate checks, and 100,000 random draws with no within-round duplicates.",
+  "- Every explicit figure reference resolves to a local asset; this does not prove each asset matches the original exam page.",
+  "- Latest deployed version is tracked by GitHub Pages Actions; the interactive Vercel learner flow still requires signed-in browser verification.",
+  "- 112 Social Studies Q41–54 were compared with source pages and official answer keys; fourteen superseded flags were removed only after regressions passed. See `reports/recheck-social-112-q41-q50-2026-10-07.md` and `reports/recheck-social-112-q51-q54-2026-10-07.md`.",
+  "- 113 Social Studies Q1–54 and 114 Social Studies Q1–50 have source-based AI review reports; these are not qualified teacher certification.",
+  "- 114 Social Studies Q41–50 were checked against the official answer table and original pages; both required focused figures and the relevant original pages are available offline. See `reports/recheck-social-114-q41-q50-2026-10-07.md`.",
+  ""
+];
 
 for (const [subject, file] of subjects) {
   const authored = JSON.parse(await readFile(join(root, "data", `${file}.json`), "utf8"));
