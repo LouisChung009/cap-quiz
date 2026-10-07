@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const rows = JSON.parse(await readFile(join(root, "data/mission-questions.json"), "utf8"));
 const keys = [1, 3, 3, 1, 3, 1, 1, 2, 1, 2];
+if (keys[4] !== 3) throw new Error("OFF-0839: official answer for 113 Natural Science Q15 must be D");
 const figures = new Map([["OFF-0839", "113-science-q15-isobar-map.svg"]]);
 const failures = [];
 

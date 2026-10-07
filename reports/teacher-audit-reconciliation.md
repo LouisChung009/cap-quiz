@@ -1,6 +1,6 @@
 # Current teacher-audit reconciliation
 
-Generated: 2026-10-07T03:33:31.863Z
+Generated: 2026-10-07T03:40:12.450Z
 
 ## Interpretation
 - This is an audit-work tracker, not teacher certification or a confirmed-defect count.
@@ -20,6 +20,7 @@ Generated: 2026-10-07T03:33:31.863Z
 - 113 English Q1, Q30, Q33, and Q40–43 were rechecked against original pages and official answer keys; Q1 now uses a focused SVG illustration, Q41 retains its needed chart, and seven superseded flags were removed after text/image/offline checks passed. See `reports/recheck-english-113-selected-2026-10-07.md`.
 - 114 Science Q1–10 were rechecked against cached official paper pages 2–4 and the existing official-key review; nine remaining explanation flags were removed only after answer, worked-reasoning, source-cue, and image-dependency checks passed (Q4 had already been cleared). See `reports/recheck-science-114-q01-q10-2026-10-07.md`.
 - 112 Science Q1–10 were rechecked against original pages 2–4 and official answer-key provenance; eight flags were removed only after answer-index, worked-explanation, source-cue, and focused-image checks passed. See `reports/recheck-science-112-q01-q10-2026-10-07.md`.
+- 113 Science Q11–20 were rechecked against original pages 2–5 and official answer-key provenance; five stale explanation-quality flags were removed only after answer-index, worked-solution, source-cue, and Q15 figure checks passed. See `reports/recheck-science-113-q11-q20-2026-10-07.md`.
 
 ## 國文
 - Authored items: 1000
@@ -48,7 +49,7 @@ Generated: 2026-10-07T03:33:31.863Z
 ## 自然
 - Authored items: 1000
 - Authored items with teacher-signed review fields: 0
-- Unverified official-question flags: 63
+- Unverified official-question flags: 58
 - Unverified authored-question flags: 1000
 - Stale IDs: 0
 - Subject mismatches: 0
