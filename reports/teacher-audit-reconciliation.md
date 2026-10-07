@@ -1,6 +1,6 @@
 # Current teacher-audit reconciliation
 
-Generated: 2026-10-07T03:48:31.511Z
+Generated: 2026-10-07T03:54:25.681Z
 
 ## Interpretation
 - This is an audit-work tracker, not teacher certification or a confirmed-defect count.
@@ -22,6 +22,8 @@ Generated: 2026-10-07T03:48:31.511Z
 - 112 Science Q1–10 were rechecked against original pages 2–4 and official answer-key provenance; eight flags were removed only after answer-index, worked-explanation, source-cue, and focused-image checks passed. See `reports/recheck-science-112-q01-q10-2026-10-07.md`.
 - 113 Science Q11–20 were rechecked against original pages 2–5 and official answer-key provenance; five stale explanation-quality flags were removed only after answer-index, worked-solution, source-cue, and Q15 figure checks passed. See `reports/recheck-science-113-q11-q20-2026-10-07.md`.
 - 113 Science Q21–30 were rechecked against original pages 5–7 and official answer-key provenance; seven stale explanation-quality flags were removed after source-data, answer-index, worked-calculation, and no-unneeded-figure checks passed. See `reports/recheck-science-113-q21-q30-2026-10-07.md`.
+- 113 Science Q31–40 were rechecked against original pages and official answer-key provenance; seven flags were removed only after question evidence, worked reasoning, required-figure binding, and service-worker offline-cache checks passed. See `reports/recheck-science-113-q31-q40-2026-10-07.md`.
+- 113 Science Q41–50 were rechecked against the official key and source data; seven flags were removed only after evidence, worked-step, source-provenance, and Q49 offline-graph checks passed. Automated source review is not independent teacher certification. See `reports/recheck-science-113-q41-q50-2026-10-07.md`.
 
 ## 國文
 - Authored items: 1000
@@ -50,7 +52,7 @@ Generated: 2026-10-07T03:48:31.511Z
 ## 自然
 - Authored items: 1000
 - Authored items with teacher-signed review fields: 0
-- Unverified official-question flags: 44
+- Unverified official-question flags: 37
 - Unverified authored-question flags: 1000
 - Stale IDs: 0
 - Subject mismatches: 0
