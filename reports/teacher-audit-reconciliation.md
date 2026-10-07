@@ -1,6 +1,6 @@
 # Current teacher-audit reconciliation
 
-Generated: 2026-10-07T03:45:03.449Z
+Generated: 2026-10-07T03:48:31.511Z
 
 ## Interpretation
 - This is an audit-work tracker, not teacher certification or a confirmed-defect count.
@@ -50,7 +50,7 @@ Generated: 2026-10-07T03:45:03.449Z
 ## 自然
 - Authored items: 1000
 - Authored items with teacher-signed review fields: 0
-- Unverified official-question flags: 51
+- Unverified official-question flags: 44
 - Unverified authored-question flags: 1000
 - Stale IDs: 0
 - Subject mismatches: 0
