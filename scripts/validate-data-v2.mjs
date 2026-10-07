@@ -2,6 +2,7 @@ import { access, readFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { matchesResponse } from "../question-validation.js";
+import { isValidQuestionId } from "../api/_lib/question-id.js";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const files = ["chinese", "english", "math", "science", "social"];
@@ -11,6 +12,7 @@ const allQuestions = new Set();
 const imageReferences = [];
 const errors = [];
 let total = 0;
+if (!isValidQuestionId("OFF-MATH-114-Q01-MC") || isValidQuestionId("OFF-MATH-114-Q01")) errors.push("作答 API 題目 ID 格式驗證異常");
 
 const contextPattern = /根據(?:本文|上文|文章|選文|材料|短文|報導|資料)|依據(?:本文|上文|文章|選文|材料|短文|報導|資料)|本文(?:中|主旨|作者|提到|認為|敘述|寫作)|文中(?:提到|指出|敘述|作者)|這篇(?:文章|短文)|由本文|閱讀(?:本文|上文|下文|文章|選文|材料)|according to (?:the|this) (?:text|article|reading|passage)|in the (?:text|article|reading|passage)|the writer|the author/i;
 
@@ -39,6 +41,7 @@ function findDuplicateRecordKeys(source) {
 }
 
 function validate(question, location) {
+  if (!isValidQuestionId(question.id)) errors.push(`${location}: 作答 API 不接受此題目 ID 格式`);
   for (const image of [question.questionImage, ...(question.questionImages || [])].filter(Boolean)) imageReferences.push({ id: question.id, image });
   const isConstructedResponse = question.type === "非選擇題";
   for (const field of required) {
