@@ -51,6 +51,7 @@ const markdown = [
   "- 114 Science Q11–20 were rechecked against original pages, official keys, worked explanations, the Q14 ambiguity disclosure, and four focused offline figures; eight superseded flags were removed. See `reports/audit-official-science-114-q11-q20-2026-10-03.md`.",
   "- 114 Science Q21–30 were rechecked against original pages and official keys; seven superseded flags were removed after regression checks for source data, calculations, reasoning, and all required offline figures. See `reports/audit-official-science-114-q21-q32-2026-10-03.md`.",
   "- 114 Science Q31–40 were rechecked against original pages, official keys, calculations, worked reasoning, and required figures; six superseded flags were removed after offline-cache checks. See `reports/audit-official-science-114-q33-q42-2026-10-03.md` and `reports/audit-official-science-114-q21-q32-2026-10-03.md`.",
+  "- 114 Science Q41–50 were rechecked against original pages and official answer keys; five superseded flags were removed after fuel/bleeding/mobility chart, energy-cost, and pulley-calculation regressions passed. See `reports/audit-official-science-114-q43-q50-2026-10-03.md`.",
   ""
 ];
 
