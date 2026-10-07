@@ -1,6 +1,6 @@
 # Current teacher-audit reconciliation
 
-Generated: 2026-10-07T04:07:27.805Z
+Generated: 2026-10-07T04:09:20.432Z
 
 ## Interpretation
 - This is an audit-work tracker, not teacher certification or a confirmed-defect count.
@@ -29,6 +29,7 @@ Generated: 2026-10-07T04:07:27.805Z
 - 114 Science Q21–30 were rechecked against original pages and official keys; seven superseded flags were removed after regression checks for source data, calculations, reasoning, and all required offline figures. See `reports/audit-official-science-114-q21-q32-2026-10-03.md`.
 - 114 Science Q31–40 were rechecked against original pages, official keys, calculations, worked reasoning, and required figures; six superseded flags were removed after offline-cache checks. See `reports/audit-official-science-114-q33-q42-2026-10-03.md` and `reports/audit-official-science-114-q21-q32-2026-10-03.md`.
 - 114 Science Q41–50 were rechecked against original pages and official answer keys; five superseded flags were removed after fuel/bleeding/mobility chart, energy-cost, and pulley-calculation regressions passed. See `reports/audit-official-science-114-q43-q50-2026-10-03.md`.
+- 111 Science Q49–50 were checked against official answer-key provenance, phase-card ordering, neural-response steps, and Q49's offline diagram; the two remaining official-question flags were removed. This is source/content review, not independent teacher certification.
 
 ## 國文
 - Authored items: 1000
@@ -57,7 +58,7 @@ Generated: 2026-10-07T04:07:27.805Z
 ## 自然
 - Authored items: 1000
 - Authored items with teacher-signed review fields: 0
-- Unverified official-question flags: 2
+- Unverified official-question flags: 0
 - Unverified authored-question flags: 1000
 - Stale IDs: 0
 - Subject mismatches: 0
