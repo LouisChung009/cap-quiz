@@ -111,3 +111,31 @@ test("ten-question challenge is unique, explains answers, and increments daily p
   expect(savedHistory.slice(-10).map(item => item.id)).toEqual([...seen]);
   expect(pageErrors).toEqual([]);
 });
+
+test("mobile layout keeps the challenge action visible without covering its text", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await openLocalPreview(page);
+  const layout = await page.evaluate(() => {
+    const action = document.querySelector("#startChallenge").getBoundingClientRect();
+    const title = document.querySelector(".quest-copy h1").getBoundingClientRect();
+    const message = document.querySelector("#questMessage").getBoundingClientRect();
+    return {
+      viewportWidth: window.innerWidth,
+      documentWidth: document.documentElement.scrollWidth,
+      actionLeft: action.left,
+      actionRight: action.right,
+      actionTop: action.top,
+      actionBottom: action.bottom,
+      titleBottom: title.bottom,
+      messageBottom: message.bottom,
+      actionHeight: action.height,
+      actionVisible: action.width > 0 && action.height > 0 && getComputedStyle(document.querySelector("#startChallenge")).visibility === "visible"
+    };
+  });
+  expect(layout.documentWidth).toBeLessThanOrEqual(layout.viewportWidth);
+  expect(layout.actionLeft).toBeGreaterThanOrEqual(0);
+  expect(layout.actionRight).toBeLessThanOrEqual(layout.viewportWidth);
+  expect(layout.actionTop).toBeGreaterThanOrEqual(layout.messageBottom);
+  expect(layout.actionHeight).toBeGreaterThanOrEqual(44);
+  expect(layout.actionVisible).toBe(true);
+});
