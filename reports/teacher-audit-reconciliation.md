@@ -1,6 +1,6 @@
 # Current teacher-audit reconciliation
 
-Updated: 2026-10-07 (local verification; source commit cd6cbd2)
+Updated: 2026-10-07 (local verification; source commit b921eac)
 
 ## Interpretation
 - This is an audit-work tracker, not teacher certification or a confirmed-defect count.
@@ -8,7 +8,8 @@ Updated: 2026-10-07 (local verification; source commit cd6cbd2)
 - All 5,000 authored questions still await qualified subject-teacher review; signed teacher-review fields are absent.
 - Automated acceptance passed locally: `npm test`, `npm run build`, exact authored-stem/explanation duplicate checks, and 100,000 random draws with no within-round duplicates.
 - Every explicit figure reference resolves to a local asset; this does not prove each asset matches the original exam page.
-- The currently deployed application and five subject banks match GitHub `main` at `cd6cbd2`; this report-only update is local and not deployed.
+- The currently deployed application and five subject banks match GitHub `main` at `b921eac`; this question-audit reconciliation is local and not yet deployed.
+- 112 Social Studies Q41–50 were compared with the source pages and official answer keys; ten superseded old flags were removed only after the regression passed. See `reports/recheck-social-112-q41-q50-2026-10-07.md`.
 
 ## 國文
 - Authored items: 1000
