@@ -1,6 +1,6 @@
 # Current teacher-audit reconciliation
 
-Updated: 2026-10-07 (114 Social Studies Q1–10 recheck; official Social Studies review covers 110–114)
+Updated: 2026-10-07 (114 Social Studies Q11–20 recheck; official Social Studies review covers 110–114)
 
 ## Interpretation
 - This is an audit-work tracker, not teacher certification or a confirmed-defect count.
@@ -17,6 +17,7 @@ Updated: 2026-10-07 (114 Social Studies Q1–10 recheck; official Social Studies
 - 113 Social Studies Q41–50 were compared with original pages 11–13 and the official answer key; ten superseded flags were removed after answer, complete shared-passage, focused-map, explanation, and offline-cache checks. See `reports/recheck-social-113-q41-q50-2026-10-07.md`. This was source-based AI review, not teacher certification.
 - 113 Social Studies Q51–54 were compared with original pages 13–14 and the official answer key; four superseded flags were removed after fixing one OCR spacing error and strengthening explanations. The population map and shared cinema passage are checked for visibility and offline support. See `reports/recheck-social-113-q51-q54-2026-10-07.md`. This was source-based AI review, not teacher certification.
 - 114 Social Studies Q1–10 were compared with original pages 1–2 and the official answer key; ten superseded flags were removed after confirming answer indices, source evidence, three required focused figures, and complete textual transcription of Q7's table. Original source pages are cached offline. See `reports/recheck-social-114-q01-q10-2026-10-07.md`. This was source-based AI review, not teacher certification.
+- 114 Social Studies Q11–20 were compared with original pages 3–5 and the official answer key; ten superseded flags were removed after validating the media table transcription, five required figures, worked reasoning, and offline source pages. See `reports/recheck-social-114-q11-q20-2026-10-07.md`. This was source-based AI review, not teacher certification.
 
 ## 國文
 - Authored items: 1000
@@ -58,7 +59,7 @@ Updated: 2026-10-07 (114 Social Studies Q1–10 recheck; official Social Studies
 - Authored items: 1000
 - Authored items with teacher-signed review fields: 0
 - Authored items awaiting qualified teacher review: 1000
-- Unverified official-question flags: 44
+- Unverified official-question flags: 34
 - Unverified authored-question flags: 1000
 - Stale IDs: 0
 - Subject mismatches: 0
