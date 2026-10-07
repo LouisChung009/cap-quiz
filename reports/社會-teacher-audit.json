@@ -1,29 +1,5 @@
 [
   {
-    "id": "OFF-0607",
-    "severity": "medium",
-    "problem": "解析僅重述『正確選項最符合題幹』，未引用本題史料、圖表數據、時空線索或公民概念；solutionSteps 也只是逐字複誦選項，無法支持答案",
-    "suggestedFix": "逐題撰寫可驗證解析：指出材料中的具體證據、說明正確選項推理，並交代其餘選項錯誤原因"
-  },
-  {
-    "id": "OFF-0608",
-    "severity": "medium",
-    "problem": "解析僅重述『正確選項最符合題幹』，未引用本題史料、圖表數據、時空線索或公民概念；solutionSteps 也只是逐字複誦選項，無法支持答案",
-    "suggestedFix": "逐題撰寫可驗證解析：指出材料中的具體證據、說明正確選項推理，並交代其餘選項錯誤原因"
-  },
-  {
-    "id": "OFF-0609",
-    "severity": "high",
-    "problem": "題幹明確引用圖表，但 requiresImage=false，前台不會顯示已存在的官方試卷頁圖；圖表即使被 OCR 混入文字，也已失去版面、圖例或空間關係，部分題目無法可靠作答；解析僅重述『正確選項最符合題幹』，未引用本題史料、圖表數據、時空線索或公民概念；solutionSteps 也只是逐字複誦選項，無法支持答案",
-    "suggestedFix": "將 requiresImage 改為 true，核對 questionImages 指向含完整圖表的頁面，並把題幹與四個選項重新人工拆分；逐題撰寫可驗證解析：指出材料中的具體證據、說明正確選項推理，並交代其餘選項錯誤原因"
-  },
-  {
-    "id": "OFF-0610",
-    "severity": "high",
-    "problem": "題目引用本文／題組／前文，但 requiresContext=false，前台未提供作答所需的共同材料；解析僅重述『正確選項最符合題幹』，未引用本題史料、圖表數據、時空線索或公民概念；solutionSteps 也只是逐字複誦選項，無法支持答案",
-    "suggestedFix": "補入完整題組本文，將 requiresContext 與 requiresImage 設為 true，questionImages 應涵蓋材料頁及題目頁；逐題撰寫可驗證解析：指出材料中的具體證據、說明正確選項推理，並交代其餘選項錯誤原因"
-  },
-  {
     "id": "OFF-0771",
     "severity": "medium",
     "problem": "解析僅重述『正確選項最符合題幹』，未引用本題史料、圖表數據、時空線索或公民概念；solutionSteps 也只是逐字複誦選項，無法支持答案",
