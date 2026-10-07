@@ -1,6 +1,6 @@
 # Current teacher-audit reconciliation
 
-Generated: 2026-10-07T02:35:34.772Z
+Generated: 2026-10-07T02:48:38.761Z
 
 ## Interpretation
 - This is an audit-work tracker, not teacher certification or a confirmed-defect count.
@@ -13,6 +13,7 @@ Generated: 2026-10-07T02:35:34.772Z
 - 113 Social Studies Q1–54 and 114 Social Studies Q1–50 have source-based AI review reports; these are not qualified teacher certification.
 - 114 Social Studies Q41–50 were checked against the official answer table and original pages; both required focused figures and the relevant original pages are available offline. See `reports/recheck-social-114-q41-q50-2026-10-07.md`.
 - 114 Social Studies Q51–54 were checked against the official answer table and original pages; the missing focused tombstone was added, the Q53 map was verified, and all four superseded flags were removed after regressions passed. See `reports/recheck-social-114-q51-q54-2026-10-07.md`.
+- 114 English Q37–43 were checked against the official answer table and complete source passages; seven superseded flags were removed after answer, evidence, teaching-field, and no-redundant-scan checks passed. See `reports/recheck-english-114-q37-q43-2026-10-07.md`.
 
 ## 國文
 - Authored items: 1000
@@ -25,7 +26,7 @@ Generated: 2026-10-07T02:35:34.772Z
 ## 英文
 - Authored items: 1000
 - Authored items with teacher-signed review fields: 0
-- Unverified official-question flags: 35
+- Unverified official-question flags: 28
 - Unverified authored-question flags: 0
 - Stale IDs: 0
 - Subject mismatches: 0
