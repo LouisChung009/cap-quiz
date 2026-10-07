@@ -1,6 +1,6 @@
 # Current teacher-audit reconciliation
 
-Updated: 2026-10-07 (113 Social Studies Q31–40 recheck; 113 Social Studies review sets now cover Q1–40)
+Updated: 2026-10-07 (113 Social Studies Q41–50 recheck; 113 Social Studies review sets now cover Q1–50)
 
 ## Interpretation
 - This is an audit-work tracker, not teacher certification or a confirmed-defect count.
@@ -14,6 +14,7 @@ Updated: 2026-10-07 (113 Social Studies Q31–40 recheck; 113 Social Studies rev
 - 113 Social Studies Q11–20 were compared with source pages and official answer keys; ten additional superseded flags were removed after checks of answer indices, explanations, figure assets, and offline source-page dependencies. See `reports/recheck-social-113-q11-q20-2026-10-07.md`. This was source-based AI review, not teacher certification.
 - 113 Social Studies Q21–30 were compared with original pages 5–8 and the official answer key; ten additional superseded flags were removed after source, answer, explanation, figure, and offline-cache checks. See `reports/recheck-social-113-q21-q30-2026-10-07.md`. This was source-based AI review, not teacher certification.
 - 113 Social Studies Q31–40 were compared with original pages 8–10 and the official answer key; ten additional superseded flags were removed after source, answer, explanation, figure, and offline-cache checks. Residual OCR spacing was corrected. See `reports/recheck-social-113-q31-q40-2026-10-07.md`. This was source-based AI review, not teacher certification.
+- 113 Social Studies Q41–50 were compared with original pages 11–13 and the official answer key; ten superseded flags were removed after answer, complete shared-passage, focused-map, explanation, and offline-cache checks. See `reports/recheck-social-113-q41-q50-2026-10-07.md`. This was source-based AI review, not teacher certification.
 
 ## 國文
 - Authored items: 1000
@@ -55,7 +56,7 @@ Updated: 2026-10-07 (113 Social Studies Q31–40 recheck; 113 Social Studies rev
 - Authored items: 1000
 - Authored items with teacher-signed review fields: 0
 - Authored items awaiting qualified teacher review: 1000
-- Unverified official-question flags: 68
+- Unverified official-question flags: 58
 - Unverified authored-question flags: 1000
 - Stale IDs: 0
 - Subject mismatches: 0
