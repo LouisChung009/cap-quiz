@@ -1,7 +1,7 @@
 import { authenticatedFetch as clerkAuthenticatedFetch } from "./vendor/auth-runtime.js";
 import { isChallengeQuestion, matchesDifficulty, matchesResponse, matchesSource as matchesQuestionSource } from "./question-validation.js";
 const authenticatedFetch=window.CapQuizPreviewAuth?async(url,options={})=>fetch(url,options):clerkAuthenticatedFetch;
-const APP_VERSION="7.5.184",QUESTION_DATA_VERSION="66",SUBJECT_DATA_VERSION="4.6.105";
+const APP_VERSION="7.5.185",QUESTION_DATA_VERSION="67",SUBJECT_DATA_VERSION="4.6.105";
 const SUBJECTS=["國文","英文","數學","自然","社會"];
 const FILES={國文:"chinese",英文:"english",數學:"math",自然:"science",社會:"social"};
 const STORAGE_KEY="capQuizV2",DAILY_GOAL=20,LESSON_SIZE=10;let syncTimer,audioContext,bgmAudio,musicStarted=false,effectsMaster;

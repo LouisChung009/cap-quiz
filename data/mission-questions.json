@@ -34565,16 +34565,8 @@
     "difficulty": "進階",
     "type": "歷屆真題",
     "question": "Look at the picture. There is ____ under the door.",
-    "questionImage": "./assets/official-exams/113-english-p2.webp",
+    "questionImage": "./assets/official-exams/113-english-q01-picture.svg",
     "imageAlt": "門下信封、門旁植物、門上告示牌與傘架雨傘的情境圖",
-    "imageCrop": {
-      "sourceWidth": 869,
-      "sourceHeight": 1199,
-      "x": 510,
-      "y": 112,
-      "width": 282,
-      "height": 260
-    },
     "options": [
       "an envelope",
       "a plant",
@@ -34612,7 +34604,7 @@
     "requiresImage": true,
     "requiresContext": false,
     "questionImages": [
-      "./assets/official-exams/113-english-p2.webp"
+      "./assets/official-exams/113-english-q01-picture.svg"
     ],
     "answerKeyReview": {
       "status": "verified",

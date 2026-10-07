@@ -335,8 +335,7 @@ if (english113Q1to10.some((row, index) => !row || row.answer !== english113Q1to1
 }
 const english113Q1 = english113Q1to10[0];
 const questionImageRenderer = await readFile(join(root, "app.js"), "utf8");
-const q1Crop = english113Q1?.imageCrop;
-if (!english113Q1?.requiresImage || english113Q1.questionImage !== "./assets/official-exams/113-english-p2.webp" || !english113Q1.questionImages?.includes(english113Q1.questionImage) || !q1Crop || q1Crop.sourceWidth !== 869 || q1Crop.sourceHeight !== 1199 || q1Crop.x !== 510 || q1Crop.y !== 112 || q1Crop.width !== 282 || q1Crop.height !== 260 || !questionImageRenderer.includes("function renderQuestionImage") || !questionImageRenderer.includes("question-image-crop")) {
+if (!english113Q1?.requiresImage || english113Q1.questionImage !== "./assets/official-exams/113-english-q01-picture.svg" || !english113Q1.questionImages?.includes(english113Q1.questionImage) || english113Q1.imageCrop || !questionImageRenderer.includes("function renderQuestionImage")) {
   failures.push("113 英文第1題：應裁切顯示必要情境插圖，而非整頁試卷掃描");
 }
 for (let questionNumber = 2; questionNumber <= 10; questionNumber++) {
@@ -347,7 +346,7 @@ const english113Q7Explanation = String(english113Q1to10[6]?.explanation || "");
 if (!english113Q7Explanation.includes("完整句子是 and so do I") || english113Q7Explanation.includes("and so do I?")) {
   failures.push("113 英文第7題：附和句解釋不得含混或誤加問號");
 }
-for (const imagePath of ["./assets/official-exams/113-english-p2.webp"]) {
+for (const imagePath of ["./assets/official-exams/113-english-p2.webp", "./assets/official-exams/113-english-q01-picture.svg"]) {
   if (!serviceWorker.includes(imagePath)) failures.push(`113 英文第1題插圖離線相依未快取：${imagePath}`);
 }
 const english113Q11to20 = Array.from({ length: 10 }, (_, index) => {
