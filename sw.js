@@ -28,6 +28,7 @@ ASSETS.push("./assets/official-exams/114-science-q41-fuel-energy-chart.png");
 ASSETS.push("./assets/official-exams/114-social-q04-wazai-map.png","./assets/official-exams/114-social-q06-taipei-map.png","./assets/official-exams/114-social-q10-indulgence-woodcut.png");
 ASSETS.push("./assets/official-exams/114-social-p2.webp","./assets/official-exams/114-social-p3.webp");
 ASSETS.push("./assets/official-exams/114-social-p4.webp","./assets/official-exams/114-social-p5.webp","./assets/official-exams/114-social-p6.webp");
+ASSETS.push("./assets/official-exams/114-social-p7.webp","./assets/official-exams/114-social-p8.webp");
 ASSETS.push("./assets/official-exams/114-social-q14-family-diagram.png","./assets/official-exams/114-social-q16-western-route-map.png","./assets/official-exams/114-social-q17-contour-map.png","./assets/official-exams/114-social-q19-population-pyramids.png","./assets/official-exams/114-social-q20-sugar-tool.png","./assets/official-exams/114-social-q20-taiwan-map.png");
 ASSETS.push("./assets/official-exams/114-social-q22-newspaper-clipping.png","./assets/official-exams/114-social-q23-europe-map.png","./assets/official-exams/114-social-q26-labor-chart.png","./assets/official-exams/114-social-q27-black-sea-canal-map.png","./assets/official-exams/114-social-q28-singapore-map.png","./assets/official-exams/114-social-q29-china-rainfall-options.png");
 ASSETS.push("./assets/official-exams/114-social-q40-kaliningrad-map.png");
