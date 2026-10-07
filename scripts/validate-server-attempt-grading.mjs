@@ -31,6 +31,7 @@ for (const question of questions.values()) {
 const choiceQuestion = [...questions.values()].find(question => question.type !== "非選擇題");
 const writes = [];
 const calls = { profile: 0, schema: 0 };
+const fixedNow = Date.parse("2026-10-07T00:00:00.000Z");
 const sql = async (strings, ...values) => {
   writes.push({ query: strings.join("$parameter"), values });
   return [];
@@ -41,6 +42,7 @@ const handler = createAttemptsHandler({
   ensureSchema: async database => { calls.schema++; return database; },
   upsertUserProfile: async () => { calls.profile++; },
   getQuestionMap: async () => questions,
+  now: () => fixedNow,
   handleApiError: (response, error) => response.status(error.status || 500).json({ message: error.message })
 });
 function responseRecorder() {
@@ -58,6 +60,7 @@ await handler({ method: "POST", body: {
   subject: choiceQuestion.subject,
   selectedAnswer: (choiceQuestion.answer + 1) % 4,
   correct: true,
+  answeredAt: fixedNow - 60_000,
   unit: "偽造單元",
   knowledgePoint: "偽造知識點"
 } }, incorrectResponse);
@@ -68,13 +71,26 @@ assert.equal(writes[0].values[2], choiceQuestion.subject);
 assert.equal(writes[0].values[3], String(choiceQuestion.unit || "").slice(0, 80));
 assert.equal(writes[0].values[4], String(choiceQuestion.knowledgePoint || "").slice(0, 80));
 assert.equal(writes[0].values[5], false);
+assert.match(writes[0].query, /answered_at\) VALUES \([^)]*NOW\(\)/, "trusted answer time must come from the database server");
+assert.equal(writes[0].values[6], new Date(fixedNow - 60_000).toISOString(), "valid client time is stored separately for diagnostics");
+
+const futureResponse = responseRecorder();
+await handler({ method: "POST", body: {
+  questionId: choiceQuestion.id,
+  subject: choiceQuestion.subject,
+  selectedAnswer: choiceQuestion.answer,
+  answeredAt: fixedNow + 6 * 60 * 1000
+} }, futureResponse);
+assert.equal(futureResponse.statusCode, 201);
+assert.equal(writes.length, 2);
+assert.equal(writes[1].values[6], null, "client timestamps more than five minutes in the future must be discarded");
 
 const invalidResponse = responseRecorder();
 await handler({ method: "POST", body: { questionId: "CHI-9999", subject: "國文", selectedAnswer: 0 } }, invalidResponse);
 assert.equal(invalidResponse.statusCode, 400);
-assert.equal(writes.length, 1, "unknown questions must not be written to the database");
-assert.equal(calls.schema, 1);
-assert.equal(calls.profile, 1);
+assert.equal(writes.length, 2, "unknown questions must not be written to the database");
+assert.equal(calls.schema, 2);
+assert.equal(calls.profile, 2);
 
 const api = await readFile(join(root, "api", "attempts.js"), "utf8");
 assert.ok(api.includes("gradeAttempt(question"), "API must use server-side grading");
