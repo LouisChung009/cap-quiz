@@ -126,6 +126,19 @@ test("ten-question challenge is unique, explains answers, and increments daily p
   expect(pageErrors).toEqual([]);
 });
 
+test("constructed math response matcher requires the stated reasoning in browser", async ({ page }) => {
+  const question = questionsById.get("OFF-0961");
+  await openLocalPreview(page);
+  const result = await page.evaluate(async part => {
+    const { matchesResponse } = await import("./question-validation.js");
+    return {
+      conclusionOnly: matchesResponse(part, "不能"),
+      fullReason: matchesResponse(part, "不能；27(n+1)=32(n−1)，n=59/5，非整數")
+    };
+  }, question.responseParts[1]);
+  expect(result).toEqual({ conclusionOnly: false, fullReason: true });
+});
+
 test("mobile layout keeps the challenge action visible without covering its text", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await openLocalPreview(page);
