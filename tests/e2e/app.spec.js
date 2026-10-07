@@ -29,7 +29,11 @@ test("subject filters and all main panels render, and explorer settings persist 
   for (const [subject, label] of [["國文", "國文"], ["英文", "英文"], ["數學", "數學"], ["自然", "自然"], ["社會", "社會"]]) {
     await page.locator(`#subjectTabs [data-subject="${subject}"]`).click();
     await expect(page.locator("#meta")).toContainText(label);
-    await expect(page.locator("#options button")).toHaveCount(4);
+    const questionId = await page.locator("#quiz").getAttribute("data-question-id");
+    const question = questionsById.get(questionId);
+    expect(question, `question data must exist for ${questionId}`).toBeTruthy();
+    if (question.responseParts?.length) await expect(page.locator("#options [data-response-part]")).toHaveCount(question.responseParts.length);
+    else await expect(page.locator("#options button")).toHaveCount(4);
   }
 
   await page.locator("#difficultyFilter").selectOption({ label: "進階" });

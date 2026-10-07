@@ -43,7 +43,7 @@ const attemptSync = createLearningSync({
     return { ok: true, status: 201 };
   }
 });
-const clientAttemptId = await attemptSync.recordAttempt({ questionId: "math-0001", subject: "數學", correct: true });
+const clientAttemptId = await attemptSync.recordAttempt({ questionId: "math-0001", subject: "數學", selectedAnswer: 2 });
 assert.ok(clientAttemptId);
 assert.ok(attemptStorage.getItem("capQuizAttemptOutboxV1"));
 await attemptSync.retryNow();
@@ -68,7 +68,7 @@ const durableSync = createLearningSync({
   }
 });
 allowOutboxWrite = false;
-const durableAttemptId = await durableSync.recordAttempt({ questionId: "math-0002", subject: "數學", correct: false });
+const durableAttemptId = await durableSync.recordAttempt({ questionId: "math-0002", subject: "數學", selectedAnswer: 0 });
 assert.equal(JSON.parse(durableStorage.getItem("capQuizAttemptOutboxV1")).length, 1);
 allowOutboxWrite = true;
 await durableSync.retryNow();
@@ -78,7 +78,22 @@ assert.deepEqual(JSON.parse(durableStorage.getItem("capQuizAttemptOutboxV1")), [
 let previewRequests = 0;
 const previewSync = createLearningSync({ storage: createStorage(), localPreview: true, request: async () => { previewRequests++; return { ok: true }; } });
 previewSync.saveProgress({ revision: 1 });
-await previewSync.recordAttempt({ questionId: "math-0001", subject: "數學", correct: true });
+await previewSync.recordAttempt({ questionId: "math-0001", subject: "數學", selectedAnswer: 2 });
 assert.equal(previewRequests, 0);
+
+const legacyStorage = createStorage();
+legacyStorage.setItem("capQuizAttemptOutboxV1", JSON.stringify([{ questionId: "math-0003", subject: "數學", correct: true, clientAttemptId: "legacy-attempt-id-0001" }]));
+let legacyStatus = "";
+let legacyRequests = 0;
+const migratedSync = createLearningSync({
+  storage: legacyStorage,
+  onStatus: message => { legacyStatus = message; },
+  request: async () => { legacyRequests++; return { ok: true, status: 201 }; }
+});
+assert.equal(JSON.parse(legacyStorage.getItem("capQuizAttemptOutboxV1")).length, 0);
+assert.equal(JSON.parse(legacyStorage.getItem("capQuizUnverifiedAttemptArchiveV1")).length, 1);
+assert.match(legacyStatus, /舊版作答已保留在本機/);
+await migratedSync.retryNow();
+assert.equal(legacyRequests, 0);
 
 console.log("Learning sync validation passed (progress retry, durable attempt outbox, local-preview isolation).");

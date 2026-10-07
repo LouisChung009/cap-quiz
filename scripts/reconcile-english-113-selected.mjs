@@ -46,7 +46,7 @@ for (const itemCase of cases) {
 
 for (const page of [2, 7, 8, 9, 10, 11, 12, 13]) await access(join(root, "assets", "official-exams", `113-english-p${page}.webp`));
 assert.ok(serviceWorker.includes("./data/mission-questions.json?v=68"), "question-data cache version");
-assert.ok(serviceWorker.includes('const CACHE="cap-quiz-v7.5.187"'), "service-worker cache version");
+assert.ok(serviceWorker.includes('const CACHE="cap-quiz-v7.5.188"'), "service-worker cache version");
 const ids = new Set(cases.map(item => `OFF-${String(702 + item.number).padStart(4, "0")}`));
 const linked = audit.filter(finding => ids.has(finding.id));
 await writeFile(auditPath, `${JSON.stringify(audit.filter(finding => !ids.has(finding.id)), null, 2)}\n`, "utf8");

@@ -1,11 +1,27 @@
 const ATTEMPT_OUTBOX_KEY = "capQuizAttemptOutboxV1";
+const UNVERIFIED_ATTEMPTS_KEY = "capQuizUnverifiedAttemptArchiveV1";
+
+function isGradeableAttempt(item) {
+  return item && typeof item.clientAttemptId === "string" && (Number.isInteger(item.selectedAnswer) || Array.isArray(item.responseValues));
+}
 
 function readAttemptOutbox(storage) {
   try {
     const value = JSON.parse(storage.getItem(ATTEMPT_OUTBOX_KEY) || "[]");
-    return Array.isArray(value) ? value.filter(item => item && typeof item.clientAttemptId === "string") : [];
+    const entries = Array.isArray(value) ? value : [];
+    const attempts = entries.filter(isGradeableAttempt);
+    const legacy = entries.filter(item => item && typeof item.clientAttemptId === "string" && !isGradeableAttempt(item));
+    const archive = JSON.parse(storage.getItem(UNVERIFIED_ATTEMPTS_KEY) || "[]");
+    const archived = Array.isArray(archive) ? archive : [];
+    if (legacy.length) {
+      const byId = new Map(archived.filter(item => item && typeof item.clientAttemptId === "string").map(item => [item.clientAttemptId, item]));
+      for (const item of legacy) byId.set(item.clientAttemptId, item);
+      storage.setItem(UNVERIFIED_ATTEMPTS_KEY, JSON.stringify([...byId.values()]));
+      storage.setItem(ATTEMPT_OUTBOX_KEY, JSON.stringify(attempts));
+    }
+    return { attempts, unverifiedCount: archived.length + legacy.filter(item => !archived.some(old => old?.clientAttemptId === item.clientAttemptId)).length, migrationFailed: false };
   } catch {
-    return [];
+    return { attempts: [], unverifiedCount: 0, migrationFailed: true };
   }
 }
 
@@ -30,13 +46,15 @@ export function createLearningSync({
   let progressRetries = 0;
   let progressDebounceTimer = null;
   let progressRetryTimer = null;
-  let attempts = readAttemptOutbox(storage);
+  const attemptOutbox = readAttemptOutbox(storage);
+  let attempts = attemptOutbox.attempts;
+  let unverifiedAttemptCount = attemptOutbox.unverifiedCount;
   let attemptsInFlight = false;
   let attemptsFailed = false;
   let attemptsRetries = 0;
   let attemptsRetryTimer = null;
   let progressStorageFailed = false;
-  let attemptsStorageFailed = false;
+  let attemptsStorageFailed = attemptOutbox.migrationFailed;
 
   function updateStatus() {
     if (localPreview) {
@@ -53,7 +71,12 @@ export function createLearningSync({
       return;
     }
     if (progressInFlight || pendingProgress || attemptsInFlight || attempts.length) {
-      onStatus(attempts.length ? `同步中・${attempts.length} 筆答題待上傳` : "學習進度同步中…", "pending", false);
+      const pendingMessage = attempts.length ? `同步中・${attempts.length} 筆答題待上傳` : "學習進度同步中…";
+      onStatus(unverifiedAttemptCount ? `${pendingMessage}；另有 ${unverifiedAttemptCount} 筆舊版作答未計入雲端統計` : pendingMessage, unverifiedAttemptCount ? "error" : "pending", false);
+      return;
+    }
+    if (unverifiedAttemptCount) {
+      onStatus(`${unverifiedAttemptCount} 筆舊版作答已保留在本機，但缺少作答內容，未計入雲端統計；請重新作答。`, "error", false);
       return;
     }
     onStatus("學習進度與答題紀錄已同步", "synced", false);
@@ -176,6 +199,7 @@ export function createLearningSync({
       updateStatus();
       return null;
     }
+    if (!attempt || (!Number.isInteger(attempt.selectedAnswer) && !Array.isArray(attempt.responseValues))) return null;
     const queued = { ...attempt, clientAttemptId: attempt.clientAttemptId || createAttemptId() };
     if (!attempts.some(item => item.clientAttemptId === queued.clientAttemptId)) attempts.push(queued);
     try {
