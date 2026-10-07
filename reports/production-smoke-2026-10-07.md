@@ -1,6 +1,6 @@
 # Production smoke verification — 2026-10-07
 
-Latest acceptance commit: `8cab7ef` (`Add mobile challenge layout acceptance test`)
+Latest acceptance commit: `63ef9fa` (`Verify challenge question materials in browser`)
 
 ## Verified
 
@@ -9,7 +9,7 @@ Latest acceptance commit: `8cab7ef` (`Add mobile challenge layout acceptance tes
 - Production service worker returns HTTP 200. Unauthenticated `/api/progress`, `/api/admin/dashboard`, and `POST /api/attempts` return 401; a protocol-relative external auth return path returns 400.
 - GitHub Actions for commits `d92a7c8` and `8cab7ef` completed successfully, including GitHub Pages deployment.
 - `npm test` passed for 5,000 authored items plus 1,098 official items and 10 similar items; 100,000 random draws had no within-round repeats, official-key and figure validations passed.
-- Playwright E2E passed all three checks, including the 390px mobile layout: no page-level horizontal overflow, challenge button visible, no overlap with prompt text, and 44px minimum touch target.
+- Playwright E2E passed all four checks, including the 390px mobile layout: no page-level horizontal overflow, challenge button visible, no overlap with prompt text, and 44px minimum touch target.
 - The ten-question challenge E2E also asserts that each required image is actually loaded with nonzero natural dimensions and that context-dependent questions expose their reading-material caption and embedded or linked material.
 - `npm run build`, `npm audit` (0 vulnerabilities), and `git diff --check` passed.
 
@@ -19,4 +19,5 @@ Latest acceptance commit: `8cab7ef` (`Add mobile challenge layout acceptance tes
 - Garden/team/settings and admin dashboard interactions were exercised by local Playwright, not by clicks in the production session; a signed-in administrator workflow was not verified.
 - Existing dated AI/source-review reports cover all 1,000 authored questions in each subject, but all 5,000 authored questions still lack qualified, signed teacher-review fields. Automated and AI/source-based checks do not replace teacher certification.
 - The challenge's sampled questions are browser-verified with rendered required figures; this does not amount to opening every item in the browser or checking every asset visually against the official original.
+- A fresh production browser tab on 2026-10-07 showed an authenticated learner profile, 1,217 selectable questions, and “學習進度與答題紀錄已同步”; no answer was submitted so the learner's real progress/history was not modified.
 - The initial production progress sync confirms the signed-in `learning_states` write path; it does not prove every user-flow or answer-attempt path works end-to-end.
