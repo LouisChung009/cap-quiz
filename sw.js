@@ -54,7 +54,7 @@ ASSETS.push("./assets/official-exams/113-social-p2.webp","./assets/official-exam
 ASSETS.push("./assets/official-exams/113-social-q20-cosmology.svg","./assets/official-exams/113-social-q22-buddhism-origin.svg","./assets/official-exams/113-social-q26-shimen-catchment.svg","./assets/official-exams/113-social-q28-land-subsidence.svg");
 ASSETS.push("./assets/official-exams/113-social-q29-australia-sites.svg","./assets/official-exams/113-social-q31-revolution-cartoon.svg","./assets/official-exams/113-social-q34-post-and-rules.svg","./assets/official-exams/113-social-q35-crime-and-news-chart.svg","./assets/official-exams/113-social-q37-economic-corridors.svg");
 ASSETS.push("./assets/official-exams/113-social-p11.webp","./assets/official-exams/113-social-q40-case-chart.svg");
-ASSETS.push("./assets/official-exams/113-social-p14.webp","./assets/official-exams/113-social-q49-seat-change-maps.svg","./assets/official-exams/113-social-q51-taiwan-population-map.svg");
+ASSETS.push("./assets/official-exams/113-social-p14.webp","./assets/official-exams/113-social-p15.webp","./assets/official-exams/113-social-q49-seat-change-maps.svg","./assets/official-exams/113-social-q51-taiwan-population-map.svg");
 ASSETS.push("./assets/official-exams/113-science-p3.webp","./assets/official-exams/113-science-q06-wire-repair.svg","./assets/official-exams/113-science-q08-earth-sun-diagrams.svg");
 ASSETS.push("./assets/official-exams/113-science-p5.webp","./assets/official-exams/113-science-q15-isobar-map.svg");
 ASSETS.push("./assets/official-exams/113-science-q31-classroom-map.png","./assets/official-exams/113-science-q35-intensity-map.png","./assets/official-exams/113-science-q36-lens-ray-options.png","./assets/official-exams/113-science-q40-copper-plating-options.png");
