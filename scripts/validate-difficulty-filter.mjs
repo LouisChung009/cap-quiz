@@ -4,6 +4,8 @@ import { matchesDifficulty, matchesSource } from "../question-validation.js";
 
 const files = ["chinese", "english", "math", "science", "social"];
 const levels = ["基礎", "中等", "進階"];
+const reviewedDifficulty = new Map([["ENG-0067", "基礎"], ["ENG-0034", "中等"], ["SCI-0014", "中等"]]);
+const reviewedQuestionText = new Map([["ENG-0592", question => !question.includes("Still,")], ["MAT-0757", question => question.includes("答案以 π 表示") && !question.includes("約為幾公升")]]);
 
 const officialQuestion = { sourceType: "官方歷屆真題" };
 const similarQuestion = { sourceType: "依114年官方真題能力指標原創" };
@@ -22,6 +24,8 @@ assert.equal(matchesSource(similarQuestion, "original"), false);
 for (const file of files) {
   const questions = JSON.parse(await readFile(new URL(`../data/${file}.json`, import.meta.url), "utf8"));
   for (const item of questions) {
+    if (reviewedDifficulty.has(item.id)) assert.equal(item.difficulty, reviewedDifficulty.get(item.id), `${item.id}: reviewed difficulty calibration regression`);
+    if (reviewedQuestionText.has(item.id)) assert.ok(reviewedQuestionText.get(item.id)(item.question), `${item.id}: reviewed wording regression`);
     const matched = levels.filter(level => matchesDifficulty(item, level));
     assert.ok(matched.length > 0, `${item.id}: difficulty ${item.difficulty} cannot be selected`);
     if (item.difficulty === "易") assert.deepEqual(matched, ["基礎"], `${item.id}: 易 should map to 基礎`);

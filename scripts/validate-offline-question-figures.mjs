@@ -11,6 +11,14 @@ const fallbackMatch = app.match(/Object\.assign\(QUESTION_FIGURE_FALLBACKS,(\{[^
 if (!fallbackMatch) throw new Error("Question figure fallback registry is missing");
 const fallback = JSON.parse(fallbackMatch[1]);
 const serviceWorker = await readFile(join(root, "sw.js"), "utf8");
+const index = await readFile(join(root, "index.html"), "utf8");
+const appVersion = app.match(/const APP_VERSION="([^"]+)",QUESTION_DATA_VERSION="([^"]+)",SUBJECT_DATA_VERSION="([^"]+)"/);
+if (!appVersion) throw new Error("Application/data versions are missing");
+const [, appVersionValue, missionDataVersion, subjectDataVersion] = appVersion;
+if (!serviceWorker.includes(`const CACHE="cap-quiz-v${appVersionValue}"`)) throw new Error("Service-worker cache version does not match the app");
+for (const subject of subjects) if (!serviceWorker.includes(`./data/${subject}.json?v=${subjectDataVersion}`)) throw new Error(`${subject} bank cache version does not match the app`);
+if (!serviceWorker.includes(`./data/mission-questions.json?v=${missionDataVersion}`)) throw new Error("Mission bank cache version does not match the app");
+if (!index.includes(`./styles.css?v=${appVersionValue}`) || !index.includes(`./bootstrap.js?v=${appVersionValue}`)) throw new Error("HTML asset versions do not match the app");
 const errors = new Set();
 const checked = new Set();
 

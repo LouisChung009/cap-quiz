@@ -1194,7 +1194,7 @@
     "gradeSemester": "八年級下",
     "unit": "文法",
     "knowledgePoint": "句型、時態與子句",
-    "difficulty": "進階",
+    "difficulty": "中等",
     "type": "單題選擇",
     "question": "The classroom was so noisy that the speaker could ___ be heard.",
     "options": [
@@ -2382,7 +2382,7 @@
     "gradeSemester": "七年級上",
     "unit": "閱讀測驗",
     "knowledgePoint": "篇章與資訊判讀",
-    "difficulty": "進階",
+    "difficulty": "基礎",
     "type": "單題選擇",
     "question": "Read the passage. “Ella’s family took a train to the coast. They arrived at 9:20 and walked to the harbor. A boat tour left at 10:00, but the family did not join because Ella’s younger brother felt seasick. They ate lunch near the harbor instead.” Why did the family skip the boat tour?",
     "options": [
@@ -21885,7 +21885,7 @@
     "knowledgePoint": "連接詞",
     "difficulty": "進階",
     "type": "素養題",
-    "question": "The lab card used short sentences and numbered steps. Still, three groups mixed up the samples after skipping the warning at the bottom. The teacher noted, “The instructions looked simple; ___, several students made the same mistake.” Which connector best expresses the relationship?",
+    "question": "The lab card used short sentences and numbered steps. Three groups mixed up the samples after skipping the warning at the bottom. The teacher noted, “The instructions looked simple; ___, several students made the same mistake.” Which connector best expresses the relationship?",
     "options": [
       "therefore",
       "because",
