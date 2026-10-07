@@ -677,6 +677,15 @@ for (const id of ["OFF-0074", "OFF-0075", "OFF-0076", "OFF-0077", "OFF-0078"]) {
   if (!row?.teacherTip || row.teacherTip.includes("先把選項代回完整句子")) failures.push(`${id}: 教師提醒仍是通用套語`);
 }
 
+const scienceStepRepair = JSON.parse(await readFile(join(root, "data", "science.json"), "utf8"))
+  .filter(row => Number(row.id?.slice(4)) <= 100);
+if (scienceStepRepair.length !== 100) failures.push(`自然科 SCI-0001–0100: 預期 100 題，實際 ${scienceStepRepair.length} 題`);
+for (const row of scienceStepRepair) {
+  if ((row.solutionSteps || []).length < 3 || row.solutionSteps[0]?.startsWith("讀取題目條件：") || new Set(row.solutionSteps).size !== row.solutionSteps.length || row.solutionSteps.some(step => !step.trim())) {
+    failures.push(`${row.id}: 自然科解析步驟不足、重述題幹、重複或空白`);
+  }
+}
+
 if (failures.length) {
   console.error(failures.join("\n"));
   console.error(`品質門檻未通過：${failures.length} 項`);
