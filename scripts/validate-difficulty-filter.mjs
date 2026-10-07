@@ -4,7 +4,7 @@ import { matchesDifficulty, matchesSource } from "../question-validation.js";
 
 const files = ["chinese", "english", "math", "science", "social"];
 const levels = ["基礎", "中等", "進階"];
-const reviewedDifficulty = new Map([["ENG-0067", "基礎"], ["ENG-0034", "中等"], ["SCI-0014", "中等"], ["CHI-0058", "中等"], ["CHI-0106", "中等"], ["CHI-0349", "中等"], ["ENG-0452", "基礎"], ["ENG-0554", "基礎"], ["ENG-0897", "中等"], ["SCI-0134", "中等"], ["SCI-0145", "中等"], ["SCI-0190", "基礎"], ["SOC-0080", "基礎"], ["SOC-0874", "中等"]]);
+const reviewedDifficulty = new Map([["ENG-0067", "基礎"], ["ENG-0034", "中等"], ["SCI-0014", "中等"], ["CHI-0058", "中等"], ["CHI-0106", "中等"], ["CHI-0349", "中等"], ["ENG-0452", "基礎"], ["ENG-0554", "基礎"], ["ENG-0897", "中等"], ["SCI-0134", "中等"], ["SCI-0145", "中等"], ["SCI-0190", "基礎"], ["SOC-0080", "基礎"], ["SOC-0874", "中等"], ["CHI-0053", "中等"], ["CHI-0087", "中等"], ["ENG-0445", "中等"], ["ENG-0500", "基礎"], ["MAT-0590", "中等"], ["MAT-0779", "中等"], ["SCI-0185", "基礎"], ["SCI-0195", "中等"], ["SOC-0024", "基礎"], ["SOC-0887", "中等"]]);
 const reviewedQuestionText = new Map([["ENG-0592", question => !question.includes("Still,")], ["MAT-0757", question => question.includes("答案以 π 表示") && !question.includes("約為幾公升")], ["SOC-0874", question => question.includes("聚合型板塊邊界") && question.includes("隱沒至另一側")]]);
 
 const officialQuestion = { sourceType: "官方歷屆真題" };
