@@ -50,6 +50,7 @@ const markdown = [
   "- 113 Science Q1–10 were checked against original pages 1–3, official answer keys, complete Q4 table, worked solutions, and required offline figures; nine superseded explanation flags were removed. Automated source review is not independent teacher certification. See `reports/audit-official-science-113-q1-q10-2026-10-03.md`.",
   "- 114 Science Q11–20 were rechecked against original pages, official keys, worked explanations, the Q14 ambiguity disclosure, and four focused offline figures; eight superseded flags were removed. See `reports/audit-official-science-114-q11-q20-2026-10-03.md`.",
   "- 114 Science Q21–30 were rechecked against original pages and official keys; seven superseded flags were removed after regression checks for source data, calculations, reasoning, and all required offline figures. See `reports/audit-official-science-114-q21-q32-2026-10-03.md`.",
+  "- 114 Science Q31–40 were rechecked against original pages, official keys, calculations, worked reasoning, and required figures; six superseded flags were removed after offline-cache checks. See `reports/audit-official-science-114-q33-q42-2026-10-03.md` and `reports/audit-official-science-114-q21-q32-2026-10-03.md`.",
   ""
 ];
 

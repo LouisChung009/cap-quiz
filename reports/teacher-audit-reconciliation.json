@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T04:03:46.035Z",
+  "generatedAt": "2026-10-07T04:05:51.362Z",
   "subjects": {
     "國文": {
       "authoredQuestions": 1000,
@@ -35,8 +35,8 @@
       "authoredQuestions": 1000,
       "authoredTeacherSignedReviews": 0,
       "authoredTeacherReviewMissing": 1000,
-      "auditEntries": 1013,
-      "unverifiedOfficialFlags": 13,
+      "auditEntries": 1007,
+      "unverifiedOfficialFlags": 7,
       "unverifiedAuthoredFlags": 1000,
       "staleFindings": 0,
       "subjectMismatches": 0
