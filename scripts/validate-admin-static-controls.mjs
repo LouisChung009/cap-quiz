@@ -18,6 +18,8 @@ for (const id of ["studentPagination", "studentPageSummary", "previousStudents",
   if (!html.includes(`id="${id}"`)) throw new Error(`Missing all-user pagination control: ${id}`);
 }
 if (!dashboardApi.includes("totalCount") || !dashboardApi.includes("rosterPageSize") || dashboardApi.includes("offset < 5000") || /LIMIT\s+500\b/.test(dashboardApi)) throw new Error("Admin dashboard does not page the complete Clerk roster");
+if (!dashboardApi.includes("MAX(study_day) OVER(PARTITION BY user_id)") || !dashboardApi.includes("latest_study_day >= (NOW() AT TIME ZONE ${zone})::date-1")) throw new Error("Admin streak calculation must preserve a current streak through the next local day");
+if (!dashboardApi.includes("GREATEST(${clerkPage.totalCount}::int-COUNT(*) FILTER(WHERE last_activity>=NOW()-INTERVAL '3 days'),0)::int inactive_3d") || dashboardApi.includes("FROM user_profiles p LEFT JOIN question_attempts a ON a.user_id=p.user_id GROUP BY p.user_id")) throw new Error("Admin inactivity alerts must include every Clerk account, even before its profile is synced");
 if (!adminScript.includes("loadLiveDashboard(1,document.querySelector(\"#searchInput\").value.trim())")) throw new Error("Admin search does not query Clerk across all roster pages");
 if (!adminScript.includes('location.hostname==="127.0.0.1"&&window.CapQuizAdminPreviewAuth===true')) throw new Error("Admin preview auth bypass is not restricted to the local E2E host");
 console.log("Admin controls are transparent, and roster pagination covers the full Clerk count.");

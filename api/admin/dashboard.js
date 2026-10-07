@@ -56,9 +56,10 @@ export default async function handler(request, response) {
     ), streaks AS (
       SELECT user_id, COUNT(*)::int streak FROM (
         SELECT user_id, study_day, ROW_NUMBER() OVER(PARTITION BY user_id ORDER BY study_day DESC) rn,
-        (NOW() AT TIME ZONE ${zone})::date-study_day gap
+        (MAX(study_day) OVER(PARTITION BY user_id)-study_day) gap,
+        MAX(study_day) OVER(PARTITION BY user_id) latest_study_day
         FROM (SELECT DISTINCT user_id,(answered_at AT TIME ZONE ${zone})::date study_day FROM question_attempts WHERE user_id = ANY(${userIds}::text[])) d
-      ) r WHERE gap=rn-1 GROUP BY user_id
+      ) r WHERE gap=rn-1 AND latest_study_day >= (NOW() AT TIME ZONE ${zone})::date-1 GROUP BY user_id
     ) SELECT p.user_id,p.display_name,p.public_code,COALESCE(a.total_count,0)::int total_count,
       COALESCE(a.answered_count,0)::int answered_count,COALESCE(a.correct_count,0)::int correct_count,
       COALESCE(a.accuracy_base,0)::int accuracy_base,a.last_activity_at,COALESCE(s.streak,0)::int streak
@@ -72,12 +73,12 @@ export default async function handler(request, response) {
     const trend = await sql`WITH dates AS (SELECT GENERATE_SERIES((NOW() AT TIME ZONE ${zone})::date-6,(NOW() AT TIME ZONE ${zone})::date,'1 day')::date trend_day)
       SELECT dates.trend_day,COUNT(DISTINCT a.user_id)::int active_users,COUNT(a.id)::int questions FROM dates
       LEFT JOIN question_attempts a ON (a.answered_at AT TIME ZONE ${zone})::date=dates.trend_day GROUP BY dates.trend_day ORDER BY dates.trend_day`;
-    const [alerts] = await sql`WITH stats AS (SELECT p.user_id,MAX(a.answered_at) last_activity,
-      COUNT(a.id) FILTER(WHERE (a.answered_at AT TIME ZONE ${zone})::date=(NOW() AT TIME ZONE ${zone})::date) today_count,
-      AVG(CASE WHEN a.is_correct THEN 1.0 ELSE 0.0 END) FILTER(WHERE (a.answered_at AT TIME ZONE ${zone})::date=(NOW() AT TIME ZONE ${zone})::date) today_accuracy,
-      COUNT(a.id) FILTER(WHERE NOT a.is_correct AND a.answered_at>=NOW()-INTERVAL '30 days') wrong_30d
-      FROM user_profiles p LEFT JOIN question_attempts a ON a.user_id=p.user_id GROUP BY p.user_id)
-      SELECT COUNT(*) FILTER(WHERE last_activity IS NULL OR last_activity<NOW()-INTERVAL '3 days')::int inactive_3d,
+    const [alerts] = await sql`WITH stats AS (SELECT user_id,MAX(answered_at) last_activity,
+      COUNT(*) FILTER(WHERE (answered_at AT TIME ZONE ${zone})::date=(NOW() AT TIME ZONE ${zone})::date) today_count,
+      AVG(CASE WHEN is_correct THEN 1.0 ELSE 0.0 END) FILTER(WHERE (answered_at AT TIME ZONE ${zone})::date=(NOW() AT TIME ZONE ${zone})::date) today_accuracy,
+      COUNT(*) FILTER(WHERE NOT is_correct AND answered_at>=NOW()-INTERVAL '30 days') wrong_30d
+      FROM question_attempts GROUP BY user_id)
+      SELECT GREATEST(${clerkPage.totalCount}::int-COUNT(*) FILTER(WHERE last_activity>=NOW()-INTERVAL '3 days'),0)::int inactive_3d,
       COUNT(*) FILTER(WHERE today_count>=5 AND today_accuracy<.5)::int low_accuracy,
       COUNT(*) FILTER(WHERE wrong_30d>=10)::int many_wrong FROM stats`;
     const weakByUser = weak.reduce((map,item)=>{(map[item.user_id] ||= []).push({name:item.knowledge_point,count:item.wrong_count});return map;},{});
