@@ -37,6 +37,7 @@ const markdown = [
   "- 114 Social Studies Q41–50 were checked against the official answer table and original pages; both required focused figures and the relevant original pages are available offline. See `reports/recheck-social-114-q41-q50-2026-10-07.md`.",
   "- 114 Social Studies Q51–54 were checked against the official answer table and original pages; the missing focused tombstone was added, the Q53 map was verified, and all four superseded flags were removed after regressions passed. See `reports/recheck-social-114-q51-q54-2026-10-07.md`.",
   "- 114 English Q37–43 were checked against the official answer table and complete source passages; seven superseded flags were removed after answer, evidence, teaching-field, and no-redundant-scan checks passed. See `reports/recheck-english-114-q37-q43-2026-10-07.md`.",
+  "- 114 Science Q1–10 were rechecked against cached official paper pages 2–4 and the existing official-key review; nine remaining explanation flags were removed only after answer, worked-reasoning, source-cue, and image-dependency checks passed (Q4 had already been cleared). See `reports/recheck-science-114-q01-q10-2026-10-07.md`.",
   ""
 ];
 
