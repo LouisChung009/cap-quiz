@@ -17,6 +17,7 @@
     "reconcile:social-112-q01-q10": "node scripts/reconcile-social-112-q01-q10.mjs",
     "reconcile:social-112-q11-q20": "node scripts/reconcile-social-112-q11-q20.mjs",
     "reconcile:social-112-q21-q30": "node scripts/reconcile-social-112-q21-q30.mjs",
+    "reconcile:social-112-q31-q40": "node scripts/reconcile-social-112-q31-q40.mjs",
     "validate:question-table-rendering": "node scripts/validate-question-table-rendering.mjs",
     "validate:stale-social-0116-0125": "node scripts/clear-stale-social-audit-0116-0125.mjs",
     "validate:stale-science-0400-0406-0417-0424": "node scripts/clear-stale-science-audit-0400-0406-0417-0424.mjs",

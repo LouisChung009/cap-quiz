@@ -31,7 +31,8 @@ const findAll = (node, tagName) => [...(node.tagName === tagName ? [node] : []),
 for (const [id, headerCells, bodyRows, expected] of [
   ["OFF-0560", 8, 3, ["年齡組成", "1953", "17.95%", "68.55%"]],
   ["OFF-0562", 2, 2, ["自由中國", "雷震等人", "美麗島", "黃信介等人"]],
-  ["OFF-0584", 4, 4, ["測站", "緯度", "經度", "高度（公尺）", "23.98°N", "121.74°E", "40.8"]]
+  ["OFF-0584", 4, 4, ["測站", "緯度", "經度", "高度（公尺）", "23.98°N", "121.74°E", "40.8"]],
+  ["OFF-0590", 7, 4, ["人口總數（人）", "平均每位醫師負擔人數（人）", "2,562,738", "764.3", "210.1"]]
 ]) {
   const question = questions.find(item => item.id === id);
   assert(question?.question.split("\n").filter(line => line.trim().startsWith("|")).length >= 3, `${id}: source table should be represented as pipe-table data`);
