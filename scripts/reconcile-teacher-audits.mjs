@@ -42,6 +42,7 @@ const markdown = [
   "- 112 English Q33, Q36, Q38, and Q42–43 were rechecked against source passages and official answer keys; five superseded flags were removed after answer, passage, solution, and image-dependency checks passed. See `reports/recheck-english-112-q33-q36-q38-q42-q43-2026-10-07.md`.",
   "- 113 English Q1, Q30, Q33, and Q40–43 were rechecked against original pages and official answer keys; Q1 now uses a focused SVG illustration, Q41 retains its needed chart, and seven superseded flags were removed after text/image/offline checks passed. See `reports/recheck-english-113-selected-2026-10-07.md`.",
   "- 114 Science Q1–10 were rechecked against cached official paper pages 2–4 and the existing official-key review; nine remaining explanation flags were removed only after answer, worked-reasoning, source-cue, and image-dependency checks passed (Q4 had already been cleared). See `reports/recheck-science-114-q01-q10-2026-10-07.md`.",
+  "- 112 Science Q1–10 were rechecked against original pages 2–4 and official answer-key provenance; eight flags were removed only after answer-index, worked-explanation, source-cue, and focused-image checks passed. See `reports/recheck-science-112-q01-q10-2026-10-07.md`.",
   ""
 ];
 
