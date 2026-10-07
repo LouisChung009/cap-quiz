@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const checks = [
-  { file: "science", start: 1, end: 100 },
+  { file: "science", start: 1, end: 1000 },
   { file: "social", start: 1, end: 1000 }
 ];
 
@@ -19,11 +19,11 @@ for (const { file, start, end } of checks) {
   for (const field of ["question", "explanation"]) {
     const groups = new Map();
     for (const row of selected) {
-      const normalized = String(row[field] || "").replace(/\s+/g, " ").trim().toLocaleLowerCase();
+      const normalized = String(row[field] || "").normalize("NFKC").replace(/\d+/g, "#").replace(/\s+/g, " ").trim().toLocaleLowerCase();
       groups.set(normalized, [...(groups.get(normalized) || []), row.id]);
     }
     const repeated = [...groups.values()].filter(ids => ids.length > 1);
-    if (repeated.length) throw new Error(`${file}: duplicate ${field}: ${repeated.slice(0, 5).map(ids => ids.join("/" )).join(", ")}`);
+    if (repeated.length) throw new Error(`${file}: duplicate ${field} after numeric-template normalization: ${repeated.slice(0, 5).map(ids => ids.join("/" )).join(", ")}`);
   }
-  console.log(`${file}: ${selected.length} items have unique stems and explanations`);
+  console.log(`${file}: all ${selected.length} items have unique stems and explanations after numeric-template normalization`);
 }

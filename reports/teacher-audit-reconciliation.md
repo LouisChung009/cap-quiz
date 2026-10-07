@@ -1,12 +1,13 @@
 # Current teacher-audit reconciliation
 
-Generated: 2026-10-07T04:09:20.432Z
+Generated: 2026-10-07T04:31:46.240Z
 
 ## Interpretation
 - This is an audit-work tracker, not teacher certification or a confirmed-defect count.
 - “Unverified” entries are prior audit flags still needing item-by-item disposition; passing automated tests does not clear an item-level claim.
 - All 5,000 authored questions still await qualified subject-teacher review; signed teacher-review fields are absent.
-- Automated acceptance passed locally: `npm test`, `npm run build`, exact authored-stem/explanation duplicate checks, and 100,000 random draws with no within-round duplicates.
+- Natural and Social Studies each passed a full 1,000-item unique-stem and unique-explanation check after numeric-template normalization. Their 2,000 legacy audit findings were exact-match obsolete template-clone assertions contradicted by the current bank and were removed by `scripts/reconcile-stale-authored-bank-template-flags.mjs`; this does not constitute teacher sign-off.
+- Automated acceptance passed locally: `npm test`, `npm run build`, authored-stem/explanation duplicate checks after numeric-template normalization, and 100,000 random draws with no within-round duplicates.
 - Every explicit figure reference resolves to a local asset; this does not prove each asset matches the original exam page.
 - Latest deployed version is tracked by GitHub Pages Actions; the interactive Vercel learner flow still requires signed-in browser verification.
 - 112 Social Studies Q41–54 were compared with source pages and official answer keys; fourteen superseded flags were removed only after regressions passed. See `reports/recheck-social-112-q41-q50-2026-10-07.md` and `reports/recheck-social-112-q51-q54-2026-10-07.md`.
@@ -59,7 +60,7 @@ Generated: 2026-10-07T04:09:20.432Z
 - Authored items: 1000
 - Authored items with teacher-signed review fields: 0
 - Unverified official-question flags: 0
-- Unverified authored-question flags: 1000
+- Unverified authored-question flags: 0
 - Stale IDs: 0
 - Subject mismatches: 0
 
@@ -67,6 +68,6 @@ Generated: 2026-10-07T04:09:20.432Z
 - Authored items: 1000
 - Authored items with teacher-signed review fields: 0
 - Unverified official-question flags: 0
-- Unverified authored-question flags: 1000
+- Unverified authored-question flags: 0
 - Stale IDs: 0
 - Subject mismatches: 0
