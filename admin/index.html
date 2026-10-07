@@ -52,6 +52,7 @@
       <section class="panel roster-panel" data-panel="students">
         <div class="panel-head roster-head"><div><p class="kicker">學生名單</p><h2>全部學習狀態</h2></div><div class="filters"><label>搜尋<input id="searchInput" type="search" placeholder="暱稱或學生編號"></label><label>狀態<select id="statusFilter"><option value="all">全部</option><option value="active">今日活躍</option><option value="attention">需要關注</option><option value="inactive">未開始</option></select></label></div></div>
         <div class="table-wrap"><table><thead><tr><th>學生</th><th>今日進度</th><th>正確率</th><th>連續天數</th><th>待加強</th><th>最近活動</th><th>狀態</th></tr></thead><tbody id="studentRows"></tbody></table></div>
+        <div class="roster-pagination" id="studentPagination" aria-label="學員名單分頁"><span id="studentPageSummary">正在載入學員名單…</span><div><button type="button" id="previousStudents" disabled>上一頁</button><button type="button" id="nextStudents" disabled>下一頁</button></div></div>
       </section>
     </main>
   </div>

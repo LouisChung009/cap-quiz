@@ -139,3 +139,26 @@ test("mobile layout keeps the challenge action visible without covering its text
   expect(layout.actionHeight).toBeGreaterThanOrEqual(44);
   expect(layout.actionVisible).toBe(true);
 });
+
+test("admin roster pagination reaches every student and searches across pages", async ({ page }) => {
+  await page.addInitScript(() => { window.CapQuizAdminPreviewAuth = true; });
+  await page.goto("/admin/index.html");
+  await expect(page.locator("#demoBanner")).toContainText("隔離測試資料");
+  await page.locator('[data-view="students"]').click();
+  await expect(page.locator("#studentRows tr[data-id]")).toHaveCount(100);
+  await expect(page.locator("#studentPageSummary")).toContainText("顯示 1–100 位，共 235 位");
+
+  await page.locator("#nextStudents").click();
+  await expect(page.locator("#studentRows tr[data-id]")).toHaveCount(100);
+  await expect(page.locator("#studentPageSummary")).toContainText("顯示 101–200 位，共 235 位");
+
+  await page.locator("#nextStudents").click();
+  await expect(page.locator("#studentRows tr[data-id]")).toHaveCount(35);
+  await expect(page.locator("#studentPageSummary")).toContainText("顯示 201–235 位，共 235 位");
+  await expect(page.locator("#nextStudents")).toBeDisabled();
+
+  await page.locator("#searchInput").fill("測試學生 220");
+  await expect(page.locator("#studentRows tr[data-id]")).toHaveCount(1);
+  await expect(page.locator("#studentRows")).toContainText("測試學生 220");
+  await expect(page.locator("#studentPageSummary")).toContainText("共 1 位");
+});
