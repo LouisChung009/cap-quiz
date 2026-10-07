@@ -1,6 +1,7 @@
 import { access, readFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { matchesResponse } from "../question-validation.js";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const files = ["chinese", "english", "math", "science", "social"];
@@ -857,6 +858,8 @@ const math114ConstructedOne = mission.find(question => question.id === "OFF-0960
 if (!math114ConstructedOne || math114ConstructedOne.requiresImage || math114ConstructedOne.questionImage || math114ConstructedOne.questionImages?.length || math114ConstructedOne.requiresContext || !["人口占比", "調查比率", "56%", "49%", "20%／40%"].every(value => math114ConstructedOne.question.includes(value))) errors.push("114數學非選第1題: 公式與完整表格資料須可直接閱讀，且不可顯示整頁試卷圖");
 const math114ConstructedTwo = mission.find(question => question.id === "OFF-0961");
 if (!math114ConstructedTwo?.requiresImage || math114ConstructedTwo.questionImage !== "./assets/official-exams/114-math-q02-tiling-diagram.svg" || math114ConstructedTwo.questionImages?.length !== 1 || !serviceWorker.includes("114-math-q02-tiling-diagram.svg")) errors.push("114數學非選第2題: 只應顯示拼貼示意圖裁切，並加入離線快取");
+const math114TilingReason = math114ConstructedTwo?.responseParts?.[1];
+if (!math114TilingReason?.requiredTerms?.length || matchesResponse(math114TilingReason, "不能") || !matchesResponse(math114TilingReason, "不能；27(n+1)=32(n−1)，n=59/5，非整數")) errors.push("114數學非選第2題: 必須檢查不能恰好用完的方程、層數及非整數理由");
 const math114SymmetryQuestion = mission.find(question => question.id === "OFF-0962");
 if (math114SymmetryQuestion?.answer !== 2 || !math114SymmetryQuestion.explanation.includes("中央垂直線") || !math114SymmetryQuestion.explanation.includes("中央水平線") || math114SymmetryQuestion.questionImages?.[0] !== "./assets/official-exams/114-math-q03-line-symmetry.svg") errors.push("114數學第3題: 各線段刪除組合須有可檢查的對稱軸理由，並保留線段圖");
 for (const id of ["OFF-0962", "OFF-0963", "OFF-0964", "OFF-0965", "OFF-0966", "OFF-0967", "OFF-0968", "OFF-0969"]) {

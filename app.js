@@ -4,7 +4,7 @@ import { createLearningSync } from "./shared/learning-sync.js";
 const baseAuthenticatedFetch=window.CapQuizPreviewAuth?async(url,options={})=>fetch(url,options):clerkAuthenticatedFetch;
 let learningSync;
 const authenticatedFetch=(url,options={})=>{if(url==="/api/attempts"&&options.method==="POST"){try{void learningSync?.recordAttempt(JSON.parse(options.body||"{}"))}catch{learningSync?.markStorageFailed()}return Promise.resolve({ok:true,status:202})}return baseAuthenticatedFetch(url,options)};
-const APP_VERSION="7.5.186",QUESTION_DATA_VERSION="67",SUBJECT_DATA_VERSION="4.6.105";
+const APP_VERSION="7.5.187",QUESTION_DATA_VERSION="68",SUBJECT_DATA_VERSION="4.6.105";
 const SUBJECTS=["國文","英文","數學","自然","社會"];
 const FILES={國文:"chinese",英文:"english",數學:"math",自然:"science",社會:"social"};
 const STORAGE_KEY="capQuizV2",DAILY_GOAL=20,LESSON_SIZE=10;let audioContext,bgmAudio,musicStarted=false,effectsMaster;

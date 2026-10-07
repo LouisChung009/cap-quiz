@@ -8,7 +8,12 @@ export function isChallengeQuestion(item) {
 
 export function matchesResponse(part, response) {
   const normalizedResponse = normalizeResponse(response);
-  return (part.acceptableAnswers || [part.answer]).some(answer => normalizeResponse(answer) === normalizedResponse);
+  const acceptableAnswers = part.acceptableAnswers || [part.answer];
+  if (part.requiredTerms?.length) {
+    const includesAnswer = acceptableAnswers.some(answer => normalizedResponse.includes(normalizeResponse(answer)));
+    return includesAnswer && part.requiredTerms.every(term => normalizedResponse.includes(normalizeResponse(term)));
+  }
+  return acceptableAnswers.some(answer => normalizeResponse(answer) === normalizedResponse);
 }
 
 export function matchesDifficulty(item, selectedDifficulty) {
