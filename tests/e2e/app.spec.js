@@ -10,6 +10,7 @@ async function openLocalPreview(page) {
   await page.goto("/");
   await expect(page.locator(".app")).not.toHaveClass(/auth-pending/);
   await expect(page.locator("#mainButton")).toBeVisible();
+  await expect(page.locator("#syncStatus")).toHaveAttribute("data-state", "local");
   await expect(page.locator("#startChallenge")).toHaveAttribute("data-action", "start");
   const profileModal = page.locator("#profileModal");
   await expect(profileModal).toBeVisible();
