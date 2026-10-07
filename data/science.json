@@ -4396,7 +4396,7 @@
     "gradeSemester": "九年級上",
     "unit": "物理",
     "knowledgePoint": "電流電壓電阻",
-    "difficulty": "進階",
+    "difficulty": "中等",
     "type": "單題選擇",
     "question": "6V電池接上電阻，電流0.5A，電阻是多少？",
     "options": [
@@ -4759,7 +4759,7 @@
     "gradeSemester": "九年級上",
     "unit": "物理",
     "knowledgePoint": "浮力與密度",
-    "difficulty": "進階",
+    "difficulty": "中等",
     "type": "單題選擇",
     "question": "雞蛋在清水下沉，逐次加鹽攪拌後浮起，最合理原因？",
     "options": [
@@ -6244,7 +6244,7 @@
     "gradeSemester": "八年級下",
     "unit": "化學",
     "knowledgePoint": "化學反應與微粒",
-    "difficulty": "進階",
+    "difficulty": "基礎",
     "type": "單題選擇",
     "question": "化學反應前後，下列何者一定守恆？",
     "options": [

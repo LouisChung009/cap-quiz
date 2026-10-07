@@ -16,8 +16,13 @@ const appVersion = app.match(/const APP_VERSION="([^"]+)",QUESTION_DATA_VERSION=
 if (!appVersion) throw new Error("Application/data versions are missing");
 const [, appVersionValue, missionDataVersion, subjectDataVersion] = appVersion;
 if (!serviceWorker.includes(`const CACHE="cap-quiz-v${appVersionValue}"`)) throw new Error("Service-worker cache version does not match the app");
+for (const asset of ["styles.css", "bootstrap.js", "app.js"]) if (!serviceWorker.includes(`./${asset}?v=${appVersionValue}`)) throw new Error(`${asset} cache version does not match the app`);
 for (const subject of subjects) if (!serviceWorker.includes(`./data/${subject}.json?v=${subjectDataVersion}`)) throw new Error(`${subject} bank cache version does not match the app`);
 if (!serviceWorker.includes(`./data/mission-questions.json?v=${missionDataVersion}`)) throw new Error("Mission bank cache version does not match the app");
+for (const [index, asset] of [[8, "mission-questions.json"], [9, "chinese.json"], [10, "english.json"], [11, "math.json"], [12, "science.json"], [13, "social.json"]]) {
+  const version = asset === "mission-questions.json" ? missionDataVersion : subjectDataVersion;
+  if (!serviceWorker.includes(`ASSETS[${index}]="./data/${asset}?v=${version}"`)) throw new Error(`${asset} final cache override does not match the app`);
+}
 if (!index.includes(`./styles.css?v=${appVersionValue}`) || !index.includes(`./bootstrap.js?v=${appVersionValue}`)) throw new Error("HTML asset versions do not match the app");
 const errors = new Set();
 const checked = new Set();
