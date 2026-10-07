@@ -80,6 +80,20 @@ test("ten-question challenge is unique, explains answers, and increments daily p
     seen.add(questionId);
     const question = questionsById.get(questionId);
     expect(question, `question data must exist for ${questionId}`).toBeTruthy();
+    if (question.requiresImage) {
+      const figure = page.locator("#questionFigure");
+      await expect(figure).toBeVisible();
+      const images = figure.locator("img");
+      await expect(images).toHaveCount(question.questionImages?.length || 1);
+      for (const image of await images.all()) {
+        await expect.poll(() => image.evaluate(element => element.complete && element.naturalWidth > 0 && element.naturalHeight > 0)).toBe(true);
+      }
+    }
+    if (question.requiresContext) {
+      await expect(page.locator("#questionCaption")).toContainText("閱讀材料");
+      const hasEmbeddedContext = /(?:【(?:閱讀材料(?:摘要|改寫(?:自)?|自)?[^】]*|資料(?:[甲乙])?)】|閱讀材料(?:（|\(|:)|對話(?:（|\(|:)|Katie 的日記|Reading material(?::|】)|大將軍仇鸞，始為曾銑所劾)/i.test(question.question);
+      expect(hasEmbeddedContext || question.questionImages?.length || question.questionImage, `${question.id} must render its shared context`).toBeTruthy();
+    }
     if (question.responseParts?.length) {
       await expect(page.locator("#options [data-response-part]")).toHaveCount(question.responseParts.length);
       for (const [partIndex, part] of question.responseParts.entries()) {
